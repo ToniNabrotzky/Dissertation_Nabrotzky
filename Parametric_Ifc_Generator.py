@@ -1,6 +1,7 @@
 # Einheitenangabe in m
 print("___Intitialisiere Skript___")
 
+
 # Für Schritt 3
 import itertools
 # Für Schritt 4
@@ -9,7 +10,9 @@ import numpy as np
 import ifcopenshell
 import ifcopenshell.api
 import uuid
+# Für Schritt 6
 import os
+import json
 
 
 """1. Definition von Parametern"""
@@ -294,7 +297,7 @@ def create_slab_geometry(element, context, model, slab):
 
 
 ## Funktion zur Erstellung der IFC-Datei
-def create_ifc(parameters, building_geometry, filepath, filename):
+def create_ifc(parameters, building_geometry, full_path):
     ## IFC-Datei initialisieren
     model = ifcopenshell.api.run("project.create_file")
 
@@ -373,9 +376,6 @@ def create_ifc(parameters, building_geometry, filepath, filename):
 
 
     ## IFC-Datei speichern
-    suffix = ".ifc"
-    full_path = os.path.join(filepath, filename + suffix)
-
     model.write(full_path)
 
 ## Beispielaufruf zur Erstellung der IFC-Datei
@@ -388,20 +388,68 @@ def create_ifc(parameters, building_geometry, filepath, filename):
 
 
 """6. Export der IFC-Datei"""
+## Hilfsfunktion zum Speichern der Parameter als .txt und .json
+def export_params_to_files(params_dict, folder_dir, index):
+    # Erstelle Dateinamen
+    text_file_name = os.path.join(folder_dir, f"Parameter_Index_{index:03d}.txt")
+    json_file_name = os.path.join(folder_dir, f"Parameter_Index_{index:03d}.json")
+
+    # Speichere Parameter als .txt
+    with open(text_file_name, 'w') as txt_file:
+        txt_file.write(f"Parameter Set für Index {index}:\n")
+        for key, value in params_dict.items():
+            txt_file.write(f"{key}: {value}\n")
+    
+    # Speichere Parameter als .json
+    with open(json_file_name, 'w') as json_file:
+        json.dump(params_dict, json_file, indent=4)
+    
+    print(f"Parameter für Index {index} wurden erfolgreich als .txt und .json exportiert.")
+
+
 ## Funktion zum Exportieren eines Parametersets
 def export_solo_ifc(index: int):
     print(f"___Starte IFC-Ausgabe für IFC-Modell. Aktueller Index: {index}")
 
     # Erhalte Parameterset basierend auf Index aus Kombinationsset
     params = parameter_combinations[index]
+    params_dict = vars(params) # Wandelt params in Dict um: {'grid_x_field': 4, 'grid_y_field': 2, 'grid_x_size': 5.0, 'grid_y_size': 5.0, 'floors': 2, ...}
+    # params_dict = params.__dict__ # Wandelt params in Dict um: {'grid_x_field': 4, 'grid_y_field': 2, 'grid_x_size': 5.0, 'grid_y_size': 5.0, 'floors': 2, ...}
     
     # Erstelle Geometrie basierend auf Parameterset
     building_geometry = create_building_geometry(params)
 
+    # Überprüfe und Erstelle Dateipfad
+    folder_path = os.path.dirname(os.path.realpath(__file__))
+
+    folder_name = (
+        f"{len(parameter_combinations)}-"
+        f"Grid_{min(param_ranges['grid_x_field'])}x{min(param_ranges['grid_y_field'])}_"
+        f"{max(param_ranges['grid_x_field'])}x{max(param_ranges['grid_y_field'])}-"
+        f"Size_{min(param_ranges['grid_x_size'])}x{min(param_ranges['grid_y_size'])}_"
+        f"{max(param_ranges['grid_x_size'])}x{max(param_ranges['grid_y_size'])}-"
+        f"Floors_{min(param_ranges['floors'])}_{max(param_ranges['floors'])}-"
+        f"FH_{min(param_ranges['floor_height'])}_{max(param_ranges['floor_height'])}-"
+        f"ST_{min(param_ranges['slab_thickness'])}_{max(param_ranges['slab_thickness'])}-"
+        f"FT_{min(param_ranges['foundation_thickness'])}_{max(param_ranges['foundation_thickness'])}-"
+        f"CC_{''.join(map(str, sorted(set(int(c) for c in param_ranges['corner_columns']))))}-"
+        f"EC_{''.join(map(str, sorted(set(int(c) for c in param_ranges['edge_columns']))))}-"
+        f"IC_{''.join(map(str, sorted(set(int(c) for c in param_ranges['inner_columns']))))}"
+    )
+
+    folder_dir = os.path.join(folder_path, folder_name)
+    os.makedirs(folder_dir, exist_ok=True) # Ordner erstellen, falls noch nicht vorhanden
+
+    file_name = f"Parametrisches_Modell Index_{index:03d}"
+    suffix = ".ifc"
+
+    full_path = os.path.join(folder_dir, file_name + suffix)
+    
     # Erstelle und exportiere IFC-Datei
-    filepath = os.path.dirname(os.path.realpath(__file__))
-    filename = f"Parametrisches_Modell Index_{index:03d}"
-    create_ifc(params, building_geometry, filepath, filename)
+    create_ifc(params, building_geometry, full_path)
+
+    # Exportiere Parameter in .txt und .json
+    # export_params_to_files(params_dict, folder_dir, index)
 
 
 ## Funktion zum Exportieren aller Parametersets
@@ -412,11 +460,8 @@ def export_range_ifc():
         export_solo_ifc(index)
 
 
-## Definiere Dateipfad
-
-
 ## Exportiere IFC-Datei(en)
-export_solo_ifc(12)
+# export_solo_ifc(12)
 
 # export_range_ifc()
 
@@ -424,7 +469,20 @@ export_solo_ifc(12)
 
 """
 TODO
-- 
+- Struktur in modulare Weise umbauen entsprechend der Schritte: 1. Parameterset und -kombination, 2. Geometrie erstellen, 3. IFC-Datei erzeugen, 4. IFC-Export (Solo/Serie)
+- Attribut LoadBearing den Bauteilen hinzufügen
+
+- Richtungsanpassung der Stützen (Orientierung in in Richtung X und Y)
+    Basierend darauf dann Querschnittsmaße anpassbar machen
+- Alignment der Stützen je nach Ausrichtung anpassen, sodass sie bündig mit Plattenrand abschließen.
+
+- IFC-typische Materialien definieren (Beton, Stahl, MW, Holz -> Vorbild aus ArchiCAD BIM-Modul wählen)
+
+
+- Fehler bei Stützenhöhe einbauen, damit nicht alle Stützen die Decke berühren. Höhe soll nur 0.8 oder 0.95 mal die Geschosshöhe annehmen
+- Fehler bei Stützenplatzierung: Einige Stützen sollen über dem Raster hinaus gesetzt werden, die nicht tragen
+- Fehler bei Decken und Bodenplatte: Ausdehnung muss über Stützen hinaus gehen bzw. kürzer sein, dann wäre Punkt oben auch abgedeckt
+
 
 """
 
