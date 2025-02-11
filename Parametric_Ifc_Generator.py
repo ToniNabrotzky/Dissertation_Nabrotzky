@@ -15,21 +15,24 @@ import json
 """1. Definition Parameter für das Bauwerk"""
 class BuildingParameters:
     """Klasse zum Speichern der Parameter für ein Bauwerk"""
-    def __init__(self, grid_x_n, grid_y_n, grid_x_size, grid_y_size,
+    def __init__(self, grid_x_n, grid_y_n, grid_x_size, grid_y_size, grid_x_offset, grid_y_offset, grid_rotation,
                  floors, floor_height, slab_thickness, foundation_thickness,
                  corner_columns, edge_columns, inner_columns, column_profile):
-        # Parameter 2D-Gitter
+        ## Parameter 2D-Gitter
         self.grid_x_n = grid_x_n                  # Anzahl an Feldern in x-Richtung
         self.grid_y_n = grid_y_n                  # Anzahl an Feldern in y-Richtung
         self.grid_x_size = grid_x_size            # Ausdehnung einer Gitterzelle in x-Richtung
         self.grid_y_size = grid_y_size            # Ausdehnung einer Gitterzelle in y-Richtung
-        # Parameter Geschoss
+        self.grid_x_offset = grid_x_offset        # Verschiebung in X-Richtung
+        self.grid_y_offset = grid_y_offset        # Verschiebung in Y-Richtung
+        self.grid_rotation = grid_rotation        # Verschiebung in X-Richtung
+        ## Parameter Geschoss
         self.floors = floors                      # Anzahl an Geschossen
         self.floor_height = floor_height          # Geschosshöhe (OKRD bis OKRD)
-        # Parameter Bauteil - Platten
+        ## Parameter Bauteil - Platten
         self.slab_thickness = slab_thickness      # Deckendicke
         self.foundation_thickness = foundation_thickness  # Dicke der Bodenplatte
-        # Parameter Bauteil - Stützen
+        ## Parameter Bauteil - Stützen
         self.corner_columns = corner_columns      # Eckstützen (True/False)
         self.edge_columns = edge_columns          # Randstützen (True/False)
         self.inner_columns = inner_columns        # Innenstützen (True/False)
@@ -48,6 +51,7 @@ class BuildingParameters:
 
 """2. Kombination Parameter zu mehreren Parametersets"""
 def generate_parameter_combination(param_values):
+    """Funktion zur Kombination der Parameter zu Parametersets"""
     ## Erklärung Syntax
     # param_values.items() gibt aus Dictionary Liste von Tupeln wie etwa: [('grid_x_n', [3, 4, 5]), ('grid_y_n', [2, 4, 5]), ...] zurück.
     # Das Sternchen * entpackt Werte als separate Argumente
@@ -56,6 +60,7 @@ def generate_parameter_combination(param_values):
     combinations = [BuildingParameters(*combo) for combo in itertools.product(*values)]
     return combinations
 
+## Beispiel: Ausgabe der Range der Parametersets
 def Beispiel_Param_Kombi_Indices():
     print(f"_Beispiel Indices der Parametersets: 0 bis {len(param_combination)-1}")
 
@@ -68,7 +73,7 @@ def Beispiel_Param_Kombi_Set(max_index):
 
 """3. Generierung Geometrie"""
 class BuildingGeometry:
-    """Klasse zum erstellen der Gebäudegeometrie"""
+    """Klasse zum Erstellen der Gebäudegeometrie"""
     def __init__(self, parameters):
         self.parameters = parameters
         self.grid_points = None
@@ -76,13 +81,47 @@ class BuildingGeometry:
     
 
     def create_grid(self):
-        x_positions = np.linspace(0, self.parameters.grid_x_size * self.parameters.grid_x_n, self.parameters.grid_x_n + 1)
-        y_positions = np.linspace(0, self.parameters.grid_y_size * self.parameters.grid_y_n, self.parameters.grid_y_n + 1)
-        self.grid_points = np.array(np.meshgrid(x_positions, y_positions)).T.reshape(-1, 2) #reshape(-1 = Länge der ersten Dimension wird angepasst, 2 = Jede Zeile enthält 2 Werte)
+        """Funktion zur Erstellung des Grids"""
+        grid_x_n, grid_y_n = self.parameters.grid_x_n, self.parameters.grid_y_n
+        grid_x_size, grid_y_size = self.parameters.grid_x_size, self.parameters.grid_y_size
+        offset_x, offset_y = self.parameters.grid_x_offset, self.parameters.grid_y_offset
+        angle = np.radians(self.parameters.grid_rotation) # Grad -> Radiant
+
+        ## Erstelle reguläre Gitterpunkte
+        x_positions = np.linspace(0, grid_x_size * grid_x_n, grid_x_n + 1)
+        y_positions = np.linspace(0, grid_y_size * grid_y_n, grid_y_n + 1)
+        grid = np.array(np.meshgrid(x_positions, y_positions)).T.reshape(-1, 2) #reshape(-1 = Länge der ersten Dimension wird angepasst, 2 = Jede Zeile enthält 2 Werte)
+        # print("ohne offset:", grid) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+        ## Drehe Grid um Winkel α
+        if angle != 0:
+            rotation_matrix = np.array([
+                [np.cos(angle), -np.sin(angle)],
+                [np.sin(angle), np.cos(angle)]
+            ])
+            grid = np.dot(grid, rotation_matrix.T)
+        # print("mit Drehung:", grid) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+        ## Verschiebe Grid
+        grid[:,0] += offset_x
+        grid[:,1] += offset_y
+        # print("mit offset:", grid) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        
+        self.grid_points = grid
         return self.grid_points
     
 
+    @staticmethod
+    def is_point_on_edge(px, py, x1, y1, x2, y2, tolerance = 1e-5):
+        """Funktion zur Überprüfung mit dem Kreuzprodukt, ob ein Punkt auf einem Vektor liegt"""
+        cross_product = (x2 - x1) * (py - y1) - (y2 - y1) * (px - x1)
+        if abs(cross_product) > tolerance:
+            return False
+        return min(x1, x2) <= px <= max(x1, x2) and min(y1, y2) <= py <= max(y1, y2)
+    
+
     def create_foundation(self):
+        """Funktion zur Erstellung der Bodenplatte"""
         extent_x = self.parameters.grid_x_size * self.parameters.grid_x_n
         extent_y = self.parameters.grid_y_size * self.parameters.grid_y_n
 
@@ -100,6 +139,7 @@ class BuildingGeometry:
     
 
     def create_slab(self, z, floor, floor_name):
+        """Funktion zur Erstellung von Geschossdecken"""
         extent_x = self.parameters.grid_x_size * self.parameters.grid_x_n
         extent_y = self.parameters.grid_y_size * self.parameters.grid_y_n
 
@@ -116,25 +156,78 @@ class BuildingGeometry:
     
     
     def create_columns(self, z, floor, floor_name, column_profile):
+        """Funktion zur Erstellung von Stützen"""
         if self.grid_points is None:
             raise ValueError("Grid must be created before columns.")
         
         columns = []
+        grid_points = self.grid_points
         grid_x_n = self.parameters.grid_x_n
         grid_y_n = self.parameters.grid_y_n
+        extent_x = self.parameters.grid_x_size * self.parameters.grid_x_n
+        extent_y = self.parameters.grid_y_size * self.parameters.grid_y_n
+        strong_axis = 'x' if extent_x > extent_y else 'y' # In which direction strong axis is needed
 
+        ## Definiere x (Breite) und y (Höhe) des Querschnitts
+        if column_profile[0] == 'rectangle':
+            profile_x, profile_y = column_profile[1:]
+            material = "Beton_C3037"
+        elif column_profile[0] == 'circle':
+            profile_x = profile_y = column_profile[1]
+            material = "Beton_C3037"
+        elif column_profile[0] == 'i-profile':
+            profile_x = column_profile[2]
+            profile_y = column_profile[1]
+            material = "Stahl_S235"
+        else:
+            raise ValueError(f"Unbekannter Profiltyp: {column_profile[0]}")
+        
+        ## Definiere Eckpunkte des Gitter
+        corner_points = {
+            "bottom_left": self.grid_points[0],
+            "top_left": self.grid_points[grid_y_n],
+            "bottom_right": self.grid_points[len(self.grid_points) - 1 - grid_y_n],
+            "top_right": self.grid_points[len(self.grid_points) - 1]
+        }
+        cp_0_x, cp_0_y = corner_points['bottom_left'][0], corner_points['bottom_left'][1]
+        cp_1_x, cp_1_y = corner_points['bottom_right'][0], corner_points['bottom_right'][1]
+        cp_2_x, cp_2_y = corner_points['top_right'][0], corner_points['top_right'][1]
+        cp_3_x, cp_3_y = corner_points['top_left'][0], corner_points['top_left'][1]
+
+        ## Definiere Stützenmerkmale
         for i, (x, y) in enumerate(self.grid_points):
-            is_corner = (i in [0,                                       # erster Index (Punkt) im Raster (unten links)
-                               grid_y_n,                                # letzter Punkt in erster Reihe (unten rechts)
-                               len(self.grid_points) - 1 - grid_y_n,    # erster Punkt in letzter Reihe (oben links)
-                               len(self.grid_points) - 1])              # letzter Index (Punkt) im Raster (oben rechts)
+            ## Definiere Lage des Punktes
+            is_corner = (x == cp_0_x and y == cp_0_y or 
+                         x == cp_1_x and y == cp_1_y or                      
+                         x == cp_2_x and y == cp_2_y or                      
+                         x == cp_3_x and y == cp_3_y
+                         )            
+            on_edge_lower = BuildingGeometry.is_point_on_edge(x, y, cp_0_x, cp_0_y, cp_1_x, cp_1_y)
+            on_edge_right = BuildingGeometry.is_point_on_edge(x, y, cp_1_x, cp_1_y, cp_2_x, cp_2_y)
+            on_edge_upper = BuildingGeometry.is_point_on_edge(x, y, cp_2_x, cp_2_y, cp_3_x, cp_3_y)
+            on_edge_left = BuildingGeometry.is_point_on_edge(x, y, cp_3_x, cp_3_y, cp_0_x, cp_0_y)
+            is_edge = on_edge_lower or on_edge_right or on_edge_upper or on_edge_left
+
+            ## Definiere Rotation und Alignment
+            rotation = 0.0 if strong_axis == 'y' else 270.0
+            x_offset, y_offset = 0.0, 0.0
             
-            is_edge = (i % grid_x_n == 0 or                             # Punkte in erster Spalte (links)
-                       i % grid_x_n == grid_x_n -1 or                   # Punkte in letzter Spalte (rechts)
-                       i < grid_x_n or                                  # Punkte in erster Reihe (unten)
-                       i >= len(self.grid_points) - grid_x_n)           # Punkte in letzter Reihe (oben)
-                                    
-            column_data = i, x, y, z, floor, floor_name, column_profile
+            if strong_axis == 'y':
+                y_offset += profile_y/2 if on_edge_lower else 0
+                x_offset += -profile_x/2 if on_edge_right else 0
+                y_offset += -profile_y/2 if on_edge_upper else 0
+                x_offset += profile_x/2 if on_edge_left else 0
+            else:
+                y_offset += profile_x/2 if on_edge_lower else 0
+                x_offset += -profile_y/2 if on_edge_right else 0
+                y_offset += -profile_x/2 if on_edge_upper else 0
+                x_offset += profile_y/2 if on_edge_left else 0
+
+            x += x_offset
+            y += y_offset
+
+            ## Stützendaten hinzufügen
+            column_data = i, x, y, z, rotation, floor, floor_name, column_profile, material
 
             if is_corner and self.parameters.corner_columns:
                 position_type = 'corner'
@@ -145,20 +238,28 @@ class BuildingGeometry:
             elif not is_corner and not is_edge and self.parameters.inner_columns:
                 position_type = 'inner'
                 columns.append(self.add_column_data(*column_data, position_type))
+            else:
+                raise ValueError(f"Fehler in der Zuweisung des Positionstypes")
+            # print(f"INDEX: {i}, position_type: {position_type}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         return columns
     
-    def add_column_data(self, i, x, y, z, floor, floor_name, column_profile, position_type):
-        return{'name': f'Stütze {floor_name} {i:02d}', 
+
+    def add_column_data(self, i, x, y, z, rotation, floor, floor_name, column_profile, material, position_type):
+        """Ergänzt Stütze mit Merkmalen"""
+        return{'name': f'Stütze {position_type} {floor_name} {i:02d}', 
                'type': 'column', 
                'position_type': position_type, 
-               'position': (x, y, z), 
+               'position': (x, y, z),
+               'rotation': rotation,
                'floor': floor, 
                'profile': column_profile,
+               'material': material,
                'height': self.parameters.floor_height - self.parameters.slab_thickness
         }
     
 
     def generate_geometry(self):
+        """Funktion zum Erstellen der Geometrie"""
         ## Generierung Fundament
         foundation = self.create_foundation()
         self.geometry.append(foundation)
@@ -192,6 +293,19 @@ class BuildingGeometry:
 """4. Generierung IFC-Modell"""
 class ProfileFactory:
     """Klasse zur Erzeugung von Querschnittsprofilen"""
+    ## Profil-Werte in [m]
+    # ('rectangle', x_dim, y_dim)
+    Rec_20_20 = ('rectangle', 0.2, 0.2)
+    Rec_30_20 = ('rectangle', 0.3, 0.2)
+    Rec_15_25 = ('rectangle', 0.15, 0.25)
+    # ('circle', radius)
+    Circle_20 = ('circle', 0.2)
+    # ('i-profile', h, b, t_f, t_w)
+    IPE400 = ('i-profile', 0.4, 0.18, 13.5/1000, 8.6/1000)
+    HEA400 = ('i-profile', 0.39, 0.3, 19/1000, 11/1000)
+    HEB400 = ('i-profile', 0.4, 0.3, 24/1000, 13.5/1000)
+
+    
     @staticmethod
     def create_rectangle_profile(model, x_dim, y_dim):
         """Erstellt ein rechteckiges Profil."""
@@ -204,6 +318,7 @@ class ProfileFactory:
             XDim=x_dim,
             YDim=y_dim
         )
+    
 
     @staticmethod
     def create_circle_profile(model, radius):
@@ -216,6 +331,7 @@ class ProfileFactory:
             ),
             Radius=radius
         )
+    
 
     @staticmethod
     def create_i_profile(model, h, b, t_f, t_w):
@@ -233,18 +349,18 @@ class ProfileFactory:
         )
 
 
-
 class IfcFactory:
     """Klasse zur Erzeugung von IFC-Dateien"""
     @staticmethod
     def generate_guid():
-        """Erstellt eine IFC-stabile GUID."""
+        """Funktion zur Erstellung einer IFC-stabilen GUID."""
         return ifcopenshell.guid.new()
     
     
     @staticmethod
     def create_ifc_slab(element, context, model, slab, profile):
-        # Erstelle Extrusion
+        """Funktion zur Erstellung einer IFC-Slab"""
+        ## Erstelle Extrusion
         extrusion = model.createIfcExtrudedAreaSolid(
             SweptArea = profile,
             Position = model.createIfcAxis2Placement3D(
@@ -254,7 +370,7 @@ class IfcFactory:
             Depth=element['thickness']
         )
 
-        # Erstelle IfcProduct und bestimme geometrische Repräsentation
+        ## Erstelle IfcProduct und bestimme geometrische Repräsentation
         slab.Representation = model.createIfcProductDefinitionShape(
             Representations = [model.createIfcShapeRepresentation(
                 ContextOfItems=context,
@@ -264,7 +380,7 @@ class IfcFactory:
             )]
         )
 
-        # Erstelle IFC-Objekt
+        ## Erstelle IFC-Objekt
         position = element['position']
         element_position = tuple(float(coord) for coord in position)
 
@@ -276,8 +392,9 @@ class IfcFactory:
     
 
     @staticmethod
-    def create_ifc_column(element, context, model, column, profile):
-        # Erstelle Extrusion
+    def create_ifc_column(element, context, model, column, profile,):
+        """Funktion zur Erstellung einer IFC-Column"""
+        ## Erstelle Extrusion
         extrusion = model.createIfcExtrudedAreaSolid(
             SweptArea = profile,
             Position = model.createIfcAxis2Placement3D(
@@ -287,7 +404,7 @@ class IfcFactory:
             Depth = element['height']
         )
 
-        # Erstelle IfcProduct und bestimme geometrische Repräsentation
+        ## Erstelle IfcProduct und bestimme geometrische Repräsentation
         column.Representation = model.createIfcProductDefinitionShape(
             Representations = [model.createIfcShapeRepresentation(
                 ContextOfItems=context,
@@ -297,13 +414,17 @@ class IfcFactory:
             )]
         )
 
-        # Erstelle IFC-Objekt
+        ## Erstelle IFC-Objekt
         position = element['position']
         element_position = tuple(float(coord) for coord in position)
 
         column.ObjectPlacement = model.createIfcLocalPlacement(
             RelativePlacement = model.createIfcAxis2Placement3D(
-                Location=model.createIfcCartesianPoint(element_position)
+                Location=model.createIfcCartesianPoint(element_position),
+                Axis=model.createIfcDirection((0.0, 0.0, 1.0)),  
+                RefDirection=model.createIfcDirection((float(np.cos(np.radians(element['rotation']))), 
+                                                       float(np.sin(np.radians(element['rotation']))), 
+                                                       0.0))
             )
         )
 
@@ -311,6 +432,7 @@ class IfcFactory:
     @staticmethod
     def add_pset_slab_common(model, slab, Status = "New", AcousticRating = "N/A", FireRating = "N/A", PitchAngle: float = 0, Combustible: bool = False, SurfaceSpreadOfFlame = "N/A", Compartmentation = "N/A",
                              IsExternal: bool = False, ThermalTransmittance: float = 0, LoadBearing: bool = True):
+        """Funktion zum Hinzufügen eines P-Sets"""
         pset = ifcopenshell.api.run("pset.add_pset", model, product = slab, name = "Pset_SlabCommon")
         ifcopenshell.api.run("pset.edit_pset", model, pset=pset, properties={
             "Status": Status,
@@ -325,24 +447,11 @@ class IfcFactory:
             "LoadBearing": LoadBearing            
         })
 
-    
-    # @staticmethod
-    # def add_pset_column_common(model, column, Status = "New", Slope: float = 0, Roll: float = 0,
-    #                            IsExternal: bool = False, ThermalTransmittance = 2):
-    #     pset = ifcopenshell.api.run("pset.add_pset", model, product = column, name = "Pset_ColumnCommon")
-    #     ifcopenshell.api.run("pset.edit_pset", model, pset=pset, properties={
-    #         "Status": Status,
-    #         "Slope": Slope,
-    #         "Roll": Roll,
-    #         "IsExternal": IsExternal,
-    #         "ThermalTransmittance": ThermalTransmittance,
-    #         # "LoadBearing": LoadBearing,
-    #         # "FireRating": FireRating  
-    #     })
-    
+        
     @staticmethod
     def add_pset_column_common(model, column, Status = "New", Slope: float = 0, Roll: float = 0, 
                                IsExternal: bool = False, ThermalTransmittance: float = 0, LoadBearing: bool = True, FireRating = "N/A"):
+        """Funktion zum Hinzufügen eines P-Sets"""
         pset = ifcopenshell.api.run("pset.add_pset", model, product = column, name = "Pset_ColumnCommon")
         ifcopenshell.api.run("pset.edit_pset", model, pset=pset, properties={
             "Status": Status,
@@ -355,21 +464,24 @@ class IfcFactory:
         })
     
     
-    
     def generate_ifc_model(self, parameters, building_geometry):
+        """Funktion zum Erstellen eines IFC-Modells"""
         ## Initialisiere IFC-Datei und Projektstruktur
         model = ifcopenshell.api.run("project.create_file")
 
-        project = ifcopenshell.api.run("root.create_entity", model, ifc_class = "IfcProject", name = "Building Project")
-        context = ifcopenshell.api.run("context.add_context", model, context_type = "Model", context_identifier = "Building")
-
-        site = ifcopenshell.api.run("root.create_entity", model, ifc_class = "IfcSite", name = "Building Site")
+        ## Entitäten erstellen
+        project = ifcopenshell.api.root.create_entity(model, ifc_class = "IfcProject", name = "Building Project")
+        site = ifcopenshell.api.root.create_entity(model, ifc_class = "IfcSite", name = "Building Site")
         site.GlobalId = self.generate_guid()
-        ifcopenshell.api.run("aggregate.assign_object", model, relating_object = project, product = site)
-
-        building = ifcopenshell.api.run("root.create_entity", model, ifc_class = "IfcBuilding", name = "Building")
+        building = ifcopenshell.api.root.create_entity(model, ifc_class = "IfcBuilding", name = "Building")
         building.GlobalId = self.generate_guid()
-        ifcopenshell.api.run("aggregate.assign_object", model, relating_object = site, product = building)
+        context = ifcopenshell.api.context.add_context(model, context_type = "Model", context_identifier = "Building")
+
+        ##  Hierarchien herstellen
+        ifcopenshell.api.run("aggregate.assign_object", model, products = [site], relating_object = project)
+        ifcopenshell.api.run("aggregate.assign_object", model, products = [building], relating_object = site)
+        ifcopenshell.api.run("aggregate.assign_object", model, products = [building], relating_object = site)
+
 
         ## Initialisiere Geschosse
         storeys = {}
@@ -380,43 +492,45 @@ class IfcFactory:
                 floor_name = "EG"
             else:
                 floor_name = f"OG{floor}"            
-            storey = ifcopenshell.api.run("root.create_entity", model, ifc_class = "IfcBuildingStorey", name = floor_name)
+            storey = ifcopenshell.api.root.create_entity(model, ifc_class = "IfcBuildingStorey", name = floor_name)
             storey.GlobalId = self.generate_guid()
-            ifcopenshell.api.run("aggregate.assign_object", model, relating_object = building, product = storey)
+            ifcopenshell.api.aggregate.assign_object(model, products = [storey], relating_object = building)
             storeys[floor] = storey
                 
         ## Initialisiere Materialien
-        Beton = ifcopenshell.api.run("material.add_material", model, name = "Stahlbeton", category = "Concrete")
+        materials = {
+            'Beton_C3037': ifcopenshell.api.run("material.add_material", model, name = "C30/37", category = "Concrete"),
+            'Stahl_S235': ifcopenshell.api.run("material.add_material", model, name = "S235", category = "Steel"),
+            'Stahl_S355': ifcopenshell.api.run("material.add_material", model, name = "S355", category = "Steel")
+        }
+        
 
-        ##Initialisiere Bauteile       
-        # for index, object in enumerate(building_geometry):
-        #     print(f"_Beipsiel Geometry_Objetct {index:02d}: {object}")
-
+        ## Initialisiere Bauteile       
         for element in building_geometry:
             storey = storeys[element['floor']]
 
             if element['type'] == 'slab':
                 slab = ifcopenshell.api.run("root.create_entity", model, ifc_class = "IfcSlab", name = element['name'])
                 slab.GlobalId = self.generate_guid()
-                ifcopenshell.api.run("spatial.assign_container", model, product=slab, relating_structure=storey)
-                ifcopenshell.api.run("material.assign_material", model, product=slab, material=Beton)
+                ifcopenshell.api.spatial.assign_container(model, products = [slab], relating_structure=storey)
+                ifcopenshell.api.material.assign_material(model, products = [slab], material = materials['Beton_C3037'])
                 
-                # Erstelle Grundfläche
-                profile_type, profile_params = 'rectangle', element['extent']                
-                # x_dim, y_dim = (dim/2 for dim in profile_params)                
+                ## Erstelle Grundfläche
+                profile_type, profile_params = 'rectangle', element['extent']                              
                 x_dim, y_dim = profile_params
                 profile = ProfileFactory.create_rectangle_profile(model, x_dim, y_dim)
-                # Erstelle die Decke
+                
+                ## Erstelle die Geschossdecke
                 self.create_ifc_slab(element, context, model, slab, profile)
                 self.add_pset_slab_common(model= model, slab= slab)
             
             elif element['type'] == 'column':
                 column = ifcopenshell.api.run("root.create_entity", model, ifc_class = "IfcColumn", name = element['name'])
                 column.GlobalId = self.generate_guid()
-                ifcopenshell.api.run("spatial.assign_container", model, product=column, relating_structure=storey)
-                ifcopenshell.api.run("material.assign_material", model, product=column, material=Beton)
+                ifcopenshell.api.spatial.assign_container(model, products = [column], relating_structure=storey)
+                ifcopenshell.api.material.assign_material(model, products = [column], material = materials[element['material']])
 
-                # Erstelle die Grundfläche
+                ## Erstelle die Grundfläche
                 profile_type, *profile_params = element['profile']
                 if profile_type == 'rectangle':
                     profile = ProfileFactory.create_rectangle_profile(model, *profile_params)
@@ -426,7 +540,7 @@ class IfcFactory:
                     profile = ProfileFactory.create_i_profile(model, *profile_params)
                 else:
                     raise ValueError(f"Unbekannter Profiltyp: {profile_type}")
-                # Erstelle die Stütze
+                ## Erstelle die Stütze
                 self.create_ifc_column(element, context, model, column, profile)
                 self.add_pset_column_common(model= model, column= column)
             else:
@@ -436,12 +550,14 @@ class IfcFactory:
 
 """5. Export Daten"""
 def get_folder_path():
+    """Ermittelt aktuellen absoluten Pfad des Python-Skriptes"""
     file_path = os.path.realpath(__file__) # Gibt absoluten Pfad zum Python-Skript
     folder_path = os.path.dirname(file_path) # Gibt absoluten Pfad zum lokalen Ordner
     return folder_path
 
 
 def export_parametersets(paramameters_dict, folder_path, index: int):
+    """Funktion zum Exportieren des Parametersets"""
     folder_name = "Parameterset"
     folder_dir = os.path.join(folder_path, folder_name)
     os.makedirs(folder_dir, exist_ok=True) # Ordner erstellen, falls noch nicht vorhanden
@@ -450,19 +566,20 @@ def export_parametersets(paramameters_dict, folder_path, index: int):
     text_file_path = os.path.join(folder_dir, file_name + ".txt")
     json_file_path = os.path.join(folder_dir, file_name + ".json")
 
-    # Speichere Parameter als .txt
+    ## Speichere Parameter als .txt
     with open(text_file_path, 'w') as txt_file:
         txt_file.write(f"Parameterset für Index {index}:\n")
         for key, value in paramameters_dict.items():
             txt_file.write(f"{key}: {value}\n")
     
-    # Speichere Parameter als .json
+    ## Speichere Parameter als .json
     with open(json_file_path, 'w') as json_file:
         json.dump(paramameters_dict, json_file, indent=4)    
-    print(f"__Parameter für Index {index} wurden erfolgreich als .txt und .json exportiert.")
+    print(f"__Export Parameter erfolgreich für Index {index} als .txt und .json")
 
 
 def export_building_geometry(geometry, folder_path, index: int):
+    """Funktion zum Exportieren der Geometrie"""
     folder_name = "BuildingGeometry"
     folder_dir = os.path.join(folder_path, folder_name)
     os.makedirs(folder_dir, exist_ok=True) # Ordner erstellen, falls noch nicht vorhanden
@@ -471,8 +588,7 @@ def export_building_geometry(geometry, folder_path, index: int):
     text_file_path = os.path.join(folder_dir, file_name + ".txt")
     json_file_path = os.path.join(folder_dir, file_name + ".json")
 
-
-    # Speichere Parameter als .txt
+    ## Speichere Parameter als .txt
     with open(text_file_path, 'w') as txt_file:
         txt_file.write(f"Gebäudegeometrie für Index {index}:\n")
         for element in geometry:
@@ -480,33 +596,35 @@ def export_building_geometry(geometry, folder_path, index: int):
                 txt_file.write(f"{key}: {value}\n")
             txt_file.write("\n")
     
-    # Speichere Parameter als .json
+    ## Speichere Parameter als .json
     with open(json_file_path, 'w') as json_file:
         json.dump(geometry, json_file, indent=4)   
-    print(f"Gebäudegeometrie für Index {index} wurden erfolgreich als .txt und .json exportiert.")
+    print(f"__Export Gebäudegeometrie erfolgreich für Index {index} als .txt und .json")
 
 
 def export_ifc_solo_model(folder_path, index: int):
-    print(f"__Export IFC-Modell. Aktueller Index: {index}")
+    """Funktion zum Exportieren einer IFC-Datei einer Kombination"""
+    print(f"__Start Export IFC-Modell. Aktueller Index: {index}")
 
-    # Erhalte Parameterset basierend auf Index
+    ## Erhalte Parameterset basierend auf Index
     parameters = param_combination[index]
-    parameters_dict = vars(parameters) # Wandelt params in Dict um: {'grid_x_field': 4, 'grid_y_field': 2, 'grid_x_size': 5.0, 'grid_y_size': 5.0, 'floors': 2, ...}
+    parameters_dict = vars(parameters) # vars() wandelt params in Dict um: {'grid_x_field': 4, 'grid_y_field': 2, 'grid_x_size': 5.0, 'grid_y_size': 5.0, 'floors': 2, ...}
     # paramameters_dict = params.__dict__ # Alternative zur Umwandlung in ein Dictionary
-    print(parameters) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    print(parameters_dict) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # print(parameters) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # print(parameters_dict) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     
-    # Generiere Geometrie
+    ## Generiere Geometrie
     building_geometry = BuildingGeometry(parameters)
     grid_points = building_geometry.create_grid()
+    # print("erstelltes Grid:", grid_points) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     geometry = building_geometry.generate_geometry()
-    print(geometry) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # print(geometry) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    # Generiere IFC-Modell
+    ## Generiere IFC-Modell
     ifc_factory = IfcFactory()
     ifc_model = ifc_factory.generate_ifc_model(parameters, geometry)
 
-    # Überprüfe und erstelle Ordnerpfad für IFC-Dateien
+    ## Überprüfe und erstelle Ordnerpfad für IFC-Dateien
     folder_name = (
         f"{len(parameters_dict)} - "
         f"Grid_{min(param_values['grid_x_n'])}x{min(param_values['grid_y_n'])}_"
@@ -529,17 +647,18 @@ def export_ifc_solo_model(folder_path, index: int):
 
     full_path = os.path.join(folder_dir, file_name + suffix)
 
-    # Exportiere Parameterset
+    ## Exportiere Parameterset
     export_parametersets(parameters_dict, folder_dir, index)
 
-    # Exportiere Gebäudegeometrie
+    ## Exportiere Gebäudegeometrie
     export_building_geometry(geometry, folder_dir, index)
 
-    # Exportiere IFC-Datei
+    ## Exportiere IFC-Datei
     ifc_model.write(full_path)
-    print(f"__Export erfolgreich in Pfad: {full_path}")
+    print(f"__Export IFC-Modell erfolgreich für {index} in Pfad: {full_path}")
 
 def export_ifc_range_model(folder_path):
+    """Funktion zum Exportieren aller IFC-Dateien aller Kombinationen"""
     print(f"__Start Export für alle IFC-Modelle. Anzahl an Parametersets: {len(param_combination)}")
 
     for index in range(len(param_combination)):
@@ -552,31 +671,34 @@ if __name__ == "__main__":
 
     """1. Definition Parameter für das Bauwerk"""
     param_values = {
-        # Parameter 2D-Gitter
+        ### Parameter 2D-Gitter
         'grid_x_n': [3, 4, 5],
         'grid_y_n': [2, 4, 5],
         'grid_x_size': [5.0, 10.0], # in [m]
         'grid_y_size': [5.0, 7.5], # in [m]
-        # Parameter Geschoss
+        'grid_x_offset': [0], # in [m]
+        'grid_y_offset': [0], # in [m]
+        'grid_rotation': [0], # in [degree] --> Bauteile passen sich Drehung nicht mit an
+        ## Parameter Geschoss
         'floors': [2, 4, 6],
         'floor_height': [3.0], # in [m]
-        # Parameter Bauteil - Platten
+        ## Parameter Bauteil - Platten
         'slab_thickness': [0.2], # in [m]
         'foundation_thickness': [0.6],  # in [m]
-        # Parameter Bauteil - Stützen
+        ## Parameter Bauteil - Stützen
         'corner_columns': [True],
         'edge_columns': [True],
         'inner_columns': [True],
-        'column_profile': [('rectangle',0.2, 0.2)] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
-    }    
+        'column_profile': [ProfileFactory.IPE400] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
+    }
 
     
     """2. Kombination Parameter zu einem Parameterset"""
     ## Generiere alle möglichen Parameterkombinationen
     param_combination = generate_parameter_combination(param_values)
 
-    # Beispiel_Param_Kombi_Indices() # TESTPRINT !!!
-    # Beispiel_Param_Kombi_Set(max_index = 6) # TESTPRINT !!!
+    # Beispiel_Param_Kombi_Indices() #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # Beispiel_Param_Kombi_Set(max_index = 6) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     
     """3. Generierung Geometrie"""
@@ -603,7 +725,7 @@ if __name__ == "__main__":
 
     # ## Kleine Tests mit allen Geschossen
     # geometry = building_geometry.generate_geometry() # ESSENZIELL !!!
-    # building_geometry.Beispiel_Building_Geometry(max_index = 20) # TESTPRINT !!!
+    # building_geometry.Beispiel_Building_Geometry(max_index = 20) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # ### ...Testbereich geschlossen
 
     
@@ -617,7 +739,7 @@ if __name__ == "__main__":
     ## Beziehe Dateipfad
     folder_path = get_folder_path()
 
-    # Exportiere einzelnes IFC-Modell
+    ## Exportiere einzelnes IFC-Modell
     export_ifc_solo_model(folder_path, index=0)
 
     ## Exportiere alle Kombinationen für IFC-Modelle
@@ -627,14 +749,6 @@ if __name__ == "__main__":
     
 """
 TODO
-- Attribut LoadBearing den Bauteilen hinzufügen
-
-- Richtungsanpassung der Stützen (Orientierung in in Richtung X und Y)
-- Alignment der Stützen je nach Ausrichtung anpassen, sodass sie bündig mit Plattenrand abschließen.
-
-- IFC-typische Materialien definieren (Beton, Stahl, MW, Holz -> Vorbild aus ArchiCAD BIM-Modul wählen)
-
-
 - Fehler bei Stützenhöhe einbauen, damit nicht alle Stützen die Decke berühren. Höhe soll nur 0.8 oder 0.95 mal die 'height' betragen
 - Fehler bei Stützenplatzierung: Einige Stützen sollen über dem Raster hinaus gesetzt werden, die nicht tragen
 - Fehler bei Decken und Bodenplatte: Ausdehnung muss über Stützen hinaus gehen bzw. kürzer sein, dann wäre Punkt oben auch abgedeckt
