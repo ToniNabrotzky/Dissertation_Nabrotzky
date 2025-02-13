@@ -2,6 +2,7 @@
 import itertools
 # Für Schritt 3 (Geometrieerstellung)
 import numpy as np
+import random
 # Für Schritt 4 (IFC-Erstellung)
 import ifcopenshell
 import ifcopenshell.api
@@ -49,25 +50,28 @@ class BuildingParameters:
 
 
 
-"""2. Kombination Parameter zu mehreren Parametersets"""
-def generate_parameter_combination(param_values):
-    """Funktion zur Kombination der Parameter zu Parametersets"""
-    ## Erklärung Syntax
-    # param_values.items() gibt aus Dictionary Liste von Tupeln wie etwa: [('grid_x_n', [3, 4, 5]), ('grid_y_n', [2, 4, 5]), ...] zurück.
-    # Das Sternchen * entpackt Werte als separate Argumente
-    # zip-Funktion gruppiert die entpackten Argumente aus den Tupeln in keys und values
-    keys, values = zip(*param_values.items())
-    combinations = [BuildingParameters(*combo) for combo in itertools.product(*values)]
-    return combinations
+    """2. Kombination Parameter zu mehreren Parametersets"""
+    @staticmethod
+    def generate_parameter_combination(param_values):
+        """Funktion zur Kombination der Parameter zu Parametersets"""
+        ## Erklärung Syntax
+        # param_values.items() gibt aus Dictionary Liste von Tupeln wie etwa: [('grid_x_n', [3, 4, 5]), ('grid_y_n', [2, 4, 5]), ...] zurück.
+        # Das Sternchen * entpackt Werte als separate Argumente
+        # zip-Funktion gruppiert die entpackten Argumente aus den Tupeln in keys und values
+        keys, values = zip(*param_values.items())
+        combinations = [BuildingParameters(*combo) for combo in itertools.product(*values)]
+        return combinations
 
-## Beispiel: Ausgabe der Range der Parametersets
-def Beispiel_Param_Kombi_Indices():
-    print(f"_Beispiel Indices der Parametersets: 0 bis {len(param_combination)-1}")
+    ## Beispiel: Ausgabe der Range der Parametersets
+    @staticmethod
+    def Beispiel_Param_Kombi_Indices():
+        print(f"_Beispiel Indices der Parametersets: 0 bis {len(param_combination)-1}")
 
-## Beispiel: Ausgabe der ersten n Parametersets
-def Beispiel_Param_Kombi_Set(max_index):
-    for index, param_set in enumerate(param_combination[:int(max_index)]):
-        print(f"_Beipsiel Param_Set {index}: {param_set}")
+    ## Beispiel: Ausgabe der ersten n Parametersets
+    @staticmethod
+    def Beispiel_Param_Kombi_Set(max_index):
+        for index, param_set in enumerate(param_combination[:int(max_index)]):
+            print(f"_Beipsiel Param_Set {index}: {param_set}")
 
 
 
@@ -138,17 +142,37 @@ class BuildingGeometry:
         return foundation
     
 
-    def create_slab(self, z, floor, floor_name):
+    def create_slab(self, z, floor, floor_name, index: int):
         """Funktion zur Erstellung von Geschossdecken"""
-        extent_x = self.parameters.grid_x_size * self.parameters.grid_x_n
-        extent_y = self.parameters.grid_y_size * self.parameters.grid_y_n
+        grid_x_size = self.parameters.grid_x_size
+        grid_y_size = self.parameters.grid_y_size
+        grid_x_n = self.parameters.grid_x_n
+        grid_y_n = self.parameters.grid_y_n
+        extent_x = grid_x_size * grid_x_n
+        extent_y = grid_y_size * grid_y_n
+        position = (self.grid_points[0][0] + extent_x/2, self.grid_points[0][1] + extent_y/2, z + self.parameters.floor_height)
+
+        ## Fehlereinbau
+        if ErrorFactory.should_apply_error(index, probability=0.18):
+            random.seed() # Seed zurücksetzen
+            scale_x = ErrorFactory.modify_slab_extent(self, grid_x_size, grid_x_n)
+            scale_y = ErrorFactory.modify_slab_extent(self, grid_y_size, grid_y_n)
+            print(f"MODIFY: Geschossdecke {floor_name} mit {np.round(scale_x*100, 3)}% und  {np.round(scale_y*100, 3)}%")
+        else:
+            scale_x = scale_y = 1.0
+        
+        extent_x = extent_x * scale_x
+        extent_y = extent_y * scale_y
 
         slab = {
             'name': f'Decke {floor_name}',
             'type': 'slab',
-            'position': (self.grid_points[0][0] + extent_x/2, self.grid_points[0][1] + extent_y/2, z + self.parameters.floor_height),
+            # 'position': (self.grid_points[0][0] + extent_x/2, self.grid_points[0][1] + extent_y/2, z + self.parameters.floor_height),
+            'position': position,
             'floor': floor,
             'extent': (extent_x, extent_y),
+            'modify_x': scale_x,
+            'modify_y': scale_y,
             'thickness': self.parameters.slab_thickness,
             'is_foundation': False # Kennzeichnung für Fundamentgeschoss
         }
@@ -182,7 +206,7 @@ class BuildingGeometry:
         else:
             raise ValueError(f"Unbekannter Profiltyp: {column_profile[0]}")
         
-        ## Definiere Eckpunkte des Gitter
+        ## Definiere Eckpunkte des Gitters
         corner_points = {
             "bottom_left": self.grid_points[0],
             "top_left": self.grid_points[grid_y_n],
@@ -228,6 +252,7 @@ class BuildingGeometry:
 
             ## Stützendaten hinzufügen
             column_data = i, x, y, z, rotation, floor, floor_name, column_profile, material
+            # print('col_data: ', column_data) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
             if is_corner and self.parameters.corner_columns:
                 position_type = 'corner'
@@ -239,14 +264,26 @@ class BuildingGeometry:
                 position_type = 'inner'
                 columns.append(self.add_column_data(*column_data, position_type))
             else:
-                raise ValueError(f"Fehler in der Zuweisung des Positionstypes")
+                pass
             # print(f"INDEX: {i}, position_type: {position_type}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         return columns
     
 
     def add_column_data(self, i, x, y, z, rotation, floor, floor_name, column_profile, material, position_type):
         """Ergänzt Stütze mit Merkmalen"""
-        return{'name': f'Stütze {position_type} {floor_name} {i:02d}', 
+        name = f'Stütze {position_type} {floor_name} {i:02d}'
+
+        ## Fehlereinbau
+        height = self.parameters.floor_height - self.parameters.slab_thickness
+        if ErrorFactory.should_apply_error(i, probability=0.16):
+            random.seed() # Seed zurücksetzen
+            scale = ErrorFactory.modify_column_height(self, height)
+            height = height * scale
+            print(f"MODIFY: Stütze {name} mit {np.round(scale*100, 3)}%")
+        else:
+            scale = 1.0
+
+        return{'name': name, 
                'type': 'column', 
                'position_type': position_type, 
                'position': (x, y, z),
@@ -254,11 +291,12 @@ class BuildingGeometry:
                'floor': floor, 
                'profile': column_profile,
                'material': material,
-               'height': self.parameters.floor_height - self.parameters.slab_thickness
+               'height': height,
+               'modify_heigth': scale
         }
     
 
-    def generate_geometry(self):
+    def generate_geometry(self, index: int):
         """Funktion zum Erstellen der Geometrie"""
         ## Generierung Fundament
         foundation = self.create_foundation()
@@ -273,7 +311,7 @@ class BuildingGeometry:
                 floor_name = f'OG{current_floor}'
 
             ## Generierung Deckenplatten
-            slab = self.create_slab(z, current_floor, floor_name)
+            slab = self.create_slab(z, current_floor, floor_name, index)
             self.geometry.append(slab)
 
             ## Generierung Stützen
@@ -287,6 +325,50 @@ class BuildingGeometry:
     def Beispiel_Building_Geometry(self, max_index):
         for index, object in enumerate(self.geometry[:max_index]):
             print(f"_Beipsiel Geometry_Objetct {index:02d}: {object}")
+
+
+class ErrorFactory:
+    """Klasse zum Erzeugen von Modellfehlern"""
+    @staticmethod
+    def should_apply_error(index, probability= 0.3):
+        random.seed(index)
+        """Funktion zur Entscheidung, ob ein Fehler angewendet werden soll"""
+        return random.random() < probability
+    
+    
+    def modify_slab_extent(self, grid_size, grid_n):
+        """Funktion zur Modifikation der Deckenplatte"""
+        ## Überprüfe Stützenprofil
+        column_profile = self.parameters.column_profile
+        if column_profile[0] == 'circle':
+            extent_profile = column_profile[1]
+        else:
+            extent_profile = max(column_profile[1], column_profile[2])
+        
+        ## Bestimme Grenzwerte für Modifikation
+        min_variation = extent_profile / 2 / grid_size # min halbes Stützenprofil als Faktor
+        max_variation = 1 / (grid_n + 1) # max 1/3 bei 2 Feldern, 1/4 bei 3 Feldern, etc...
+        # print("variations: ", min_variation, max_variation) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+        ## Modifiziere Abmessungsfaktor
+        if random.random() < 0.5:
+            # Platte wird vergrößert
+            scale = np.round(random.uniform(1 + min_variation, 1 + max_variation), 5)
+        else:
+            # Platte wird verkleinert
+            scale = np.round(random.uniform(1 - max_variation, 1 - min_variation), 5)
+
+        return scale
+    
+    
+    def modify_column_height(self, height):
+        """Funktion zur Modifikation der Deckenplatte"""
+        min_variation = 0.05 / height # min 5cm als Faktor (z.B. 0.01 bei 5m oder 0.004 bei 12,5m)
+        max_variation = 0.5 # max halbe Stützenhöhe
+        # print("variations: ", min_variation, max_variation) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+        scale = np.round(random.uniform(1 - max_variation, 1 - min_variation), 5)
+        return scale
 
 
 
@@ -464,7 +546,7 @@ class IfcFactory:
         })
     
     
-    def generate_ifc_model(self, parameters, building_geometry):
+    def generate_ifc_model(self, parameters, building_geometry, index):
         """Funktion zum Erstellen eines IFC-Modells"""
         ## Initialisiere IFC-Datei und Projektstruktur
         model = ifcopenshell.api.run("project.create_file")
@@ -598,13 +680,13 @@ def export_building_geometry(geometry, folder_path, index: int):
     
     ## Speichere Parameter als .json
     with open(json_file_path, 'w') as json_file:
-        json.dump(geometry, json_file, indent=4)   
+        json.dump(geometry, json_file, indent=4)
     print(f"__Export Gebäudegeometrie erfolgreich für Index {index} als .txt und .json")
 
 
 def export_ifc_solo_model(folder_path, index: int):
     """Funktion zum Exportieren einer IFC-Datei einer Kombination"""
-    print(f"__Start Export IFC-Modell. Aktueller Index: {index}")
+    print(f"\n  __Start Export IFC-Modell. Aktueller Index: {index}")
 
     ## Erhalte Parameterset basierend auf Index
     parameters = param_combination[index]
@@ -617,12 +699,12 @@ def export_ifc_solo_model(folder_path, index: int):
     building_geometry = BuildingGeometry(parameters)
     grid_points = building_geometry.create_grid()
     # print("erstelltes Grid:", grid_points) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    geometry = building_geometry.generate_geometry()
+    geometry = building_geometry.generate_geometry(index)
     # print(geometry) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     ## Generiere IFC-Modell
     ifc_factory = IfcFactory()
-    ifc_model = ifc_factory.generate_ifc_model(parameters, geometry)
+    ifc_model = ifc_factory.generate_ifc_model(parameters, geometry, index)
 
     ## Überprüfe und erstelle Ordnerpfad für IFC-Dateien
     folder_name = (
@@ -657,6 +739,7 @@ def export_ifc_solo_model(folder_path, index: int):
     ifc_model.write(full_path)
     print(f"__Export IFC-Modell erfolgreich für {index} in Pfad: {full_path}")
 
+
 def export_ifc_range_model(folder_path):
     """Funktion zum Exportieren aller IFC-Dateien aller Kombinationen"""
     print(f"__Start Export für alle IFC-Modelle. Anzahl an Parametersets: {len(param_combination)}")
@@ -686,16 +769,17 @@ if __name__ == "__main__":
         'slab_thickness': [0.2], # in [m]
         'foundation_thickness': [0.6],  # in [m]
         ## Parameter Bauteil - Stützen
-        'corner_columns': [True],
-        'edge_columns': [True],
-        'inner_columns': [True],
+        'corner_columns': [True, False],
+        'edge_columns': [True, False],
+        'inner_columns': [True, False],
         'column_profile': [ProfileFactory.IPE400] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
     }
 
     
     """2. Kombination Parameter zu einem Parameterset"""
     ## Generiere alle möglichen Parameterkombinationen
-    param_combination = generate_parameter_combination(param_values)
+    # param_combination = generate_parameter_combination(param_values)
+    param_combination = BuildingParameters.generate_parameter_combination(param_values)
 
     # Beispiel_Param_Kombi_Indices() #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # Beispiel_Param_Kombi_Set(max_index = 6) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -741,6 +825,8 @@ if __name__ == "__main__":
 
     ## Exportiere einzelnes IFC-Modell
     export_ifc_solo_model(folder_path, index=0)
+    export_ifc_solo_model(folder_path, index=1)
+    export_ifc_solo_model(folder_path, index=2)
 
     ## Exportiere alle Kombinationen für IFC-Modelle
     # export_ifc_range_model(folder_path)
