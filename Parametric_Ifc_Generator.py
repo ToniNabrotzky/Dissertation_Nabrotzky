@@ -152,9 +152,11 @@ class BuildingGeometry:
         extent_y = grid_y_size * grid_y_n
         position = (self.grid_points[0][0] + extent_x/2, self.grid_points[0][1] + extent_y/2, z + self.parameters.floor_height)
 
-        if ErrorFactory.should_apply_error(index):
+        ## Fehlereinbau
+        if ErrorFactory.should_apply_error(index, probability=0.18):
             random.seed() # Seed zurücksetzen
-            scale_x, scale_y = ErrorFactory.modify_slab_extent(self, grid_x_size, grid_y_size, grid_x_n, grid_y_n)
+            scale_x = ErrorFactory.modify_slab_extent(self, grid_x_size, grid_x_n)
+            scale_y = ErrorFactory.modify_slab_extent(self, grid_y_size, grid_y_n)
             print(f"MODIFY: Geschossdecke {floor_name} mit {np.round(scale_x*100, 3)}% und  {np.round(scale_y*100, 3)}%")
         else:
             scale_x = scale_y = 1.0
@@ -168,9 +170,9 @@ class BuildingGeometry:
             # 'position': (self.grid_points[0][0] + extent_x/2, self.grid_points[0][1] + extent_y/2, z + self.parameters.floor_height),
             'position': position,
             'floor': floor,
+            'extent': (extent_x, extent_y),
             'modify_x': scale_x,
             'modify_y': scale_y,
-            'extent': (extent_x, extent_y),
             'thickness': self.parameters.slab_thickness,
             'is_foundation': False # Kennzeichnung für Fundamentgeschoss
         }
@@ -269,7 +271,19 @@ class BuildingGeometry:
 
     def add_column_data(self, i, x, y, z, rotation, floor, floor_name, column_profile, material, position_type):
         """Ergänzt Stütze mit Merkmalen"""
-        return{'name': f'Stütze {position_type} {floor_name} {i:02d}', 
+        name = f'Stütze {position_type} {floor_name} {i:02d}'
+
+        ## Fehlereinbau
+        height = self.parameters.floor_height - self.parameters.slab_thickness
+        if ErrorFactory.should_apply_error(i, probability=0.16):
+            random.seed() # Seed zurücksetzen
+            scale = ErrorFactory.modify_column_height(self, height)
+            height = height * scale
+            print(f"MODIFY: Stütze {name} mit {np.round(scale*100, 3)}%")
+        else:
+            scale = 1.0
+
+        return{'name': name, 
                'type': 'column', 
                'position_type': position_type, 
                'position': (x, y, z),
@@ -277,7 +291,8 @@ class BuildingGeometry:
                'floor': floor, 
                'profile': column_profile,
                'material': material,
-               'height': self.parameters.floor_height - self.parameters.slab_thickness
+               'height': height,
+               'modify_heigth': scale
         }
     
 
@@ -320,7 +335,8 @@ class ErrorFactory:
         """Funktion zur Entscheidung, ob ein Fehler angewendet werden soll"""
         return random.random() < probability
     
-    def modify_slab_extent(self, grid_x_size, grid_y_size, grid_x_n, grid_y_n):
+    
+    def modify_slab_extent(self, grid_size, grid_n):
         """Funktion zur Modifikation der Deckenplatte"""
         ## Überprüfe Stützenprofil
         column_profile = self.parameters.column_profile
@@ -330,29 +346,29 @@ class ErrorFactory:
             extent_profile = max(column_profile[1], column_profile[2])
         
         ## Bestimme Grenzwerte für Modifikation
-        min_variation_x = extent_profile / 2 / grid_x_size # min halbes Stützenprofil als Faktor (z.B. 2% bei 5m oder 0.8% bei 12,5m)
-        min_variation_y = extent_profile / 2 / grid_y_size
-        max_variation_x = 1 / (grid_x_n + 1) # max 1/3 bei 2 Feldern, 1/4 bei 3 Feldern, etc...
-        max_variation_y = 1 / (grid_y_n + 1)
-        # print("variations: ", min_variation_x, min_variation_y, max_variation_x, max_variation_y) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        min_variation = extent_profile / 2 / grid_size # min halbes Stützenprofil als Faktor
+        max_variation = 1 / (grid_n + 1) # max 1/3 bei 2 Feldern, 1/4 bei 3 Feldern, etc...
+        # print("variations: ", min_variation, max_variation) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-        ## Modifiziere in x-Richtung
+        ## Modifiziere Abmessungsfaktor
         if random.random() < 0.5:
             # Platte wird vergrößert
-            scale_x = np.round(random.uniform(1 + min_variation_x, 1 + max_variation_x), 5)
+            scale = np.round(random.uniform(1 + min_variation, 1 + max_variation), 5)
         else:
             # Platte wird verkleinert
-            scale_x = np.round(random.uniform(1 - max_variation_x, 1 - min_variation_x), 5)
-        
-        ## Modifiziere in y-Richtung
-        if random.random() < 0.5:
-            # Platte wird vergrößert
-            scale_y = np.round(random.uniform(1 + min_variation_y, 1 + max_variation_y), 5)
-        else:
-            # Platte wird verkleinert
-            scale_y = np.round(random.uniform(1 - max_variation_y, 1 - min_variation_y), 5)
+            scale = np.round(random.uniform(1 - max_variation, 1 - min_variation), 5)
 
-        return scale_x, scale_y
+        return scale
+    
+    
+    def modify_column_height(self, height):
+        """Funktion zur Modifikation der Deckenplatte"""
+        min_variation = 0.05 / height # min 5cm als Faktor (z.B. 0.01 bei 5m oder 0.004 bei 12,5m)
+        max_variation = 0.5 # max halbe Stützenhöhe
+        # print("variations: ", min_variation, max_variation) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+        scale = np.round(random.uniform(1 - max_variation, 1 - min_variation), 5)
+        return scale
 
 
 
@@ -722,6 +738,7 @@ def export_ifc_solo_model(folder_path, index: int):
     ## Exportiere IFC-Datei
     ifc_model.write(full_path)
     print(f"__Export IFC-Modell erfolgreich für {index} in Pfad: {full_path}")
+
 
 def export_ifc_range_model(folder_path):
     """Funktion zum Exportieren aller IFC-Dateien aller Kombinationen"""
