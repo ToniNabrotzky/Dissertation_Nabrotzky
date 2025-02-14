@@ -153,7 +153,7 @@ class BuildingGeometry:
         position = (self.grid_points[0][0] + extent_x/2, self.grid_points[0][1] + extent_y/2, z + self.parameters.floor_height)
 
         ## Fehlereinbau
-        if ErrorFactory.should_apply_error(index, probability=0.18):
+        if ErrorFactory.should_apply_error(index, probability=0.2):
             random.seed() # Seed zurücksetzen
             scale_x = ErrorFactory.modify_slab_extent(self, grid_x_size, grid_x_n)
             scale_y = ErrorFactory.modify_slab_extent(self, grid_y_size, grid_y_n)
@@ -275,7 +275,7 @@ class BuildingGeometry:
 
         ## Fehlereinbau
         height = self.parameters.floor_height - self.parameters.slab_thickness
-        if ErrorFactory.should_apply_error(i, probability=0.16):
+        if ErrorFactory.should_apply_error(i + z, probability=0.26):
             random.seed() # Seed zurücksetzen
             scale = ErrorFactory.modify_column_height(self, height)
             height = height * scale
@@ -759,20 +759,20 @@ if __name__ == "__main__":
         'grid_y_n': [2, 4, 5],
         'grid_x_size': [5.0, 10.0], # in [m]
         'grid_y_size': [5.0, 7.5], # in [m]
-        'grid_x_offset': [0], # in [m]
-        'grid_y_offset': [0], # in [m]
+        'grid_x_offset': [0, 4], # in [m]
+        'grid_y_offset': [0, 3], # in [m]
         'grid_rotation': [0], # in [degree] --> Bauteile passen sich Drehung nicht mit an
         ## Parameter Geschoss
         'floors': [2, 4, 6],
-        'floor_height': [3.0], # in [m]
+        'floor_height': [3.0, 2.6], # in [m]
         ## Parameter Bauteil - Platten
-        'slab_thickness': [0.2], # in [m]
+        'slab_thickness': [0.2, 0.3], # in [m]
         'foundation_thickness': [0.6],  # in [m]
         ## Parameter Bauteil - Stützen
         'corner_columns': [True, False],
         'edge_columns': [True, False],
         'inner_columns': [True, False],
-        'column_profile': [ProfileFactory.IPE400] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
+        'column_profile': [ProfileFactory.IPE400, ProfileFactory.Rec_20_20] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
     }
 
     
@@ -824,12 +824,12 @@ if __name__ == "__main__":
     folder_path = get_folder_path()
 
     ## Exportiere einzelnes IFC-Modell
-    export_ifc_solo_model(folder_path, index=0)
-    export_ifc_solo_model(folder_path, index=1)
-    export_ifc_solo_model(folder_path, index=2)
+    # export_ifc_solo_model(folder_path, index=0)
+    # export_ifc_solo_model(folder_path, index=1)
+    # export_ifc_solo_model(folder_path, index=2)
 
     ## Exportiere alle Kombinationen für IFC-Modelle
-    # export_ifc_range_model(folder_path)
+    export_ifc_range_model(folder_path)
 
 
     
@@ -842,3 +842,4 @@ TODO
 
 
 """
+
