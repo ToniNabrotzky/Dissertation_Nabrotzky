@@ -136,6 +136,8 @@ class BuildingGeometry:
             'position': (self.grid_points[0][0] + extent_x/2, self.grid_points[0][1] + extent_y/2, 0), # Oberkante Bodenplatte bei z=0
             'floor': -1,
             'extent': (extent_x, extent_y),
+            'modify_x': 1.0,
+            'modify_y': 1.0,
             'thickness': self.parameters.foundation_thickness,
             'is_foundation': True # Kennzeichnung für Fundamentgeschoss
         }
@@ -377,9 +379,13 @@ class ProfileFactory:
     """Klasse zur Erzeugung von Querschnittsprofilen"""
     ## Profil-Werte in [m]
     # ('rectangle', x_dim, y_dim)
-    Rec_20_20 = ('rectangle', 0.2, 0.2)
-    Rec_30_20 = ('rectangle', 0.3, 0.2)
     Rec_15_25 = ('rectangle', 0.15, 0.25)
+    Rec_15_35 = ('rectangle', 0.15, 0.35)
+    Rec_20_20 = ('rectangle', 0.2, 0.2)
+    Rec_20_30 = ('rectangle', 0.2, 0.3)
+    Rec_30_20 = ('rectangle', 0.3, 0.2)
+    Rec_40_20 = ('rectangle', 0.4, 0.2)
+    Rec_40_30 = ('rectangle', 0.4, 0.3)
     # ('circle', radius)
     Circle_20 = ('circle', 0.2)
     # ('i-profile', h, b, t_f, t_w)
@@ -514,7 +520,7 @@ class IfcFactory:
     @staticmethod
     def add_pset_slab_common(model, slab, Status = "New", AcousticRating = "N/A", FireRating = "N/A", PitchAngle: float = 0, Combustible: bool = False, SurfaceSpreadOfFlame = "N/A", Compartmentation = "N/A",
                              IsExternal: bool = False, ThermalTransmittance: float = 0, LoadBearing: bool = True):
-        """Funktion zum Hinzufügen eines P-Sets"""
+        """Funktion zum Hinzufügen eines Property-Sets"""
         pset = ifcopenshell.api.run("pset.add_pset", model, product = slab, name = "Pset_SlabCommon")
         ifcopenshell.api.run("pset.edit_pset", model, pset=pset, properties={
             "Status": Status,
@@ -533,9 +539,9 @@ class IfcFactory:
     @staticmethod
     def add_pset_column_common(model, column, Status = "New", Slope: float = 0, Roll: float = 0, 
                                IsExternal: bool = False, ThermalTransmittance: float = 0, LoadBearing: bool = True, FireRating = "N/A"):
-        """Funktion zum Hinzufügen eines P-Sets"""
+        """Funktion zum Hinzufügen eines Property-Sets"""
         pset = ifcopenshell.api.run("pset.add_pset", model, product = column, name = "Pset_ColumnCommon")
-        ifcopenshell.api.run("pset.edit_pset", model, pset=pset, properties={
+        ifcopenshell.api.run("pset.edit_pset", model, pset= pset, properties= {
             "Status": Status,
             "Slope": Slope,
             "Roll": Roll,
@@ -544,6 +550,27 @@ class IfcFactory:
             "LoadBearing": LoadBearing,
             "FireRating": FireRating  
         })
+    
+
+    @staticmethod
+    def add_pset_ErrorInfo(model, element, attributes):
+        """Funktion zum Hinzufügen eines Property-Sets"""
+        pset = ifcopenshell.api.run("pset.add_pset", model, product = element, name = "Pset_ErrorInfo")
+        # print("pset_Error: ", attributes) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        
+        if attributes['type'] == 'slab':
+            print("Att_Slab: ", attributes['type'])
+            ifcopenshell.api.run("pset.edit_pset", model, pset= pset, properties= {
+                "modify_x": attributes['modify_x'],
+                "modify_y": attributes['modify_y'],
+            })
+        elif attributes['type'] == 'column':
+            print("Att_Col: ", attributes['type'])
+            ifcopenshell.api.run("pset.edit_pset", model, pset= pset, properties= {
+                "modify_heigth": attributes['modify_heigth'],
+            })
+        else:
+            raise ValueError(f"Unbekannter Typ von element in building_geometry: {element['type']}")
     
     
     def generate_ifc_model(self, parameters, building_geometry, index):
@@ -592,10 +619,11 @@ class IfcFactory:
             storey = storeys[element['floor']]
 
             if element['type'] == 'slab':
-                slab = ifcopenshell.api.run("root.create_entity", model, ifc_class = "IfcSlab", name = element['name'])
+                # print("Element[Slab]: ", element) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                slab = ifcopenshell.api.run("root.create_entity", model, ifc_class = "IfcSlab", name= element['name'])
                 slab.GlobalId = self.generate_guid()
-                ifcopenshell.api.spatial.assign_container(model, products = [slab], relating_structure=storey)
-                ifcopenshell.api.material.assign_material(model, products = [slab], material = materials['Beton_C3037'])
+                ifcopenshell.api.spatial.assign_container(model, products= [slab], relating_structure=storey)
+                ifcopenshell.api.material.assign_material(model, products= [slab], material = materials['Beton_C3037'])
                 
                 ## Erstelle Grundfläche
                 profile_type, profile_params = 'rectangle', element['extent']                              
@@ -605,12 +633,14 @@ class IfcFactory:
                 ## Erstelle die Geschossdecke
                 self.create_ifc_slab(element, context, model, slab, profile)
                 self.add_pset_slab_common(model= model, slab= slab)
+                self.add_pset_ErrorInfo(model= model, element= slab, attributes= element)
             
             elif element['type'] == 'column':
+                # print("Element[Column]: ", element) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 column = ifcopenshell.api.run("root.create_entity", model, ifc_class = "IfcColumn", name = element['name'])
                 column.GlobalId = self.generate_guid()
-                ifcopenshell.api.spatial.assign_container(model, products = [column], relating_structure=storey)
-                ifcopenshell.api.material.assign_material(model, products = [column], material = materials[element['material']])
+                ifcopenshell.api.spatial.assign_container(model, products= [column], relating_structure=storey)
+                ifcopenshell.api.material.assign_material(model, products= [column], material= materials[element['material']])
 
                 ## Erstelle die Grundfläche
                 profile_type, *profile_params = element['profile']
@@ -622,9 +652,11 @@ class IfcFactory:
                     profile = ProfileFactory.create_i_profile(model, *profile_params)
                 else:
                     raise ValueError(f"Unbekannter Profiltyp: {profile_type}")
+                
                 ## Erstelle die Stütze
                 self.create_ifc_column(element, context, model, column, profile)
                 self.add_pset_column_common(model= model, column= column)
+                self.add_pset_ErrorInfo(model= model, element= column, attributes= element)
             else:
                 raise ValueError(f"Unbekannter Typ von element in building_geometry: {element['type']}")
         return model
@@ -755,13 +787,13 @@ if __name__ == "__main__":
     """1. Definition Parameter für das Bauwerk"""
     param_values = {
         ### Parameter 2D-Gitter
-        'grid_x_n': [3, 4, 5],
-        'grid_y_n': [2, 4, 5],
+        'grid_x_n': [3, 5],
+        'grid_y_n': [2, 5],
         'grid_x_size': [5.0, 10.0], # in [m]
         'grid_y_size': [5.0, 7.5], # in [m]
-        'grid_x_offset': [0, 4], # in [m]
-        'grid_y_offset': [0, 3], # in [m]
-        'grid_rotation': [0], # in [degree] --> Bauteile passen sich Drehung nicht mit an
+        'grid_x_offset': [0.0, 4.0], # in [m]
+        'grid_y_offset': [0.0, 3.0], # in [m]
+        'grid_rotation': [0.0], # in [degree] --> Bauteile passen sich Drehung nicht mit an
         ## Parameter Geschoss
         'floors': [2, 4, 6],
         'floor_height': [3.0, 2.6], # in [m]
@@ -772,7 +804,7 @@ if __name__ == "__main__":
         'corner_columns': [True, False],
         'edge_columns': [True, False],
         'inner_columns': [True, False],
-        'column_profile': [ProfileFactory.IPE400, ProfileFactory.Rec_20_20] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
+        'column_profile': [ProfileFactory.IPE400, ProfileFactory.Rec_20_30] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
     }
 
     
@@ -781,8 +813,8 @@ if __name__ == "__main__":
     # param_combination = generate_parameter_combination(param_values)
     param_combination = BuildingParameters.generate_parameter_combination(param_values)
 
-    # Beispiel_Param_Kombi_Indices() #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    # Beispiel_Param_Kombi_Set(max_index = 6) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    BuildingParameters.Beispiel_Param_Kombi_Indices() #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # BuildingParameters.Beispiel_Param_Kombi_Set(max_index = 6) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     
     """3. Generierung Geometrie"""
@@ -824,22 +856,18 @@ if __name__ == "__main__":
     folder_path = get_folder_path()
 
     ## Exportiere einzelnes IFC-Modell
-    # export_ifc_solo_model(folder_path, index=0)
+    export_ifc_solo_model(folder_path, index=0)
     # export_ifc_solo_model(folder_path, index=1)
     # export_ifc_solo_model(folder_path, index=2)
 
     ## Exportiere alle Kombinationen für IFC-Modelle
-    export_ifc_range_model(folder_path)
+    # export_ifc_range_model(folder_path)
 
 
     
 """
 TODO
-- Fehler bei Stützenhöhe einbauen, damit nicht alle Stützen die Decke berühren. Höhe soll nur 0.8 oder 0.95 mal die 'height' betragen
-- Fehler bei Stützenplatzierung: Einige Stützen sollen über dem Raster hinaus gesetzt werden, die nicht tragen
-- Fehler bei Decken und Bodenplatte: Ausdehnung muss über Stützen hinaus gehen bzw. kürzer sein, dann wäre Punkt oben auch abgedeckt
-- !!!! Geometrie entsprechend attributieren mit 'label_fullheight' oder 'labelfullextent' use je nach Einbau des Fehlers. !!!
-
+- Rotation vervollständigen, sodass sich Bauteile dem Winkel mitdrehen
 
 """
 
