@@ -134,6 +134,7 @@ class BuildingGeometry:
             'name': 'Bodenplatte',
             'type': 'slab',
             'position': (self.grid_points[0][0] + extent_x/2, self.grid_points[0][1] + extent_y/2, 0), # Oberkante Bodenplatte bei z=0
+            'rotation': 0.0,
             'floor': -1,
             'extent': (extent_x, extent_y),
             'modify_x': 1.0,
@@ -171,6 +172,7 @@ class BuildingGeometry:
             'type': 'slab',
             # 'position': (self.grid_points[0][0] + extent_x/2, self.grid_points[0][1] + extent_y/2, z + self.parameters.floor_height),
             'position': position,
+            'rotation': 0.0,
             'floor': floor,
             'extent': (extent_x, extent_y),
             'modify_x': scale_x,
@@ -474,7 +476,11 @@ class IfcFactory:
 
         slab.ObjectPlacement = model.createIfcLocalPlacement(
             RelativePlacement = model.createIfcAxis2Placement3D(
-                Location = model.createIfcCartesianPoint(element_position)
+                Location = model.createIfcCartesianPoint(element_position),
+                Axis=model.createIfcDirection((0.0, 0.0, 1.0)),  
+                RefDirection=model.createIfcDirection((float(np.cos(np.radians(element['rotation']))), 
+                                                       float(np.sin(np.radians(element['rotation']))), 
+                                                       0.0))
             )
         )
     
@@ -559,13 +565,11 @@ class IfcFactory:
         # print("pset_Error: ", attributes) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         
         if attributes['type'] == 'slab':
-            print("Att_Slab: ", attributes['type'])
             ifcopenshell.api.run("pset.edit_pset", model, pset= pset, properties= {
                 "modify_x": attributes['modify_x'],
                 "modify_y": attributes['modify_y'],
             })
         elif attributes['type'] == 'column':
-            print("Att_Col: ", attributes['type'])
             ifcopenshell.api.run("pset.edit_pset", model, pset= pset, properties= {
                 "modify_heigth": attributes['modify_heigth'],
             })
@@ -857,8 +861,8 @@ if __name__ == "__main__":
 
     ## Exportiere einzelnes IFC-Modell
     export_ifc_solo_model(folder_path, index=0)
-    # export_ifc_solo_model(folder_path, index=1)
-    # export_ifc_solo_model(folder_path, index=2)
+    export_ifc_solo_model(folder_path, index=1)
+    export_ifc_solo_model(folder_path, index=2)
 
     ## Exportiere alle Kombinationen für IFC-Modelle
     # export_ifc_range_model(folder_path)
