@@ -194,7 +194,8 @@ class BuildingGeometry:
         grid_y_n = self.parameters.grid_y_n
         extent_x = self.parameters.grid_x_size * self.parameters.grid_x_n
         extent_y = self.parameters.grid_y_size * self.parameters.grid_y_n
-        strong_axis = 'x' if extent_x > extent_y else 'y' # In which direction strong axis is needed
+        # strong_axis = 'x' if extent_x > extent_y else 'y' # In which direction strong axis is needed
+        strong_axis = 'y' # fixed due to further issues with rotation later on
 
         ## Definiere x (Breite) und y (Höhe) des Querschnitts
         if column_profile[0] == 'rectangle':
@@ -262,7 +263,12 @@ class BuildingGeometry:
                 position_type = 'corner'
                 columns.append(self.add_column_data(*column_data, position_type))
             elif not is_corner and is_edge and self.parameters.edge_columns:
-                position_type = 'edge'
+                if on_edge_lower or on_edge_upper:
+                    position_type = 'edge_x'
+                elif on_edge_left or on_edge_right:
+                    position_type = 'edge_y'
+                else:
+                    position_type = 'edge'
                 columns.append(self.add_column_data(*column_data, position_type))
             elif not is_corner and not is_edge and self.parameters.inner_columns:
                 position_type = 'inner'
@@ -572,6 +578,7 @@ class IfcFactory:
         elif attributes['type'] == 'column':
             ifcopenshell.api.run("pset.edit_pset", model, pset= pset, properties= {
                 "modify_heigth": attributes['modify_heigth'],
+                "position_type": attributes['position_type'],
             })
         else:
             raise ValueError(f"Unbekannter Typ von element in building_geometry: {element['type']}")
@@ -791,10 +798,10 @@ if __name__ == "__main__":
     """1. Definition Parameter für das Bauwerk"""
     param_values = {
         ### Parameter 2D-Gitter
-        'grid_x_n': [3, 5],
-        'grid_y_n': [2, 5],
-        'grid_x_size': [5.0, 10.0], # in [m]
-        'grid_y_size': [5.0, 7.5], # in [m]
+        'grid_x_n': [2, 5],
+        'grid_y_n': [3, 5],
+        'grid_x_size': [5.0, 8], # in [m]
+        'grid_y_size': [7.5, 10.0], # in [m]
         'grid_x_offset': [0.0, 4.0], # in [m]
         'grid_y_offset': [0.0, 3.0], # in [m]
         'grid_rotation': [0.0], # in [degree] --> Bauteile passen sich Drehung nicht mit an
