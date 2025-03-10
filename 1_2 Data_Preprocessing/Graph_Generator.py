@@ -15,18 +15,22 @@ def main():
     # script_dir = Path.cwd() # Alternative: Path(__file__).parent
     # print(f"Script-Dir - {script_dir.exists()}: {script_dir}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+    ## Teste einzelne Graphen
+    json_folder = r"H:\1_2 Data_Preprocessing\Modell_2_Parametrisch Stahlbeton\JSON_Graph"
+    json_name = "Parametrisches_Modell Index_012.json"
+    json_file = f"{json_folder}\\{json_name}"
+    # json_file = r"H:\1_2 Data_Preprocessing\Modell_2_Parametrisch Stahlbeton\JSON_Graph\Parametrisches_Modell Index_016.json"
+    plot_graph_3D_from_json(json_file)
+    
+    ## Erstelle seriell Graphen für alle JSON-Dateien
     # json_folder_names = ["Modell_2_Parametrisch IfcOpenShell", "Modell_2_Tutorial BimVision"]
     json_folder_names = ["Modell_2_DataBase", "Modell_2_Parametrisch Stahlbeton"]
-    json_folder_names = []
+    # json_folder_names = []
     json_folder_paths = get_folder_paths(script_dir, json_folder_names)
 
     for json_folder_path in json_folder_paths:
         # print(f"json-Folder-Path - {json_folder_path.exists()}:  {json_folder_path}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         generate_graph_from_json(json_folder_path)
-    
-    ##Teste einzelne Graphen
-    json_file = r"H:\1_2 Data_Preprocessing\Modell_2_Parametrisch Stahlbeton\JSON_Graph\Parametrisches_Modell Index_016.json"
-    plot_graph_3D_from_json(json_file)
 
 
 def generate_graph_from_json(json_folder_path):
@@ -255,39 +259,30 @@ def plot_graph_3D_from_json(json_file_path):
     """Plottet den 3D-Graphen mit den Knotenpositionen aus einer JSON-Datei"""
     with open(json_file_path, "r") as f:
         graph_data = json.load(f)
-        # print(len(graph_data))
-    # nodes = graph_data['nodes']
-    # print(len(nodes))
-    # print('nodes: ', nodes)
-    # for idx, node in enumerate(nodes):
-    #     print('idx und node: ', idx, node) # sind beide das gleiche (0 0 bis 78 78)
-        # print('node_pos: ', node['position'])
-    # print('graph_data: ', graph_data['nodes'])
-
     
     G = nx.Graph()
     for node, data in graph_data['nodes'].items():
-        # print('graph_node: ', node)
-        # print('graph_data: ', data)
-        # print('graph_data_pos: ', data['position'])
+        node = str(node) # Ensure node ID is a string
+        print(f"Adding node: {node} with data: {data}")  # Debug print
         G.add_node(node, **data)
-        # print(G)
-    # print(G)
-    
-    # pos = {node: data['position'] for node, data in G.nodes(data= True)}
-    # print('pos: ', pos)
-    print('g before add egdes', G)
-    edges = [(edge[0], edge[1]) for edge in graph_data['edges']]
-    edges = [(0,1)]
-    edges = [(0,1), (1,2), (2,3)]
-    print('graph_data_edges: ', graph_data['edges'])
-    print('edges: ', edges)
-    # G.add_edges_from(graph_data['edges'])
-    G.add_edges_from(edges)
-    print('g after add egdes', G)
-    print("Graph mit Kanten: ", G) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    print(f"Graph after adding nodes: {G.nodes(data=True)}")  # Debug print
+    print(f"Graph after adding nodes: {G}")  # Debug print
 
-    # plot_graph_3D(G)
+    edges = [(str(edge[0]), str(edge[1])) for edge in graph_data['edges']]
+    print(f"Adding edges: {edges}")  # Debug print
+
+    ## Bugfixing: Check for nodes in edges that are not in the initial set of nodes
+    initial_nodes = set(G.nodes())
+    edge_nodes = set(node for edge in edges for node in edge)
+    missing_nodes = edge_nodes - initial_nodes
+    if missing_nodes:
+        print(f"Warning: The following nodes are referenced in edges but were not in the initial set of nodes: {missing_nodes}")
+
+    G.add_edges_from(edges)
+    print(f"Graph after adding edges: {G.edges(data=True)}")  # Debug print
+    print(f"Graph with nodes and edges: {G}")  # Debug print
+
+    plot_graph_3D(G)
 
 
 def save_graph_to_json(G, json_file_path):
