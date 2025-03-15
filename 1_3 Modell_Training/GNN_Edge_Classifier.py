@@ -8,6 +8,7 @@ from torch_geometric.data import Data
 from torch_geometric.loader import DataLoader
 from torch_geometric.nn import GCNConv
 from pathlib import Path
+from itertools import combinations
 
 
 
@@ -79,10 +80,15 @@ def train_GNN(json_folder_path):
         for data in loader:
             optimizer.zero_grad()
             out = model(data)
-            loss = criterion(out, data.y)
-            loss.backward()
-            optimizer.step()
-            total_loss += loss.item()
+            # print(f"out: {out}") # Debugging statement
+            print(f"data.y.numel: {data.y.numel()}") # Debugging statement
+            # Absichern, dass gelabelte Daten vorhanden sind.
+            if data.y.numel() > 0:
+                print(f"out shape: {out.shape}, data.y shape: {data.y.shape}") # Debugging statement
+                loss = criterion(out, data.y)
+                loss.backward()
+                optimizer.step()
+                total_loss += loss.item()
         
         print(f"Epoch {epoch + 1}, Loss: {total_loss / len(loader)}")
     
@@ -103,6 +109,15 @@ def load_graph_from_json(json_file_path):
     with open(json_file_path, "r") as f:
         graph_data = json.load(f)
     
+    #Automatic inspection of graph
+    num_nodes = len(graph_data["nodes"])
+    num_edges = len(graph_data["edges"])
+    print(f"Loaded file_path: {json_file_path}")  # Debugging statement
+    print(f"num_nodes: {num_nodes}") # Debugging statement
+    print(f"num_edges: {num_edges}") # Debugging statement
+    # print(f"Loaded nodes: {G.nodes}")  # Debugging statement
+    # print(f"Loaded edges: {edges}")  # Debugging statement
+    
     G = nx.Graph()
     for node, data in graph_data['nodes'].items():
         node = int(node) # Ensure node ID is a string
@@ -114,14 +129,6 @@ def load_graph_from_json(json_file_path):
 
 def create_data_from_graph(G, edges):
     """Erstellt ein PyTorch-Geometric-Data-Objekt aus einem Netzwerkx-Graphen"""
-    # x = torch.tensor([list(data.values()) for _, data in G.nodes(data= True)], dtype= torch.float)
-    # x = torch.tensor([item for sublist in [list(data.values()) for _, data in G.nodes(data=True)] 
-    #                   for item in sublist], dtype=torch.float)
-    # x = torch.tensor([item for _, data in G.nodes(data=True) for item in data.values()], 
-    #                  dtype=torch.float)
-    # x = torch.tensor([item for _, data in G.nodes(data=True) for sublist in data.values() 
-    #                   for item in (sublist if isinstance(sublist, list) else [sublist])], 
-    #                   dtype=torch.float)
     node_features = []
     for _, data in G.nodes(data= True):
         for value in data.values():
@@ -134,8 +141,16 @@ def create_data_from_graph(G, edges):
     # Flatten the node_features list
     flat_node_features = [item for sublist in node_features for item in (sublist if isinstance(sublist, list) else [sublist])]
     x = torch.tensor(flat_node_features, dtype=torch.float).view(len(G.nodes), -1)
-    edge_index = torch.tensor(edges, dtype=torch.long).t().contiguous()
-    data = Data(x=x, edge_index=edge_index)
+
+    # Create all possible edge combinations
+    possible_edges = list(combinations(G.nodes, 2))
+    edge_index = torch.tensor(possible_edges, dtype=torch.long).t().contiguous()
+
+    # Create all labels for edge classification
+    edge_set = set(edges)
+    y = torch.tensor([1 if (u, v) in edge_set or (v, u) in edge_set else 0 for u, v in possible_edges], dtype=torch.long)
+
+    data = Data(x=x, edge_index=edge_index, y=y)
     return data
 
 
