@@ -10,6 +10,10 @@ from torch_geometric.nn import GCNConv
 from pathlib import Path
 from itertools import combinations
 import matplotlib.pyplot as plt
+import logging
+
+# Set up logging
+logging.basicConfig(filename='training.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
 
 
@@ -18,6 +22,7 @@ def main():
     """Hauptfunktion zum Trainieren des GNN-Modells"""
     global script_dir
     script_dir = Path(__file__).parent
+    # Alternative Wege
     # script_dir = Path.cwd() # Alternative: Path(__file__).parent
     # print(f"Script-Dir - {script_dir.exists()}: {script_dir}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -27,6 +32,7 @@ def main():
     
     
     ## Trainiere seriell GNN für alle JSON-Dateien
+    json_folder_names = ["Modell_2_Parametrisch Stahlbeton Index"]
     json_folder_names = ["Modell_2_Parametrisch Stahlbeton Index 000_099"]
     # json_folder_names = []
     json_folder_paths = get_folder_paths(script_dir, json_folder_names)
@@ -106,7 +112,8 @@ def train_GNN(json_folder_path):
         
         avg_loss = total_loss / len(loader)
         loss_values.append(avg_loss)
-        print(f"Epoch {epoch + 1}, Loss: {avg_loss}")
+        logging.info(f"Epoch {epoch + 1}, Loss: {avg_loss}")
+        print(f"Epoch {epoch + 1}, Loss: {avg_loss}") # Debugging statement
 
         # Speicher bestes Modell (Parameterset)
         if avg_loss < best_loss:
@@ -114,7 +121,7 @@ def train_GNN(json_folder_path):
             save_model(model, json_folder_path, best= True)
     
     save_model(model, json_folder_path, best= False)
-    plot_loss(loss_values)
+    plot_loss(loss_values, json_folder_path)
 
 
 
@@ -136,9 +143,10 @@ def load_graph_from_json(json_file_path):
     # Automatic inspection of graph
     num_nodes = len(graph_data["nodes"])
     num_edges = len(graph_data["edges"])
-    print(f"Loaded file_path: {json_file_path}")  # Debugging statement
-    print(f"num_nodes: {num_nodes}") # Debugging statement
-    print(f"num_edges: {num_edges}") # Debugging statement
+    logging.info(f"Loaded file_path: {json_file_path}, num_nodes: {num_nodes}, num_edges: {num_edges}")
+    # print(f"Loaded file_path: {json_file_path}")  # Debugging statement
+    # print(f"num_nodes: {num_nodes}") # Debugging statement
+    # print(f"num_edges: {num_edges}") # Debugging statement
     # print(f"Loaded nodes: {G.nodes}")  # Debugging statement
     # print(f"Loaded edges: {edges}")  # Debugging statement
     
@@ -166,11 +174,11 @@ def create_data_from_graph(G, edges):
     flat_node_features = [item for sublist in node_features for item in (sublist if isinstance(sublist, list) else [sublist])]
     x = torch.tensor(flat_node_features, dtype=torch.float).view(len(G.nodes), -1)
 
-    # Create all possible edge combinations
+    # Erstelle alle möglichen Kantenverbindungen
     possible_edges = list(combinations(G.nodes, 2))
     edge_index = torch.tensor(possible_edges, dtype=torch.long).t().contiguous()
 
-    # Create all labels for edge classification
+    # Setze alle Kantenverbindungen aus Beschriftung auf 1, Rest auf 0
     edge_set = set(edges)
     y = torch.tensor([1 if (u, v) in edge_set or (v, u) in edge_set else 0 for u, v in possible_edges], dtype=torch.long)
 
@@ -179,36 +187,54 @@ def create_data_from_graph(G, edges):
 
 
 def save_model(model, json_folder_path, best= False):
+    ## Bereite Speicherdirectory vor
+    model_folder_name = Path(json_folder_path).parent.name
+    model_folder_path = script_dir / model_folder_name
+    os.makedirs(model_folder_path, exist_ok= True)
+
     ## Speicher Modell in Graph-Format
-    model_folder = script_dir / "GNN_Model"
-    os.makedirs(model_folder, exist_ok= True)
-    model_path = model_folder / ("gnn_model_best.pth" if best else "gnn_model_last.pth")
+    model_path = model_folder_path / ("gnn_model_best.pth" if best else "gnn_model_last.pth")
     torch.save(model.state_dict(), model_path)
-    print(f"Model saved to {model_path}")
+    logging.info(f"Model saved to {model_path}")
+    # print(f"Model saved to {model_path}") # Debugging statement
 
     ## Speicher Modell in JSON-Format
-    model_json_path = model_folder / ("gnn_model_best.json" if best else "gnn_model_last.json")
+    model_path_json = model_folder_path / ("gnn_model_best.json" if best else "gnn_model_last.json")
     model_params = {k: v.tolist() for k, v in model.state_dict().items()}
-    with open(model_json_path, 'w') as f:
+    with open(model_path_json, 'w') as f:
         json.dump(model_params, f)
-    print(f"Model parameters saved to {model_json_path}")
+    logging.info(f"Model parameters saved to {model_path_json}")
+    # print(f"Model parameters saved to {model_path_json}
 
 
-def plot_loss(loss_values):
+def plot_loss(loss_values, json_folder_path):
     plt.figure()
     plt.plot(loss_values, label='Training Loss')
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
     plt.title('Training Loss Over Epochs')
     plt.legend()
+    
+    ## Speicher und Plotte Bild
+    model_folder_name = Path(json_folder_path).parent.name
+    model_folder_path = script_dir / model_folder_name
+    os.makedirs(model_folder_path, exist_ok= True)
+
+    file_name = 'training_loss.png'
+    plt.savefig(model_folder_path / file_name)
+    print(f"Diagramm gespeichert als {file_name}")
     plt.show()
+    logging.info("Training loss plot saved as training_loss.png")
+
 
 
 
 
 if __name__ == "__main__":
-    print("___Intitialisiere Skript___")
+    logging.info("___Intitialisiere Skript___")
+    # print("___Intitialisiere Skript___")
 
     main()
 
-    print("___Skript erfolgreich beendet___")
+    logging.info("___Skript erfolgreich beendet___")
+    # print("___Skript erfolgreich beendet___")
