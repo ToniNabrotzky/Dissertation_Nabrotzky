@@ -15,32 +15,30 @@ def main():
     # script_dir = Path.cwd() # Alternative: Path(__file__).parent
     # print(f"Script-Dir - {script_dir.exists()}: {script_dir}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    ## Teste einzelne Graphen
-    json_folder = r"H:\1_2 Data_Preprocessing\Modell_2_Parametrisch Stahlbeton\JSON_Graph"
-    json_name = "Parametrisches_Modell Index_012.json"
-    json_file = f"{json_folder}\\{json_name}"
-    # json_file = r"H:\1_2 Data_Preprocessing\Modell_2_Parametrisch Stahlbeton\JSON_Graph\Parametrisches_Modell Index_016.json"
-    plot_graph_3D_from_json(json_file)
+    ## Teste einen gespeicherten Graphen
+    # graph_folder = r"H:\1_2 Data_Preprocessing\Modell_2_Parametrisch Stahlbeton\Graph_Save"
+    # graph_file_name = "Parametrisches_Modell Index_005.json"
+    # graph_file_path = f"{graph_folder}\\{graph_file_name}"
+    # plot_graph_3D(graph_file_path)
     
-    ## Erstelle seriell Graphen für alle JSON-Dateien
-    # json_folder_names = ["Modell_2_Parametrisch IfcOpenShell", "Modell_2_Tutorial BimVision"]
-    json_folder_names = ["Modell_2_DataBase", "Modell_2_Parametrisch Stahlbeton"]
-    # json_folder_names = []
-    json_folder_paths = get_folder_paths(script_dir, json_folder_names)
+    
+    ## Erstelle seriell Graphen aus allen IFC-Extracts
+    extracts_folder_names = ["Modell_2_DataBase", "Modell_2_Parametrisch Stahlbeton"]
+    extracts_folder_paths = get_folder_paths(script_dir, extracts_folder_names)
 
-    for json_folder_path in json_folder_paths:
-        # print(f"json-Folder-Path - {json_folder_path.exists()}:  {json_folder_path}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        generate_graph_from_json(json_folder_path)
+    for extracts_folder_path in extracts_folder_paths:
+        # print(f"extracts-Folder-Path - {extracts_folder_path.exists()}:  {extracts_folder_path}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        generate_graph_from_extracts(extracts_folder_path)
 
 
-def generate_graph_from_json(json_folder_path):
-    """Extrahiert Daten aus JSON-Dateien und speichert sie in einem Graphen"""
+def generate_graph_from_extracts(extracts_folder_path):
+    """Extrahiert Daten aus JSON-Dateien und speichert sie als Graph"""
     ## Durchsuche folder_path nach allen JSON-Dateien
-    if not json_folder_path.exists():
-        print(f"__Ordner nicht gefunden. Fehlender Pfad: {json_folder_path}")
+    if not extracts_folder_path.exists():
+        print(f"__Ordner nicht gefunden. Fehlender Pfad: {extracts_folder_path}")
     else:
-        print(f"__Ordner gefunden. Suche JSON-Dateien in: {json_folder_path}")
-        json_files = [datei for datei in os.listdir(json_folder_path) if datei.lower().endswith('.json')]
+        print(f"__Ordner gefunden. Suche JSON-Dateien in: {extracts_folder_path}")
+        json_files = [datei for datei in os.listdir(extracts_folder_path) if datei.lower().endswith('.json')]
         # print(f"JSON-Dateien: {json_files}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     
         if not json_files:
@@ -49,40 +47,48 @@ def generate_graph_from_json(json_folder_path):
             print(f"  __JSON-Dateien gefunden. Starte Extraktion...")
 
             for json_file in json_files:
-                # print('json_file (generate_graph_from_json): ', json_file) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                # print('json_file (generate_graph_from_extracts): ', json_file) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 print(f"\n  __Analysiere Datei: {json_file}")
 
                 ## Öffne JSON-Datei
-                json_file_path = json_folder_path / json_file
+                extracts_file_path = extracts_folder_path / json_file
 
                 ## Extrahiere Elemente
-                elements = get_elements_from_json(json_file_path)
+                elements = get_elements_from_json(extracts_file_path)
 
                 ## Graph erstellen
                 G = create_graph_from_elements(elements)
                 print("Graph unverbunden: ", G) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                # plot_graph_3D(G)
 
                 ## Kanten erstellen
                 edges = create_edges_from_elements(elements)
-                print("Kanten: ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                # print("Kanten: ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
                 ## Kanten dem Graphen hinzufügen
                 G.add_edges_from(edges)
                 print("Graph mit Kanten: ", G) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                # plot_graph_3D(G)
 
                 ## Speicher Graph und Kantenliste
-                save_graph_to_json(G, json_file_path)
+                graph_folder_path = Path(extracts_file_path).parent.parent / "Graph_Save"
+                os.makedirs(graph_folder_path, exist_ok=True) # Ordner erstellen, falls noch nicht vorhanden
+                graph_file_name = Path(extracts_file_path).name # Mit Dateiendung. Ohne geht über ".stem"
+                graph_file_path = graph_folder_path / graph_file_name
+                # print('graph_file_path :', graph_file_path) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                save_graph_to_json(G, graph_file_path)
+
+                ## Plotte und speicher den Graphen
+                plot_graph_3D(graph_file_path)
+
 
 
 
 """Hilfsfunktionen """
 def get_folder_paths(script_dir, folder_names):
     """Gibt eine Liste von Pfaden zu den Ordnern zurück"""  
-    json_folder_paths = [script_dir / folder_name / 'JSON_IFC' for folder_name in folder_names]
+    extracts_folder_paths = [script_dir / folder_name / 'IFC_Extract' for folder_name in folder_names]
     # # print(f"Folder-Paths: {json_folder_paths}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    return json_folder_paths
+    return extracts_folder_paths
 
 
 def get_elements_from_json(json_file):
@@ -214,19 +220,52 @@ def create_edges_from_elements(elements):
     return edges
 
 
-def plot_graph_2D(G):
-    """Plottet den 2D-Graphen mit den Knotenpositionen"""
-    pos = {node: data['position'] for node, data in G.nodes(data= True)}
+def save_graph_to_json(G, graph_file_path):
+    """Speichert den Graphen und die Kantenliste in einer JSON-Datei"""
+    graph_data = {
+        'nodes': {node: data for node, data in G.nodes(data= True)},
+        'edges': list(G.edges())
+    }
 
-    nx.draw(G, pos,with_labels= True, node_size= 50, node_color= 'green', font_size= 8)
-    plt.show()
+    ## Speichere Graph und Kantenliste in JSON-Datei
+    with open(graph_file_path, "w") as f:
+        json.dump(graph_data, f, indent= 4)
+    print(f"  __Graph und Kantenliste gespeichert in: {graph_file_path}")
 
 
-def plot_graph_3D(G):
+def plot_graph_3D(graph_file_path):
+    """Plottet den 3D-Graphen mit den Knotenpositionen aus einer JSON-Datei und speichert Bild"""
+    print("file_path: ", graph_file_path)
+    with open(graph_file_path, "r") as f:
+        graph_data = json.load(f)
+    
+    G = nx.Graph()
+    for node, data in graph_data['nodes'].items():
+        node = str(node) # Ensure node ID is a string
+        # print(f"Adding node: {node} with data: {data}")  # Debug print
+        G.add_node(node, **data)
+    # print(f"Graph after adding nodes: {G.nodes(data=True)}")  # Debug print long
+    print(f"Graph after adding nodes: {G}")  # Debug print short
+
+    edges = [(str(edge[0]), str(edge[1])) for edge in graph_data['edges']]
+    # print(f"Adding edges: {edges}")  # Debug print
+
+    ## Bugfixing: Check for nodes in edges that are not in the initial set of nodes
+    initial_nodes = set(G.nodes())
+    edge_nodes = set(node for edge in edges for node in edge)
+    missing_nodes = edge_nodes - initial_nodes
+    if missing_nodes:
+        print(f"Warning: The following nodes are referenced in edges but were not in the initial set of nodes: {missing_nodes}")
+
+    G.add_edges_from(edges)
+    # print(f"Graph after adding edges: {G.edges(data=True)}")  # Debug print
+    print(f"Graph with nodes and edges: {G}")  # Debug print
+
+
     """Plottet den 3D-Graphen mit den Knotenpositionen"""
     pos = {node: data['position'] for node, data in G.nodes(data= True)}
     color_map = {
-        0: 'gray', # IfcBuildingElementProxy
+        1: 'aquamarine', # IfcBeam
         1: 'aquamarine', # IfcBeam
         2: 'darkorange', # IfcColumn
         3: 'darkolivegreen', # IfcFoundation
@@ -241,74 +280,28 @@ def plot_graph_3D(G):
     fig = plt.figure()
     ax = fig.add_subplot(111, projection= '3d')
 
+    ## Plotte Knoten
     for node, (x, y, z) in pos.items():
         node_color = color_map.get(G.nodes[node]['ifc_class'], 'gray')
         ax.scatter(x, y, z, color= node_color, s= 50)
         ax.text(x, y, z, s= node, fontsize= 10)
 
+    ## Plotte Kanten
     for edge in G.edges():
         x= [pos[edge[0]][0], pos[edge[1]][0]]
         y= [pos[edge[0]][1], pos[edge[1]][1]]
         z= [pos[edge[0]][2], pos[edge[1]][2]]
         ax.plot(x, y, z, color= 'black')    
     
-    plt.show()
-
-
-def plot_graph_3D_from_json(json_file_path):
-    """Plottet den 3D-Graphen mit den Knotenpositionen aus einer JSON-Datei"""
-    with open(json_file_path, "r") as f:
-        graph_data = json.load(f)
+    ## Speicher und plotte den Graphen
+    image_folder_path = Path(graph_file_path).parent.parent / "Graph_Image"
+    os.makedirs(image_folder_path, exist_ok=True) # Ordner erstellen, falls noch nicht vorhanden
+    image_file_name = Path(graph_file_path).stem + '.png' # Dateiname ohne Suffix
+    image_file_path = image_folder_path / image_file_name
+    print('image_file_path: ', image_file_path)
+    plt.savefig(image_file_path)
     
-    G = nx.Graph()
-    for node, data in graph_data['nodes'].items():
-        node = str(node) # Ensure node ID is a string
-        print(f"Adding node: {node} with data: {data}")  # Debug print
-        G.add_node(node, **data)
-    print(f"Graph after adding nodes: {G.nodes(data=True)}")  # Debug print
-    print(f"Graph after adding nodes: {G}")  # Debug print
-
-    edges = [(str(edge[0]), str(edge[1])) for edge in graph_data['edges']]
-    print(f"Adding edges: {edges}")  # Debug print
-
-    ## Bugfixing: Check for nodes in edges that are not in the initial set of nodes
-    initial_nodes = set(G.nodes())
-    edge_nodes = set(node for edge in edges for node in edge)
-    missing_nodes = edge_nodes - initial_nodes
-    if missing_nodes:
-        print(f"Warning: The following nodes are referenced in edges but were not in the initial set of nodes: {missing_nodes}")
-
-    G.add_edges_from(edges)
-    print(f"Graph after adding edges: {G.edges(data=True)}")  # Debug print
-    print(f"Graph with nodes and edges: {G}")  # Debug print
-
-    plot_graph_3D(G)
-
-
-def save_graph_to_json(G, json_file_path):
-    """Speichert den Graphen und die Kantenliste in einer JSON-Datei"""
-    graph_data = {
-        'nodes': {node: data for node, data in G.nodes(data= True)},
-        'edges': list(G.edges())
-    }
-
-    ## Definiere Namen und Pfad für JSON-Datei
-    graph_folder_path = Path(json_file_path).parent.parent / "JSON_Graph"
-    os.makedirs(graph_folder_path, exist_ok=True) # Ordner erstellen, falls noch nicht vorhanden
-    graph_file_name = Path(json_file_path).name
-    graph_file_path = graph_folder_path / graph_file_name
-    # print('graph_file_path :', graph_file_path) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-    ## Speichere Graph und Kantenliste in JSON-Datei
-    with open(graph_file_path, "w") as f:
-        json.dump(graph_data, f, indent= 4)
-    print(f"  __Graph und Kantenliste gespeichert in: {graph_file_path}")
-
-
-## Modellpfade (nicht mehr gebraucht)
-Param_Modell_001 = r"H:\1_2 Data_Preprocessing\Modell_2_Parametrisch IfcOpenShell\JSON\Parametrisches_Modell Index_001.json"
-CoreHouse = r"H:\1_2 Data_Preprocessing\Modell_2_Parametrisch IfcOpenShell\JSON\CoreHouse_VanDerRohe.json"
-BimVision_47L = r"H:\1_2 Data_Preprocessing\Modell_2_Tutorial BimVision\47L.json"
+    # plt.show()
 
 
 
