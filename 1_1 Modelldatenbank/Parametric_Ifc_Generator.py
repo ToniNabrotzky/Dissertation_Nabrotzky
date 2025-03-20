@@ -13,6 +13,50 @@ import json
 
 
 
+"""Hauptfunktion"""
+def main():
+    """Hauptfunktion zum Erzeugen von IFC-Dateien"""
+
+    ## Definiere Parameterbereich
+    global param_values
+    param_values = {
+        ## Parameter 2D-Gitter
+        'grid_x_n': [2, 5],
+        'grid_y_n': [3, 5],
+        'grid_x_size': [5.0, 8], # in [m]
+        'grid_y_size': [7.5, 10.0], # in [m]
+        'grid_x_offset': [0.0, 4.0], # in [m]
+        'grid_y_offset': [0.0, 3.0], # in [m]
+        'grid_rotation': [0.0], # in [degree] --> Bauteile passen sich Drehung nicht mit an
+        ## Parameter Geschoss
+        'floors': [2, 4, 6],
+        'floor_height': [2.8], # in [m]
+        ## Parameter Bauteil - Platten
+        'slab_thickness': [0.3], # in [m]
+        'foundation_thickness': [0.6],  # in [m]
+        ## Parameter Bauteil - Stützen
+        'corner_columns': [True, False],
+        'edge_columns': [True, False],
+        'inner_columns': [True, False],
+        'column_profile': [ProfileFactory.Rec_20_30] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
+    }
+    
+    ## Generiere alle möglichen Parameterkombinationen
+    global param_combination
+    param_combination = BuildingParameters.generate_parameter_combination(param_values)
+
+    BuildingParameters.Beispiel_Param_Kombi_Indices() #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # BuildingParameters.Beispiel_Param_Kombi_Set(max_index = 6) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    ## Exportiere IFC-Modelle
+    folder_path = get_folder_path()
+    # index_list = [0, 1, 2] # Leere Liste beudeutet alle Kombinationen
+    index_list = [] # Leere Liste beudeutet alle Kombinationen
+
+    export_ifc_model(folder_path, index_list)
+
+
+
 """1. Definition Parameter für das Bauwerk"""
 class BuildingParameters:
     """Klasse zum Speichern der Parameter für ein Bauwerk"""
@@ -572,11 +616,13 @@ class IfcFactory:
         
         if attributes['type'] == 'slab':
             ifcopenshell.api.run("pset.edit_pset", model, pset= pset, properties= {
+                "floor": attributes['floor'],
                 "modify_x": attributes['modify_x'],
                 "modify_y": attributes['modify_y'],
             })
         elif attributes['type'] == 'column':
             ifcopenshell.api.run("pset.edit_pset", model, pset= pset, properties= {
+                "floor": attributes['floor'],
                 "modify_heigth": attributes['modify_heigth'],
                 "position_type": attributes['position_type'],
             })
@@ -700,7 +746,7 @@ def export_parametersets(paramameters_dict, folder_path, index: int):
     ## Speichere Parameter als .json
     with open(json_file_path, 'w') as json_file:
         json.dump(paramameters_dict, json_file, indent=4)    
-    print(f"__Export Parameter erfolgreich für Index {index} als .txt und .json")
+    print(f"__Export Parameterset erfolgreich für Index {index} als .txt und .json")
 
 
 def export_building_geometry(geometry, folder_path, index: int):
@@ -727,152 +773,78 @@ def export_building_geometry(geometry, folder_path, index: int):
     print(f"__Export Gebäudegeometrie erfolgreich für Index {index} als .txt und .json")
 
 
-def export_ifc_solo_model(folder_path, index: int):
-    """Funktion zum Exportieren einer IFC-Datei einer Kombination"""
-    print(f"\n  __Start Export IFC-Modell. Aktueller Index: {index}")
-
-    ## Erhalte Parameterset basierend auf Index
-    parameters = param_combination[index]
-    parameters_dict = vars(parameters) # vars() wandelt params in Dict um: {'grid_x_field': 4, 'grid_y_field': 2, 'grid_x_size': 5.0, 'grid_y_size': 5.0, 'floors': 2, ...}
-    # paramameters_dict = params.__dict__ # Alternative zur Umwandlung in ein Dictionary
-    # print(parameters) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    # print(parameters_dict) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+def export_ifc_model(folder_path, index_list):
+    """Funktion zum Exportieren von IFC-Dateien bestimmter Kombinationen basierend auf ihrem Index"""
+    if index_list:
+        print(f"\n __ Start Export für spezifische IFC-Modelle. Indizes: {index_list}")
+    else:
+        index_list = range(len(param_combination))
+        print(f"\n __ Start Export für alle IFC-Modelle. Anzahl an Parametersets: {len(index_list)}")
     
-    ## Generiere Geometrie
-    building_geometry = BuildingGeometry(parameters)
-    grid_points = building_geometry.create_grid()
-    # print("erstelltes Grid:", grid_points) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    geometry = building_geometry.generate_geometry(index)
-    # print(geometry) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    for index in index_list:
+        print(f"\n __Start Export IFC-Modell. Aktueller Index: {index}")
 
-    ## Generiere IFC-Modell
-    ifc_factory = IfcFactory()
-    ifc_model = ifc_factory.generate_ifc_model(parameters, geometry, index)
+        ## Erhalte Parameterset basierend auf Index
+        parameters = param_combination[index]
+        parameters_dict = vars(parameters) # vars() wandelt params in Dict um: {'grid_x_field': 4, 'grid_y_field': 2, 'grid_x_size': 5.0, 'grid_y_size': 5.0, 'floors': 2, ...}
+        # paramameters_dict = params.__dict__ # Alternative zur Umwandlung in ein Dictionary
+        # print(parameters) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # print(parameters_dict) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        
+        ## Generiere Geometrie
+        building_geometry = BuildingGeometry(parameters)
+        grid_points = building_geometry.create_grid()
+        # print("erstelltes Grid:", grid_points) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        geometry = building_geometry.generate_geometry(index)
+        # print(geometry) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    ## Überprüfe und erstelle Ordnerpfad für IFC-Dateien
-    folder_name = (
-        f"{len(parameters_dict)} - "
-        f"Grid_{min(param_values['grid_x_n'])}x{min(param_values['grid_y_n'])}_"
-        f"{max(param_values['grid_x_n'])}x{max(param_values['grid_y_n'])} - "
-        f"Size_{min(param_values['grid_x_size'])}x{min(param_values['grid_y_size'])}_"
-        f"{max(param_values['grid_x_size'])}x{max(param_values['grid_y_size'])} - "
-        f"Floors_{min(param_values['floors'])}_{max(param_values['floors'])} - "
-        f"FH_{min(param_values['floor_height'])}_{max(param_values['floor_height'])} - "
-        # f"ST_{min(param_values['slab_thickness'])}_{max(param_values['slab_thickness'])} - "
-        # f"FT_{min(param_values['foundation_thickness'])}_{max(param_values['foundation_thickness'])} - "
-        f"CC{''.join(map(str, sorted(set(int(c) for c in param_values['corner_columns']))))}_"
-        f"EC{''.join(map(str, sorted(set(int(c) for c in param_values['edge_columns']))))}_"
-        f"IC{''.join(map(str, sorted(set(int(c) for c in param_values['inner_columns']))))}"
-    )
-    folder_dir = os.path.join(folder_path, folder_name)
-    os.makedirs(folder_dir, exist_ok=True) # Ordner erstellen, falls noch nicht vorhanden
+        ## Generiere IFC-Modell
+        ifc_factory = IfcFactory()
+        ifc_model = ifc_factory.generate_ifc_model(parameters, geometry, index)
 
-    file_name = f"Parametrisches_Modell Index_{index:03d}"
-    suffix = ".ifc"
+        ## Überprüfe und erstelle Ordnerpfad für IFC-Dateien
+        folder_name = (
+            f"{len(parameters_dict)} - "
+            f"Grid_{min(param_values['grid_x_n'])}x{min(param_values['grid_y_n'])}_"
+            f"{max(param_values['grid_x_n'])}x{max(param_values['grid_y_n'])} - "
+            f"Size_{min(param_values['grid_x_size'])}x{min(param_values['grid_y_size'])}_"
+            f"{max(param_values['grid_x_size'])}x{max(param_values['grid_y_size'])} - "
+            f"Floors_{min(param_values['floors'])}_{max(param_values['floors'])} - "
+            f"FH_{min(param_values['floor_height'])}_{max(param_values['floor_height'])} - "
+            # f"ST_{min(param_values['slab_thickness'])}_{max(param_values['slab_thickness'])} - "
+            # f"FT_{min(param_values['foundation_thickness'])}_{max(param_values['foundation_thickness'])} - "
+            f"CC{''.join(map(str, sorted(set(int(c) for c in param_values['corner_columns']))))}_"
+            f"EC{''.join(map(str, sorted(set(int(c) for c in param_values['edge_columns']))))}_"
+            f"IC{''.join(map(str, sorted(set(int(c) for c in param_values['inner_columns']))))}"
+        )
+        folder_dir = os.path.join(folder_path, folder_name)
+        os.makedirs(folder_dir, exist_ok=True) # Ordner erstellen, falls noch nicht vorhanden
 
-    full_path = os.path.join(folder_dir, file_name + suffix)
+        file_name = f"Parametrisches_Modell Index_{index:05d}"
+        suffix = ".ifc"
 
-    ## Exportiere Parameterset
-    export_parametersets(parameters_dict, folder_dir, index)
+        full_path = os.path.join(folder_dir, file_name + suffix)
 
-    ## Exportiere Gebäudegeometrie
-    export_building_geometry(geometry, folder_dir, index)
+        ## Exportiere Parameterset
+        export_parametersets(parameters_dict, folder_dir, index)
 
-    ## Exportiere IFC-Datei
-    ifc_model.write(full_path)
-    print(f"__Export IFC-Modell erfolgreich für {index} in Pfad: {full_path}")
+        ## Exportiere Gebäudegeometrie
+        export_building_geometry(geometry, folder_dir, index)
+
+        ## Exportiere IFC-Datei
+        ifc_model.write(full_path)
+        print(f"__Export IFC-Modell erfolgreich für {index} in Pfad: {full_path}")
 
 
-def export_ifc_range_model(folder_path):
-    """Funktion zum Exportieren aller IFC-Dateien aller Kombinationen"""
-    print(f"__Start Export für alle IFC-Modelle. Anzahl an Parametersets: {len(param_combination)}")
-
-    for index in range(len(param_combination)):
-        export_ifc_solo_model(folder_path, index)
 
 
 
 if __name__ == "__main__":
     print("___Intitialisiere Skript___")
 
-    """1. Definition Parameter für das Bauwerk"""
-    param_values = {
-        ### Parameter 2D-Gitter
-        'grid_x_n': [2, 5],
-        'grid_y_n': [3, 5],
-        'grid_x_size': [5.0, 8], # in [m]
-        'grid_y_size': [7.5, 10.0], # in [m]
-        'grid_x_offset': [0.0, 4.0], # in [m]
-        'grid_y_offset': [0.0, 3.0], # in [m]
-        'grid_rotation': [0.0], # in [degree] --> Bauteile passen sich Drehung nicht mit an
-        ## Parameter Geschoss
-        'floors': [2, 4, 6],
-        'floor_height': [3.0, 2.6], # in [m]
-        ## Parameter Bauteil - Platten
-        'slab_thickness': [0.2, 0.3], # in [m]
-        'foundation_thickness': [0.6],  # in [m]
-        ## Parameter Bauteil - Stützen
-        'corner_columns': [True, False],
-        'edge_columns': [True, False],
-        'inner_columns': [True, False],
-        'column_profile': [ProfileFactory.IPE400, ProfileFactory.Rec_20_30] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
-    }
+    main()
 
-    
-    """2. Kombination Parameter zu einem Parameterset"""
-    ## Generiere alle möglichen Parameterkombinationen
-    # param_combination = generate_parameter_combination(param_values)
-    param_combination = BuildingParameters.generate_parameter_combination(param_values)
-
-    BuildingParameters.Beispiel_Param_Kombi_Indices() #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    # BuildingParameters.Beispiel_Param_Kombi_Set(max_index = 6) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-    
-    """3. Generierung Geometrie"""
-    # ### Testbereich eröffnet...
-    # parameters = param_combination[0] # ESSENZIELL !!!
-    # building_geometry = BuildingGeometry(parameters) # ESSENZIELL !!!
-
-    # ## Kleine Tests mit 1 Geschoss
-    # current_floor = 0
-    # current_z = current_floor * parameters.floor_height
-    # floor_name = 'EG'
-
-    # grid_points = building_geometry.create_grid() # ESSENZIELL !!!
-    # # print(grid_points), print(grid_points[-1])
-
-    # foundation = building_geometry.create_foundation()
-    # # print(foundation)
-
-    # slab = building_geometry.create_slab(current_z, current_floor, floor_name)
-    # # print(slab)
-    
-    # columns = building_geometry.create_columns(current_z, current_floor, floor_name, ['circle', 0.3])
-    # # print(columns), print(len(columns))
-
-    # ## Kleine Tests mit allen Geschossen
-    # geometry = building_geometry.generate_geometry() # ESSENZIELL !!!
-    # building_geometry.Beispiel_Building_Geometry(max_index = 20) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    # ### ...Testbereich geschlossen
-
-    
-    """4. Generierung IFC-Modell"""
-    # ## Erstelle Ifc-Modell
-    # ifc_factory = IfcFactory() # ESSENZIELL
-    # ifc_model = ifc_factory.generate_ifc_model(parameters, geometry) # ESSENZIELL
-
-    
-    """5. Export Daten"""
-    ## Beziehe Dateipfad
-    folder_path = get_folder_path()
-
-    ## Exportiere einzelnes IFC-Modell
-    export_ifc_solo_model(folder_path, index=0)
-    export_ifc_solo_model(folder_path, index=1)
-    export_ifc_solo_model(folder_path, index=2)
-
-    ## Exportiere alle Kombinationen für IFC-Modelle
-    # export_ifc_range_model(folder_path)
+    print("___Skript erfolgreich beendet___")
 
 
     
