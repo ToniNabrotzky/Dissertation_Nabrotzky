@@ -37,11 +37,11 @@ def main():
     
     """Trainiere seriell GNN aus mehreren Datasets"""
     # extracts_folder_names = ["Modell_2_Parametrisch Stahlbeton Index"] # Standardordner für alle Daten
-    graph_folder_names = ["Modell_2_Parametrisch Stahlbeton Index 000_099"]
+    graph_folder_names = ["Modell_2_Parametrisch Stahlbeton 00000_01535"]
     graph_folder_paths = get_folder_paths(script_dir, graph_folder_names)
 
     for graph_folder_path in graph_folder_paths:
-        # print(f"json-Folder-Path - {json_folder_path.exists()}:  {json_folder_path}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # print(f"graph-Folder-Path - {graph_folder_path.exists()}:  {graph_folder_path}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
         ## Durchsuche folder_path nach allen JSON-Dateien
         if not graph_folder_path.exists():
@@ -49,7 +49,7 @@ def main():
         else:
             print(f"__Ordner gefunden. Suche JSON-Dateien in: {graph_folder_path}")
 
-            # Umleitung der Standardausgabe
+            # Umleitung der Standardausgabe zu Konsole und Teft-File
             plotter = Plotter(script_dir, graph_folder_path)
             original_stdout = sys.stdout
             with open(plotter.model_folder_path / 'terminal_output.txt', 'w') as f:
@@ -94,16 +94,19 @@ def train_GNN(graph_folder_path):
     Val_Prozent = 0.5 # Wie viel Prozent sollen ans Testen gehen? Rest von oben bleibt bei Val.
     Hidden = 32 #Default= 32
     Lernrate = 0.01 #Default= 0.01
+    Kriterium = 'CrossEntropyLoss_mit_Gewichtsklassifizierung'
+    #Default= 'CrossEntropyLoss' oder 'CrossEntropyLoss_mit_Gewichtsklassifizierung' oder 'Focal_Loss'
     Epochenzahl = 100 #Default= 100
     Batch_Größe = 256 #Default= 256
     print(f"""
     Übersicht zur Modellarchitektur:
+          Modelltyp= GNN
           Input | Hidden: {Hidden} (Conv1, ReLU, Dropout, Conv2, Dropout)| EdgePredictor: Hidden*2 | Out: 2 
           Dropout= 0.5 standardmäßig
     Hyperparameter:
           Aufteilung Training / Validierung / Test: {(1 - Train_Prozent) * 100} / {(Train_Prozent * (1 - Val_Prozent)) * 100} / {Train_Prozent * Val_Prozent * 100}
           optimizer= Adam, LR= {Lernrate}
-          Criterion= CrossEntropyLoss
+          Criterion= {Kriterium}
           Early Stopping: Aktiviert
     Training:
           Epochenzahl= {Epochenzahl}
@@ -111,16 +114,26 @@ def train_GNN(graph_folder_path):
           """)
     
 
-    ## Lade Daten ein und erstelle Datensets mit Batches
+    ## Ertselle Datenset und teile es in Batches ein
     dataset = []
+    num_positives = 0
+    num_negatives = 0
+
     for json_file in json_files:
         json_file_path = os.path.join(graph_folder_path, json_file)
         # Lade Graphen und Kanten als beschriftete Daten ins Dataset
-        G, edges = load_graph_from_json(json_file_path)
+        G, edges, positives, negatives = load_graph_from_json(json_file_path)
+        # print("edges 'train_GNN': ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # for edge in edges:
+        #     print("edge 'train_GNN': ", edge['label'] == 1) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # print(sum([1 for edge in edges if edge['label'] == 1])) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         
-        # Bugfixing um zu sehen, ob überhaupt positive Labes erzeugt werden vom GNN
-        # edges = add_random_edges(G, int(len(edges) * 0.6))
+        ## Bugfixing um zu sehen, ob überhaupt positive Labels erzeugt werden vom GNN
+        # edges = add_random_edges(G, int(len(edges)), positives= 0.5)
+        # print("edges 'train_GNN_rand': ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+        num_positives += positives
+        num_negatives += negatives
         data = create_data_from_graph(G, edges)
         dataset.append(data)
 
@@ -155,34 +168,41 @@ def train_GNN(graph_folder_path):
     ## Definition einiger Hyperparameter
     model = GNN(input_dim= dataset[0].num_node_features, hidden_dim= Hidden, output_dim= 2)
     optimizer = optim.Adam(model.parameters(), lr= Lernrate) # Alternative: Stochastic Gradient Descent (SGD)
-    # Var1: Berechnung der Klassengewichte zur Berücksichtigung der wenigen positiven Ergebnisse
-    num_positive = sum([1 for edge in edges if edge.label == 1]) # Debugging statement
-    num_negative = sum([1 for edge in edges if edge.label == 0]) # Debugging statement
-    print(f"Positive Labels: {num_positive}, Negative Labels: {num_negative}") # Debugging statement
 
-    # positive_weight = len(all_edges) / sum([1 for edge in all_edges if edge.label == 1])
-    # negative_weight = len(all_edges) / sum([1 for edge in all_edges if edge.label == 0])
-    # class_weights = torch.tensor([negative_weight, positive_weight], dtype=torch.float)
-    # criterion = nn.CrossEntropyLoss(weight= class_weights) # Alternative: BCEWithLogitsLoss, MSE, Hinge Loss, Focal Loss, KL Divergence
-    # Var2: Berechnung mit Focal Loss
-    criterion = FocalLoss(alpha= 0.25, gamma= 2)
+    ## Definition der Verlustfunktion
+    # Var1: Berechnung mit CrossEntropyLoss
+    if Kriterium == 'CrossEntropyLoss':
+        criterion = nn.CrossEntropyLoss() # Alternative: BCEWithLogitsLoss, MSE, Hinge Loss, Focal Loss, KL Divergence
+
+    # Var2 Kriterium: Berechnung der Klassengewichte zur Berücksichtigung der wenigen positiven Ergebnisse
+    elif Kriterium == 'CrossEntropyLoss_mit_Gewichtsklassifizierung':
+        positive_weight = len(edges) / num_positives
+        negative_weight = len(edges) / num_negatives
+        class_weights = torch.tensor([negative_weight, positive_weight], dtype=torch.float)
+        criterion = nn.CrossEntropyLoss(weight= class_weights)
+    
+    # Var3 Kriterium: Berechnung mit Focal Loss
+    elif Kriterium == 'Focal_Loss':
+        criterion = FocalLoss(alpha= 0.25, gamma= 2)
+    else:
+        raise NotImplementedError("Dies Variante der Verlustberechnung wurde noch nicht integriert")
     
     ## Aktiviere externe Classes
-    early_stopping = EarlyStopping(patience=10, min_delta=0.01)
+    early_stopping = EarlyStopping(patience= 20, min_delta= 0.02)
     plotter = Plotter(script_dir, graph_folder_path)
 
     ## Listen für Werterfassung
     best_loss = float('inf')
-    loss_values = []
-    train_losses = []
-    val_losses = []
-    train_accuracies = []
-    val_accuracies = []
-    test_accuracies = []
+    loss_values = [] # Verlust pro Lernepoche
+    train_losses = [] # Verluste im Training
+    val_losses = [] # Verluste in Validierung
+    train_accuracies = [] # Genauigkeit im Training
+    val_accuracies = [] # Genauigkeit in Validierung
+    test_accuracies = [] # Genauigkeit in Test
 
     ## Epochenweises Training des GNN
     for epoch in range(Epochenzahl):
-        ## Setze Modell in Trainings-Modus zfür spezifisches Verhalten (Dropout, BatchNorm, etc.)
+        ## Setze Modell in Trainings-Modus für spezifisches Verhalten (Dropout, BatchNorm, etc.)
         total_loss = 0
         model.train()
 
@@ -190,7 +210,7 @@ def train_GNN(graph_folder_path):
             optimizer.zero_grad()
             out = model(data)
 
-            # Absichern, dass gelabelte Daten vorhanden sind.
+            ## Absichern, dass gelabelte Daten vorhanden sind.
             if data.y.numel() > 0:
                 # print(f"out shape: {out.shape}, data.y shape: {data.y.shape}") # Debugging statement
                 loss = criterion(out, data.y)
@@ -200,21 +220,15 @@ def train_GNN(graph_folder_path):
             else:
                 print("Keine beschrifteten Daten vorhanden!!!")
         
-        # Fehlerberechnung Verlustfunktion
+        ## Fehlerberechnung Verlustfunktion
         avg_loss = total_loss / len(train_loader)
         loss_values.append(avg_loss)
         train_losses.append(avg_loss)
         logging.info(f"Epoch {epoch + 1}, Loss: {avg_loss}")
 
-        # Modellauswertung der Train Accuracy
+        ## Modellauswertung der Train Accuracy
         train_accuracy, test_precision, train_recall, test_f1, train_con_matrix = evaluate_model(model, train_loader)
         train_accuracies.append(train_accuracy)
-        print(f"Epoch: {epoch +1 }: Train Accuracy: {train_accuracy}, Precision: {train_accuracy}, Recall: {train_accuracy}, F1-Score: {train_accuracy}")
-        
-        # Modellauswertung mit Validierungsdatenset
-        val_accuracy, val_precision, val_recall, val_f1, val_con_matrix = evaluate_model(model, val_loader)
-        val_accuracies.append(val_accuracy)
-        print(f"\tValidation Accuracy: {val_accuracy}, Precision: {val_precision}, Recall: {val_recall}, F1-Score: {val_f1}")
 
         ## Setze Modell in Validierungsmodus
         val_loss = 0
@@ -228,17 +242,28 @@ def train_GNN(graph_folder_path):
         avg_val_loss = val_loss / len(val_loader)
         val_losses.append(avg_val_loss)
 
-        # Modellauswertung mit Testdatenset
+        ## Modellauswertung mit Validierungsdatenset
+        val_accuracy, val_precision, val_recall, val_f1, val_con_matrix = evaluate_model(model, val_loader)
+        val_accuracies.append(val_accuracy)        
+
+        ## Modellauswertung mit Testdatenset
         test_accuracy, test_precision, test_recall, test_f1, test_conf_matrix = evaluate_model(model, test_loader)
         test_accuracies.append(test_accuracy)
+
+        ## Konsolen-Output für Dokumentation
+        print(f"__Epoch: {epoch +1 }:")
+        print(f"\tTrain Accuracy: {train_accuracy}, Precision: {train_accuracy}, Recall: {train_accuracy}, F1-Score: {train_accuracy}")
+        print(f"\tVal Accuracy: {val_accuracy}, Precision: {val_precision}, Recall: {val_recall}, F1-Score: {val_f1}")
         print(f"\tTest Accuracy: {test_accuracy}, Precision: {test_precision}, Recall: {test_recall}, F1-Score: {test_f1}")
+        print(f"\tTrain Loss: {train_losses[-1]}, Val Loss: {val_losses[-1]}")
+
         
-        # Speicher bestes Parameterset
+        ## Speicher bestes Parameterset
         if avg_loss < best_loss:
             best_loss = avg_loss
             plotter.save_model(model, best= True)
         
-        # Überprüfe Lernfortschritt
+        ## Überprüfe Lernfortschritt
         if early_stopping(avg_loss):
             print(f"__Training Abbruch bei Epoche {epoch + 1} aufgrund Early Stopping")
             break
@@ -267,20 +292,54 @@ def load_graph_from_json(json_file_path):
     with open(json_file_path, "r") as f:
         graph_data = json.load(f)
     
-    # Automatic inspection of graph
+    ## Automatische Analyse des Graphen
     num_nodes = len(graph_data["nodes"])
     num_edges = len(graph_data["edges"])
     logging.info(f"Loaded file_path: {json_file_path}, num_nodes: {num_nodes}, num_edges: {num_edges}")
-    # print(f"Loaded nodes: {G.nodes}")  # Debugging statement
-    # print(f"Loaded edges: {edges}")  # Debugging statement
+    # print(f"  __Graphdaten: {num_nodes} Geladene Knoten und {num_edges} geladene Kanten")
     
+    ## Erstelle Graphen
     G = nx.Graph()
     for node, data in graph_data['nodes'].items():
-        node = int(node) # Ensure node ID is a string
+        node = int(node) # Absichern, dass node ID eine Ganzzahl ist
         G.add_node(node, **data)
+    # print("Graph: ", G) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    edges = [(int(edge[0]), int(edge[1])) for edge in graph_data['edges']]
-    return G, edges
+    ## Erstelle Kanten
+    existing_edges = {(edge['source'], edge['target']) for edge in graph_data['edges']}
+    possible_edges = set(combinations(G.nodes, 2)) # set == {(), (), ()}
+    # print("Kanten_existent sortiert: ", sorted(existing_edges)) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # print("Kanten_möglich sortiert: ", sorted(possible_edges)) # Gibt Liste vom Set #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    edges = [] # Wird eine Liste mit Dicts
+    for edge in possible_edges:
+        label = 1 if edge in existing_edges or (edge[1], edge[0]) in existing_edges else 0
+        edges.append({'source': edge[0], 'target': edge[1], 'label': label})
+    tot_edges = len(edges)
+    pos_edges = sum(e['label'] == 1 for e in edges)
+    percentage = pos_edges / tot_edges
+    print(f"  __Modell_ID: {graph_data['file_id']} \tGraph mit {num_nodes} Knoten und {num_edges} Kanten \tTotal Edges: {tot_edges}, Positive Labels: {pos_edges} ({percentage:.0%})")
+    
+    num_positive = sum([1 for edge in edges if edge['label'] == 1]) # Debugging statement
+    num_negative = sum([1 for edge in edges if edge['label'] == 0]) # Debugging statement
+    # print(f"Positive Labels: {num_positive}, Negative Labels: {num_negative}") # Debugging statement
+    # print("\nedges 'load_graph_from_json': ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    
+    """Erstelle Edges direkt als Dir oder Tuple, aber hat dann nur ein Label
+    ## Erstelle Kanten als Dictionary
+    edges = graph_data['edges']
+    print("\nGraph_Edges: ",graph_data['file_id'],"Edges: ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    
+    # Erstelle Kanten als Tuple
+    # edges = []
+    # for edge in graph_data['edges']:
+    #     source = edge['source']
+    #     target = edge['target']
+    #     label = edge['label']
+    #     # G.add_edge(source, target, label= label) # Nicht bei Kantenklassifikation. Sonst sinnvoll für Visualisierung oder Analyse
+    #     edges.append((source, target, label))
+    """
+    return G, edges, num_positive, num_negative
 
 
 def create_data_from_graph(G, edges):
@@ -296,17 +355,18 @@ def create_data_from_graph(G, edges):
 
     # Linearisiere/Gätte/Flache die Merkmalliste der Knoten ab
     flat_node_features = [item for sublist in node_features for item in (sublist if isinstance(sublist, list) else [sublist])]
-    x = torch.tensor(flat_node_features, dtype=torch.float).view(len(G.nodes), -1)
+    x = torch.tensor(flat_node_features, dtype= torch.float).view(len(G.nodes), -1)
 
     # Erstelle alle möglichen Kantenverbindungen und wandle sie in PyTorch Tensor um
     possible_edges = list(combinations(G.nodes, 2))
-    edge_index = torch.tensor(possible_edges, dtype=torch.long).t().contiguous()
+    edge_index = torch.tensor(possible_edges, dtype= torch.long).t().contiguous()
 
     # Setze alle in der Beschriftung vorkommenden Kantenverbindungen auf 1, Rest auf 0
-    edge_set = set(edges)
-    y = torch.tensor([1 if (u, v) in edge_set or (v, u) in edge_set else 0 for u, v in possible_edges], dtype=torch.long)
+    edge_set = set((edge['source'], edge['target']) for edge in edges if edge['label'] == 1)
+    y = torch.tensor([1 if (u, v) in edge_set or (v, u) in edge_set else 0 for u, v in possible_edges], dtype= torch.long)
+    # print("y create_data_from_graph: ", y) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    data = Data(x=x, edge_index=edge_index, y=y)
+    data = Data(x= x, edge_index= edge_index, y= y)
     return data
 
 
@@ -333,13 +393,12 @@ def evaluate_model(model,loader):
     return accuracy, precision, recall, f1, conf_matrix
 
 
-def add_random_edges(G, num_edges: int):
-    """Bugfixing-Funktion  zum erstellen zufäller gelabelter Daten"""
+def add_random_edges(G, num_edges: int, positives):
+    """Bugfixing-Funktion zum erstellen zufäller gelabelter Daten"""
     nodes = list(G.nodes)
-    random_edges = [(random.choice(nodes), random.choice(nodes)) for _ in range(num_edges)]
-    # for edge in random_edges:
-    #     G.add_edge(*edge)
-    # return G
+    choices = random.choices #Beispiel: choices(['red', 'black', 'green'], [18, 18, 2], k=6) -> ['red', 'green', 'black', 'black', 'red', 'black']
+    # Erstellt Anzahl möglicher Kanten mit zufällig vielen positiven
+    random_edges = [{'source': random.choice(nodes), 'target': random.choice(nodes), 'label': choices([0,1], [1-positives, positives])[0]} for _ in range(num_edges)]
     return random_edges
 
 
@@ -486,11 +545,10 @@ class Plotter:
 
     def plot_learning_curves(self, train_losses, val_losses):
         """Plottet die Trainings- und Validierungsverluste"""
+        print(f"\tTrain Losses: {train_losses}")
+        print(f"\tVal Losses: {val_losses}")
+
         plt.figure()
-        print(f"Train_Loss[-1]: {train_losses[-1]}")
-        print(f"Val_Losses[-1]: {val_losses[-1]}")
-        print(f"Train_Loss: {train_losses}")
-        print(f"Val_Losses: {val_losses}")
         plt.plot(train_losses, label= 'Training Loss')
         plt.plot(val_losses, label= 'Validation Loss')
         plt.xlabel('Epoch')
