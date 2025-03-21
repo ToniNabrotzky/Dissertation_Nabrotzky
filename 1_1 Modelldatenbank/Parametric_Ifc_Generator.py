@@ -21,7 +21,7 @@ def main():
     global param_values
     param_values = {
         ## Parameter 2D-Gitter
-        'grid_x_n': [2, 5],
+        'grid_x_n': [2, 4],
         'grid_y_n': [3, 5],
         'grid_x_size': [5.0, 8], # in [m]
         'grid_y_size': [7.5, 10.0], # in [m]
@@ -29,7 +29,7 @@ def main():
         'grid_y_offset': [0.0, 3.0], # in [m]
         'grid_rotation': [0.0], # in [degree] --> Bauteile passen sich Drehung nicht mit an
         ## Parameter Geschoss
-        'floors': [2, 4, 6],
+        'floors': [2, 4, 5],
         'floor_height': [2.8], # in [m]
         ## Parameter Bauteil - Platten
         'slab_thickness': [0.3], # in [m]

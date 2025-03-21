@@ -15,7 +15,7 @@ def main():
     # script_dir = Path.cwd() # Alternative: Path(__file__).parent
     # print(f"Script-Dir - {script_dir.exists()}: {script_dir}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    ## Teste einen gespeicherten Graphen
+    ## Teste Plotten und Speichern eines Bildes eines  gespeicherten Graphen
     # graph_folder = r"H:\1_2 Data_Preprocessing\Modell_2_Parametrisch Stahlbeton\Graph_Save"
     # graph_file_name = "Parametrisches_Modell Index_005.json"
     # graph_file_path = f"{graph_folder}\\{graph_file_name}"
@@ -23,7 +23,7 @@ def main():
     
     
     ## Erstelle seriell Graphen aus allen IFC-Extracts
-    extracts_folder_names = ["Modell_2_DataBase", "Modell_2_Parametrisch Stahlbeton"]
+    extracts_folder_names = ["Modell_2_Parametrisch Stahlbeton"]
     extracts_folder_paths = get_folder_paths(script_dir, extracts_folder_names)
 
     for extracts_folder_path in extracts_folder_paths:
@@ -58,15 +58,18 @@ def generate_graph_from_extracts(extracts_folder_path):
 
                 ## Graph erstellen
                 G = create_graph_from_elements(elements)
-                print("Graph unverbunden: ", G) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                print("Graph unverbunden - Erstellung: ", G) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
                 ## Kanten erstellen
                 edges = create_edges_from_elements(elements)
                 # print("Kanten: ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
                 ## Kanten dem Graphen hinzufügen
-                G.add_edges_from(edges)
-                print("Graph mit Kanten: ", G) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                edges = create_edges_from_elements(elements)
+                for edge in edges:
+                    G.add_edge(edge['source'], edge['target'], label=edge['label'])
+                    # print(f"Added edge to graph: {edge['source']} -> {edge['target']}, label: {edge['label']}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                print("Graph mit Kanten - Erstellung: ", G) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
                 ## Speicher Graph und Kantenliste
                 graph_folder_path = Path(extracts_file_path).parent.parent / "Graph_Save"
@@ -167,64 +170,68 @@ def create_graph_from_elements(elements):
 def create_edges_from_elements(elements):
     """Erstellt Kanten aus JSON-Datei"""
     edges = []
+    node_ids = list(elements.keys())
 
-    """Regelsatz für Kanten:
-    - Verbinde Elemente vom Typ IfcSlab und IfcColumn auf der selben Etage.
-    - Verbinde Elemente vom Typ IfcColumn mit IfcSlab aus darunterliegenden Etage.
+    ## Erstelle alle möglichen Kanten
+    for source_id in node_ids:
+        for target_id in node_ids:
+            source_element = elements[source_id]
+            target_element = elements[target_id]
+            # print(f"______Überprüfe {source_id}={source_element['ifc_class']} mit {target_id}={target_element['ifc_class']}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    Ausnahmen:
-    - Wenn bei IfcColumn 'modify_heigth' != 1.0, dan keine Verbindung mit IfcSlab auf selber Etage
-    - Wenn bei IfcSlab 'modify_x' bzw. modify_y != 1.0, dann keine Verbindung mit IfcColumn
-      mit 'position_type' == 'edge_y' bzw. 'edge_x' oder 'position_type' == 'corner'
-      auf der selben Etage und der darüberliegenden Etage
-    """
+            # Standardmäßig: label = 0 (Regeln nicht erfüllt)
+            label = 0
 
-    for node_id, element in elements.items():
-        # Überprüfe nach Verbindungen für IfcSlab
-        if element['ifc_class'] == 'IfcSlab':
-            for other_id, other_element in elements.items():
-                # Suche nach IfcColumn
-                if other_element['ifc_class'] == 'IfcColumn':
-                    # Überprüfe Elemente auf selber Etage
-                    if element['floor'] == other_element['floor']:
-                        # Überprüfe Ausnahmen
-                        # print('node_id und other_id selbe Etage: ', node_id, other_id) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                        if (element['error_modify_x'] < 1.0 and 
-                            other_element['error_position_type'] in ['edge_y', 'corner']):
-                            # print(node_id, " und ", other_id, "Ausnahme selbe Etage wegen modify_x") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                            continue
-                        if (element['error_modify_y'] < 1.0 and 
-                            other_element['error_position_type'] in ['edge_x', 'corner']):
-                            # print(node_id, " und ", other_id, "Ausnahme selbe Etage wegen modify_y") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                            continue
-                        if other_element['error_modify_height'] == 1.0:
-                            edges.append((node_id, other_id))
-                            edges.append((other_id, node_id))
-                        else:
-                            # print(node_id, " und ", other_id, "Ausnahme selbe Etage wegen modify_height") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                            continue
-                    # Überprüfe Elemente auf darüberliegender Etage
-                    elif element['floor'] == other_element['floor'] - 1:
-                        # print('node_id und other_id obige Etage: ', node_id, other_id) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                        # Überprüfe Ausnahmen
-                        if (element['error_modify_x'] < 1.0 and 
-                            other_element['error_position_type'] in ['edge_y', 'corner']):
-                            # print(node_id, " und ", other_id, "Ausnahme obige Etage wegen modify_x") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                            continue
-                        if (element['error_modify_y'] < 1.0 and 
-                            other_element['error_position_type'] in ['edge_x', 'corner']):
-                            # print(node_id, " und ", other_id, "Ausnahme obige Etage wegen modify_y") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                            continue
-                        edges.append((node_id, other_id))
-                        edges.append((other_id, node_id))     
+            """Regelsatz für Kanten:
+                - Verbinde Elemente vom Typ IfcSlab und IfcColumn auf der selben Etage.
+                - Verbinde Elemente vom Typ IfcColumn mit IfcSlab aus darunterliegenden Etage.
+
+                Ausnahmen:
+                - Wenn bei IfcColumn 'modify_heigth' != 1.0, dan keine Verbindung mit IfcSlab auf selber Etage
+                - Wenn bei IfcSlab 'modify_x' bzw. modify_y != 1.0, dann keine Verbindung mit IfcColumn
+                mit 'position_type' == 'edge_y' bzw. 'edge_x' oder 'position_type' == 'corner'
+                auf der selben Etage und der darüberliegenden Etage
+                """
+
+            # Selbstverbindungen werden nicht geprüft und erhalten autoamtisch Label 0
+            if source_id != target_id:
+                ## Überprüfe Regeln für Elemente für IfcSlab und IfcColumn
+                if source_element['ifc_class'] == 'IfcSlab' and target_element['ifc_class'] == 'IfcColumn':
+                    # Überprüfe Ausnahmen auf gleicher Etage
+                    if source_element['floor'] == target_element['floor']:
+                        if not(
+                            (source_element['error_modify_x'] < 1.0 and target_element['error_position_type'] in ['edge_y', 'corner']) or
+                            (source_element['error_modify_x'] < 1.0 and target_element['error_position_type'] in ['edge_x', 'corner']) or
+                            target_element['error_modify_height'] != 1.0
+                        ):
+                            label = 1
+                    # Überprüfe Ausnahmen auf darüberliegender Etage
+                    elif source_element['floor'] == target_element['floor'] -1:
+                        if not(
+                            (source_element['error_modify_x'] < 1.0 and target_element['error_position_type'] in ['edge_y', 'corner']) or
+                            (source_element['error_modify_x'] < 1.0 and target_element['error_position_type'] in ['edge_x', 'corner'])
+                        ):
+                            label = 1
+            
+            ## Füge Kante mit dem Label hinzu
+            # print(f"  __Creating edge: {source_id} -> {target_id}, label: {label}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                
+            if label == 1:
+                edges.append({'source': source_id, 'target': target_id, 'label': label})
+                edges.append({'source': target_id, 'target': source_id, 'label': label}) # Bidirektionale Kante        
     return edges
 
 
 def save_graph_to_json(G, graph_file_path):
     """Speichert den Graphen und die Kantenliste in einer JSON-Datei"""
+    file_id = Path(graph_file_path).stem
+
     graph_data = {
+        'file_id': file_id,
         'nodes': {node: data for node, data in G.nodes(data= True)},
-        'edges': list(G.edges())
+        'edges': [
+            {'source': edge[0], 'target': edge[1], 'label': G.edges[edge].get('label', 0)}
+            for edge in G.edges()
+        ]
     }
 
     ## Speichere Graph und Kantenliste in JSON-Datei
@@ -235,19 +242,22 @@ def save_graph_to_json(G, graph_file_path):
 
 def plot_graph_3D(graph_file_path):
     """Plottet den 3D-Graphen mit den Knotenpositionen aus einer JSON-Datei und speichert Bild"""
-    print("file_path: ", graph_file_path)
+    ## Lade und verarbeite Daten
+    # print("file_path: ", graph_file_path) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     with open(graph_file_path, "r") as f:
         graph_data = json.load(f)
     
+    # Lade Graphen
     G = nx.Graph()
     for node, data in graph_data['nodes'].items():
-        node = str(node) # Ensure node ID is a string
+        node = int(node) # Absichern, dass node ID eine Ganzzahl ist
         # print(f"Adding node: {node} with data: {data}")  # Debug print
         G.add_node(node, **data)
-    # print(f"Graph after adding nodes: {G.nodes(data=True)}")  # Debug print long
-    print(f"Graph after adding nodes: {G}")  # Debug print short
+    # print(f"Graph unverbunden - Plot: {G.nodes(data=True)}")  # Debug print long
+    # print(f"Graph unverbunden - Plot: {G}")  # Debug print short
 
-    edges = [(str(edge[0]), str(edge[1])) for edge in graph_data['edges']]
+    # Lade Kanten
+    edges = [(edge['source'], edge['target']) for edge in graph_data['edges']]
     # print(f"Adding edges: {edges}")  # Debug print
 
     ## Bugfixing: Check for nodes in edges that are not in the initial set of nodes
@@ -258,12 +268,12 @@ def plot_graph_3D(graph_file_path):
         print(f"Warning: The following nodes are referenced in edges but were not in the initial set of nodes: {missing_nodes}")
 
     G.add_edges_from(edges)
-    # print(f"Graph after adding edges: {G.edges(data=True)}")  # Debug print
-    print(f"Graph with nodes and edges: {G}")  # Debug print
+    # print(f"Graph mit Kanten - Plot: {G.edges(data=True)}")  # Debug print
+    # print(f"Graph mit Kanten - Plot: {G}")  # Debug print
 
 
-    """Plottet den 3D-Graphen mit den Knotenpositionen"""
-    pos = {node: data['position'] for node, data in G.nodes(data= True)}
+    ## Speicher und Plotte den Graphen
+    pos = {node: data['position'] for node, data in G.nodes(data= True)} # "if 'position' in data" vor geschweifte Klammer?
     color_map = {
         1: 'aquamarine', # IfcBeam
         1: 'aquamarine', # IfcBeam
@@ -300,6 +310,7 @@ def plot_graph_3D(graph_file_path):
     image_file_path = image_folder_path / image_file_name
     print('image_file_path: ', image_file_path)
     plt.savefig(image_file_path)
+    plt.close(fig)
     
     # plt.show()
 
