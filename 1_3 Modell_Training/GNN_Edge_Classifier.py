@@ -14,7 +14,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, r
 from pathlib import Path
 from torch_geometric.data import Data
 from torch_geometric.loader import DataLoader
-from torch_geometric.nn import GCNConv
+from torch_geometric.nn import GCNConv, GATConv, SAGEConv
 
 # Set up logging
 logging.basicConfig(filename='training.log', level=logging.INFO, format='%(asctime)s %(message)s')
@@ -61,8 +61,8 @@ def main():
 class GNN(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim):
         super(GNN, self).__init__()
-        self.conv1 = GCNConv(input_dim, hidden_dim)
-        self.conv2 = GCNConv(hidden_dim, hidden_dim)
+        self.conv1 = SAGEConv(input_dim, hidden_dim) # Default: GCN, neu: SAGE - Alternative Modelle: GATConv, SAGEConv
+        self.conv2 = SAGEConv(hidden_dim, hidden_dim)
         self.dropout = nn.Dropout(p= 0.5) # Regularisierung, die Elemente nullt. Alternative: L2
         self.edge_predictor = nn.Linear(hidden_dim * 2, output_dim)
 
@@ -90,17 +90,17 @@ def train_GNN(graph_folder_path):
     json_files = [f for f in os.listdir(graph_folder_path) if f.endswith('.json')]
 
     ## Printe angesetzte Parameter:
-    Train_Prozent = 0.3 # Wie viel Prozent sollen ans Testen gehen? Rest bleibt bei Train.
-    Val_Prozent = 0.5 # Wie viel Prozent sollen ans Testen gehen? Rest von oben bleibt bei Val.
-    Hidden = 32 #Default= 32
-    Lernrate = 0.01 #Default= 0.01
+    Train_Prozent = 0.3 # Default= 0.3 Wie viel Prozent sollen ans Testen gehen? Rest bleibt bei Train.
+    Val_Prozent = 0.5 # Default= 0.5 Wie viel Prozent sollen ans Testen gehen? Rest von oben bleibt bei Val.
+    Hidden = 16 # Default= 32, neu= 16
+    Lernrate = 0.01 # Default= 0.01
     Kriterium = 'CrossEntropyLoss_mit_Gewichtsklassifizierung'
     #Default= 'CrossEntropyLoss' oder 'CrossEntropyLoss_mit_Gewichtsklassifizierung' oder 'Focal_Loss'
-    Epochenzahl = 100 #Default= 100
-    Batch_Größe = 256 #Default= 256
+    Epochenzahl = 100 # Default= 100
+    Batch_Größe = 64 # Default= 256
     print(f"""
     Übersicht zur Modellarchitektur:
-          Modelltyp= GNN
+          Modelltyp= GraphSAGE
           Input | Hidden: {Hidden} (Conv1, ReLU, Dropout, Conv2, Dropout)| EdgePredictor: Hidden*2 | Out: 2 
           Dropout= 0.5 standardmäßig
     Hyperparameter:
