@@ -7,6 +7,7 @@ import random
 import sys
 import torch
 import torch.nn as nn
+import torch.nn.functional as F 
 import torch.optim as optim
 from itertools import combinations
 from sklearn.model_selection import KFold, train_test_split
@@ -37,7 +38,7 @@ def main():
     
     """Trainiere seriell GNN aus mehreren Datasets"""
     # extracts_folder_names = ["Modell_2_Parametrisch Stahlbeton Index"] # Standardordner für alle Daten
-    graph_folder_names = ["Modell_2_Parametrisch Stahlbeton 00000_01535"]
+    graph_folder_names = ["Modell_2_Parametrisch Stahlbeton 01530_01535"]
     graph_folder_paths = get_folder_paths(script_dir, graph_folder_names)
 
     for graph_folder_path in graph_folder_paths:
@@ -61,17 +62,31 @@ def main():
 class GNN(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim):
         super(GNN, self).__init__()
-        self.conv1 = SAGEConv(input_dim, hidden_dim) # Default: GCN, neu: SAGE - Alternative Modelle: GATConv, SAGEConv
-        self.conv2 = SAGEConv(hidden_dim, hidden_dim)
-        self.dropout = nn.Dropout(p= 0.5) # Regularisierung, die Elemente nullt. Alternative: L2
+        # Festlegung ob Mittelwert= 'mean' (Standard), Maximum= 'max', Summe= 'add' oder Pooling (LSTM oder Max-Pooling)
+        self.conv1 = SAGEConv(input_dim, hidden_dim, aggr= 'mean') # Default: GCN, neu: SAGE - Alternative Modellsysteme: GATConv, SAGEConv
+        self.conv2 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
+        self.conv3 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
+        self.dropout = nn.Dropout(p= 0.2) # Default= 0.5, neu= 0.2 | Regularisierung, die Elemente nullt. Alternative: L2
         self.edge_predictor = nn.Linear(hidden_dim * 2, output_dim)
 
     def forward(self, data):
-        # Netzwerkarchitektur
+        # # Netzwerkarchitektur ReLU
+        # x, edge_index = data.x, data.edge_index
+        # x = self.conv1(x, edge_index).relu() # Default: relu | Alternative: Leaky ReLU, ELU
+        # x = self.dropout(x) # Vermeidung von overfitting
+        # x = self.conv2(x, edge_index)
+        # x = self.dropout(x) # Vermeidung von overfitting
+
+        # Netzwerkarchitektur Leaky ReLU oder ELU
         x, edge_index = data.x, data.edge_index
-        x = self.conv1(x, edge_index).relu() # Alternative: Leaky ReLU, ELU
+        # x = F.leaky_relu(self.conv1(x, edge_index), negative_slope= 0.01) # Leaky ReLU
+        x = F.elu(self.conv1(x, edge_index), alpha= 1.0) # ELU
         x = self.dropout(x) # Vermeidung von overfitting
-        x = self.conv2(x, edge_index)
+        # x = F.leaky_relu(self.conv2(x, edge_index), negative_slope= 0.01) # Leaky ReLU
+        x = F.elu(self.conv2(x, edge_index), alpha= 1.0) # ELU
+        x = self.dropout(x) # Vermeidung von overfitting
+        # Alternative mit 3 Hidden Layern:
+        x = F.elu(self.conv3(x, edge_index), alpha= 1.0) # ELU
         x = self.dropout(x) # Vermeidung von overfitting
 
         # Kantenklassifikation (Vorhersage der Beziehungen)
@@ -89,6 +104,14 @@ def train_GNN(graph_folder_path):
     print(f"__Starte Training für: {graph_folder_path}")
     json_files = [f for f in os.listdir(graph_folder_path) if f.endswith('.json')]
 
+    ## Statistiken für Ausgewogenheit der Ereignisse
+    num_graphs = 0 # Insgesamt eingeladene Graphen
+    num_nodes = 0 # Insgesamt eingeladene Knoten
+    num_edges = 0 # Insgesamt eingeladene Kanten (positive und negative Ereignisse zusammen) = mögliche Kanten
+    num_positives = 0 # Anzahl eingeladener Kanten mit positivem Ereignis
+    num_negatives = 0 # Anzahl eingeladener Kanten mit negativem Ereignis
+    num_max_positives = 0 # Max Prozentzahl an positiver Ereignisse aus einem Graphen
+
     ## Printe angesetzte Parameter:
     Train_Prozent = 0.3 # Default= 0.3 Wie viel Prozent sollen ans Testen gehen? Rest bleibt bei Train.
     Val_Prozent = 0.5 # Default= 0.5 Wie viel Prozent sollen ans Testen gehen? Rest von oben bleibt bei Val.
@@ -96,16 +119,16 @@ def train_GNN(graph_folder_path):
     Lernrate = 0.01 # Default= 0.01
     Kriterium = 'CrossEntropyLoss_mit_Gewichtsklassifizierung'
     #Default= 'CrossEntropyLoss' oder 'CrossEntropyLoss_mit_Gewichtsklassifizierung' oder 'Focal_Loss'
-    Epochenzahl = 100 # Default= 100
+    Epochenzahl = 2 # Default= 100
     Batch_Größe = 64 # Default= 256
     print(f"""
     Übersicht zur Modellarchitektur:
           Modelltyp= GraphSAGE
           Input | Hidden: {Hidden} (Conv1, ReLU, Dropout, Conv2, Dropout)| EdgePredictor: Hidden*2 | Out: 2 
-          Dropout= 0.5 standardmäßig
+          Dropout= 0.2 standardmäßig
     Hyperparameter:
           Aufteilung Training / Validierung / Test: {(1 - Train_Prozent) * 100} / {(Train_Prozent * (1 - Val_Prozent)) * 100} / {Train_Prozent * Val_Prozent * 100}
-          optimizer= Adam, LR= {Lernrate}
+          optimizer= Stochastic Gradient Decent (SGD), LR= {Lernrate}
           Criterion= {Kriterium}
           Early Stopping: Aktiviert
     Training:
@@ -116,13 +139,11 @@ def train_GNN(graph_folder_path):
 
     ## Ertselle Datenset und teile es in Batches ein
     dataset = []
-    num_positives = 0
-    num_negatives = 0
 
     for json_file in json_files:
         json_file_path = os.path.join(graph_folder_path, json_file)
         # Lade Graphen und Kanten als beschriftete Daten ins Dataset
-        G, edges, positives, negatives = load_graph_from_json(json_file_path)
+        G, edges, positive_edges, negative_edges = load_graph_from_json(json_file_path)
         # print("edges 'train_GNN': ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         # for edge in edges:
         #     print("edge 'train_GNN': ", edge['label'] == 1) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -132,30 +153,91 @@ def train_GNN(graph_folder_path):
         # edges = add_random_edges(G, int(len(edges)), positives= 0.5)
         # print("edges 'train_GNN_rand': ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-        num_positives += positives
-        num_negatives += negatives
+        # Statistik sammeln
+        num_graphs += 1
+        num_nodes += len(G.nodes)
+        num_edges += len(edges) # edges enthalten bereits positive und negative Kanten
+        num_positives += positive_edges
+        num_negatives += negative_edges
+        percentage = positive_edges / len(edges)
+        # print(f"Vergleich max_psoitives: {num_max_positives:.2%} mit percentage: {percentage:.2%}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        num_max_positives = percentage if percentage > num_max_positives else num_max_positives
         data = create_data_from_graph(G, edges)
         dataset.append(data)
+    
+    ## Statistik zur Ausgewogenheit ausgeben
+    print(f"  __Statistiken über die eingelesenen Daten:")
+    print(f"\tGraphen: {num_graphs}, Knoten: {num_nodes}, Kanten: {num_positives}, mögl. Kanten: {num_edges}, Mittelwert Anteil Positives: {num_positives / num_edges:.2%}, Max Anteil Positives: {num_max_positives:.2%}")
+
 
     ## Erstelle Datensätze (Training, Validierung, Test und Batches)
     # Batchsize 1-32: häufigere (more frequent) updates, kann aus lokalen Minima führen, aber evtl zu rauschendem (noisy) Gradienten
     # Batchsize 64-256: Weichere Gradienten, stabileres Training, aber benötigt mehr Arbeitsspeicher
 
-    # Beispiel_1: Teile Datensatz lediglich in Batches auf
+    # ## Beispiel_1: Teile Datensatz lediglich in Batches auf
     # loader = DataLoader(dataset, batch_size= batch_size, shuffle= True)
     
-    # # Beispiel_2: Teile Datenset in Trainings-, Testdatensatz
+    # ## Beispiel_2: Teile Datenset in Trainings-, Testdatensatz
     # train_dataset, test_dataset = train_test_split(dataset, test_size= 0.2, random_state= 42)
     # train_loader = DataLoader(train_dataset, batch_size= batch_size, shuffle=True)
     # test_loader = DataLoader(test_dataset, batch_size= batch_size, shuffle=False)
 
-    # Beispiel_3: Teile Datenset in Trainings-, Validierungs- und Testdatensatz ein
-    # Aufteilung in Trainingsdaten und Auswertung (70/30). random_state ist wie ein shuffle-Seed
+    ## Beispiel_3: Teile Datenset in Trainings-, Validierungs- und Testdatensatz ein
+    # random_state ist wie ein shuffle-Seed
     train_dataset, temp_dataset = train_test_split(dataset, test_size= Train_Prozent, random_state= 42)
     val_dataset, test_dataset = train_test_split(temp_dataset, test_size= Val_Prozent, random_state= 42)
-    train_loader = DataLoader(train_dataset, batch_size= Batch_Größe, shuffle=True)
-    val_loader = DataLoader(val_dataset, batch_size= Batch_Größe, shuffle=False)
-    test_loader = DataLoader(test_dataset, batch_size= Batch_Größe, shuffle=False)
+    train_loader = DataLoader(train_dataset, batch_size= Batch_Größe, shuffle= True)
+    val_loader = DataLoader(val_dataset, batch_size= Batch_Größe, shuffle= False)
+    test_loader = DataLoader(test_dataset, batch_size= Batch_Größe, shuffle= False)
+
+    train_edges_set = set((edge[0], edge[1]) for data in train_dataset for edge in data.edge_index.t().tolist())
+    val_edges_set = set((edge[0], edge[1]) for data in val_dataset for edge in data.edge_index.t().tolist())
+    test_edges_set = set((edge[0], edge[1]) for data in test_dataset for edge in data.edge_index.t().tolist())
+
+    ## KI empfiehlt, dass Daten disjunktiv sein sollen.
+    # ## Beispiel_4: Ansatz für disjunktives Datenset (ohne Dopplungen)
+    # # Sammle alle Kanten aus dem Dataset
+    # all_edges = list(set((edge[0], edge[1]) for data in dataset for edge in data.edge_index.t().tolist()))
+    # random.shuffle(all_edges)  # Zufälliges Mischen der Kanten
+    
+    # # Disjunkte Aufteilung der Kanten
+    # num_edges = len(all_edges)
+    # train_edges = all_edges[:int(0.7 * num_edges)]
+    # val_edges = all_edges[int(0.7 * num_edges):int(0.85 * num_edges)]
+    # test_edges = all_edges[int(0.85 * num_edges):]
+    # print(f"Train Edges: {len(train_edges)}, Val Edges: {len(val_edges)}, Test Edges: {len(test_edges)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    
+    # # Erstelle Datensätze basierend auf den disjunkten Kantenmengen
+    # train_dataset = [data for data in dataset
+    #     if any((edge[0], edge[1]) in train_edges for edge in data.edge_index.t().tolist())]
+    # val_dataset = [data for data in dataset
+    #     if any((edge[0], edge[1]) in val_edges for edge in data.edge_index.t().tolist())]
+    # test_dataset = [data for data in dataset
+    #     if any((edge[0], edge[1]) in test_edges for edge in data.edge_index.t().tolist())]
+
+    # # Erstelle DataLoader für die disjunkten Datensätze
+    # train_loader = DataLoader(train_dataset, batch_size= Batch_Größe, shuffle= True)
+    # val_loader = DataLoader(val_dataset, batch_size= Batch_Größe, shuffle= False)
+    # test_loader = DataLoader(test_dataset, batch_size= Batch_Größe, shuffle= False)
+
+    # train_edges_set = set(train_edges)
+    # val_edges_set = set(val_edges)
+    # test_edges_set = set(test_edges)
+    
+    ## BUGFIXING Überprüfe Überschneidungen zwischen den Datensätzen (wegen Unstimmigkeit Confusion Matrix)
+    # Überprüfung, ob Summe aller 3 Datensätze Gesamtlänge entspricht
+    train_edges_count = sum(len(data.edge_index.t().tolist()) for data in train_dataset)
+    val_edges_count = sum(len(data.edge_index.t().tolist()) for data in val_dataset)
+    test_edges_count = sum(len(data.edge_index.t().tolist()) for data in test_dataset)
+
+    total_edges_count = train_edges_count + val_edges_count + test_edges_count
+    print(f"Anzahl der Kanten in den 3 Datensätzen: {train_edges_count}, {val_edges_count}, {test_edges_count}, Gesamt: {total_edges_count}")
+
+    # Überprüfung, ob Datensätze disjunkt sind (ohne Überschneidungen)
+    print(f"Überschneidungen zwischen Train und Val: {len(train_edges_set & val_edges_set)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    print(f"Überschneidungen zwischen Train und Test: {len(train_edges_set & test_edges_set)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    print(f"Überschneidungen zwischen Val und Test: {len(val_edges_set & test_edges_set)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    
 
     ## Cross-Validierung bei Aufteilung der Datensets
     kf = KFold(n_splits= 5)
@@ -167,7 +249,8 @@ def train_GNN(graph_folder_path):
 
     ## Definition einiger Hyperparameter
     model = GNN(input_dim= dataset[0].num_node_features, hidden_dim= Hidden, output_dim= 2)
-    optimizer = optim.Adam(model.parameters(), lr= Lernrate) # Alternative: Stochastic Gradient Descent (SGD)
+    # optimizer = optim.Adam(model.parameters(), lr= Lernrate) # Alternative: Stochastic Gradient Descent (SGD)
+    optimizer = optim.SGD(model.parameters(), lr= Lernrate, momentum= 0.9)
 
     ## Definition der Verlustfunktion
     # Var1: Berechnung mit CrossEntropyLoss
@@ -212,7 +295,7 @@ def train_GNN(graph_folder_path):
 
             ## Absichern, dass gelabelte Daten vorhanden sind.
             if data.y.numel() > 0:
-                # print(f"out shape: {out.shape}, data.y shape: {data.y.shape}") # Debugging statement
+                # print(f"out shape: {out.shape}, data.y shape: {data.y.shape}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 loss = criterion(out, data.y)
                 loss.backward()
                 optimizer.step()
@@ -315,14 +398,15 @@ def load_graph_from_json(json_file_path):
     for edge in possible_edges:
         label = 1 if edge in existing_edges or (edge[1], edge[0]) in existing_edges else 0
         edges.append({'source': edge[0], 'target': edge[1], 'label': label})
-    tot_edges = len(edges)
-    pos_edges = sum(e['label'] == 1 for e in edges)
-    percentage = pos_edges / tot_edges
-    print(f"  __Modell_ID: {graph_data['file_id']} \tGraph mit {num_nodes} Knoten und {num_edges} Kanten \tTotal Edges: {tot_edges}, Positive Labels: {pos_edges} ({percentage:.0%})")
+    total_edges = len(edges)
+    positive_edges = sum(e['label'] == 1 for e in edges) # Summe positiver Kanten
+    negative_edges = sum(e['label'] == 0 for e in edges) # Summe negativer Kanten
+    percentage = positive_edges / total_edges
+    print(f"  __Modell_ID: {graph_data['file_id']} \tGraph mit {num_nodes} Knoten und {num_edges} Kanten \tTotal Edges: {total_edges}, Positive Labels: {positive_edges} ({percentage:.2%})")
     
-    num_positive = sum([1 for edge in edges if edge['label'] == 1]) # Debugging statement
-    num_negative = sum([1 for edge in edges if edge['label'] == 0]) # Debugging statement
-    # print(f"Positive Labels: {num_positive}, Negative Labels: {num_negative}") # Debugging statement
+    # num_positive = sum([1 for edge in edges if edge['label'] == 1]) # Debugging statement == positive_edges
+    # num_negative = sum([1 for edge in edges if edge['label'] == 0]) # Debugging statement == negative_edges
+    # print(f"Positive Labels: {num_positive}, Negative Labels: {num_negative}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # print("\nedges 'load_graph_from_json': ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     
     """Erstelle Edges direkt als Dir oder Tuple, aber hat dann nur ein Label
@@ -339,7 +423,7 @@ def load_graph_from_json(json_file_path):
     #     # G.add_edge(source, target, label= label) # Nicht bei Kantenklassifikation. Sonst sinnvoll für Visualisierung oder Analyse
     #     edges.append((source, target, label))
     """
-    return G, edges, num_positive, num_negative
+    return G, edges, positive_edges, negative_edges
 
 
 def create_data_from_graph(G, edges):
@@ -377,15 +461,18 @@ def evaluate_model(model,loader):
     with torch.no_grad():
         for data in loader:
             out = model(data)
-            preds = torch.argmax(out, dim= 1)
+            preds = torch.argmax(out, dim= 1) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             all_preds.extend(preds.cpu().numpy())
             all_labels.extend(data.y.cpu().numpy())
+    # print(f"\tAnzahl tatsächlicher Labels und vorhergesager Labels: {len(all_labels)} und {len(all_preds)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # preds = torch.argmax(out, dim=1)
+    # print(preds) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     
     # Berechnung der Metriken
     accuracy = accuracy_score(all_labels, all_preds)
-    precision = precision_score(all_labels, all_preds, zero_division=1)
-    recall = recall_score(all_labels, all_preds, zero_division=1)
-    f1 = f1_score(all_labels, all_preds, zero_division=1)
+    precision = precision_score(all_labels, all_preds, zero_division= 1)
+    recall = recall_score(all_labels, all_preds, zero_division= 1)
+    f1 = f1_score(all_labels, all_preds, zero_division= 1)
 
     # Berechnung der Confusion-Matrix
     conf_matrix = confusion_matrix(all_labels, all_preds)
