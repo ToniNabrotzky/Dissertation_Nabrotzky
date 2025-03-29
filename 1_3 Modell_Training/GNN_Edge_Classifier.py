@@ -27,30 +27,30 @@ def main():
     """Hauptfunktion zum Trainieren des GNN-Modells"""
     global script_dir
     script_dir = Path(__file__).parent
-    # Alternative Wege
+    ## Alternative Wege
     # script_dir = Path.cwd() # Alternative: Path(__file__).parent
     # print(f"Script-Dir - {script_dir.exists()}: {script_dir}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     """Trainiere GNN in aus einem direkten Dataset"""
-    # json_folder_path = r"H:\1_2 Data_Preprocessing\Modell_2_Parametrisch Stahlbeton\JSON_Graph"
+    # json_folder_path = r"H:\1_2 Data_Preprocessing\"Modell_2_Parametrisch Stahlbeton 00000_01535\JSON_Graph"
     # train_GNN(json_folder_path)
     
     
     """Trainiere seriell GNN aus mehreren Datasets"""
-    # extracts_folder_names = ["Modell_2_Parametrisch Stahlbeton Index"] # Standardordner für alle Daten
-    graph_folder_names = ["Modell_2_Parametrisch Stahlbeton 01530_01535"]
+    graph_folder_names = ["Modell_2_Parametrisch Stahlbeton 00000_01535"] # Standardordner für alle Daten
+    # graph_folder_names = ["Modell_2_Parametrisch Stahlbeton 01530_01535"]
     graph_folder_paths = get_folder_paths(script_dir, graph_folder_names)
 
     for graph_folder_path in graph_folder_paths:
         # print(f"graph-Folder-Path - {graph_folder_path.exists()}:  {graph_folder_path}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+        
         ## Durchsuche folder_path nach allen JSON-Dateien
         if not graph_folder_path.exists():
             print(f"__Ordner nicht gefunden. Fehlender Pfad: {graph_folder_path}")
         else:
             print(f"__Ordner gefunden. Suche JSON-Dateien in: {graph_folder_path}")
-
-            # Umleitung der Standardausgabe zu Konsole und Teft-File
+            
+            ## Umleitung der Standardausgabe zu Konsole und Teft-File
             plotter = Plotter(script_dir, graph_folder_path)
             original_stdout = sys.stdout
             with open(plotter.model_folder_path / 'terminal_output.txt', 'w') as f:
@@ -62,22 +62,25 @@ def main():
 class GNN(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim):
         super(GNN, self).__init__()
-        # Festlegung ob Mittelwert= 'mean' (Standard), Maximum= 'max', Summe= 'add' oder Pooling (LSTM oder Max-Pooling)
-        self.conv1 = SAGEConv(input_dim, hidden_dim, aggr= 'mean') # Default: GCN, neu: SAGE - Alternative Modellsysteme: GATConv, SAGEConv
+        ### Festlegung des Modelltyps
+        ## Modelltypen: GCN (Default alt), GATConv, SAGEConv (Default neu)
+        ## Aggregation erfolgt standardmäßig über Mittelwert (mean). Alternative: Somme (add) oder Pooling (LSTM oder Max-Pooling)
+        self.conv1 = SAGEConv(input_dim, hidden_dim, aggr= 'mean') 
         self.conv2 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
-        self.conv3 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
+        # self.conv3 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
         self.dropout = nn.Dropout(p= 0.2) # Default= 0.5, neu= 0.2 | Regularisierung, die Elemente nullt. Alternative: L2
         self.edge_predictor = nn.Linear(hidden_dim * 2, output_dim)
 
     def forward(self, data):
-        # # Netzwerkarchitektur ReLU
+        ### Netzwerkarchitektur definieren
+        ## Netzwerkarchitektur ReLU
         # x, edge_index = data.x, data.edge_index
         # x = self.conv1(x, edge_index).relu() # Default: relu | Alternative: Leaky ReLU, ELU
         # x = self.dropout(x) # Vermeidung von overfitting
         # x = self.conv2(x, edge_index)
         # x = self.dropout(x) # Vermeidung von overfitting
 
-        # Netzwerkarchitektur Leaky ReLU oder ELU
+        ## Netzwerkarchitektur Leaky ReLU oder ELU
         x, edge_index = data.x, data.edge_index
         # x = F.leaky_relu(self.conv1(x, edge_index), negative_slope= 0.01) # Leaky ReLU
         x = F.elu(self.conv1(x, edge_index), alpha= 1.0) # ELU
@@ -85,11 +88,12 @@ class GNN(nn.Module):
         # x = F.leaky_relu(self.conv2(x, edge_index), negative_slope= 0.01) # Leaky ReLU
         x = F.elu(self.conv2(x, edge_index), alpha= 1.0) # ELU
         x = self.dropout(x) # Vermeidung von overfitting
-        # Alternative mit 3 Hidden Layern:
-        x = F.elu(self.conv3(x, edge_index), alpha= 1.0) # ELU
-        x = self.dropout(x) # Vermeidung von overfitting
+        # x = F.leaky_relu(self.conv3(x, edge_index), negative_slope= 0.01) # Leaky ReLU
+        # x = F.elu(self.conv3(x, edge_index), alpha= 1.0) # ELU
+        # x = self.dropout(x) # Vermeidung von overfitting
+        
 
-        # Kantenklassifikation (Vorhersage der Beziehungen)
+        ### Kantenklassifikation (Vorhersage der Beziehungen)
         edge_index = data.edge_index
         edge_features = torch.cat([x[edge_index[0]], x[edge_index[1]]], dim=1)
         edge_predictions = self.edge_predictor(edge_features)
@@ -104,30 +108,31 @@ def train_GNN(graph_folder_path):
     print(f"__Starte Training für: {graph_folder_path}")
     json_files = [f for f in os.listdir(graph_folder_path) if f.endswith('.json')]
 
-    ## Statistiken für Ausgewogenheit der Ereignisse
+    ## Statistik zum Graphen für Ausgewogenheit der Labels vorbereiten
     num_graphs = 0 # Insgesamt eingeladene Graphen
     num_nodes = 0 # Insgesamt eingeladene Knoten
     num_edges = 0 # Insgesamt eingeladene Kanten (positive und negative Ereignisse zusammen) = mögliche Kanten
     num_positives = 0 # Anzahl eingeladener Kanten mit positivem Ereignis
     num_negatives = 0 # Anzahl eingeladener Kanten mit negativem Ereignis
-    num_max_positives = 0 # Max Prozentzahl an positiver Ereignisse aus einem Graphen
+    max_percentage = 0 # Größter Anteil positiver Ereignisse aus einem Graphen
 
-    ## Printe angesetzte Parameter:
-    Train_Prozent = 0.3 # Default= 0.3 Wie viel Prozent sollen ans Testen gehen? Rest bleibt bei Train.
-    Val_Prozent = 0.5 # Default= 0.5 Wie viel Prozent sollen ans Testen gehen? Rest von oben bleibt bei Val.
+    ## Protokolliere angesetzte Parameter:
+    Train_Prozent = 0.3 # Default= 0.3 Wie viel Prozent sollen an Temp gehen? Rest bleibt bei Train.
+    Val_Prozent = 0.5 # Default= 0.5 Wie viel Prozent sollen an Test gehen? Rest von oben bleibt bei Val.
     Hidden = 16 # Default= 32, neu= 16
     Lernrate = 0.01 # Default= 0.01
     Kriterium = 'CrossEntropyLoss_mit_Gewichtsklassifizierung'
-    #Default= 'CrossEntropyLoss' oder 'CrossEntropyLoss_mit_Gewichtsklassifizierung' oder 'Focal_Loss'
-    Epochenzahl = 2 # Default= 100
+    # Auswahl= 'CrossEntropyLoss' oder 'CrossEntropyLoss_mit_Gewichtsklassifizierung' oder 'Focal_Loss'
+    Epochenzahl = 100 # Default= 100
     Batch_Größe = 64 # Default= 256
     print(f"""
     Übersicht zur Modellarchitektur:
           Modelltyp= GraphSAGE
-          Input | Hidden: {Hidden} (Conv1, ReLU, Dropout, Conv2, Dropout)| EdgePredictor: Hidden*2 | Out: 2 
-          Dropout= 0.2 standardmäßig
+          Input | Hidden: {Hidden} (Conv1, ReLU, Dropout, Conv2, Dropout) | EdgePredictor: Hidden*2 | Out: 2 
+          Aktivierungsfunktion = ELU
+          Dropout= 0.2
     Hyperparameter:
-          Aufteilung Training / Validierung / Test: {(1 - Train_Prozent) * 100} / {(Train_Prozent * (1 - Val_Prozent)) * 100} / {Train_Prozent * Val_Prozent * 100}
+          Aufteilung Datensätze (Training, Validierung, Test): {(1 - Train_Prozent) * 100} / {(Train_Prozent * (1 - Val_Prozent)) * 100} / {Train_Prozent * Val_Prozent * 100}
           optimizer= Stochastic Gradient Decent (SGD), LR= {Lernrate}
           Criterion= {Kriterium}
           Early Stopping: Aktiviert
@@ -137,107 +142,85 @@ def train_GNN(graph_folder_path):
           """)
     
 
-    ## Ertselle Datenset und teile es in Batches ein
+    ### Teile Datensätze und teile es in Batches ein
     dataset = []
 
     for json_file in json_files:
         json_file_path = os.path.join(graph_folder_path, json_file)
-        # Lade Graphen und Kanten als beschriftete Daten ins Dataset
-        G, edges, positive_edges, negative_edges = load_graph_from_json(json_file_path)
-        # print("edges 'train_GNN': ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        ## Lade unverbundenen Graphen und Kanten als beschriftete Daten
+        G, edges, graph_id = load_graph_from_json(json_file_path)
+        # edges_sorted = {(edge['source'], edge['target']) for edge in edges}
+        # print(f"edges aus 'train_GNN': {sorted(edges_sorted)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         # for edge in edges:
-        #     print("edge 'train_GNN': ", edge['label'] == 1) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        # print(sum([1 for edge in edges if edge['label'] == 1])) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        #     print(f"edge aus 'train_GNN': {edge['label'] == 1}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         
         ## Bugfixing um zu sehen, ob überhaupt positive Labels erzeugt werden vom GNN
         # edges = add_random_edges(G, int(len(edges)), positives= 0.5)
-        # print("edges 'train_GNN_rand': ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # print(f"random edges aus 'train_GNN': ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-        # Statistik sammeln
+        ## Statistik zum Graphen für Ausgewogenheit der Labels sammeln
+        total_nodes = len(G.nodes)
+        total_edges = len(edges) # edges inkludiert positive sowie negative Kanten
+        positive_edges = sum(e['label'] == 1 for e in edges) # Alternative: sum([1 for edge in edges if edge['label'] == 1])
+        negative_edges = sum(e['label'] == 0 for e in edges) # Alternative: sum([1 for edge in edges if edge['label'] == 0])
+        percentage = positive_edges / total_edges
+        print(f"  __Modell_ID: {graph_id} \tGraph mit {total_nodes} Knoten und {positive_edges} Kanten \tTotal Edges: {total_edges}, Positive Labels: {percentage:.2%}")
+
         num_graphs += 1
-        num_nodes += len(G.nodes)
-        num_edges += len(edges) # edges enthalten bereits positive und negative Kanten
+        num_nodes += total_nodes
+        num_edges += total_edges
         num_positives += positive_edges
         num_negatives += negative_edges
-        percentage = positive_edges / len(edges)
-        # print(f"Vergleich max_psoitives: {num_max_positives:.2%} mit percentage: {percentage:.2%}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        num_max_positives = percentage if percentage > num_max_positives else num_max_positives
-        data = create_data_from_graph(G, edges)
+        max_percentage = percentage if percentage > max_percentage else max_percentage
+        # print(f"Vergleich max. Positives: {max_percentage:.2%} mit akt. Positives: {percentage:.2%}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        
+        ## Dataset anreichern
+        data = create_data_from_graph(G, edges, graph_id)
         dataset.append(data)
     
-    ## Statistik zur Ausgewogenheit ausgeben
+    ## Statistik zum Graphen für Ausgewogenheit der Labels ausgeben
     print(f"  __Statistiken über die eingelesenen Daten:")
-    print(f"\tGraphen: {num_graphs}, Knoten: {num_nodes}, Kanten: {num_positives}, mögl. Kanten: {num_edges}, Mittelwert Anteil Positives: {num_positives / num_edges:.2%}, Max Anteil Positives: {num_max_positives:.2%}")
+    print(f"\tGraphen: {num_graphs}, Knoten: {num_nodes}, Kanten: {num_positives} | mögl. Kanten: {num_edges} | Mittelwert Anteil Positives: {num_positives / num_edges:.2%} | Max. Anteil Positives: {max_percentage:.2%}")
 
 
-    ## Erstelle Datensätze (Training, Validierung, Test und Batches)
-    # Batchsize 1-32: häufigere (more frequent) updates, kann aus lokalen Minima führen, aber evtl zu rauschendem (noisy) Gradienten
-    # Batchsize 64-256: Weichere Gradienten, stabileres Training, aber benötigt mehr Arbeitsspeicher
+    ### Erstelle Datensätze (Training, Validierung, Test) und Einteilung in Batches (Loader)
+    ## Batchsize 1-32: häufigere (more frequent) updates, kann aus lokalen Minima führen, aber evtl zu rauschendem (noisy) Gradienten
+    ## Batchsize 64-256: Weichere Gradienten, stabileres Training, aber benötigt mehr Arbeitsspeicher
 
-    # ## Beispiel_1: Teile Datensatz lediglich in Batches auf
-    # loader = DataLoader(dataset, batch_size= batch_size, shuffle= True)
+    ## Aufteilung der Graphen in Trainings-, Validierungs- und Testdatensatz
+    ## random_state ist wie ein Random-Seed für Shuffle später
+    train_graphs, temp_graphs = train_test_split(dataset, test_size= Train_Prozent, random_state= 42)
+    val_graphs, test_graphs = train_test_split(temp_graphs, test_size= Val_Prozent, random_state= 42)
     
-    # ## Beispiel_2: Teile Datenset in Trainings-, Testdatensatz
-    # train_dataset, test_dataset = train_test_split(dataset, test_size= 0.2, random_state= 42)
-    # train_loader = DataLoader(train_dataset, batch_size= batch_size, shuffle=True)
-    # test_loader = DataLoader(test_dataset, batch_size= batch_size, shuffle=False)
+    ## Erstellen der Kantenlisten für jeden Datensatz
+    train_edges = [edge for graph in train_graphs for edge in graph.edge_index.t().tolist()]
+    val_edges = [edge for graph in val_graphs for edge in graph.edge_index.t().tolist()]
+    test_edges = [edge for graph in test_graphs for edge in graph.edge_index.t().tolist()]
 
-    ## Beispiel_3: Teile Datenset in Trainings-, Validierungs- und Testdatensatz ein
-    # random_state ist wie ein shuffle-Seed
-    train_dataset, temp_dataset = train_test_split(dataset, test_size= Train_Prozent, random_state= 42)
-    val_dataset, test_dataset = train_test_split(temp_dataset, test_size= Val_Prozent, random_state= 42)
-    train_loader = DataLoader(train_dataset, batch_size= Batch_Größe, shuffle= True)
-    val_loader = DataLoader(val_dataset, batch_size= Batch_Größe, shuffle= False)
-    test_loader = DataLoader(test_dataset, batch_size= Batch_Größe, shuffle= False)
+    ## Erstellen der DataLoader
+    train_loader = DataLoader(train_graphs, batch_size= Batch_Größe, shuffle= True)
+    val_loader = DataLoader(val_graphs, batch_size= Batch_Größe, shuffle= False)
+    test_loader = DataLoader(test_graphs, batch_size= Batch_Größe, shuffle= False)
 
-    train_edges_set = set((edge[0], edge[1]) for data in train_dataset for edge in data.edge_index.t().tolist())
-    val_edges_set = set((edge[0], edge[1]) for data in val_dataset for edge in data.edge_index.t().tolist())
-    test_edges_set = set((edge[0], edge[1]) for data in test_dataset for edge in data.edge_index.t().tolist())
+    ## Überprüfe Gesamtsumme der Teildatensätze sowie Disjunktheit der Graphen (wegen Unstimmigkeit mit Confusion Matrix)
+    num_train_graphs = len(train_graphs)
+    num_val_graphs = len(val_graphs)
+    num_test_graphs = len(test_graphs)
+    num_total_graphs = num_train_graphs + num_val_graphs + num_test_graphs
+    print(f"\tAnzahl der Graphen in den 3 Datensätzen: {num_train_graphs}, {num_val_graphs}, {num_test_graphs} | Gesamt: {num_total_graphs}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    num_train_edges = len(train_edges)
+    num_val_edges = len(val_edges)
+    num_test_edges = len(test_edges)
+    num_total_edges = num_train_edges + num_val_edges + num_test_edges
+    print(f"\tAnzahl der Kanten in den 3 Datensätzen: {num_train_edges}, {num_val_edges}, {num_test_edges} | Gesamt: {num_total_edges}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    ## KI empfiehlt, dass Daten disjunktiv sein sollen.
-    # ## Beispiel_4: Ansatz für disjunktives Datenset (ohne Dopplungen)
-    # # Sammle alle Kanten aus dem Dataset
-    # all_edges = list(set((edge[0], edge[1]) for data in dataset for edge in data.edge_index.t().tolist()))
-    # random.shuffle(all_edges)  # Zufälliges Mischen der Kanten
-    
-    # # Disjunkte Aufteilung der Kanten
-    # num_edges = len(all_edges)
-    # train_edges = all_edges[:int(0.7 * num_edges)]
-    # val_edges = all_edges[int(0.7 * num_edges):int(0.85 * num_edges)]
-    # test_edges = all_edges[int(0.85 * num_edges):]
-    # print(f"Train Edges: {len(train_edges)}, Val Edges: {len(val_edges)}, Test Edges: {len(test_edges)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    
-    # # Erstelle Datensätze basierend auf den disjunkten Kantenmengen
-    # train_dataset = [data for data in dataset
-    #     if any((edge[0], edge[1]) in train_edges for edge in data.edge_index.t().tolist())]
-    # val_dataset = [data for data in dataset
-    #     if any((edge[0], edge[1]) in val_edges for edge in data.edge_index.t().tolist())]
-    # test_dataset = [data for data in dataset
-    #     if any((edge[0], edge[1]) in test_edges for edge in data.edge_index.t().tolist())]
-
-    # # Erstelle DataLoader für die disjunkten Datensätze
-    # train_loader = DataLoader(train_dataset, batch_size= Batch_Größe, shuffle= True)
-    # val_loader = DataLoader(val_dataset, batch_size= Batch_Größe, shuffle= False)
-    # test_loader = DataLoader(test_dataset, batch_size= Batch_Größe, shuffle= False)
-
-    # train_edges_set = set(train_edges)
-    # val_edges_set = set(val_edges)
-    # test_edges_set = set(test_edges)
-    
-    ## BUGFIXING Überprüfe Überschneidungen zwischen den Datensätzen (wegen Unstimmigkeit Confusion Matrix)
-    # Überprüfung, ob Summe aller 3 Datensätze Gesamtlänge entspricht
-    train_edges_count = sum(len(data.edge_index.t().tolist()) for data in train_dataset)
-    val_edges_count = sum(len(data.edge_index.t().tolist()) for data in val_dataset)
-    test_edges_count = sum(len(data.edge_index.t().tolist()) for data in test_dataset)
-
-    total_edges_count = train_edges_count + val_edges_count + test_edges_count
-    print(f"Anzahl der Kanten in den 3 Datensätzen: {train_edges_count}, {val_edges_count}, {test_edges_count}, Gesamt: {total_edges_count}")
-
-    # Überprüfung, ob Datensätze disjunkt sind (ohne Überschneidungen)
-    print(f"Überschneidungen zwischen Train und Val: {len(train_edges_set & val_edges_set)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    print(f"Überschneidungen zwischen Train und Test: {len(train_edges_set & test_edges_set)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    print(f"Überschneidungen zwischen Val und Test: {len(val_edges_set & test_edges_set)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    
+    train_graph_ids = [graph.graph_id for graph in train_graphs]
+    val_graph_ids = [graph.graph_id for graph in val_graphs]
+    test_graph_ids = [graph.graph_id for graph in test_graphs]
+    train_vs_val = len(set(train_graph_ids) & set(val_graph_ids))
+    train_vs_test = len(set(train_graph_ids) & set(test_graph_ids))
+    val_vs_test = len(set(val_graph_ids) & set(test_graph_ids))
+    print(f"\tÜberschneidungen zwischen Train und Val: {train_vs_val} | Train und Test: {train_vs_test} | Val und Test: {val_vs_test}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     ## Cross-Validierung bei Aufteilung der Datensets
     kf = KFold(n_splits= 5)
@@ -247,7 +230,7 @@ def train_GNN(graph_folder_path):
         train_loader = DataLoader(train_subset, batch_size= Batch_Größe, shuffle= True)
         val_loader = DataLoader(val_subset, batch_size= Batch_Größe, shuffle= False)
 
-    ## Definition einiger Hyperparameter
+    ### Definition Hyperparameter
     model = GNN(input_dim= dataset[0].num_node_features, hidden_dim= Hidden, output_dim= 2)
     # optimizer = optim.Adam(model.parameters(), lr= Lernrate) # Alternative: Stochastic Gradient Descent (SGD)
     optimizer = optim.SGD(model.parameters(), lr= Lernrate, momentum= 0.9)
@@ -256,12 +239,12 @@ def train_GNN(graph_folder_path):
     # Var1: Berechnung mit CrossEntropyLoss
     if Kriterium == 'CrossEntropyLoss':
         criterion = nn.CrossEntropyLoss() # Alternative: BCEWithLogitsLoss, MSE, Hinge Loss, Focal Loss, KL Divergence
-
+    
     # Var2 Kriterium: Berechnung der Klassengewichte zur Berücksichtigung der wenigen positiven Ergebnisse
     elif Kriterium == 'CrossEntropyLoss_mit_Gewichtsklassifizierung':
         positive_weight = len(edges) / num_positives
         negative_weight = len(edges) / num_negatives
-        class_weights = torch.tensor([negative_weight, positive_weight], dtype=torch.float)
+        class_weights = torch.tensor([negative_weight, positive_weight], dtype= torch.float)
         criterion = nn.CrossEntropyLoss(weight= class_weights)
     
     # Var3 Kriterium: Berechnung mit Focal Loss
@@ -274,7 +257,7 @@ def train_GNN(graph_folder_path):
     early_stopping = EarlyStopping(patience= 20, min_delta= 0.02)
     plotter = Plotter(script_dir, graph_folder_path)
 
-    ## Listen für Werterfassung
+    ## Listen für Auswertung
     best_loss = float('inf')
     loss_values = [] # Verlust pro Lernepoche
     train_losses = [] # Verluste im Training
@@ -283,9 +266,19 @@ def train_GNN(graph_folder_path):
     val_accuracies = [] # Genauigkeit in Validierung
     test_accuracies = [] # Genauigkeit in Test
 
-    ## Epochenweises Training des GNN
+    train_precisions = []  # Precision im Training
+    train_recalls = []     # Recall im Training
+    train_f1_scores = []   # F1-Score im Training
+    val_precisions = []    # Precision in Validierung
+    val_recalls = []       # Recall in Validierung
+    val_f1_scores = []     # F1-Score in Validierung
+    test_precisions = []   # Precision im Test
+    test_recalls = []      # Recall im Test
+    test_f1_scores = []    # F1-Score im Test
+
+    ### Epochenweises Training des GNN
     for epoch in range(Epochenzahl):
-        ## Setze Modell in Trainings-Modus für spezifisches Verhalten (Dropout, BatchNorm, etc.)
+        ### Setze Modell in Trainingsmodus für spezifisches Verhalten (Dropout, BatchNorm, etc.)
         total_loss = 0
         model.train()
 
@@ -303,17 +296,20 @@ def train_GNN(graph_folder_path):
             else:
                 print("Keine beschrifteten Daten vorhanden!!!")
         
-        ## Fehlerberechnung Verlustfunktion
+        ## Fehlerberechnung der Verlustfunktion (Training)
         avg_loss = total_loss / len(train_loader)
         loss_values.append(avg_loss)
         train_losses.append(avg_loss)
         logging.info(f"Epoch {epoch + 1}, Loss: {avg_loss}")
 
-        ## Modellauswertung der Train Accuracy
-        train_accuracy, test_precision, train_recall, test_f1, train_con_matrix = evaluate_model(model, train_loader)
+        ## Modellauswertung mit Trainingsdatenset
+        train_accuracy, train_precision, train_recall, train_f1, train_con_matrix = evaluate_model(model, train_loader)
         train_accuracies.append(train_accuracy)
+        train_precisions.append(train_precision)
+        train_recalls.append(train_recall)
+        train_f1_scores.append(train_f1)
 
-        ## Setze Modell in Validierungsmodus
+        ### Setze Modell in Validierungsmodus
         val_loss = 0
         model.eval()
         with torch.no_grad():
@@ -322,24 +318,31 @@ def train_GNN(graph_folder_path):
                 if data.y.numel() > 0:
                     loss = criterion(out, data.y)
                     val_loss += loss.item()
+        
+        ## Fehlerberechnung der Verlustfunktion (Validierung)
         avg_val_loss = val_loss / len(val_loader)
         val_losses.append(avg_val_loss)
 
         ## Modellauswertung mit Validierungsdatenset
         val_accuracy, val_precision, val_recall, val_f1, val_con_matrix = evaluate_model(model, val_loader)
-        val_accuracies.append(val_accuracy)        
+        val_accuracies.append(val_accuracy)   
+        val_precisions.append(val_precision)
+        val_recalls.append(val_recall)
+        val_f1_scores.append(val_f1)     
 
         ## Modellauswertung mit Testdatenset
         test_accuracy, test_precision, test_recall, test_f1, test_conf_matrix = evaluate_model(model, test_loader)
         test_accuracies.append(test_accuracy)
+        test_precisions.append(test_precision)
+        test_recalls.append(test_recall)
+        test_f1_scores.append(test_f1)
 
-        ## Konsolen-Output für Dokumentation
+        ### Konsolen-Output für Dokumentation
         print(f"__Epoch: {epoch +1 }:")
         print(f"\tTrain Accuracy: {train_accuracy}, Precision: {train_accuracy}, Recall: {train_accuracy}, F1-Score: {train_accuracy}")
         print(f"\tVal Accuracy: {val_accuracy}, Precision: {val_precision}, Recall: {val_recall}, F1-Score: {val_f1}")
         print(f"\tTest Accuracy: {test_accuracy}, Precision: {test_precision}, Recall: {test_recall}, F1-Score: {test_f1}")
         print(f"\tTrain Loss: {train_losses[-1]}, Val Loss: {val_losses[-1]}")
-
         
         ## Speicher bestes Parameterset
         if avg_loss < best_loss:
@@ -357,6 +360,7 @@ def train_GNN(graph_folder_path):
     plotter.plot_learning_curves(train_losses, val_losses)
     plotter.plot_accuracies(train_accuracies, val_accuracies, test_accuracies)
     plotter.plot_confusion_matrix(test_conf_matrix)
+    plotter.plot_precision_recall_f1(test_precisions, test_recalls, test_f1_scores)
 
 
 
@@ -379,13 +383,13 @@ def load_graph_from_json(json_file_path):
     num_nodes = len(graph_data["nodes"])
     num_edges = len(graph_data["edges"])
     logging.info(f"Loaded file_path: {json_file_path}, num_nodes: {num_nodes}, num_edges: {num_edges}")
-    # print(f"  __Graphdaten: {num_nodes} Geladene Knoten und {num_edges} geladene Kanten")
+    # print(f"Graphdaten: {num_nodes} Geladene Knoten und {num_edges} geladene Kanten") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     
     ## Erstelle Graphen
     G = nx.Graph()
     for node, data in graph_data['nodes'].items():
         node = int(node) # Absichern, dass node ID eine Ganzzahl ist
-        G.add_node(node, **data)
+        G.add_node(node, **data) # Unverbundener Graph mit Knoten und Knotenmerkmalen --> Kein G.add_edges()...
     # print("Graph: ", G) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     ## Erstelle Kanten
@@ -394,40 +398,19 @@ def load_graph_from_json(json_file_path):
     # print("Kanten_existent sortiert: ", sorted(existing_edges)) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # print("Kanten_möglich sortiert: ", sorted(possible_edges)) # Gibt Liste vom Set #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    edges = [] # Wird eine Liste mit Dicts
+    edges = [] # Wird eine Liste mit Dicts aus allen möglichen Kanten
+    ## Labeln der möglichen Kanten
     for edge in possible_edges:
         label = 1 if edge in existing_edges or (edge[1], edge[0]) in existing_edges else 0
         edges.append({'source': edge[0], 'target': edge[1], 'label': label})
-    total_edges = len(edges)
-    positive_edges = sum(e['label'] == 1 for e in edges) # Summe positiver Kanten
-    negative_edges = sum(e['label'] == 0 for e in edges) # Summe negativer Kanten
-    percentage = positive_edges / total_edges
-    print(f"  __Modell_ID: {graph_data['file_id']} \tGraph mit {num_nodes} Knoten und {num_edges} Kanten \tTotal Edges: {total_edges}, Positive Labels: {positive_edges} ({percentage:.2%})")
     
-    # num_positive = sum([1 for edge in edges if edge['label'] == 1]) # Debugging statement == positive_edges
-    # num_negative = sum([1 for edge in edges if edge['label'] == 0]) # Debugging statement == negative_edges
-    # print(f"Positive Labels: {num_positive}, Negative Labels: {num_negative}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    # print("\nedges 'load_graph_from_json': ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    
-    """Erstelle Edges direkt als Dir oder Tuple, aber hat dann nur ein Label
-    ## Erstelle Kanten als Dictionary
-    edges = graph_data['edges']
-    print("\nGraph_Edges: ",graph_data['file_id'],"Edges: ", edges) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    
-    # Erstelle Kanten als Tuple
-    # edges = []
-    # for edge in graph_data['edges']:
-    #     source = edge['source']
-    #     target = edge['target']
-    #     label = edge['label']
-    #     # G.add_edge(source, target, label= label) # Nicht bei Kantenklassifikation. Sonst sinnvoll für Visualisierung oder Analyse
-    #     edges.append((source, target, label))
-    """
-    return G, edges, positive_edges, negative_edges
+    graph_id = graph_data['file_id']
+    return G, edges, graph_id
 
 
-def create_data_from_graph(G, edges):
+def create_data_from_graph(G, edges, graph_id):
     """Erstellt ein PyTorch-Geometric-Data-Objekt aus einem Netzwerkx-Graphen"""
+    ## Extrahiere Knotenmerkmale
     node_features = []
     for _, data in G.nodes(data= True):
         for value in data.values():
@@ -435,22 +418,22 @@ def create_data_from_graph(G, edges):
                 node_features.extend(value)
             else:
                 node_features.append(value)
-    # print("node_features: ", node_features)
+    # print(f"node_features: {node_features})
 
-    # Linearisiere/Gätte/Flache die Merkmalliste der Knoten ab
+    ## Linearisiere/Gätte/Flache die Merkmalliste der Knoten ab
     flat_node_features = [item for sublist in node_features for item in (sublist if isinstance(sublist, list) else [sublist])]
     x = torch.tensor(flat_node_features, dtype= torch.float).view(len(G.nodes), -1)
 
-    # Erstelle alle möglichen Kantenverbindungen und wandle sie in PyTorch Tensor um
-    possible_edges = list(combinations(G.nodes, 2))
-    edge_index = torch.tensor(possible_edges, dtype= torch.long).t().contiguous()
+    ## Verwende die Kanten aus 'edges' für edge_index
+    edge_index = torch.tensor([(edge['source'], edge['target']) for edge in edges], dtype=torch.long).t().contiguous()
 
-    # Setze alle in der Beschriftung vorkommenden Kantenverbindungen auf 1, Rest auf 0
-    edge_set = set((edge['source'], edge['target']) for edge in edges if edge['label'] == 1)
-    y = torch.tensor([1 if (u, v) in edge_set or (v, u) in edge_set else 0 for u, v in possible_edges], dtype= torch.long)
-    # print("y create_data_from_graph: ", y) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    ## Extrahiere die Labels direkt aus 'edges' für y
+    y = torch.tensor([edge['label'] for edge in edges], dtype= torch.long)
+    # print(f"y aus create_data_from_graph: {y}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+    ## Erste Data-Objekt
     data = Data(x= x, edge_index= edge_index, y= y)
+    data.graph_id = graph_id  # Füge die 'graph_id' der 'data' als Attribut hinzu
     return data
 
 
@@ -461,12 +444,12 @@ def evaluate_model(model,loader):
     with torch.no_grad():
         for data in loader:
             out = model(data)
-            preds = torch.argmax(out, dim= 1) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            preds = torch.argmax(out, dim= 1) # Gibt den Index der Klasse mit der höchsten Wahrscheinlichkeit für jede Zeile zurück
             all_preds.extend(preds.cpu().numpy())
             all_labels.extend(data.y.cpu().numpy())
-    # print(f"\tAnzahl tatsächlicher Labels und vorhergesager Labels: {len(all_labels)} und {len(all_preds)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # preds = torch.argmax(out, dim=1)
-    # print(preds) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # print(f"\tVorhersagen: {preds}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    print(f"\tAnzahl tatsächlicher Labels und vorhergesagter Labels: {len(all_labels)} und {len(all_preds)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     
     # Berechnung der Metriken
     accuracy = accuracy_score(all_labels, all_preds)
@@ -476,7 +459,6 @@ def evaluate_model(model,loader):
 
     # Berechnung der Confusion-Matrix
     conf_matrix = confusion_matrix(all_labels, all_preds)
-
     return accuracy, precision, recall, f1, conf_matrix
 
 
@@ -694,6 +676,26 @@ class Plotter:
 
         # plt.show()
         logging.info(f"Confusion matrix plot saved as {file_name}")
+    
+    
+    def plot_precision_recall_f1(self, precisions, recalls, f1_scores):
+        """Plottet Precision, Recall und F1-Score über die Epochen"""
+        plt.figure()
+        plt.plot(precisions, label='Precision')
+        plt.plot(recalls, label='Recall')
+        plt.plot(f1_scores, label='F1-Score')
+        plt.xlabel('Epoch')
+        plt.ylabel('Score')
+        plt.title('Precision, Recall, and F1-Score Over Epochs')
+        plt.legend()
+
+        # Speicher und Plotte Bild
+        file_name = 'precision_recall_f1.png'
+        plt.savefig(self.model_folder_path / file_name)
+        print(f"Diagramm gespeichert als {file_name}")
+
+        # plt.show()
+        logging.info(f"Precision, Recall, and F1-Score plot saved as {file_name}")
 
 
 
