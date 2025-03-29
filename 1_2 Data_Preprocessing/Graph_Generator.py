@@ -105,18 +105,18 @@ def get_elements_from_json(json_file):
             error_info = element.get('obj_properties', {}).get('Pset_ErrorInfo', {})
             # print('error_info: ', error_info) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             attr = {
-                # general attributes
+                # alphanumeric features
                 'id': element['id'],
                 'ifc_class': element['ifc_type'],
                 'name': element['name'],
                 'guid': element['guid'],
-                # geometric attributes
+                # geometric features
                 'position': tuple(element['position']),
                 'orientation': tuple(element['orientation']),
                 'vertices_local': element['vertices_local'],
                 'vertices_global': element['vertices_global'],
                 'edges': element['edges'],
-                # error attributes
+                # error features
                 'floor': error_info.get('floor', None),
                 'error_modify_x': error_info.get('modify_x', 1.0),
                 'error_modify_y': error_info.get('modify_y', 1.0),
