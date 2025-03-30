@@ -63,13 +63,16 @@ class GNN(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim):
         super(GNN, self).__init__()
         ### Festlegung des Modelltyps
-        ## Modelltypen: GCN (Default alt), GATConv, SAGEConv (Default neu)
+        ## Modelltypen: GCNConv (Default alt), GATConv, SAGEConv (Default neu)
         ## Aggregation erfolgt standardmäßig über Mittelwert (mean). Alternative: Somme (add) oder Pooling (LSTM oder Max-Pooling)
         self.conv1 = SAGEConv(input_dim, hidden_dim, aggr= 'mean') 
-        self.conv2 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
-        # self.conv3 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
-        self.dropout = nn.Dropout(p= 0.2) # Default= 0.5, neu= 0.2 | Regularisierung, die Elemente nullt. Alternative: L2
-        self.edge_predictor = nn.Linear(hidden_dim * 2, output_dim)
+        self.conv2 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean') 
+        self.conv3 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
+        self.dropout = nn.Dropout(p= 0.2) # Default= 0.5, neu= 0.2 | Regularisierung, die Elemente nullt. Alternative: L2        
+        if Kriterium == 'BCEWithLogitsLoss':
+            self.edge_predictor = nn.Linear(hidden_dim * 2, 1)  # Ändere output_dim auf 1
+        else:
+            self.edge_predictor = nn.Linear(hidden_dim * 2, output_dim)
 
     def forward(self, data):
         ### Netzwerkarchitektur definieren
@@ -89,14 +92,17 @@ class GNN(nn.Module):
         x = F.elu(self.conv2(x, edge_index), alpha= 1.0) # ELU
         x = self.dropout(x) # Vermeidung von overfitting
         # x = F.leaky_relu(self.conv3(x, edge_index), negative_slope= 0.01) # Leaky ReLU
-        # x = F.elu(self.conv3(x, edge_index), alpha= 1.0) # ELU
-        # x = self.dropout(x) # Vermeidung von overfitting
+        x = F.elu(self.conv3(x, edge_index), alpha= 1.0) # ELU
+        x = self.dropout(x) # Vermeidung von overfitting
         
 
         ### Kantenklassifikation (Vorhersage der Beziehungen)
         edge_index = data.edge_index
-        edge_features = torch.cat([x[edge_index[0]], x[edge_index[1]]], dim=1)
-        edge_predictions = self.edge_predictor(edge_features)
+        edge_features = torch.cat([x[edge_index[0]], x[edge_index[1]]], dim= 1)
+        if Kriterium == 'BCEWithLogitsLoss':
+            edge_predictions = self.edge_predictor(edge_features).squeeze(-1)  # Entferne die letzte Dimension
+        else:
+            edge_predictions = self.edge_predictor(edge_features)
         return edge_predictions
 
 
@@ -119,16 +125,19 @@ def train_GNN(graph_folder_path):
     ## Protokolliere angesetzte Parameter:
     Train_Prozent = 0.3 # Default= 0.3 Wie viel Prozent sollen an Temp gehen? Rest bleibt bei Train.
     Val_Prozent = 0.5 # Default= 0.5 Wie viel Prozent sollen an Test gehen? Rest von oben bleibt bei Val.
-    Hidden = 16 # Default= 32, neu= 16
+    Hidden = 32 # Default= 32
     Lernrate = 0.01 # Default= 0.01
-    Kriterium = 'CrossEntropyLoss_mit_Gewichtsklassifizierung'
-    # Auswahl= 'CrossEntropyLoss' oder 'CrossEntropyLoss_mit_Gewichtsklassifizierung' oder 'Focal_Loss'
+    global Kriterium
+    Kriterium = 'BCEWithLogitsLoss'
+    ## Auswahl= 'CrossEntropyLoss' oder 'CrossEntropyLoss_mit_Gewichtsklassifizierung' oder 'Focal_Loss' oder 'BCEWithLogitsLoss'
     Epochenzahl = 100 # Default= 100
-    Batch_Größe = 64 # Default= 256
+    Batch_Größe = 32 # Default= 256, neu 32
+    ## Batchsize 1-32: häufigere (more frequent) updates, kann aus lokalen Minima führen, aber evtl zu rauschendem (noisy) Gradienten
+    ## Batchsize 64-256: Weichere Gradienten, stabileres Training, aber benötigt mehr Arbeitsspeicher
     print(f"""
     Übersicht zur Modellarchitektur:
           Modelltyp= GraphSAGE
-          Input | Hidden: {Hidden} (Conv1, ReLU, Dropout, Conv2, Dropout) | EdgePredictor: Hidden*2 | Out: 2 
+          Input | Hidden: {Hidden} (Conv1, ReLU, Dropout, Conv2, Dropout, Conv3, Dropout) | EdgePredictor: Hidden*2 | Out: 1 (bei BCE; sonst 2)
           Aktivierungsfunktion = ELU
           Dropout= 0.2
     Hyperparameter:
@@ -184,9 +193,6 @@ def train_GNN(graph_folder_path):
 
 
     ### Erstelle Datensätze (Training, Validierung, Test) und Einteilung in Batches (Loader)
-    ## Batchsize 1-32: häufigere (more frequent) updates, kann aus lokalen Minima führen, aber evtl zu rauschendem (noisy) Gradienten
-    ## Batchsize 64-256: Weichere Gradienten, stabileres Training, aber benötigt mehr Arbeitsspeicher
-
     ## Aufteilung der Graphen in Trainings-, Validierungs- und Testdatensatz
     ## random_state ist wie ein Random-Seed für Shuffle später
     train_graphs, temp_graphs = train_test_split(dataset, test_size= Train_Prozent, random_state= 42)
@@ -232,8 +238,8 @@ def train_GNN(graph_folder_path):
 
     ### Definition Hyperparameter
     model = GNN(input_dim= dataset[0].num_node_features, hidden_dim= Hidden, output_dim= 2)
-    # optimizer = optim.Adam(model.parameters(), lr= Lernrate) # Alternative: Stochastic Gradient Descent (SGD)
-    optimizer = optim.SGD(model.parameters(), lr= Lernrate, momentum= 0.9)
+    optimizer = optim.Adam(model.parameters(), lr= Lernrate) # Alternative: Stochastic Gradient Descent (SGD)
+    # optimizer = optim.SGD(model.parameters(), lr= Lernrate, momentum= 0.9)
 
     ## Definition der Verlustfunktion
     # Var1: Berechnung mit CrossEntropyLoss
@@ -250,6 +256,12 @@ def train_GNN(graph_folder_path):
     # Var3 Kriterium: Berechnung mit Focal Loss
     elif Kriterium == 'Focal_Loss':
         criterion = FocalLoss(alpha= 0.25, gamma= 2)
+    
+    # Var4: Berechnung mit binärer CrossEntropy
+    elif Kriterium == 'BCEWithLogitsLoss':
+        positive_weight = num_negatives / num_positives  # Gewichtung für positive Labels
+        criterion = nn.BCEWithLogitsLoss(pos_weight= torch.tensor(positive_weight))
+
     else:
         raise NotImplementedError("Dies Variante der Verlustberechnung wurde noch nicht integriert")
     
@@ -285,11 +297,14 @@ def train_GNN(graph_folder_path):
         for data in train_loader:
             optimizer.zero_grad()
             out = model(data)
+            # print(f"out shape: {out.shape}, data.y shape: {data.y.shape}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
             ## Absichern, dass gelabelte Daten vorhanden sind.
-            if data.y.numel() > 0:
-                # print(f"out shape: {out.shape}, data.y shape: {data.y.shape}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                loss = criterion(out, data.y)
+            if data.y.numel() > 0:                
+                if Kriterium == 'BCEWithLogitsLoss':
+                    loss = criterion(out, data.y.float())  # Konvertiere data.y zu FloatTensor
+                else:
+                    loss = criterion(out, data.y)
                 loss.backward()
                 optimizer.step()
                 total_loss += loss.item()
@@ -315,8 +330,13 @@ def train_GNN(graph_folder_path):
         with torch.no_grad():
             for data in val_loader:
                 out = model(data)
+                
+                ## Absichern, dass gelabelte Daten vorhanden sind.
                 if data.y.numel() > 0:
-                    loss = criterion(out, data.y)
+                    if Kriterium == 'BCEWithLogitsLoss':
+                        loss = criterion(out, data.y.float())  # Konvertiere data.y zu FloatTensor
+                    else:
+                        loss = criterion(out, data.y)
                     val_loss += loss.item()
         
         ## Fehlerberechnung der Verlustfunktion (Validierung)
@@ -444,20 +464,23 @@ def evaluate_model(model,loader):
     with torch.no_grad():
         for data in loader:
             out = model(data)
-            preds = torch.argmax(out, dim= 1) # Gibt den Index der Klasse mit der höchsten Wahrscheinlichkeit für jede Zeile zurück
+
+            if Kriterium == 'BCEWithLogitsLoss':
+                preds = (torch.sigmoid(out) > 0.5).long()  # Sigmoid-Aktivierung und Schwellenwert von 0.5
+            else:
+                preds = torch.argmax(out, dim= 1) # Gibt den Index der Klasse mit der höchsten Wahrscheinlichkeit für jede Zeile zurück
+            
             all_preds.extend(preds.cpu().numpy())
             all_labels.extend(data.y.cpu().numpy())
-    # preds = torch.argmax(out, dim=1)
-    # print(f"\tVorhersagen: {preds}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     print(f"\tAnzahl tatsächlicher Labels und vorhergesagter Labels: {len(all_labels)} und {len(all_preds)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     
-    # Berechnung der Metriken
+    ## Berechnung der Metriken
     accuracy = accuracy_score(all_labels, all_preds)
     precision = precision_score(all_labels, all_preds, zero_division= 1)
     recall = recall_score(all_labels, all_preds, zero_division= 1)
     f1 = f1_score(all_labels, all_preds, zero_division= 1)
 
-    # Berechnung der Confusion-Matrix
+    ## Berechnung der Confusion-Matrix
     conf_matrix = confusion_matrix(all_labels, all_preds)
     return accuracy, precision, recall, f1, conf_matrix
 
@@ -466,7 +489,7 @@ def add_random_edges(G, num_edges: int, positives):
     """Bugfixing-Funktion zum erstellen zufäller gelabelter Daten"""
     nodes = list(G.nodes)
     choices = random.choices #Beispiel: choices(['red', 'black', 'green'], [18, 18, 2], k=6) -> ['red', 'green', 'black', 'black', 'red', 'black']
-    # Erstellt Anzahl möglicher Kanten mit zufällig vielen positiven
+    ## Erstellt Anzahl möglicher Kanten mit zufällig vielen positiven
     random_edges = [{'source': random.choice(nodes), 'target': random.choice(nodes), 'label': choices([0,1], [1-positives, positives])[0]} for _ in range(num_edges)]
     return random_edges
 
@@ -569,8 +592,8 @@ class Plotter:
         ## Plotte Knoten
         for node, (x, y, z) in pos.items():
             node_color = color_map.get(G.nodes[node]['ifc_class'], 'gray')
-            ax.scatter(x, y, z, color=node_color, s=50)
-            ax.text(x, y, z, s=node, fontsize=10)
+            ax.scatter(x, y, z, color= node_color, s= 50)
+            ax.text(x, y, z, s= node, fontsize= 10)
 
         ## Plotte Kanten
         for edge in G.edges():
