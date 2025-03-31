@@ -25,6 +25,8 @@ logging.basicConfig(filename='training.log', level=logging.INFO, format='%(ascti
 """Hauptfunktion"""
 def main():
     """Hauptfunktion zum Trainieren des GNN-Modells"""
+    print("___Intitialisiere Skript___")
+
     global script_dir
     script_dir = Path(__file__).parent
     ## Alternative Wege
@@ -57,6 +59,8 @@ def main():
                 sys.stdout = Tee(sys.stdout, f)
                 train_GNN(graph_folder_path)
                 sys.stdout = original_stdout
+    
+    print("___Skript erfolgreich beendet___")
 
 
 class GNN(nn.Module):
@@ -65,10 +69,23 @@ class GNN(nn.Module):
         ### Festlegung des Modelltyps
         ## Modelltypen: GCNConv (Default alt), GATConv, SAGEConv (Default neu)
         ## Aggregation erfolgt standardmäßig über Mittelwert (mean). Alternative: Somme (add) oder Pooling (LSTM oder Max-Pooling)
-        self.conv1 = SAGEConv(input_dim, hidden_dim, aggr= 'mean') 
-        self.conv2 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean') 
-        self.conv3 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
-        self.dropout = nn.Dropout(p= 0.2) # Default= 0.5, neu= 0.2 | Regularisierung, die Elemente nullt. Alternative: L2        
+        if Modelltyp == 'GCN':
+            self.conv1 = GCNConv(input_dim, hidden_dim, aggr= 'mean') 
+            self.conv2 = GCNConv(hidden_dim, hidden_dim, aggr= 'mean')
+            self.conv3 = GCNConv(hidden_dim, hidden_dim, aggr= 'mean')
+        elif Modelltyp == 'GAT':
+            self.conv1 = SAGEConv(input_dim, hidden_dim, aggr= 'mean') 
+            self.conv2 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean') 
+            self.conv3 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
+        elif Modelltyp == 'GraphSAGE':
+            self.conv1 = SAGEConv(input_dim, hidden_dim, aggr= 'mean') 
+            self.conv2 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean') 
+            self.conv3 = SAGEConv(hidden_dim, hidden_dim, aggr= 'mean')
+        else:
+            raise NotImplementedError("Dieser Modelltyp wurde noch nicht integriert")
+        
+        self.dropout = nn.Dropout(p= Dropout) # Regularisierung, die Elemente nullt. Alternative: L2        
+        
         if Kriterium == 'BCEWithLogitsLoss':
             self.edge_predictor = nn.Linear(hidden_dim * 2, 1)  # Ändere output_dim auf 1
         else:
@@ -76,24 +93,32 @@ class GNN(nn.Module):
 
     def forward(self, data):
         ### Netzwerkarchitektur definieren
-        ## Netzwerkarchitektur ReLU
-        # x, edge_index = data.x, data.edge_index
-        # x = self.conv1(x, edge_index).relu() # Default: relu | Alternative: Leaky ReLU, ELU
-        # x = self.dropout(x) # Vermeidung von overfitting
-        # x = self.conv2(x, edge_index)
-        # x = self.dropout(x) # Vermeidung von overfitting
-
-        ## Netzwerkarchitektur Leaky ReLU oder ELU
-        x, edge_index = data.x, data.edge_index
-        # x = F.leaky_relu(self.conv1(x, edge_index), negative_slope= 0.01) # Leaky ReLU
-        x = F.elu(self.conv1(x, edge_index), alpha= 1.0) # ELU
-        x = self.dropout(x) # Vermeidung von overfitting
-        # x = F.leaky_relu(self.conv2(x, edge_index), negative_slope= 0.01) # Leaky ReLU
-        x = F.elu(self.conv2(x, edge_index), alpha= 1.0) # ELU
-        x = self.dropout(x) # Vermeidung von overfitting
-        # x = F.leaky_relu(self.conv3(x, edge_index), negative_slope= 0.01) # Leaky ReLU
-        x = F.elu(self.conv3(x, edge_index), alpha= 1.0) # ELU
-        x = self.dropout(x) # Vermeidung von overfitting
+        if Aktivierung == 'ReLU':
+            x, edge_index = data.x, data.edge_index
+            x = self.conv1(x, edge_index).relu()
+            x = self.dropout(x) # Vermeidung von overfitting
+            x = self.conv2(x, edge_index).relu()
+            x = self.dropout(x) # Vermeidung von overfitting
+            x = self.conv3(x, edge_index).relu()
+            x = self.dropout(x) # Vermeidung von overfitting
+        elif Aktivierung == 'LeakyReLU':
+            x, edge_index = data.x, data.edge_index
+            x = F.leaky_relu(self.conv1(x, edge_index), negative_slope= 0.01) # Leaky ReLU
+            x = self.dropout(x) # Vermeidung von overfitting
+            x = F.leaky_relu(self.conv2(x, edge_index), negative_slope= 0.01) # Leaky ReLU
+            x = self.dropout(x) # Vermeidung von overfitting
+            x = F.leaky_relu(self.conv3(x, edge_index), negative_slope= 0.01) # Leaky ReLU
+            x = self.dropout(x) # Vermeidung von overfitting
+        elif Aktivierung == 'ELU':
+            x, edge_index = data.x, data.edge_index
+            x = F.elu(self.conv1(x, edge_index), alpha= 1.0) # ELU
+            x = self.dropout(x) # Vermeidung von overfitting
+            x = F.elu(self.conv2(x, edge_index), alpha= 1.0) # ELU
+            x = self.dropout(x) # Vermeidung von overfitting
+            x = F.elu(self.conv3(x, edge_index), alpha= 1.0) # ELU
+            x = self.dropout(x) # Vermeidung von overfitting
+        else:
+            raise NotImplementedError("Diese Variante der Aktivierungsfunktion wurde noch nicht integriert")
         
 
         ### Kantenklassifikation (Vorhersage der Beziehungen)
@@ -107,8 +132,8 @@ class GNN(nn.Module):
 
 
 def train_GNN(graph_folder_path):
-    """Führt das Training des GNN um. Zuerst werden die Daten in Datensätze und Batches aufgeteilt.
-    Dann werden einige Hyperparameter bestimmt und die Epochen für das Training durchlaufen.
+    """Führt das Training des GNN durch. Zuerst werden die Graphen in Datensätze und Batches aufgeteilt.
+    Dann werden einige Hyperparameter bestimmt und die Epochen für das Training berechnet.
     Anschließend findet die Fehlerberechnung und Auswertung ab, die abgespeichert wird."""
 
     print(f"__Starte Training für: {graph_folder_path}")
@@ -123,10 +148,18 @@ def train_GNN(graph_folder_path):
     max_percentage = 0 # Größter Anteil positiver Ereignisse aus einem Graphen
 
     ## Protokolliere angesetzte Parameter:
+    global Modelltyp
+    Modelltyp = "GraphSAGE" # Default= 'GraphSAGE' | Auswahl: 'GCN', 'GAT', 'GraphSAGE'
+    Hidden = 32 # Default= 32
+    global Aktivierung
+    Aktivierung = "ELU" # Default= 'ELU' | Auswahl: 'ReLU', 'LeakyReLU', 'ELU'
+    global Dropout
+    Dropout = 0.2 # Default= 0.5, neu: 0.2
     Train_Prozent = 0.3 # Default= 0.3 Wie viel Prozent sollen an Temp gehen? Rest bleibt bei Train.
     Val_Prozent = 0.5 # Default= 0.5 Wie viel Prozent sollen an Test gehen? Rest von oben bleibt bei Val.
-    Hidden = 32 # Default= 32
     Lernrate = 0.01 # Default= 0.01
+    global Optimierer
+    Optimierer = "SGD_mit_L2" # Default= 'SGD' | Auswahl: 'SGD', 'SGD_mit_L2', 'Adam', 'Adam_mit_L2'
     global Kriterium
     Kriterium = 'BCEWithLogitsLoss'
     ## Auswahl= 'CrossEntropyLoss' oder 'CrossEntropyLoss_mit_Gewichtsklassifizierung' oder 'Focal_Loss' oder 'BCEWithLogitsLoss'
@@ -136,13 +169,13 @@ def train_GNN(graph_folder_path):
     ## Batchsize 64-256: Weichere Gradienten, stabileres Training, aber benötigt mehr Arbeitsspeicher
     print(f"""
     Übersicht zur Modellarchitektur:
-          Modelltyp= GraphSAGE
+          Modelltyp= {Modelltyp}
           Input | Hidden: {Hidden} (Conv1, ReLU, Dropout, Conv2, Dropout, Conv3, Dropout) | EdgePredictor: Hidden*2 | Out: 1 (bei BCE; sonst 2)
-          Aktivierungsfunktion = ELU
-          Dropout= 0.2
+          Aktivierungsfunktion = {Aktivierung}
+          Dropout= {Dropout}
     Hyperparameter:
           Aufteilung Datensätze (Training, Validierung, Test): {(1 - Train_Prozent) * 100} / {(Train_Prozent * (1 - Val_Prozent)) * 100} / {Train_Prozent * Val_Prozent * 100}
-          optimizer= Stochastic Gradient Decent (SGD), LR= {Lernrate}
+          optimizer= {Optimierer}, LR= {Lernrate}
           Criterion= {Kriterium}
           Early Stopping: Aktiviert
     Training:
@@ -238,32 +271,37 @@ def train_GNN(graph_folder_path):
 
     ### Definition Hyperparameter
     model = GNN(input_dim= dataset[0].num_node_features, hidden_dim= Hidden, output_dim= 2)
-    optimizer = optim.Adam(model.parameters(), lr= Lernrate) # Alternative: Stochastic Gradient Descent (SGD)
-    # optimizer = optim.SGD(model.parameters(), lr= Lernrate, momentum= 0.9)
+
+    if Optimierer == 'Adam':
+        optimizer = optim.Adam(model.parameters(), lr= Lernrate)
+    elif Optimierer == 'Adam_mit_L2':
+        optimizer = optim.Adam(model.parameters(), lr= Lernrate, weight_decay= 0.01)
+    elif Optimierer == 'SGD':
+        optimizer = optim.SGD(model.parameters(), lr= Lernrate, momentum= 0.9) # Stochastic Gradient Descent (SGD)
+    elif Optimierer == 'SGD_mit_L2':
+        optimizer = optim.SGD(model.parameters(), lr= Lernrate, momentum= 0.9, weight_decay= 0.01)
+    else:
+        raise NotImplementedError("Diese Variante des Optimierers wurde noch nicht integriert")
 
     ## Definition der Verlustfunktion
     # Var1: Berechnung mit CrossEntropyLoss
     if Kriterium == 'CrossEntropyLoss':
-        criterion = nn.CrossEntropyLoss() # Alternative: BCEWithLogitsLoss, MSE, Hinge Loss, Focal Loss, KL Divergence
-    
+        criterion = nn.CrossEntropyLoss() # Alternative: BCEWithLogitsLoss, MSE, Hinge Loss, Focal Loss, KL Divergence   
     # Var2 Kriterium: Berechnung der Klassengewichte zur Berücksichtigung der wenigen positiven Ergebnisse
     elif Kriterium == 'CrossEntropyLoss_mit_Gewichtsklassifizierung':
         positive_weight = len(edges) / num_positives
         negative_weight = len(edges) / num_negatives
         class_weights = torch.tensor([negative_weight, positive_weight], dtype= torch.float)
-        criterion = nn.CrossEntropyLoss(weight= class_weights)
-    
+        criterion = nn.CrossEntropyLoss(weight= class_weights)    
     # Var3 Kriterium: Berechnung mit Focal Loss
     elif Kriterium == 'Focal_Loss':
-        criterion = FocalLoss(alpha= 0.25, gamma= 2)
-    
+        criterion = FocalLoss(alpha= 0.25, gamma= 2)    
     # Var4: Berechnung mit binärer CrossEntropy
     elif Kriterium == 'BCEWithLogitsLoss':
         positive_weight = num_negatives / num_positives  # Gewichtung für positive Labels
         criterion = nn.BCEWithLogitsLoss(pos_weight= torch.tensor(positive_weight))
-
     else:
-        raise NotImplementedError("Dies Variante der Verlustberechnung wurde noch nicht integriert")
+        raise NotImplementedError("Diese Variante der Verlustberechnung wurde noch nicht integriert")
     
     ## Aktiviere externe Classes
     early_stopping = EarlyStopping(patience= 20, min_delta= 0.02)
@@ -309,7 +347,7 @@ def train_GNN(graph_folder_path):
                 optimizer.step()
                 total_loss += loss.item()
             else:
-                print("Keine beschrifteten Daten vorhanden!!!")
+                print("  __Keine beschrifteten Daten vorhanden!!!")
         
         ## Fehlerberechnung der Verlustfunktion (Training)
         avg_loss = total_loss / len(train_loader)
@@ -359,10 +397,10 @@ def train_GNN(graph_folder_path):
 
         ### Konsolen-Output für Dokumentation
         print(f"__Epoch: {epoch +1 }:")
-        print(f"\tTrain Accuracy: {train_accuracy}, Precision: {train_accuracy}, Recall: {train_accuracy}, F1-Score: {train_accuracy}")
-        print(f"\tVal Accuracy: {val_accuracy}, Precision: {val_precision}, Recall: {val_recall}, F1-Score: {val_f1}")
-        print(f"\tTest Accuracy: {test_accuracy}, Precision: {test_precision}, Recall: {test_recall}, F1-Score: {test_f1}")
-        print(f"\tTrain Loss: {train_losses[-1]}, Val Loss: {val_losses[-1]}")
+        print(f"\tTrain Accuracy: {train_accuracy}, \tPrecision: {train_accuracy}, \tRecall: {train_accuracy}, \tF1-Score: {train_accuracy}")
+        print(f"\tVal Accuracy: {val_accuracy}, \tPrecision: {val_precision}, \tRecall: {val_recall}, \tF1-Score: {val_f1}")
+        print(f"\tTest Accuracy: {test_accuracy}, \tPrecision: {test_precision}, Recall: {test_recall}, \tF1-Score: {test_f1}")
+        print(f"\tTrain Loss: {train_losses[-1]}, \tVal Loss: {val_losses[-1]}")
         
         ## Speicher bestes Parameterset
         if avg_loss < best_loss:
@@ -376,7 +414,7 @@ def train_GNN(graph_folder_path):
         
     ## Speichern und Plotten
     plotter.save_model(model, best= False)
-    plotter.plot_loss_curve(loss_values)
+    # plotter.plot_loss_curve(loss_values)
     plotter.plot_learning_curves(train_losses, val_losses)
     plotter.plot_accuracies(train_accuracies, val_accuracies, test_accuracies)
     plotter.plot_confusion_matrix(test_conf_matrix)
@@ -607,14 +645,14 @@ class Plotter:
 
         ## Speicher und plotte den Graphen
         GNN_image_folder_path = self.model_folder_path / "GNN_Graph_Image"
-        os.makedirs(GNN_image_folder_path, exist_ok=True) # Ordner erstellen, falls noch nicht vorhanden
+        os.makedirs(GNN_image_folder_path, exist_ok= True) # Ordner erstellen, falls noch nicht vorhanden
         GNN_image_file_name = 'Variable GNN name.png'
         GNN_image_file_path = GNN_image_folder_path / GNN_image_file_name
         plt.savefig(GNN_image_file_path)
         print(f"GNN-Graph gespeichert als {GNN_image_file_name}")
+        logging.info(f"GNN-Graph plot saved as {GNN_image_file_name}")
 
         # plt.show()
-        logging.info(f"GNN-Graph plot saved as {GNN_image_file_name}")
         
 
     def plot_loss_curve(self, loss_values):
@@ -623,6 +661,7 @@ class Plotter:
         plt.plot(loss_values, label= 'Training Loss')
         plt.xlabel('Epoch')
         plt.ylabel('Loss')
+        plt.ylim(0, max(loss_values))
         plt.title('Training Loss Over Epochs')
         plt.legend()
     
@@ -630,9 +669,9 @@ class Plotter:
         file_name = 'training_loss.png'
         plt.savefig(self.model_folder_path / file_name)
         print(f"Diagramm gespeichert als {file_name}")
+        logging.info(f"Training loss plot saved as {file_name}")
 
         # plt.show()
-        logging.info(f"Training loss plot saved as {file_name}")
 
 
     def plot_learning_curves(self, train_losses, val_losses):
@@ -645,39 +684,54 @@ class Plotter:
         plt.plot(val_losses, label= 'Validation Loss')
         plt.xlabel('Epoch')
         plt.ylabel('Loss')
-        plt.title('Learning Curves')
+        plt.ylim(0, max(max(train_losses), max(val_losses)) * 1.1)
+        plt.title('Losses over Epochs')
         plt.legend()
 
         ## Speicher und Plotte Bild
         file_name = 'learning_curves.png'
         plt.savefig(self.model_folder_path / file_name)
         print(f"Diagramm gespeichert als {file_name}")
+        logging.info(f"Learning curves plot saved as {file_name}")
+        file_name = 'learning_curves.svg'
+        plt.savefig(self.model_folder_path / file_name)
+        print(f"Diagramm gespeichert als {file_name}")
+        logging.info(f"Learning curves plot saved as {file_name}")
 
         # plt.show()
-        logging.info(f"Learning curves plot saved as {file_name}")
     
 
     def plot_accuracies(self, train_accuracies, val_accuracies, test_accuracies):
         """Plottet die Genauigkeiten für Training, Validierung und Test"""
+        print(f"\tTrain Accuracies: {train_accuracies}")
+        print(f"\tVal Accuracies: {val_accuracies}")
+        print(f"\tTest Accuracies: {test_accuracies}")
+
         plt.figure()
         plt.plot(train_accuracies, label= 'Train Accuracy')
         plt.plot(val_accuracies, label= 'Validation Accuracy')
         plt.plot(test_accuracies, label= 'Test Accuracy')
         plt.xlabel('Epoch')
-        plt.ylabel('Accuracies Over Epochs')
+        plt.ylabel('Accuracy')
+        plt.ylim(0, 1.1)
+        plt.title('Accuracies Over Epochs')
         plt.legend()
 
         ## Speicher und Plotte Bild
         file_name = 'accuracies.png'
         plt.savefig(self.model_folder_path / file_name)
         print(f"Diagramm gespeichert als {file_name}")
+        logging.info(f"Accuracies plot saved as {file_name}")
+        file_name = 'accuracies.svg'
+        plt.savefig(self.model_folder_path / file_name)
+        print(f"Diagramm gespeichert als {file_name}")
+        logging.info(f"Accuracies plot saved as {file_name}")
 
         # plt.show()
-        logging.info(f"Accuracies plot saved as {file_name}")
     
 
     def plot_confusion_matrix(self, conf_matrix):
-        """Plottet die Cnfusion-Matrix der Testdaten"""
+        """Plottet die Confusion-Matrix der Testdaten"""
         plt.figure(figsize= (6, 6))
         plt.imshow(conf_matrix, interpolation= 'nearest', cmap= plt.cm.Blues)
         plt.title("Confusion Matrix")
@@ -696,19 +750,24 @@ class Plotter:
         file_name = 'confusion_matrix.png'
         plt.savefig(self.model_folder_path / file_name)
         print(f"Confusion Matrix gespeichert als {file_name}")
+        logging.info(f"Confusion matrix plot saved as {file_name}")
+        file_name = 'confusion_matrix.svg'
+        plt.savefig(self.model_folder_path / file_name)
+        print(f"Confusion Matrix gespeichert als {file_name}")
+        logging.info(f"Confusion matrix plot saved as {file_name}")
 
         # plt.show()
-        logging.info(f"Confusion matrix plot saved as {file_name}")
     
     
     def plot_precision_recall_f1(self, precisions, recalls, f1_scores):
         """Plottet Precision, Recall und F1-Score über die Epochen"""
         plt.figure()
-        plt.plot(precisions, label='Precision')
-        plt.plot(recalls, label='Recall')
-        plt.plot(f1_scores, label='F1-Score')
+        plt.plot(precisions, label= 'Precision')
+        plt.plot(recalls, label= 'Recall')
+        plt.plot(f1_scores, label= 'F1-Score')
         plt.xlabel('Epoch')
         plt.ylabel('Score')
+        plt.ylim(0, 1.1)
         plt.title('Precision, Recall, and F1-Score Over Epochs')
         plt.legend()
 
@@ -716,9 +775,13 @@ class Plotter:
         file_name = 'precision_recall_f1.png'
         plt.savefig(self.model_folder_path / file_name)
         print(f"Diagramm gespeichert als {file_name}")
+        logging.info(f"Precision, Recall, and F1-Score plot saved as {file_name}")
+        file_name = 'precision_recall_f1.svg'
+        plt.savefig(self.model_folder_path / file_name)
+        print(f"Diagramm gespeichert als {file_name}")
+        logging.info(f"Precision, Recall, and F1-Score plot saved as {file_name}")
 
         # plt.show()
-        logging.info(f"Precision, Recall, and F1-Score plot saved as {file_name}")
 
 
 
