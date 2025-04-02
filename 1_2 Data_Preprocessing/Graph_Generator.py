@@ -23,7 +23,7 @@ def main():
     
     
     ## Erstelle seriell Graphen aus allen IFC-Extracts
-    extracts_folder_names = ["Modell_2_Parametrisch Stahlbeton"]
+    extracts_folder_names = ["Modell_2_Parametrisch Stahl 00000_01535"]
     extracts_folder_paths = get_folder_paths(script_dir, extracts_folder_names)
 
     for extracts_folder_path in extracts_folder_paths:
@@ -94,6 +94,14 @@ def get_folder_paths(script_dir, folder_names):
     return extracts_folder_paths
 
 
+def pad_or_truncate(vertices, max_length):
+    """Bringt die vertices auf eine feste Länge durch Padding oder Trunkieren."""
+    if len(vertices) > max_length:
+        return vertices[:max_length]  # Trunkieren
+    else:
+        return vertices + [0.0] * (max_length - len(vertices))  # Padding
+
+
 def get_elements_from_json(json_file):
     """Extrahiert Daten aus JSON-Datei"""
     # print('json_file (get_elements_from_json): ', json_file) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -104,24 +112,40 @@ def get_elements_from_json(json_file):
         for element in data['Bauteile']:
             error_info = element.get('obj_properties', {}).get('Pset_ErrorInfo', {})
             # print('error_info: ', error_info) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+            ## Padding und Trunkieren der Vertices
+            padding = False
+            if padding:
+                max_length = 24 # Beispielhaft haben alle rechteckigen Körper 8 verts, IPE hat 24 - ist variabel bei anderen
+                vertices_local = element['vertices_local']
+                vertices_local = pad_or_truncate(vertices_local, max_length)
+                vertices_global = element['vertices_global']
+                vertices_global = pad_or_truncate(vertices_global, max_length)
+                edges = element['edges']
+                edges = pad_or_truncate(edges, max_length)
+            else:
+                vertices_local = element['vertices_local']
+                vertices_global = element['vertices_global']
+                edges = element['edges']
+
             attr = {
                 # alphanumeric features
-                'id': element['id'],
-                'ifc_class': element['ifc_type'],
-                'name': element['name'],
-                'guid': element['guid'],
+                'id': element['id'], #Type: Int
+                'ifc_class': element['ifc_type'], #Type: Int
+                'name': element['name'], #Type: String
+                'guid': element['guid'], #Type: Int
                 # geometric features
-                'position': tuple(element['position']),
-                'orientation': tuple(element['orientation']),
-                'vertices_local': element['vertices_local'],
-                'vertices_global': element['vertices_global'],
-                'edges': element['edges'],
+                'position': tuple(element['position']), #Type: Tuple (konstant)
+                'orientation': tuple(element['orientation']), #Type: Tuple (konstant)
+                'vertices_local': vertices_local, #Type: Liste (variabel)
+                'vertices_global': vertices_global, #Type: Liste (variabel)
+                'edges': edges, #Type: Liste (variabel)
                 # error features
-                'floor': error_info.get('floor', None),
-                'error_modify_x': error_info.get('modify_x', 1.0),
-                'error_modify_y': error_info.get('modify_y', 1.0),
-                'error_modify_height': error_info.get('modify_heigth', 1.0),
-                'error_position_type': error_info.get('position_type', None),
+                'floor': error_info.get('floor', None), #Type: Int
+                'error_modify_x': error_info.get('modify_x', 1.0), #Type: Int
+                'error_modify_y': error_info.get('modify_y', 1.0), #Type: Int
+                'error_modify_height': error_info.get('modify_heigth', 1.0), #Type: Int
+                'error_position_type': error_info.get('position_type', None), #Type: String ('edge_y', etc.)
 
             }
             # print("\n element:", element) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -150,11 +174,11 @@ def create_graph_from_elements(elements):
     for node_id, element in elements.items():
         node_id = element['id']
         node_features = {
-                # 'ifc_class': element['ifc_class'],
+                # 'ifc_class': element['ifc_class'], #Wäre ein Text, was nicht geht
                 'ifc_class': ifc_class_encoder.get(element['ifc_class'], 0),
                 'position': tuple(element['position']),
-                'orientation': tuple(element['orientation']),
-                'vertices_local': element['vertices_local'],
+                # 'orientation': tuple(element['orientation']),
+                # 'vertices_local': element['vertices_local'],
                 'vertices_global': element['vertices_global'],
                 'edges': element['edges'],
         }
@@ -303,10 +327,17 @@ def plot_graph_3D(graph_file_path):
         z= [pos[edge[0]][2], pos[edge[1]][2]]
         ax.plot(x, y, z, color= 'black')    
     
-    ## Speicher und plotte den Graphen
+    ## Speicher und plotte den Graphen...
     image_folder_path = Path(graph_file_path).parent.parent / "Graph_Image"
     os.makedirs(image_folder_path, exist_ok=True) # Ordner erstellen, falls noch nicht vorhanden
+    ## ...als png
     image_file_name = Path(graph_file_path).stem + '.png' # Dateiname ohne Suffix
+    image_file_path = image_folder_path / image_file_name
+    print('image_file_path: ', image_file_path)
+    plt.savefig(image_file_path)
+
+    ## ...als svg
+    image_file_name = Path(graph_file_path).stem + '.svg' # Dateiname ohne Suffix
     image_file_path = image_folder_path / image_file_name
     print('image_file_path: ', image_file_path)
     plt.savefig(image_file_path)
