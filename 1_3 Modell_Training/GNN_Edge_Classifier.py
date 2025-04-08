@@ -17,7 +17,7 @@ from torch_geometric.data import Data
 from torch_geometric.loader import DataLoader
 from torch_geometric.nn import GCNConv, GATConv, SAGEConv
 
-# Set up logging
+## Set up logging --> filename muss noch kompletter lokaer Pfad sein, sonst landet es irgendwo oben im Pfad
 logging.basicConfig(filename='training.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
 
@@ -40,7 +40,8 @@ def main():
     
     """Trainiere seriell GNN aus mehreren Datasets"""
     graph_folder_names = ["Modell_2_Parametrisch Stahlbeton 00000_01535"] # Standardordner für alle Daten
-    # graph_folder_names = ["Modell_2_Parametrisch Stahlbeton 01530_01535"]
+    # graph_folder_names = ["Modell_2_Parametrisch Stahl 00000_01535"]
+    # graph_folder_names = ["Modell_2_Parametrisch Gemischt 00000_01535"]
     graph_folder_paths = get_folder_paths(script_dir, graph_folder_names)
 
     for graph_folder_path in graph_folder_paths:
@@ -241,7 +242,11 @@ def train_GNN(graph_folder_path):
     val_loader = DataLoader(val_graphs, batch_size= Batch_Größe, shuffle= False)
     test_loader = DataLoader(test_graphs, batch_size= Batch_Größe, shuffle= False)
 
-    ## Überprüfe Gesamtsumme der Teildatensätze sowie Disjunktheit der Graphen (wegen Unstimmigkeit mit Confusion Matrix)
+    ## Überprüfe Kantenanzahl in jedem Batch
+    # for i, data in enumerate(train_loader):
+    #     print(f"Batch {i}: {data.edge_index.size(1)} Kanten")
+
+    ## Überprüfe Gesamtsumme der Teildatensätze der Graphen und Egdes
     num_train_graphs = len(train_graphs)
     num_val_graphs = len(val_graphs)
     num_test_graphs = len(test_graphs)
@@ -253,13 +258,32 @@ def train_GNN(graph_folder_path):
     num_total_edges = num_train_edges + num_val_edges + num_test_edges
     print(f"\tAnzahl der Kanten in den 3 Datensätzen: {num_train_edges}, {num_val_edges}, {num_test_edges} | Gesamt: {num_total_edges}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    train_graph_ids = [graph.graph_id for graph in train_graphs]
-    val_graph_ids = [graph.graph_id for graph in val_graphs]
-    test_graph_ids = [graph.graph_id for graph in test_graphs]
-    train_vs_val = len(set(train_graph_ids) & set(val_graph_ids))
-    train_vs_test = len(set(train_graph_ids) & set(test_graph_ids))
-    val_vs_test = len(set(val_graph_ids) & set(test_graph_ids))
-    print(f"\tÜberschneidungen zwischen Train und Val: {train_vs_val} | Train und Test: {train_vs_test} | Val und Test: {val_vs_test}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    ## Überprüfe Disjunktheit (keine Überschneidungen) der Teildatensätze der Graphen und Edges 
+    train_graph_set = set(graph.graph_id for graph in train_graphs)
+    val_graph_set = set(graph.graph_id for graph in val_graphs)
+    test_graph_set = set(graph.graph_id for graph in test_graphs)
+    # assert train_graph_set.isdisjoint(val_graph_set) # Soll sicherstellen, dass es keine Überschneidungen gibt (isdisjoint)
+    # assert train_graph_set.isdisjoint(test_graph_set)
+    # assert val_graph_set.isdisjoint(test_graph_set)
+
+    train_val_graph = len(set(train_graph_set) & set(val_graph_set))
+    train_test_graph = len(set(train_graph_set) & set(test_graph_set))
+    val_test_graph = len(set(val_graph_set) & set(test_graph_set))
+    print(f"\tÜberschneidungen Graphen zwischen Train und Val: {train_val_graph} | Train und Test: {train_test_graph} | Val und Test: {val_test_graph}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    
+    train_edge_set = set(tuple(edge) for edge in train_edges)
+    val_edge_set = set(tuple(edge) for edge in val_edges)
+    test_edge_set = set(tuple(edge) for edge in test_edges)
+    # assert train_edge_set.isdisjoint(val_edge_set) # Soll sicherstellen, dass es keine Überschneidungen gibt (isdisjoint)
+    # assert train_edge_set.isdisjoint(test_edge_set)
+    # assert val_edge_set.isdisjoint(test_edge_set)
+
+    train_val_edge = len(train_edge_set & val_edge_set)
+    train_test_edge = len(train_edge_set & test_edge_set)
+    val_test_edge = len(val_edge_set & test_edge_set)
+    print(f"\tÜberschneidungen Kanten zwischen Train und Val: {train_val_edge} | Train und Test: {train_test_edge} | Val und Test: {val_test_edge}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 
     ## Cross-Validierung bei Aufteilung der Datensets
     kf = KFold(n_splits= 5)
@@ -468,19 +492,52 @@ def load_graph_from_json(json_file_path):
 
 def create_data_from_graph(G, edges, graph_id):
     """Erstellt ein PyTorch-Geometric-Data-Objekt aus einem Netzwerkx-Graphen"""
-    ## Extrahiere Knotenmerkmale
-    node_features = []
-    for _, data in G.nodes(data= True):
-        for value in data.values():
-            if isinstance(value, list):
-                node_features.extend(value)
-            else:
-                node_features.append(value)
-    # print(f"node_features: {node_features})
+    # ## Extrahiere Knotenmerkmale
+    # node_features = []
+    # for node, data in G.nodes(data= True):
+    #     print(f"Node: {node} mit Merkmalen: {data}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    #     for value in data.values():
+    #         if isinstance(value, list):
+    #             node_features.extend(value)
+    #         else:
+    #             node_features.append(value)
+    # # print(f"node_features: {node_features}) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    ## Linearisiere/Gätte/Flache die Merkmalliste der Knoten ab
-    flat_node_features = [item for sublist in node_features for item in (sublist if isinstance(sublist, list) else [sublist])]
+    # ## Linearisiere/Gätte/Flache die Merkmalliste der Knoten ab
+    # flat_node_features = [item for sublist in node_features for item in (sublist if isinstance(sublist, list) else [sublist])]
+    # x = torch.tensor(flat_node_features, dtype= torch.float).view(len(G.nodes), -1)
+
+    ## DEBUGGING:
+    node_features = []
+    for node, data in G.nodes(data= True):
+        # print(f"Node: {node} mit Merkmalen: {data}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+        node_feature = []
+        for key, value in data.items():
+            if isinstance(value, list):
+                if all(isinstance(v, list) for v in value):  # Verschachtelte Liste
+                    for sublist in value:
+                        node_feature.extend(sublist)
+                else:  # Flache Liste
+                    node_feature.extend(value)
+            elif isinstance(value, (int, float)):  # Wenn der Wert ein einzelner int oder float ist
+                node_feature.append(value)
+            else:
+                raise TypeError(f"Unsupported feature type for key '{key}': {type(value)}")
+        node_features.append(node_feature)
+    # print(f"node_features: {node_features}) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            
+    ## Linearisiere/Gätte/Flache ab die Merkmalliste der Knoten
+    flat_node_features = [item for sublist in node_features for item in sublist]
+
+    ## Überprüfe, ob die Anzahl der Features mit einer vielfachen Anzahl der Koten übereinstimmt
+    total_features = len(flat_node_features)
+    if total_features % len(G.nodes) != 0:
+        raise ValueError(f"Inconsistent feature dimensions: {total_features} features for {len(G.nodes)} nodes.")
+    
+    ## Erstelle Tensor für Knotenmerkmale
     x = torch.tensor(flat_node_features, dtype= torch.float).view(len(G.nodes), -1)
+    ## DEBUGGING ENDE
 
     ## Verwende die Kanten aus 'edges' für edge_index
     edge_index = torch.tensor([(edge['source'], edge['target']) for edge in edges], dtype=torch.long).t().contiguous()
