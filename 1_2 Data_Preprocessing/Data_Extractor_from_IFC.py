@@ -16,7 +16,7 @@ def main():
     # print(f"Script-Dir - {script_dir.exists()}: {script_dir}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     # ifc_folder_names = ["Modell_2_Parametrisch IfcOpenShell", "Modell_2_Tutorial BimVision"]
-    ifc_folder_names = ["Modell_2_DataBase", "Modell_2_Parametrisch Stahlbeton"]
+    ifc_folder_names = ["Modell_2_DataBase", "Modell_2_Parametrisch Stahl"]
     ifc_folder_paths = get_folder_paths(script_dir, ifc_folder_names)
 
     for ifc_folder_path in ifc_folder_paths:
