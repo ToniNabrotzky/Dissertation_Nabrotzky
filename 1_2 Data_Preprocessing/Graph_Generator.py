@@ -23,7 +23,10 @@ def main():
     
     
     ## Erstelle seriell Graphen aus allen IFC-Extracts
-    extracts_folder_names = ["Modell_2_Parametrisch Stahl 00000_01535"]
+    global Save_Images
+    Save_Images = False
+
+    extracts_folder_names = ["Modell_2_Parametrisch Stahlbeton 00000_01535"]
     extracts_folder_paths = get_folder_paths(script_dir, extracts_folder_names)
 
     for extracts_folder_path in extracts_folder_paths:
@@ -81,7 +84,8 @@ def generate_graph_from_extracts(extracts_folder_path):
                 save_graph_to_json(G, graph_file_path)
 
                 ## Plotte und speicher den Graphen
-                plot_graph_3D(graph_file_path)
+                if Save_Images:
+                    plot_graph_3D(graph_file_path)
 
 
 
@@ -94,12 +98,27 @@ def get_folder_paths(script_dir, folder_names):
     return extracts_folder_paths
 
 
-def pad_or_truncate(vertices, max_length):
-    """Bringt die vertices auf eine feste Länge durch Padding oder Trunkieren."""
-    if len(vertices) > max_length:
-        return vertices[:max_length]  # Trunkieren
+def pad_or_truncate(data, max_length, var_type= "verts"):
+    """Bringt die vertices auf eine feste Länge durch Padding oder Trunkieren.
+    
+    :param data: Die Eingabedaten (Liste von Listen oder Werten).
+    :param max_length: Die gewünschte Länge der Ausgabe.
+    :param var_type: Der Typ der Daten ("verts" für 3D-Koordinaten oder "edges" für Knoten-IDs).
+    :return: Die gepaddete oder getrunkierte Liste.
+    """
+    if len(data) > max_length:
+        # Trunkieren, wenn die Länge größer als max_length ist
+        return data[:max_length]  # Trunkieren
     else:
-        return vertices + [0.0] * (max_length - len(vertices))  # Padding
+        # Padding, wenn die Länge kleiner als max_length ist
+        if var_type == "verts":
+            # Padding mit [0.0, 0.0, 0.0] als 3er-Liste für 3D-Koordinaten
+            return data + [[0.0, 0.0, 0.0]] * (max_length - len(data))
+        elif var_type == "edges":
+            # Padding mit [0, 0] für Knoten-IDs
+            return data + [[0, 0]] * (max_length - len(data))
+        else:
+            raise ValueError(f"Nicht unterstütze Ausgabe: {var_type}")
 
 
 def get_elements_from_json(json_file):
@@ -116,13 +135,13 @@ def get_elements_from_json(json_file):
             ## Padding und Trunkieren der Vertices
             padding = False
             if padding:
-                max_length = 24 # Beispielhaft haben alle rechteckigen Körper 8 verts, IPE hat 24 - ist variabel bei anderen
+                max_length = 12 # Beispielhaft haben alle rechteckigen Körper 8 verts, IPE hat 24 - ist variabel bei anderen
                 vertices_local = element['vertices_local']
-                vertices_local = pad_or_truncate(vertices_local, max_length)
+                vertices_local = pad_or_truncate(vertices_local, max_length, var_type= "verts")
                 vertices_global = element['vertices_global']
-                vertices_global = pad_or_truncate(vertices_global, max_length)
+                vertices_global = pad_or_truncate(vertices_global, max_length, var_type= "verts")
                 edges = element['edges']
-                edges = pad_or_truncate(edges, max_length)
+                edges = pad_or_truncate(edges, max_length, var_type= "edges")
             else:
                 vertices_local = element['vertices_local']
                 vertices_global = element['vertices_global']
@@ -171,14 +190,15 @@ def create_graph_from_elements(elements):
         'IfcWall': 5,
         }
 
+    ## Ergänze Knotenmerkmale
     for node_id, element in elements.items():
         node_id = element['id']
         node_features = {
-                # 'ifc_class': element['ifc_class'], #Wäre ein Text, was nicht geht
+                ## 'ifc_class': element['ifc_class'], # -> Wäre ein Text, was nicht geht
                 'ifc_class': ifc_class_encoder.get(element['ifc_class'], 0),
                 'position': tuple(element['position']),
-                # 'orientation': tuple(element['orientation']),
-                # 'vertices_local': element['vertices_local'],
+                ## 'orientation': tuple(element['orientation']),
+                ## 'vertices_local': element['vertices_local'],
                 'vertices_global': element['vertices_global'],
                 'edges': element['edges'],
         }
