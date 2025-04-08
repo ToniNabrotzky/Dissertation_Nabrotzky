@@ -39,6 +39,7 @@ def main():
         'edge_columns': [True, False],
         'inner_columns': [True, False],
         'column_profile': [ProfileFactory.Rec_20_30] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
+        # 'column_profile': [ProfileFactory.IPE400] # in [m] --> [('rectangle', x_dim, y_dim)], [('circle', radius)], [('i-profile', h, b, t_f, t_w)]
     }
     
     ## Generiere alle möglichen Parameterkombinationen
@@ -642,6 +643,13 @@ class IfcFactory:
         building = ifcopenshell.api.root.create_entity(model, ifc_class = "IfcBuilding", name = "Building")
         building.GlobalId = self.generate_guid()
         context = ifcopenshell.api.context.add_context(model, context_type = "Model", context_identifier = "Building")
+
+        ## Manuelle Definition der Einheiten
+        length_unit = model.createIfcSIUnit(UnitType="LENGTHUNIT", Name="METRE")
+        area_unit = model.createIfcSIUnit(UnitType="AREAUNIT", Name="SQUARE_METRE")
+        volume_unit = model.createIfcSIUnit(UnitType="VOLUMEUNIT", Name="CUBIC_METRE")
+        unit_assignment = model.createIfcUnitAssignment([length_unit, area_unit, volume_unit])
+        model.by_type("IfcProject")[0].UnitsInContext = unit_assignment
 
         ##  Hierarchien herstellen
         ifcopenshell.api.run("aggregate.assign_object", model, products = [site], relating_object = project)
