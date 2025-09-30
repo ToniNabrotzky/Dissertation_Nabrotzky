@@ -13,6 +13,25 @@ import json
 
 
 
+"""
+Ablaufdiagramm:
+[BuildingParameters]  -> Erzeugt Parameterkombinationen aus Parametersets (als Dictionary)
+        |
+        v
+[BuildingGeometry]  -> Erzeugt 3D-Gitter und Bauteile (Bodenplatte, Decken, Wände)
+        |
+        v
+[ErrorFactory]  -> Erzeugt aus regelbasierte zufällige Fehler in der Bauteilmodellierung
+        |
+        v
+[ProfileFactory]  -> Erzeugt Regelquerschnitte
+        |
+        v
+[IfcFactory]  -> Erzeugt IFC-Dateien für den späteren Export
+"""
+
+
+
 """Hauptfunktion"""
 def main():
     """Hauptfunktion zum Erzeugen von IFC-Dateien"""
