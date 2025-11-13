@@ -198,7 +198,7 @@ class IfcFactory:
         return model
 
 
-    """Hilfsfunktionen"""
+    """Extra Methoden"""
     @staticmethod
     def generate_guid():
         """Funktion zur Erstellung einer IFC-stabilen GUID."""
@@ -297,27 +297,26 @@ class IfcFactory:
         """Erzeugt einen IFC-konformen Balken."""
         axis = element['axis'] # z.B. 'x' oder 'y'
         grid_rotation = element['grid_rotation'] # z.B. 45.0 in [°]
-
+        
         ## Basisrichtung bestimmen
         if axis == 'x':
             base_x, base_y = 1.0, 0.0 # --> Basisvektor für Bauteile in x-Richtung orientiert
         else:
             base_x, base_y = 0.0, 1.0 # --> Basisvektor für Bauteile in y-Richtung orientiert
-        
+                
         ## Drehung um Z-Achse
         angle_rad = math.radians(grid_rotation) # Grad in Rad    
-        ex_x = base_x * math.cos(angle_rad) - base_y * math.sin(angle_rad)
-        ex_y = base_x * math.sin(angle_rad) + base_y * math.cos(angle_rad)
+        extrusion_x = base_x * math.cos(angle_rad) - base_y * math.sin(angle_rad)
+        extrusion_y = base_x * math.sin(angle_rad) + base_y * math.cos(angle_rad)
 
         ## Extrusionsrichtung bestimmen
-        extrusion_dir = (ex_x, ex_y, 0.0) # lokale Z-Achse
+        extrusion_dir = (extrusion_x, extrusion_y, 0.0) # lokale Z-Achse
 
-        ## Referenzrichtung bestimmen (90° CCW zu Extrusionsrichtung in XY)
-        ref_x = -ex_y
-        ref_y = ex_x
+        ## Referenzrichtung bestimmen (90° CCW zu Extrusionsrichtung in XY ) #CCW= Counter-Clock-Wise
+        ref_x = -extrusion_y
+        ref_y = extrusion_x
         ref_dir = (ref_x, ref_y, 0.0)
 
-        """neue Variante"""
         # print("extrusion_dir: ", element['extrusion_dir'][0], element['extrusion_dir'][1], element['extrusion_dir'][2]) # Debug
         # print("ref_dir: ", element['ref_dir']) # Debug
         ## Erstelle Positionierung
@@ -334,7 +333,6 @@ class IfcFactory:
         # # ref_dir = (element['ref_dir'][0], element['ref_dir'][1], element['ref_dir'][2]) # Ausrichtung des Elementes (lokale X-Achse)
         # ref_dir = (0.0, 1.0, 0.0) # Ausrichtung des Elementes (lokale X-Achse)
 
-
         ## Erstelle Extrusion
         extrusion = model.createIfcExtrudedAreaSolid(
             SweptArea= profile,
@@ -344,7 +342,6 @@ class IfcFactory:
             ExtrudedDirection= model.createIfcDirection((0.0, 0.0, 1.0)),
             Depth= element['length']
         )
-
 
         ## Erstelle geometrische Repräsentation
         beam.Representation = model.createIfcProductDefinitionShape(
@@ -364,46 +361,6 @@ class IfcFactory:
                 RefDirection= model.createIfcDirection(ref_dir)
             )
         )
-
-
-        """alte Variante"""
-        # ## Erstelle Extrusion
-        # extrusion = model.createIfcExtrudedAreaSolid(
-        #     SweptArea= profile,
-        #     Position= model.createIfcAxis2Placement3D(
-        #         Location= model.createIfcCartesianPoint((0.0, 0.0, 0.0))
-        #     ),
-        #     ExtrudedDirection= model.createIfcDirection((0.0, 0.0, 1.0)),
-        #     Depth= element['length']
-        # )
-
-        # ## Erstelle geometrische Repräsentation
-        # beam.Representation = model.createIfcProductDefinitionShape(
-        #     Representations= [model.createIfcShapeRepresentation(
-        #         ContextOfItems= context,
-        #         RepresentationIdentifier= "Body",
-        #         RepresentationType= "SweptSolid",
-        #         Items= [extrusion]
-        #     )]
-        # )
-
-        # ## Erstelle Positionierung
-        # element_position = tuple(float(coord) for coord in element['position'])
-
-        # rotation = np.radians(element['rotation']) # Grad zu Rad
-        # ref_dir = (
-        #     float(np.cos(rotation)),
-        #     float(np.sin(rotation)),
-        #     0.0
-        # )
-
-        # beam.ObjectPlacement = model.createIfcLocalPlacement(
-        #     RelativePlacement= model.createIfcAxis2Placement3D(
-        #         Location= model.createIfcCartesianPoint(element_position),
-        #         Axis= model.createIfcDirection((0.0, 0.0, 1.0)),
-        #         RefDirection= model.createIfcDirection(ref_dir)
-        #     )
-        # )
         return
 
     

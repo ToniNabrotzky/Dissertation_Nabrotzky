@@ -1,4 +1,5 @@
 import math
+import numpy as np
 import random
 
 from Parametric_Modelling import parameter_factory
@@ -10,8 +11,8 @@ class BuildingGeometry:
         self.grid_points = grid_points
         self.params = params
         self.elements = []
-        seed = int(params.index) + len(self.grid_points)
-        random.seed(seed)
+        seed_index = int(self.params.index) + len(self.grid_points)
+        random.seed(seed_index)
         return
 
     """Hauptfunktion"""
@@ -38,12 +39,43 @@ class BuildingGeometry:
         grid_y_n = self.params.grid_y_n
         extent_x = grid_x_size * grid_x_n + max_x_dim
         extent_y = grid_y_size * grid_y_n + max_y_dim
+
+        ## Prüfe Fehlerfall für Verschiebung und Skalierung
+        key_offset = (self.params.index, floor, 'slab', 'offset')
+        if ErrorFactory.should_apply_error(key_offset, probability=0.5):
+            offset_x = ErrorFactory.modify_slab_position(self, grid_x_size)
+            print(f"MODIFY: Offset für Geschossdecke {floor_name} mit {np.round(offset_x, 3)}") # Demo
+        else:
+            offset_x = 0.0
+        if ErrorFactory.should_apply_error(key_offset, probability=0.5):
+            offset_y = ErrorFactory.modify_slab_position(self, grid_y_size)
+            print(f"MODIFY: Offset für Geschossdecke {floor_name} mit {np.round(offset_y, 3)}") # Demo
+        else:
+            offset_y = 0.0
+            
+        key_scale = (self.params.index, floor, 'slab', 'scale')
+        if ErrorFactory.should_apply_error(key_scale, probability=0.5):
+            scale_x = ErrorFactory.modify_slab_extent(self, extent_x, grid_x_size, grid_x_n)
+            print(f"MODIFY: Scale für Geschossdecke {floor_name} mit {np.round(scale_x*100, 3)}%") # Demo
+        else:
+            scale_x = 1.0
+        if ErrorFactory.should_apply_error(key_scale, probability=0.5):
+            scale_y = ErrorFactory.modify_slab_extent(self, extent_y, grid_y_size, grid_y_n)
+            print(f"MODIFY: Scale für Geschossdecke {floor_name} mit {np.round(scale_y*100, 3)}%") # Demo
+        else:
+            scale_y = 1.0
+        
+        ## Modifiziere Geometrie
+        position = (Px + offset_x, Py + offset_y, Pz)
+        extent_x = extent_x * scale_x
+        extent_y = extent_y * scale_y
         profile = parameter_factory.ProfileFactory('rectangle', extent_x, extent_y).profile
 
         attributes = (
             True, 
             floor, floor_name, 
             center_point, position, 
+            scale_x, scale_y, offset_x, offset_y,
             self.params.grid_rotation, 
             profile, 
             self.params.foundation_thickness
@@ -54,7 +86,7 @@ class BuildingGeometry:
         
         ## Streifenfundamente erzeugen
         print(f"GENERATE_GEOMETRY: Erstelle Gründungsgeometrie (Streifenfundamente)") # Demo
-        for axis in ['y', 'x']: # Erst x-Richtung, dann y-Richtung
+        for axis in ['y', 'x']: # Untersuche alle Reihen je Achse (z.B. Reihen der y-Achse zeigen in X-Richtung)
             num_rows, direction, floor_name = self.process_rows(axis, floor)           
 
             for row_num in range(num_rows):
@@ -118,12 +150,43 @@ class BuildingGeometry:
             grid_y_n = self.params.grid_y_n
             extent_x = grid_x_size * grid_x_n + max_x_dim
             extent_y = grid_y_size * grid_y_n + max_y_dim
+
+            ## Prüfe Fehlerfall für Verschiebung und Skalierung
+            key_offset = (self.params.index, floor, 'slab', 'offset')
+            if ErrorFactory.should_apply_error(key_offset, probability=0.5):
+                offset_x = ErrorFactory.modify_slab_position(self, grid_x_size)
+                print(f"MODIFY: Offset für Geschossdecke {floor_name} mit {np.round(offset_x, 3)}") # Demo
+            else:
+                offset_x = 0.0            
+            if ErrorFactory.should_apply_error(key_offset, probability=0.5):
+                offset_y = ErrorFactory.modify_slab_position(self, grid_y_size)
+                print(f"MODIFY: Offset für Geschossdecke {floor_name} mit {np.round(offset_y, 3)}") # Demo
+            else:
+                offset_y = 0.0
+                
+            key_scale = (self.params.index, floor, 'slab', 'scale')
+            if ErrorFactory.should_apply_error(key_scale, probability=0.5):
+                scale_x = ErrorFactory.modify_slab_extent(self, extent_x, grid_x_size, grid_x_n)
+                print(f"MODIFY: Scale für Geschossdecke {floor_name} mit {np.round(scale_x*100, 3)}%") # Demo
+            else:
+                scale_x = 1.0
+            if ErrorFactory.should_apply_error(key_scale, probability=0.5):
+                scale_y = ErrorFactory.modify_slab_extent(self, extent_y, grid_y_size, grid_y_n)
+                print(f"MODIFY: Scale für Geschossdecke {floor_name} mit {np.round(scale_y*100, 3)}%") # Demo
+            else:
+                scale_y = 1.0
+
+            ## Modifiziere Geometrie
+            position = (Px + offset_x, Py + offset_y, Pz)
+            extent_x = extent_x * scale_x
+            extent_y = extent_y * scale_y
             profile = parameter_factory.ProfileFactory('rectangle', extent_x, extent_y).profile
 
             attributes = (
                 False, 
                 floor, floor_name, 
                 center_point, position, 
+                scale_x, scale_y, offset_x, offset_y,
                 self.params.grid_rotation, 
                 profile, 
                 self.params.slab_thickness
@@ -162,6 +225,23 @@ class BuildingGeometry:
                     dx = p_end['x'] - p_start['x']
                     dy = p_end['y'] - p_start['y']
                     rotation = math.degrees(math.atan2(dy, dx))  # in °
+
+                    ## Wandhöhe
+                    if self.params.slab_thickness:
+                        height = self.params.floor_height - self.params.slab_thickness
+                    else:
+                        height = self.params.floor_height - self.params.slab_beam_profile['y_dim'] # Falls Deckebalken eingeführt sind, so korrekt?
+                    
+                    ## Prüfe Fehlerfall für Verschiebung und Skalierung
+                    key_scale = (self.params.index, floor, 'wall', 'scale')
+                    if ErrorFactory.should_apply_error(key_scale, probability=0.5):
+                        scale_height = ErrorFactory.modify_wall_height(self, height)
+                        print(f"MODIFY: Scale für Wand {floor_name} mit {np.round(scale_x*100, 3)}%") # Demo
+                    else:
+                        scale_height = 1.0
+
+                    ## Modifiziere Geometrie
+                    height = height * scale_height
                     
                     attributes = (
                         floor, floor_name, 
@@ -169,7 +249,7 @@ class BuildingGeometry:
                         position, 
                         rotation, 
                         self.params.wall_thickness, 
-                        length, 
+                        length, height,
                         row_num, num_rows
                     )
                     wall = self.create_wall(*attributes)
@@ -248,11 +328,44 @@ class BuildingGeometry:
 
                 for p in allowed_points:
                     if random.random() < self.params.column_prob:
+                        ## Berechne Höhe
+                        if self.params.slab_thickness:
+                            height = self.params.floor_height - self.params.slab_thickness
+                        else:
+                            height = self.params.floor_height - self.params.slab_beam_profile['y_dim'] # Falls Deckebalken eingeführt sind, so korrekt?
+
+                        ## Prüfe Fehlerfall für Verschiebung und Skalierung
+                        key_offset = (self.params.index, floor, 'column', 'offset')
+                        if ErrorFactory.should_apply_error(key_offset, probability=0.5):
+                            offset_x = ErrorFactory.modify_column_position(self)
+                            print(f"MODIFY: Offset für Stütze {floor_name} mit {np.round(offset_x, 3)}") # Demo
+                        else:
+                            offset_x = 0.0
+                        if ErrorFactory.should_apply_error(key_offset, probability=0.5):
+                            offset_y = ErrorFactory.modify_column_position(self)
+                            print(f"MODIFY: Offset für Stütze {floor_name} mit {np.round(offset_y, 3)}") # Demo
+                        else:
+                            offset_y = 0.0
+                            
+                        key_scale = (self.params.index, floor, 'column', 'scale')
+                        if ErrorFactory.should_apply_error(key_scale, probability=0.5):
+                            scale_height = ErrorFactory.modify_column_height(self, height)
+                            print(f"MODIFY: Scale für Stütze {floor_name} mit {np.round(scale_x*100, 3)}%") # Demo
+                        else:
+                            scale_height = 1.0
+
+                        ## Modifiziere Geometrie
+                        p['x'] += offset_x
+                        p['y'] += offset_y
+                        height = height * scale_height
+
                         attributes = (
                             floor, floor_name, 
                             p, 
                             self.params.grid_rotation, 
+                            scale_height, offset_x, offset_y,
                             self.params.column_profile, 
+                            height,
                             row_num, num_rows
                         )
                         column = self.create_column(*attributes)
@@ -287,21 +400,21 @@ class BuildingGeometry:
         return num_rows, direction, floor_name
     
     
-    def create_slab(self, is_foundation, floor, floor_name, p, position, rotation, profile, thickness):
+    def create_slab(self, is_foundation, floor, floor_name, point, position, modify_x, modify_y, offset_x, offset_y, rotation, profile, thickness):
         """Erzeugt die geometrische Repräsentation einer Geschossdecke."""
         return{
             ## semantische Attribute
             'foundation': True if is_foundation else False, # Gründungsbauteil
             'type': 'slab', # Typ des Bauteils
-            'name': f"{'Bodenplatte' if is_foundation else 'Decke'} {floor_name if not is_foundation else ''} p_{p['id']}", # Bauteilbezeichnung
-            'point_id': p['id'], # interne ID (semantische Identifikation)
+            'name': f"{'Bodenplatte' if is_foundation else 'Decke'} {floor_name if not is_foundation else ''} p_{point['id']}", # Bauteilbezeichnung
+            'point_id': point['id'], # interne ID (semantische Identifikation)
             ## geometrische Attribute
             'position': position, # XYZ-Position im Raum
-            'modify_position': None, # möglicher Fehlermodifikator
+            'modify_x': modify_x, # möglicher Fehlermodifikator
+            'modify_y': modify_y, # möglicher Fehlermodifikator
+            'modify_position': (offset_x, offset_y), # möglicher Fehlermodifikator
             'rotation': rotation, # Ausrichtung/Rotation des Elementes
             'profile': profile, # Querschnittsprofil
-            # 'modify_x': scale_x, # möglicher Fehlermodifikator
-            # 'modify_y': scale_y, # möglicher Fehlermodifikator
             'thickness': thickness, # Querschnittsprofil
             ## alphanumerische Attribute
             # 'is_foundation': False # Kennzeichnung für Fundamentgeschoss
@@ -310,12 +423,8 @@ class BuildingGeometry:
         }
     
 
-    def create_wall(self, floor, floor_name, p_start, p_end, position, rotation, thickness, length, row_num, num_rows):
+    def create_wall(self, floor, floor_name, p_start, p_end, position, rotation, thickness, length, height, row_num, num_rows):
         """Erzeugt die geometrische Repräsentation einer Wand."""
-        if self.params.slab_thickness:
-            height = self.params.floor_height - self.params.slab_thickness
-        else:
-            height = self.params.floor_height - self.params.slab_beam_profile['y_dim'] # Falls Deckebalken eingeführt sind, so korrekt?
             
         return{
             ## semantische Attribute
@@ -367,12 +476,8 @@ class BuildingGeometry:
         }
 
 
-    def create_column(self, floor, floor_name, p, rotation, profile, row_num, num_rows):
+    def create_column(self, floor, floor_name, p, rotation, scale_height, offset_x, offset_y, profile, height, row_num, num_rows):
         """Erzeugt die geometrische Repräsentation einer Stütze."""
-        if self.params.slab_thickness:
-            height = self.params.floor_height - self.params.slab_thickness
-        else:
-            height = self.params.floor_height - self.params.slab_beam_profile['y_dim'] # Falls Deckebalken eingeführt sind, so korrekt?
 
         return {
             ## semantische Attribute
@@ -387,12 +492,141 @@ class BuildingGeometry:
             'rotation': rotation, # Ausrichtung/Rotation des Elementes
             'profile': profile, # Querschnittsprofil
             'height': height, # Bauteilhöhe
-            'modify_height': None, # möglicher Fehlermodifikator
+            'modify_height': scale_height, # möglicher Fehlermodifikator
+            'modify_position': (offset_x, offset_y), # möglicher Fehlermodifikator
             ## alphanumerische Attribute
             'is_external': (row_num == 0 or row_num == num_rows-1), # Bool ob außenliegendes Bauteil
             ## topologische Attribute
             'floor': floor, # Zugehöriges Geschoss
         }
+
+class ErrorFactory:
+    """Klasse zum Erzeugen von Modellfehlern"""
+    @staticmethod
+    def should_apply_error(key_tuple, probability= 0.3):
+        """Funktion zur Entscheidung, ob ein Fehler angewendet werden soll"""
+        seed = str(key_tuple) # Beispiel: (params.index, floor, 'slab')
+        rng = random.Random(seed) # lokaler Generator
+        return rng.random() < probability
+    
+    
+    @staticmethod
+    def uniform(key_tuple, a, b):
+        """Funktion, die zufällig, gleichverteilt zwischen zwei Werten wählt"""
+        rng = random.Random(str(key_tuple))
+        return rng.uniform(a, b)
+    
+    
+    ## Modigiziere Slab
+    def modify_slab_extent(self, extent_total, grid_size, grid_n):
+        """
+        Funktion zur Modifikation der Deckenplatte
+        Liefert einen Skalierungsfaktor für die Decke in [1 - δ, 1 + δ].
+        δ_min = profile_max_dim / extent_total
+        δ_max = (grid_size / grid_n) / extent_total
+        Hinweis: extent_total ist die *echte* Extent-Länge (z. B. 3*grid_size + max_dim).
+        """
+        ## Überprüfe Stützenprofil
+        column_profile = self.params.column_profile
+        if column_profile['type'] == 'circle':
+            profile_max_dim = column_profile['radius']
+        elif column_profile['type'] == 'rectangle':
+            profile_max_dim = max(column_profile['x_dim'], column_profile['y_dim'])
+        elif column_profile['type'] == 'i-profile':
+            profile_max_dim = max(column_profile['h'], column_profile['b'])
+        else:
+            raise ValueError("column_profile has no valid type")
+        
+        ## Bestimme Grenzwerte für Modifikation
+        delta_min = profile_max_dim / extent_total # Halbes Stützenprofil je Seite, skaliert auf gesamtes Deckenmaß
+        delta_max = (grid_size / grid_n) / extent_total # Halbe Feldlänge je Seite, skaliert auf gesamtes Deckenmaß
+        # print("deltas: ", delta_min, delta_max) # Debug
+
+        ## Sicherheit bei fehlerhaften Input:
+        if delta_min > delta_max:
+            delta_min, delta_max = delta_max, delta_min
+
+        ## Modifiziere Abmessungsfaktor
+        if random.random() < 0.5:
+            # Platte wird vergrößert
+            scale = np.round(1.0 + random.uniform(delta_min, delta_max), 5)
+        else:
+            # Platte wird verkleinert
+            scale = np.round(1.0 - random.uniform(delta_min, delta_max), 5)
+        return scale
+    
+    def modify_slab_position(self, grid_size):
+        """
+        Funktion zur Modifikation der Deckenplatte
+        Liefert eine *absolute* Verschiebung in Metern: 10% .. 80% von grid_size, mit zufälligem Vorzeichen.
+        """   
+        ## Bestimme Grenzwerte für Modifikation
+        abs_min = 0.1 * grid_size
+        abs_max = 0.8 * grid_size
+        # print("deltas: ", abs_min, abs_max) # Debug
+
+        ## Modifiziere Verschiebung
+        magnitude = random.uniform(abs_min, abs_max)
+        sign = 1.0 if random.random() < 0.5 else -1.0 # Verschiebung in positive oder negative Richtung
+        return np.round(sign * magnitude, 5)
     
 
-    """Extra Methoden"""
+    ## Modifiziere Wall
+    def modify_wall_height(self, height):
+        """
+        Funktion zur Modifikation der Wand
+        Liefert einen *Faktor* zum Verkürzen der Wandhöhe.
+        δ_min = 0.05 m / height
+        δ_max = 0.5 * height / height = 0.5
+        Rückgabe: 1 - δ  (immer kürzer, nie länger
+        """
+        ## Bestimme Grenzwerte für Modifikation
+        delta_min = 0.05 / height # 5cm als Faktor (z.B. 0.01 bei 5m oder 0.004 bei 12,5m)
+        delta_max = 0.5 # halbe Wandhöhe als Faktor
+        # print("deltas: ", delta_min, delta_max) # Debug
+
+        ## Sicherheit bei fehlerhaften Input:
+        if delta_min > delta_max:
+            delta_min, delta_max = delta_max, delta_min
+        
+        ## Modifiziere Abmessungsfaktor
+        scale = 1.0 - random.uniform(delta_min, delta_max)
+        return np.round(scale, 5)
+    
+    
+    ## Modifiziere Column
+    def modify_column_height(self, height):
+        """
+        Funktion zur Modifikation der Stütze
+        Liefert einen *Faktor* zum Verkürzen der Stützenhöhe.
+        δ_min = 0.05 m / height
+        δ_max = 0.5 * height / height = 0.5
+        Rückgabe: 1 - δ  (immer kürzer, nie länger
+        """
+        ## Bestimme Grenzwerte für Modifikation
+        delta_min = 0.05 / height # 5cm als Faktor (z.B. 0.01 bei 5m oder 0.004 bei 12,5m)
+        delta_max = 0.5 # halbe Stützenhöhe als Faktor
+        # print("deltas: ", delta_min, delta_max) # Debug
+
+        ## Sicherheit bei fehlerhaften Input:
+        if delta_min > delta_max:
+            delta_min, delta_max = delta_max, delta_min
+        
+        ## Modifiziere Abmessungsfaktor
+        scale = 1.0 - random.uniform(delta_min, delta_max)
+        return np.round(scale, 5)
+    
+    def modify_column_position(self):
+        """
+        Funktion zur Modifikation der Stütze
+        Liefert eine *absolute* Verschiebung in Metern: 0.15 .. 0.50 m, mit zufälligem Vorzeichen. (unabhängig von grid_size)
+        """
+        ## Bestimme Grenzwerte für Modifikation
+        abs_min = 0.15
+        abs_max = 0.5
+        # print("deltas: ", abs_min, abs_max) # Debug
+
+        ## Modifiziere Verschiebung
+        magnitude = random.uniform(abs_min, abs_max)
+        sign = 1.0 if random.random() < 0.5 else -1.0 # Verschiebung in positive oder negative Richtung
+        return np.round(sign * magnitude, 5)

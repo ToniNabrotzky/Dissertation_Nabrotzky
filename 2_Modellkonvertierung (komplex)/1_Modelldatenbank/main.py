@@ -365,6 +365,9 @@ Ablaufdiagramm:
     [ParameterSet]  -> Speichert spezifische Parameterkombination (ParameterSet Objekt)
         |
         v
+    [ProfileFactory]  -> Erzeugt parametrisch bzw. aus Datenbank Regelquerschnitte
+        |
+        v
 [grid_factory]  -> Erzeugt 3D-Gitter
     [GridFactory]  -> Speichert 3D-Gitter (GridFactory Objekt)
         |
@@ -373,11 +376,11 @@ Ablaufdiagramm:
     [BuildingGeometry]  -> Erzeugt aus Grid Geometrie (Decken, Stützen, Wände, Balken, Fundament)
         |
         v
-        [ErrorFactory]  -> Erzeugt aus regelbasierte zufällige Fehlerfälle in der Bauteilmodellierung
+    [ErrorFactory]  -> Erzeugt zufällige Fehlerfälle in der Bauteilmodellierung
         |
         v
-    [IfcGeometry]  -> Erstellt IFC-Datei für späteren Export
-        [ProfileFactory]  -> Erzeugt Regelquerschnitte
+[ifc_factory]  -> Erstellt die IFC-Datei für späteren Export
+    [IfcGeometry]  -> Übersetzt Geometriebeschreibung in IFC-Format
         |
         v
 [utils]  -> Hilfsfunktionen wie Plotting, Export, etc.
@@ -391,7 +394,7 @@ Strukturaufbau:
     ├── __init__.py
     ├── parameter_factory.py    # ParameterSet und ParameterSpace (kombiniert Parameter und speichert die Kombinationen)
     ├── grid_factory.py         # GridFactory (erzeugt und verwaltet Gitterpunkte)
-    ├── geometry_factory.py     # BuildingGeometry (erzeugt Bauteile aus GridFactory)
+    ├── geometry_factory.py     # BuildingGeometry (erzeugt Bauteile aus GridFactory) und ErrorFactory (modifiziert Lage der Bauteile)
     ├── ifc_factory.py          # IfcGeometry (Exportiert Geometrie als IFC-Modell)
     └── utils/                  # (Utility (Hilfsfunktionen wie Plotting, JSON-Export, etc.))
 
@@ -410,7 +413,7 @@ Inhaltsbeschreibung:
         o Speichere die einzelnen Gitterpunkte als einzelne Objekte ab
         o Merkmale: ID (0, 1, .., n)), Position (x,y,z), Positionstyp (Ecke, Rand, Innen), Reihenindex für x und y
     
-    Class BuildingFactory:
+    Class BuildingGeometry:
     - Erstelle Bauteile (Gründung (Bodenplatte + Streifenfundament), Geschossdecken (Slabs), Stützen, Wände, Balken) mit notwendigen Attributen und Merkmalen
         o Attribute: (ID?), Name, Klasse/Typ, Position, Geschoss (als Index)
         o Merkmale Slab: Abmessungen (in x und y + Höhe/Breite der Stützenprofile), Dicke, Material, Is_Foundation (Boolean), Fehlerattribute (modify_x+/-, modify_y+/-, modify_thickness, Fehlerfall)
@@ -422,13 +425,14 @@ Inhaltsbeschreibung:
     
     Class ErrorFactory:
     - Erzeuge zufällig Modellierungsfehler
+    - bei Decken über:
+        o die Abmessungen (in x und y)
+        o (die Dicke)
+
     - bei Stützen über:
         o die Höhe
         o Fehlerfälle
-    - bei Decken über:
-        o die Abmessungen (in x und y)
-        o die Dicke
-        o Fehlerfälle
+    
     - bei Wänden über:
         o die Dicke
         o die Höhe
@@ -440,16 +444,16 @@ Inhaltsbeschreibung:
     
     Class ProfileFactory:
     - Erzeuge Querschnittsprofile:
-    - Rechteck:
-        o x_dim
-        o y_dim
-    - Kreis:
-        o Radius
-    - I-Profil:
-        o Höhe
-        o Breite
-        o t_f
-        o t_w
+        - Rechteck:
+            o x_dim
+            o y_dim
+        - Kreis:
+            o Radius
+        - I-Profil:
+            o Höhe
+            o Breite
+            o t_f
+            o t_w
 
 
 3. IFC-Modell

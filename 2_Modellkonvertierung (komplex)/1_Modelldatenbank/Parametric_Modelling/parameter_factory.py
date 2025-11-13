@@ -242,7 +242,7 @@ Parameterwertbereich_Test = {
         'grid_x_offset': [0.0], # in [m]
         'grid_y_offset': [0.0], # in [m]
         ## Parameter Geschoss
-        'floors': [2],
+        'floors': [12],
         'floor_height': [2.8], # in [m]
         ## Parameter Bauteil - Gründung
         'foundation_thickness': [0.6], # --> Dicke der Bodenplatte
@@ -257,6 +257,8 @@ Parameterwertbereich_Test = {
         ## Parameter Bauteil - Stützen
         'column_prob': [0.8], # --> Stützen-Wahrscheinlichkeit
         'column_profile': [ProfileFactory('circle', 0.2).profile], # --> Stützenprofil mit entsprechenden Parametern
+        # 'column_profile': [ProfileFactory('i-profile', 'IPE300').profile], # --> Stützenprofil mit entsprechenden Parametern
+        # 'column_profile': [ProfileFactory('rectangle', 0.3, 0.8).profile], # --> Stützenprofil mit entsprechenden Parametern
 }
 
 Parameterwertbereich_Beton = {
