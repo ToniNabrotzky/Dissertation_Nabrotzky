@@ -2,13 +2,30 @@ import pandas as pd
 import openpyxl
 import itertools
 import json
+import os
 
 def analyze_saf_connections(
-        file_path, output_csv_path='SAF_Analyse_Anschluss.csv',
+        file_path, export_excel=True, export_csv=False,
         start_index=0, end_index=None
         ):
     print(f"Lese Datei ein: {file_path}...\n")
-    
+
+    # --- Schritt 0: Dateipfade vorbereiten ---
+    # Ordner extrahieren
+    dir_name = os.path.dirname(file_path)
+    if not dir_name:
+        dir_name = '.' # Fallback auf aktuelles Verzeichnis, falls kein Ordner angegeben wurde
+
+    # Dateinamen anpassen, letzte Bezeichnung ("0D Ausr Anschluss") kürzen
+    base_name = os.path.splitext(os.path.basename(file_path))[0]
+    new_base_name = base_name[:-17].strip() if len(base_name) > 17 else base_name
+
+    # Neue Export-Pfade zusammensetzen
+    output_csv = os.path.join(dir_name, f"{new_base_name} Anschlussanalyse.csv")
+    # ----------------------------------------------------
+
+
+    # --- Schritt 1: Mapping ---
     try:
         #  Einlesen der definierten Tabellenblätter
         df_nodes = pd.read_excel(file_path, sheet_name='StructuralPointConnection')
@@ -35,7 +52,10 @@ def analyze_saf_connections(
         'Slab': 'Platte',
         'Wall': 'Wand'
     }
+    # ----------------------------------------------------
 
+
+    # --- Schritt 2: Verbindungsanalyse ---
     # Dictionary zur Speicherung initialisieren (Schlüssel = Knoten-Name)
     # Dictionary speichert pro Knoten weiteres Dictionary: {Elementname: Elementtyp}
     # Dies verhindert doppelte Zählungen desselben Elements am selben Knoten
@@ -106,11 +126,11 @@ def analyze_saf_connections(
             if saf_type:
                 add_connections(element_name, nodes_string, saf_type)
 
-    # Dictionary zum Zwischenspeichern der Ergebnisse für den Excel-Export
-    calculated_results = {}
 
     # 5. Dynamische Printausgabe der gewählten Range im Titel durch Slicing
     print(f"""\n=== Verbindungsanalyse der Knoten (Index {start_index} bis {end_index if end_index else 'Ende'}) ===""")
+    # Dictionary zum Zwischenspeichern der Ergebnisse für den Excel-Export initialisieren
+    calculated_results = {}
     
     # Liste für die CSV-Ausgabe initialisieren
     export_data = []
@@ -162,81 +182,83 @@ def analyze_saf_connections(
             'Anzahl': total_elements,
             'Elemente': elements_string
         })
+    # ----------------------------------------------------
 
-    # --- Ergebnisse in externe Datei speichern ---
+    
+    # --- Schritt 3: Export der Ergebnisse ---
     # Ergebnisse in bestehende Excel-Datei schreiben
     print("\nSchreibe Ergebnisse in die Excel-Datei zurück...")
-    try:
-        # Arbeitsmappe laden
-        wb = openpyxl.load_workbook(file_path)
+    if export_excel:
+        try:
+            # Arbeitsmappe laden
+            wb = openpyxl.load_workbook(file_path)
 
-        # Tabellenblatt dynamisch finden
-        sheet_name = 'StructuralPointConnection'
-        if sheet_name not in wb.sheetnames:
-            print(f"FEHLER: Tabellenblatt '{sheet_name}' in der Excel-Datei nicht gefunden.")
-            return
-    
-        ws = wb[sheet_name]
-
-        # Suchen der Spalte "Name" und der ersten leeren Spalte
-        name_col_idx = None
-        max_col_idx = ws.max_column
-
-        for col in range(1, max_col_idx + 1):
-            cell_value = ws.cell(row=1, column=col).value
-            if cell_value and str(cell_value).strip() == 'Name':
-                name_col_idx = col
-                break
+            # Tabellenblatt dynamisch finden
+            sheet_name = 'StructuralPointConnection'
+            if sheet_name not in wb.sheetnames:
+                print(f"FEHLER: Tabellenblatt '{sheet_name}' in der Excel-Datei nicht gefunden.")
+                return
         
-        if not name_col_idx:
-            print("FEHLER: Spalte 'Name' nicht gefunden.")
-            return
-        
-        # Indizes für die neuen Spalten bestimmen
-        label_col_idx = max_col_idx + 1
-        cat_col_idx = max_col_idx + 2
-        count_col_idx = max_col_idx + 3
-        elem_col_idx = max_col_idx + 4
-        ergänzt_col_idx = max_col_idx + 5
-        entfernt_col_idx = max_col_idx + 6
-        guids_col_idx = max_col_idx + 7
-        kommentar_col_idx = max_col_idx + 8
+            ws = wb[sheet_name]
 
-        # Header schreiben
-        ws.cell(row=1, column=label_col_idx, value='Label')
-        ws.cell(row=1, column=cat_col_idx, value='Anschlussvariante')
-        ws.cell(row=1, column=count_col_idx, value='Anzahl')
-        ws.cell(row=1, column=elem_col_idx, value='Elemente')
-        ws.cell(row=1, column=ergänzt_col_idx, value='ergänzt')
-        ws.cell(row=1, column=entfernt_col_idx, value='entfernt')
-        ws.cell(row=1, column=guids_col_idx, value='GUIDs')
-        ws.cell(row=1, column=kommentar_col_idx, value='Kommentar')
+            # Suchen der Spalte "Name" und der ersten leeren Spalte
+            name_col_idx = None
+            max_col_idx = ws.max_column
 
-        # Zeile für Zeile durchlaufen und Werte aus calculated_results eintragen
-        for row in range(2, ws.max_row + 1):
-            node_name = ws.cell(row=row, column=name_col_idx).value
-            if node_name and str(node_name).strip() in calculated_results:
-                result = calculated_results[str(node_name)]
-                ws.cell(row=row, column=cat_col_idx, value=result['Anschlussvariante'])
-                ws.cell(row=row, column=count_col_idx, value=result['Anzahl'])
-                ws.cell(row=row, column=elem_col_idx, value=result['Elemente'])
-        
-        # Datei abspeichern
-        wb.save(file_path)
-        print(f">>> ERFOLG: Ergebnisse wurden in '{file_path}' zurückgeschrieben.")
+            for col in range(1, max_col_idx + 1):
+                cell_value = ws.cell(row=1, column=col).value
+                if cell_value and str(cell_value).strip() == 'Name':
+                    name_col_idx = col
+                    break
+            
+            if not name_col_idx:
+                print("FEHLER: Spalte 'Name' nicht gefunden.")
+                return
+            
+            # Indizes für die neuen Spalten bestimmen
+            label_col_idx = max_col_idx + 1
+            cat_col_idx = max_col_idx + 2
+            count_col_idx = max_col_idx + 3
+            elem_col_idx = max_col_idx + 4
+            ergänzt_col_idx = max_col_idx + 5
+            entfernt_col_idx = max_col_idx + 6
+            kommentar_col_idx = max_col_idx + 7
 
-    except PermissionError:
-        print(f"\n!!! KRITISCHER FEHLER: Die Datei '{file_path}' ist in Excel geöffnet! Bitte schließe die Datei und starte das Skript erneut. !!!")
-    except Exception as e:
-        print(f"\n!!! FEHLER beim Schreiben in die Excel-Datei: {e} !!!")
+            # Header schreiben
+            ws.cell(row=1, column=label_col_idx, value='Label')
+            ws.cell(row=1, column=cat_col_idx, value='Anschlussvariante')
+            ws.cell(row=1, column=count_col_idx, value='Anzahl')
+            ws.cell(row=1, column=elem_col_idx, value='Elemente')
+            ws.cell(row=1, column=ergänzt_col_idx, value='fehlend')
+            ws.cell(row=1, column=entfernt_col_idx, value='zuviel')
+            ws.cell(row=1, column=kommentar_col_idx, value='Kommentar')
+
+            # Zeile für Zeile durchlaufen und Werte aus calculated_results eintragen
+            for row in range(2, ws.max_row + 1):
+                node_name = ws.cell(row=row, column=name_col_idx).value
+                if node_name and str(node_name).strip() in calculated_results:
+                    result = calculated_results[str(node_name)]
+                    ws.cell(row=row, column=cat_col_idx, value=result['Anschlussvariante'])
+                    ws.cell(row=row, column=count_col_idx, value=result['Anzahl'])
+                    ws.cell(row=row, column=elem_col_idx, value=result['Elemente'])
+            
+            # Datei abspeichern
+            wb.save(file_path)
+            print(f">>> ERFOLG: Ergebnisse wurden in '{file_path}' zurückgeschrieben.")
+
+        except PermissionError:
+            print(f"\n!!! KRITISCHER FEHLER: Die Datei '{file_path}' ist in Excel geöffnet! Bitte schließe die Datei und starte das Skript erneut. !!!")
+        except Exception as e:
+            print(f"\n!!! FEHLER beim Schreiben in die Excel-Datei: {e} !!!")
 
     # Ergbnisse als DataFrame aus der Liste erstellen und als CSV speichern
-    print("\nSchreibe Ergebnisse in CSV-Datei...")
-    if export_data:        
-        df_export = pd.DataFrame(export_data)
-        df_export.to_csv(output_csv_path, index=False, 
-                            sep=';', encoding='utf-8-sig')
-        print(f">>> ERFOLG: Die Ergebnisse wurden in '{output_csv_path}' gespeichert. <<<")
+    if export_csv:
+        print("\nSchreibe Ergebnisse in CSV-Datei...")
+        if export_data:        
+            df_export = pd.DataFrame(export_data)
+            df_export.to_csv(output_csv, index=False, 
+                                sep=';', encoding='utf-8-sig')
+            print(f">>> ERFOLG: Die Ergebnisse wurden in '{output_csv}' gespeichert. <<<")
 
     # Ausgabe der Warnung am Ende des Skripts
     if unrecognized_types:
@@ -252,9 +274,40 @@ def analyze_saf_connections(
 
 
 
-def generate_gnn_labels(file_path, output_csv='SAF_Analyse_Labels.csv', output_json='SAF_Analyse_Labels.json'):
+
+
+
+
+
+def generate_gnn_labels(file_path, export_csv=True, export_json=True):
     print(f"Lese Datei ein {file_path}...\n")
 
+    # --- Schritt 0: Dateipfade vorbereiten ---
+    # Ordner extrahieren
+    dir_name = os.path.dirname(file_path)
+    if not dir_name:
+        dir_name = '.' # Fallback auf aktuelles Verzeichnis, falls kein Ordner angegeben wurde
+    
+    # Ordnerebene eins höher springen
+    parent_dir = os.path.dirname(dir_name)
+    if not parent_dir:
+        parent_dir = '.' # Fallback falls die Datei im Hauptverzeichnis liegt
+
+    # Zielordner definieren
+    target_dir = os.path.join(parent_dir, "2_3 Edge_Labeling")
+    os.makedirs(target_dir, exist_ok=True) # Zielordner erstellen. falls er nicht existiert
+
+    # Dateinamen anpassen, letzte Bezeichnung kürzen, "Labels" anhängen
+    base_name = os.path.splitext(os.path.basename(file_path))[0]
+    new_base_name = base_name[:-17].strip() + " Labels" if len(base_name) > 17 else base_name
+
+    # Neue Export-Pfade zusammensetzen
+    output_csv = os.path.join(target_dir, f"{new_base_name}.csv")
+    output_json = os.path.join(target_dir, f"{new_base_name}.json")
+    # ----------------------------------------------------
+
+
+    # --- Schritt 1: Mapping und Total Labels generieren ---
     try:
         df_nodes = pd.read_excel(file_path, sheet_name='StructuralPointConnection')
         df_curve = pd.read_excel(file_path, sheet_name='StructuralCurveMember')
@@ -268,10 +321,10 @@ def generate_gnn_labels(file_path, output_csv='SAF_Analyse_Labels.csv', output_j
     for df in [df_nodes, df_curve, df_rib, df_surface]:
         df.columns = df.columns.str.strip()
 
-    # --- Schritt 1: Mapping und Total Labels generieren ---
     saf_to_ifc = {}
     all_ifc_guids = set()
 
+    # SAF und IFC-Elemente mappen
     for df in [df_curve, df_rib, df_surface]:
         # Prüfen ob GUID existiert
         if 'GUID' not in df.columns:
@@ -290,6 +343,8 @@ def generate_gnn_labels(file_path, output_csv='SAF_Analyse_Labels.csv', output_j
     # Total Labels: Alle möglichen Kombinationen im ganzen Bauwerk (ungerichtet)
     Total_Labels = set(tuple(sorted(comb)) for comb in itertools.combinations(all_ifc_guids, 2))
     print(f"Generierte Total_Labels (Alle möglichen Kanten): {len(Total_Labels)}")
+    # ----------------------------------------------------
+
 
     # --- SCHRITT 2: GroundTruth (GT) und Rule_Labels ---
     GT_Labels = set()
@@ -358,27 +413,10 @@ def generate_gnn_labels(file_path, output_csv='SAF_Analyse_Labels.csv', output_j
     
     print(f"Generierte GT_Labels: {len(GT_Labels)}")
     print(f"Generierte Rule_Labels: {len(Rule_Labels)}")
+    # ----------------------------------------------------
 
-    # --- SCHRITT 3: Ergebnisse exportieren ---
-    # Konvertierung in strukturierte Dictionaries
-    def set_to_dict_list(edge_set, label_type):
-        return [{'GUID_A': edge[0], 'GUID_B': edge[1], 'Label_Type': label_type} for edge in edge_set]
-    
-    export_data = set_to_dict_list(Total_Labels, 'Total') + \
-                set_to_dict_list(GT_Labels, 'GT') + \
-                set_to_dict_list(Rule_Labels, 'Rule')
-    
-    # JSON-Export
-    with open(output_json, 'w', encoding='utf-8') as f:
-        json.dump(export_data, f, indent=4)
-    
-    # CSV Export
-    df_export = pd.DataFrame(export_data)
-    df_export.to_csv(output_csv, index=False, sep=';', encoding='utf-8-sig')
 
-    print(f"\n>>> ERFOLG: GNN-Labels wurden in '{output_csv}' und '{output_json}' gespeichert. <<<")
-
-    # --- SCHRITT 4: Metriken berechnen ---
+    # --- SCHRITT 3: Metriken berechnen ---
     tp = len(GT_Labels.intersection(Rule_Labels)) # Prüft die Schnittmenge beider Labels
     fp = len(Rule_Labels.difference(GT_Labels)) # Realität sagt "ja", Konverter hat sie übersehen
     fn = len(GT_Labels.difference(Rule_Labels)) # Realität sagt "nein", Konverter hat sie fälschlicherweise verbunden
@@ -401,14 +439,37 @@ def generate_gnn_labels(file_path, output_csv='SAF_Analyse_Labels.csv', output_j
     print(f"Recall:    {recall:.4f} ({(recall*100):.2f} %)")
     print(f"F1-Score:  {f1_score:.4f}")
     print("==================================================")
+    # ----------------------------------------------------
 
 
+    # --- SCHRITT 4: Ergebnisse dynamisch exportieren ---
+    # Konvertierung in strukturierte Dictionaries
+    def set_to_dict_list(edge_set, label_type):
+        return [{'GUID_A': edge[0], 'GUID_B': edge[1], 'Label_Type': label_type} for edge in edge_set]
+    
+    export_data = set_to_dict_list(Total_Labels, 'Total') + \
+                set_to_dict_list(GT_Labels, 'GT') + \
+                set_to_dict_list(Rule_Labels, 'Rule')
+    
+    df_export = pd.DataFrame(export_data)
+    
+    # JSON-Export
+    if export_json:
+        with open(output_json, 'w', encoding='utf-8') as f:
+            json.dump(export_data, f, indent=4)
+    
+    # CSV Export
+    if export_csv:
+        df_export.to_csv(output_csv, index=False, sep=';', encoding='utf-8-sig')
+
+    print(f"\n>>> ERFOLG: GNN-Labels wurden in '{output_csv}' und '{output_json}' gespeichert. <<<")
+    # ----------------------------------------------------
 
 
 """Main-Part"""
 ### Anschlussanalyse ausführen
 # Ausführung starten (Pfad entsprechend anpassen!)
-analyze_saf_connections('SAF_Analyser_Test.xlsx')
+analyze_saf_connections('SAF_Analyser_Test - Kopie.xlsx')
 # analyze_saf_connections('./Analysemodelle/21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss.xlsx')
 
 
