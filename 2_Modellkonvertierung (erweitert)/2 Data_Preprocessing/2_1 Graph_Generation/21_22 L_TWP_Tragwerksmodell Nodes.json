@@ -1,0 +1,2862 @@
+[
+    {
+        "node_id": 0,
+        "guid": "0AWeagGxn4K8SQhuSKHnA$",
+        "name": "Unterzug_001",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                28.851,
+                17.18,
+                2.715
+            ],
+            "dimensions": [
+                15.736,
+                0.3,
+                0.4
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.019,
+                0.025
+            ],
+            "volume": 1.8883,
+            "area": 22.2701,
+            "ratio_av": 11.7937
+        }
+    },
+    {
+        "node_id": 1,
+        "guid": "1joREjP1XF7A1yiYCAtg7Q",
+        "name": "Unterzug_002",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                25.851,
+                14.549,
+                2.715
+            ],
+            "dimensions": [
+                14.525,
+                0.3,
+                0.4
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.021,
+                0.028
+            ],
+            "volume": 1.743,
+            "area": 20.5754,
+            "ratio_av": 11.8046
+        }
+    },
+    {
+        "node_id": 2,
+        "guid": "1vARaIIRj0oRX2pyhHuzDt",
+        "name": "Unterzug_003",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                25.851,
+                9.549,
+                2.715
+            ],
+            "dimensions": [
+                14.55,
+                0.3,
+                0.4
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.021,
+                0.027
+            ],
+            "volume": 1.746,
+            "area": 20.61,
+            "ratio_av": 11.8041
+        }
+    },
+    {
+        "node_id": 3,
+        "guid": "2YJhYNSNX4MBm47Tp6_Asb",
+        "name": "Unterzug_102",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                49.191,
+                9.883,
+                5.94
+            ],
+            "dimensions": [
+                9.25,
+                0.3,
+                0.8
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.032,
+                0.086
+            ],
+            "volume": 2.22,
+            "area": 20.83,
+            "ratio_av": 9.3829
+        }
+    },
+    {
+        "node_id": 4,
+        "guid": "1g$zlNVOH0yxxNDZPAYtcw",
+        "name": "Unterzug_103",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                48.891,
+                15.575,
+                5.94
+            ],
+            "dimensions": [
+                5.692,
+                0.3,
+                0.8
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.053,
+                0.141
+            ],
+            "volume": 1.3661,
+            "area": 13.0023,
+            "ratio_av": 9.5178
+        }
+    },
+    {
+        "node_id": 5,
+        "guid": "1XbqrhNIz4jQKQmvfxrbMP",
+        "name": "Unterzug_101",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                29.026,
+                17.18,
+                6.34
+            ],
+            "dimensions": [
+                15.561,
+                0.3,
+                0.4
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.019,
+                0.026
+            ],
+            "volume": 1.8673,
+            "area": 22.0251,
+            "ratio_av": 11.7952
+        }
+    },
+    {
+        "node_id": 6,
+        "guid": "1cTAfCfsr7NPSOP5xgRVBm",
+        "name": "Unterzug_201",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                29.026,
+                17.18,
+                9.965
+            ],
+            "dimensions": [
+                15.561,
+                0.3,
+                0.4
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.019,
+                0.026
+            ],
+            "volume": 1.8673,
+            "area": 22.0251,
+            "ratio_av": 11.7952
+        }
+    },
+    {
+        "node_id": 7,
+        "guid": "32BGFhErj7SRU5qku9pooD",
+        "name": "Stahltr\u00e4ger_204",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                41.131,
+                22.533,
+                10.365
+            ],
+            "dimensions": [
+                2.996,
+                0.2,
+                0.19
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.067,
+                0.063
+            ],
+            "volume": 0.0153,
+            "area": 3.5069,
+            "ratio_av": 229.2092
+        }
+    },
+    {
+        "node_id": 8,
+        "guid": "2yLI$bp2n6tOR$yBmR5iTh",
+        "name": "Unterzug_202",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                29.606,
+                25.43,
+                10.365
+            ],
+            "dimensions": [
+                11.425,
+                0.2,
+                0.19
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.018,
+                0.017
+            ],
+            "volume": 0.0568,
+            "area": 13.1173,
+            "ratio_av": 230.9384
+        }
+    },
+    {
+        "node_id": 9,
+        "guid": "13Ov1SoL12y91pIvszNN_U",
+        "name": "Stahltr\u00e4ger-201",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                29.706,
+                22.533,
+                10.365
+            ],
+            "dimensions": [
+                2.996,
+                0.2,
+                0.19
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.067,
+                0.063
+            ],
+            "volume": 0.0153,
+            "area": 3.5069,
+            "ratio_av": 229.2092
+        }
+    },
+    {
+        "node_id": 10,
+        "guid": "1clm38N0r2PedYDEb3C372",
+        "name": "Stahltr\u00e4ger_202",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                33.131,
+                22.533,
+                10.365
+            ],
+            "dimensions": [
+                2.996,
+                0.2,
+                0.19
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.067,
+                0.063
+            ],
+            "volume": 0.0153,
+            "area": 3.5069,
+            "ratio_av": 229.2092
+        }
+    },
+    {
+        "node_id": 11,
+        "guid": "2ebfycBi9CsBWp$kyi9U1H",
+        "name": "Stahltr\u00e4ger_203",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                37.131,
+                22.534,
+                10.365
+            ],
+            "dimensions": [
+                2.995,
+                0.2,
+                0.19
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.067,
+                0.063
+            ],
+            "volume": 0.0153,
+            "area": 3.5058,
+            "ratio_av": 229.1373
+        }
+    },
+    {
+        "node_id": 12,
+        "guid": "0gQaaatRz29hdrFtHOSgqG",
+        "name": "Stahltr\u00e4ger_205",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                45.131,
+                22.533,
+                10.365
+            ],
+            "dimensions": [
+                3.095,
+                0.2,
+                0.19
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.065,
+                0.061
+            ],
+            "volume": 0.0158,
+            "area": 3.6221,
+            "ratio_av": 229.2468
+        }
+    },
+    {
+        "node_id": 13,
+        "guid": "0Z1wBDxbH6xeayFutzfara",
+        "name": "Stahltr\u00e4ger_206",
+        "entity": "IfcBeam",
+        "features": {
+            "position": [
+                48.556,
+                22.533,
+                10.365
+            ],
+            "dimensions": [
+                3.095,
+                0.2,
+                0.19
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.065,
+                0.061
+            ],
+            "volume": 0.0158,
+            "area": 3.6221,
+            "ratio_av": 229.2468
+        }
+    },
+    {
+        "node_id": 14,
+        "guid": "37Hi8j$3b5cwoX$KEiBpUC",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                29.456,
+                25.38,
+                -0.135
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.25
+            ],
+            "norm_dimensions": [
+                0.092,
+                0.092,
+                1.0
+            ],
+            "volume": 0.2925,
+            "area": 4.08,
+            "ratio_av": 13.9487
+        }
+    },
+    {
+        "node_id": 15,
+        "guid": "0dOhaXOZD7YQ9AJ0g$gWYC",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                32.881,
+                25.38,
+                -0.135
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.25
+            ],
+            "norm_dimensions": [
+                0.092,
+                0.092,
+                1.0
+            ],
+            "volume": 0.2925,
+            "area": 4.08,
+            "ratio_av": 13.9487
+        }
+    },
+    {
+        "node_id": 16,
+        "guid": "0JeEfxCcX0GuqDB$sitER$",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                36.881,
+                25.38,
+                -0.135
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.25
+            ],
+            "norm_dimensions": [
+                0.092,
+                0.092,
+                1.0
+            ],
+            "volume": 0.2925,
+            "area": 4.08,
+            "ratio_av": 13.9487
+        }
+    },
+    {
+        "node_id": 17,
+        "guid": "2kiyiQ2lvENBFDb4gK8tQf",
+        "name": "St\u00fctze_013",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                49.191,
+                10.183,
+                -0.135
+            ],
+            "dimensions": [
+                0.6,
+                0.6,
+                3.625
+            ],
+            "norm_dimensions": [
+                0.166,
+                0.166,
+                1.0
+            ],
+            "volume": 1.305,
+            "area": 9.42,
+            "ratio_av": 7.2184
+        }
+    },
+    {
+        "node_id": 18,
+        "guid": "05ICfHt0b6jQGuYoY158kj",
+        "name": "St\u00fctze_006",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                34.476,
+                17.18,
+                -0.135
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                2.85
+            ],
+            "norm_dimensions": [
+                0.105,
+                0.105,
+                1.0
+            ],
+            "volume": 0.2565,
+            "area": 3.6,
+            "ratio_av": 14.0351
+        }
+    },
+    {
+        "node_id": 19,
+        "guid": "0KUOsgQ1b1EPlgC_Zyzjp0",
+        "name": "St\u00fctze_006",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                40.077,
+                17.18,
+                -0.135
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                2.85
+            ],
+            "norm_dimensions": [
+                0.105,
+                0.105,
+                1.0
+            ],
+            "volume": 0.2565,
+            "area": 3.6,
+            "ratio_av": 14.0351
+        }
+    },
+    {
+        "node_id": 20,
+        "guid": "3X7$pZ_e99fhYGXKMCln7S",
+        "name": "St\u00fctze_005",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                40.077,
+                14.549,
+                -0.135
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                2.85
+            ],
+            "norm_dimensions": [
+                0.105,
+                0.105,
+                1.0
+            ],
+            "volume": 0.2565,
+            "area": 3.6,
+            "ratio_av": 14.0351
+        }
+    },
+    {
+        "node_id": 21,
+        "guid": "11rrb$dvv9rPYCxRwiCQNE",
+        "name": "St\u00fctze_004",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                34.476,
+                14.549,
+                -0.135
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                2.85
+            ],
+            "norm_dimensions": [
+                0.105,
+                0.105,
+                1.0
+            ],
+            "volume": 0.2565,
+            "area": 3.6,
+            "ratio_av": 14.0351
+        }
+    },
+    {
+        "node_id": 22,
+        "guid": "1d6xcPEtPAzvc4tfKRn0gC",
+        "name": "St\u00fctze_003",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                28.876,
+                14.549,
+                -0.135
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                2.85
+            ],
+            "norm_dimensions": [
+                0.105,
+                0.105,
+                1.0
+            ],
+            "volume": 0.2565,
+            "area": 3.6,
+            "ratio_av": 14.0351
+        }
+    },
+    {
+        "node_id": 23,
+        "guid": "0Zps7UP6v15v_OX_A9sUCL",
+        "name": "St\u00fctze_001",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                28.876,
+                9.549,
+                -0.135
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                2.85
+            ],
+            "norm_dimensions": [
+                0.105,
+                0.105,
+                1.0
+            ],
+            "volume": 0.2565,
+            "area": 3.6,
+            "ratio_av": 14.0351
+        }
+    },
+    {
+        "node_id": 24,
+        "guid": "16GSwL2a1FPPVw1Djul6P4",
+        "name": "St\u00fctze_002",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                34.476,
+                9.549,
+                -0.135
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                2.85
+            ],
+            "norm_dimensions": [
+                0.105,
+                0.105,
+                1.0
+            ],
+            "volume": 0.2565,
+            "area": 3.6,
+            "ratio_av": 14.0351
+        }
+    },
+    {
+        "node_id": 25,
+        "guid": "2Xg$vq1dn3KfUc$UCRuFQG",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                29.456,
+                25.38,
+                3.355
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.76
+            ],
+            "norm_dimensions": [
+                0.08,
+                0.08,
+                1.0
+            ],
+            "volume": 0.3384,
+            "area": 4.692,
+            "ratio_av": 13.8652
+        }
+    },
+    {
+        "node_id": 26,
+        "guid": "0CI83dCJPExuUk6jHv_HqA",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                36.881,
+                25.38,
+                3.355
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.76
+            ],
+            "norm_dimensions": [
+                0.08,
+                0.08,
+                1.0
+            ],
+            "volume": 0.3384,
+            "area": 4.692,
+            "ratio_av": 13.8652
+        }
+    },
+    {
+        "node_id": 27,
+        "guid": "29iu0xDujB5udMvw4Reg0L",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                32.881,
+                25.38,
+                3.355
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.76
+            ],
+            "norm_dimensions": [
+                0.08,
+                0.08,
+                1.0
+            ],
+            "volume": 0.3384,
+            "area": 4.692,
+            "ratio_av": 13.8652
+        }
+    },
+    {
+        "node_id": 28,
+        "guid": "34hNs6SCP5KeiMUm2ucF9o",
+        "name": "St\u00fctze_013",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                49.191,
+                10.183,
+                3.49
+            ],
+            "dimensions": [
+                0.6,
+                0.6,
+                2.45
+            ],
+            "norm_dimensions": [
+                0.245,
+                0.245,
+                1.0
+            ],
+            "volume": 0.882,
+            "area": 6.6,
+            "ratio_av": 7.483
+        }
+    },
+    {
+        "node_id": 29,
+        "guid": "3rjgs85Xr5WAujYpuVT5__",
+        "name": "St\u00fctze_106",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                34.476,
+                17.18,
+                3.355
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.135
+            ],
+            "norm_dimensions": [
+                0.096,
+                0.096,
+                1.0
+            ],
+            "volume": 0.2821,
+            "area": 3.942,
+            "ratio_av": 13.9738
+        }
+    },
+    {
+        "node_id": 30,
+        "guid": "3PjQ6W0RTDsB2_GNR_9Ci9",
+        "name": "St\u00fctze_107",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                40.077,
+                17.18,
+                3.355
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.135
+            ],
+            "norm_dimensions": [
+                0.096,
+                0.096,
+                1.0
+            ],
+            "volume": 0.2821,
+            "area": 3.942,
+            "ratio_av": 13.9738
+        }
+    },
+    {
+        "node_id": 31,
+        "guid": "0LNv7Xum5FX89RO92ouCKV",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                29.456,
+                25.38,
+                7.115
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.25
+            ],
+            "norm_dimensions": [
+                0.092,
+                0.092,
+                1.0
+            ],
+            "volume": 0.2925,
+            "area": 4.08,
+            "ratio_av": 13.9487
+        }
+    },
+    {
+        "node_id": 32,
+        "guid": "1hgBp2TmzEvRr5FjNo8rJP",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                36.881,
+                25.38,
+                7.115
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.25
+            ],
+            "norm_dimensions": [
+                0.092,
+                0.092,
+                1.0
+            ],
+            "volume": 0.2925,
+            "area": 4.08,
+            "ratio_av": 13.9487
+        }
+    },
+    {
+        "node_id": 33,
+        "guid": "1cOJ$PkQ150edVMhMxHRUv",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                32.881,
+                25.38,
+                7.115
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.25
+            ],
+            "norm_dimensions": [
+                0.092,
+                0.092,
+                1.0
+            ],
+            "volume": 0.2925,
+            "area": 4.08,
+            "ratio_av": 13.9487
+        }
+    },
+    {
+        "node_id": 34,
+        "guid": "0swePq8nLCnBPnmdwS2I4J",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                34.476,
+                17.18,
+                6.98
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.135
+            ],
+            "norm_dimensions": [
+                0.096,
+                0.096,
+                1.0
+            ],
+            "volume": 0.2821,
+            "area": 3.942,
+            "ratio_av": 13.9738
+        }
+    },
+    {
+        "node_id": 35,
+        "guid": "06Pte0Tcj2TOJl7uUBr1ga",
+        "name": "St\u00fctze_010",
+        "entity": "IfcColumn",
+        "features": {
+            "position": [
+                40.077,
+                17.18,
+                6.98
+            ],
+            "dimensions": [
+                0.3,
+                0.3,
+                3.135
+            ],
+            "norm_dimensions": [
+                0.096,
+                0.096,
+                1.0
+            ],
+            "volume": 0.2821,
+            "area": 3.942,
+            "ratio_av": 13.9738
+        }
+    },
+    {
+        "node_id": 36,
+        "guid": "3BYlzLZVL7b8xq5sWFE9Dh",
+        "name": "Fundament_010",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                28.876,
+                9.549,
+                -1.435
+            ],
+            "dimensions": [
+                0.3,
+                7.629,
+                1.3
+            ],
+            "norm_dimensions": [
+                0.039,
+                1.0,
+                0.17
+            ],
+            "volume": 2.9168,
+            "area": 24.874,
+            "ratio_av": 8.5278
+        }
+    },
+    {
+        "node_id": 37,
+        "guid": "1dIvHR2dP7QwqeSI04bNNE",
+        "name": "Fundament_031",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                28.876,
+                17.178,
+                -1.435
+            ],
+            "dimensions": [
+                0.3,
+                5.23,
+                1.3
+            ],
+            "norm_dimensions": [
+                0.057,
+                1.0,
+                0.249
+            ],
+            "volume": 1.9227,
+            "area": 16.8791,
+            "ratio_av": 8.7789
+        }
+    },
+    {
+        "node_id": 38,
+        "guid": "2xkilp1QrA8ucnTMkFOrTs",
+        "name": "Fundament_002",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                28.876,
+                22.108,
+                -1.435
+            ],
+            "dimensions": [
+                20.29,
+                0.3,
+                1.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.015,
+                0.064
+            ],
+            "volume": 7.7961,
+            "area": 65.0711,
+            "ratio_av": 8.3466
+        }
+    },
+    {
+        "node_id": 39,
+        "guid": "09c4BUqUv1zvsGWbsAQtpW",
+        "name": "Fundament_003",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                48.866,
+                15.301,
+                -1.435
+            ],
+            "dimensions": [
+                0.3,
+                7.107,
+                1.3
+            ],
+            "norm_dimensions": [
+                0.042,
+                1.0,
+                0.183
+            ],
+            "volume": 2.6616,
+            "area": 22.911,
+            "ratio_av": 8.608
+        }
+    },
+    {
+        "node_id": 40,
+        "guid": "0mpfV7pgLCiRXhWgHo6r3U",
+        "name": "Fundament_005",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                40.076,
+                14.221,
+                -1.435
+            ],
+            "dimensions": [
+                9.09,
+                1.345,
+                1.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.148,
+                0.143
+            ],
+            "volume": 3.4539,
+            "area": 29.3809,
+            "ratio_av": 8.5066
+        }
+    },
+    {
+        "node_id": 41,
+        "guid": "1QyNeJAdrBFxP_LswTPfWb",
+        "name": "Fundament_006",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                40.076,
+                6.548,
+                -1.435
+            ],
+            "dimensions": [
+                0.3,
+                7.938,
+                1.3
+            ],
+            "norm_dimensions": [
+                0.038,
+                1.0,
+                0.164
+            ],
+            "volume": 2.9856,
+            "area": 25.5695,
+            "ratio_av": 8.5643
+        }
+    },
+    {
+        "node_id": 42,
+        "guid": "3E_5d_HH17e87HsFpcCXpR",
+        "name": "Fundament_007",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                25.876,
+                6.548,
+                -1.435
+            ],
+            "dimensions": [
+                14.5,
+                0.3,
+                1.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.021,
+                0.09
+            ],
+            "volume": 5.538,
+            "area": 46.5431,
+            "ratio_av": 8.4043
+        }
+    },
+    {
+        "node_id": 43,
+        "guid": "1oLOAofj16HukPcxtbLEX5",
+        "name": "Fundament_008",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                25.876,
+                6.548,
+                -1.435
+            ],
+            "dimensions": [
+                0.3,
+                10.93,
+                1.3
+            ],
+            "norm_dimensions": [
+                0.027,
+                1.0,
+                0.119
+            ],
+            "volume": 4.1457,
+            "area": 35.1191,
+            "ratio_av": 8.4712
+        }
+    },
+    {
+        "node_id": 44,
+        "guid": "2JgaaaLgz4ouF8_$Uvbb_S",
+        "name": "Fundament_009",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                25.876,
+                17.178,
+                -1.435
+            ],
+            "dimensions": [
+                3.3,
+                0.3,
+                1.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.091,
+                0.394
+            ],
+            "volume": 1.17,
+            "area": 10.7031,
+            "ratio_av": 9.1479
+        }
+    },
+    {
+        "node_id": 45,
+        "guid": "1O7End$P565u$Taj_OLvNQ",
+        "name": "Fundament_026",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                25.701,
+                6.373,
+                -1.735
+            ],
+            "dimensions": [
+                0.65,
+                11.28,
+                0.3
+            ],
+            "norm_dimensions": [
+                0.058,
+                1.0,
+                0.027
+            ],
+            "volume": 2.0729,
+            "area": 20.7485,
+            "ratio_av": 10.0094
+        }
+    },
+    {
+        "node_id": 46,
+        "guid": "1ARI7HR_D2AOttsuuu4nA1",
+        "name": "Fundament_027",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                25.701,
+                17.003,
+                -1.735
+            ],
+            "dimensions": [
+                3.0,
+                0.65,
+                0.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.217,
+                0.1
+            ],
+            "volume": 0.5216,
+            "area": 5.5533,
+            "ratio_av": 10.6467
+        }
+    },
+    {
+        "node_id": 47,
+        "guid": "0iq32SHNbB599HDsdhNP92",
+        "name": "Fundament_028",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                28.701,
+                9.374,
+                -1.735
+            ],
+            "dimensions": [
+                0.65,
+                13.209,
+                0.3
+            ],
+            "norm_dimensions": [
+                0.049,
+                1.0,
+                0.023
+            ],
+            "volume": 2.5124,
+            "area": 24.9504,
+            "ratio_av": 9.9309
+        }
+    },
+    {
+        "node_id": 48,
+        "guid": "0rU8X9VTD1Mh4zac47bZ_U",
+        "name": "Fundament_029",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                29.351,
+                9.374,
+                -1.735
+            ],
+            "dimensions": [
+                10.55,
+                0.65,
+                0.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.062,
+                0.028
+            ],
+            "volume": 2.0572,
+            "area": 20.435,
+            "ratio_av": 9.9334
+        }
+    },
+    {
+        "node_id": 49,
+        "guid": "03YSygb7bBQxhpUbRha38C",
+        "name": "Fundament_022",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                48.691,
+                15.146,
+                -1.735
+            ],
+            "dimensions": [
+                0.65,
+                7.437,
+                0.3
+            ],
+            "norm_dimensions": [
+                0.087,
+                1.0,
+                0.04
+            ],
+            "volume": 1.3308,
+            "area": 13.5029,
+            "ratio_av": 10.1465
+        }
+    },
+    {
+        "node_id": 50,
+        "guid": "3Kl7WZxIj7UQEOa$PXN1qA",
+        "name": "Fundament_023",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                39.901,
+                14.066,
+                -1.735
+            ],
+            "dimensions": [
+                8.532,
+                1.614,
+                0.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.189,
+                0.035
+            ],
+            "volume": 1.6046,
+            "area": 16.0904,
+            "ratio_av": 10.0277
+        }
+    },
+    {
+        "node_id": 51,
+        "guid": "3RFBoT5tv2l9eJJJOgOBCn",
+        "name": "Fundament_024",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                39.901,
+                6.373,
+                -1.735
+            ],
+            "dimensions": [
+                0.65,
+                8.268,
+                0.3
+            ],
+            "norm_dimensions": [
+                0.079,
+                1.0,
+                0.036
+            ],
+            "volume": 1.4928,
+            "area": 15.0814,
+            "ratio_av": 10.1028
+        }
+    },
+    {
+        "node_id": 52,
+        "guid": "2iIc8bNtj9KgcsAJ3aFfyp",
+        "name": "Fundament_011",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                28.876,
+                9.549,
+                -1.435
+            ],
+            "dimensions": [
+                11.2,
+                0.3,
+                1.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.027,
+                0.116
+            ],
+            "volume": 4.3095,
+            "area": 36.3015,
+            "ratio_av": 8.4236
+        }
+    },
+    {
+        "node_id": 53,
+        "guid": "0Y85QU2MnAn8qRVdZqneFm",
+        "name": "Fundament_025",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                25.701,
+                6.373,
+                -1.735
+            ],
+            "dimensions": [
+                14.85,
+                0.65,
+                0.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.044,
+                0.02
+            ],
+            "volume": 2.769,
+            "area": 27.5315,
+            "ratio_av": 9.9428
+        }
+    },
+    {
+        "node_id": 54,
+        "guid": "0BKeBqJC59KxKt8XsPSvJN",
+        "name": "Fundament_021",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                28.701,
+                21.933,
+                -1.735
+            ],
+            "dimensions": [
+                20.64,
+                0.65,
+                0.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.031,
+                0.015
+            ],
+            "volume": 3.898,
+            "area": 38.5325,
+            "ratio_av": 9.8852
+        }
+    },
+    {
+        "node_id": 55,
+        "guid": "1_oXmujhn96PRcJavmjWji",
+        "name": "Fundament_020",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                29.081,
+                25.378,
+                -1.735
+            ],
+            "dimensions": [
+                19.9,
+                0.65,
+                0.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.033,
+                0.015
+            ],
+            "volume": 3.8805,
+            "area": 38.2,
+            "ratio_av": 9.8441
+        }
+    },
+    {
+        "node_id": 56,
+        "guid": "1bHxvEXtj4rgCO2k$oYJ_z",
+        "name": "Fundament_001",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                29.201,
+                25.553,
+                -1.435
+            ],
+            "dimensions": [
+                19.66,
+                0.3,
+                1.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.015,
+                0.066
+            ],
+            "volume": 7.6674,
+            "area": 63.6922,
+            "ratio_av": 8.3069
+        }
+    },
+    {
+        "node_id": 57,
+        "guid": "2y1yF2sdHFx8rZKyd6$a$4",
+        "name": "Fundament_004",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                49.328,
+                15.206,
+                -1.0
+            ],
+            "dimensions": [
+                10.624,
+                1.719,
+                1.0
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.162,
+                0.094
+            ],
+            "volume": 5.3184,
+            "area": 32.9104,
+            "ratio_av": 6.188
+        }
+    },
+    {
+        "node_id": 58,
+        "guid": "3PFOQCpefBpvM0_bBEtFDM",
+        "name": "Fundament_030",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                48.354,
+                15.035,
+                -1.735
+            ],
+            "dimensions": [
+                0.987,
+                0.687,
+                0.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.696,
+                0.304
+            ],
+            "volume": 0.1223,
+            "area": 1.6469,
+            "ratio_av": 13.4661
+        }
+    },
+    {
+        "node_id": 59,
+        "guid": "3sWdSew_1698Nnt0D$$86_",
+        "name": "Fundament_012",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                49.309,
+                8.434,
+                -1.0
+            ],
+            "dimensions": [
+                5.196,
+                1.971,
+                1.0
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.379,
+                0.192
+            ],
+            "volume": 2.6348,
+            "area": 16.8091,
+            "ratio_av": 6.3796
+        }
+    },
+    {
+        "node_id": 60,
+        "guid": "0OZpTvkAD2deaIgA72Z$5v",
+        "name": "Fundament_013",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                44.457,
+                15.025,
+                -1.435
+            ],
+            "dimensions": [
+                0.3,
+                7.084,
+                1.3
+            ],
+            "norm_dimensions": [
+                0.042,
+                1.0,
+                0.184
+            ],
+            "volume": 2.7554,
+            "area": 23.3917,
+            "ratio_av": 8.4894
+        }
+    },
+    {
+        "node_id": 61,
+        "guid": "2Y4E38sTz5kBosEzzJZM_E",
+        "name": "Fundament_015",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                44.282,
+                15.179,
+                -1.735
+            ],
+            "dimensions": [
+                0.65,
+                6.754,
+                0.3
+            ],
+            "norm_dimensions": [
+                0.096,
+                1.0,
+                0.044
+            ],
+            "volume": 1.3092,
+            "area": 13.148,
+            "ratio_av": 10.0428
+        }
+    },
+    {
+        "node_id": 62,
+        "guid": "3jBxdsTkD8XPwNZYhlAn2Q",
+        "name": "Fundament_019",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                34.026,
+                16.73,
+                -0.935
+            ],
+            "dimensions": [
+                1.2,
+                1.2,
+                0.5
+            ],
+            "norm_dimensions": [
+                1.0,
+                1.0,
+                0.417
+            ],
+            "volume": 0.72,
+            "area": 5.28,
+            "ratio_av": 7.3333
+        }
+    },
+    {
+        "node_id": 63,
+        "guid": "38Jm8Q$cfD28McCJjPZnwf",
+        "name": "Fundament_018",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                48.301,
+                9.285,
+                -0.435
+            ],
+            "dimensions": [
+                1.2,
+                1.2,
+                0.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                1.0,
+                0.25
+            ],
+            "volume": 0.432,
+            "area": 4.32,
+            "ratio_av": 10.0
+        }
+    },
+    {
+        "node_id": 64,
+        "guid": "3o14zzIvHCk9I5$4MHu6Qb",
+        "name": "Fundament_016",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                34.026,
+                14.099,
+                -0.935
+            ],
+            "dimensions": [
+                1.2,
+                1.2,
+                0.5
+            ],
+            "norm_dimensions": [
+                1.0,
+                1.0,
+                0.417
+            ],
+            "volume": 0.72,
+            "area": 5.28,
+            "ratio_av": 7.3333
+        }
+    },
+    {
+        "node_id": 65,
+        "guid": "3ymySv3FDD0QNDWXR8df9_",
+        "name": "Fundament_016",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                39.632,
+                16.73,
+                -0.935
+            ],
+            "dimensions": [
+                1.2,
+                1.2,
+                0.5
+            ],
+            "norm_dimensions": [
+                1.0,
+                1.0,
+                0.417
+            ],
+            "volume": 0.72,
+            "area": 5.28,
+            "ratio_av": 7.3333
+        }
+    },
+    {
+        "node_id": 66,
+        "guid": "3ltrvhfWHEMwD1VFI505LX",
+        "name": "Fundament_016",
+        "entity": "IfcFooting",
+        "features": {
+            "position": [
+                39.627,
+                14.099,
+                -0.935
+            ],
+            "dimensions": [
+                1.2,
+                1.2,
+                0.5
+            ],
+            "norm_dimensions": [
+                1.0,
+                1.0,
+                0.417
+            ],
+            "volume": 0.72,
+            "area": 5.28,
+            "ratio_av": 7.3333
+        }
+    },
+    {
+        "node_id": 67,
+        "guid": "0tMvCeo_z2Qg9N35jwDJZo",
+        "name": "Bodenplatte",
+        "entity": "IfcSlab",
+        "features": {
+            "position": [
+                25.851,
+                6.523,
+                -0.435
+            ],
+            "dimensions": [
+                23.34,
+                19.33,
+                0.3
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.828,
+                0.013
+            ],
+            "volume": 105.4741,
+            "area": 728.457,
+            "ratio_av": 6.9065
+        }
+    },
+    {
+        "node_id": 68,
+        "guid": "3JphQBs7r2eOJrAQP3hHpB",
+        "name": "Decke_101",
+        "entity": "IfcSlab",
+        "features": {
+            "position": [
+                25.851,
+                6.523,
+                3.115
+            ],
+            "dimensions": [
+                23.34,
+                19.28,
+                0.24
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.826,
+                0.01
+            ],
+            "volume": 81.5256,
+            "area": 705.4237,
+            "ratio_av": 8.6528
+        }
+    },
+    {
+        "node_id": 69,
+        "guid": "3$b3wIbhH17Oub111pkLDF",
+        "name": "Decke_201",
+        "entity": "IfcSlab",
+        "features": {
+            "position": [
+                28.851,
+                9.583,
+                6.74
+            ],
+            "dimensions": [
+                20.34,
+                16.22,
+                0.24
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.797,
+                0.012
+            ],
+            "volume": 68.4555,
+            "area": 590.9785,
+            "ratio_av": 8.633
+        }
+    },
+    {
+        "node_id": 70,
+        "guid": "20Kp$Io2zDy9xUuhHJ8Q63",
+        "name": "Dach",
+        "entity": "IfcSlab",
+        "features": {
+            "position": [
+                28.811,
+                9.543,
+                10.365
+            ],
+            "dimensions": [
+                20.42,
+                12.93,
+                0.24
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.633,
+                0.012
+            ],
+            "volume": 63.0217,
+            "area": 542.3412,
+            "ratio_av": 8.6056
+        }
+    },
+    {
+        "node_id": 71,
+        "guid": "0ZRnr2akj4$Rx4oWTxfcJt",
+        "name": "Wand_004",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                48.866,
+                15.566,
+                -0.135
+            ],
+            "dimensions": [
+                9.284,
+                0.425,
+                3.25
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.046,
+                0.35
+            ],
+            "volume": 10.71,
+            "area": 64.9494,
+            "ratio_av": 6.0644
+        }
+    },
+    {
+        "node_id": 72,
+        "guid": "2tlYZj4hDBZhpPGzvC86Hp",
+        "name": "Wand_003",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                48.866,
+                22.108,
+                -0.135
+            ],
+            "dimensions": [
+                6.918,
+                0.425,
+                3.25
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.061,
+                0.47
+            ],
+            "volume": 8.0723,
+            "area": 51.0726,
+            "ratio_av": 6.3269
+        }
+    },
+    {
+        "node_id": 73,
+        "guid": "0VwupX169CwxxSeRdb09NA",
+        "name": "Wand_025",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                44.467,
+                22.108,
+                -0.135
+            ],
+            "dimensions": [
+                7.082,
+                0.24,
+                3.25
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.034,
+                0.459
+            ],
+            "volume": 4.7373,
+            "area": 45.5461,
+            "ratio_av": 9.6144
+        }
+    },
+    {
+        "node_id": 74,
+        "guid": "0DcfEzgfT50QU_ZLU5eZ2D",
+        "name": "Wand_007",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                26.176,
+                6.848,
+                -0.135
+            ],
+            "dimensions": [
+                10.755,
+                0.425,
+                3.25
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.04,
+                0.302
+            ],
+            "volume": 12.6085,
+            "area": 76.8142,
+            "ratio_av": 6.0923
+        }
+    },
+    {
+        "node_id": 75,
+        "guid": "1KeFpCeh5CM9s3cM_teNNz",
+        "name": "Wand_008",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                26.176,
+                17.178,
+                -0.135
+            ],
+            "dimensions": [
+                3.0,
+                0.425,
+                3.25
+            ],
+            "norm_dimensions": [
+                0.923,
+                0.131,
+                1.0
+            ],
+            "volume": 4.1438,
+            "area": 24.8125,
+            "ratio_av": 5.9879
+        }
+    },
+    {
+        "node_id": 76,
+        "guid": "0vHEzwKjT0sPHEY5dCh3WS",
+        "name": "Wand_009",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                29.176,
+                17.603,
+                -0.135
+            ],
+            "dimensions": [
+                4.505,
+                0.425,
+                3.25
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.094,
+                0.721
+            ],
+            "volume": 4.7024,
+            "area": 32.0655,
+            "ratio_av": 6.819
+        }
+    },
+    {
+        "node_id": 77,
+        "guid": "3XDScaZEv2LwJxlrkQ5wPf",
+        "name": "Wand_005",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                40.501,
+                6.848,
+                -0.135
+            ],
+            "dimensions": [
+                7.262,
+                0.425,
+                3.25
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.059,
+                0.448
+            ],
+            "volume": 7.778,
+            "area": 48.4192,
+            "ratio_av": 6.2251
+        }
+    },
+    {
+        "node_id": 78,
+        "guid": "1AWCSdNsHB4wb9F_j8aGQm",
+        "name": "Wand_006",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                25.751,
+                6.423,
+                -0.135
+            ],
+            "dimensions": [
+                14.75,
+                0.425,
+                3.25
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.029,
+                0.22
+            ],
+            "volume": 15.8131,
+            "area": 99.7488,
+            "ratio_av": 6.308
+        }
+    },
+    {
+        "node_id": 79,
+        "guid": "2Z5WWI_LD3aBiSmfDoWx$G",
+        "name": "Wand_001",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                48.606,
+                25.903,
+                -0.135
+            ],
+            "dimensions": [
+                7.695,
+                0.425,
+                3.25
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.055,
+                0.422
+            ],
+            "volume": 10.4537,
+            "area": 58.6173,
+            "ratio_av": 5.6073
+        }
+    },
+    {
+        "node_id": 80,
+        "guid": "3tQNSoEwH30OAuW0eJ8UrB",
+        "name": "Wand_029",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                40.911,
+                25.886,
+                -0.135
+            ],
+            "dimensions": [
+                3.328,
+                0.24,
+                3.25
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.072,
+                0.977
+            ],
+            "volume": 1.664,
+            "area": 18.9499,
+            "ratio_av": 11.3882
+        }
+    },
+    {
+        "node_id": 81,
+        "guid": "3Qywk57ff2geGRN0NrOnUR",
+        "name": "Wand_002",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                28.751,
+                22.108,
+                -0.135
+            ],
+            "dimensions": [
+                20.54,
+                0.425,
+                3.25
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.021,
+                0.158
+            ],
+            "volume": 26.5156,
+            "area": 147.2701,
+            "ratio_av": 5.5541
+        }
+    },
+    {
+        "node_id": 82,
+        "guid": "3VvN1KmEn7zxWm85XNr_n_",
+        "name": "Wand-118",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                28.751,
+                22.108,
+                3.355
+            ],
+            "dimensions": [
+                12.2,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.035,
+                0.277
+            ],
+            "volume": 13.7842,
+            "area": 87.035,
+            "ratio_av": 6.3141
+        }
+    },
+    {
+        "node_id": 83,
+        "guid": "0bhY5dK5b2D9cAfPa6iciI",
+        "name": "Wand-130",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                49.291,
+                22.533,
+                3.355
+            ],
+            "dimensions": [
+                20.54,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.021,
+                0.165
+            ],
+            "volume": 26.9206,
+            "area": 152.0409,
+            "ratio_av": 5.6478
+        }
+    },
+    {
+        "node_id": 84,
+        "guid": "11LIOS6UT1jPfP2Xwl8$N3",
+        "name": "Wand-116",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                48.606,
+                25.903,
+                3.355
+            ],
+            "dimensions": [
+                7.7,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.055,
+                0.44
+            ],
+            "volume": 11.0778,
+            "area": 61.5531,
+            "ratio_av": 5.5564
+        }
+    },
+    {
+        "node_id": 85,
+        "guid": "2bb9iaRDP1w9M3PVy4bmdR",
+        "name": "Wand-131",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                49.291,
+                15.19,
+                3.355
+            ],
+            "dimensions": [
+                6.918,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.061,
+                0.489
+            ],
+            "volume": 7.55,
+            "area": 50.0237,
+            "ratio_av": 6.6257
+        }
+    },
+    {
+        "node_id": 86,
+        "guid": "27HhqnJu9B0vRyQqfPdiu$",
+        "name": "Wand-101",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                44.467,
+                22.098,
+                3.355
+            ],
+            "dimensions": [
+                7.062,
+                0.24,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.034,
+                0.479
+            ],
+            "volume": 4.3133,
+            "area": 43.4292,
+            "ratio_av": 10.0687
+        }
+    },
+    {
+        "node_id": 87,
+        "guid": "0yrUlYlaD5iQH5qtvZru5c",
+        "name": "Wand-129",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                29.186,
+                14.579,
+                3.355
+            ],
+            "dimensions": [
+                10.88,
+                0.24,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.022,
+                0.311
+            ],
+            "volume": 7.5445,
+            "area": 72.2812,
+            "ratio_av": 9.5806
+        }
+    },
+    {
+        "node_id": 88,
+        "guid": "1STVORG453jR_3joKZXVHz",
+        "name": "Wand-111",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                28.751,
+                9.483,
+                3.355
+            ],
+            "dimensions": [
+                11.75,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.036,
+                0.288
+            ],
+            "volume": 13.8636,
+            "area": 84.7948,
+            "ratio_av": 6.1164
+        }
+    },
+    {
+        "node_id": 89,
+        "guid": "1i5Ld_9wn3muR6HLudOdm9",
+        "name": "Wand-113",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                40.501,
+                9.908,
+                3.355
+            ],
+            "dimensions": [
+                4.911,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.087,
+                0.689
+            ],
+            "volume": 7.0649,
+            "area": 40.298,
+            "ratio_av": 5.704
+        }
+    },
+    {
+        "node_id": 90,
+        "guid": "19ovyKHuv1gxTe7IVaF5zo",
+        "name": "Wand-115",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                40.526,
+                14.113,
+                3.355
+            ],
+            "dimensions": [
+                8.831,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.048,
+                0.383
+            ],
+            "volume": 11.5055,
+            "area": 67.3156,
+            "ratio_av": 5.8507
+        }
+    },
+    {
+        "node_id": 91,
+        "guid": "0WJI2Y7_53_AFuVQRhjK7k",
+        "name": "Attika",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                40.141,
+                9.374,
+                3.355
+            ],
+            "dimensions": [
+                2.891,
+                0.3,
+                0.79
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.104,
+                0.273
+            ],
+            "volume": 0.6449,
+            "area": 6.7048,
+            "ratio_av": 10.3967
+        }
+    },
+    {
+        "node_id": 92,
+        "guid": "2KjJ0ItYT0xODkZHVwv9bj",
+        "name": "Attika",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                40.141,
+                6.783,
+                3.355
+            ],
+            "dimensions": [
+                14.63,
+                0.3,
+                0.79
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.021,
+                0.054
+            ],
+            "volume": 3.3962,
+            "area": 31.9097,
+            "ratio_av": 9.3957
+        }
+    },
+    {
+        "node_id": 93,
+        "guid": "1kRKeXrvr2OAul$zbdfUDJ",
+        "name": "Attika",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                26.111,
+                6.783,
+                3.355
+            ],
+            "dimensions": [
+                11.06,
+                0.3,
+                0.79
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.027,
+                0.071
+            ],
+            "volume": 2.5501,
+            "area": 24.1271,
+            "ratio_av": 9.4612
+        }
+    },
+    {
+        "node_id": 94,
+        "guid": "2rYjDpq0H5GAJH2GD9zejy",
+        "name": "Attika",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                26.111,
+                17.243,
+                3.355
+            ],
+            "dimensions": [
+                2.904,
+                0.3,
+                0.79
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.103,
+                0.272
+            ],
+            "volume": 0.648,
+            "area": 6.7332,
+            "ratio_av": 10.3907
+        }
+    },
+    {
+        "node_id": 95,
+        "guid": "0PNJtCD$5F6hK376rO4h89",
+        "name": "Wand_202",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                48.866,
+                22.533,
+                6.98
+            ],
+            "dimensions": [
+                19.69,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.022,
+                0.172
+            ],
+            "volume": 24.9511,
+            "area": 142.6449,
+            "ratio_av": 5.717
+        }
+    },
+    {
+        "node_id": 96,
+        "guid": "1JCJhZImvB$AxeIVYMyC9n",
+        "name": "Wand_205",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                28.751,
+                22.533,
+                6.98
+            ],
+            "dimensions": [
+                12.625,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.034,
+                0.268
+            ],
+            "volume": 14.3957,
+            "area": 90.2735,
+            "ratio_av": 6.2709
+        }
+    },
+    {
+        "node_id": 97,
+        "guid": "39GcRhJJ92$QgPLAjTa$Kp",
+        "name": "Wand_203",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                49.291,
+                9.908,
+                6.98
+            ],
+            "dimensions": [
+                12.625,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.034,
+                0.268
+            ],
+            "volume": 14.5107,
+            "area": 90.6535,
+            "ratio_av": 6.2474
+        }
+    },
+    {
+        "node_id": 98,
+        "guid": "1FwvCMrBP6hff0fESyXnhL",
+        "name": "Wand_201",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                48.606,
+                25.903,
+                6.98
+            ],
+            "dimensions": [
+                7.7,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.055,
+                0.44
+            ],
+            "volume": 11.0778,
+            "area": 61.5531,
+            "ratio_av": 5.5564
+        }
+    },
+    {
+        "node_id": 99,
+        "guid": "3qi6phczP7OuCtM2O$2tWc",
+        "name": "Wand_206",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                44.467,
+                22.108,
+                6.98
+            ],
+            "dimensions": [
+                7.274,
+                0.24,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.033,
+                0.465
+            ],
+            "volume": 4.544,
+            "area": 45.4992,
+            "ratio_av": 10.013
+        }
+    },
+    {
+        "node_id": 100,
+        "guid": "0WvlS_ohz6$xaCwFgUyPtZ",
+        "name": "Wand_209",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                29.186,
+                14.579,
+                6.98
+            ],
+            "dimensions": [
+                10.91,
+                0.24,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.022,
+                0.31
+            ],
+            "volume": 7.5689,
+            "area": 72.4987,
+            "ratio_av": 9.5785
+        }
+    },
+    {
+        "node_id": 101,
+        "guid": "3JkBa6TvX0rAtVF3Zi2l85",
+        "name": "Wand_204",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                28.751,
+                9.483,
+                6.98
+            ],
+            "dimensions": [
+                20.54,
+                0.425,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.021,
+                0.165
+            ],
+            "volume": 23.4689,
+            "area": 144.157,
+            "ratio_av": 6.1425
+        }
+    },
+    {
+        "node_id": 102,
+        "guid": "3bSKFgKqX5w8m0D_9lXbyJ",
+        "name": "Wand_208",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                40.346,
+                9.908,
+                6.98
+            ],
+            "dimensions": [
+                4.921,
+                0.24,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.049,
+                0.688
+            ],
+            "volume": 3.9977,
+            "area": 37.3011,
+            "ratio_av": 9.3306
+        }
+    },
+    {
+        "node_id": 103,
+        "guid": "0zxMsMeFf3Vw37tVbf0qlT",
+        "name": "Wand_207",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                40.356,
+                14.077,
+                6.98
+            ],
+            "dimensions": [
+                8.603,
+                0.24,
+                3.385
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.028,
+                0.393
+            ],
+            "volume": 5.9178,
+            "area": 56.3492,
+            "ratio_av": 9.522
+        }
+    },
+    {
+        "node_id": 104,
+        "guid": "3lBnM_5azBh9$8ISQy6OFQ",
+        "name": "Attika",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                40.346,
+                14.076,
+                10.365
+            ],
+            "dimensions": [
+                8.785,
+                0.24,
+                0.7
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.027,
+                0.08
+            ],
+            "volume": 1.4581,
+            "area": 16.7087,
+            "ratio_av": 11.4592
+        }
+    },
+    {
+        "node_id": 105,
+        "guid": "1jCdPvHrD8c8FBvx8tV5Td",
+        "name": "Attika",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                40.346,
+                9.918,
+                10.365
+            ],
+            "dimensions": [
+                4.37,
+                0.24,
+                0.7
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.055,
+                0.16
+            ],
+            "volume": 0.7164,
+            "area": 8.4088,
+            "ratio_av": 11.7376
+        }
+    },
+    {
+        "node_id": 106,
+        "guid": "3zNK4ljcH0xeJ0C6VAJdTa",
+        "name": "Attika",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                28.811,
+                9.543,
+                10.605
+            ],
+            "dimensions": [
+                20.42,
+                0.3,
+                0.79
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.015,
+                0.039
+            ],
+            "volume": 4.8348,
+            "area": 45.1467,
+            "ratio_av": 9.3379
+        }
+    },
+    {
+        "node_id": 107,
+        "guid": "1USxzWmJbAEBiD6TqgjJ8f",
+        "name": "Attika",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                28.811,
+                22.173,
+                10.605
+            ],
+            "dimensions": [
+                12.33,
+                0.3,
+                0.79
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.024,
+                0.064
+            ],
+            "volume": 2.9175,
+            "area": 27.5105,
+            "ratio_av": 9.4295
+        }
+    },
+    {
+        "node_id": 108,
+        "guid": "39$D4p3RvDeBum6XvJnHqf",
+        "name": "Attika",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                49.231,
+                22.473,
+                10.605
+            ],
+            "dimensions": [
+                20.42,
+                0.3,
+                0.79
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.015,
+                0.039
+            ],
+            "volume": 4.8395,
+            "area": 44.9896,
+            "ratio_av": 9.2963
+        }
+    },
+    {
+        "node_id": 109,
+        "guid": "3P36g6cvz5C8rdWZO85c$I",
+        "name": "Attika",
+        "entity": "IfcWall",
+        "features": {
+            "position": [
+                49.231,
+                9.843,
+                10.605
+            ],
+            "dimensions": [
+                12.33,
+                0.3,
+                0.79
+            ],
+            "norm_dimensions": [
+                1.0,
+                0.024,
+                0.064
+            ],
+            "volume": 2.9152,
+            "area": 27.589,
+            "ratio_av": 9.4638
+        }
+    }
+]

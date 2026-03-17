@@ -1,0 +1,17 @@
+Hier im Ordner liegen folgende Dateien:
+Python-Datei zum Extrahieren der IFC-Bauteile --> Als Ergebnis werden die leeren Graphen als JSON in 2_1 gespeichert. Name entspricht: [IFC] Nodes.json
+--> erledigt
+
+
+Hier liegt auch Solibri-Vorlage mit Regelsatz --> Als Ergebnis werden die Ergebnisberichte als Excel in 2_2 gespeichert. Name entspricht: [IFC] Distance.xlsx 
+--> erledigt
+
+
+Hier liegt auch ein Ordner "Analysemodelle" mit den SAF-Dateien von SCIA und RFEM sowie den RFEM-Modellen.
+Python-Datei "SAF_Analyser" 	--> Als Ergebnis analysiert er Anschlussvarianten und speichert Spalten in Excel-Datei direkt.
+								--> Als Ergebnis werden die Anschlusselemente analysiert und die GUID-Paare (Element_A, Element_B) ohne Dopplungen als CSV gespeichert. Manuell verschieben und umbenennen. Name entspricht: [IFC] Labels.csv
+--> erledigt
+
+
+Python-Datei für die Zusammenfügung der Kanteninformationen --> Als Ergebnis werden die angereicherten Graphen als JSON in 2_4 gespeichert. Name entspricht: [IFC] Graph.json
+--> ...
