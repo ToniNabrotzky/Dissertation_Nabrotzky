@@ -3,6 +3,7 @@ import ifcopenshell.geom
 import ifcopenshell.util.element as element
 import json
 import os
+import numpy as np
 from pathlib import Path
 
 class IfcExtractor:
@@ -12,6 +13,8 @@ class IfcExtractor:
         self.settings = ifcopenshell.geom.settings()
         # self.settings.set("use-python-opencascade", True)
         # self.settings.set(self.settings.USE_PYTHON_OPENCASCADE, True)
+        # Sicherstellen, dass das Mesh trianguliert ist
+        # self.settings.set(self.settings.USE_WORLD_COORDS, True)
 
     def get_file_metadata(self):
         """Extrahiert Pfad-Informationen"""
@@ -32,19 +35,65 @@ class IfcExtractor:
         # return True    
         return False
     
+    def _estimate_mesh_properties(self, verts, faces):
+        """Schätzt daas Volumen und die Overfläche auf Mesh-Daten
+        Oberfläche (Surface Area): Ein Bauteil-Mesh besteht aus vielen kleinen Dreiecken. 
+        Die Gesamtfläche ist einfach die Summe der Flächen aller Dreiecke.
+        Die Fläche eines Dreiecks mit den Eckpunkten A, B, C berechnet man über das Kreuzprodukt:
+            Fläche = 1/2 |(B-A) X (C-A)|
+        
+        Volumen (Mesh Volume): Hier wird der Satz des Gauß (Divergenzsatz) benutzt.
+        Für jedes Dreieck wird das "signierte Volumen" einer Pyramide berechnet,
+        die vom Koordinatenursprung (0, 0, 0) aufgespannt wird.
+            Zeigt das Dreieck "vom Ursprung weg", ist das Teilvolumen positiv
+            Zeit es "zum Ursprung hin", ist es negativ
+        Die Summe ergibt exakt das Volumen des geschlossenen Körpers:
+            V = SUM( 1/6*(A.(AxB)))
+        """
+        
+        total_area = 0.0
+        total_volume = 0.0
+        
+        # Gruppiere flache Liste verts in (x,y,z) Punkte
+        nodes = [np.array(verts[i:i+3]) for i in range(0, len(verts), 3)]
+        
+        # Iteriere über die Faces (jeweils 3 Indizes bilden ein Dreieck)
+        for i in range(0, len(faces), 3):
+            try:
+                # Hole die drei Eckpunkte des Dreiecks
+                idx_a, idx_b, idx_c = faces[i], faces[i+1], faces[i+2]
+                A, B, C = nodes[idx_a], nodes[idx_b], nodes[idx_c]
+                
+                # --- Flächenberechnung (Kreuzprodukt) ---
+                cross_product = np.cross(B - A, C - A)
+                area = 0.5 * np.linalg.norm(cross_product)
+                total_area += area
+                
+                # --- Volumenberechnung (Spatprodukt/Signed Volume) ---
+                # Volumen = 1/6 * |A · (B x C)|
+                volume_contribution = np.dot(A, np.cross(B, C)) / 6.0
+                total_volume += volume_contribution
+            except IndexError:
+                continue
+
+        return round(total_area, 4), round(abs(total_volume), 4)
+
+
     def extract_geometry_features(self, product):
         """Berechnet L, B, H, Position und Kennzahlen"""
         try:
             shape = ifcopenshell.geom.create_shape(self.settings, product)
             verts = shape.geometry.verts
+            faces = shape.geometry.faces # Indices der Dreiecke
             # print("\tshape:", shape) # Debug
             # print("\tverts:", verts) # Debug
+            # print("\faces:", faces) # Debug
 
-            if not verts:
+            if not shape or not verts or not faces:
                 return None
-            # print("\tNOT VERTS: CHECKED") # Debug
+            # print("\tNOT SHAP, NOT VERTS: CHECKED") # Debug
             
-            # 1. Position aus Welt-Koordinaten (Schwerpunkt des Bauteils)
+            # 1. Position aus Welt-Koordinaten
             # Transformationsmatrix enthält Position und Rotation
             matrix = shape.transformation.matrix
             # print("\tmatrix: ", matrix) # Debug
@@ -73,16 +122,15 @@ class IfcExtractor:
             b_abs = max(y_coords) - min(y_coords)
             h_abs = max(z_coords) - min(z_coords)            
             dimensions = (round(l_abs, 3), round(b_abs, 3), round(h_abs, 3))
-            print(f"\tDimensions: {dimensions}")
+            print(f"\tDimensions: {dimensions}") # Debug
 
             # 3. Normiertes L, B, H Tupel
             max_dim = max(l_abs, b_abs, h_abs, 1e-6) # 1e-6 verhindert Division durch Null
             normalized_tuple = (round(l_abs/max_dim, 3), round(b_abs/max_dim, 3), round(h_abs/max_dim, 3))
-            print(f"\tNormalized Dimensions: {normalized_tuple}")
+            print(f"\tNormalized Dimensions: {normalized_tuple}") # Debug
 
             # 4. Volumen und Fläche (über OpenCascade falls verfügbar)
-            # Vereinfachte Dummy-Werte, falls keine BaseQuantities vorhanden sind
-            # (Hier könnte man später eine spezialisierte Funktion einbauen) --> Hier bedarf es noch einer weiteren Funktion. Attribut so nicht brauchbar
+            # Versuch 1: Aus den BaseQuantities des Modells lesen
             volume = 0.0
             area = 0.0
 
@@ -90,6 +138,12 @@ class IfcExtractor:
             for qset in qsets.values():
                 volume = qset.get('NetVolume', qset.get('Volume', volume))
                 area = qset.get('NetSurfaceArea', qset.get('SurfaceArea', area))
+
+            # Versuch 2: Über die Mesh-Daten schätzen, falls Volumen oder Fläche nicht gefunden
+            if volume <= 0 or area <= 0:
+                est_area, est_vol = self._estimate_mesh_properties(verts, faces)
+                area = area if area > 0 else est_area
+                volume = volume if volume > 0 else est_vol
             print(f"\tvolume: {volume}, area: {area}") # Debug
 
             ratio_av = round(area / volume, 4) if volume > 0 else 0
