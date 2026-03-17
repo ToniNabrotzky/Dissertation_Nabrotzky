@@ -5,34 +5,39 @@ import json
 import os
 
 def analyze_saf_connections(
-        file_path, export_excel=True, export_csv=False,
+        model_stem, export_excel=True, export_csv=True,
         start_index=0, end_index=None
         ):
-    print(f"Lese Datei ein: {file_path}...\n")
+    print(f"Lese Datei ein: {model_stem}...\n")
 
     # --- Schritt 0: Dateipfade vorbereiten ---
-    # Ordner extrahieren
-    dir_name = os.path.dirname(file_path)
-    if not dir_name:
-        dir_name = '.' # Fallback auf aktuelles Verzeichnis, falls kein Ordner angegeben wurde
+    # Basis-Pfad-Definition
+    base_dir = os.path.dirname(__file__)
+    saf_dir = os.path.join(base_dir, "Analysemodelle")
 
     # Dateinamen anpassen, letzte Bezeichnung ("0D Ausr Anschluss") kürzen
-    base_name = os.path.splitext(os.path.basename(file_path))[0]
-    new_base_name = base_name[:-17].strip() if len(base_name) > 17 else base_name
+    cut_str = str("Ausr Anschluss")
+    if model_stem.endswith(cut_str):
+        # Entfernt letzte Zeichen + 3 Zeichen davor (z.B. " 0D")
+        cut_length = len(cut_str) + 3
+        ifc_name = model_stem[:-cut_length].trip()
+    else:
+        ifc_name = model_stem.strip()
 
-    # Neue Export-Pfade zusammensetzen
-    output_csv = os.path.join(dir_name, f"{new_base_name} Anschlussanalyse.csv")
+    # Dateipfade zusammenbauen
+    path_saf = os.path.join(saf_dir, f"{model_stem}.xlsx")
+    output_csv = os.path.join(saf_dir, f"{ifc_name} Anschlussanalyse.csv")
     # ----------------------------------------------------
 
 
     # --- Schritt 1: Mapping ---
     try:
         #  Einlesen der definierten Tabellenblätter
-        df_nodes = pd.read_excel(file_path, sheet_name='StructuralPointConnection')
-        df_curve = pd.read_excel(file_path, sheet_name='StructuralCurveMember')
-        df_rib = pd.read_excel(file_path, sheet_name='StructuralCurveMemberRib')
-        df_edge = pd.read_excel(file_path, sheet_name='StructuralCurveEdge')
-        df_surface = pd.read_excel(file_path, sheet_name='StructuralSurfaceMember')
+        df_nodes = pd.read_excel(path_saf, sheet_name='StructuralPointConnection')
+        df_curve = pd.read_excel(path_saf, sheet_name='StructuralCurveMember')
+        df_rib = pd.read_excel(path_saf, sheet_name='StructuralCurveMemberRib')
+        df_edge = pd.read_excel(path_saf, sheet_name='StructuralCurveEdge')
+        df_surface = pd.read_excel(path_saf, sheet_name='StructuralSurfaceMember')
     except Exception as e:
         print(f"Fehler beim Einlesen der Tabellenblätter. Bitte prüfen, ob alle existieren: {e}")
         return
@@ -191,7 +196,7 @@ def analyze_saf_connections(
     if export_excel:
         try:
             # Arbeitsmappe laden
-            wb = openpyxl.load_workbook(file_path)
+            wb = openpyxl.load_workbook(path_saf)
 
             # Tabellenblatt dynamisch finden
             sheet_name = 'StructuralPointConnection'
@@ -243,11 +248,11 @@ def analyze_saf_connections(
                     ws.cell(row=row, column=elem_col_idx, value=result['Elemente'])
             
             # Datei abspeichern
-            wb.save(file_path)
-            print(f">>> ERFOLG: Ergebnisse wurden in '{file_path}' zurückgeschrieben.")
+            wb.save(path_saf)
+            print(f">>> ERFOLG: Ergebnisse wurden in '{path_saf}' zurückgeschrieben.")
 
         except PermissionError:
-            print(f"\n!!! KRITISCHER FEHLER: Die Datei '{file_path}' ist in Excel geöffnet! Bitte schließe die Datei und starte das Skript erneut. !!!")
+            print(f"\n!!! KRITISCHER FEHLER: Die Datei '{path_saf}' ist in Excel geöffnet! Bitte schließe die Datei und starte das Skript erneut. !!!")
         except Exception as e:
             print(f"\n!!! FEHLER beim Schreiben in die Excel-Datei: {e} !!!")
 
@@ -279,40 +284,38 @@ def analyze_saf_connections(
 
 
 
-def generate_gnn_labels(file_path, export_csv=True, export_json=True):
-    print(f"Lese Datei ein {file_path}...\n")
-
+def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
+    print(f"Lese Datei ein: {model_stem}...\n")
     # --- Schritt 0: Dateipfade vorbereiten ---
-    # Ordner extrahieren
-    dir_name = os.path.dirname(file_path)
-    if not dir_name:
-        dir_name = '.' # Fallback auf aktuelles Verzeichnis, falls kein Ordner angegeben wurde
-    
-    # Ordnerebene eins höher springen
-    parent_dir = os.path.dirname(dir_name)
-    if not parent_dir:
-        parent_dir = '.' # Fallback falls die Datei im Hauptverzeichnis liegt
+    # Basis-Pfad-Definition
+    base_dir = os.path.dirname(__file__)
+    saf_dir = os.path.join(base_dir, "Analysemodelle")
+    dir_2_3 = os.path.join(base_dir, "2_3 Edge_Labeling")
 
-    # Zielordner definieren
-    target_dir = os.path.join(parent_dir, "2_3 Edge_Labeling")
-    os.makedirs(target_dir, exist_ok=True) # Zielordner erstellen. falls er nicht existiert
+    os.makedirs(dir_2_3, exist_ok=True) # Zielordner erstellen. falls er nicht existiert
 
-    # Dateinamen anpassen, letzte Bezeichnung kürzen, "Labels" anhängen
-    base_name = os.path.splitext(os.path.basename(file_path))[0]
-    new_base_name = base_name[:-17].strip() + " Labels" if len(base_name) > 17 else base_name
+    # Dateinamen anpassen, letzte Bezeichnung ("0D Ausr Anschluss") kürzen
+    cut_str = str("Ausr Anschluss")
+    if model_stem.endswith(cut_str):
+        # Entfernt letzte Zeichen + 3 Zeichen davor (z.B. " 0D")
+        cut_length = len(cut_str) + 3
+        ifc_name = model_stem[:-cut_length].trip()
+    else:
+        ifc_name = model_stem.strip()
 
-    # Neue Export-Pfade zusammensetzen
-    output_csv = os.path.join(target_dir, f"{new_base_name}.csv")
-    output_json = os.path.join(target_dir, f"{new_base_name}.json")
+    # Dateipfade zusammenbauen
+    path_saf = os.path.join(saf_dir, f"{model_stem}.xlsx")
+    output_json = os.path.join(dir_2_3, f"{ifc_name} Labels.json")
+    output_csv = os.path.join(dir_2_3, f"{ifc_name} Labels.csv")
     # ----------------------------------------------------
 
 
     # --- Schritt 1: Mapping und Total Labels generieren ---
     try:
-        df_nodes = pd.read_excel(file_path, sheet_name='StructuralPointConnection')
-        df_curve = pd.read_excel(file_path, sheet_name='StructuralCurveMember')
-        df_rib = pd.read_excel(file_path, sheet_name='StructuralCurveMemberRib')
-        df_surface = pd.read_excel(file_path, sheet_name='StructuralSurfaceMember')
+        df_nodes = pd.read_excel(path_saf, sheet_name='StructuralPointConnection')
+        df_curve = pd.read_excel(path_saf, sheet_name='StructuralCurveMember')
+        df_rib = pd.read_excel(path_saf, sheet_name='StructuralCurveMemberRib')
+        df_surface = pd.read_excel(path_saf, sheet_name='StructuralSurfaceMember')
     except Exception as e:
         print(f"Fehler beim einlesen: {e}")
         return
@@ -469,10 +472,10 @@ def generate_gnn_labels(file_path, export_csv=True, export_json=True):
 """Main-Part"""
 ### Anschlussanalyse ausführen
 # Ausführung starten (Pfad entsprechend anpassen!)
-analyze_saf_connections('SAF_Analyser_Test - Kopie.xlsx')
+# analyze_saf_connections('SAF_Analyser_Test')
 # analyze_saf_connections('./Analysemodelle/21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss.xlsx')
 
 
 ### GNN-Label-Generierung ausführen
-# generate_gnn_labels('SAF_Analyser_Test.xlsx')
+generate_gnn_labels('SAF_Analyser_Test')
 # generate_gnn_labels('./Analysemodelle/21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss.xlsx')

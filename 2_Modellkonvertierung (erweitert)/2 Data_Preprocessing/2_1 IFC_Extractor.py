@@ -1,20 +1,43 @@
+import os
 import ifcopenshell
 import ifcopenshell.geom
 import ifcopenshell.util.element as element
 import json
-import os
 import numpy as np
-from pathlib import Path
+# from pathlib import Path
 
 class IfcExtractor:
-    def __init__(self, ifc_path):
-        self.ifc_path = Path(ifc_path)
-        self.model = ifcopenshell.open(str(self.ifc_path))
+    def __init__(self, model_stem):
+        self.model_stem = model_stem
+
+        # --- Pfad-Definition ---
+        self.base_dir = os.path.dirname(__file__)
+        # Pfad zur Modelldatenbank (ein Ordner hoch, dann in Database)
+        self.db_dir = os.path.normpath(os.path.join(self.base_dir, "..", "1 Model_Database"))
+        # Ausgabeordner
+        self.dir_2_1 = os.path.join(self.base_dir, "2_1 Graph_Generation")
+
+        # Dateipfade zusammenbauen
+        self.path_ifc = os.path.join(self.db_dir, f"{self.model_stem}.ifc")
+        self.output_json = os.path.join(self.dir_2_1, f"{self.model_stem} Nodes.json")
+
+        # Validierung und Initialisierung
+        if not os.path.exists(self.path_ifc):
+            raise FileNotFoundError(f"IFC-Datei nicht gefunden unter: {self.path_ifc}")
+        
+        print(f"Lade Modell: {self.model_stem}...")
+        self.model = ifcopenshell.open(str(self.path_ifc))
         self.settings = ifcopenshell.geom.settings()
         # self.settings.set("use-python-opencascade", True)
         # self.settings.set(self.settings.USE_PYTHON_OPENCASCADE, True)
         # Sicherstellen, dass das Mesh trianguliert ist
         # self.settings.set(self.settings.USE_WORLD_COORDS, True)
+
+        # Zähler für die Analyse
+        self.count_all = 0
+        self.count_load_bearing = 0
+        self.count_with_geom = 0
+
 
     def get_file_metadata(self):
         """Extrahiert Pfad-Informationen"""
@@ -24,15 +47,13 @@ class IfcExtractor:
             "folder": self.ifc_path.parent.name # Ergebnis: "1 Model_Database"
         }
     
+    
     def is_load_bearing(self, product):
         """Prüft, ob das Bauteil als tragend definiert ist"""
         psets = element.get_psets(product)
         for pset_name, properties in psets.items():
             if "LoadBearing" in properties:
                 return bool(properties["LoadBearing"])
-        # Fallback: Manche Programme exportieren es als "Tragendes Bauteil"
-        # Soll alles getestet werden:
-        # return True    
         return False
     
     def _estimate_mesh_properties(self, verts, faces):
@@ -80,18 +101,19 @@ class IfcExtractor:
 
 
     def extract_geometry_features(self, product):
-        """Berechnet L, B, H, Position und Kennzahlen"""
+        """Berechnet L, B, H, Position und Kennzahlen für ein einzelnes Produkt"""
         try:
             shape = ifcopenshell.geom.create_shape(self.settings, product)
+            # print("\tshape:", shape) # Debug
+            if not shape or not shape.geometry:
+                return None
+            
             verts = shape.geometry.verts
             faces = shape.geometry.faces # Indices der Dreiecke
-            # print("\tshape:", shape) # Debug
             # print("\tverts:", verts) # Debug
             # print("\faces:", faces) # Debug
-
             if not shape or not verts or not faces:
                 return None
-            # print("\tNOT SHAP, NOT VERTS: CHECKED") # Debug
             
             # 1. Position aus Welt-Koordinaten
             # Transformationsmatrix enthält Position und Rotation
@@ -149,6 +171,7 @@ class IfcExtractor:
             ratio_av = round(area / volume, 4) if volume > 0 else 0
             print(f"\tratio_av: {ratio_av}") # Debug
 
+            # Rückgabe der geometrischen Attribute
             return {
                 "position": position,
                 "dimensions": dimensions,
@@ -159,20 +182,16 @@ class IfcExtractor:
             }
         
         except Exception as e:
-            print(f"    FEHLER: {e}")
+            print(f"\tFEHLER: {e}")
             return None
         
-    def process(self):
+    def process_all(self):
         """Hauptprozess: Filtert und extrahiert Daten"""
         nodes  = []
         products = self.model.by_type("IfcProduct")
 
-        # Debugging
-        count_all = len(products)
-        count_load_bearing = 0
-        count_with_geom = 0
-
-        print(f"Analysiere {len(products)} Objekte...")
+        self.count_all = len(products)
+        print(f"Analysiere {self.count_all} Objekte...")
 
         for i, prod in enumerate(products):
             print(f"\nPRÜFE OBJEKT {i}: {prod.is_a()} - {prod.Name}") # Debug
@@ -181,7 +200,7 @@ class IfcExtractor:
             # SCHRITT 1: Filter
             if not self.is_load_bearing(prod):
                 continue
-            count_load_bearing += 1
+            self.count_load_bearing += 1
 
             # SCHRITT 2: Semantik
             name = prod.Name or "Unnamed"
@@ -192,7 +211,7 @@ class IfcExtractor:
             geom_data = self.extract_geometry_features(prod)
             if not geom_data:
                 continue
-            count_with_geom += 1
+            self.count_with_geom += 1
 
             nodes.append({
                 "node_id": len(nodes),
@@ -200,41 +219,36 @@ class IfcExtractor:
                 "name": name,
                 "entity": entity,
                 "features": geom_data
-            })        
+            })
+
+        self.save_to_json(nodes)
+
+    def save_to_json(self, data):
+        """Exportiert die Daten als JSON-Datei"""
+        if not os.path.exists(self.dir_2_1):
+            os.makedirs(self.dir_2_1)
         
-        print(f"\n--- ANALYSE ERGEBNIS ---")
-        print(f"Gesamtanzahl IfcProducts: {count_all}")
-        print(f"Davon 'LoadBearing':     {count_load_bearing}")
-        print(f"Davon mit Geometrie:     {count_with_geom}")
-        return nodes
+        with open(self.output_json, 'w') as f:
+            json.dump(data, f, indent=4)
+        
+        print(f">>> ERFOLG! {len(data)} Knoten extrahiert in: {self.output_json}")
+        
+        print(f"\n--- ANALYSE ERGEBNIS für {self.model_stem} ---")
+        print(f"Gesamtanzahl IfcProducts: \t{self.count_all}")
+        print(f"Davon mit 'LoadBearing': \t{self.count_load_bearing}")
+        print(f"Davon mit Geometrie: \t{self.count_with_geom}")
+        print(f"Datei gespeichert: \t{os.path.basename(self.output_json)}")
+        return data
 
-def save_to_json(data, metadata, output_dir):
-    """Speichert die Liste sauber als JSON-Datei"""
-    out_path = Path(output_dir)
-    out_path.mkdir(parents=True, exist_ok=True)
-
-    file_path = out_path / f"{metadata['stem']} Nodes.json"
-
-    with open(file_path, 'w') as f:
-        json.dump(data, f, indent=4)
-    
-    print(f">>>ERFOLG! {len(data)} Knoten extrahiert in: {file_path}")
-    return
 
 
 
 
 if __name__ == "__main__":
     # 1. Pfad zum IFC-Modell
-    ifc_file_input = "../1 Model_Database/21_22 L_TWP_Tragwerksmodell.ifc"
-    # ifc_file_input = "../1 Model_Database/20200820IFC4_Convenience_store_Renga_4.1.ifc"
+    model_name = "21_22 L_TWP_Tragwerksmodell"
+    # model_name = "20200820IFC4_Convenience_store_Renga_4.1"
 
-    # 2. Extraktor initialisieren und Daten extrahieren
-    if Path(ifc_file_input).exists():
-        extractor = IfcExtractor(ifc_file_input)
-        metadata = extractor.get_file_metadata()
-        nodes = extractor.process()
-
-    # 3. Ergebnisse als JSON speichern
-    output_directory = "./2_1 Graph_Generation"
-    save_to_json(nodes, metadata, output_directory)
+    # Klasse instanziieren und Prozess starten
+    extractor = IfcExtractor(model_name)
+    extractor.process_all()
