@@ -299,7 +299,7 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
     if model_stem.endswith(cut_str):
         # Entfernt letzte Zeichen + 3 Zeichen davor (z.B. " 0D")
         cut_length = len(cut_str) + 3
-        ifc_name = model_stem[:-cut_length].trip()
+        ifc_name = model_stem[:-cut_length].strip()
     else:
         ifc_name = model_stem.strip()
 
@@ -466,6 +466,7 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
         df_export.to_csv(output_csv, index=False, sep=';', encoding='utf-8-sig')
 
     print(f"\n>>> ERFOLG: GNN-Labels wurden in '{output_csv}' und '{output_json}' gespeichert. <<<")
+    print(f"\n--- ___KOPIERE DEN TEXT IN DIE CSV !!___ ---")
     # ----------------------------------------------------
 
 
@@ -473,9 +474,9 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
 ### Anschlussanalyse ausführen
 # Ausführung starten (Pfad entsprechend anpassen!)
 # analyze_saf_connections('SAF_Analyser_Test')
-# analyze_saf_connections('./Analysemodelle/21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss.xlsx')
+# analyze_saf_connections('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')
 
 
 ### GNN-Label-Generierung ausführen
-generate_gnn_labels('SAF_Analyser_Test')
-# generate_gnn_labels('./Analysemodelle/21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss.xlsx')
+# generate_gnn_labels('SAF_Analyser_Test')
+generate_gnn_labels('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')
