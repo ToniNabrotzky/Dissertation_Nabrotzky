@@ -47,15 +47,30 @@ RBF_GAMMA = 0.0001
 def plot_graph(graph_data, output_dir, model_stem, mode="2D"):
     """
     Erstellt einen Plot des Graphen und speichert ihn ab.
+    2D: Automatische Anordnung mittels NetworkX (Spring Layout).
+    3D: Räumliche Anordnung basierend auf Koordinaten.
     """
     fig = plt.figure(figsize=(12, 10))
-    if mode == "3D":
-        ax = fig.add_subplot(111, projection='3d')
-    else:
-        ax = fig.add_subplot(111)
-    
     nodes = graph_data["nodes"]
     edges = graph_data["edges"]
+
+    if mode == "3D":
+        ax = fig.add_subplot(111, projection='3d')
+
+        # Echte Urpsrungskoordinaten in 3D
+        pos = {n["node_id"]: (n["x"], n["y"], n["z"]) for n in nodes}
+    else:
+        ax = fig.add_subplot(111)
+
+        # Automatisches Knotenlayout in 2D
+        G = nx.Graph()
+        for n in nodes:
+            G.add_node(n["node_id"])
+        for e in edges:
+            G.add_edge(e["source"], e["target"])
+        
+        # spring_layout ordnet Knoten so an, dass Kanten sich möglichst wenig kreuzen
+        pos = nx.spring_layout(G, k=0.15, iterations=50, seed=42)    
 
     # --- Kanten zeichnen ---
     # Zuerst werden nichttragende (unten), dann tragende Kanten (oben) gezeichnet
@@ -64,27 +79,20 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D"):
     sorted_edges = sorted(edges, key=lambda e: e["features"]["load_transfer"])
 
     for edge in sorted_edges:
-        n_a = next(n for n in nodes if n["node_id"] == edge["source"])
-        n_b = next(n for n in nodes if n["node_id"] == edge["target"])
-
+        u, v = edge["source"], edge["target"]
         is_gt = edge["features"]["load_transfer"]
-        color = "blue" if is_gt else "gray"
-        alpha = 0.9 if is_gt else 0.4
-        linewidth = 1.0 if is_gt else 0.5
-        linestyle = "-" if is_gt else "--"
 
-        x_coords = [n_a.get("x", 0), n_b.get("x", 0)]
-        y_coords = [n_a.get("y", 0), n_b.get("y", 0)]
-        z_coords = [n_a.get("z", 0), n_b.get("z", 0)]
+        color = "darkblue" if is_gt else "gray"
+        alpha = 0.9 if is_gt else 0.4
+        lw = 0.8 if is_gt else 0.5 # linewidth
+        ls = "-" if is_gt else "--" # linestyle
 
         if mode == "3D":
-            ax.plot([n_a["x"], n_b["x"]], [n_a["y"], n_b["y"]], [n_a["z"], n_b["z"]], 
-                    color=color, alpha=alpha, 
-                    linewidth=linewidth, linestyle=linestyle, zorder=1)
+            ax.plot([pos[u][0], pos[v][0]], [pos[u][1], pos[v][1]], [pos[u][2], pos[v][2]], 
+                    color=color, alpha=alpha, linewidth=lw, linestyle=ls, zorder=1)
         else:
-            ax.plot([n_a["x"], n_b["x"]], [n_a["y"], n_b["y"]], 
-                    color=color, alpha=alpha,
-                    linewidth=linewidth, linestyle=linestyle, zorder=1)
+            ax.plot([pos[u][0], pos[v][0]], [pos[u][1], pos[v][1]], 
+                    color=color, alpha=alpha, linewidth=lw, linestyle=ls, zorder=1)
         
     # --- Knoten zeichnen ---
     # Gruppieren nach Typ für effizienteres Plotten (Legende)
@@ -93,30 +101,42 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D"):
         ent_nodes = [n for n in nodes if n.get("entity_processed") == ent]
         if not ent_nodes: continue
 
-        x = [n["x"] for n in ent_nodes]
-        y = [n["y"] for n in ent_nodes]
-        z = [n["z"] for n in ent_nodes]
+        node_ids = [n["node_id"] for n in ent_nodes]
+        x = [pos[n_id][0] for n_id in node_ids]
+        y = [pos[n_id][1] for n_id in node_ids]
 
         color, marker = VIS_MAPPING.get(ent, ("black", "o"))
 
         if mode == "3D":
-            ax.scatter(x, y, z, c=color, marker=marker, s=60, label=ent, 
+            z = [pos[n_id][2] for n_id in node_ids]
+            ax.scatter(x, y, z, c=color, marker=marker, s=150, label=ent, 
                     edgecolors='white', linewidths=0.5, zorder=2)
         else:
-            ax.scatter(x, y, c=color, marker=marker, s=60, label=ent, 
+            ax.scatter(x, y, c=color, marker=marker, s=150, label=ent, 
                     edgecolors='white', linewidths=0.5, zorder=2)
     
     # --- Graph layouten ---
     ax.set_title(f"Graph Visualisierung ({mode}): {model_stem}")
     ax.legend(loc='upper left', bbox_to_anchor=(1, 1), fontsize='small')
-    ax.set_xlabel('X')
-    ax.set_ylabel('Y')
-    if mode == "3D": ax.set_zlabel('Z')
+    
+    if mode == "3D":
+        ax.set_xlabel('X [m]')
+        ax.set_ylabel('Y [m]')
+        ax.set_zlabel('Z [m]')
+    else:
+        # Im Auto-Layout machen Koordinatenachsen keinen Sinn
+        ax.set_axis_off()
 
     plt.tight_layout()
 
     # --- Speichern ---
+    # Speichern als PNG
     save_path = os.path.join(output_dir, f"{model_stem} {mode}.png")
+    plt.savefig(save_path, dpi=300)
+    plt.close(fig) # Schließt den Plot automatisch
+
+    # Speichern als SVG
+    save_path = os.path.join(output_dir, f"{model_stem} {mode}.svg")
     plt.savefig(save_path, dpi=300)
     plt.close(fig) # Schließt den Plot automatisch
     return
