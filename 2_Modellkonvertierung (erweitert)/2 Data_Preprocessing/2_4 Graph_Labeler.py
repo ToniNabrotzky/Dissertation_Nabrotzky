@@ -3,6 +3,10 @@ import csv
 import os
 import math
 import pandas as pd
+import matplotlib.pyplot as plt
+import networkx as nx
+from mpl_toolkits.mplot3d import Axes3D
+
 
 # Konfiguration der festen IFC-Entitäten für konsistentes One-Hot-Encoding
 ALLOWED_ENTITIES = [
@@ -18,6 +22,20 @@ ALLOWED_ENTITIES = [
     "IfcBuildingElementProxy"
 ]
 
+# Konfiguration für Visualisierung: (Farbe, Marker-Form)
+VIS_MAPPING = {
+    "IfcFooting": ("#8B4513", "s"),           # Braun, Quadrat
+    "IfcBeam": ("#2E8B57", "h"),              # Seegrün, Hexagon
+    "IfcColumn": ("#FF4500", "p"),            # Orange-Rot, Pentagon
+    "IfcMember": ("#4682B4", "v"),            # Stahlblau, Dreieck unten
+    "IfcWall": ("#808080", "H"),              # Grau, Hexagon (groß)
+    "IfcWallStandardCase": ("#A9A9A9", "D"),  # Dunkelgrau, Diamant
+    "IfcSlab": ("#B38719", "o"),              # Gold dunkel, Kreis
+    "IfcPlate": ("#DDA0DD", "^"),             # Pflaume, Dreieck oben
+    "IfcPile": ("#000000", "|"),              # Schwarz, Vertikale Linie
+    "IfcBuildingElementProxy": ("#FFD700", "*") # Gold hell, Stern
+}
+
 """Parameter für Gauß-Kernel (RBF)
 Ein kleinerer Gamma-Wert lässt die Aktivierung langsamer abfallen.
 Beispiel: d=50mm -> Gamma 0.0001 -> exp(-0.0001 * 2500) = 0.77 (hohe Aktivierung)
@@ -26,10 +44,88 @@ Beispiel: d=500mm -> Gamma 0.0001 -> exp(-0.0001 * 250000) = 1.3e-11 (praktisch 
 RBF_GAMMA = 0.0001
 
 
+def plot_graph(graph_data, output_dir, model_stem, mode="2D"):
+    """
+    Erstellt einen Plot des Graphen und speichert ihn ab.
+    """
+    fig = plt.figure(figsize=(12, 10))
+    if mode == "3D":
+        ax = fig.add_subplot(111, projection='3d')
+    else:
+        ax = fig.add_subplot(111)
+    
+    nodes = graph_data["nodes"]
+    edges = graph_data["edges"]
+
+    # --- Kanten zeichnen ---
+    # Zuerst werden nichttragende (unten), dann tragende Kanten (oben) gezeichnet
+    # Damit überdecken die GT-Kanten die nicht-tragenden nach dem Maler-Algorithmus-Prinzip
+    # Lambda extrahiert den Wert e["features"]["load_transfer"] für den Sortier-Vergleich
+    sorted_edges = sorted(edges, key=lambda e: e["features"]["load_transfer"])
+
+    for edge in sorted_edges:
+        n_a = next(n for n in nodes if n["node_id"] == edge["source"])
+        n_b = next(n for n in nodes if n["node_id"] == edge["target"])
+
+        is_gt = edge["features"]["load_transfer"]
+        color = "blue" if is_gt else "gray"
+        alpha = 0.9 if is_gt else 0.4
+        linewidth = 1.0 if is_gt else 0.5
+        linestyle = "-" if is_gt else "--"
+
+        x_coords = [n_a.get("x", 0), n_b.get("x", 0)]
+        y_coords = [n_a.get("y", 0), n_b.get("y", 0)]
+        z_coords = [n_a.get("z", 0), n_b.get("z", 0)]
+
+        if mode == "3D":
+            ax.plot([n_a["x"], n_b["x"]], [n_a["y"], n_b["y"]], [n_a["z"], n_b["z"]], 
+                    color=color, alpha=alpha, 
+                    linewidth=linewidth, linestyle=linestyle, zorder=1)
+        else:
+            ax.plot([n_a["x"], n_b["x"]], [n_a["y"], n_b["y"]], 
+                    color=color, alpha=alpha,
+                    linewidth=linewidth, linestyle=linestyle, zorder=1)
+        
+    # --- Knoten zeichnen ---
+    # Gruppieren nach Typ für effizienteres Plotten (Legende)
+    for ent in ALLOWED_ENTITIES:
+        # Direkt die Entity zu nehmen, könnte etwas außerhalb der erlaubten Werte ergeben.
+        ent_nodes = [n for n in nodes if n.get("entity_processed") == ent]
+        if not ent_nodes: continue
+
+        x = [n["x"] for n in ent_nodes]
+        y = [n["y"] for n in ent_nodes]
+        z = [n["z"] for n in ent_nodes]
+
+        color, marker = VIS_MAPPING.get(ent, ("black", "o"))
+
+        if mode == "3D":
+            ax.scatter(x, y, z, c=color, marker=marker, s=60, label=ent, 
+                    edgecolors='white', linewidths=0.5, zorder=2)
+        else:
+            ax.scatter(x, y, c=color, marker=marker, s=60, label=ent, 
+                    edgecolors='white', linewidths=0.5, zorder=2)
+    
+    # --- Graph layouten ---
+    ax.set_title(f"Graph Visualisierung ({mode}): {model_stem}")
+    ax.legend(loc='upper left', bbox_to_anchor=(1, 1), fontsize='small')
+    ax.set_xlabel('X')
+    ax.set_ylabel('Y')
+    if mode == "3D": ax.set_zlabel('Z')
+
+    plt.tight_layout()
+
+    # --- Speichern ---
+    save_path = os.path.join(output_dir, f"{model_stem} {mode}.png")
+    plt.savefig(save_path, dpi=300)
+    plt.close(fig) # Schließt den Plot automatisch
+    return
+
+
 def prepare_gnn_graph(model_stem):
     """
     Bereitet einen Graphen für das GNN-Training vor.
-    Kombiniert Knotenmerkmale, Distanzmessungen und Ground-Truth-Labels
+    Kombiniert Knotenmerkmale, Distanzmessungen und Ground-Truth-Labels.
     """
 
     # Basis-Pfad-Definition
@@ -71,6 +167,12 @@ def prepare_gnn_graph(model_stem):
             continue
         
         guid_to_id[guid] = node["node_id"]
+
+        # Zugriff auf Positionsdaten der Knoten
+        pos_list = node.get("features", {}).get("position", [0, 0, 0])
+        node["x"] = pos_list[0]
+        node["y"] = pos_list[1]
+        node["z"] = pos_list[2]
 
         # IFC-Entity Validierung (Fallback auf ProxyElement)
         original_entity = node.get("entity", "IfcBuildingElementProxy")
@@ -227,9 +329,7 @@ def prepare_gnn_graph(model_stem):
         "edges": processed_edges
     }
     
-    if not os.path.exists(dir_2_4):
-        os.makedirs(dir_2_4)
-    
+    os.makedirs(dir_2_4, exist_ok=True)    
     with open(path_output, "w", encoding='utf-8') as f:
         json.dump(output_data, f, indent=4)
     
@@ -237,6 +337,12 @@ def prepare_gnn_graph(model_stem):
     # Formatierte Ausgabe (gekürzt für Lesbarkeit)
     print(f"Graph gespeichert: {os.path.basename(path_output)}")
     print(f"N: {node_count} | E: {edge_count} | GT: {gt_count} ({round(gt_ratio, 1)}%)")
+
+    # --- 6. Visualisierung ---
+    print("Erstelle Plots...")
+    plot_graph(output_data, dir_2_4, model_stem, mode="2D")
+    plot_graph(output_data, dir_2_4, model_stem, mode="3D")
+    print(f"Visualisierungen in {os.path.basename(dir_2_4)} gespeichert.")
 
 
 
