@@ -1,0 +1,498 @@
+Versuch 1:
+Datenbank: 21_22 L_TWP_Tragwerksmodell
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 64,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.005,
+    "epochs": 300,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 21_22 L_TWP_Tragwerksmodell Graph.json --- 
+Training mit 16 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 4.2243 | Accuracy: 66.54% 
+Epoche 050 | Loss: 0.6262 | Accuracy: 66.34% 
+Epoche 100 | Loss: 0.5972 | Accuracy: 67.91% 
+Epoche 150 | Loss: 0.5216 | Accuracy: 71.82% 
+Epoche 200 | Loss: 0.4406 | Accuracy: 76.71% 
+Epoche 250 | Loss: 0.3995 | Accuracy: 79.06% 
+Epoche 300 | Loss: 0.3192 | Accuracy: 85.52% 
+--- Sanity Check abgeschlossen --- 
+
+
+
+
+Versuch 2:
+Änderungen: Epochen werden auf 1000 erhöht.
+Auswirkung: Genauigkeit steigt. Loss sinkt weiter.
+Datenbank: 21_22 L_TWP_Tragwerksmodell
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 64,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.005,
+    "epochs": 1000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 21_22 L_TWP_Tragwerksmodell Graph.json --- 
+Training mit 16 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 2.8362 | Accuracy: 64.58% 
+Epoche 050 | Loss: 0.6225 | Accuracy: 66.54% 
+Epoche 100 | Loss: 0.5755 | Accuracy: 68.10% 
+Epoche 150 | Loss: 0.5306 | Accuracy: 71.23% 
+Epoche 200 | Loss: 0.4464 | Accuracy: 74.36% 
+Epoche 250 | Loss: 0.4495 | Accuracy: 75.73% 
+Epoche 300 | Loss: 0.3706 | Accuracy: 81.21% 
+Epoche 350 | Loss: 0.3303 | Accuracy: 83.76% 
+Epoche 400 | Loss: 0.3124 | Accuracy: 84.34% 
+Epoche 450 | Loss: 0.2776 | Accuracy: 84.93% 
+Epoche 500 | Loss: 0.2611 | Accuracy: 87.67% 
+Epoche 550 | Loss: 0.1983 | Accuracy: 91.00% 
+Epoche 600 | Loss: 0.2629 | Accuracy: 86.50% 
+Epoche 650 | Loss: 0.1845 | Accuracy: 91.00% 
+Epoche 700 | Loss: 0.2098 | Accuracy: 90.22% 
+Epoche 750 | Loss: 0.2050 | Accuracy: 91.19% 
+Epoche 800 | Loss: 0.3290 | Accuracy: 86.50% 
+Epoche 850 | Loss: 0.1781 | Accuracy: 93.15% 
+Epoche 900 | Loss: 0.1627 | Accuracy: 93.15% 
+Epoche 950 | Loss: 0.0993 | Accuracy: 95.69% 
+Epoche 1000 | Loss: 0.1711 | Accuracy: 94.13% 
+--- Sanity Check abgeschlossen --- 
+
+
+
+
+Versuch 3:
+Änderungen: Hidden_dim wird auf 128 erhöht.
+Auswirkung: Genauigkeit steigt. Loss sinkt weiter.
+Datenbank: 21_22 L_TWP_Tragwerksmodell
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.005,
+    "epochs": 1000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 21_22 L_TWP_Tragwerksmodell Graph.json --- 
+Training mit 16 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 1.6282 | Accuracy: 47.75% 
+Epoche 050 | Loss: 0.5906 | Accuracy: 69.28% 
+Epoche 100 | Loss: 0.5587 | Accuracy: 71.43% 
+Epoche 150 | Loss: 0.4770 | Accuracy: 75.34% 
+Epoche 200 | Loss: 0.3452 | Accuracy: 82.78% 
+Epoche 250 | Loss: 0.2954 | Accuracy: 86.89% 
+Epoche 300 | Loss: 0.2588 | Accuracy: 87.67% 
+Epoche 350 | Loss: 0.2010 | Accuracy: 91.39% 
+Epoche 400 | Loss: 0.3858 | Accuracy: 79.84% 
+Epoche 450 | Loss: 0.2861 | Accuracy: 86.11% 
+Epoche 500 | Loss: 0.2083 | Accuracy: 90.02% 
+Epoche 550 | Loss: 0.2105 | Accuracy: 90.02% 
+Epoche 600 | Loss: 0.1284 | Accuracy: 93.54% 
+Epoche 650 | Loss: 0.1712 | Accuracy: 91.59% 
+Epoche 700 | Loss: 0.1211 | Accuracy: 94.72% 
+Epoche 750 | Loss: 0.0941 | Accuracy: 95.69% 
+Epoche 800 | Loss: 0.0890 | Accuracy: 95.89% 
+Epoche 850 | Loss: 0.0832 | Accuracy: 95.50% 
+Epoche 900 | Loss: 0.0670 | Accuracy: 97.26% 
+Epoche 950 | Loss: 0.0779 | Accuracy: 96.09% 
+Epoche 1000 | Loss: 0.0551 | Accuracy: 97.65% 
+--- Sanity Check abgeschlossen --- 
+
+
+
+
+Versuch 4:
+Änderungen: LR auf 0.001 reduziert.
+Auswirkung: Genauigkeit glech. Loss gleich.
+Datenbank: 21_22 L_TWP_Tragwerksmodell
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.001,
+    "epochs": 1000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 21_22 L_TWP_Tragwerksmodell Graph.json --- 
+Training mit 16 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 4.8722 | Accuracy: 33.46% 
+Epoche 050 | Loss: 0.6414 | Accuracy: 67.12% 
+Epoche 100 | Loss: 0.5579 | Accuracy: 69.67% 
+Epoche 150 | Loss: 0.5226 | Accuracy: 74.95% 
+Epoche 200 | Loss: 0.4087 | Accuracy: 81.02% 
+Epoche 250 | Loss: 0.3340 | Accuracy: 84.93% 
+Epoche 300 | Loss: 0.2903 | Accuracy: 86.89% 
+Epoche 350 | Loss: 0.2790 | Accuracy: 87.08% 
+Epoche 400 | Loss: 0.2273 | Accuracy: 90.02% 
+Epoche 450 | Loss: 0.1988 | Accuracy: 90.61% 
+Epoche 500 | Loss: 0.1960 | Accuracy: 91.78% 
+Epoche 550 | Loss: 0.2399 | Accuracy: 87.67% 
+Epoche 600 | Loss: 0.1546 | Accuracy: 93.35% 
+Epoche 650 | Loss: 0.1737 | Accuracy: 91.19% 
+Epoche 700 | Loss: 0.1321 | Accuracy: 93.74% 
+Epoche 750 | Loss: 0.0914 | Accuracy: 95.69% 
+Epoche 800 | Loss: 0.0961 | Accuracy: 95.50% 
+Epoche 850 | Loss: 0.0836 | Accuracy: 96.28% 
+Epoche 900 | Loss: 0.1082 | Accuracy: 94.13% 
+Epoche 950 | Loss: 0.0600 | Accuracy: 97.26% 
+Epoche 1000 | Loss: 0.0805 | Accuracy: 95.69% 
+--- Sanity Check abgeschlossen --- 
+
+
+
+
+Versuch 5:
+Änderungen: Epochen auf 1400 erhöht.
+Auswirkung: Genauigkeit erreicht 100%. Loss sinkt weiter.
+Datenbank: 21_22 L_TWP_Tragwerksmodell
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.001,
+    "epochs": 1400,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 21_22 L_TWP_Tragwerksmodell Graph.json --- 
+Training mit 16 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 2.7308 | Accuracy: 43.05% 
+Epoche 050 | Loss: 0.6220 | Accuracy: 67.32% 
+Epoche 100 | Loss: 0.5486 | Accuracy: 70.06% 
+Epoche 150 | Loss: 0.5220 | Accuracy: 73.19% 
+Epoche 200 | Loss: 0.4329 | Accuracy: 77.30% 
+Epoche 250 | Loss: 0.3677 | Accuracy: 82.19% 
+Epoche 300 | Loss: 0.3480 | Accuracy: 84.54% 
+Epoche 350 | Loss: 0.2641 | Accuracy: 87.67% 
+Epoche 400 | Loss: 0.2461 | Accuracy: 88.65% 
+Epoche 450 | Loss: 0.2010 | Accuracy: 89.63% 
+Epoche 500 | Loss: 0.1733 | Accuracy: 91.59% 
+Epoche 550 | Loss: 0.1510 | Accuracy: 93.35% 
+Epoche 600 | Loss: 0.1631 | Accuracy: 91.59% 
+Epoche 650 | Loss: 0.1176 | Accuracy: 94.91% 
+Epoche 700 | Loss: 0.0987 | Accuracy: 95.11% 
+Epoche 750 | Loss: 0.0923 | Accuracy: 96.09% 
+Epoche 800 | Loss: 0.0949 | Accuracy: 95.30% 
+Epoche 850 | Loss: 0.1204 | Accuracy: 93.93% 
+Epoche 900 | Loss: 0.1039 | Accuracy: 95.69% 
+Epoche 950 | Loss: 0.0975 | Accuracy: 96.87% 
+Epoche 1000 | Loss: 0.0751 | Accuracy: 95.11% 
+Epoche 1050 | Loss: 0.0618 | Accuracy: 96.48% 
+Epoche 1100 | Loss: 0.0570 | Accuracy: 97.65% 
+Epoche 1150 | Loss: 0.0454 | Accuracy: 98.83% 
+Epoche 1200 | Loss: 0.0644 | Accuracy: 97.46% 
+Epoche 1250 | Loss: 0.0441 | Accuracy: 98.83% 
+Epoche 1300 | Loss: 0.0395 | Accuracy: 98.83% 
+Epoche 1350 | Loss: 0.0358 | Accuracy: 98.63% 
+Epoche 1400 | Loss: 0.0210 | Accuracy: 99.61% 
+--- Sanity Check abgeschlossen --- 
+
+
+
+
+Versuch 6:
+Änderungen: Epochen auf 2000 erhöht.
+Auswirkung: Genauigkeit bleibt bei 100%. Loss sinkt weiter.
+Datenbank: 21_22 L_TWP_Tragwerksmodell
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.001,
+    "epochs": 2000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 21_22 L_TWP_Tragwerksmodell Graph.json --- 
+Training mit 16 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 2.1531 | Accuracy: 60.08% 
+Epoche 050 | Loss: 0.6029 | Accuracy: 66.73% 
+Epoche 100 | Loss: 0.5197 | Accuracy: 73.39% 
+Epoche 150 | Loss: 0.4183 | Accuracy: 78.47% 
+Epoche 200 | Loss: 0.3675 | Accuracy: 82.19% 
+Epoche 250 | Loss: 0.2893 | Accuracy: 86.50% 
+Epoche 300 | Loss: 0.2517 | Accuracy: 90.02% 
+Epoche 350 | Loss: 0.1935 | Accuracy: 91.59% 
+Epoche 400 | Loss: 0.1490 | Accuracy: 93.74% 
+Epoche 450 | Loss: 0.1228 | Accuracy: 93.74% 
+Epoche 500 | Loss: 0.1002 | Accuracy: 95.30% 
+Epoche 550 | Loss: 0.1123 | Accuracy: 94.72% 
+Epoche 600 | Loss: 0.1048 | Accuracy: 95.50% 
+Epoche 650 | Loss: 0.0665 | Accuracy: 96.28% 
+Epoche 700 | Loss: 0.0998 | Accuracy: 94.32% 
+Epoche 750 | Loss: 0.0751 | Accuracy: 95.89% 
+Epoche 800 | Loss: 0.1262 | Accuracy: 94.91% 
+Epoche 850 | Loss: 0.0551 | Accuracy: 97.46% 
+Epoche 900 | Loss: 0.0603 | Accuracy: 97.26% 
+Epoche 950 | Loss: 0.0526 | Accuracy: 97.65% 
+Epoche 1000 | Loss: 0.0324 | Accuracy: 98.83% 
+Epoche 1050 | Loss: 0.0280 | Accuracy: 99.61% 
+Epoche 1100 | Loss: 0.0810 | Accuracy: 96.48% 
+Epoche 1150 | Loss: 0.0196 | Accuracy: 99.02% 
+Epoche 1200 | Loss: 0.0294 | Accuracy: 99.02% 
+Epoche 1250 | Loss: 0.0115 | Accuracy: 99.80% 
+Epoche 1300 | Loss: 0.0937 | Accuracy: 96.48% 
+Epoche 1350 | Loss: 0.0079 | Accuracy: 99.80% 
+Epoche 1400 | Loss: 0.0164 | Accuracy: 99.22% 
+Epoche 1450 | Loss: 0.0230 | Accuracy: 98.83% 
+Epoche 1500 | Loss: 0.0030 | Accuracy: 100.00% 
+Epoche 1550 | Loss: 0.0027 | Accuracy: 100.00% 
+Epoche 1600 | Loss: 0.0009 | Accuracy: 100.00% 
+Epoche 1650 | Loss: 0.0080 | Accuracy: 99.80% 
+Epoche 1700 | Loss: 0.0023 | Accuracy: 100.00% 
+Epoche 1750 | Loss: 0.0060 | Accuracy: 99.80% 
+Epoche 1800 | Loss: 0.0025 | Accuracy: 100.00% 
+Epoche 1850 | Loss: 0.0048 | Accuracy: 99.80% 
+Epoche 1900 | Loss: 0.0654 | Accuracy: 97.85% 
+Epoche 1950 | Loss: 0.0031 | Accuracy: 99.80% 
+Epoche 2000 | Loss: 0.0009 | Accuracy: 100.00% 
+--- Sanity Check abgeschlossen ---
+
+
+
+
+Versuch 7:
+Änderungen: Wechsel auf 4 Schichten.
+Auswirkung: Genauigkeit leicht gesunken. Loss schlechter.
+Datenbank: 21_22 L_TWP_Tragwerksmodell
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 4,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.001,
+    "epochs": 2000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 21_22 L_TWP_Tragwerksmodell Graph.json --- 
+Training mit 16 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 2.2330 | Accuracy: 36.59% 
+Epoche 050 | Loss: 0.6264 | Accuracy: 63.41% 
+Epoche 100 | Loss: 0.5756 | Accuracy: 69.47% 
+Epoche 150 | Loss: 0.5521 | Accuracy: 74.36% 
+Epoche 200 | Loss: 0.4531 | Accuracy: 77.30% 
+Epoche 250 | Loss: 0.3675 | Accuracy: 82.97% 
+Epoche 300 | Loss: 0.2980 | Accuracy: 86.89% 
+Epoche 350 | Loss: 0.2610 | Accuracy: 88.26% 
+Epoche 400 | Loss: 0.2156 | Accuracy: 89.43% 
+Epoche 450 | Loss: 0.2109 | Accuracy: 90.41% 
+Epoche 500 | Loss: 0.1674 | Accuracy: 90.80% 
+Epoche 550 | Loss: 0.1550 | Accuracy: 92.17% 
+Epoche 600 | Loss: 0.1309 | Accuracy: 93.54% 
+Epoche 650 | Loss: 0.1178 | Accuracy: 94.72% 
+Epoche 700 | Loss: 0.1074 | Accuracy: 94.91% 
+Epoche 750 | Loss: 0.0855 | Accuracy: 96.28% 
+Epoche 800 | Loss: 0.0872 | Accuracy: 95.69% 
+Epoche 850 | Loss: 0.0931 | Accuracy: 95.69% 
+Epoche 900 | Loss: 0.0986 | Accuracy: 95.30% 
+Epoche 950 | Loss: 0.0803 | Accuracy: 96.09% 
+Epoche 1000 | Loss: 0.0663 | Accuracy: 96.87% 
+Epoche 1050 | Loss: 0.0716 | Accuracy: 96.87% 
+Epoche 1100 | Loss: 0.0571 | Accuracy: 97.06% 
+Epoche 1150 | Loss: 0.0944 | Accuracy: 95.30% 
+Epoche 1200 | Loss: 0.0519 | Accuracy: 97.26% 
+Epoche 1250 | Loss: 0.0561 | Accuracy: 97.46% 
+Epoche 1300 | Loss: 0.0533 | Accuracy: 96.87% 
+Epoche 1350 | Loss: 0.0371 | Accuracy: 98.43% 
+Epoche 1400 | Loss: 0.0604 | Accuracy: 97.46% 
+Epoche 1450 | Loss: 0.0581 | Accuracy: 97.46% 
+Epoche 1500 | Loss: 0.0551 | Accuracy: 96.87% 
+Epoche 1550 | Loss: 0.0561 | Accuracy: 97.26% 
+Epoche 1600 | Loss: 0.0763 | Accuracy: 96.48% 
+Epoche 1650 | Loss: 0.0329 | Accuracy: 99.02% 
+Epoche 1700 | Loss: 0.0578 | Accuracy: 97.06% 
+Epoche 1750 | Loss: 0.7485 | Accuracy: 74.56% 
+Epoche 1800 | Loss: 0.0450 | Accuracy: 98.24% 
+Epoche 1850 | Loss: 0.0353 | Accuracy: 98.83% 
+Epoche 1900 | Loss: 0.0415 | Accuracy: 98.04% 
+Epoche 1950 | Loss: 0.0264 | Accuracy: 98.83% 
+Epoche 2000 | Loss: 0.0140 | Accuracy: 99.80% 
+--- Sanity Check abgeschlossen ---
+
+
+
+
+Versuch 8:
+Änderungen: Wechsel auf 3 Schichten zurück. Modellwechsel auf GATv2.
+Auswirkung: Genauigkeit schlechter. Loss schlechter.
+Datenbank: 21_22 L_TWP_Tragwerksmodell
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GATv2",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.001,
+    "epochs": 2000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 21_22 L_TWP_Tragwerksmodell Graph.json --- 
+Training mit 16 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 0.9450 | Accuracy: 33.86% 
+Epoche 050 | Loss: 0.5960 | Accuracy: 66.93% 
+Epoche 100 | Loss: 0.5312 | Accuracy: 72.02% 
+Epoche 150 | Loss: 0.5064 | Accuracy: 73.78% 
+Epoche 200 | Loss: 0.4713 | Accuracy: 75.73% 
+Epoche 250 | Loss: 0.4238 | Accuracy: 79.26% 
+Epoche 300 | Loss: 0.4178 | Accuracy: 79.45% 
+Epoche 350 | Loss: 0.3728 | Accuracy: 81.60% 
+Epoche 400 | Loss: 0.3528 | Accuracy: 82.00% 
+Epoche 450 | Loss: 0.3158 | Accuracy: 84.54% 
+Epoche 500 | Loss: 0.3197 | Accuracy: 84.54% 
+Epoche 550 | Loss: 0.3001 | Accuracy: 85.52% 
+Epoche 600 | Loss: 0.3089 | Accuracy: 82.39% 
+Epoche 650 | Loss: 0.3184 | Accuracy: 84.34% 
+Epoche 700 | Loss: 0.2786 | Accuracy: 83.95% 
+Epoche 750 | Loss: 0.2711 | Accuracy: 86.11% 
+Epoche 800 | Loss: 0.2546 | Accuracy: 86.30% 
+Epoche 850 | Loss: 0.2635 | Accuracy: 87.87% 
+Epoche 900 | Loss: 0.2125 | Accuracy: 89.24% 
+Epoche 950 | Loss: 0.2114 | Accuracy: 89.63% 
+Epoche 1000 | Loss: 0.2425 | Accuracy: 87.67% 
+Epoche 1050 | Loss: 0.2116 | Accuracy: 88.26% 
+Epoche 1100 | Loss: 0.1957 | Accuracy: 90.22% 
+Epoche 1150 | Loss: 0.2229 | Accuracy: 89.82% 
+Epoche 1200 | Loss: 0.2105 | Accuracy: 88.26% 
+Epoche 1250 | Loss: 0.1810 | Accuracy: 91.39% 
+Epoche 1300 | Loss: 0.1762 | Accuracy: 91.00% 
+Epoche 1350 | Loss: 0.1776 | Accuracy: 91.39% 
+Epoche 1400 | Loss: 0.1747 | Accuracy: 92.56% 
+Epoche 1450 | Loss: 0.3470 | Accuracy: 84.74% 
+Epoche 1500 | Loss: 0.2026 | Accuracy: 90.02% 
+Epoche 1550 | Loss: 0.1900 | Accuracy: 91.19% 
+Epoche 1600 | Loss: 0.1569 | Accuracy: 92.56% 
+Epoche 1650 | Loss: 0.1504 | Accuracy: 92.17% 
+Epoche 1700 | Loss: 0.1556 | Accuracy: 92.76% 
+Epoche 1750 | Loss: 0.1577 | Accuracy: 93.35% 
+Epoche 1800 | Loss: 0.1604 | Accuracy: 92.95% 
+Epoche 1850 | Loss: 0.1286 | Accuracy: 93.74% 
+Epoche 1900 | Loss: 0.1255 | Accuracy: 94.32% 
+Epoche 1950 | Loss: 0.1080 | Accuracy: 95.30% 
+Epoche 2000 | Loss: 0.1291 | Accuracy: 94.13% 
+--- Sanity Check abgeschlossen --- 
+
+
+
+
+Versuch 9:
+Änderungen: Modellwechsel auf NN.
+Auswirkung: Genauigkeit schlechter. Loss schlechter.
+Datenbank: 21_22 L_TWP_Tragwerksmodell
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "NN",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.001,
+    "epochs": 2000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 21_22 L_TWP_Tragwerksmodell Graph.json --- 
+Training mit 16 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 53493.9023 | Accuracy: 34.25% 
+Epoche 050 | Loss: 2681.1233 | Accuracy: 57.53% 
+Epoche 100 | Loss: 1443.7277 | Accuracy: 69.86% 
+Epoche 150 | Loss: 1201.4503 | Accuracy: 56.75% 
+Epoche 200 | Loss: 588.2520 | Accuracy: 63.80% 
+Epoche 250 | Loss: 605.5090 | Accuracy: 63.41% 
+Epoche 300 | Loss: 531.3359 | Accuracy: 68.69% 
+Epoche 350 | Loss: 602.3580 | Accuracy: 66.34% 
+Epoche 400 | Loss: 635.9725 | Accuracy: 60.27% 
+Epoche 450 | Loss: 255.5749 | Accuracy: 72.99% 
+Epoche 500 | Loss: 359.4440 | Accuracy: 67.91% 
+Epoche 550 | Loss: 228.1444 | Accuracy: 71.62% 
+Epoche 600 | Loss: 246.2005 | Accuracy: 64.19% 
+Epoche 650 | Loss: 260.2232 | Accuracy: 61.84% 
+Epoche 700 | Loss: 117.2201 | Accuracy: 75.15% 
+Epoche 750 | Loss: 169.1495 | Accuracy: 74.76% 
+Epoche 800 | Loss: 153.6153 | Accuracy: 70.25% 
+Epoche 850 | Loss: 181.6010 | Accuracy: 68.69% 
+Epoche 900 | Loss: 98.8984 | Accuracy: 74.76% 
+Epoche 950 | Loss: 56.8713 | Accuracy: 74.17% 
+Epoche 1000 | Loss: 96.0979 | Accuracy: 72.80% 
+Epoche 1050 | Loss: 47.3619 | Accuracy: 77.30% 
+Epoche 1100 | Loss: 64.8089 | Accuracy: 77.89% 
+Epoche 1150 | Loss: 88.7576 | Accuracy: 72.99% 
+Epoche 1200 | Loss: 57.0901 | Accuracy: 77.50% 
+Epoche 1250 | Loss: 47.0356 | Accuracy: 74.76% 
+Epoche 1300 | Loss: 53.3395 | Accuracy: 74.17% 
+Epoche 1350 | Loss: 52.5698 | Accuracy: 76.32% 
+Epoche 1400 | Loss: 32.8576 | Accuracy: 74.95% 
+Epoche 1450 | Loss: 21.2052 | Accuracy: 78.08% 
+Epoche 1500 | Loss: 29.6636 | Accuracy: 77.10% 
+Epoche 1550 | Loss: 26.9557 | Accuracy: 77.10% 
+Epoche 1600 | Loss: 26.5277 | Accuracy: 76.13% 
+Epoche 1650 | Loss: 38.5399 | Accuracy: 72.60% 
+Epoche 1700 | Loss: 21.2236 | Accuracy: 72.80% 
+Epoche 1750 | Loss: 23.4261 | Accuracy: 74.76% 
+Epoche 1800 | Loss: 25.6329 | Accuracy: 71.62% 
+Epoche 1850 | Loss: 33.0087 | Accuracy: 62.43% 
+Epoche 1900 | Loss: 27.3555 | Accuracy: 73.97% 
+Epoche 1950 | Loss: 15.5139 | Accuracy: 75.15% 
+Epoche 2000 | Loss: 30.5220 | Accuracy: 76.32% 
+--- Sanity Check abgeschlossen --- 
+
+
+
+
+
+
+
