@@ -39,13 +39,13 @@ class IfcExtractor:
         self.count_with_geom = 0
 
 
-    def get_file_metadata(self):
-        """Extrahiert Pfad-Informationen"""
-        return{
-            "full_name": self.ifc_path.name, # Ergebnis: "21_22 L_TWP_Tragwerksmodell.ifc"
-            "stem": self.ifc_path.stem, # Ergebnis: "21_22 L_TWP_Tragwerksmodell"
-            "folder": self.ifc_path.parent.name # Ergebnis: "1 Model_Database"
-        }
+    # def get_file_metadata(self):
+    #     """Extrahiert Pfad-Informationen"""
+    #     return{
+    #         "full_name": self.ifc_path.name, # Ergebnis: "21_22 L_TWP_Tragwerksmodell.ifc" # type: ignore
+    #         "stem": self.ifc_path.stem, # Ergebnis: "21_22 L_TWP_Tragwerksmodell"
+    #         "folder": self.ifc_path.parent.name # Ergebnis: "1 Model_Database"
+    #     }
     
     
     def is_load_bearing(self, product):
@@ -105,19 +105,19 @@ class IfcExtractor:
         try:
             shape = ifcopenshell.geom.create_shape(self.settings, product)
             # print("\tshape:", shape) # Debug
-            if not shape or not shape.geometry:
+            if not shape or not shape.geometry: # type: ignore
                 return None
             
-            verts = shape.geometry.verts
-            faces = shape.geometry.faces # Indices der Dreiecke
+            verts = shape.geometry.verts # type: ignore
+            faces = shape.geometry.faces # type: ignore # Indices der Dreiecke
             # print("\tverts:", verts) # Debug
             # print("\faces:", faces) # Debug
-            if not shape or not verts or not faces:
+            if not verts or not faces:
                 return None
             
             # 1. Position aus Welt-Koordinaten
             # Transformationsmatrix enthält Position und Rotation
-            matrix = shape.transformation.matrix
+            matrix = shape.transformation.matrix # type: ignore
             # print("\tmatrix: ", matrix) # Debug
             """Erklärung zum Aufbau der Matrix (R= Rotation, X/Y/Z sind Koordinaten)
              matrix = [
@@ -132,26 +132,27 @@ class IfcExtractor:
             Matrix ist im Column-Major-Format, daher:"""
             # pos_x, pos_y, pos_z = matrix[3], matrix[7], matrix[11] # Indices für Row-Variante
             pos_x, pos_y, pos_z = matrix[12], matrix[13], matrix[14] # Indices für Column-Variante
-            position = (round(pos_x, 3), round(pos_y, 3), round(pos_z, 3))
-            print(f"\tPosition: {position}") # Debug
+            pos_origin = (round(pos_x, 3), round(pos_y, 3), round(pos_z, 3))
+            print(f"\tPosition: {pos_origin}") # Debug
 
-            # 2. Bounding Box (AABB als Annäherung für L, B, H)
+            # 2. Kordinaten fpr die Berechnungen
             x_coords = [verts[i] for i in range(0, len(verts), 3)]
             y_coords = [verts[i+1] for i in range(0, len(verts), 3)]
             z_coords = [verts[i+2] for i in range(0, len(verts), 3)]
 
+            # 3. Bounding Box (AABB als Annäherung für L, B, H)
             l_abs = max(x_coords) - min(x_coords)
             b_abs = max(y_coords) - min(y_coords)
             h_abs = max(z_coords) - min(z_coords)            
             dimensions = (round(l_abs, 3), round(b_abs, 3), round(h_abs, 3))
             print(f"\tDimensions: {dimensions}") # Debug
 
-            # 3. Normiertes L, B, H Tupel
+            # 4. Normiertes L, B, H Tupel
             max_dim = max(l_abs, b_abs, h_abs, 1e-6) # 1e-6 verhindert Division durch Null
             normalized_tuple = (round(l_abs/max_dim, 3), round(b_abs/max_dim, 3), round(h_abs/max_dim, 3))
             print(f"\tNormalized Dimensions: {normalized_tuple}") # Debug
 
-            # 4. Volumen und Fläche (über OpenCascade falls verfügbar)
+            # 5. Volumen und Fläche (über OpenCascade falls verfügbar)
             # Versuch 1: Aus den BaseQuantities des Modells lesen
             volume = 0.0
             area = 0.0
@@ -173,7 +174,7 @@ class IfcExtractor:
 
             # Rückgabe der geometrischen Attribute
             return {
-                "position": position,
+                "position": pos_origin,
                 "dimensions": dimensions,
                 "norm_dimensions": normalized_tuple,
                 "volume": round(volume, 4),
