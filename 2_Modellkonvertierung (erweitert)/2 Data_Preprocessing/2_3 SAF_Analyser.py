@@ -4,6 +4,22 @@ import itertools
 import json
 import os
 
+
+
+
+
+def main():
+    ### Anschlussanalyse ausführen
+    # analyze_saf_connections('SAF_Analyser_Test')
+    # analyze_saf_connections('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')
+
+
+    ### GNN-Label-Generierung ausführen --> Erst nach annotierter Anschlussanalyse
+    # generate_gnn_labels('SAF_Analyser_Test')
+    generate_gnn_labels('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')
+    return
+
+
 def analyze_saf_connections(
         model_stem, export_excel=True, export_csv=True,
         start_index=0, end_index=None
@@ -279,6 +295,7 @@ def analyze_saf_connections(
 
 
 
+"""----- ZWEITER TEIL ----- ZWEITER TEIL ----- ZWEITER TEIL -----"""
 
 
 
@@ -470,13 +487,9 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
     # ----------------------------------------------------
 
 
+
+
+
 """Main-Part"""
-### Anschlussanalyse ausführen
-# Ausführung starten (Pfad entsprechend anpassen!)
-# analyze_saf_connections('SAF_Analyser_Test')
-# analyze_saf_connections('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')
-
-
-### GNN-Label-Generierung ausführen
-# generate_gnn_labels('SAF_Analyser_Test')
-generate_gnn_labels('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')
+if __name__ == "__main__":
+    main()

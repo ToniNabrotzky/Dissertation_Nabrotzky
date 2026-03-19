@@ -6,6 +6,24 @@ import json
 import numpy as np
 # from pathlib import Path
 
+
+def main():
+    # 1. Pfad zum IFC-Modell
+    ifc_name = [
+        "21_22 L_TWP_Tragwerksmodell",
+        "20200820IFC4_Convenience_store_Renga_4.1"
+    ]
+
+    # Klasse instanziieren und Prozess starten
+    for ifc in ifc_name:
+        extractor = IfcExtractor(ifc)
+        extractor.process_all()
+    return
+
+
+
+
+
 class IfcExtractor:
     def __init__(self, model_stem):
         self.model_stem = model_stem
@@ -56,6 +74,7 @@ class IfcExtractor:
                 return bool(properties["LoadBearing"])
         return False
     
+
     def _estimate_mesh_properties(self, verts, faces):
         """Schätzt daas Volumen und die Overfläche auf Mesh-Daten
         Oberfläche (Surface Area): Ein Bauteil-Mesh besteht aus vielen kleinen Dreiecken. 
@@ -76,14 +95,14 @@ class IfcExtractor:
         total_volume = 0.0
         
         # Gruppiere flache Liste verts in (x,y,z) Punkte
-        nodes = [np.array(verts[i:i+3]) for i in range(0, len(verts), 3)]
+        nodes_list = [np.array(verts[i:i+3]) for i in range(0, len(verts), 3)]
         
         # Iteriere über die Faces (jeweils 3 Indizes bilden ein Dreieck)
         for i in range(0, len(faces), 3):
             try:
                 # Hole die drei Eckpunkte des Dreiecks
                 idx_a, idx_b, idx_c = faces[i], faces[i+1], faces[i+2]
-                A, B, C = nodes[idx_a], nodes[idx_b], nodes[idx_c]
+                A, B, C = nodes_list[idx_a], nodes_list[idx_b], nodes_list[idx_c]
                 
                 # --- Flächenberechnung (Kreuzprodukt) ---
                 cross_product = np.cross(B - A, C - A)
@@ -135,32 +154,41 @@ class IfcExtractor:
             pos_origin = (round(pos_x, 3), round(pos_y, 3), round(pos_z, 3))
             print(f"\tPosition: {pos_origin}") # Debug
 
-            # 2. Kordinaten fpr die Berechnungen
+            # 2. Kordinaten trennen für die Berechnungen
             x_coords = [verts[i] for i in range(0, len(verts), 3)]
             y_coords = [verts[i+1] for i in range(0, len(verts), 3)]
             z_coords = [verts[i+2] for i in range(0, len(verts), 3)]
+            num_verts = len(x_coords)
 
-            # 3. Bounding Box (AABB als Annäherung für L, B, H)
+            # 3. Centroid berechnen (Mittelpunkt der Vertices + Origin)
+            # Da verts lokal zum Matrix-Urpsrung sind, muss man sie zur Urpsrungsposition hinzurechnen.
+            c_x = (sum(x_coords) / num_verts) + pos_x
+            c_y = (sum(y_coords) / num_verts) + pos_y
+            c_z = (sum(z_coords) / num_verts) + pos_z
+            centroid = (round(c_x, 3), round(c_y, 3), round(c_z, 3))
+            print(f"\tCentroid: {centroid}") # Debug
+
+            # 4. Bounding Box (AABB als Annäherung für L, B, H)
             l_abs = max(x_coords) - min(x_coords)
             b_abs = max(y_coords) - min(y_coords)
             h_abs = max(z_coords) - min(z_coords)            
             dimensions = (round(l_abs, 3), round(b_abs, 3), round(h_abs, 3))
             print(f"\tDimensions: {dimensions}") # Debug
 
-            # 4. Normiertes L, B, H Tupel
+            # 5. Normiertes L, B, H Tupel
             max_dim = max(l_abs, b_abs, h_abs, 1e-6) # 1e-6 verhindert Division durch Null
-            normalized_tuple = (round(l_abs/max_dim, 3), round(b_abs/max_dim, 3), round(h_abs/max_dim, 3))
-            print(f"\tNormalized Dimensions: {normalized_tuple}") # Debug
+            normalized_dim = (round(l_abs/max_dim, 3), round(b_abs/max_dim, 3), round(h_abs/max_dim, 3))
+            print(f"\tNormalized Dimensions: {normalized_dim}") # Debug
 
-            # 5. Volumen und Fläche (über OpenCascade falls verfügbar)
+            # 6. Volumen und Fläche (über OpenCascade falls verfügbar)
             # Versuch 1: Aus den BaseQuantities des Modells lesen
-            volume = 0.0
             area = 0.0
+            volume = 0.0
 
             qsets = element.get_psets(product, qtos_only=True)
             for qset in qsets.values():
-                volume = qset.get('NetVolume', qset.get('Volume', volume))
                 area = qset.get('NetSurfaceArea', qset.get('SurfaceArea', area))
+                volume = qset.get('NetVolume', qset.get('Volume', volume))
 
             # Versuch 2: Über die Mesh-Daten schätzen, falls Volumen oder Fläche nicht gefunden
             if volume <= 0 or area <= 0:
@@ -175,17 +203,23 @@ class IfcExtractor:
             # Rückgabe der geometrischen Attribute
             return {
                 "position": pos_origin,
+                "centroid": centroid,
                 "dimensions": dimensions,
-                "norm_dimensions": normalized_tuple,
-                "volume": round(volume, 4),
+                "norm_dimensions": normalized_dim,
                 "area": round(area, 4),
-                "ratio_av": (ratio_av)
+                "volume": round(volume, 4),
+                "ratio_av": (ratio_av),
+                # "mesh": {
+                #     "vertices": verts,
+                #     "faces": faces
+                # }
             }
         
         except Exception as e:
             print(f"\tFEHLER: {e}")
             return None
         
+
     def process_all(self):
         """Hauptprozess: Filtert und extrahiert Daten"""
         nodes  = []
@@ -224,6 +258,7 @@ class IfcExtractor:
 
         self.save_to_json(nodes)
 
+
     def save_to_json(self, data):
         """Exportiert die Daten als JSON-Datei"""
         if not os.path.exists(self.dir_2_1):
@@ -246,10 +281,4 @@ class IfcExtractor:
 
 
 if __name__ == "__main__":
-    # 1. Pfad zum IFC-Modell
-    model_name = "21_22 L_TWP_Tragwerksmodell"
-    # model_name = "20200820IFC4_Convenience_store_Renga_4.1"
-
-    # Klasse instanziieren und Prozess starten
-    extractor = IfcExtractor(model_name)
-    extractor.process_all()
+    main()

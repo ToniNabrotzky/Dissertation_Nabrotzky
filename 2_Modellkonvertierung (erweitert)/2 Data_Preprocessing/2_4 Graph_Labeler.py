@@ -8,6 +8,15 @@ import networkx as nx
 from mpl_toolkits.mplot3d import Axes3D
 
 
+
+
+
+def main():
+    prepare_gnn_graph("21_22 L_TWP_Tragwerksmodell")
+    return
+
+
+
 # Konfiguration der festen IFC-Entitäten für konsistentes One-Hot-Encoding
 ALLOWED_ENTITIES = [
     "IfcFooting",
@@ -44,7 +53,7 @@ Beispiel: d=500mm -> Gamma 0.0001 -> exp(-0.0001 * 250000) = 1.3e-11 (praktisch 
 RBF_GAMMA = 0.0001
 
 
-def plot_graph(graph_data, output_dir, model_stem, mode="2D"):
+def plot_graph(graph_data, output_dir, model_stem, mode="2D", pos_nodes="Centroid"):
     """
     Erstellt einen Plot des Graphen und speichert ihn ab.
     2D: Automatische Anordnung mittels NetworkX (Spring Layout).
@@ -58,7 +67,10 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D"):
         ax = fig.add_subplot(111, projection='3d')
 
         # Echte Urpsrungskoordinaten in 3D
-        pos = {n["node_id"]: (n["x"], n["y"], n["z"]) for n in nodes}
+        if pos_nodes == "Centroid":
+            pos = {n["node_id"]: (n["centroid_x"], n["centroid_y"], n["centroid_z"]) for n in nodes}
+        else:
+            pos = {n["node_id"]: (n["origin_x"], n["origin_y"], n["origin_z"]) for n in nodes}
     else:
         ax = fig.add_subplot(111)
 
@@ -109,20 +121,23 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D"):
 
         if mode == "3D":
             z = [pos[n_id][2] for n_id in node_ids]
-            ax.scatter(x, y, z, c=color, marker=marker, s=150, label=ent, 
+            ax.scatter(x, y, z, c=color, marker=marker, s=150, label=ent,  # type: ignore
                     edgecolors='white', linewidths=0.5, zorder=2)
         else:
             ax.scatter(x, y, c=color, marker=marker, s=150, label=ent, 
                     edgecolors='white', linewidths=0.5, zorder=2)
     
     # --- Graph layouten ---
-    ax.set_title(f"Graph Visualisierung ({mode}): {model_stem}")
+    if mode == "3D":
+        ax.set_title(f"Graph ({mode} - {pos_nodes}): {model_stem}")
+    else:
+        ax.set_title(f"Graph ({mode}): {model_stem}")
     ax.legend(loc='upper left', bbox_to_anchor=(1, 1), fontsize='small')
     
     if mode == "3D":
         ax.set_xlabel('X [m]')
         ax.set_ylabel('Y [m]')
-        ax.set_zlabel('Z [m]')
+        ax.set_zlabel('Z [m]') # type: ignore
     else:
         # Im Auto-Layout machen Koordinatenachsen keinen Sinn
         ax.set_axis_off()
@@ -130,13 +145,16 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D"):
     plt.tight_layout()
 
     # --- Speichern ---
+    filename_png = f"{model_stem} {mode} {f'{pos_nodes}' if mode == '3D' else ''}.png"
+    filename_svg = f"{model_stem} {mode} {f'{pos_nodes}' if mode == '3D' else ''}.svg"
+
     # Speichern als PNG
-    save_path = os.path.join(output_dir, f"{model_stem} {mode}.png")
+    save_path = os.path.join(output_dir, filename_png)
     plt.savefig(save_path, dpi=300)
     plt.close(fig) # Schließt den Plot automatisch
 
     # Speichern als SVG
-    save_path = os.path.join(output_dir, f"{model_stem} {mode}.svg")
+    save_path = os.path.join(output_dir, filename_svg)
     plt.savefig(save_path, dpi=300)
     plt.close(fig) # Schließt den Plot automatisch
     return
@@ -189,10 +207,16 @@ def prepare_gnn_graph(model_stem):
         guid_to_id[guid] = node["node_id"]
 
         # Zugriff auf Positionsdaten der Knoten
+        # Urpsrungsposition
         pos_list = node.get("features", {}).get("position", [0, 0, 0])
-        node["x"] = pos_list[0]
-        node["y"] = pos_list[1]
-        node["z"] = pos_list[2]
+        node["origin_x"] = pos_list[0]
+        node["origin_y"] = pos_list[1]
+        node["origin_z"] = pos_list[2]
+        # Centroid
+        pos_list = node.get("features", {}).get("centroid", [0, 0, 0])
+        node["centroid_x"] = pos_list[0]
+        node["centroid_y"] = pos_list[1]
+        node["centroid_z"] = pos_list[2]
 
         # IFC-Entity Validierung (Fallback auf ProxyElement)
         original_entity = node.get("entity", "IfcBuildingElementProxy")
@@ -362,6 +386,7 @@ def prepare_gnn_graph(model_stem):
     print("Erstelle Plots...")
     plot_graph(output_data, dir_2_4, model_stem, mode="2D")
     plot_graph(output_data, dir_2_4, model_stem, mode="3D")
+    plot_graph(output_data, dir_2_4, model_stem, mode="3D", pos_nodes= "Origin")
     print(f"Visualisierungen in {os.path.basename(dir_2_4)} gespeichert.")
 
 
@@ -370,4 +395,4 @@ def prepare_gnn_graph(model_stem):
 
 # Beispielaufruf
 if __name__ == "__main__":
-    prepare_gnn_graph("21_22 L_TWP_Tragwerksmodell")
+    main()
