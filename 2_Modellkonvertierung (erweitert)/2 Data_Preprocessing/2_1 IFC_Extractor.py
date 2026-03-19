@@ -11,7 +11,18 @@ def main():
     # 1. Pfad zum IFC-Modell
     ifc_name = [
         "21_22 L_TWP_Tragwerksmodell",
-        "20200820IFC4_Convenience_store_Renga_4.1"
+        # "22_23 LTWP_221127_Ifc-Allplan", 
+        "23_24 LTWP-V__Dachtragwerk",
+        # "24_25 LTWP-V_250122_02_Vordachmodell", # aussoertiert - zu simpel
+        # "24_25 LTWP-V_250122_Kellermodell", # aussoertiert - zu simpel
+        # "20200820IFC4_Convenience_store_Renga_4.1" # aussortiert - zu simpel
+        # "47L" 
+        "20220421MODEL REV01",
+        "202102183458-Model",
+        # "ARchiCAD__20200518Yangsan Pr-HARDWARE", # aussortiert - unhandlich, schlecht modelliert
+        "Grethes-hus-bok-2",
+        "Ifc2x3_SampleCastle",
+        "Vectorworks2016-IFC2x3-EQUA_IDA_ICE"
     ]
 
     # Klasse instanziieren und Prozess starten
@@ -151,8 +162,11 @@ class IfcExtractor:
             Matrix ist im Column-Major-Format, daher:"""
             # pos_x, pos_y, pos_z = matrix[3], matrix[7], matrix[11] # Indices für Row-Variante
             pos_x, pos_y, pos_z = matrix[12], matrix[13], matrix[14] # Indices für Column-Variante
-            pos_origin = (round(pos_x, 3), round(pos_y, 3), round(pos_z, 3))
-            print(f"\tPosition: {pos_origin}") # Debug
+            origin = (round(pos_x, 3), round(pos_y, 3), round(pos_z, 3))
+            origin_x = origin[0]
+            origin_y = origin[1]
+            origin_z = origin[2]
+            print(f"\tPosition: {origin}") # Debug
 
             # 2. Kordinaten trennen für die Berechnungen
             x_coords = [verts[i] for i in range(0, len(verts), 3)]
@@ -166,6 +180,9 @@ class IfcExtractor:
             c_y = (sum(y_coords) / num_verts) + pos_y
             c_z = (sum(z_coords) / num_verts) + pos_z
             centroid = (round(c_x, 3), round(c_y, 3), round(c_z, 3))
+            centroid_x = centroid[0]
+            centroid_y = centroid[1]
+            centroid_z = centroid[2]
             print(f"\tCentroid: {centroid}") # Debug
 
             # 4. Bounding Box (AABB als Annäherung für L, B, H)
@@ -202,8 +219,14 @@ class IfcExtractor:
 
             # Rückgabe der geometrischen Attribute
             return {
-                "position": pos_origin,
+                "origin": origin,
+                "origin_x": origin_x,
+                "origin_y": origin_y,
+                "origin_z": origin_z,
                 "centroid": centroid,
+                "centroid_x": centroid_x,
+                "centroid_y": centroid_y,
+                "centroid_z": centroid_z,
                 "dimensions": dimensions,
                 "norm_dimensions": normalized_dim,
                 "area": round(area, 4),

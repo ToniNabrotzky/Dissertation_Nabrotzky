@@ -68,9 +68,17 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D", pos_nodes="Centroi
 
         # Echte Urpsrungskoordinaten in 3D
         if pos_nodes == "Centroid":
-            pos = {n["node_id"]: (n["centroid_x"], n["centroid_y"], n["centroid_z"]) for n in nodes}
+            pos = {n["node_id"]: 
+                   (n["features"]["centroid_x"], 
+                    n["features"]["centroid_y"], 
+                    n["features"]["centroid_z"]) 
+                    for n in nodes}
         else:
-            pos = {n["node_id"]: (n["origin_x"], n["origin_y"], n["origin_z"]) for n in nodes}
+            pos = {n["node_id"]: 
+                   (n["features"]["origin_x"], 
+                    n["features"]["origin_y"], 
+                    n["features"]["origin_z"]) 
+                    for n in nodes}
     else:
         ax = fig.add_subplot(111)
 
@@ -145,8 +153,8 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D", pos_nodes="Centroi
     plt.tight_layout()
 
     # --- Speichern ---
-    filename_png = f"{model_stem} {mode} {f'{pos_nodes}' if mode == '3D' else ''}.png"
-    filename_svg = f"{model_stem} {mode} {f'{pos_nodes}' if mode == '3D' else ''}.svg"
+    filename_png = f"{model_stem} {mode}{f' {pos_nodes}' if mode == '3D' else ''}.png"
+    filename_svg = f"{model_stem} {mode}{f' {pos_nodes}' if mode == '3D' else ''}.svg"
 
     # Speichern als PNG
     save_path = os.path.join(output_dir, filename_png)
@@ -190,8 +198,27 @@ def prepare_gnn_graph(model_stem):
     # --- 1. Knoten laden, mappen und verarbeiten ---
     with open(path_nodes, 'r', encoding='utf-8') as f:
         nodes_data = json.load(f)
+    
+    # --- Vorbereitung der Normierung ---
+    # Sammeln aller Koordinaten, um Min/Max für das gesamte Modell zu bestimmen
+    try:
+        all_x = [n["features"]["centroid_x"] for n in nodes_data]
+        all_y = [n["features"]["centroid_y"] for n in nodes_data]
+        all_z = [n["features"]["centroid_z"] for n in nodes_data]
+    except KeyError:
+        # Fallback falls centroid_x fehlt und origin_x verwendet wird
+        all_x = [n["features"]["origin_x"] for n in nodes_data]
+        all_y = [n["features"]["origin_y"] for n in nodes_data]
+        all_z = [n["features"]["origin_z"] for n in nodes_data]
+    
+    min_x, max_x = min(all_x), max(all_x)
+    min_y, max_y = min(all_y), max(all_y)
+    min_z, max_z = min(all_z), max(all_z)
 
-    # guid_to_id = {node['guid']: node['node_id'] for node in nodes_data} # Alte Variante
+    def normalize(val, v_min, v_max):
+        if v_max == v_min: return 0.0
+        return (val - v_min) / (max_x - min_x) # Hier wird oft durch die größte Ausdehnung normiert oder achsenspezifisch
+
     guid_to_id = {}
     processed_nodes = []
 
@@ -206,17 +233,17 @@ def prepare_gnn_graph(model_stem):
         
         guid_to_id[guid] = node["node_id"]
 
-        # Zugriff auf Positionsdaten der Knoten
-        # Urpsrungsposition
-        pos_list = node.get("features", {}).get("position", [0, 0, 0])
-        node["origin_x"] = pos_list[0]
-        node["origin_y"] = pos_list[1]
-        node["origin_z"] = pos_list[2]
-        # Centroid
-        pos_list = node.get("features", {}).get("centroid", [0, 0, 0])
-        node["centroid_x"] = pos_list[0]
-        node["centroid_y"] = pos_list[1]
-        node["centroid_z"] = pos_list[2]
+        # Zugriff auf Positionsdaten der Knoten aus den features.
+        # Primär zählt centroid. Falls nicht vorhanden wird der origin gewählt.
+        feat = node["features"]
+        cx = feat.get("centroid_x", feat.get("origin_x", 0))
+        cy = feat.get("centroid_y", feat.get("origin_y", 0))
+        cz = feat.get("centroid_z", feat.get("origin_z", 0))
+
+        # Normierung berechnen (0.0 bis 1.0)
+        feat["normed_x"] = round((cx - min_x) / (max_x - min_x) if max_x != min_x else 0.0, 6)
+        feat["normed_y"] = round((cy - min_y) / (max_y - min_y) if max_y != min_y else 0.0, 6)
+        feat["normed_z"] = round((cz - min_z) / (max_z - min_z) if max_z != min_z else 0.0, 6)
 
         # IFC-Entity Validierung (Fallback auf ProxyElement)
         original_entity = node.get("entity", "IfcBuildingElementProxy")
@@ -227,7 +254,7 @@ def prepare_gnn_graph(model_stem):
 
         # One-Hot Index zuweisen
         node["entity_processed"] = target_entity
-        node["entity_one_hit_idx"] = entity_map[target_entity]
+        feat["entity_one_hot_idx"] = entity_map[target_entity]
 
         # Dokumentation
         processed_nodes.append(node)
