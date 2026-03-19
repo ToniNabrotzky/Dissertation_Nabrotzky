@@ -123,7 +123,7 @@ def load_single_sanity_graph(file_path):
         feat = []
         # --- MODULARE AUSWAHL DER KNOTENMERKMALE ---
         # Abgewählte Merkmale müssen auskommentiert werden
-        feat.extend(node['features']['position'])         # 3 Features (x, y, z lokal)
+        feat.extend(node['features']['origin'])         # 3 Features (x, y, z lokal)
         feat.extend(node['features']['dimensions'])       # 3 Features (L, B, H)
         feat.extend(node['features']['norm_dimensions'])  # 3 Features (L, B, H normiert)
         feat.append(node['features']['volume'])           # 1 Feature
