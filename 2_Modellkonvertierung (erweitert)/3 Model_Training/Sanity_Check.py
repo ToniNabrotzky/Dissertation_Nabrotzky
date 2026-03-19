@@ -125,14 +125,17 @@ def load_single_sanity_graph(file_path):
         # Abgewählte Merkmale müssen auskommentiert werden
         feat.extend(node['features']['position'])         # 3 Features (x, y, z lokal)
         feat.extend(node['features']['dimensions'])       # 3 Features (L, B, H)
-        feat.extend(node['features']['norm_dimensions'])  # 3 Features (normiert)
+        feat.extend(node['features']['norm_dimensions'])  # 3 Features (L, B, H normiert)
         feat.append(node['features']['volume'])           # 1 Feature
         feat.append(node['features']['area'])             # 1 Feature
         feat.append(node['features']['ratio_av'])         # 1 Feature
-        feat.append(node['x'])                            # 1 Feature (global X)
-        feat.append(node['y'])                            # 1 Feature (global Y)
-        feat.append(node['z'])                            # 1 Feature (global Z)
-        feat.append(node['entity_one_hit_idx'])           # 1 Feature (Klassen-Index)
+        feat.append(node['features']['centroid_x'])       # 1 Feature (global X)
+        feat.append(node['features']['centroid_y'])       # 1 Feature (global Y)
+        feat.append(node['features']['centroid_z'])       # 1 Feature (global Z)
+        feat.append(node['features']['normed_x'])         # 1 Feature (normed X)
+        feat.append(node['features']['normed_y'])         # 1 Feature (normed Y)
+        feat.append(node['features']['normed_z'])         # 1 Feature (normed Z)
+        feat.append(node['features']['entity_one_hot_idx'])     # 1 Feature (Klassen-Index)
         # -------------------------------------------
         node_features_list.append(feat)
     
