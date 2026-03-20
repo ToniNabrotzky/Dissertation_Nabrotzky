@@ -3,7 +3,7 @@ import openpyxl
 import itertools
 import json
 import os
-
+"""Merke: Ich muss noch sicher weiterlaufen lassen können, wenn ein Blatt fehlt (curve, rib, edge, surface)"""
 
 
 
@@ -11,12 +11,15 @@ import os
 def main():
     ### Anschlussanalyse ausführen
     # analyze_saf_connections('SAF_Analyser_Test')
-    # analyze_saf_connections('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')
+    # analyze_saf_connections('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')              # erledigt
+    # analyze_saf_connections('23_24 LTWP-V__Dachtragwerk 0D Ausr Anschluss')               # erledigt
+    analyze_saf_connections('20220421MODEL REV01 0D Ausr Anschluss')
 
 
     ### GNN-Label-Generierung ausführen --> Erst nach annotierter Anschlussanalyse
     # generate_gnn_labels('SAF_Analyser_Test')
-    generate_gnn_labels('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')
+    # generate_gnn_labels('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')                  # erledigt
+    # generate_gnn_labels('23_24 LTWP-V__Dachtragwerk 0D Ausr Anschluss')                   # erledigt
     return
 
 
@@ -24,6 +27,14 @@ def analyze_saf_connections(
         model_stem, export_excel=True, export_csv=True,
         start_index=0, end_index=None
         ):
+    """
+    Kurz Aufbau erklärt:
+    "[ifc_stem] 0D Ausr" ==> Original-SAF von SCIA
+    "[ifc_stem] 0D Ausr Anschluss" ==> Exportierte-SAF von Dlubal RFEM
+    Auf die exportierte SAF diese Funktion anwenden, die bereits die Spalten in StructuralPointConnection einfügt
+    Anschlussvarianten ggf. anpassen und bewerten.
+    Dann kann zweite Funktion darauf aktiviert werden.
+    """
     print(f"Lese Datei ein: {model_stem}...\n")
 
     # --- Schritt 0: Dateipfade vorbereiten ---
@@ -36,7 +47,7 @@ def analyze_saf_connections(
     if model_stem.endswith(cut_str):
         # Entfernt letzte Zeichen + 3 Zeichen davor (z.B. " 0D")
         cut_length = len(cut_str) + 3
-        ifc_name = model_stem[:-cut_length].trip()
+        ifc_name = model_stem[:-cut_length].strip()
     else:
         ifc_name = model_stem.strip()
 
@@ -47,20 +58,43 @@ def analyze_saf_connections(
 
 
     # --- Schritt 1: Mapping ---
+    #  Einlesen der definierten Tabellenblätter
     try:
-        #  Einlesen der definierten Tabellenblätter
-        df_nodes = pd.read_excel(path_saf, sheet_name='StructuralPointConnection')
-        df_curve = pd.read_excel(path_saf, sheet_name='StructuralCurveMember')
-        df_rib = pd.read_excel(path_saf, sheet_name='StructuralCurveMemberRib')
-        df_edge = pd.read_excel(path_saf, sheet_name='StructuralCurveEdge')
-        df_surface = pd.read_excel(path_saf, sheet_name='StructuralSurfaceMember')
+        xls = pd.ExcelFile(path_saf)
     except Exception as e:
-        print(f"Fehler beim Einlesen der Tabellenblätter. Bitte prüfen, ob alle existieren: {e}")
+        print(f"Kritischer Fehler beim Öffnen der Excel-Datei: {e}")
         return
+    
+    sheet_names = xls.sheet_names
+
+    # Standardmäßig erzeugte Blätter prüfen
+    required_sheets = ['StructuralPointConnection', 'StructuralCurveMember', 'StructuralSurfaceMember']
+    for sheet in required_sheets:
+        if sheet not in sheet_names:
+            print(f"KRITISCHER FEHLER: Das zwingend erforderliche Blatt '{sheet}' fehlt in der Datei.")
+            return
+    # Zwingende Blätter einlesen
+    # Als Input geht sowohl xls als auch path_saf --> Zur Demonstration habe ich beides drin
+    df_nodes = pd.read_excel(xls, sheet_name='StructuralPointConnection')
+    df_curve = pd.read_excel(xls, sheet_name='StructuralCurveMember')
+    df_surface = pd.read_excel(xls, sheet_name='StructuralSurfaceMember')
+
+    # Optionale Blätter einlesen (mit Fallback auf leere Blätter)
+    if 'StructuralCurveMemberRib' in sheet_names:
+        df_rib = pd.read_excel(path_saf, sheet_name='StructuralCurveMemberRib')
+    else:
+        print(f"[INFO] Tabellenblatt 'StructuralCurveMemberRib' fehlt. Rippen werden ignoriert.")
+        df_rib = pd.DataFrame()    
+    if 'StructuralCurveEdge' in sheet_names:
+        df_edge = pd.read_excel(path_saf, sheet_name='StructuralCurveEdge')
+    else:
+        print(f"[INFO] Tabellenblatt 'StructuralCurveEdge' fehlt. Kanten werden ignoriert.")
+        df_edge = pd.DataFrame()
 
     # Spaltennamen bereinigen
     for df in [df_nodes, df_curve, df_rib, df_surface, df_edge]:
-        df.columns = df.columns.str.strip()
+        if not df.empty:
+            df.columns = df.columns.str.strip()
 
     # Feste Reihenfolge für Namensgebung
     type_order = ['Stütze', 'Balken', 'Verband', 'Platte', 'Wand']
@@ -122,6 +156,7 @@ def analyze_saf_connections(
         add_connections(row.get('Name'), row.get('Nodes'), row.get('Type'))
 
     # 2. Rippen (StructuralCurveMemberRib))
+    # Schleife überspringt sich selbst, wenn df leer ist
     for _, row in df_rib.iterrows():
         add_connections(row.get('Name'), row.get('Nodes'), 'Beam')
 
@@ -137,6 +172,7 @@ def analyze_saf_connections(
             add_connections(element_name, row.get('Internal nodes'), saf_type)
 
     # 4. Kanten von Flächenelementen (StructuralCurveEdge)
+    # Schleife überspringt sich selbst, wenn df leer ist
     for _, row in df_edge.iterrows():
         element_name = row.get('2D member')
         nodes_string = row.get('Nodes')
