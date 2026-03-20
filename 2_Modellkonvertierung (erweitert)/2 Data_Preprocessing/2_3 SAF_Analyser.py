@@ -1,5 +1,8 @@
 import pandas as pd
 import openpyxl
+from openpyxl.styles import PatternFill
+from openpyxl.formatting.rule import FormulaRule
+from openpyxl.utils import get_column_letter
 import itertools
 import json
 import os
@@ -298,6 +301,33 @@ def analyze_saf_connections(
                     ws.cell(row=row, column=cat_col_idx, value=result['Anschlussvariante'])
                     ws.cell(row=row, column=count_col_idx, value=result['Anzahl'])
                     ws.cell(row=row, column=elem_col_idx, value=result['Elemente'])
+            
+            # --- Bedingte Formatierung hinzufügen ---
+            # 1. Spalten dynamisch suchen
+            first_col_idx = 1
+            last_col_idx = kommentar_col_idx
+
+            first_col_letter = get_column_letter(first_col_idx)
+            label_col_letter = get_column_letter(label_col_idx)
+            last_col_letter = get_column_letter(last_col_idx)
+            data_range = f"${first_col_letter}1:${last_col_letter}{ws.max_row}"
+
+            # 2. Farb-Hex-Codes (entsprechend Excel-Standard-Design)
+            fill_x = PatternFill(start_color='C6E0B4', end_color='C6E0B4', fill_type='solid') # Olivgrün, Akzent 3, heller 60%
+            fill_o = PatternFill(start_color='F8CBAD', end_color='F8CBAD', fill_type='solid') # Orange, Akzent 6, heller 60%
+            fill_dot = PatternFill(start_color='D9D9D9', end_color='D9D9D9', fill_type='solid') # Weiß, Hintergrund 1, dunkler 15%
+
+            # 3. Formeln für die bedingte Formatierung anlegen
+            rule_x = FormulaRule(formula=[f'${label_col_letter}1="x"'], fill=fill_x)
+            rule_o = FormulaRule(formula=[f'${label_col_letter}1="o"'], fill=fill_o)
+            rule_dot = FormulaRule(formula=[f'${label_col_letter}1="."'], fill=fill_dot)
+
+            # 4. Regeln an Excel übergeben
+            ws.conditional_formatting.add(data_range, rule_x)
+            ws.conditional_formatting.add(data_range, rule_o)
+            ws.conditional_formatting.add(data_range, rule_dot)
+            print(">>> Bedingte Formatierungen (x, o, .) wurden erfolgreich in Excel integriert! <<<")
+            # ---------------------------------------------
             
             # Datei abspeichern
             wb.save(path_saf)
