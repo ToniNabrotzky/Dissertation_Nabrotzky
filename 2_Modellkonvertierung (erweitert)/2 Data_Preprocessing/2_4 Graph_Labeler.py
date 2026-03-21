@@ -12,7 +12,8 @@ from mpl_toolkits.mplot3d import Axes3D
 
 
 def main():
-    prepare_gnn_graph("21_22 L_TWP_Tragwerksmodell")
+    # prepare_gnn_graph("21_22 L_TWP_Tragwerksmodell")
+    prepare_gnn_graph("23_24 LTWP-V__Dachtragwerk")
     return
 
 

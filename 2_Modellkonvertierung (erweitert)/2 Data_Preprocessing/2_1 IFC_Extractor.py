@@ -10,19 +10,19 @@ import numpy as np
 def main():
     # 1. Pfad zum IFC-Modell
     ifc_name = [
-        "21_22 L_TWP_Tragwerksmodell",
+        "21_22 L_TWP_Tragwerksmodell",                  # immer aktiv lassen für Tests
         # "22_23 LTWP_221127_Ifc-Allplan", 
-        "23_24 LTWP-V__Dachtragwerk",
-        # "24_25 LTWP-V_250122_02_Vordachmodell", # aussoertiert - zu simpel
-        # "24_25 LTWP-V_250122_Kellermodell", # aussoertiert - zu simpel
-        # "20200820IFC4_Convenience_store_Renga_4.1" # aussortiert - zu simpel
+        # "23_24 LTWP-V__Dachtragwerk",                 # erledigt
+        # "24_25 LTWP-V_250122_02_Vordachmodell",       # aussortiert - zu simpel
+        # "24_25 LTWP-V_250122_Kellermodell",           # aussortiert - zu simpel
+        # "20200820IFC4_Convenience_store_Renga_4.1"    # aussortiert - zu simpel
         # "47L" 
-        "20220421MODEL REV01",
-        "202102183458-Model",
-        # "ARchiCAD__20200518Yangsan Pr-HARDWARE", # aussortiert - unhandlich, schlecht modelliert
-        "Grethes-hus-bok-2",
-        "Ifc2x3_SampleCastle",
-        "Vectorworks2016-IFC2x3-EQUA_IDA_ICE"
+        # "20220421MODEL REV01",                        # erledigt
+        # "202102183458-Model",                         # erledigt
+        # "ARchiCAD__20200518Yangsan Pr-HARDWARE",      # aussortiert - unhandlich, schlecht modelliert
+        # "Grethes-hus-bok-2",                          # erledigt
+        # "Ifc2x3_SampleCastle",                        # erledigt
+        # "Vectorworks2016-IFC2x3-EQUA_IDA_ICE"         # erledigt
     ]
 
     # Klasse instanziieren und Prozess starten
