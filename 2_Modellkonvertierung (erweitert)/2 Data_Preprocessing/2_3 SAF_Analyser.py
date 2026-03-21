@@ -13,10 +13,10 @@ import os
 
 def main():
     ### Anschlussanalyse ausführen
-    # analyze_saf_connections('SAF_Analyser_Test')
+    analyze_saf_connections('SAF_Analyser_Test')
     # analyze_saf_connections('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')              # erledigt
     # analyze_saf_connections('23_24 LTWP-V__Dachtragwerk 0D Ausr Anschluss')               # erledigt
-    analyze_saf_connections('20220421MODEL REV01 0D Ausr Anschluss')
+    # analyze_saf_connections('20220421MODEL REV01 0D Ausr Anschluss')
 
 
     ### GNN-Label-Generierung ausführen --> Erst nach annotierter Anschlussanalyse
@@ -28,7 +28,8 @@ def main():
 
 def analyze_saf_connections(
         model_stem, export_excel=True, export_csv=True,
-        start_index=0, end_index=None
+        start_index=0, end_index=None,
+        check_types=True
         ):
     """
     Kurz Aufbau erklärt:
@@ -57,6 +58,23 @@ def analyze_saf_connections(
     # Dateipfade zusammenbauen
     path_saf = os.path.join(saf_dir, f"{model_stem}.xlsx")
     output_csv = os.path.join(saf_dir, f"{ifc_name} Anschlussanalyse.csv")
+
+    # Sicherheitsabfrage zur Prüfung der SAF-Typen
+    if check_types:
+        print(f"\n---SICHERHEITSABFRAGE---")
+        while True:
+            user_confirm = input(f"Hast du alle SAF-Bauteiltypen in '{model_stem}' geprüft und korrigiert? (j/n):").strip().lower()
+            if user_confirm in ["j", "ja", 'y', 'yes', '']:
+                break
+            elif user_confirm in ['n', 'nein', 'no']:
+                print("\n>>> Skript abgebrochen. Bitte passe die Typen in der Excel-Datei zuerst an und starte das Skript danach neu. <<<")
+                return
+            else:
+                print("Ungültige Eingabe. Bitte antworte mit 'j' für Ja oder 'n' für Nein.")
+        print("--------------------------\n")
+
+
+
     # ----------------------------------------------------
 
 
@@ -131,7 +149,7 @@ def analyze_saf_connections(
                 unrecognized_types.add(str(saf_type))
                 return 
 
-            nodes = str(nodes_string).split(';') # SPlit erzeugt Liste
+            nodes = str(nodes_string).split(';') # Split erzeugt Liste
             for node in nodes:
                 node = node.strip()
                 if node in node_connections:
