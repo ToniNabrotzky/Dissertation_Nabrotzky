@@ -4,12 +4,13 @@ import ifcopenshell.util.element as element
 import json
 import numpy as np
 import os
+from datetime import datetime
 
 
 def main():
     # 1. Pfad zum IFC-Modell
     ifc_name = [
-        # "21_22 L_TWP_Tragwerksmodell",                  # immer aktiv lassen für Tests
+        # "21_22 L_TWP_Tragwerksmodell",                # erledigt
         # "22_23 LTWP_221127_Ifc-Allplan", 
         # "23_24 LTWP-V__Dachtragwerk",                 # erledigt
         # "24_25 LTWP-V_250122_02_Vordachmodell",       # aussortiert - zu simpel
@@ -20,7 +21,7 @@ def main():
         # "202102183458-Model",                         # erledigt
         # "ARchiCAD__20200518Yangsan Pr-HARDWARE",      # aussortiert - unhandlich, schlecht modelliert
         # "Grethes-hus-bok-2",                          # erledigt
-        # "Ifc2x3_SampleCastle",                        # erledigt
+        # "Ifc2x3_SampleCastle",                        # erledigt --> Hatte Fehler ab 250??
         # "Vectorworks2016-IFC2x3-EQUA_IDA_ICE"         # erledigt
     ]
 
@@ -31,14 +32,13 @@ def main():
     return
 
 
-
-
-
 class IfcExtractor:
     def __init__(self, model_stem):
+        """Initialisiert den Extractor mit Logging"""
         self.model_stem = model_stem
+        self.logs = [] # List ezum Sammeln der Protokollzeilen
 
-        # --- Pfad-Definition ---
+        # --- Pfad-Definitionen ---
         self.base_dir = os.path.dirname(__file__)
         # Pfad zur Modelldatenbank (ein Ordner hoch, dann in Database)
         self.db_dir = os.path.normpath(os.path.join(self.base_dir, "..", "1 Model_Database"))
@@ -48,19 +48,30 @@ class IfcExtractor:
         # Dateipfade zusammenbauen
         self.path_ifc = os.path.join(self.db_dir, f"{self.model_stem}.ifc")
         self.output_json = os.path.join(self.dir_2_1, f"{self.model_stem} Nodes.json")
+        self.output_log = os.path.join(self.dir_2_1, f"{self.model_stem} Protokoll.txt")
+
+        # Initialer Log-Eintrag
+        self.log(f"--- Starte Extraktion: {datetime.now().strftime('%d.%m.%Y %H:%M:%S')} ---")
 
         # Validierung und Initialisierung
         if not os.path.exists(self.path_ifc):
-            raise FileNotFoundError(f"IFC-Datei nicht gefunden unter: {self.path_ifc}")
+            msg = f"IFC-Datei nicht gefunden unter: {self.path_ifc}"
+            self.log(msg)
+            raise FileNotFoundError(msg)
         
-        print(f"Lade Modell: {self.model_stem}...")
-        self.model = ifcopenshell.open(str(self.path_ifc))
-        self.settings = ifcopenshell.geom.settings()
-        # self.settings.set("use-python-opencascade", True)
-        # self.settings.set(self.settings.USE_PYTHON_OPENCASCADE, True)
-        # Sicherstellen, dass das Mesh trianguliert ist
-        # self.settings.set(self.settings.USE_WORLD_COORDS, True)
-
+        self.log(f"Lade Modell: {self.model_stem}...")
+        try:
+            self.model = ifcopenshell.open(str(self.path_ifc))
+            self.settings = ifcopenshell.geom.settings()
+            # self.settings.set("use-python-opencascade", True)
+            # self.settings.set(self.settings.USE_PYTHON_OPENCASCADE, True)
+            # Sicherstellen, dass das Mesh trianguliert ist
+            # self.settings.set(self.settings.USE_WORLD_COORDS, True)
+            self.log("IFC-Modell erfolgreich geladen.")
+        except Exception as e:
+            self.log(f"KRITISCHER FEHLER beim Öffnen der Datei: {e}")
+            raise
+        
         # Zähler für die Analyse
         self.count_all = 0
         self.count_load_bearing = 0
@@ -75,6 +86,19 @@ class IfcExtractor:
     #         "stem": self.ifc_path.stem, # Ergebnis: "21_22 L_TWP_Tragwerksmodell"
     #         "folder": self.ifc_path.parent.name # Ergebnis: "1 Model_Database"
     #     }
+
+
+    def log(self, msg, print_console=True):
+        """Speichert eine Nachricht als Protkoll und gibt sie in der Konsole aus"""
+        # Splittet mehrzeilige Strings sauber auf, damit sie zeilenweise exportiert werden.
+        if print_console:
+            print(msg)
+            
+        for line in str(msg).split('\n'):
+            clean_msg = line.rstrip() # Entfernt nur Leerzeichen am Ende
+            if clean_msg:
+                self.logs.append(clean_msg)
+        return
     
     
     def is_load_bearing(self, product):
@@ -166,7 +190,7 @@ class IfcExtractor:
             origin_x = origin[0]
             origin_y = origin[1]
             origin_z = origin[2]
-            print(f"\tPosition: {origin}") # Debug
+            self.log(f"\tPosition: {origin}", print_console=False) # Debug
 
             # 2. Kordinaten trennen für die Berechnungen
             x_coords = [verts[i] for i in range(0, len(verts), 3)]
@@ -183,19 +207,19 @@ class IfcExtractor:
             centroid_x = centroid[0]
             centroid_y = centroid[1]
             centroid_z = centroid[2]
-            print(f"\tCentroid: {centroid}") # Debug
+            self.log(f"\tCentroid: {centroid}", print_console=False) # Debug
 
             # 4. Bounding Box (AABB als Annäherung für L, B, H)
             l_abs = max(x_coords) - min(x_coords)
             b_abs = max(y_coords) - min(y_coords)
             h_abs = max(z_coords) - min(z_coords)            
             dimensions = (round(l_abs, 3), round(b_abs, 3), round(h_abs, 3))
-            print(f"\tDimensions: {dimensions}") # Debug
+            self.log(f"\tDimensions: {dimensions}", print_console=False) # Debug
 
             # 5. Normiertes L, B, H Tupel
             max_dim = max(l_abs, b_abs, h_abs, 1e-6) # 1e-6 verhindert Division durch Null
             normalized_dim = (round(l_abs/max_dim, 3), round(b_abs/max_dim, 3), round(h_abs/max_dim, 3))
-            print(f"\tNormalized Dimensions: {normalized_dim}") # Debug
+            self.log(f"\tNormalized Dimensions: {normalized_dim}", print_console=False) # Debug
 
             # 6. Volumen und Fläche (über OpenCascade falls verfügbar)
             # Versuch 1: Aus den BaseQuantities des Modells lesen
@@ -212,10 +236,10 @@ class IfcExtractor:
                 est_area, est_vol = self._estimate_mesh_properties(verts, faces)
                 area = area if area > 0 else est_area
                 volume = volume if volume > 0 else est_vol
-            print(f"\tvolume: {volume}, area: {area}") # Debug
+            self.log(f"\tvolume: {volume}, area: {area}", print_console=False) # Debug
 
             ratio_av = round(area / volume, 4) if volume > 0 else 0
-            print(f"\tratio_av: {ratio_av}") # Debug
+            self.log(f"\tratio_av: {ratio_av}", print_console=False) # Debug
 
             # Rückgabe der geometrischen Attribute
             return {
@@ -239,7 +263,7 @@ class IfcExtractor:
             }
         
         except Exception as e:
-            print(f"\tFEHLER: {e}")
+            self.log(f"\tFEHLER in der Geometrie bei {product.Name}: {e}")
             return None
         
 
@@ -249,11 +273,14 @@ class IfcExtractor:
         products = self.model.by_type("IfcProduct")
 
         self.count_all = len(products)
-        print(f"Analysiere {self.count_all} Objekte...")
+        self.log(f"Analysiere {self.count_all} Objekte...")
 
         for i, prod in enumerate(products):
-            print(f"\nPRÜFE OBJEKT {i}: {prod.is_a()} - {prod.Name}") # Debug
-            print(f"\t{prod}") # Debug
+            #Konsolenausgabe
+            if i % 50 == 0 and i > 0:
+                print(f"Fortschritt: {i}/{self.count_all} verarbeitet...")
+            self.log(f"\nPRÜFE OBJEKT {i}: {prod.is_a()} - {prod.Name}", print_console=False) # Debug
+            self.log(f"\t{prod}", print_console=False) # Debug
 
             # SCHRITT 1: Filter Tragend
             if not self.is_load_bearing(prod):
@@ -280,23 +307,23 @@ class IfcExtractor:
                 "features": geom_data
             })
 
-        self.save_to_json(nodes)
+        self.save_results(nodes)
 
 
-    def save_to_json(self, nodes):
-        """Exportiert die Daten als JSON-Datei"""
+    def save_results(self, nodes):
+        """Exportiert die Daten als JSON-Datei und mit Protokoll"""
         if not os.path.exists(self.dir_2_1):
             os.makedirs(self.dir_2_1)
         
         export_data = {
             "graph_info": {
                 "model_stem": self.model_stem,
-                "entites": self.entity_counts
-            },
-            "stats_2_1": {
-                "count_all_ifc_products": self.count_all,
-                "count_load_bearing": self.count_load_bearing,
-                "count_with_geometry": self.count_with_geom
+                "stats_IFC_extraction": {
+                    "count_all_ifc_products": self.count_all,
+                    "count_load_bearing": self.count_load_bearing,
+                    "count_with_geometry": self.count_with_geom,
+                    "entites": self.entity_counts
+                    },
             },
             "nodes": nodes
         }
@@ -304,13 +331,18 @@ class IfcExtractor:
         with open(self.output_json, 'w', encoding='utf-8') as f:
             json.dump(export_data, f, indent=4)
         
-        print(f">>> ERFOLG! {len(nodes)} Knoten extrahiert in: {self.output_json}")
+        # Log-Datei-Export        
+        self.log(f"\n>>> ERFOLG! {len(nodes)} Knoten extrahiert in: {self.output_json}")
         
-        print(f"\n--- ANALYSE ERGEBNIS für {self.model_stem} ---")
-        print(f"Anzahl IfcProducts: \t{self.count_all}")
-        print(f"Davon 'LoadBearing': \t{self.count_load_bearing}")
-        print(f"Davon Geometrie: \t{self.count_with_geom}")
-        print(f"Datei gespeichert: \t{os.path.basename(self.output_json)}")
+        self.log(f"\n--- ZUSAMMENFASSUNG für {self.model_stem} ---")
+        self.log(f"Anzahl IfcProducts: \t{self.count_all}")
+        self.log(f"Tragende Bauteile: \t{self.count_load_bearing}")
+        self.log(f"Davon mit Geometrie: \t{self.count_with_geom}")
+        # self.log(f"JSON gespeichert: \t{os.path.basename(self.output_json)}")
+        # self.log(f"LOG gespeichert: \t{os.path.basename(self.output_log)}")
+
+        with open(self.output_log, 'w', encoding='utf-8') as f:
+            f.write("\n".join(self.logs))
         return nodes
 
 
