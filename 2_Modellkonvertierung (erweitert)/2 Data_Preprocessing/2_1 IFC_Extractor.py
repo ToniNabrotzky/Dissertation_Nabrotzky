@@ -1,23 +1,22 @@
-import os
 import ifcopenshell
 import ifcopenshell.geom
 import ifcopenshell.util.element as element
 import json
 import numpy as np
-# from pathlib import Path
+import os
 
 
 def main():
     # 1. Pfad zum IFC-Modell
     ifc_name = [
-        "21_22 L_TWP_Tragwerksmodell",                  # immer aktiv lassen für Tests
+        # "21_22 L_TWP_Tragwerksmodell",                  # immer aktiv lassen für Tests
         # "22_23 LTWP_221127_Ifc-Allplan", 
         # "23_24 LTWP-V__Dachtragwerk",                 # erledigt
         # "24_25 LTWP-V_250122_02_Vordachmodell",       # aussortiert - zu simpel
         # "24_25 LTWP-V_250122_Kellermodell",           # aussortiert - zu simpel
         # "20200820IFC4_Convenience_store_Renga_4.1"    # aussortiert - zu simpel
         # "47L" 
-        # "20220421MODEL REV01",                        # erledigt
+        "20220421MODEL REV01",                        # erledigt
         # "202102183458-Model",                         # erledigt
         # "ARchiCAD__20200518Yangsan Pr-HARDWARE",      # aussortiert - unhandlich, schlecht modelliert
         # "Grethes-hus-bok-2",                          # erledigt
@@ -66,6 +65,7 @@ class IfcExtractor:
         self.count_all = 0
         self.count_load_bearing = 0
         self.count_with_geom = 0
+        self.entity_counts = {}
 
 
     # def get_file_metadata(self):
@@ -255,21 +255,22 @@ class IfcExtractor:
             print(f"\nPRÜFE OBJEKT {i}: {prod.is_a()} - {prod.Name}") # Debug
             print(f"\t{prod}") # Debug
 
-            # SCHRITT 1: Filter
+            # SCHRITT 1: Filter Tragend
             if not self.is_load_bearing(prod):
                 continue
             self.count_load_bearing += 1
 
-            # SCHRITT 2: Semantik
-            name = prod.Name or "Unnamed"
-            guid = prod.GlobalId
-            entity = prod.is_a()
-
-            # SCHRITT 3: Geometrie
+            # SCHRITT 2: Geometrie
             geom_data = self.extract_geometry_features(prod)
             if not geom_data:
                 continue
             self.count_with_geom += 1
+            
+            # SCHRITT 3: Semantik
+            name = prod.Name or "Unnamed"
+            guid = prod.GlobalId
+            entity = prod.is_a()
+            self.entity_counts[entity] = self.entity_counts.get(entity, 0) + 1
 
             nodes.append({
                 "node_id": len(nodes),
@@ -282,22 +283,35 @@ class IfcExtractor:
         self.save_to_json(nodes)
 
 
-    def save_to_json(self, data):
+    def save_to_json(self, nodes):
         """Exportiert die Daten als JSON-Datei"""
         if not os.path.exists(self.dir_2_1):
             os.makedirs(self.dir_2_1)
         
-        with open(self.output_json, 'w') as f:
-            json.dump(data, f, indent=4)
+        export_data = {
+            "graph_info": {
+                "model_stem": self.model_stem,
+                "entites": self.entity_counts
+            },
+            "stats_2_1": {
+                "count_all_ifc_products": self.count_all,
+                "count_load_bearing": self.count_load_bearing,
+                "count_with_geometry": self.count_with_geom
+            },
+            "nodes": nodes
+        }
         
-        print(f">>> ERFOLG! {len(data)} Knoten extrahiert in: {self.output_json}")
+        with open(self.output_json, 'w', encoding='utf-8') as f:
+            json.dump(export_data, f, indent=4)
+        
+        print(f">>> ERFOLG! {len(nodes)} Knoten extrahiert in: {self.output_json}")
         
         print(f"\n--- ANALYSE ERGEBNIS für {self.model_stem} ---")
-        print(f"Gesamtanzahl IfcProducts: \t{self.count_all}")
-        print(f"Davon mit 'LoadBearing': \t{self.count_load_bearing}")
-        print(f"Davon mit Geometrie: \t{self.count_with_geom}")
+        print(f"Anzahl IfcProducts: \t{self.count_all}")
+        print(f"Davon 'LoadBearing': \t{self.count_load_bearing}")
+        print(f"Davon Geometrie: \t{self.count_with_geom}")
         print(f"Datei gespeichert: \t{os.path.basename(self.output_json)}")
-        return data
+        return nodes
 
 
 
