@@ -6,7 +6,8 @@ from openpyxl.utils import get_column_letter
 import itertools
 import json
 import os
-"""Merke: Ich muss noch sicher weiterlaufen lassen können, wenn ein Blatt fehlt (curve, rib, edge, surface)"""
+import datetime
+"""Merke Funktion2: Ich muss noch Login in csv integrieren. Code steht bereit"""
 
 
 
@@ -387,7 +388,19 @@ def analyze_saf_connections(
 
 
 def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
-    print(f"Lese Datei ein: {model_stem}...\n")
+    # --- Logger-Funktion einrichten ---
+    logs = []
+    def log_msg(msg, console_only=False):
+        print(msg)
+        if not console_only:
+            # Splittet mehrzeilige Strings sauber auf, damit sie zeilenweise exportiert werden.
+            for line in str(msg).split('\n'):
+                clean_msg = line.strip()
+                if clean_msg:
+                    logs.append(clean_msg)
+        return                
+
+    log_msg(f"Lese Datei ein: {model_stem}...\n")
     # --- Schritt 0: Dateipfade vorbereiten ---
     # Basis-Pfad-Definition
     base_dir = os.path.dirname(__file__)
@@ -416,7 +429,7 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
     try:
         xls = pd.ExcelFile(path_saf)
     except Exception as e:
-        print(f"Kritischer Fehler beim Öffnen der Excel-Datei: {e}")
+        log_msg(f"Kritischer Fehler beim Öffnen der Excel-Datei: {e}")
         return
     
     sheet_names = xls.sheet_names
@@ -425,7 +438,7 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
     required_sheets = ['StructuralPointConnection', 'StructuralCurveMember', 'StructuralSurfaceMember']
     for sheet in required_sheets:
         if sheet not in sheet_names:
-            print(f"KRITISCHER FEHLER: Das zwingend erforderliche Blatt '{sheet}' fehlt in der Datei.")
+            log_msg(f"KRITISCHER FEHLER: Das zwingend erforderliche Blatt '{sheet}' fehlt in der Datei.")
             return
     # Zwingende Blätter einlesen
     # Als Input geht sowohl xls als auch path_saf --> Zur Demonstration habe ich beides drin
@@ -437,7 +450,7 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
     if 'StructuralCurveMemberRib' in sheet_names:
         df_rib = pd.read_excel(path_saf, sheet_name='StructuralCurveMemberRib')
     else:
-        print(f"[INFO] Tabellenblatt 'StructuralCurveMemberRib' fehlt. Rippen werden ignoriert.")
+        log_msg(f"[INFO] Tabellenblatt 'StructuralCurveMemberRib' fehlt. Rippen werden ignoriert.")
         df_rib = pd.DataFrame(columns=['Name', 'Type', 'Id', '2D member', 'Nodes'])
     
     # Spalten bereinigen
@@ -461,11 +474,11 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
                 saf_to_ifc[saf_name] = ifc_guid
                 all_ifc_guids.add(ifc_guid)
     
-    print(f"Gefundene einzigartige IFC-Bauteile: {len(all_ifc_guids)}")
+    log_msg(f"Gefundene einzigartige IFC-Bauteile: {len(all_ifc_guids)}")
 
     # Total Labels: Alle möglichen Kombinationen im ganzen Bauwerk (ungerichtet)
     Total_Labels = set(tuple(sorted(comb)) for comb in itertools.combinations(all_ifc_guids, 2))
-    print(f"Generierte Total_Labels (Alle möglichen Kanten): {len(Total_Labels)}")
+    log_msg(f"Generierte Total_Labels (Alle möglichen Kanten): {len(Total_Labels)}")
     # ----------------------------------------------------
 
 
@@ -534,8 +547,8 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
         
         Rule_Labels.update(node_rule_edges)
     
-    print(f"Generierte GT_Labels: {len(GT_Labels)}")
-    print(f"Generierte Rule_Labels: {len(Rule_Labels)}")
+    log_msg(f"Generierte GT_Labels: {len(GT_Labels)}")
+    log_msg(f"Generierte Rule_Labels: {len(Rule_Labels)}")
     # ----------------------------------------------------
 
 
@@ -551,17 +564,17 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
     recall = tp / (tp + fn) if (tp + fn) > 0 else 0
     f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
 
-    print("\n=== AUSWERTUNG DER KONVERTER-REGELN (Metriken) ===")
-    print(f"True Positives (TP):  {tp:<6} (Richtig erkannt)")
-    print(f"True Negatives (TN):  {tn:<6} (Richtig ignoriert)")
-    print(f"False Positives (FP): {fp:<6} (Zu viel verbunden)")
-    print(f"False Negatives (FN): {fn:<6} (Vergessen)")
-    print("-" * 50)
-    print(f"Accuracy:  {accuracy:.4f} ({(accuracy*100):.2f} %)")
-    print(f"Precision: {precision:.4f} ({(precision*100):.2f} %)")
-    print(f"Recall:    {recall:.4f} ({(recall*100):.2f} %)")
-    print(f"F1-Score:  {f1_score:.4f}")
-    print("==================================================")
+    log_msg("\n=== AUSWERTUNG DER KONVERTER-REGELN (Metriken) ===")
+    log_msg(f"True Positives (TP):  {tp:<6} (Richtig erkannt)")
+    log_msg(f"True Negatives (TN):  {tn:<6} (Richtig ignoriert)")
+    log_msg(f"False Positives (FP): {fp:<6} (Zu viel verbunden)")
+    log_msg(f"False Negatives (FN): {fn:<6} (Vergessen)")
+    log_msg("-" * 50)
+    log_msg(f"Accuracy:  {accuracy:.4f} ({(accuracy*100):.2f} %)")
+    log_msg(f"Precision: {precision:.4f} ({(precision*100):.2f} %)")
+    log_msg(f"Recall:    {recall:.4f} ({(recall*100):.2f} %)")
+    log_msg(f"F1-Score:  {f1_score:.4f}")
+    log_msg("==================================================")
     # ----------------------------------------------------
 
 
@@ -572,21 +585,37 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
     
     export_data = set_to_dict_list(Total_Labels, 'Total') + \
                 set_to_dict_list(GT_Labels, 'GT') + \
-                set_to_dict_list(Rule_Labels, 'Rule')
+                set_to_dict_list(Rule_Labels, 'Rule')    
     
-    df_export = pd.DataFrame(export_data)
-    
-    # JSON-Export
+    # --- JSON-Export ---
     if export_json:
         with open(output_json, 'w', encoding='utf-8') as f:
             json.dump(export_data, f, indent=4)
+    log_msg(f"JSON gespeichert: {output_json}", console_only=True)
     
-    # CSV Export
+    # --- CSV-Export ---
+    df_export = pd.DataFrame(export_data)
+
+    # Sicherstellen, dass die Tabelle lang genug ist, um gesamtes Log aufzunehmen
+    max_len = max(len(df_export), len(logs))
+    if len(df_export) < max_len:
+        empty_rows = pd.DataFrame([{}] * (max_len - len(df_export)))
+        df_export = pd.concat([df_export, empty_rows], ignore_index=True)
+
+    logs_padded = logs + [""] * (max_len - len(logs))
+
+    # 2 Spalten freilassen (über Leerzeichen im Header differenziert)
+    df_export[' '] = ""   # Leere Spalte 1
+    df_export['  '] = ""  # Leere Spalte 2
+    df_export['Konsolen-Protokoll'] = logs_padded
+    # --------------------------------------------------------
+
     if export_csv:
         df_export.to_csv(output_csv, index=False, sep=';', encoding='utf-8-sig')
+        log_msg(f"CSV gespeichert:  {output_csv}", console_only=True)
 
     print(f"\n>>> ERFOLG: GNN-Labels wurden in '{output_csv}' und '{output_json}' gespeichert. <<<")
-    print(f"\n--- ___KOPIERE DEN TEXT IN DIE CSV !!___ ---")
+    # print(f"\n--- ___KOPIERE DEN TEXT IN DIE CSV !!___ ---")
     # ----------------------------------------------------
 
 
