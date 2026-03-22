@@ -13,7 +13,8 @@ from mpl_toolkits.mplot3d import Axes3D
 
 def main():
     # prepare_gnn_graph("21_22 L_TWP_Tragwerksmodell")
-    prepare_gnn_graph("23_24 LTWP-V__Dachtragwerk")
+    # prepare_gnn_graph("23_24 LTWP-V__Dachtragwerk")
+    prepare_gnn_graph("20220421MODEL REV01")
     return
 
 
@@ -131,10 +132,25 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D", pos_nodes="Centroi
         if mode == "3D":
             z = [pos[n_id][2] for n_id in node_ids]
             ax.scatter(x, y, z, c=color, marker=marker, s=150, label=ent,  # type: ignore
-                    edgecolors='white', linewidths=0.5, zorder=2)
+                    edgecolors='white', linewidths=0.5, zorder=5)
         else:
             ax.scatter(x, y, c=color, marker=marker, s=150, label=ent, 
-                    edgecolors='white', linewidths=0.5, zorder=2)
+                    edgecolors='white', linewidths=0.5, zorder=5)
+    
+    # --- Knoten-IDs plotten ---
+    for n in nodes:
+        nid = n["node_id"]
+        coords = pos[nid]
+
+        if mode == "3D":
+            # Kleiner Offset in Z-Richtung für bessere Lesbarkeit
+            ax.text(coords[0], coords[1], coords[2] + 0.05, str(nid),  # type: ignore
+                    fontsize=8, color='black', fontweight='bold', zorder=10)
+        else:
+            # Kleiner Offset in Y-Richtung
+            ax.text(coords[0], coords[1] + 0.01, str(nid),
+                    fontsize=8, color='black', fontweight='bold', zorder=10) # type: ignore
+            
     
     # --- Graph layouten ---
     if mode == "3D":
@@ -198,7 +214,10 @@ def prepare_gnn_graph(model_stem):
 
     # --- 1. Knoten laden, mappen und verarbeiten ---
     with open(path_nodes, 'r', encoding='utf-8') as f:
-        nodes_data = json.load(f)
+        nodes_raw = json.load(f)
+    
+    graph_info = nodes_raw.get("graph_info", {})
+    nodes_data = nodes_raw.get('nodes', [])
     
     # --- Vorbereitung der Normierung ---
     # Sammeln aller Koordinaten, um Min/Max für das gesamte Modell zu bestimmen
@@ -264,13 +283,19 @@ def prepare_gnn_graph(model_stem):
     # --- 2. Ground Truth (GT) Labels laden ---
     # Es werden nur Paare gespeichert, die wirklich lasten übertragen (GT).
     gt_pairs = set()
+    # stats_rule_conversion = {}
+
     with open(path_labels, 'r', encoding='utf-8') as f:
-        labels_data = json.load(f)
-        for entry in labels_data:
-            if entry.get("Label_Type") == "GT":
-                # Sortiertes Tuple für ungerichteten Vergleich
-                pair = tuple(sorted([entry["GUID_A"], entry["GUID_B"]]))
-                gt_pairs.add(pair)
+        labels_raw = json.load(f)
+
+    stats_rule_conversion = labels_raw.get("stats_Rule_conversion", {})
+    labels_list = labels_raw.get('edge_labels', [])
+
+    for entry in labels_list:
+        if entry.get("Label_Type") == "GT":
+            # Sortiertes Tuple für ungerichteten Vergleich
+            pair = tuple(sorted([entry["GUID_A"], entry["GUID_B"]]))
+            gt_pairs.add(pair)
     
 
     # --- 3. Kanten und Distanzen verarbeiten ---
@@ -385,18 +410,24 @@ def prepare_gnn_graph(model_stem):
 
 
     # --- 5. Export ---
-    output_data = {
-        "graph_info": {
-            "model_stem": model_stem,
-            "rbf_gamma": RBF_GAMMA,
-            "entities": ALLOWED_ENTITIES,
-            "stats": {
-                "nodes": node_count,
-                "edges": edge_count,
-                "gt_edges": gt_count,
-                "gt_percentage": round(gt_ratio, 2)
-            }
+    # Ohne Kopie greifen beide Variablen auf selben Speicherplatz zurück
+    final_graph_info = graph_info.copy()
+    final_graph_info.update({
+        "stats_Rule_conversion": stats_rule_conversion,
+        "stats_GNN_preprocessing": {
+            "nodes": node_count,
+            "edges": edge_count,
+            "gt_edges": gt_count,
+            "gt_percentage": round(gt_ratio, 2)
         },
+        "preprocessing_config": {
+            "rbf_gamma": RBF_GAMMA,
+            "allowed_entites": ALLOWED_ENTITIES
+        }
+    })
+
+    output_data = {
+        "graph_info": final_graph_info,
         "nodes": processed_nodes,
         "edges": processed_edges
     }
