@@ -6,10 +6,6 @@ from openpyxl.utils import get_column_letter
 import itertools
 import json
 import os
-import datetime
-"""Merke Funktion2: Ich muss noch Login in csv integrieren. Code steht bereit"""
-
-
 
 
 def main():
@@ -24,7 +20,7 @@ def main():
     # generate_gnn_labels('SAF_Analyser_Test')
     # generate_gnn_labels('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')                  # erledigt
     # generate_gnn_labels('23_24 LTWP-V__Dachtragwerk 0D Ausr Anschluss')                   # erledigt
-    generate_gnn_labels('20220421MODEL REV01 0D Ausr Anschluss')                   # erledigt
+    generate_gnn_labels('20220421MODEL REV01 0D Ausr Anschluss')                          # erledigt
     return
 
 
@@ -391,6 +387,7 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
     # --- Logger-Funktion einrichten ---
     logs = []
     def log_msg(msg, console_only=False):
+        """Speichert eine Nachricht als Protkoll und gibt sie in der Konsole aus"""
         print(msg)
         if not console_only:
             # Splittet mehrzeilige Strings sauber auf, damit sie zeilenweise exportiert werden.
@@ -535,7 +532,7 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
         # 1. Fehlende Verbindungen abziehen
         if fehlend_str == 'alle':
             # Konverter hat hier keine Elemente miteinander verbunden, trotz Vollkopplung.
-            node_rule_edges.clear()  
+            node_rule_edges.clear() 
         elif fehlend_str != 'nan':
             edges_to_remove = parse_edges(row.get('fehlend'))
             node_rule_edges.difference_update(edges_to_remove)
@@ -583,18 +580,36 @@ def generate_gnn_labels(model_stem, export_csv=True, export_json=True):
     def set_to_dict_list(edge_set, label_type):
         return [{'GUID_A': edge[0], 'GUID_B': edge[1], 'Label_Type': label_type} for edge in edge_set]
     
-    export_data = set_to_dict_list(Total_Labels, 'Total') + \
+    edge_labels_list = set_to_dict_list(Total_Labels, 'Total') + \
                 set_to_dict_list(GT_Labels, 'GT') + \
-                set_to_dict_list(Rule_Labels, 'Rule')    
+                set_to_dict_list(Rule_Labels, 'Rule')
+    
+    json_export_data = {
+        "stats_Rule_conversion": {
+            "IFC elements": len(all_ifc_guids),
+            "total_edges": total_possible,
+            "count_GT_labels": len(GT_Labels),
+            "count_Rule_labels": len(Rule_Labels),
+            "TP": tp,
+            "TN": tn,
+            "FP": fp,
+            "FN": fn,
+            "Accuracy": round(accuracy, 4),
+            "Precision": round(precision, 4),
+            "Recall": round(recall, 4),
+            "F1_Score": round(f1_score, 4)
+        },
+        "edge_labels": edge_labels_list
+    }
     
     # --- JSON-Export ---
     if export_json:
         with open(output_json, 'w', encoding='utf-8') as f:
-            json.dump(export_data, f, indent=4)
+            json.dump(json_export_data, f, indent=4)
     log_msg(f"JSON gespeichert: {output_json}", console_only=True)
     
     # --- CSV-Export ---
-    df_export = pd.DataFrame(export_data)
+    df_export = pd.DataFrame(edge_labels_list)
 
     # Sicherstellen, dass die Tabelle lang genug ist, um gesamtes Log aufzunehmen
     max_len = max(len(df_export), len(logs))
