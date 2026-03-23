@@ -1,11 +1,11 @@
-import pandas as pd
+import itertools
+import json
 import openpyxl
+import os
+import pandas as pd
 from openpyxl.styles import PatternFill
 from openpyxl.formatting.rule import FormulaRule
 from openpyxl.utils import get_column_letter
-import itertools
-import json
-import os
 
 
 def main():

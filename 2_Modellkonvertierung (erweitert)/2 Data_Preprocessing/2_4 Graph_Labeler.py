@@ -1,22 +1,18 @@
 import json
-import csv
-import os
 import math
-import pandas as pd
 import matplotlib.pyplot as plt
 import networkx as nx
+import os
+import pandas as pd
 from mpl_toolkits.mplot3d import Axes3D
-
-
-
+"""Merke: SVGs sind noch immer weiß und buggy"""
 
 
 def main():
     # prepare_gnn_graph("21_22 L_TWP_Tragwerksmodell")
     # prepare_gnn_graph("23_24 LTWP-V__Dachtragwerk")
-    prepare_gnn_graph("20220421MODEL REV01")
+    # prepare_gnn_graph("20220421MODEL REV01")
     return
-
 
 
 # Konfiguration der festen IFC-Entitäten für konsistentes One-Hot-Encoding
@@ -65,8 +61,16 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D", pos_nodes="Centroi
     nodes = graph_data["nodes"]
     edges = graph_data["edges"]
 
+    if not nodes:
+        print(f"Warnung: Keine Knoten zum Plotten für {model_stem} vorhanden.")
+        plt.close(fig)
+        return
+
+    # Zugriff auf Positionsdaten der Knoten für das Plotting
     if mode == "3D":
         ax = fig.add_subplot(111, projection='3d')
+        # Sicherstellen, dass die Achsen einen Hintergrund haben
+        ax.set_facecolor('white')
 
         # Echte Urpsrungskoordinaten in 3D
         if pos_nodes == "Centroid":
@@ -83,6 +87,8 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D", pos_nodes="Centroi
                     for n in nodes}
     else:
         ax = fig.add_subplot(111)
+        # Sicherstellen, dass die Achsen einen Hintergrund haben
+        ax.set_facecolor('white')
 
         # Automatisches Knotenlayout in 2D
         G = nx.Graph()
@@ -154,9 +160,10 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D", pos_nodes="Centroi
     
     # --- Graph layouten ---
     if mode == "3D":
-        ax.set_title(f"Graph ({mode} - {pos_nodes}): {model_stem}")
+        title_type = f"Graph ({mode} - {pos_nodes}): {model_stem}"
     else:
-        ax.set_title(f"Graph ({mode}): {model_stem}")
+        title_type = f"Graph ({mode}): {model_stem}"
+    ax.set_title(title_type)
     ax.legend(loc='upper left', bbox_to_anchor=(1, 1), fontsize='small')
     
     if mode == "3D":
@@ -167,7 +174,10 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D", pos_nodes="Centroi
         # Im Auto-Layout machen Koordinatenachsen keinen Sinn
         ax.set_axis_off()
 
-    plt.tight_layout()
+    # Layout optimieren und Rendern erzwingen
+    # plt.tight_layout()
+    fig.subplots_adjust(right=0.85)
+    fig.canvas.draw()
 
     # --- Speichern ---
     filename_png = f"{model_stem} {mode}{f' {pos_nodes}' if mode == '3D' else ''}.png"
@@ -180,7 +190,7 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D", pos_nodes="Centroi
 
     # Speichern als SVG
     save_path = os.path.join(output_dir, filename_svg)
-    plt.savefig(save_path, dpi=300)
+    plt.savefig(save_path, format='svg', bbox_inches='tight', transparent=False)
     plt.close(fig) # Schließt den Plot automatisch
     return
 
@@ -212,12 +222,18 @@ def prepare_gnn_graph(model_stem):
     print(f"Verarbeite Modell: {model_stem}...")
 
 
-    # --- 1. Knoten laden, mappen und verarbeiten ---
+    # --- 1. Knoten laden imd Metadaten extrahieren ---
     with open(path_nodes, 'r', encoding='utf-8') as f:
         nodes_raw = json.load(f)
     
     graph_info = nodes_raw.get("graph_info", {})
     nodes_data = nodes_raw.get('nodes', [])
+
+    # --- Mapping initialisieren für den schnellen Zugriff auf Meta-Daten ---
+    guid_to_id = {}
+    guid_to_info = {}
+    processed_nodes = []
+    entity_map = {entity: i for i, entity in enumerate(ALLOWED_ENTITIES)}
     
     # --- Vorbereitung der Normierung ---
     # Sammeln aller Koordinaten, um Min/Max für das gesamte Modell zu bestimmen
@@ -225,25 +241,12 @@ def prepare_gnn_graph(model_stem):
         all_x = [n["features"]["centroid_x"] for n in nodes_data]
         all_y = [n["features"]["centroid_y"] for n in nodes_data]
         all_z = [n["features"]["centroid_z"] for n in nodes_data]
+        min_x, max_x = min(all_x), max(all_x)
+        min_y, max_y = min(all_y), max(all_y)
+        min_z, max_z = min(all_z), max(all_z)
     except KeyError:
-        # Fallback falls centroid_x fehlt und origin_x verwendet wird
-        all_x = [n["features"]["origin_x"] for n in nodes_data]
-        all_y = [n["features"]["origin_y"] for n in nodes_data]
-        all_z = [n["features"]["origin_z"] for n in nodes_data]
-    
-    min_x, max_x = min(all_x), max(all_x)
-    min_y, max_y = min(all_y), max(all_y)
-    min_z, max_z = min(all_z), max(all_z)
-
-    def normalize(val, v_min, v_max):
-        if v_max == v_min: return 0.0
-        return (val - v_min) / (max_x - min_x) # Hier wird oft durch die größte Ausdehnung normiert oder achsenspezifisch
-
-    guid_to_id = {}
-    processed_nodes = []
-
-    # Entitty Mapping Map erstellen (für die Dokumentation im Output)
-    entity_map = {entity: i for i, entity in enumerate(ALLOWED_ENTITIES)}
+        # Fallback falls centroid_x fehlt
+        min_x = max_x = min_y = max_y = min_z = max_z = 0
 
     for node in nodes_data:
         guid = node.get("guid")
@@ -251,7 +254,12 @@ def prepare_gnn_graph(model_stem):
             print(f"WARNUNG: Knoten ohne GUID übersprungen: {node}")
             continue
         
+        # Mapping für die Kanten-Metadaten
         guid_to_id[guid] = node["node_id"]
+        guid_to_info[guid] = {
+            "name": node.get("name", "Unknown"),
+            "entity": node.get("entity", "IfcBuildingElementProxy")
+        }
 
         # Zugriff auf Positionsdaten der Knoten aus den features.
         # Primär zählt centroid. Falls nicht vorhanden wird der origin gewählt.
@@ -259,6 +267,9 @@ def prepare_gnn_graph(model_stem):
         cx = feat.get("centroid_x", feat.get("origin_x", 0))
         cy = feat.get("centroid_y", feat.get("origin_y", 0))
         cz = feat.get("centroid_z", feat.get("origin_z", 0))
+
+        # Flache Koordinaten für Plotting
+        node["x"], node["y"], node["z"] = cx, cy, cz
 
         # Normierung berechnen (0.0 bis 1.0)
         feat["normed_x"] = round((cx - min_x) / (max_x - min_x) if max_x != min_x else 0.0, 6)
@@ -276,8 +287,21 @@ def prepare_gnn_graph(model_stem):
         node["entity_processed"] = target_entity
         feat["entity_one_hot_idx"] = entity_map[target_entity]
 
-        # Dokumentation
-        processed_nodes.append(node)
+        # --- Dokumentation ---
+        # Neue Knoten-Struktur: x, y, z VOR features
+        new_node = {
+            "node_id": node["node_id"],
+            "guid": guid,
+            "name": guid_to_info[guid]["name"],
+            "entity": guid_to_info[guid]["entity"],
+            "entity_processed": target_entity,
+            "x": cx,
+            "y": cy,
+            "z": cz,
+            "features": feat
+        }
+        processed_nodes.append(new_node)
+        # processed_nodes.append(node)
 
 
     # --- 2. Ground Truth (GT) Labels laden ---
@@ -333,7 +357,7 @@ def prepare_gnn_graph(model_stem):
         # proximity = exp(-gamma * distance^2) --> Wert von 1 bei Distanz=0, ansonsten sinkt der Wert
         proximity = math.exp(-RBF_GAMMA * (distance ** 2))
 
-        # Label bestimmen - Überträgt Last? (Ground Truth Vergleich)
+        # Label bestimmen - Überträgt Last? (Ground Truth Vergleich mit gemessenen Distanzen)
         is_load_bearing = edge_pair in gt_pairs
 
         processed_edges.append({
@@ -346,7 +370,11 @@ def prepare_gnn_graph(model_stem):
             },
             "meta": {
                 "guid_a": guid_a,
-                "guid_b": guid_b
+                "guid_b": guid_b,
+                "name_a": guid_to_info[guid_a]["name"],
+                "name_b": guid_to_info[guid_b]["name"],
+                "entity_a": guid_to_info[guid_a]["entity"],
+                "entity_b": guid_to_info[guid_b]["entity"]
             }
         })
 
