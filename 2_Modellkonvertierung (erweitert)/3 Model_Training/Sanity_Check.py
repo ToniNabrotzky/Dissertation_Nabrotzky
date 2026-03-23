@@ -1,12 +1,13 @@
-import os
 import json
+import os
 import torch
 import torch.nn as nn
+from pathlib import Path
 import torch.nn.functional as F
 from torch_geometric.data import Data
 from torch_geometric.nn import GINEConv, GATv2Conv, SAGEConv, NNConv, global_mean_pool
 from torch_geometric.loader import DataLoader
-from pathlib import Path
+
 
 # ==========================================
 # KONFIGURATION (Modularer Aufbau)
@@ -33,6 +34,30 @@ CONFIG = {
     "epochs": 2000,      # Sanity Check braucht meist etwas länger zum Overfitten
     "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
 }
+
+
+class Logger:
+    def __init__(self, file_path):
+        self.file_path = file_path
+        self.logs = []
+
+    def log(self, msg, print_console=True):
+        """Speichert eine Nachricht als Protokoll und gibt sie in der Konsole aus"""
+        if print_console:
+            print(msg)
+            
+        for line in str(msg).split('\n'):
+            clean_msg = line.rstrip() # Entfernt Leerzeichen am Ende
+            if clean_msg:
+                self.logs.append(clean_msg)
+        return 
+
+    def save_to_file(self):
+        """Schreibt alle gesammelten Logs in die Ziel-Datei"""
+        with open(self.file_path, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(self.logs))
+        print(f"\nProtokoll erfolgreich gespeichert unter: {self.file_path}")
+
 
 class GNNEdgeClassifier(nn.Module):
     def __init__(self, node_in_dim, edge_in_dim, hidden_dim, 
@@ -123,15 +148,16 @@ def load_single_sanity_graph(file_path):
         feat = []
         # --- MODULARE AUSWAHL DER KNOTENMERKMALE ---
         # Abgewählte Merkmale müssen auskommentiert werden
-        feat.extend(node['features']['origin'])         # 3 Features (x, y, z lokal)
-        feat.extend(node['features']['dimensions'])       # 3 Features (L, B, H)
-        feat.extend(node['features']['norm_dimensions'])  # 3 Features (L, B, H normiert)
-        feat.append(node['features']['volume'])           # 1 Feature
-        feat.append(node['features']['area'])             # 1 Feature
-        feat.append(node['features']['ratio_av'])         # 1 Feature
+        feat.extend(node['features']['origin'])           # 3 Features (x, y, z lokal)
+        feat.extend(node['features']['centroid'])         # 3 Features (x, y, z lokal)
         feat.append(node['features']['centroid_x'])       # 1 Feature (global X)
         feat.append(node['features']['centroid_y'])       # 1 Feature (global Y)
         feat.append(node['features']['centroid_z'])       # 1 Feature (global Z)
+        feat.extend(node['features']['dimensions'])       # 3 Features (L, B, H)
+        feat.extend(node['features']['norm_dimensions'])  # 3 Features (L, B, H normiert)
+        feat.append(node['features']['area'])             # 1 Feature
+        feat.append(node['features']['volume'])           # 1 Feature
+        feat.append(node['features']['ratio_av'])         # 1 Feature
         feat.append(node['features']['normed_x'])         # 1 Feature (normed X)
         feat.append(node['features']['normed_y'])         # 1 Feature (normed Y)
         feat.append(node['features']['normed_z'])         # 1 Feature (normed Z)
@@ -156,7 +182,7 @@ def load_single_sanity_graph(file_path):
     
     return Data(x=x, edge_index=edge_index, edge_attr=edge_attr, y=y)
 
-def run_sanity_check():
+def run_sanity_check(graph):
     script_dir = Path(__file__).parent
     # Korrigierter Pfad zum Ordner der Trainingsdaten
     data_path = script_dir.parent / "2 Data_Preprocessing" / "2_4 Graph_Labeled"
@@ -167,9 +193,13 @@ def run_sanity_check():
         print(f"DEBUG: Suche in {data_path.absolute()}")
         print("FEHLER: Kein pasender Labeled Graph gefunden.")
         return
+    target_file = json_files[graph]
+    target_name = target_file.name
     
-    target_file = json_files[0]
-    print(f"--- Sanity Check: Lade {target_file.name} ---")
+    # Logger initialisieren
+    logger = Logger(script_dir / f"Sanity_Check_Log {target_name}.txt")
+
+    logger.log(f"--- Sanity Check: Lade {target_name} ---")
 
     try:
         data = load_single_sanity_graph(target_file)
@@ -191,7 +221,17 @@ def run_sanity_check():
     # BCEWithLogitsLoss kombiniert Sigmoid + Binary Cross Entropy für Stabilität
     criterion = torch.nn.BCEWithLogitsLoss()
 
-    print(f"Training mit {data.num_node_features} Knotenmerkmalen gestartet...")
+    logger.log(f"Training mit {data.num_node_features} Knotenmerkmalen gestartet...")
+    logger.log(f"Datenbank: {target_name}", print_console=False)
+    logger.log(f"CONFIG: ", print_console=False)
+    logger.log(f"\tmodel_type: {CONFIG['model_type']}", print_console=False)
+    logger.log(f"\tnum_layers: {CONFIG['num_layers']}", print_console=False)
+    logger.log(f"\tactivation: {CONFIG['activation']}", print_console=False)
+    logger.log(f"\tdropout: {CONFIG['dropout']}", print_console=False)
+    logger.log(f"\tlr: {CONFIG['lr']}", print_console=False)
+    logger.log(f"\tepochs: {CONFIG['epochs']}", print_console=False)
+    logger.log(f"\tedge_dim: {CONFIG['edge_dim']}", print_console=False)
+
 
     model.train()
     for epoch in range(CONFIG["epochs"]):
@@ -208,12 +248,17 @@ def run_sanity_check():
                 preds = (torch.sigmoid(out) > 0.5).float()
                 correct = (preds == data.y).sum().item()
                 acc = correct / data.y.size(0) # type: ignore
-                print(f"Epoche {epoch+1:03d} | Loss: {loss.item():.4f} | Accuracy: {acc:.2%}")
+                logger.log(f"Epoche {epoch+1:03d} | Loss: {loss.item():.4f} | Accuracy: {acc:.2%}")
     
-    print(f"--- Sanity Check abgeschlossen ---")
+    logger.log(f"--- Sanity Check abgeschlossen ---")
+
+    # Am Ende Protokoll speichern
+    logger.save_to_file()
+    return
+
 
 if __name__ == "__main__":
-    run_sanity_check()
+    run_sanity_check(0)
 
 
 

@@ -493,6 +493,266 @@ Epoche 2000 | Loss: 30.5220 | Accuracy: 76.32%
 
 
 
+Versuch 10:
+Änderungen: Modellwechsel zurück auf GINE. Neues Testmodell (23_24 Vordach)
+Auswirkung: Genauigkeit schneller bei 100%. Loss sehr gering.
+Datenbank: 23_24 LTWP-V__Dachtragwerk
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.001,
+    "epochs": 2000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 23_24 LTWP-V__Dachtragwerk Graph.json --- 
+Training mit 19 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 0.8542 | Accuracy: 75.88% 
+Epoche 050 | Loss: 0.4812 | Accuracy: 77.41% 
+Epoche 100 | Loss: 0.3911 | Accuracy: 82.46% 
+Epoche 150 | Loss: 0.2701 | Accuracy: 88.60% 
+Epoche 200 | Loss: 0.2024 | Accuracy: 92.32% 
+Epoche 250 | Loss: 0.1508 | Accuracy: 94.08% 
+Epoche 300 | Loss: 0.1070 | Accuracy: 94.96% 
+Epoche 350 | Loss: 0.0962 | Accuracy: 95.39% 
+Epoche 400 | Loss: 0.0638 | Accuracy: 96.93% 
+Epoche 450 | Loss: 0.0558 | Accuracy: 97.81% 
+Epoche 500 | Loss: 0.0313 | Accuracy: 98.90% 
+Epoche 550 | Loss: 0.0300 | Accuracy: 98.90% 
+Epoche 600 | Loss: 0.0298 | Accuracy: 98.90% 
+Epoche 650 | Loss: 0.0187 | Accuracy: 99.12% 
+Epoche 700 | Loss: 0.0157 | Accuracy: 99.34% 
+Epoche 750 | Loss: 0.0160 | Accuracy: 99.34% 
+Epoche 800 | Loss: 0.0061 | Accuracy: 100.00% 
+Epoche 850 | Loss: 0.0082 | Accuracy: 99.78% 
+Epoche 900 | Loss: 0.0129 | Accuracy: 99.34% 
+Epoche 950 | Loss: 0.0080 | Accuracy: 99.78% 
+Epoche 1000 | Loss: 0.0038 | Accuracy: 100.00% 
+Epoche 1050 | Loss: 0.0225 | Accuracy: 98.68% 
+Epoche 1100 | Loss: 0.0072 | Accuracy: 99.78% 
+Epoche 1150 | Loss: 0.0030 | Accuracy: 100.00% 
+Epoche 1200 | Loss: 0.0020 | Accuracy: 100.00% 
+Epoche 1250 | Loss: 0.0010 | Accuracy: 100.00% 
+Epoche 1300 | Loss: 0.0028 | Accuracy: 100.00% 
+Epoche 1350 | Loss: 0.0006 | Accuracy: 100.00% 
+Epoche 1400 | Loss: 0.0018 | Accuracy: 100.00% 
+Epoche 1450 | Loss: 0.0019 | Accuracy: 100.00% 
+Epoche 1500 | Loss: 0.0014 | Accuracy: 100.00% 
+Epoche 1550 | Loss: 0.0006 | Accuracy: 100.00% 
+Epoche 1600 | Loss: 0.0024 | Accuracy: 99.78% 
+Epoche 1650 | Loss: 0.0004 | Accuracy: 100.00% 
+Epoche 1700 | Loss: 0.0007 | Accuracy: 100.00% 
+Epoche 1750 | Loss: 0.0066 | Accuracy: 99.78% 
+Epoche 1800 | Loss: 0.0002 | Accuracy: 100.00% 
+Epoche 1850 | Loss: 0.0232 | Accuracy: 99.12% 
+Epoche 1900 | Loss: 0.0073 | Accuracy: 99.56% 
+Epoche 1950 | Loss: 0.0476 | Accuracy: 99.56% 
+Epoche 2000 | Loss: 0.0036 | Accuracy: 100.00% 
+--- Sanity Check abgeschlossen --- 
 
 
 
+
+Versuch 11:
+Änderungen: Neues Testmodell (MODEL REV01)
+Auswirkung: Genauigkeit stagniert bei 85%. Loss stagniert bei 0.37.
+Datenbank: 20220421MODEL REV01
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.001,
+    "epochs": 2000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 20220421MODEL REV01 Graph.json --- 
+Training mit 19 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 375.4400 | Accuracy: 14.55% 
+Epoche 050 | Loss: 2.8993 | Accuracy: 79.83% 
+Epoche 100 | Loss: 1.5517 | Accuracy: 82.46% 
+Epoche 150 | Loss: 1.1440 | Accuracy: 85.03% 
+Epoche 200 | Loss: 0.6581 | Accuracy: 80.41% 
+Epoche 250 | Loss: 0.4741 | Accuracy: 86.02% 
+Epoche 300 | Loss: 0.4808 | Accuracy: 84.20% 
+Epoche 350 | Loss: 0.4500 | Accuracy: 86.16% 
+Epoche 400 | Loss: 0.4196 | Accuracy: 86.08% 
+Epoche 450 | Loss: 0.4174 | Accuracy: 86.06% 
+Epoche 500 | Loss: 0.4209 | Accuracy: 85.85% 
+Epoche 550 | Loss: 0.5277 | Accuracy: 86.39% 
+Epoche 600 | Loss: 0.4034 | Accuracy: 86.39% 
+Epoche 650 | Loss: 0.4187 | Accuracy: 85.72% 
+Epoche 700 | Loss: 0.4021 | Accuracy: 86.35% 
+Epoche 750 | Loss: 0.3966 | Accuracy: 86.45% 
+Epoche 800 | Loss: 0.3954 | Accuracy: 86.39% 
+Epoche 850 | Loss: 0.3945 | Accuracy: 86.45% 
+Epoche 900 | Loss: 0.3970 | Accuracy: 86.45% 
+Epoche 950 | Loss: 0.3963 | Accuracy: 86.45% 
+Epoche 1000 | Loss: 0.3937 | Accuracy: 86.48% 
+Epoche 1050 | Loss: 0.3933 | Accuracy: 86.41% 
+Epoche 1100 | Loss: 0.3895 | Accuracy: 86.48% 
+Epoche 1150 | Loss: 0.3917 | Accuracy: 86.45% 
+Epoche 1200 | Loss: 0.3888 | Accuracy: 86.48% 
+Epoche 1250 | Loss: 0.3871 | Accuracy: 86.48% 
+Epoche 1300 | Loss: 0.3885 | Accuracy: 86.50% 
+Epoche 1350 | Loss: 0.3865 | Accuracy: 86.56% 
+Epoche 1400 | Loss: 0.3894 | Accuracy: 86.20% 
+Epoche 1450 | Loss: 0.3825 | Accuracy: 86.48% 
+Epoche 1500 | Loss: 0.3837 | Accuracy: 86.48% 
+Epoche 1550 | Loss: 0.3838 | Accuracy: 86.54% 
+Epoche 1600 | Loss: 0.3828 | Accuracy: 86.48% 
+Epoche 1650 | Loss: 0.3792 | Accuracy: 86.54% 
+Epoche 1700 | Loss: 0.3816 | Accuracy: 86.50% 
+Epoche 1750 | Loss: 0.3794 | Accuracy: 86.54% 
+Epoche 1800 | Loss: 0.3791 | Accuracy: 86.54% 
+Epoche 1850 | Loss: 0.3782 | Accuracy: 86.58% 
+Epoche 1900 | Loss: 0.3783 | Accuracy: 86.58% 
+Epoche 1950 | Loss: 0.3773 | Accuracy: 86.62% 
+Epoche 2000 | Loss: 0.3764 | Accuracy: 86.62% 
+--- Sanity Check abgeschlossen --- 
+
+
+
+
+Versuch 11:
+Änderungen: Neues Testmodell (MODEL REV01) statt 3m und 16% Positives nun 1,5m und 30% Positives
+Auswirkung: Genauigkeit stagniert bei 78%. Loss stagniert bei 0.4. Ergebnisse schlechter, aber Lerneffekt war noch da (wenn auch sehr gering)
+Datenbank: 20220421MODEL REV01
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.001,
+    "epochs": 2000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 20220421MODEL REV01 Graph.json --- 
+Training mit 19 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 118.3534 | Accuracy: 30.65% 
+Epoche 050 | Loss: 1.3114 | Accuracy: 54.07% 
+Epoche 100 | Loss: 0.6627 | Accuracy: 65.99% 
+Epoche 150 | Loss: 0.6015 | Accuracy: 68.83% 
+Epoche 200 | Loss: 0.6042 | Accuracy: 70.34% 
+Epoche 250 | Loss: 0.5961 | Accuracy: 70.44% 
+Epoche 300 | Loss: 0.5814 | Accuracy: 70.29% 
+Epoche 350 | Loss: 0.5741 | Accuracy: 70.67% 
+Epoche 400 | Loss: 0.5798 | Accuracy: 70.06% 
+Epoche 450 | Loss: 0.5698 | Accuracy: 71.19% 
+Epoche 500 | Loss: 0.5661 | Accuracy: 71.38% 
+Epoche 550 | Loss: 0.5632 | Accuracy: 70.81% 
+Epoche 600 | Loss: 0.5605 | Accuracy: 70.96% 
+Epoche 650 | Loss: 0.5593 | Accuracy: 70.96% 
+Epoche 700 | Loss: 0.5591 | Accuracy: 71.29% 
+Epoche 750 | Loss: 0.5567 | Accuracy: 71.81% 
+Epoche 800 | Loss: 0.5495 | Accuracy: 72.14% 
+Epoche 850 | Loss: 0.5468 | Accuracy: 71.85% 
+Epoche 900 | Loss: 0.5423 | Accuracy: 72.56% 
+Epoche 950 | Loss: 0.5437 | Accuracy: 71.76% 
+Epoche 1000 | Loss: 0.5555 | Accuracy: 72.19% 
+Epoche 1050 | Loss: 0.5421 | Accuracy: 72.37% 
+Epoche 1100 | Loss: 0.5304 | Accuracy: 72.47% 
+Epoche 1150 | Loss: 0.5353 | Accuracy: 72.85% 
+Epoche 1200 | Loss: 0.5253 | Accuracy: 73.18% 
+Epoche 1250 | Loss: 0.5309 | Accuracy: 73.13% 
+Epoche 1300 | Loss: 0.5184 | Accuracy: 73.70% 
+Epoche 1350 | Loss: 0.5056 | Accuracy: 74.27% 
+Epoche 1400 | Loss: 0.5087 | Accuracy: 74.79% 
+Epoche 1450 | Loss: 0.5060 | Accuracy: 73.75% 
+Epoche 1550 | Loss: 0.4917 | Accuracy: 74.83%
+Epoche 1600 | Loss: 0.4853 | Accuracy: 75.21%
+Epoche 1650 | Loss: 0.4784 | Accuracy: 75.45%
+Epoche 1700 | Loss: 0.4679 | Accuracy: 76.44%
+Epoche 1750 | Loss: 0.4726 | Accuracy: 75.54%
+Epoche 1800 | Loss: 0.4630 | Accuracy: 76.63%
+Epoche 1850 | Loss: 0.4520 | Accuracy: 76.92%
+Epoche 1900 | Loss: 0.4628 | Accuracy: 75.73%
+Epoche 1950 | Loss: 0.4431 | Accuracy: 77.34%
+Epoche 2000 | Loss: 0.4336 | Accuracy: 78.29%
+--- Sanity Check abgeschlossen ---
+
+
+
+
+Versuch 12:
+Änderungen: Neues Testmodell (MODEL REV01) statt 1,5m und 30% Positives nun 1,0m und 50% Positives
+Auswirkung: Genauigkeit deutlich besser bei 95%. Loss besser bei 0,14. Lerneffekt wäre noch weiter da. --> Ein GT-Percentage von 50% war hilfreich.
+Datenbank: 20220421MODEL REV01
+
+CONFIG = {
+    # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    # Auswahl: GATv2, GINE, NN
+    "model_type": "GINE",
+    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    # Auswahl: ELU, ReLU, LeakyReLU
+    "activation": "ELU",
+    "dropout": 0.1,
+    "lr": 0.001,
+    "epochs": 2000,      # Sanity Check braucht meist etwas länger zum Overfitten
+    "edge_dim": 1       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
+}
+
+--- Sanity Check: Lade 20220421MODEL REV01 Graph.json --- 
+Training mit 19 Knotenmerkmalen gestartet... 
+Epoche 001 | Loss: 40.9216 | Accuracy: 49.77% 
+Epoche 050 | Loss: 1.0795 | Accuracy: 50.39% 
+Epoche 100 | Loss: 0.7239 | Accuracy: 57.15% 
+Epoche 150 | Loss: 0.6659 | Accuracy: 61.20% 
+Epoche 200 | Loss: 0.6470 | Accuracy: 61.59% 
+Epoche 250 | Loss: 0.6350 | Accuracy: 64.39% 
+Epoche 300 | Loss: 0.6140 | Accuracy: 66.41% 
+Epoche 350 | Loss: 0.5906 | Accuracy: 65.86% 
+Epoche 400 | Loss: 0.5678 | Accuracy: 69.28% 
+Epoche 450 | Loss: 0.5513 | Accuracy: 70.37% 
+Epoche 500 | Loss: 0.5466 | Accuracy: 70.37% 
+Epoche 550 | Loss: 0.5241 | Accuracy: 70.14% 
+Epoche 600 | Loss: 0.5142 | Accuracy: 73.79% 
+Epoche 650 | Loss: 0.4822 | Accuracy: 76.05% 
+Epoche 700 | Loss: 0.4707 | Accuracy: 76.75% 
+Epoche 750 | Loss: 0.4418 | Accuracy: 79.16% 
+Epoche 800 | Loss: 0.4103 | Accuracy: 80.09% 
+Epoche 850 | Loss: 0.3912 | Accuracy: 79.63% 
+Epoche 900 | Loss: 0.3579 | Accuracy: 83.13% 
+Epoche 950 | Loss: 0.3445 | Accuracy: 82.58% 
+Epoche 1000 | Loss: 0.3968 | Accuracy: 80.25% 
+Epoche 1050 | Loss: 0.3016 | Accuracy: 85.30% 
+Epoche 1100 | Loss: 0.3106 | Accuracy: 84.84% 
+Epoche 1150 | Loss: 0.2874 | Accuracy: 86.31% 
+Epoche 1200 | Loss: 0.2593 | Accuracy: 87.56% 
+Epoche 1250 | Loss: 0.2174 | Accuracy: 90.67% 
+Epoche 1300 | Loss: 0.2122 | Accuracy: 90.67% 
+Epoche 1350 | Loss: 0.2334 | Accuracy: 88.26% 
+Epoche 1400 | Loss: 0.2808 | Accuracy: 85.93% 
+Epoche 1450 | Loss: 0.2079 | Accuracy: 90.98% 
+Epoche 1500 | Loss: 0.2028 | Accuracy: 90.28% 
+Epoche 1550 | Loss: 0.1805 | Accuracy: 92.07% 
+Epoche 1600 | Loss: 0.1794 | Accuracy: 91.45% 
+Epoche 1650 | Loss: 0.2105 | Accuracy: 90.05% 
+Epoche 1700 | Loss: 0.2045 | Accuracy: 91.45% 
+Epoche 1750 | Loss: 0.1550 | Accuracy: 93.47% 
+Epoche 1800 | Loss: 0.1565 | Accuracy: 93.31% 
+Epoche 1850 | Loss: 0.1409 | Accuracy: 94.40% 
+Epoche 1900 | Loss: 0.1243 | Accuracy: 95.02% 
+Epoche 1950 | Loss: 0.1605 | Accuracy: 93.31% 
+Epoche 2000 | Loss: 0.1595 | Accuracy: 92.38% 
+--- Sanity Check abgeschlossen --- 
