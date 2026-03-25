@@ -1,3 +1,4 @@
+import glob
 import json
 import math
 import matplotlib.pyplot as plt
@@ -12,6 +13,8 @@ def main():
     # prepare_gnn_graph("21_22 L_TWP_Tragwerksmodell")
     # prepare_gnn_graph("23_24 LTWP-V__Dachtragwerk")
     # prepare_gnn_graph("20220421MODEL REV01")
+    # prepare_gnn_graph("202102183458-Model")
+    # prepare_gnn_graph("Grethes-hus-bok-2")
     return
 
 
@@ -186,12 +189,11 @@ def plot_graph(graph_data, output_dir, model_stem, mode="2D", pos_nodes="Centroi
     # Speichern als PNG
     save_path = os.path.join(output_dir, filename_png)
     plt.savefig(save_path, dpi=300)
-    plt.close(fig) # Schließt den Plot automatisch
 
     # Speichern als SVG
     save_path = os.path.join(output_dir, filename_svg)
     plt.savefig(save_path, format='svg', bbox_inches='tight', transparent=False)
-    plt.close(fig) # Schließt den Plot automatisch
+    plt.close(fig) # Schließt den Plot automatisch. Wichtig erst am Ende, sonst entstehen weiße Plots da Graph gelöscht wurde
     return
 
 
@@ -209,14 +211,25 @@ def prepare_gnn_graph(model_stem):
     dir_2_4 = os.path.join(base_dir, "2_4 Graph_Labeled")
 
     # Dateipfade zusammenbauen
+    # Flexible Suche für die Distanz-Excel-Datei
+    search_pattern = os.path.join(dir_2_2, f"{model_stem}*Distance.xlsx")
+    found_dist_files = glob.glob(search_pattern) # Ergebnis ist Liste an gefundenen Dateien
+    distance_filename = found_dist_files[0]
+    
+    if not found_dist_files:
+        print(f"Fehler: Keine Distanz-Datei für Muster '{model_stem}*Distance.xlsx' gefunden.")
+        return
+    
     path_nodes = os.path.join(dir_2_1, f"{model_stem} Nodes.json")
-    path_distance = os.path.join(dir_2_2, f"{model_stem} Distance.xlsx")
+    path_distance = os.path.join(dir_2_2, distance_filename)
     path_labels = os.path.join(dir_2_3, f"{model_stem} Labels.json")
     path_output = os.path.join(dir_2_4, f"{model_stem} Graph.json")
 
     # Validierung der Existenz
+    for p in [path_nodes, path_distance, path_labels]:
+        print(f"Lese ein: {p}")
     if not all(os.path.exists(p) for p in [path_nodes, path_distance, path_labels]):
-        print(f"FEHLER: Nicht alle Quelldateien für {model_stem} gefunden.")
+        print(f"FEHLER: Nicht alle Quelldateien für {model_stem} gefunden. MISSING: {p}") # type: ignore
         return
     
     print(f"Verarbeite Modell: {model_stem}...")

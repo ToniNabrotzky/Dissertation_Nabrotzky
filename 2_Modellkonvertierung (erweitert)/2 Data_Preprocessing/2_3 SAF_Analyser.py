@@ -14,18 +14,23 @@ def main():
     # analyze_saf_connections('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')              # erledigt
     # analyze_saf_connections('23_24 LTWP-V__Dachtragwerk 0D Ausr Anschluss')               # erledigt
     # analyze_saf_connections('20220421MODEL REV01 0D Ausr Anschluss')                      # erledigt
+    # analyze_saf_connections('202102183458-Model 0d Ausr Anschluss')                       # erledigt
+    # analyze_saf_connections('Grethes-hus-bok-2 0d Ausr Anschluss')                         # erledigt
+    analyze_saf_connections('Vectorworks2016-IFC2x3-EQUA_IDA_ICE 0d Ausr Anschluss')                         # erledigt
 
 
     ### GNN-Label-Generierung ausführen --> Erst nach annotierter Anschlussanalyse
     # generate_gnn_labels('SAF_Analyser_Test')
     # generate_gnn_labels('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')                  # erledigt
     # generate_gnn_labels('23_24 LTWP-V__Dachtragwerk 0D Ausr Anschluss')                   # erledigt
-    generate_gnn_labels('20220421MODEL REV01 0D Ausr Anschluss')                          # erledigt
+    # generate_gnn_labels('20220421MODEL REV01 0D Ausr Anschluss')                          # erledigt
+    # generate_gnn_labels('202102183458-Model 0d Ausr Anschluss')                          # erledigt
+    # generate_gnn_labels('Grethes-hus-bok-2 0d Ausr Anschluss')                          # erledigt
     return
 
 
 def analyze_saf_connections(
-        model_stem, export_excel=True, export_csv=True,
+        model_stem, export_excel=True, export_csv=False,
         start_index=0, end_index=None,
         check_types=True
         ):
@@ -120,8 +125,8 @@ def analyze_saf_connections(
     
     # Mapping von SAF-Typen (Englisch) zu Output-Typen (Deutsch)
     type_mapping = {
-        'Column': 'Stütze',
         'Beam': 'Balken',
+        'Column': 'Stütze',
         'Member': 'Verband',
         'Slab': 'Platte',
         'Wall': 'Wand'

@@ -17,12 +17,12 @@ def main():
         # "24_25 LTWP-V_250122_Kellermodell",           # aussortiert - zu simpel
         # "20200820IFC4_Convenience_store_Renga_4.1"    # aussortiert - zu simpel
         # "47L" 
-        "20220421MODEL REV01",                        # erledigt
+        # "20220421MODEL REV01",                        # erledigt
         # "202102183458-Model",                         # erledigt
         # "ARchiCAD__20200518Yangsan Pr-HARDWARE",      # aussortiert - unhandlich, schlecht modelliert
         # "Grethes-hus-bok-2",                          # erledigt
         # "Ifc2x3_SampleCastle",                        # erledigt --> Hatte Fehler ab 250??
-        # "Vectorworks2016-IFC2x3-EQUA_IDA_ICE"         # erledigt
+        # "Vectorworks2016-IFC2x3-EQUA_IDA_ICE"         # erledigt --> Von 282 Tragenden Bauteilen haben nur 255 Geometrie?
     ]
 
     # Klasse instanziieren und Prozess starten
