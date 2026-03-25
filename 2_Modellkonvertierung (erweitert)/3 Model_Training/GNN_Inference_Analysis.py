@@ -5,6 +5,19 @@ from torch_geometric.data import Data
 from pathlib import Path
 
 
+def main():
+    SCRIPT_DIR = Path(__file__).parent
+
+    # Pfade anpassen - Modell: GNN-Modell | Graph: JSON-Graph
+    MODEL_FILE = SCRIPT_DIR / "Test_Model_Count_5" / "best_model_overall.pth"
+    GRAPH_FILE = SCRIPT_DIR.parent / "2 Data_Preprocessing" / "2_4 Graph_Labeled" / "202102183458-Model Graph.json"    
+    run_inference(MODEL_FILE, GRAPH_FILE)
+
+    MODEL_FILE = SCRIPT_DIR / "Test_Model_Count_5" / "best_model_overall.pth"
+    GRAPH_FILE = SCRIPT_DIR.parent / "2 Data_Preprocessing" / "2_4 Graph_Labeled" / "21_22 L_TWP_Tragwerksmodell Graph.json"
+    run_inference(MODEL_FILE, GRAPH_FILE)
+    return
+
 class Logger:
     def __init__(self, file_path):
         self.file_path = file_path
@@ -82,6 +95,13 @@ class GNNEdgeClassifier(nn.Module):
 
 
 def run_inference(model_path, graph_json_path):
+    # Prüfe die Existenz der Eingabe-Files
+    if not model_path.exists():
+        raise FileNotFoundError(f"Datei nicht gefunden. GNN-Modell: {model_path}")
+    if not graph_json_path.exists():
+        raise FileNotFoundError(f"Datei nicht gefunden. JSON-Graph: {graph_json_path}")
+
+
     # Logger initialisieren
     logger = Logger(model_path.parent / f"Inference_Report_{graph_json_path.stem}.txt")
 
@@ -192,13 +212,4 @@ def run_inference(model_path, graph_json_path):
 
 
 if __name__ == "__main__":
-    # Pfade anpassen
-    SCRIPT_DIR = Path(__file__).parent
-    MODEL_FILE = SCRIPT_DIR / "saved_models" / "best_model_overall.pth"
-    # Wähle hier eine Datei aus dem Preprocssing Ordner
-    GRAPH_FILE = SCRIPT_DIR.parent / "2 Data_Preprocessing" / "2_4 Graph_Labeled" / "21_22 L_TWP_Tragwerksmodell Graph.json"
-    
-    if MODEL_FILE.exists() and GRAPH_FILE.exists():
-        run_inference(MODEL_FILE, GRAPH_FILE)
-    else:
-        print(f"Datei nicht gefunden.\nModell: {MODEL_FILE.exists()}\nGraph: {GRAPH_FILE.exists()}")
+    main()
