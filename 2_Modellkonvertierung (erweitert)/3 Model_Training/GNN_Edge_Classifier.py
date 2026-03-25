@@ -27,17 +27,34 @@ from torch_geometric.loader import DataLoader
 CONFIG = {
     # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
     # Auswahl: GATv2, GINE, NN
-    "model_type": "GINE",
-    "hidden_dim": 128,   # Sinvolle Annahmen: 32, 64, 128
-    "num_layers": 3,    # Anzahl der Message-Passing-Schichten
+    "model_type": "GINE", # Default= GINE
+    "hidden_dim": 128,   # Default= 128 | Sinvolle Annahmen: 32, 64, 128
+    "num_layers": 5,    # Default= 5 | Anzahl der Message-Passing-Schichten
     # Auswahl: ELU, ReLU, LeakyReLU
     "activation": "ELU",
-    "dropout": 0.1,
-    "lr": 0.001,
-    "epochs": 1000,      # Sanity Check braucht meist etwas länger zum Overfitten
-    "edge_dim": 1,       # Dimensionen der Kantenmerkmale (z.B. nur Distanz)
-    "batch_size": 4,
-    "model_save_dir": "saved_models" # Ordner für die pth-Dateien
+    "dropout": 0.2, # Default= 0.1
+    "lr": 0.001, # Default= 0.001
+    "epochs": 500,      # Default= 500 | Sanity Check braucht meist etwas länger zum Overfitten (1000-2000 Epochen)
+    "edge_dim": 1,       # Default= 1 | Dimensionen der Kantenmerkmale (z.B. nur Distanz) | 0 deaktiviert Kantenmerkmale
+    "batch_size": 12,
+    "threshold": 0.5,    # Default= 0.5 | Sicherheit, die das Modell braucht um eine Kante als WAHR zu labeln.
+    "model_save_dir": f"Test_00_DB5_DefaultSettings", # Ordner für die pth-Dateien
+    "node_features": [   # Ausgewählte Knotenmerkmale
+        "origin",               # 3 Features (x, y, z lokal)
+        "centroid",             # 3 Features (x, y, z lokal)
+        "centroid_x",           # 1 Feature (global X)
+        "centroid_y",           # 1 Feature (global Y)
+        "centroid_z",           # 1 Feature (global Z)
+        "dimensions",           # 3 Features (L, B, H)
+        "norm_dimensions",      # 3 Features (L, B, H normiert)
+        "area",                 # 1 Feature
+        "volume",               # 1 Feature
+        "ratio_av",             # 1 Feature
+        "normed_x",             # 1 Feature (normed X)
+        "normed_y",             # 1 Feature (normed Y)
+        "normed_z",             # 1 Feature (normed Z)
+        "entity_one_hot_idx"    # 1 Feature (Klassen-Index)
+    ]
 }
 
 
@@ -71,6 +88,7 @@ class GNNEdgeClassifier(nn.Module):
 
         self.layers = nn.ModuleList()
         self.model_type = model_type
+        self.edge_dim = CONFIG['edge_dim']
 
         # Aktivierungsfunktion wählen
         if activation == "ReLU":
@@ -102,6 +120,9 @@ class GNNEdgeClassifier(nn.Module):
     
     def create_conv_layer(self, in_dim, out_dim, edge_dim):
         """Erstellt den gewünschten GNN-Layer Typ"""
+        # Wenn edge_dim == 0, wird ein Platzhalter-Kanal von 1 für Layer, die edge_attr erzwingne (wie GINE)
+        eff_edge_dim = max(1, self.edge_dim)
+
         if self.model_type == "GINE":
             # GINE braucht ein MLP für die Knoten-Transformation
             nn_gin = nn.Sequential(
@@ -109,11 +130,12 @@ class GNNEdgeClassifier(nn.Module):
                 self.act,
                 nn.Linear(out_dim, out_dim)
             )
-            return GINEConv(nn=nn_gin, edge_dim=edge_dim)
+            return GINEConv(nn=nn_gin, edge_dim=eff_edge_dim)
         
         elif self.model_type == "GATv2":
-            # GATv2 nutzt Attention-Mechanismen
-            return GATv2Conv(in_dim, out_dim, edge_dim=edge_dim)
+            # GATv2 nutzt Attention-Mechanismen | Kann edge_dim=None händeln
+            return GATv2Conv(in_dim, out_dim, 
+                             edge_dim=self.edge_dim if self.edge_dim > 0 else None)
         
         elif self.model_type == "NN":
             # NNConv nutzt ein MLP, um aus Kantenmerkmalen eine Gewichtsmatrix zu erzeugen
@@ -128,9 +150,17 @@ class GNNEdgeClassifier(nn.Module):
     def forward(self, data):
         x, edge_index, edge_attr = data.x, data.edge_index, data.edge_attr
 
+        # 0. edge_dim prüfen: Wenn edge_dim == 0, werden Kantenmerkmale neutralisiert
+        if self.edge_dim == 0:
+            # Erzeuge DummyVektor aus 1en, falls Layer (wie GINE) ihn erwartet
+            edge_attr = torch.ones((edge_attr.size(0), 1), device=edge_attr.device)
+
         # 1. Message Passing (Knotenrepräsentation lernen)
-        for i, conv in enumerate(self.layers):
-            if self.model_type in ["GINE", "GATv2", "NN"]:
+        for conv in self.layers:
+            if self.model_type == "GINE" or self.model_type == "NN":
+                # Modulare Übergabe basierend auf Layer-Typ und Config
+                x = conv(x, edge_index, edge_attr)
+            elif self.model_type == "GATv2" and self.edge_dim > 0:
                 x = conv(x, edge_index, edge_attr)
             else:
                 x = conv(x, edge_index)
@@ -160,21 +190,12 @@ def load_graph_data(file_path):
     for node in nodes:
         feat = []
         # --- MODULARE AUSWAHL DER KNOTENMERKMALE ---
-        # Abgewählte Merkmale müssen auskommentiert werden
-        feat.extend(node['features']['origin'])                 # 3 Features (x, y, z lokal)
-        feat.extend(node['features']['centroid'])               # 3 Features (x, y, z lokal)
-        feat.append(node['features']['centroid_x'])             # 1 Feature (global X)
-        feat.append(node['features']['centroid_y'])             # 1 Feature (global Y)
-        feat.append(node['features']['centroid_z'])             # 1 Feature (global Z)
-        feat.extend(node['features']['dimensions'])             # 3 Features (L, B, H)
-        feat.extend(node['features']['norm_dimensions'])        # 3 Features (L, B, H normiert)
-        feat.append(node['features']['area'])                   # 1 Feature
-        feat.append(node['features']['volume'])                 # 1 Feature
-        feat.append(node['features']['ratio_av'])               # 1 Feature
-        feat.append(node['features']['normed_x'])               # 1 Feature (normed X)
-        feat.append(node['features']['normed_y'])               # 1 Feature (normed Y)
-        feat.append(node['features']['normed_z'])               # 1 Feature (normed Z)
-        feat.append(node['features']['entity_one_hot_idx'])     # 1 Feature (Klassen-Index)
+        for feature_name in CONFIG["node_features"]:
+            val = node['features'][feature_name]
+            if isinstance(val, list):
+                feat.extend(val)
+            else:
+                feat.append(val)
         # -------------------------------------------
         node_features_list.append(feat)
     
@@ -190,8 +211,7 @@ def load_graph_data(file_path):
     edge_attr = torch.tensor([[float(e['features']['proximity_activation'])] for e in edges], dtype=torch.float)
 
     # Labels: Nutze 'load_transfer' (True/False wir zu 1.0/0.0)
-    y = torch.tensor([float(e['features']['load_transfer']) for e in edges],
-                     dtype=torch.float)
+    y = torch.tensor([float(e['features']['load_transfer']) for e in edges],dtype=torch.float)
     
     return Data(x=x, edge_index=edge_index, edge_attr=edge_attr, y=y, filename=file_path.name)
 
@@ -214,8 +234,11 @@ def train_one_fold(train_graphs, test_graph, fold_nr, save_dir, logger):
 
     optimizer = torch.optim.Adam(model.parameters(), lr=CONFIG["lr"])
     # BCEWithLogitsLoss kombiniert Sigmoid + Binary Cross Entropy für Stabilität
-    pos_weight = 1
-    criterion = torch.nn.BCEWithLogitsLoss(pos_weight= torch.tensor(pos_weight))
+    pos_weight = None # Bei Bedarf z.B. 0.5 oder 1
+    if pos_weight:
+        criterion = torch.nn.BCEWithLogitsLoss(pos_weight= torch.tensor(pos_weight))
+    else:
+        criterion = torch.nn.BCEWithLogitsLoss()
 
     best_fold_f1 = -1.0
     best_model_state = None
@@ -240,7 +263,7 @@ def train_one_fold(train_graphs, test_graph, fold_nr, save_dir, logger):
             model.eval()
             with torch.no_grad():
                 val_out = model(test_graph)
-                val_preds = (torch.sigmoid(val_out) > 0.5).float()
+                val_preds = (torch.sigmoid(val_out) > CONFIG['threshold']).float()
                 f1 = f1_score(test_graph.y.cpu(), val_preds.cpu(), zero_division=0)
 
                 if f1 > best_fold_f1:
@@ -262,7 +285,7 @@ def train_one_fold(train_graphs, test_graph, fold_nr, save_dir, logger):
     model.eval()
     with torch.no_grad():
         out = model(test_graph)
-        preds = (torch.sigmoid(out) > 0.5).float().cpu().numpy()
+        preds = (torch.sigmoid(out) > CONFIG['threshold']).float().cpu().numpy()
         y_true = test_graph.y.cpu().numpy()
         
         acc = accuracy_score(y_true, preds)
@@ -270,7 +293,7 @@ def train_one_fold(train_graphs, test_graph, fold_nr, save_dir, logger):
         prec = precision_score(y_true, preds, zero_division=0)
         rec = recall_score(y_true, preds, zero_division=0)
 
-    logger.log(f"RESULT Fold {fold_nr+1}: Acc: {acc:.2%}, F1: {f1:.2f}, Prec: {prec:.2f}, Rec: {rec:.2f}")
+    logger.log(f"RESULT Fold {fold_nr+1} (Threshold {CONFIG['threshold']}): Acc: {acc:.2%}, F1: {f1:.2f}, Prec: {prec:.2f}, Rec: {rec:.2f}")
     return {"acc": acc, "f1": f1, "prec": prec, "rec": rec, "state_dict": best_model_state}
 
 
@@ -297,6 +320,21 @@ def run_loo_training():
     logger.log(f"Lade {len(json_files)} Graphen in den Speicher...")
     all_data = [load_graph_data(f) for f in json_files]
 
+    # Logge Konfiguration der Architektur
+    logger.log(f"CONFIG: ", print_console=False)
+    logger.log(f"\tmodel_type: {CONFIG['model_type']}", print_console=False)
+    logger.log(f"\thidden_dim: {CONFIG['hidden_dim']}", print_console=False)
+    logger.log(f"\tnum_layers: {CONFIG['num_layers']}", print_console=False)
+    logger.log(f"\tactivation: {CONFIG['activation']}", print_console=False)
+    logger.log(f"\tdropout: {CONFIG['dropout']}", print_console=False)
+    logger.log(f"\tlr: {CONFIG['lr']}", print_console=False)
+    logger.log(f"\tepochs: {CONFIG['epochs']}", print_console=False)
+    logger.log(f"\tedge_dim: {CONFIG['edge_dim']}", print_console=False)
+    logger.log(f"\tbatch_size: {CONFIG['batch_size']}", print_console=False)
+    logger.log(f"\tthreshold: {CONFIG['threshold']}", print_console=False)
+    logger.log(f"\tnode_features: {', '.join(CONFIG['node_features'])}", print_console=False)
+
+    # Initiiere Statistik-Variablen
     all_results = []
     global_best_f1 = -1.0
     global_best_state = None
