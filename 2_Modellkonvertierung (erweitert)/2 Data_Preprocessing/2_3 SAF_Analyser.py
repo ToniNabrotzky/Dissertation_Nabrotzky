@@ -1,5 +1,6 @@
 import itertools
 import json
+import math
 import openpyxl
 import os
 import pandas as pd
@@ -10,29 +11,91 @@ from openpyxl.utils import get_column_letter
 
 def main():
     ### Anschlussanalyse ausführen
-    # analyze_saf_connections('SAF_Analyser_Test')
+    analyze_saf_connections('SAF_Analyser_Test - Kopie', check_internal_nodes=True)
     # analyze_saf_connections('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')              # erledigt
     # analyze_saf_connections('23_24 LTWP-V__Dachtragwerk 0D Ausr Anschluss')               # erledigt
     # analyze_saf_connections('20220421MODEL REV01 0D Ausr Anschluss')                      # erledigt
     # analyze_saf_connections('202102183458-Model 0d Ausr Anschluss')                       # erledigt
-    # analyze_saf_connections('Grethes-hus-bok-2 0d Ausr Anschluss')                         # erledigt
-    analyze_saf_connections('Vectorworks2016-IFC2x3-EQUA_IDA_ICE 0d Ausr Anschluss')                         # erledigt
+    # analyze_saf_connections('Grethes-hus-bok-2 0d Ausr Anschluss')                        # erledigt
+    # analyze_saf_connections('Vectorworks2016-IFC2x3-EQUA_IDA_ICE 0d Ausr Anschluss')      # erledigt
 
 
     ### GNN-Label-Generierung ausführen --> Erst nach annotierter Anschlussanalyse
-    # generate_gnn_labels('SAF_Analyser_Test')
+    # generate_gnn_labels('SAF_Analyser_Test - Kopie')
     # generate_gnn_labels('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')                  # erledigt
     # generate_gnn_labels('23_24 LTWP-V__Dachtragwerk 0D Ausr Anschluss')                   # erledigt
     # generate_gnn_labels('20220421MODEL REV01 0D Ausr Anschluss')                          # erledigt
-    # generate_gnn_labels('202102183458-Model 0d Ausr Anschluss')                          # erledigt
-    # generate_gnn_labels('Grethes-hus-bok-2 0d Ausr Anschluss')                          # erledigt
+    # generate_gnn_labels('202102183458-Model 0d Ausr Anschluss')                           # erledigt
+    # generate_gnn_labels('Grethes-hus-bok-2 0d Ausr Anschluss')                            # erledigt
     return
+
+
+# --- Geometrische Hilfsfunktionen für die Prüfung interner Knoten ---
+def _distance_3d(p1, p2):
+    return math.sqrt((p1[0]-p2[0])**2 + (p1[1]-p2[1])**2 + (p1[2]-p2[2])**2)
+
+def _is_point_on_segment(p, a, b, tol=1e-3):
+    """Prüft, ob Punkt p auf der Strecke ab liegt (mit Toleranz in Metern)."""
+    d_ab = _distance_3d(a, b)
+    if d_ab < 1e-6: return False
+    d_ap = _distance_3d(a, p)
+    d_pb = _distance_3d(p, b)
+    return abs(d_ap + d_pb - d_ab) < tol
+
+def _is_point_in_polygon_3d(p, poly_points, tol=1e-3):
+    """Prüft, ob Punkt p innerhalb eines 3D-Polygons oder auf dessen Rand liegt."""
+    if len(poly_points) < 3: return False
+    p0 = poly_points[0]
+    p1 = poly_points[1]
+    normal = None
+    # Finde die Ebene des Polygons
+    for i in range(2, len(poly_points)):
+        p2 = poly_points[i]
+        v1 = (p1[0]-p0[0], p1[1]-p0[1], p1[2]-p0[2])
+        v2 = (p2[0]-p0[0], p2[1]-p0[1], p2[2]-p0[2])
+        nx = v1[1]*v2[2] - v1[2]*v2[1]
+        ny = v1[2]*v2[0] - v1[0]*v2[2]
+        nz = v1[0]*v2[1] - v1[1]*v2[0]
+        length = math.sqrt(nx*nx + ny*ny + nz*nz)
+        if length > 1e-6:
+            normal = (nx/length, ny/length, nz/length)
+            break
+    
+    # Fallback, falls alle Punkte kollinear sind
+    if not normal:
+        for i in range(len(poly_points)-1):
+            if _is_point_on_segment(p, poly_points[i], poly_points[i+1], tol): return True
+        return _is_point_on_segment(p, poly_points[-1], poly_points[0], tol)
+        
+    # Ist der Punkt auf derselben Ebene?
+    v_p = (p[0]-p0[0], p[1]-p0[1], p[2]-p0[2])
+    if abs(v_p[0]*normal[0] + v_p[1]*normal[1] + v_p[2]*normal[2]) > tol: 
+        return False
+        
+    # Auf dominante Achse projizieren (2D Ray-Casting)
+    nx_abs, ny_abs, nz_abs = abs(normal[0]), abs(normal[1]), abs(normal[2])
+    if nz_abs >= nx_abs and nz_abs >= ny_abs: p_2d, poly_2d = (p[0], p[1]), [(pt[0], pt[1]) for pt in poly_points]
+    elif ny_abs >= nx_abs and ny_abs >= nz_abs: p_2d, poly_2d = (p[0], p[2]), [(pt[0], pt[2]) for pt in poly_points]
+    else: p_2d, poly_2d = (p[1], p[2]), [(pt[1], pt[2]) for pt in poly_points]
+        
+    x, y = p_2d
+    n = len(poly_2d)
+    inside = False
+    p1x, p1y = poly_2d[0]
+    for i in range(n + 1):
+        p2x, p2y = poly_2d[i % n]
+        if math.hypot(p2x - p1x, p2y - p1y) > 1e-6 and abs(math.hypot(x - p1x, y - p1y) + math.hypot(p2x - x, p2y - y) - math.hypot(p2x - p1x, p2y - p1y)) < tol: return True
+        if min(p1y, p2y) < y <= max(p1y, p2y) and x <= max(p1x, p2x):
+            if p1y != p2y and (p1x == p2x or x <= (y - p1y) * (p2x - p1x) / (p2y - p1y) + p1x): inside = not inside
+        p1x, p1y = p2x, p2y
+    return inside
+# ----------------------------------------------------------------------
 
 
 def analyze_saf_connections(
         model_stem, export_excel=True, export_csv=False,
-        start_index=0, end_index=None,
-        check_types=True
+        start_index=0, end_index=None, check_types=True,
+        check_internal_nodes=True
         ):
     """
     Kurz Aufbau erklärt:
@@ -129,6 +192,7 @@ def analyze_saf_connections(
         'Column': 'Stütze',
         'Member': 'Verband',
         'Slab': 'Platte',
+        'Plate': 'Platte',
         'Wall': 'Wand'
     }
     # ----------------------------------------------------
@@ -161,6 +225,20 @@ def analyze_saf_connections(
                 elif node:
                     # Wenn der Knoten nicht leer ist, aber im Dictionary fehlt, wird er hier gesammelt
                     missing_nodes.add(node)
+                    
+    # Koordinaten der Knoten extrahieren, falls geometrische Analyse aktiv ist
+    points_dict = {}
+    if check_internal_nodes and not df_nodes.empty:
+        x_col = next((c for c in df_nodes.columns if c in ['X', 'x', 'Coord X', 'Coordinate X', 'Coordinate X [m]']), None)
+        y_col = next((c for c in df_nodes.columns if c in ['Y', 'y', 'Coord Y', 'Coordinate Y', 'Coordinate Y [m]']), None)
+        z_col = next((c for c in df_nodes.columns if c in ['Z', 'z', 'Coord Z', 'Coordinate Z', 'Coordinate Z [m]']), None)
+        if x_col and y_col and z_col:
+            for _, row in df_nodes.iterrows():
+                if pd.notna(row.get('Name')):
+                    points_dict[str(row.get('Name')).strip()] = (float(row[x_col]), float(row[y_col]), float(row[z_col]))
+        else:
+            print("[WARNUNG] Koordinatenspalten (X, Y, Z) in 'StructuralPoint' nicht gefunden. 'check_internal_nodes' wird deaktiviert.")
+            check_internal_nodes = False
 
     # Lookup-Dictionary für Flächenelemente (Name -> Typ)
     # Erforderlich, da in StructuralCurveEdge der Typ nicht mehr steht
@@ -179,7 +257,7 @@ def analyze_saf_connections(
     for _, row in df_curve.iterrows():
         add_connections(row.get('Name'), row.get('Nodes'), row.get('Type'))
 
-    # 2. Rippen (StructuralCurveMemberRib))
+    # 2. Rippen (StructuralCurveMemberRib)
     # Schleife überspringt sich selbst, wenn df leer ist
     for _, row in df_rib.iterrows():
         add_connections(row.get('Name'), row.get('Nodes'), 'Beam')
@@ -207,6 +285,41 @@ def analyze_saf_connections(
             if saf_type:
                 add_connections(element_name, nodes_string, saf_type)
 
+    # --- Automatische Überprüfung auf interne Knoten (Geometrisch) ---
+    if check_internal_nodes and points_dict:
+        print("[INFO] Führe geometrische Prüfung auf interne Knoten (Linien/Flächen) durch...")
+        for node_id in node_connections.keys():
+            if str(node_id) not in points_dict:
+                continue
+            p = points_dict[str(node_id)]
+            
+            # Prüfung gegen 1D-Elemente (Liniensegmente)
+            for _, row in df_curve.iterrows():
+                element_name = str(row.get('Name')).strip()
+                if element_name == 'nan' or element_name in node_connections[node_id]: continue
+                
+                nodes_string = row.get('Nodes')
+                if pd.notna(nodes_string):
+                    poly_points = [points_dict[n.strip()] for n in str(nodes_string).split(';') if n.strip() in points_dict]
+                    if len(poly_points) >= 2:
+                        for i in range(len(poly_points) - 1):
+                            if _is_point_on_segment(p, poly_points[i], poly_points[i+1]):
+                                mapped_type = type_mapping.get(str(row.get('Type')).strip())
+                                if mapped_type: node_connections[node_id][element_name] = mapped_type
+                                break
+
+            # Prüfung gegen 2D-Elemente (Polygone)
+            for _, row in df_surface.iterrows():
+                element_name = str(row.get('Name')).strip()
+                if element_name == 'nan' or element_name in node_connections[node_id]: continue
+                
+                nodes_string = row.get('Nodes')
+                if pd.notna(nodes_string):
+                    poly_points = [points_dict[n.strip()] for n in str(nodes_string).split(';') if n.strip() in points_dict]
+                    if len(poly_points) >= 3:
+                        if _is_point_in_polygon_3d(p, poly_points):
+                            mapped_type = type_mapping.get(str(row.get('Type')).strip())
+                            if mapped_type: node_connections[node_id][element_name] = mapped_type
 
     # 5. Dynamische Printausgabe der gewählten Range im Titel durch Slicing
     print(f"""\n=== Verbindungsanalyse der Knoten (Index {start_index} bis {end_index if end_index else 'Ende'}) ===""")
