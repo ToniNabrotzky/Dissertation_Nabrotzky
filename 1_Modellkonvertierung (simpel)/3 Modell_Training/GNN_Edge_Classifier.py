@@ -39,9 +39,10 @@ def main():
     
     
     """Trainiere seriell GNN aus mehreren Datasets"""
-    graph_folder_names = ["Modell_2_Parametrisch Stahlbeton 00000_01535"] # Standardordner für alle Daten
-    # graph_folder_names = ["Modell_2_Parametrisch Stahl 00000_01535"]
-    # graph_folder_names = ["Modell_2_Parametrisch Gemischt 00000_01535"]
+    graph_folder_names = ["Modell_2 Parametrisch Stahlbeton 00000_01535"] # Standardordner für alle Daten
+    # graph_folder_names = ["Modell_2 Parametrisch Stahlbeton 01200_01535"]
+    # graph_folder_names = ["Modell_2 Parametrisch Stahl 00000_01535"]
+    # graph_folder_names = ["Modell_3 Reale_Modelle"]S
     graph_folder_paths = get_folder_paths(script_dir, graph_folder_names)
 
     for graph_folder_path in graph_folder_paths:
@@ -53,7 +54,7 @@ def main():
         else:
             print(f"__Ordner gefunden. Suche JSON-Dateien in: {graph_folder_path}")
             
-            ## Umleitung der Standardausgabe zu Konsole und Teft-File
+            ## Umleitung der Standardausgabe zu Konsole und Text-File
             plotter = Plotter(script_dir, graph_folder_path)
             original_stdout = sys.stdout
             with open(plotter.model_folder_path / 'terminal_output.txt', 'w') as f:
@@ -149,6 +150,8 @@ def train_GNN(graph_folder_path):
     max_percentage = 0 # Größter Anteil positiver Ereignisse aus einem Graphen
 
     ## Protokolliere angesetzte Parameter:
+    global Negative_Edge_Ratio
+    Negative_Edge_Ratio = 5.0 # Default= 'all' | Auswahl: 'all', oder float (z.B. 1.0 für 100% Negative im Verhältnis zu Positiven)
     global Modelltyp
     Modelltyp = "GraphSAGE" # Default= 'GraphSAGE' | Auswahl: 'GCN', 'GAT', 'GraphSAGE'
     Hidden = 32 # Default= 32
@@ -178,6 +181,7 @@ def train_GNN(graph_folder_path):
           Aufteilung Datensätze (Training, Validierung, Test): {(1 - Train_Prozent) * 100} / {(Train_Prozent * (1 - Val_Prozent)) * 100} / {Train_Prozent * Val_Prozent * 100}
           optimizer= {Optimierer}, LR= {Lernrate}
           Criterion= {Kriterium}
+          Negative_Edge_Ratio= {Negative_Edge_Ratio}
           Early Stopping: Aktiviert
     Training:
           Epochenzahl= {Epochenzahl}
@@ -191,7 +195,7 @@ def train_GNN(graph_folder_path):
     for json_file in json_files:
         json_file_path = os.path.join(graph_folder_path, json_file)
         ## Lade unverbundenen Graphen und Kanten als beschriftete Daten
-        G, edges, graph_id = load_graph_from_json(json_file_path)
+        G, edges, graph_id = load_graph_from_json(json_file_path, negative_edge_ratio=Negative_Edge_Ratio) # type: ignore
         # edges_sorted = {(edge['source'], edge['target']) for edge in edges}
         # print(f"edges aus 'train_GNN': {sorted(edges_sorted)}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         # for edge in edges:
@@ -421,10 +425,10 @@ def train_GNN(graph_folder_path):
 
         ### Konsolen-Output für Dokumentation
         print(f"__Epoch: {epoch +1 }:")
-        print(f"\tTrain Accuracy: {train_accuracy}, \tPrecision: {train_accuracy}, \tRecall: {train_accuracy}, \tF1-Score: {train_accuracy}")
-        print(f"\tVal Accuracy: {val_accuracy}, \tPrecision: {val_precision}, \tRecall: {val_recall}, \tF1-Score: {val_f1}")
-        print(f"\tTest Accuracy: {test_accuracy}, \tPrecision: {test_precision}, Recall: {test_recall}, \tF1-Score: {test_f1}")
-        print(f"\tTrain Loss: {train_losses[-1]}, \tVal Loss: {val_losses[-1]}")
+        print(f"\tTrain Accuracy: {train_accuracy:.4f}, \tPrecision: {train_precision:.4f}, \tRecall: {train_recall:.4f}, \tF1-Score: {train_f1:.4f}")
+        print(f"\tVal Accuracy: {val_accuracy:.4f}, \tPrecision: {val_precision:.4f}, \tRecall: {val_recall:.4f}, \tF1-Score: {val_f1:.4f}")
+        print(f"\tTest Accuracy: {test_accuracy:.4f}, \tPrecision: {test_precision:.4f}, \tRecall: {test_recall:.4f}, \tF1-Score: {test_f1:.4f}")
+        print(f"\tTrain Loss: {train_losses[-1]:.4f}, \tVal Loss: {val_losses[-1]:.4f}")
         
         ## Speicher bestes Parameterset
         if avg_loss < best_loss:
@@ -451,12 +455,12 @@ def train_GNN(graph_folder_path):
 """Hilfsfunktionen """
 def get_folder_paths(script_dir, folder_names):
     """Gibt eine Liste von Pfaden zu den Ordnern zurück"""  
-    graph_folder_paths = [script_dir.parent / "1_2 Data_Preprocessing" / folder_name / 'Graph_Save' for folder_name in folder_names]
+    graph_folder_paths = [script_dir.parent / "2 Data_Preprocessing" / folder_name / 'Graph_Save' for folder_name in folder_names]
     # # print(f"folder-paths: {json_folder_paths}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     return graph_folder_paths
 
 
-def load_graph_from_json(json_file_path):
+def load_graph_from_json(json_file_path, negative_edge_ratio='all'):
     """Lädt den 3D-Graphen mit den Knotenpositionen aus einer JSON-Datei"""
     with open(json_file_path, "r") as f:
         graph_data = json.load(f)
@@ -480,11 +484,38 @@ def load_graph_from_json(json_file_path):
     # print("Kanten_existent sortiert: ", sorted(existing_edges)) #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # print("Kanten_möglich sortiert: ", sorted(possible_edges)) # Gibt Liste vom Set #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    edges = [] # Wird eine Liste mit Dicts aus allen möglichen Kanten
-    ## Labeln der möglichen Kanten
+    ## Trenne in mögliche positive und negative Kanten
+    positive_edges_set = set()
+    negative_edges_set = set()
+    
     for edge in possible_edges:
-        label = 1 if edge in existing_edges or (edge[1], edge[0]) in existing_edges else 0
-        edges.append({'source': edge[0], 'target': edge[1], 'label': label})
+        if edge in existing_edges or (edge[1], edge[0]) in existing_edges:
+            positive_edges_set.add(edge)
+        else:
+            negative_edges_set.add(edge)
+
+    edges = [] # Wird eine Liste mit Dicts aus allen möglichen Kanten
+    ## Füge alle positiven Kanten hinzu
+    for edge in positive_edges_set:
+        edges.append({'source': edge[0], 'target': edge[1], 'label': 1})
+    
+    ## Bestimme die Anzahl der negativen Kanten und füge sie hinzu
+    if len(positive_edges_set) == 0:
+        print(f"    __Sonderfall: Keine positiven Kanten vorhanden. Alle {len(negative_edges_set)} möglichen Kanten werden als negativ erstellt.")
+        sampled_negative_edges = negative_edges_set
+    elif negative_edge_ratio == 'all':
+        sampled_negative_edges = negative_edges_set
+    else:
+        num_positive = len(positive_edges_set)
+        num_negative_to_sample = int(num_positive * negative_edge_ratio)
+        if num_negative_to_sample >= len(negative_edges_set):
+            print(f"    __Limit erreicht: Gewünschte Anzahl negativer Kanten ({num_negative_to_sample}) übersteigt mögliche negative Kanten ({len(negative_edges_set)}). Vollvernetzung wird angewendet.")
+            sampled_negative_edges = negative_edges_set
+        else:
+            sampled_negative_edges = random.sample(list(negative_edges_set), num_negative_to_sample)
+            
+    for edge in sampled_negative_edges:
+        edges.append({'source': edge[0], 'target': edge[1], 'label': 0})
     
     graph_id = graph_data['file_id']
     return G, edges, graph_id
@@ -760,9 +791,9 @@ class Plotter:
 
     def plot_accuracies(self, train_accuracies, val_accuracies, test_accuracies):
         """Plottet die Genauigkeiten für Training, Validierung und Test"""
-        print(f"\tTrain Accuracies: {train_accuracies}")
-        print(f"\tVal Accuracies: {val_accuracies}")
-        print(f"\tTest Accuracies: {test_accuracies}")
+        print(f"\tTrain Accuracies: {train_accuracies:.4f}")
+        print(f"\tVal Accuracies: {val_accuracies:.4f}")
+        print(f"\tTest Accuracies: {test_accuracies:.4f}")
 
         plt.figure()
         plt.plot(train_accuracies, label= 'Train Accuracy')
