@@ -15,8 +15,9 @@ def main():
     # script_dir = Path.cwd() # Alternative: Path(__file__).parent
     # print(f"Script-Dir - {script_dir.exists()}: {script_dir}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    # ifc_folder_names = ["Modell_2_Parametrisch IfcOpenShell", "Modell_2_Tutorial BimVision"]
-    ifc_folder_names = ["Modell_2_DataBase", "Modell_2_Parametrisch Stahl"]
+    ifc_folder_names = ["Modell_2 Parametrisch Stahlbeton"]
+    # ifc_folder_names = ["Modell_2 Parametrisch Stahl"]
+    # ifc_folder_names = ["Modell_3 Reale_Modelle"]
     ifc_folder_paths = get_folder_paths(script_dir, ifc_folder_names)
 
     for ifc_folder_path in ifc_folder_paths:
@@ -138,7 +139,7 @@ def extract_ifc_data(ifc_folder_path):
 """Hilfsfunktionen zum Extrahieren von Daten aus IFC-Dateien"""
 def get_folder_paths(script_dir, folder_names):
     """Gibt eine Liste von Pfaden zu den Ordnern zurück"""
-    database_path = script_dir.parent / '1_1 Modelldatenbank'    
+    database_path = script_dir.parent / '1 Model_Database'    
     folder_paths = [database_path / folder_name for folder_name in folder_names]
     # print(f"Database-Path - {database_path.exists()}: {database_path}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     # print(f"Folder-Paths: {ifc_folder_paths}") #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

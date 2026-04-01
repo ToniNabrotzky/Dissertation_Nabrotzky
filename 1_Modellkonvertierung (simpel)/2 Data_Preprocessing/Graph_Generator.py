@@ -26,7 +26,8 @@ def main():
     global Save_Images
     Save_Images = False
 
-    extracts_folder_names = ["Modell_2_Parametrisch Stahlbeton 00000_01535"]
+    # extracts_folder_names = ["Modell_2 Parametrisch Stahlbeton 00000_01535"]
+    extracts_folder_names = ["Modell 3_Reale_Modelle"]
     extracts_folder_paths = get_folder_paths(script_dir, extracts_folder_names)
 
     for extracts_folder_path in extracts_folder_paths:
