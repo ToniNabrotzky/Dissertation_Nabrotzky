@@ -79,15 +79,22 @@ Thumbs.db
 
 # Versuchsreihe 1
 1_Machbarkeit/1 Model_Database/
-1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahl 00000_01535
-1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 00000_01535
-1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 01200_01535
-1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 01530_01535
-1_Machbarkeit/2 Data_Preprocessing/Modell_2_Tutorial BimVision
-1_Machbarkeit/2 Data_Preprocessing/Modell_3 Reale_Modelle
-1_Machbarkeit/3 Model_Training/Modell_2_Parametrisch Stahlbeton 00000_01535
-1_Machbarkeit/3 Model_Training/Modell_2_Parametrisch Stahlbeton 01200_01535
-1_Machbarkeit/4 Results/
+
+1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahl 00000_01535/
+1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 00000_01535/
+1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 01200_01535/
+1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 01530_01535/
+1_Machbarkeit/2 Data_Preprocessing/Modell_2_Tutorial BimVision/
+1_Machbarkeit/2 Data_Preprocessing/Modell_3 Reale_Modelle/
+
+1_Machbarkeit/3 Model_Training/Modell_2_Parametrisch Stahlbeton 00000_01535/
+1_Machbarkeit/3 Model_Training/Modell_2_Parametrisch Stahlbeton 01200_01535/
+
+1_Machbarkeit/4 Results/*
+# !1_Machbarkeit/4 Results/Modell_2_Parametrisch Stahlbeton alt 00000_01535 Paper Nr2/ #So könnte man eine Ausnahme speichern, aber die Pfadnamen sind zu lang.
+
+# Versuchsreihe 2
+
 
 
 # Sonstiges, z.B. temp-Dateien:
