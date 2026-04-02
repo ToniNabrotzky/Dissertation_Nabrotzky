@@ -79,6 +79,11 @@ Thumbs.db
 
 # Versuchsdatenbanken
 1 Model_Database/
+2 Data_Preprocessing/
+3 Model_Training/
+3 Modell_Training/
+4 Results/
+
 
 # Sonstiges, z.B. temp-Dateien:
 temp/
