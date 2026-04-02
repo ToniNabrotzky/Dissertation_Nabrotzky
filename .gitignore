@@ -77,12 +77,17 @@ Thumbs.db
 *.ifc
 *.ifcxml
 
-# Versuchsdatenbanken
-1 Model_Database/
-2 Data_Preprocessing/
-3 Model_Training/
-3 Modell_Training/
-4 Results/
+# Versuchsreihe 1
+1_Machbarkeit/1 Model_Database/
+1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahl 00000_01535
+1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 00000_01535
+1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 01200_01535
+1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 01530_01535
+1_Machbarkeit/2 Data_Preprocessing/Modell_2_Tutorial BimVision
+1_Machbarkeit/2 Data_Preprocessing/Modell_3 Reale_Modelle
+1_Machbarkeit/3 Model_Training/Modell_2_Parametrisch Stahlbeton 00000_01535
+1_Machbarkeit/3 Model_Training/Modell_2_Parametrisch Stahlbeton 01200_01535
+1_Machbarkeit/4 Results/
 
 
 # Sonstiges, z.B. temp-Dateien:

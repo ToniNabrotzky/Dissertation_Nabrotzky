@@ -1,0 +1,339 @@
+Training für: h:\1_2 Data_Preprocessing\Modell_2_Parametrisch Stahlbeton Index 000_099\Graph_Save
+Standard-Einstellungen:
+    Übersicht zur Modellarchitektur:
+          Input | Hidden: 32 (Conv1, ReLU, Dropout, Conv2, Dropout)| EdgePredictor: Hidden*2 | Out: 2 
+          Dropout= 0.5 standardmäßig
+    Hyperparameter:
+          Aufteilung Training / Validierung / Test: 70.0 / 15.0 / 15.0
+          optimizer= Adam, LR= 0.01
+          Criterion= CrossEntropyLoss_mit_Gewichtsklassifizierung
+          Early Stopping: Aktiviert
+    Training:
+          Epochenzahl= 100
+          BatchSize= 256
+    Erwartbare Ergebnisse:
+	Train Accuracy= 5,2%, Precision= 0.053, Recall= 0.053, F1-Score= 0.053
+	Val Accuracy= 3,5%, Precision= 0.035, Recall= 1.0, F1-Score= 0.068
+	Test Accuracy= 5,1%, Precision= 0.050, Recall= 1.0, F1-Score= 0.095
+	Early Stopping bei Epoche 15-30
+	Training Loss (final)= 0.690
+	Validation Loss (final)= 0.704
+	Confusion Matrix: Summe an Labels = 246.020 - Positive Labels: 12.237, Negative Labels: 233.783
+			  00 (True Negatives): 298 | 01 (False Positive): 233.485
+			  10 (False Negatives): 0 | 11 (True Positives): 12.237
+			Matrix tendiert dazu Werte mit 1 zu labeln - [Negative kaum TN (298), fast nur FP (233.485) | Positive alle exakt FN (0) und TP (12.237)]
+				Gewichtung wegen geringen Anteil an Positives. Tendenz zu Label 1 wegen einer zu starken Gewichtung?
+			Genauigkeiten im Train, Val und Test schwanken extrem und sind sehr niedrig
+				Precision müsste Anteil korrekter TPs sein (Passt in händischer Rechnung)
+				Was macht Recall?
+				Ist F1 Differenz zwischen Precision und Recall?
+			Loss-Values sind ebenfalls relativ hoch mit 0.7 oder?
+
+
+Variantenübersicht mit Änderungen zu Standard Nr 00:
+	Nr 01 bis 02: Kriterium ändern zu CrossEntropy und Focal_Loss
+		- CE-Loss: Matrix kann Werte nur mit 0 labeln - [Negative alle exakt TN (233.783) und FP (0) | Positive alle falsch FN (12.237) und TP (0)]
+			Genauigkeiten konstant hoch
+			Verlustkurven sinken kontinuierlich auf 0.14-0.19 ab (Early Stopping bei Epoche 43)
+		- Focal Loss: Matrix kann Werte nur mit 0 labeln - [Negative alle exakt TN (233.783) und FP (0) | Positive alle falsch FN (12.237) und TP (0)]
+			Genauigkeiten konstant hoch
+			Verlustkurven sinken kontinuierlich auf 0.001-0.002 ab (Early Stopping bei Epoche 24)
+Wir bleiben bei Default = CE-Loss mit Gewichtung
+
+	Nr 03 bis 04: Batchsize Reduzierung auf 64 und 8
+		- 64: Matrix wertet Negatives 50/50, Positives fast richtig - [Negative gleichverteilt TN (116.504) und FP (117.279) | Positive fast richtig FN (2.935) und TP (9.302)]
+			Genauigkeiten sehr volatil zwischen 0.2 und 0.8
+			Verlustkurven konstant bei 0.6. Die Val-Losses "wippeln" um die Train-Losses
+		- 8: Identisch zu Default, Matrix tendiert dazu Werte mit 1 zu labeln - [Negative kaum TN (298), fast nur FP (233.485) | Positive alle exakt FN (0) und TP (12.237)]
+			Genauigkeiten konstant bei 0.5 (Val Beo 0.35)
+			Verlustkuren bei 0.7. Validation_Losses sind stets etwas höher und volatil (Tendenz Overfitting)? (Early Stopping bei 22)
+Wir bleiben bei Default = 256 Batches
+
+	Nr 05 bis 06: Lernrate erhöhen auf 0.1 und 0.2
+		- 0.1: Matrix kann Werte nur mit 1 labeln - [Negative alle falsch TN (0) und FP (233.783) | Positive alle exakt FN (0) und TP (12.237)]
+			Genauigkeit extrem volatil zwischen 0 und 1
+			Verlustkurven konstant bei 0.7 (startete vorher extrem hoch bei 250) (Early Stopping bei 30)
+		- 0.2: Matrix kann Werte nur mit 1 labeln - [Negative alle falsch TN (0) und FP (233.783) | Positive alle exakt FN (0) und TP (12.237)]
+			Genauigkeit extrem volatil zwischen 0 und 1
+			Verlustkurven konstant bei 0.7 (startete vorher extrem hoch bei 250) (Early Stopping bei 30)
+Wir bleiben bei Default = 0.01
+
+	Nr 07 bis 08: Anzahl Hidden Neurons auf 16 und 8
+		- 16: Matrix wertet gut - [Negative fast richtig TN (177.334) und FP (56.449) | Positive fast richtig FN (3.835) und TP (8.402)]
+			Genauigkeit sehr schwach am Beginn, aber dann ansteigend auf 0.8
+			Verlustkurven konstant bei 0.7 (startete vorher extrem hoch bei 250) (Early Stopping bei 45)
+		- 8: Matrix wertet Negatives fast richtig, Positives 50/50 - [Negative fast richtig TN (189.385) und FP (44.398) | Positive gleichverteilt FN (6.097) und TP (6.140)]
+			Genauigkeit sehr schwach am Beginn, aber dann ansteigend auf 0.8
+			Verlustkurven konstant bei 0.7 (startete vorher extrem hoch bei 250) (Early Stopping bei 54)
+Wir wechseln auf Default = 16
+
+	Nr 09 bis 09: Datenaufteilung zu 80-10-10
+		- 80-10-10: Matrix kann Werte nur mit 1 labeln - [Negative alle falsch TN (0) und FP (176.743) | Positive alle exakt FN (0) und TP (8.772)
+			Genauigkeit sehr schwach bei 0.05
+			Verlustkurven fällt kontinuierlich auf 0.7 (Early Stopping bei 25)
+Wir bleiben bei Default = 70-15-15
+
+	Nr 10 bis 11: Wechsel Modelltyp mit optimierten Default-Werten
+		- GAT: Matrix wertet gut - [Negative fast richtig TN (151.834) und FP (81.949) | Positive fast richtig FN (3.038) und TP (9.199)]
+			Genauigkeit extrem volatil zwischen 0 und 1
+			Verlustkurven konstant bei 0.7 (startete vorher extrem hoch bei 250) (Early Stopping bei 30)
+		- SAGE: Matrix wertet sehr gut - [Negative fast richtig TN (209.213) und FP (24.570) | Positive exakt richtig FN (0) und TP (12.237)]
+			Genauigkeit stabil hoch, später leichter Sprung weiter nach oben
+			Verlustkurven sinken kontinuierlich auf 0.3 im Train und 0.15 im Val (warum so große Differenz?) (Early Stopping bei 49)
+Wir wechseln auf Default Modell = SAGE
+
+	Nr 12 bis 12: Anpassung Batchgröße auf 64
+		- 64: Matrix kann Werte nur mit 1 labeln - [Negative alle falsch TN (0) und FP (233.783) | Positive alle exakt FN (0) und TP (12.237)]
+			Genauigkeiten liegen bei 0.5 konstant
+			Verlustkurven fallen nur leicht von 0.8 auf 0.7
+Wir wechseln auf Default = 64
+
+	Nr 13 bis 13: Anpassung des Drop-Outs auf 0.2
+		- 0.2: Matrix wertet sehr gut - [Negative fast richtig TN (209.184) und FP (24.599) | Positive exakt richtig FN (0) und TP (12.237)]
+			Genauigkeit stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.3 im Train und 0.15 im Val (Early Stopping bei 29)
+Wir wechseln auf Default = 0.2
+
+
+	Nr 14 bis 15: Anpassung der Aktivierungsfunktion
+		- LReLU: Matrix wertet sehr gut - [Negative fast richtig TN (209.251) und FP (24.532) | Positive exakt richtig FN (0) und TP (12.237)]
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.3 im Train und 0.15 im Val (Early Stopping bei 25)
+		- ELU: Matrix wertet sehr gut - [Negative fast richtig TN (209.252) und FP (24.531) | Positive exakt richtig FN (0) und TP (12.237)]
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.2 im Train und 0.15 im Val (Early Stopping bei 37)
+Wir wechseln auf Default = ELU
+
+
+	Nr 16 bis 16: Anpassung der Anzahl an Hidden Layer auf 3
+		- 3: Matrix wertet sehr gut - [Negative fast richtig TN (209.252) und FP (24.531) | Positive exakt richtig FN (0) und TP (12.237)]
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.2 im Train und 0.15 im Val (Early Stopping bei 29)
+Wir wechseln auf Default = 3 Hidden Layers
+
+
+	Nr 17 bis 17: Anpassung des Optimierers
+		- SGD: Matrix wertet sehr gut - [Negative fast richtig TN (209.299) und FP (24.484) | Positive exakt richtig FN (0) und TP (12.237)]
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.2 im Train und 0.15 im Val (Early Stopping bei 29)
+Wir wechseln auf Default = SGD
+
+Wir wechseln die Dateneinteilung auf Graphen. Die Kanten werden erst dann verarbeitet, was die Struktur der Graphen beibehält. Mengen der Datensätze sind nun validiert und korrekt.
+Übersicht zu neuen Defaults: Modelltyp: SAGE | Hidden: 3 mit Neurons: 16 | Batch: 64 | Dropout: 0.2 | Optimierer: SGD 
+	Nr. 18 bis 21: Kleinere Tests, ob sich inzwischen Änderungen ergeben haben
+		- Default: Matrix wertet sehr gut - [Negative fast richtig TN (209.250) und FP (24.533) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.2 im Train und 0.15 im Val (Early Stopping bei 25)
+		- LeakyReLU: Matrix wertet sehr gut - [Negative fast richtig TN (209.251) und FP (24.532) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.2 im Train und 0.15 im Val (Early Stopping bei 38) 
+		- Hidden 2: Matrix wertet sehr gut - [Negative fast richtig TN (209.304) und FP (24.479) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.2 im Train und 0.15 im Val (Early Stopping bei 22)
+		- Dropout 0.2: Matrix wertet sehr gut - [Negative fast richtig TN (209.222) und FP (24.561) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.2 im Train und 0.15 im Val (Early Stopping bei 22)
+Wir wechseln wieder auf Default = 2 Hidden Layers
+
+	Nr. 22 bis 30: BCEWithLogits Loss und feinere Einstellungen
+		- LR 0.001 und BatchSize 32: Matrix wertet sehr gut - [Negative fast richtig TN (209.309) und FP (24.474) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.4 im Train und 0.25 im Val (Early Stopping bei 29)
+		- Default (LR 0.01 und BatchSize 64): Matrix wertet sehr gut - [Negative fast richtig TN (209.292) und FP (24.491) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.4 im Train und 0.25 im Val (Early Stopping bei 25)
+		- Batch 256: Matrix wertet gut - [Negative fast richtig TN (208.025) und FP (25.758) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.5 im Train und 0.25 im Val (Early Stopping bei 27)
+		- Hidden 3: Matrix  wertet sehr gut - [Negative fast richtig TN (209.312) und FP (24.471) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.4 im Train und 0.25 im Val (Early Stopping bei 24)
+		- Neuron 32: Matrix  wertet sehr gut - [Negative fast richtig TN (209.274) und FP (24.509) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.4 im Train und 0.25 im Val (Early Stopping bei 25)
+		- Adam: Matrix  wertet sehr gut - [Negative fast richtig TN (209.252) und FP (24.531) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.35 im Train und 0.25 im Val (Early Stopping bei 22) 
+		- GAT: Matrix  wertet gut - [Negative fast richtig TN (207.555) und FP (26.228) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten steigen schnell nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.4 im Train und 0.3 im Val (Early Stopping bei 56) 
+		- GCN: Matrix  wertet schlecht - [Negative fast richtig TN (118.417) und FP (115.366) | Positive exakt richtig FN (2.760) und TP (9.477)] 
+			Genauigkeiten steigen sehr volatil nach oben dann mit einem Maximum von 0.7. Endergebnis liegt bei 0.4
+			Verlustkurven sinken kontinuierlich auf 1.3 im Train und 1.1 im Val (Early Stopping bei 68)
+		- Aggregate Add: Matrix  wertet mittelschlecht - [Negative fast richtig TN (22.821) und FP (210.962) | Positive exakt richtig FN (449) und TP (11.788)] 
+			Genauigkeiten sinken schnell nach unten auf ein Minimum von 0.15
+			Verlustkurven konstant auf 1.4 im Train und 1.2 im Val (Early Stopping bei 24)
+Wir wechseln auf Default = BCEWLL, 3 Hidden Layer, 32 Neurons
+
+	Nr. 31 bis 31: Datenbasiswechsel auf Begrenzung der Node_Features: ifc_class, position, vertices_global, edges
+		- Datenbasis: Matrix  wertet sehr gut - [Negative fast richtig TN (209.252) und FP (24.531) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten mit leichtem Knick nach oben dann stabil hoch bei 0.9 bis 0.93
+			Verlustkurven sinken kontinuierlich auf 0.4 im Train und 0.25 im Val (Early Stopping bei 27)
+Wir wechseln auf Default = kleine Datenbasis (hat aber keine Effekte)
+
+	Nr. 32 bis 34: Default-Tests ohne und mit L2-Regularisierung mit Modelltypen
+		- SAGE: Matrix  
+			Genauigkeiten 
+			Verlustkurven 
+		- GAT: Matrix  
+			Genauigkeiten 
+			Verlustkurven 
+		- GCN: Matrix  
+			Genauigkeiten 
+			Verlustkurven 
+Wir wechseln auf L2-Regularisierung (hat aber keine relevanten Effekte)
+
+	Nr. 35 bis ??: Default-Tests mit weniger Feature-Merkmalen
+		- nur Pos: Matrix ähnlich gut (207296 statt 209.000)...
+			Genauigkeiten brauchen ein paar Epochen, aber sind dann ähnlich gut
+			Verlustkurven brauchen ein paar Epochen, aber sind dann ähnlich gut
+		- nur class: Matrix ähnlich gut (207296 statt 209.000)...
+			Genauigkeiten brauchen ein paar Epochen, aber sind dann ähnlich gut
+			Verlustkurven brauchen ein paar Epochen, aber sind dann ähnlich gut
+
+
+
+	"Stahlbetondatensatz"
+  __Statistiken über die eingelesenen Daten:
+	Anzahl der Graphen in den 3 Datensätzen: 1075, 230, 231 | Gesamt: 1536 
+	Anzahl der Kanten in den 3 Datensätzen: 1454888, 346068, 246020 | Gesamt: 2046976 
+	Überschneidungen Graphen zwischen Train und Val: 0 | Train und Test: 0 | Val und Test: 0 
+	Überschneidungen Kanten zwischen Train und Val: 12090 | Train und Test: 9180 | Val und Test: 9180 
+	Anzahl tatsächlicher Labels und vorhergesagter Labels: 1235353 und 1235353 
+	Anzahl tatsächlicher Labels und vorhergesagter Labels: 811623 und 811623 
+	Anzahl tatsächlicher Labels und vorhergesagter Labels: 246020 und 246020
+
+	"Stahldatensatz"
+__Statistiken über die eingelesenen Daten:
+        Graphen: 1536, Knoten: 63488, Kanten: 92030 | mögl. Kanten: 2046976 | Mittelwert Anteil Positives: 4.50% | Max. Anteil Positives: 33.33%     
+        Anzahl der Graphen in den 3 Datensätzen: 1075, 230, 231 | Gesamt: 1536
+        Anzahl der Kanten in den 3 Datensätzen: 1454888, 346068, 246020 | Gesamt: 2046976
+        Überschneidungen Graphen zwischen Train und Val: 0 | Train und Test: 0 | Val und Test: 0
+        Überschneidungen Kanten zwischen Train und Val: 12090 | Train und Test: 9180 | Val und Test: 9180
+        Anzahl tatsächlicher Labels und vorhergesagter Labels: 1235353 und 1235353
+        Anzahl tatsächlicher Labels und vorhergesagter Labels: 811623 und 811623
+        Anzahl tatsächlicher Labels und vorhergesagter Labels: 246020 und 246020
+Das lässt mich noch zweifeln, ob er wirklich die richtige Mengen lernt...
+
+
+
+Finale Standard-Einstellungen:
+    Übersicht zur Modellarchitektur:
+          Input | Hidden: 32 (Conv1, ELU, Dropout, Conv2, Dropout, Conv3, Dropout)| EdgePredictor: Hidden*2 | Out: 1 (bei BCE; sonst 2)
+          Dropout= 0.2
+    Hyperparameter:
+          Aufteilung Training / Validierung / Test: 70 / 15 / 15
+          optimizer= SGD_mit_L2, LR= 0.01
+          Criterion= BCEWithLogitsLoss
+          Early Stopping: Aktiviert
+    Training:
+          Epochenzahl= 100
+          BatchSize= 32
+    Erwartbare Ergebnisse:
+	Train Accuracy= 88%, Precision= 0.88, Recall= 0.88, F1-Score= 0.88
+	Val Accuracy= 92%, Precision= 0.32, Recall= 1.0, F1-Score= 0.48
+	Test Accuracy= 89%, Precision= 0.32, Recall= 1.0, F1-Score= 0.48
+	Early Stopping bei Epoche 20-30
+	Training Loss (final)= 0.2 bis 0.4
+	Validation Loss (final)= 0.15 bis 0.25
+	Confusion Matrix: Summe an Labels = 246.020 - Positive Labels: 12.237, Negative Labels: 233.783
+			  00 (True Negatives): 209.309 | 01 (False Positive): 24.474
+			  10 (False Negatives): 0 | 11 (True Positives): 12.237
+			Matrix wertet sehr gut - [Negative fast richtig TN (209.250) und FP (24.533) | Positive exakt richtig FN (0) und TP (12.237)] 
+			Genauigkeiten im Train, Val und Test sind ziemlich gut bei rund 90-93%
+				Precision müsste Anteil korrekter TPs sein (Passt in händischer Rechnung)
+				Was macht Recall?
+				Ist F1 Differenz zwischen Precision und Recall?
+			Verlustkurven nehmen kontinuierlich ab. Lediglich Validation hat etwas Differenz zu Train, was auf overfitting deuten könnte
+
+Zusammenfassung, welche Einstellungen sich wie auswirken:
+	Datenbasis: Mit reduzierten Node_Features ist praktisch identisch
+	Modelltypen: 23/28/29: SAGE ist Favorit, GAT wertet noch mittelmäßig gut, GCN ist katastrophal schlecht
+	Hidden Layer: 3 minimal besser, praktisch identisch
+	Anzahl Neuronen je Layer: 16 und 32 sind praktisch identisch
+	Aktivierungsfunktion: ELU und LeakyReLU sind praktisch identisch
+	Dropout: 0.2 und 0.5 praktisch identisch
+	Aufteilung Datensatz: 70/15/15 und 80/10/10 sind praktisch identisch
+	Optimierer: SGD und Adam sind praktisch identisch
+	Lernrate: 0.01 und 0.001 sind praktisch identisch
+	Verlustkriterium: BCE und CE (jeweils mit Gewichtsklassifizierung) sind praktisch identisch
+	Epochenzahl: Nicht testbar, da early stopping immer bei 20-30 abbricht
+	BatchSize: 32/64/256 wird besser, je kleiner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__UNTERSUCHUNG DER DISKREPANZ ZWISCHEN CONFUSION-MATRIX UND DATENSATZLÄNGE__
+Ab Nr18: Auswertung der Confusion Matrix hat Problemstellung mit Zahlen aufgezeigt:
+Diese Graphen enthalten insgesamt 63.488 Knoten und 92.273 Kanten. Für die spätere Klassifikation wurde die Menge aller möglichen Kanten mit 2.046.976 bestimmt.
+Der print „Anzahl tatsächlicher und vorhergesagter Labels“ ergab: 1.235.355 + 811.623 + 246.020 = 2.292.996. Da passt, dass die Confusion Matrix 246.020 Labels ausgibt, allerdings passt das Verhältnis der beiden letzten nicht zu den 15/15% bzw. die 2,2 Millionen nicht zu den 2,0 Millionen Kanten und Labels…
+Der Mittelwert der Positiven Ereignisse liegt bei 4,51% und der Graph mit dem höchsten Anteil an positives enthält 11,97%. An Überschneidungen wurden zwischen Train+Val: 12090 und zwischen Train+Test sowie zwischen Val+Test 9180 ermittelt. Das spricht anscheinend dafür, dass die Daten nicht disjunkt sind (es kommt zu den Dopplungen).
+ 
+
+Nach Anpassung auf disjunktiven Datensatz ergibt Confusion-Matrix für Nr 17:
+			Summe an Labels = 2.046.784 - Positive Labels: 92.273, Negative Labels: 1.954.511
+			  00 (True Negatives): 1.760.063 | 01 (False Positive): 194.448
+			  10 (False Negatives): 0 | 11 (True Positives): 92.273
+Der print „Anzahl tatsächlicher und vorhergesagter Labels“ ergab: 1.235.353 + 811.623 + 2.046.784 = 4.093.952. Da passt, dass die neue Confusion Matrix 2.046.784 Labels ausgibt, allerdings passt das Verhältnis der beiden letzten nicht zu den 15/15% bzw. die 4,1 Millionen nicht zu den 2,0 Millionen Kanten und Labels…
+
+
+Es werden jetzt mal die Daten auf die letzten 6 Graphen (01500 bis 01535) reduziert. 
+Anzahl an Knoten und Kanten je Graph:	01530: n=86, e=125 | 01531: n=26, e=37 | 01532: n=136, e=230 | 01533: n=76, e=125 | 01534: n=66, e=105 | 01530: n=6, e=0
+Anzahl an Knoten und Kanten zusammen:	n=396, e=622 --> identisch mit Konsolenwert. Mögliche Kanten=18.170, Anteil=3,42%
+
+Die Daten werden nach 70/15/15 aufgeteilt, also sollten sie enthalten: 12.719, 2.726, 2625 Kanten.
+Mögliche Fehlerquellen:
+a) Überschneidungen in Datensätzen: Wenn dieselben Kanten in mehreren Datensätzen vorkommen, könnte das die Gesamtzahl verfälschen und sorgen, dass die Summe größer ist als 18170.
+b) Unvollständiges Labeling
+c) Fehlerhafte Berechnung der C-Matrix: Basis ist vorhergesagte und berechnete Labels. Werden diese korrekt verarbeitet?
+d) Fehlerhafte Aufteilung: Beispielsweise könnten Kanten in umgekehrter Reihenfolge ([0], [1]) vs ([1], [0]) doppelt gezählt werden.
+
+
+Überprüfungsmöglichkeiten:
+a) Sind Datensätze disjunkt? Prüfen nach Überschneidungen in den Datensätzen. Summe aller drei sollte 18170 betragen. --> Gucken bei ~200
+b) Summe an positiven Labels sollte 622 und an negativen solle 17.548 betragen. --> Gucken bei ~410
+c) Nutzt C-Matrix nur Testdatensatz? Summe der vier Felder sollte dessen Länge entsprechen.
+d) Sicherstellen, dass umgekehrte Reihenfolgen nicht doppelt gezählt werden.
+
+
+Untersuchungen:
+a) Summe der Teildatensätze und Prüfung ob disjunkt:
+        Graphen: 6, Knoten: 396, Kanten: 622, mögl. Kanten: 18170, Mittelwert Anteil Positives: 3.42%, Max Anteil Positives: 3.42%
+Anzahl der Kanten in den 3 Datensätzen: 14190, 3655, 325, Gesamt: 18170
+Überschneidungen zwischen Train und Val: 3655
+Überschneidungen zwischen Train und Test: 325
+Überschneidungen zwischen Val und Test: 325
+--> Gesamtsumme == 18170, aber Val und Test sind Teilmengen von Training
+
+
+Es wurde auf die Verteilung der Graphen auf die Datensets umgestellt und dann erst werden die Kanten verarbeitet. Damit passen nun die Werte überein:
+	__Statistiken über die eingelesenen Daten:
+       		Graphen: 6, Knoten: 396, Kanten: 622 | mögl. Kanten: 18170 | Mittelwert Anteil Positives: 3.42% | Max. Anteil Positives: 11.38%
+       		Anzahl der Graphen in den 3 Datensätzen: 4, 1, 1 | Gesamt: 6
+        	Anzahl der Kanten in den 3 Datensätzen: 14190, 3655, 325 | Gesamt: 18170
+        	Überschneidungen zwischen Train und Val: 0 | Train und Test: 0 | Val und Test: 0
+        	Anzahl tatsächlicher Labels und vorhergesagter Labels: 18155 und 18155
+	Die Confusion-Matrix ergibt: TN: 272 | FN: 16 | FP: 35 | TP: 2 | Summe= 325
+
+Weitere Untersuchungen sind redundant.
+	b) Unvollständigs Labeling: Summe positiver und negativer Labels
+
+	c) Berechnung der C-Matrix auf nur Testdatensatz und Summe == dessen Länge
+
+	d) Umgekehrte Reihenfolgen doppelt gezählt?
+_UNTERSUCHUNG ENDE__
+
+
+

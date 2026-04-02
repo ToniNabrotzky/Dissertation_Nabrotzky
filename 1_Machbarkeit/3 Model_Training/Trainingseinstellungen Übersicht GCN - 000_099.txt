@@ -1,0 +1,46 @@
+Training für: h:\1_2 Data_Preprocessing\Modell_2_Parametrisch Stahlbeton Index 000_099\Graph_Save
+Standard-Einstellungen:
+    Übersicht zur Modellarchitektur:
+          Input | Hidden: 32 (Conv1, ReLU, Dropout, Conv2, Dropout)| EdgePredictor: Hidden*2 | Out: 2 
+          Dropout= 0.5 standardmäßig
+    Hyperparameter:
+          Aufteilung Training / Validierung / Test: 70.0 / 15.0 / 15.0
+          optimizer= Adam, LR= 0.01
+          Criterion= CrossEntropyLoss
+          Early Stopping: Aktiviert
+    Training:
+          Epochenzahl= 100
+          BatchSize= 256
+    Erwartbare Ergebnisse:
+	Validation Accuracy= 94%, Precision= 1.0, Recall= 0.0, F1-Score= 0.0
+	Test Accuracy= 91%, Precision= 1.0, Recall= 0.0, F1-Score= 0.0
+	Early Stopping bei Epoche 30-60
+	Training Loss (final)= 0.24
+	Validation Loss (final)= 0.22
+	Confusion Matrix: 00 (True Negatives): 6706, 01 (False Positive): 0
+			  10 (False Negatives): 614, 11 (True Positives): 0
+			Modell sagt aufgrund der wenigen TP-Labels alles als falsch voraus.
+			Precision= 0, da keine es TP gibt, Recall für Klasse 1= 0, da nichts als 1 vorhergesagt wurde.
+			F1-Score für Klasse 1= 0, da sowohl Precision als auch Recall 0 sind.
+
+
+Variantenübersicht mit Änderungen zu Standard Nr 00:
+	Nr 1 bis 5: Batchsize Reduzierung auf 128, 64, 16, 2, 1
+		Weiterhin keine TPs
+		Mit kleinerem Batch steigen Loss-Werte auf 0.28 bis 0.32 (schlechter) bei gleicher Genauigkeit
+	Nr 6 bis 8: Erhöhung der Lernrate auf 0.05, 0.1, 0.2
+		Weiterhin keine TPs
+		Mit größeren Lernraten steigen die Loss-Werte auf 0.34 bis 1.0 (viel schlechter) bei gleicher Genauigkeit
+	Nr 9 bis 11: Hidden Layer Neuronen auf 64, 16, 8
+		Weiterhin keine TPs
+		Erhöhung und Senkung führt zu minimal schlechteren Losses zwischen 0.22 und 0.28
+	Nr 12: Early Stopping deaktiviert
+		Weiterhin keine TPs
+		Verlustkurve ist absolut stagniert. Nur Gefahr des Overfittings
+	Nr 13: Einfügen von Random Edges mit einem höheren Anteil positiver Kanten
+		Weiterhin keine TPs
+		Dafür deutlich höhere Präzision mit 96 und 95%
+		Ganz zu Beginn sind sogar die Score-Bewertungen 0.96 (aber alle drei exakt gleich)
+	Nr 14 bis ??: Änderung des Kriteriums (LossFunktion)
+		Weiterhin keine TPs
+		Enorme Reduktion in der Loss-Funktion auf 0.002 bis 0.004 (enorm besser) bei gleicher Genauigkeit
