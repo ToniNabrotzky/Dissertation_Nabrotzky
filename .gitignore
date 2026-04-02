@@ -77,6 +77,9 @@ Thumbs.db
 *.ifc
 *.ifcxml
 
-# Sonstiges, falls du weitere temp-Dateien hast:
+# Versuchsdatenbanken
+1 Model_Database/
+
+# Sonstiges, z.B. temp-Dateien:
 temp/
 tmp/
