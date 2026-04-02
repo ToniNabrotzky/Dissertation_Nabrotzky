@@ -94,9 +94,16 @@ Thumbs.db
 # !1_Machbarkeit/4 Results/Modell_2_Parametrisch Stahlbeton alt 00000_01535 Paper Nr2/ #So könnte man eine Ausnahme speichern, aber die Pfadnamen sind zu lang.
 
 # Versuchsreihe 2
+2_Anwendungsgrenzen/1 Model_Database/
+2_Anwendungsgrenzen/2 Data_Preprocessing/2_1 Graph_Generation/
+2_Anwendungsgrenzen/2 Data_Preprocessing/2_2 Distance_Meassurement/
+2_Anwendungsgrenzen/2 Data_Preprocessing/2_3 Edge_Labeling/
+2_Anwendungsgrenzen/2 Data_Preprocessing/2_4 Graph_Labeled/
+2_Anwendungsgrenzen/2 Data_Preprocessing/Analysemodelle/
 
+2_Anwendungsgrenzen/3 Model_Training/Test*/
 
-
+2_Anwendungsgrenzen/4 Results/
 # Sonstiges, z.B. temp-Dateien:
 temp/
 tmp/

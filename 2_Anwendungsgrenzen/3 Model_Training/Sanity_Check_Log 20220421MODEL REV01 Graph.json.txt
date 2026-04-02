@@ -1,0 +1,53 @@
+--- Sanity Check: Lade 20220421MODEL REV01 Graph.json ---
+Training mit 19 Knotenmerkmalen gestartet...
+Datenbank: 20220421MODEL REV01 Graph.json
+CONFIG:
+	model_type: GINE
+	num_layers: 3
+	activation: ELU
+	dropout: 0.1
+	lr: 0.001
+	epochs: 2000
+	edge_dim: 1
+Epoche 001 | Loss: 36.9275 | Accuracy: 50.00%
+Epoche 050 | Loss: 0.6960 | Accuracy: 60.73%
+Epoche 100 | Loss: 0.6798 | Accuracy: 59.41%
+Epoche 150 | Loss: 0.6576 | Accuracy: 61.43%
+Epoche 200 | Loss: 0.6663 | Accuracy: 62.36%
+Epoche 250 | Loss: 0.6313 | Accuracy: 63.45%
+Epoche 300 | Loss: 0.6157 | Accuracy: 64.07%
+Epoche 350 | Loss: 0.5871 | Accuracy: 65.09%
+Epoche 400 | Loss: 0.5502 | Accuracy: 69.67%
+Epoche 450 | Loss: 0.5532 | Accuracy: 70.22%
+Epoche 500 | Loss: 0.5328 | Accuracy: 71.07%
+Epoche 550 | Loss: 0.5158 | Accuracy: 73.64%
+Epoche 600 | Loss: 0.5041 | Accuracy: 73.72%
+Epoche 650 | Loss: 0.4922 | Accuracy: 73.79%
+Epoche 700 | Loss: 0.4717 | Accuracy: 75.19%
+Epoche 750 | Loss: 0.4601 | Accuracy: 75.97%
+Epoche 800 | Loss: 0.4416 | Accuracy: 78.30%
+Epoche 850 | Loss: 0.4379 | Accuracy: 77.99%
+Epoche 900 | Loss: 0.4122 | Accuracy: 79.39%
+Epoche 950 | Loss: 0.4126 | Accuracy: 79.86%
+Epoche 1000 | Loss: 0.3904 | Accuracy: 81.88%
+Epoche 1050 | Loss: 0.3583 | Accuracy: 82.97%
+Epoche 1100 | Loss: 0.3566 | Accuracy: 83.67%
+Epoche 1150 | Loss: 0.3298 | Accuracy: 84.21%
+Epoche 1200 | Loss: 0.3390 | Accuracy: 83.83%
+Epoche 1250 | Loss: 0.3041 | Accuracy: 86.47%
+Epoche 1300 | Loss: 0.2854 | Accuracy: 86.39%
+Epoche 1350 | Loss: 0.2734 | Accuracy: 88.02%
+Epoche 1400 | Loss: 0.2636 | Accuracy: 87.48%
+Epoche 1450 | Loss: 0.2611 | Accuracy: 87.48%
+Epoche 1500 | Loss: 0.2317 | Accuracy: 88.34%
+Epoche 1550 | Loss: 0.2197 | Accuracy: 90.90%
+Epoche 1600 | Loss: 0.1908 | Accuracy: 92.46%
+Epoche 1650 | Loss: 0.2101 | Accuracy: 89.81%
+Epoche 1700 | Loss: 0.1831 | Accuracy: 91.68%
+Epoche 1750 | Loss: 0.1839 | Accuracy: 92.46%
+Epoche 1800 | Loss: 0.1863 | Accuracy: 92.77%
+Epoche 1850 | Loss: 0.1598 | Accuracy: 92.38%
+Epoche 1900 | Loss: 0.1578 | Accuracy: 93.23%
+Epoche 1950 | Loss: 0.1443 | Accuracy: 93.93%
+Epoche 2000 | Loss: 0.1277 | Accuracy: 94.32%
+--- Sanity Check abgeschlossen ---

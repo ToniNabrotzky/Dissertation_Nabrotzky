@@ -26,6 +26,7 @@ from torch_geometric.loader import DataLoader
 """
 CONFIG = {
     # Siehe Doku: https://pytorch-geometric.readthedocs.io/en/2.5.1/modules/nn.html
+    "model_save_dir": f"Test_01_DB6", # Ordner für die pth-Dateien
     # Auswahl: GATv2, GINE, NN
     "model_type": "GINE", # Default= GINE
     "hidden_dim": 128,   # Default= 128 | Sinvolle Annahmen: 32, 64, 128
@@ -35,25 +36,24 @@ CONFIG = {
     "dropout": 0.2, # Default= 0.1
     "lr": 0.001, # Default= 0.001
     "epochs": 500,      # Default= 500 | Sanity Check braucht meist etwas länger zum Overfitten (1000-2000 Epochen)
-    "edge_dim": 1,       # Default= 1 | Dimensionen der Kantenmerkmale (z.B. nur Distanz) | 0 deaktiviert Kantenmerkmale
     "batch_size": 12,
     "threshold": 0.5,    # Default= 0.5 | Sicherheit, die das Modell braucht um eine Kante als WAHR zu labeln.
-    "model_save_dir": f"Test_00_DB5_DefaultSettings", # Ordner für die pth-Dateien
+    "edge_dim": 1,       # Default= 1 | Dimensionen der Kantenmerkmale (z.B. nur Distanz) | 0 deaktiviert Kantenmerkmale
     "node_features": [   # Ausgewählte Knotenmerkmale
-        "origin",               # 3 Features (x, y, z lokal)
-        "centroid",             # 3 Features (x, y, z lokal)
-        "centroid_x",           # 1 Feature (global X)
-        "centroid_y",           # 1 Feature (global Y)
-        "centroid_z",           # 1 Feature (global Z)
-        "dimensions",           # 3 Features (L, B, H)
-        "norm_dimensions",      # 3 Features (L, B, H normiert)
-        "area",                 # 1 Feature
-        "volume",               # 1 Feature
-        "ratio_av",             # 1 Feature
-        "normed_x",             # 1 Feature (normed X)
-        "normed_y",             # 1 Feature (normed Y)
-        "normed_z",             # 1 Feature (normed Z)
-        "entity_one_hot_idx"    # 1 Feature (Klassen-Index)
+        # "origin",               # 3 Features (x, y, z lokal)
+        # "centroid",             # 3 Features (x, y, z lokal)
+        # "centroid_x",           # 1 Feature (global X)
+        # "centroid_y",           # 1 Feature (global Y)
+        # "centroid_z",           # 1 Feature (global Z)
+        # "dimensions",           # 3 Features (L, B, H)
+        # "norm_dimensions",      # 3 Features (L, B, H normiert)
+        # "area",                 # 1 Feature
+        # "volume",               # 1 Feature
+        # "ratio_av",             # 1 Feature
+        # "normed_x",             # 1 Feature (normed X)
+        # "normed_y",             # 1 Feature (normed Y)
+        # "normed_z",             # 1 Feature (normed Z)
+        # "entity_one_hot_idx"    # 1 Feature (Klassen-Index)
     ]
 }
 
