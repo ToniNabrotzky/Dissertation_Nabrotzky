@@ -1,0 +1,413 @@
+Status;Type_A;Type_B;GUID_A;GUID_B;Name_A;Name_B
+o;IfcSlab;IfcSlab;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNXZ;Floor:Generic 300mm:379780;Floor:Generic 400mm:379792
+o;IfcSlab;IfcSlab;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNXh;Floor:Generic 300mm:379780;Floor:Generic 500mm:379800
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZHR;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:353003
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZHS;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:353004
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZHT;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:353005
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZHV;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:353007
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZH0;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:353008
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZH1;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:353009
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZHH;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:352993
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZHI;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:352994
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZHJ;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:352995
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZHL;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:352997
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZHM;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:352998
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXt;30MCbSofj3dxQ32C2pYZHN;Floor:Generic 300mm:379780;Basic Wall:Exterior 300mm:352999
+x;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNXt;2SpPulMUj7W9MlFoi2X4TU;Floor:Generic 300mm:379780;M_Concrete-Rectangular Beam:B3 20*80:383363
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNXt;2SpPulMUj7W9MlFoi2X4TO;Floor:Generic 300mm:379780;M_Concrete-Rectangular Beam:B2 20*60:383365
+x;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNXt;2SpPulMUj7W9MlFoi2X4TS;Floor:Generic 300mm:379780;M_Concrete-Rectangular Beam:B1 20*40:383361
+x;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNXt;2SpPulMUj7W9MlFoi2X4TP;Floor:Generic 300mm:379780;M_Concrete-Rectangular Beam:B1 20*40:383364
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNsA;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*40:380537
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNs9;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*40:380538
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNsE;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*60:380541
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNsC;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*60:380543
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNro;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*80:380545
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNrt;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*80:380548
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNrr;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*60:380550
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNrx;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*60:380552
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNou;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*40:380747
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNo$;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*40:380748
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNoy;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*60:380751
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;0ecKzvW51CxukiVc5VdNoY;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*60:380753
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;16sXQFXWv5O9KMylwvmGpa;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*40:382569
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;16sXQFXWv5O9KMylwvmGnt;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*40:382714
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;3aorwOIbTAsRMlLGWRdSjB;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*80:384492
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;3aorwOIbTAsRMlLGWRdSj9;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*80:384494
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;3aorwOIbTAsRMlLGWRdSj8;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*60:384495
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;3aorwOIbTAsRMlLGWRdSjM;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*60:384497
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;3aorwOIbTAsRMlLGWRdSjL;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*40:384498
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXt;3aorwOIbTAsRMlLGWRdSjK;Floor:Generic 300mm:379780;Concrete-Rectangular-Column:30*40:384499
+;;;;;;
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXZ;30MCbSofj3dxQ32C2pYZHT;Floor:Generic 400mm:379792;Basic Wall:Exterior 300mm:353005
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXZ;30MCbSofj3dxQ32C2pYZHV;Floor:Generic 400mm:379792;Basic Wall:Exterior 300mm:353007
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXZ;30MCbSofj3dxQ32C2pYZHJ;Floor:Generic 400mm:379792;Basic Wall:Exterior 300mm:352995
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXZ;30MCbSofj3dxQ32C2pYZHL;Floor:Generic 400mm:379792;Basic Wall:Exterior 300mm:352997
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNXZ;2SpPulMUj7W9MlFoi2X4TU;Floor:Generic 400mm:379792;M_Concrete-Rectangular Beam:B3 20*80:383363
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNXZ;2SpPulMUj7W9MlFoi2X4TS;Floor:Generic 400mm:379792;M_Concrete-Rectangular Beam:B1 20*40:383361
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNXZ;2SpPulMUj7W9MlFoi2X4TP;Floor:Generic 400mm:379792;M_Concrete-Rectangular Beam:B1 20*40:383364
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;0ecKzvW51CxukiVc5VdNro;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*80:380545
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;0ecKzvW51CxukiVc5VdNrt;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*80:380548
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;0ecKzvW51CxukiVc5VdNrr;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*60:380550
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;0ecKzvW51CxukiVc5VdNrx;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*60:380552
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;16sXQFXWv5O9KMylwvmGpa;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*40:382569
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;16sXQFXWv5O9KMylwvmGnt;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*40:382714
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;3aorwOIbTAsRMlLGWRdSjB;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*80:384492
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;3aorwOIbTAsRMlLGWRdSj9;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*80:384494
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;3aorwOIbTAsRMlLGWRdSj8;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*60:384495
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;3aorwOIbTAsRMlLGWRdSjM;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*60:384497
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;3aorwOIbTAsRMlLGWRdSjL;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*40:384498
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXZ;3aorwOIbTAsRMlLGWRdSjK;Floor:Generic 400mm:379792;Concrete-Rectangular-Column:30*40:384499
+;;;;;;
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXh;30MCbSofj3dxQ32C2pYZHR;Floor:Generic 500mm:379800;Basic Wall:Exterior 300mm:353003
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXh;30MCbSofj3dxQ32C2pYZH1;Floor:Generic 500mm:379800;Basic Wall:Exterior 300mm:353009
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXh;30MCbSofj3dxQ32C2pYZH2;Floor:Generic 500mm:379800;Basic Wall:Exterior 300mm:353010
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXh;0ecKzvW51CxukiVc5VdNsA;Floor:Generic 500mm:379800;Concrete-Rectangular-Column:30*40:380537
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXh;30MCbSofj3dxQ32C2pYZHH;Floor:Generic 500mm:379800;Basic Wall:Exterior 300mm:352993
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXh;30MCbSofj3dxQ32C2pYZHN;Floor:Generic 500mm:379800;Basic Wall:Exterior 300mm:352999
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNXh;30MCbSofj3dxQ32C2pYZHO;Floor:Generic 500mm:379800;Basic Wall:Exterior 300mm:353000
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNXh;0ecKzvW51CxukiVc5VdNou;Floor:Generic 500mm:379800;Concrete-Rectangular-Column:30*40:380747
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHR;30MCbSofj3dxQ32C2pYZHS;Basic Wall:Exterior 300mm:353003;Basic Wall:Exterior 300mm:353004
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHR;30MCbSofj3dxQ32C2pYZH2;Basic Wall:Exterior 300mm:353003;Basic Wall:Exterior 300mm:353010
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHR;30MCbSofj3dxQ32C2pYZHH;Basic Wall:Exterior 300mm:353003;Basic Wall:Exterior 300mm:352993
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHR;30MCbSofj3dxQ32C2pYZHI;Basic Wall:Exterior 300mm:353003;Basic Wall:Exterior 300mm:352994
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHR;30MCbSofj3dxQ32C2pYZHO;Basic Wall:Exterior 300mm:353003;Basic Wall:Exterior 300mm:353000
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHS;30MCbSofj3dxQ32C2pYZHT;Basic Wall:Exterior 300mm:353004;Basic Wall:Exterior 300mm:353005
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHS;30MCbSofj3dxQ32C2pYZHH;Basic Wall:Exterior 300mm:353004;Basic Wall:Exterior 300mm:352993
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHS;30MCbSofj3dxQ32C2pYZHI;Basic Wall:Exterior 300mm:353004;Basic Wall:Exterior 300mm:352994
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHS;30MCbSofj3dxQ32C2pYZHJ;Basic Wall:Exterior 300mm:353004;Basic Wall:Exterior 300mm:352995
+;;;;;;
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHT;30MCbSofj3dxQ32C2pYZHI;Basic Wall:Exterior 300mm:353005;Basic Wall:Exterior 300mm:352994
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHT;30MCbSofj3dxQ32C2pYZHJ;Basic Wall:Exterior 300mm:353005;Basic Wall:Exterior 300mm:352995
+o;IfcWall;IfcBeam;30MCbSofj3dxQ32C2pYZHT;2SpPulMUj7W9MlFoi2X4TQ;Basic Wall:Exterior 300mm:353005;M_Concrete-Rectangular Beam:B1 20*40:383367
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHV;30MCbSofj3dxQ32C2pYZH0;Basic Wall:Exterior 300mm:353007;Basic Wall:Exterior 300mm:353008
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHV;30MCbSofj3dxQ32C2pYZHL;Basic Wall:Exterior 300mm:353007;Basic Wall:Exterior 300mm:352997
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHV;30MCbSofj3dxQ32C2pYZHM;Basic Wall:Exterior 300mm:353007;Basic Wall:Exterior 300mm:352998
+o;IfcWall;IfcBeam;30MCbSofj3dxQ32C2pYZHV;2SpPulMUj7W9MlFoi2X4TN;Basic Wall:Exterior 300mm:353007;M_Concrete-Rectangular Beam:B1 20*40:383370
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH0;30MCbSofj3dxQ32C2pYZH1;Basic Wall:Exterior 300mm:353008;Basic Wall:Exterior 300mm:353009
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH0;30MCbSofj3dxQ32C2pYZHL;Basic Wall:Exterior 300mm:353008;Basic Wall:Exterior 300mm:352997
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH0;30MCbSofj3dxQ32C2pYZHM;Basic Wall:Exterior 300mm:353008;Basic Wall:Exterior 300mm:352998
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH0;30MCbSofj3dxQ32C2pYZHN;Basic Wall:Exterior 300mm:353008;Basic Wall:Exterior 300mm:352999
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH1;30MCbSofj3dxQ32C2pYZH2;Basic Wall:Exterior 300mm:353009;Basic Wall:Exterior 300mm:353010
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH1;30MCbSofj3dxQ32C2pYZHM;Basic Wall:Exterior 300mm:353009;Basic Wall:Exterior 300mm:352998
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH1;30MCbSofj3dxQ32C2pYZHN;Basic Wall:Exterior 300mm:353009;Basic Wall:Exterior 300mm:352999
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH1;30MCbSofj3dxQ32C2pYZHO;Basic Wall:Exterior 300mm:353009;Basic Wall:Exterior 300mm:353000
+;;;;;;
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH2;30MCbSofj3dxQ32C2pYZHH;Basic Wall:Exterior 300mm:353010;Basic Wall:Exterior 300mm:352993
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH2;30MCbSofj3dxQ32C2pYZHN;Basic Wall:Exterior 300mm:353010;Basic Wall:Exterior 300mm:352999
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH2;30MCbSofj3dxQ32C2pYZHO;Basic Wall:Exterior 300mm:353010;Basic Wall:Exterior 300mm:353000
+;;;;;;
+o;IfcColumn;IfcSlab;0ecKzvW51CxukiVc5VdNsA;0ecKzvW51CxukiVc5VdNYX;Concrete-Rectangular-Column:30*40:380537;Floor:Generic 300mm:379730
+o;IfcColumn;IfcSlab;0ecKzvW51CxukiVc5VdNsA;0ecKzvW51CxukiVc5VdNYL;Concrete-Rectangular-Column:30*40:380537;Floor:Generic 500mm:379750
+o;IfcColumn;IfcBeam;0ecKzvW51CxukiVc5VdNsA;2SpPulMUj7W9MlFoi2X4TO;Concrete-Rectangular-Column:30*40:380537;M_Concrete-Rectangular Beam:B2 20*60:383365
+;;;;;;
+o;IfcSlab;IfcSlab;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNYj;Floor:Generic 300mm:379730;Floor:Generic 400mm:379742
+o;IfcSlab;IfcSlab;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNYL;Floor:Generic 300mm:379730;Floor:Generic 500mm:379750
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZHH;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352993
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZHI;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352994
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZHJ;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352995
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZHL;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352997
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZHM;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352998
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZHN;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352999
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZHz;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352973
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZH$;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352975
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZHX;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352977
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZHY;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352978
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;30MCbSofj3dxQ32C2pYZHZ;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:352979
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdM1K;Floor:Generic 300mm:379730;Basic Wall:Exterior 300mm:381863
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNYX;2SpPulMUj7W9MlFoi2X4Uc;Floor:Generic 300mm:379730;M_Concrete-Rectangular Beam:B2 20*60:383355
+x;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNYX;2SpPulMUj7W9MlFoi2X4Ug;Floor:Generic 300mm:379730;M_Concrete-Rectangular Beam:B1 20*40:383351
+x;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNYX;2SpPulMUj7W9MlFoi2X4Ua;Floor:Generic 300mm:379730;M_Concrete-Rectangular Beam:B3 20*80:383353
+x;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNYX;2SpPulMUj7W9MlFoi2X4Ud;Floor:Generic 300mm:379730;M_Concrete-Rectangular Beam:B1 20*40:383354
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNvR;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*40:380328
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNvQ;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*40:380329
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNvV;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*60:380332
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNvT;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*60:380334
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNv3;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*80:380336
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNv0;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*80:380339
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNv6;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*60:380341
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNv4;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*60:380343
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNs9;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*40:380538
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNsE;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*60:380541
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNsC;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*60:380543
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNro;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*80:380545
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNrt;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*80:380548
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNrr;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*60:380550
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;0ecKzvW51CxukiVc5VdNrx;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*60:380552
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;16sXQFXWv5O9KMylwvmGpa;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*40:382569
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYX;16sXQFXWv5O9KMylwvmGnt;Floor:Generic 300mm:379730;Concrete-Rectangular-Column:30*40:382714
+;;;;;;
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYj;30MCbSofj3dxQ32C2pYZHJ;Floor:Generic 400mm:379742;Basic Wall:Exterior 300mm:352995
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYj;30MCbSofj3dxQ32C2pYZHL;Floor:Generic 400mm:379742;Basic Wall:Exterior 300mm:352997
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYj;30MCbSofj3dxQ32C2pYZH$;Floor:Generic 400mm:379742;Basic Wall:Exterior 300mm:352975
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYj;30MCbSofj3dxQ32C2pYZHX;Floor:Generic 400mm:379742;Basic Wall:Exterior 300mm:352977
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNYj;2SpPulMUj7W9MlFoi2X4Ug;Floor:Generic 400mm:379742;M_Concrete-Rectangular Beam:B1 20*40:383351
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNYj;2SpPulMUj7W9MlFoi2X4Ua;Floor:Generic 400mm:379742;M_Concrete-Rectangular Beam:B3 20*80:383353
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNYj;2SpPulMUj7W9MlFoi2X4Ud;Floor:Generic 400mm:379742;M_Concrete-Rectangular Beam:B1 20*40:383354
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYj;0ecKzvW51CxukiVc5VdNv3;Floor:Generic 400mm:379742;Concrete-Rectangular-Column:30*80:380336
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYj;0ecKzvW51CxukiVc5VdNv0;Floor:Generic 400mm:379742;Concrete-Rectangular-Column:30*80:380339
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYj;0ecKzvW51CxukiVc5VdNv6;Floor:Generic 400mm:379742;Concrete-Rectangular-Column:30*60:380341
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYj;0ecKzvW51CxukiVc5VdNv4;Floor:Generic 400mm:379742;Concrete-Rectangular-Column:30*60:380343
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYj;0ecKzvW51CxukiVc5VdNro;Floor:Generic 400mm:379742;Concrete-Rectangular-Column:30*80:380545
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYj;0ecKzvW51CxukiVc5VdNrt;Floor:Generic 400mm:379742;Concrete-Rectangular-Column:30*80:380548
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYj;0ecKzvW51CxukiVc5VdNrr;Floor:Generic 400mm:379742;Concrete-Rectangular-Column:30*60:380550
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYj;0ecKzvW51CxukiVc5VdNrx;Floor:Generic 400mm:379742;Concrete-Rectangular-Column:30*60:380552
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYj;16sXQFXWv5O9KMylwvmGpa;Floor:Generic 400mm:379742;Concrete-Rectangular-Column:30*40:382569
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYj;16sXQFXWv5O9KMylwvmGnt;Floor:Generic 400mm:379742;Concrete-Rectangular-Column:30*40:382714
+;;;;;;
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYL;30MCbSofj3dxQ32C2pYZHH;Floor:Generic 500mm:379750;Basic Wall:Exterior 300mm:352993
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYL;30MCbSofj3dxQ32C2pYZHN;Floor:Generic 500mm:379750;Basic Wall:Exterior 300mm:352999
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYL;30MCbSofj3dxQ32C2pYZHO;Floor:Generic 500mm:379750;Basic Wall:Exterior 300mm:353000
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNYL;0ecKzvW51CxukiVc5VdNvR;Floor:Generic 500mm:379750;Concrete-Rectangular-Column:30*40:380328
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYL;30MCbSofj3dxQ32C2pYZHz;Floor:Generic 500mm:379750;Basic Wall:Exterior 300mm:352973
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYL;30MCbSofj3dxQ32C2pYZHZ;Floor:Generic 500mm:379750;Basic Wall:Exterior 300mm:352979
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNYL;30MCbSofj3dxQ32C2pYZHa;Floor:Generic 500mm:379750;Basic Wall:Exterior 300mm:352980
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHH;30MCbSofj3dxQ32C2pYZHI;Basic Wall:Exterior 300mm:352993;Basic Wall:Exterior 300mm:352994
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHH;30MCbSofj3dxQ32C2pYZHO;Basic Wall:Exterior 300mm:352993;Basic Wall:Exterior 300mm:353000
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHH;30MCbSofj3dxQ32C2pYZHz;Basic Wall:Exterior 300mm:352993;Basic Wall:Exterior 300mm:352973
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHH;30MCbSofj3dxQ32C2pYZHa;Basic Wall:Exterior 300mm:352993;Basic Wall:Exterior 300mm:352980
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHH;0ecKzvW51CxukiVc5VdM1K;Basic Wall:Exterior 300mm:352993;Basic Wall:Exterior 300mm:381863
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHI;30MCbSofj3dxQ32C2pYZHJ;Basic Wall:Exterior 300mm:352994;Basic Wall:Exterior 300mm:352995
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHI;30MCbSofj3dxQ32C2pYZHz;Basic Wall:Exterior 300mm:352994;Basic Wall:Exterior 300mm:352973
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHI;30MCbSofj3dxQ32C2pYZH$;Basic Wall:Exterior 300mm:352994;Basic Wall:Exterior 300mm:352975
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHI;0ecKzvW51CxukiVc5VdM1K;Basic Wall:Exterior 300mm:352994;Basic Wall:Exterior 300mm:381863
+;;;;;;
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHJ;30MCbSofj3dxQ32C2pYZH$;Basic Wall:Exterior 300mm:352995;Basic Wall:Exterior 300mm:352975
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHJ;0ecKzvW51CxukiVc5VdM1K;Basic Wall:Exterior 300mm:352995;Basic Wall:Exterior 300mm:381863
+o;IfcWall;IfcBeam;30MCbSofj3dxQ32C2pYZHJ;2SpPulMUj7W9MlFoi2X4TS;Basic Wall:Exterior 300mm:352995;M_Concrete-Rectangular Beam:B1 20*40:383361
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHL;30MCbSofj3dxQ32C2pYZHM;Basic Wall:Exterior 300mm:352997;Basic Wall:Exterior 300mm:352998
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHL;30MCbSofj3dxQ32C2pYZHX;Basic Wall:Exterior 300mm:352997;Basic Wall:Exterior 300mm:352977
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHL;30MCbSofj3dxQ32C2pYZHY;Basic Wall:Exterior 300mm:352997;Basic Wall:Exterior 300mm:352978
+o;IfcWall;IfcBeam;30MCbSofj3dxQ32C2pYZHL;2SpPulMUj7W9MlFoi2X4TP;Basic Wall:Exterior 300mm:352997;M_Concrete-Rectangular Beam:B1 20*40:383364
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHM;30MCbSofj3dxQ32C2pYZHN;Basic Wall:Exterior 300mm:352998;Basic Wall:Exterior 300mm:352999
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHM;30MCbSofj3dxQ32C2pYZHX;Basic Wall:Exterior 300mm:352998;Basic Wall:Exterior 300mm:352977
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHM;30MCbSofj3dxQ32C2pYZHY;Basic Wall:Exterior 300mm:352998;Basic Wall:Exterior 300mm:352978
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHM;30MCbSofj3dxQ32C2pYZHZ;Basic Wall:Exterior 300mm:352998;Basic Wall:Exterior 300mm:352979
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHN;30MCbSofj3dxQ32C2pYZHO;Basic Wall:Exterior 300mm:352999;Basic Wall:Exterior 300mm:353000
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHN;30MCbSofj3dxQ32C2pYZHY;Basic Wall:Exterior 300mm:352999;Basic Wall:Exterior 300mm:352978
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHN;30MCbSofj3dxQ32C2pYZHZ;Basic Wall:Exterior 300mm:352999;Basic Wall:Exterior 300mm:352979
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHN;30MCbSofj3dxQ32C2pYZHa;Basic Wall:Exterior 300mm:352999;Basic Wall:Exterior 300mm:352980
+;;;;;;
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHO;30MCbSofj3dxQ32C2pYZHz;Basic Wall:Exterior 300mm:353000;Basic Wall:Exterior 300mm:352973
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHO;30MCbSofj3dxQ32C2pYZHZ;Basic Wall:Exterior 300mm:353000;Basic Wall:Exterior 300mm:352979
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHO;30MCbSofj3dxQ32C2pYZHa;Basic Wall:Exterior 300mm:353000;Basic Wall:Exterior 300mm:352980
+;;;;;;
+o;IfcBeam;IfcBeam;2SpPulMUj7W9MlFoi2X4TK;2SpPulMUj7W9MlFoi2X4TN;M_Concrete-Rectangular Beam:B3 20*80:383369;M_Concrete-Rectangular Beam:B1 20*40:383370
+o;IfcBeam;IfcBeam;2SpPulMUj7W9MlFoi2X4TK;2SpPulMUj7W9MlFoi2X4TQ;M_Concrete-Rectangular Beam:B3 20*80:383369;M_Concrete-Rectangular Beam:B1 20*40:383367
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TK;3aorwOIbTAsRMlLGWRdSjB;M_Concrete-Rectangular Beam:B3 20*80:383369;Concrete-Rectangular-Column:30*80:384492
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TK;3aorwOIbTAsRMlLGWRdSj9;M_Concrete-Rectangular Beam:B3 20*80:383369;Concrete-Rectangular-Column:30*80:384494
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TK;3aorwOIbTAsRMlLGWRdSjL;M_Concrete-Rectangular Beam:B3 20*80:383369;Concrete-Rectangular-Column:30*40:384498
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TK;3aorwOIbTAsRMlLGWRdSjK;M_Concrete-Rectangular Beam:B3 20*80:383369;Concrete-Rectangular-Column:30*40:384499
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TM;0ecKzvW51CxukiVc5VdNou;M_Concrete-Rectangular Beam:B2 20*60:383371;Concrete-Rectangular-Column:30*40:380747
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TM;0ecKzvW51CxukiVc5VdNo$;M_Concrete-Rectangular Beam:B2 20*60:383371;Concrete-Rectangular-Column:30*40:380748
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TM;0ecKzvW51CxukiVc5VdNoy;M_Concrete-Rectangular Beam:B2 20*60:383371;Concrete-Rectangular-Column:30*60:380751
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TM;0ecKzvW51CxukiVc5VdNoY;M_Concrete-Rectangular Beam:B2 20*60:383371;Concrete-Rectangular-Column:30*60:380753
+;;;;;;
+o;IfcColumn;IfcSlab;0ecKzvW51CxukiVc5VdNvR;0ecKzvW51CxukiVc5VdNZi;Concrete-Rectangular-Column:30*40:380328;Floor:Generic 300mm:379679
+o;IfcColumn;IfcSlab;0ecKzvW51CxukiVc5VdNvR;0ecKzvW51CxukiVc5VdNZ0;Concrete-Rectangular-Column:30*40:380328;Floor:Generic 500mm:379699
+o;IfcColumn;IfcBeam;0ecKzvW51CxukiVc5VdNvR;2SpPulMUj7W9MlFoi2X4Uc;Concrete-Rectangular-Column:30*40:380328;M_Concrete-Rectangular Beam:B2 20*60:383355
+;;;;;;
+o;IfcSlab;IfcSlab;0ecKzvW51CxukiVc5VdNZi;0ecKzvW51CxukiVc5VdNZO;Floor:Generic 300mm:379679;Floor:Generic 400mm:379691
+o;IfcSlab;IfcSlab;0ecKzvW51CxukiVc5VdNZi;0ecKzvW51CxukiVc5VdNZ0;Floor:Generic 300mm:379679;Floor:Generic 500mm:379699
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYZHz;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:352973
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYZH$;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:352975
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYZHX;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:352977
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYZHY;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:352978
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYZHZ;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:352979
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;0ecKzvW51CxukiVc5VdM1K;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:381863
+x;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNZi;2RYJALCqHCIOqoo3CExer$;Floor:Generic 300mm:379679;M_Concrete-Rectangular Beam:B2 20*60:377576
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNZi;3bUdbepMvFhPRxezKmbute;Floor:Generic 300mm:379679;M_Concrete-Rectangular Beam:B3 20*80:377185
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNZi;23vu$oF4r06wBfoYxfueWY;Floor:Generic 300mm:379679;M_Concrete-Rectangular Beam:B1 20*40:377260
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNZi;2RYJALCqHCIOqoo3CExl72;Floor:Generic 300mm:379679;M_Concrete-Rectangular Beam:B1 20*40:376405
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;2v8L7tgBLA7hslsrNW1fRl;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*40:373312
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;2v8L7tgBLA7hslsrNW1f0d;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*40:373896
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;2v8L7tgBLA7hslsrNW1foY;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*60:374797
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;2v8L7tgBLA7hslsrNW1fsJ;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*60:375100
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;2v8L7tgBLA7hslsrNW1fw6;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*80:375337
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;2v8L7tgBLA7hslsrNW1fvE;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*80:375521
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;2v8L7tgBLA7hslsrNW1f_b;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*60:375562
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;2v8L7tgBLA7hslsrNW1fzR;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*60:375796
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;0ecKzvW51CxukiVc5VdNvQ;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*40:380329
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;0ecKzvW51CxukiVc5VdNvV;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*60:380332
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;0ecKzvW51CxukiVc5VdNvT;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*60:380334
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;0ecKzvW51CxukiVc5VdNv3;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*80:380336
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;0ecKzvW51CxukiVc5VdNv0;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*80:380339
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;0ecKzvW51CxukiVc5VdNv6;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*60:380341
+x;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZi;0ecKzvW51CxukiVc5VdNv4;Floor:Generic 300mm:379679;Concrete-Rectangular-Column:30*60:380343
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYWXC;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:351996
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYWc7;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:352055
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYWdO;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:352104
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYWb8;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:352248
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYZQ2;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:352306
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZi;30MCbSofj3dxQ32C2pYZR5;Floor:Generic 300mm:379679;Basic Wall:Exterior 300mm:352373
+;;;;;;
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZO;30MCbSofj3dxQ32C2pYZH$;Floor:Generic 400mm:379691;Basic Wall:Exterior 300mm:352975
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZO;30MCbSofj3dxQ32C2pYZHX;Floor:Generic 400mm:379691;Basic Wall:Exterior 300mm:352977
+x;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNZO;3bUdbepMvFhPRxezKmbute;Floor:Generic 400mm:379691;M_Concrete-Rectangular Beam:B3 20*80:377185
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNZO;23vu$oF4r06wBfoYxfueWY;Floor:Generic 400mm:379691;M_Concrete-Rectangular Beam:B1 20*40:377260
+o;IfcSlab;IfcBeam;0ecKzvW51CxukiVc5VdNZO;2RYJALCqHCIOqoo3CExl72;Floor:Generic 400mm:379691;M_Concrete-Rectangular Beam:B1 20*40:376405
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZO;2v8L7tgBLA7hslsrNW1fw6;Floor:Generic 400mm:379691;Concrete-Rectangular-Column:30*80:375337
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZO;2v8L7tgBLA7hslsrNW1fvE;Floor:Generic 400mm:379691;Concrete-Rectangular-Column:30*80:375521
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZO;2v8L7tgBLA7hslsrNW1f_b;Floor:Generic 400mm:379691;Concrete-Rectangular-Column:30*60:375562
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZO;2v8L7tgBLA7hslsrNW1fzR;Floor:Generic 400mm:379691;Concrete-Rectangular-Column:30*60:375796
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZO;0ecKzvW51CxukiVc5VdNv3;Floor:Generic 400mm:379691;Concrete-Rectangular-Column:30*80:380336
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZO;0ecKzvW51CxukiVc5VdNv0;Floor:Generic 400mm:379691;Concrete-Rectangular-Column:30*80:380339
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZO;0ecKzvW51CxukiVc5VdNv6;Floor:Generic 400mm:379691;Concrete-Rectangular-Column:30*60:380341
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZO;0ecKzvW51CxukiVc5VdNv4;Floor:Generic 400mm:379691;Concrete-Rectangular-Column:30*60:380343
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZO;30MCbSofj3dxQ32C2pYWdO;Floor:Generic 400mm:379691;Basic Wall:Exterior 300mm:352104
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZO;30MCbSofj3dxQ32C2pYWb8;Floor:Generic 400mm:379691;Basic Wall:Exterior 300mm:352248
+;;;;;;
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZ0;30MCbSofj3dxQ32C2pYZHz;Floor:Generic 500mm:379699;Basic Wall:Exterior 300mm:352973
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZ0;30MCbSofj3dxQ32C2pYZHZ;Floor:Generic 500mm:379699;Basic Wall:Exterior 300mm:352979
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZ0;30MCbSofj3dxQ32C2pYZHa;Floor:Generic 500mm:379699;Basic Wall:Exterior 300mm:352980
+o;IfcSlab;IfcColumn;0ecKzvW51CxukiVc5VdNZ0;2v8L7tgBLA7hslsrNW1fRl;Floor:Generic 500mm:379699;Concrete-Rectangular-Column:30*40:373312
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZ0;30MCbSofj3dxQ32C2pYWXC;Floor:Generic 500mm:379699;Basic Wall:Exterior 300mm:351996
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZ0;30MCbSofj3dxQ32C2pYZR5;Floor:Generic 500mm:379699;Basic Wall:Exterior 300mm:352373
+o;IfcSlab;IfcWall;0ecKzvW51CxukiVc5VdNZ0;30MCbSofj3dxQ32C2pYZOH;Floor:Generic 500mm:379699;Basic Wall:Exterior 300mm:352417
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHz;30MCbSofj3dxQ32C2pYZHa;Basic Wall:Exterior 300mm:352973;Basic Wall:Exterior 300mm:352980
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHz;0ecKzvW51CxukiVc5VdM1K;Basic Wall:Exterior 300mm:352973;Basic Wall:Exterior 300mm:381863
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHz;30MCbSofj3dxQ32C2pYWXC;Basic Wall:Exterior 300mm:352973;Basic Wall:Exterior 300mm:351996
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHz;30MCbSofj3dxQ32C2pYWc7;Basic Wall:Exterior 300mm:352973;Basic Wall:Exterior 300mm:352055
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH$;0ecKzvW51CxukiVc5VdM1K;Basic Wall:Exterior 300mm:352975;Basic Wall:Exterior 300mm:381863
+o;IfcWall;IfcBeam;30MCbSofj3dxQ32C2pYZH$;2SpPulMUj7W9MlFoi2X4Ug;Basic Wall:Exterior 300mm:352975;M_Concrete-Rectangular Beam:B1 20*40:383351
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH$;30MCbSofj3dxQ32C2pYWc7;Basic Wall:Exterior 300mm:352975;Basic Wall:Exterior 300mm:352055
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZH$;30MCbSofj3dxQ32C2pYWdO;Basic Wall:Exterior 300mm:352975;Basic Wall:Exterior 300mm:352104
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHX;30MCbSofj3dxQ32C2pYZHY;Basic Wall:Exterior 300mm:352977;Basic Wall:Exterior 300mm:352978
+o;IfcWall;IfcBeam;30MCbSofj3dxQ32C2pYZHX;2SpPulMUj7W9MlFoi2X4Ud;Basic Wall:Exterior 300mm:352977;M_Concrete-Rectangular Beam:B1 20*40:383354
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHX;30MCbSofj3dxQ32C2pYWb8;Basic Wall:Exterior 300mm:352977;Basic Wall:Exterior 300mm:352248
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHX;30MCbSofj3dxQ32C2pYZQ2;Basic Wall:Exterior 300mm:352977;Basic Wall:Exterior 300mm:352306
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHY;30MCbSofj3dxQ32C2pYZHZ;Basic Wall:Exterior 300mm:352978;Basic Wall:Exterior 300mm:352979
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHY;30MCbSofj3dxQ32C2pYWb8;Basic Wall:Exterior 300mm:352978;Basic Wall:Exterior 300mm:352248
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHY;30MCbSofj3dxQ32C2pYZQ2;Basic Wall:Exterior 300mm:352978;Basic Wall:Exterior 300mm:352306
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHY;30MCbSofj3dxQ32C2pYZR5;Basic Wall:Exterior 300mm:352978;Basic Wall:Exterior 300mm:352373
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHZ;30MCbSofj3dxQ32C2pYZHa;Basic Wall:Exterior 300mm:352979;Basic Wall:Exterior 300mm:352980
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHZ;30MCbSofj3dxQ32C2pYZQ2;Basic Wall:Exterior 300mm:352979;Basic Wall:Exterior 300mm:352306
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHZ;30MCbSofj3dxQ32C2pYZR5;Basic Wall:Exterior 300mm:352979;Basic Wall:Exterior 300mm:352373
+;;;;;;
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHa;30MCbSofj3dxQ32C2pYWXC;Basic Wall:Exterior 300mm:352980;Basic Wall:Exterior 300mm:351996
+x;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZHa;30MCbSofj3dxQ32C2pYZR5;Basic Wall:Exterior 300mm:352980;Basic Wall:Exterior 300mm:352373
+;;;;;;
+x;IfcWall;IfcWall;0ecKzvW51CxukiVc5VdM1K;30MCbSofj3dxQ32C2pYWXC;Basic Wall:Exterior 300mm:381863;Basic Wall:Exterior 300mm:351996
+x;IfcWall;IfcWall;0ecKzvW51CxukiVc5VdM1K;30MCbSofj3dxQ32C2pYWc7;Basic Wall:Exterior 300mm:381863;Basic Wall:Exterior 300mm:352055
+x;IfcWall;IfcWall;0ecKzvW51CxukiVc5VdM1K;30MCbSofj3dxQ32C2pYWdO;Basic Wall:Exterior 300mm:381863;Basic Wall:Exterior 300mm:352104
+;;;;;;
+o;IfcBeam;IfcColumn;2RYJALCqHCIOqoo3CExer$;2v8L7tgBLA7hslsrNW1fRl;M_Concrete-Rectangular Beam:B2 20*60:377576;Concrete-Rectangular-Column:30*40:373312
+o;IfcBeam;IfcColumn;2RYJALCqHCIOqoo3CExer$;2v8L7tgBLA7hslsrNW1f0d;M_Concrete-Rectangular Beam:B2 20*60:377576;Concrete-Rectangular-Column:30*40:373896
+o;IfcBeam;IfcColumn;2RYJALCqHCIOqoo3CExer$;2v8L7tgBLA7hslsrNW1foY;M_Concrete-Rectangular Beam:B2 20*60:377576;Concrete-Rectangular-Column:30*60:374797
+o;IfcBeam;IfcColumn;2RYJALCqHCIOqoo3CExer$;2v8L7tgBLA7hslsrNW1fsJ;M_Concrete-Rectangular Beam:B2 20*60:377576;Concrete-Rectangular-Column:30*60:375100
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4Uc;0ecKzvW51CxukiVc5VdNvQ;M_Concrete-Rectangular Beam:B2 20*60:383355;Concrete-Rectangular-Column:30*40:380329
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4Uc;0ecKzvW51CxukiVc5VdNvV;M_Concrete-Rectangular Beam:B2 20*60:383355;Concrete-Rectangular-Column:30*60:380332
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4Uc;0ecKzvW51CxukiVc5VdNvT;M_Concrete-Rectangular Beam:B2 20*60:383355;Concrete-Rectangular-Column:30*60:380334
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TQ;3aorwOIbTAsRMlLGWRdSjB;M_Concrete-Rectangular Beam:B1 20*40:383367;Concrete-Rectangular-Column:30*80:384492
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TQ;3aorwOIbTAsRMlLGWRdSjM;M_Concrete-Rectangular Beam:B1 20*40:383367;Concrete-Rectangular-Column:30*60:384497
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TN;3aorwOIbTAsRMlLGWRdSj9;M_Concrete-Rectangular Beam:B1 20*40:383370;Concrete-Rectangular-Column:30*80:384494
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TN;3aorwOIbTAsRMlLGWRdSj8;M_Concrete-Rectangular Beam:B1 20*40:383370;Concrete-Rectangular-Column:30*60:384495
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TU;0ecKzvW51CxukiVc5VdNro;M_Concrete-Rectangular Beam:B3 20*80:383363;Concrete-Rectangular-Column:30*80:380545
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TU;0ecKzvW51CxukiVc5VdNrt;M_Concrete-Rectangular Beam:B3 20*80:383363;Concrete-Rectangular-Column:30*80:380548
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TU;16sXQFXWv5O9KMylwvmGpa;M_Concrete-Rectangular Beam:B3 20*80:383363;Concrete-Rectangular-Column:30*40:382569
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TU;16sXQFXWv5O9KMylwvmGnt;M_Concrete-Rectangular Beam:B3 20*80:383363;Concrete-Rectangular-Column:30*40:382714
+o;IfcBeam;IfcBeam;2SpPulMUj7W9MlFoi2X4TU;2SpPulMUj7W9MlFoi2X4TP;M_Concrete-Rectangular Beam:B3 20*80:383363;M_Concrete-Rectangular Beam:B1 20*40:383364
+o;IfcBeam;IfcBeam;2SpPulMUj7W9MlFoi2X4TU;2SpPulMUj7W9MlFoi2X4TS;M_Concrete-Rectangular Beam:B3 20*80:383363;M_Concrete-Rectangular Beam:B1 20*40:383361
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TO;0ecKzvW51CxukiVc5VdNs9;M_Concrete-Rectangular Beam:B2 20*60:383365;Concrete-Rectangular-Column:30*40:380538
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TO;0ecKzvW51CxukiVc5VdNsE;M_Concrete-Rectangular Beam:B2 20*60:383365;Concrete-Rectangular-Column:30*60:380541
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TO;0ecKzvW51CxukiVc5VdNsC;M_Concrete-Rectangular Beam:B2 20*60:383365;Concrete-Rectangular-Column:30*60:380543
+;;;;;;
+o;IfcBeam;IfcBeam;3bUdbepMvFhPRxezKmbute;23vu$oF4r06wBfoYxfueWY;M_Concrete-Rectangular Beam:B3 20*80:377185;M_Concrete-Rectangular Beam:B1 20*40:377260
+o;IfcBeam;IfcBeam;3bUdbepMvFhPRxezKmbute;2RYJALCqHCIOqoo3CExl72;M_Concrete-Rectangular Beam:B3 20*80:377185;M_Concrete-Rectangular Beam:B1 20*40:376405
+o;IfcBeam;IfcColumn;3bUdbepMvFhPRxezKmbute;2v8L7tgBLA7hslsrNW1fw6;M_Concrete-Rectangular Beam:B3 20*80:377185;Concrete-Rectangular-Column:30*80:375337
+o;IfcBeam;IfcColumn;3bUdbepMvFhPRxezKmbute;2v8L7tgBLA7hslsrNW1fvE;M_Concrete-Rectangular Beam:B3 20*80:377185;Concrete-Rectangular-Column:30*80:375521
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4Ug;0ecKzvW51CxukiVc5VdNv3;M_Concrete-Rectangular Beam:B1 20*40:383351;Concrete-Rectangular-Column:30*80:380336
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4Ug;0ecKzvW51CxukiVc5VdNv4;M_Concrete-Rectangular Beam:B1 20*40:383351;Concrete-Rectangular-Column:30*60:380343
+o;IfcBeam;IfcBeam;2SpPulMUj7W9MlFoi2X4Ug;2SpPulMUj7W9MlFoi2X4Ua;M_Concrete-Rectangular Beam:B1 20*40:383351;M_Concrete-Rectangular Beam:B3 20*80:383353
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TS;0ecKzvW51CxukiVc5VdNro;M_Concrete-Rectangular Beam:B1 20*40:383361;Concrete-Rectangular-Column:30*80:380545
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TS;0ecKzvW51CxukiVc5VdNrx;M_Concrete-Rectangular Beam:B1 20*40:383361;Concrete-Rectangular-Column:30*60:380552
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4Ua;0ecKzvW51CxukiVc5VdNv3;M_Concrete-Rectangular Beam:B3 20*80:383353;Concrete-Rectangular-Column:30*80:380336
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4Ua;0ecKzvW51CxukiVc5VdNv0;M_Concrete-Rectangular Beam:B3 20*80:383353;Concrete-Rectangular-Column:30*80:380339
+o;IfcBeam;IfcBeam;2SpPulMUj7W9MlFoi2X4Ua;2SpPulMUj7W9MlFoi2X4Ud;M_Concrete-Rectangular Beam:B3 20*80:383353;M_Concrete-Rectangular Beam:B1 20*40:383354
+;;;;;;
+o;IfcBeam;IfcColumn;23vu$oF4r06wBfoYxfueWY;2v8L7tgBLA7hslsrNW1fvE;M_Concrete-Rectangular Beam:B1 20*40:377260;Concrete-Rectangular-Column:30*80:375521
+o;IfcBeam;IfcColumn;23vu$oF4r06wBfoYxfueWY;2v8L7tgBLA7hslsrNW1f_b;M_Concrete-Rectangular Beam:B1 20*40:377260;Concrete-Rectangular-Column:30*60:375562
+o;IfcBeam;IfcWall;23vu$oF4r06wBfoYxfueWY;30MCbSofj3dxQ32C2pYWb8;M_Concrete-Rectangular Beam:B1 20*40:377260;Basic Wall:Exterior 300mm:352248
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TP;0ecKzvW51CxukiVc5VdNrt;M_Concrete-Rectangular Beam:B1 20*40:383364;Concrete-Rectangular-Column:30*80:380548
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4TP;0ecKzvW51CxukiVc5VdNrr;M_Concrete-Rectangular Beam:B1 20*40:383364;Concrete-Rectangular-Column:30*60:380550
+;;;;;;
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4Ud;0ecKzvW51CxukiVc5VdNv0;M_Concrete-Rectangular Beam:B1 20*40:383354;Concrete-Rectangular-Column:30*80:380339
+o;IfcBeam;IfcColumn;2SpPulMUj7W9MlFoi2X4Ud;0ecKzvW51CxukiVc5VdNv6;M_Concrete-Rectangular Beam:B1 20*40:383354;Concrete-Rectangular-Column:30*60:380341
+;;;;;;
+o;IfcBeam;IfcColumn;2RYJALCqHCIOqoo3CExl72;2v8L7tgBLA7hslsrNW1fw6;M_Concrete-Rectangular Beam:B1 20*40:376405;Concrete-Rectangular-Column:30*80:375337
+o;IfcBeam;IfcColumn;2RYJALCqHCIOqoo3CExl72;2v8L7tgBLA7hslsrNW1fzR;M_Concrete-Rectangular Beam:B1 20*40:376405;Concrete-Rectangular-Column:30*60:375796
+o;IfcBeam;IfcWall;2RYJALCqHCIOqoo3CExl72;30MCbSofj3dxQ32C2pYWdO;M_Concrete-Rectangular Beam:B1 20*40:376405;Basic Wall:Exterior 300mm:352104
+;;;;;;
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1fRl;2RYJALCqHCIOqoo3CExlEE;Concrete-Rectangular-Column:30*40:373312;Floor:Generic 300mm:375833
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1fRl;2RYJALCqHCIOqoo3CExlAs;Concrete-Rectangular-Column:30*40:373312;Floor:Generic 500mm:376097
+;;;;;;
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1f0d;2RYJALCqHCIOqoo3CExlEE;Concrete-Rectangular-Column:30*40:373896;Floor:Generic 300mm:375833
+;;;;;;
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1foY;2RYJALCqHCIOqoo3CExlEE;Concrete-Rectangular-Column:30*60:374797;Floor:Generic 300mm:375833
+;;;;;;
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1fsJ;2RYJALCqHCIOqoo3CExlEE;Concrete-Rectangular-Column:30*60:375100;Floor:Generic 300mm:375833
+;;;;;;
+x;IfcColumn;IfcColumn;2v8L7tgBLA7hslsrNW1fw6;0ecKzvW51CxukiVc5VdNv3;Concrete-Rectangular-Column:30*80:375337;Concrete-Rectangular-Column:30*80:380336
+x;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1fw6;2RYJALCqHCIOqoo3CExlEE;Concrete-Rectangular-Column:30*80:375337;Floor:Generic 300mm:375833
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1fw6;2RYJALCqHCIOqoo3CExlD9;Concrete-Rectangular-Column:30*80:375337;Floor:Generic 400mm:376030
+;;;;;;
+x;IfcColumn;IfcColumn;2v8L7tgBLA7hslsrNW1fvE;0ecKzvW51CxukiVc5VdNv0;Concrete-Rectangular-Column:30*80:375521;Concrete-Rectangular-Column:30*80:380339
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1fvE;2RYJALCqHCIOqoo3CExlEE;Concrete-Rectangular-Column:30*80:375521;Floor:Generic 300mm:375833
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1fvE;2RYJALCqHCIOqoo3CExlD9;Concrete-Rectangular-Column:30*80:375521;Floor:Generic 400mm:376030
+;;;;;;
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1f_b;2RYJALCqHCIOqoo3CExlEE;Concrete-Rectangular-Column:30*60:375562;Floor:Generic 300mm:375833
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1f_b;2RYJALCqHCIOqoo3CExlD9;Concrete-Rectangular-Column:30*60:375562;Floor:Generic 400mm:376030
+;;;;;;
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1fzR;2RYJALCqHCIOqoo3CExlEE;Concrete-Rectangular-Column:30*60:375796;Floor:Generic 300mm:375833
+o;IfcColumn;IfcSlab;2v8L7tgBLA7hslsrNW1fzR;2RYJALCqHCIOqoo3CExlD9;Concrete-Rectangular-Column:30*60:375796;Floor:Generic 400mm:376030
+;;;;;;
+o;IfcSlab;IfcSlab;2RYJALCqHCIOqoo3CExlEE;2RYJALCqHCIOqoo3CExlD9;Floor:Generic 300mm:375833;Floor:Generic 400mm:376030
+o;IfcSlab;IfcSlab;2RYJALCqHCIOqoo3CExlEE;2RYJALCqHCIOqoo3CExlAs;Floor:Generic 300mm:375833;Floor:Generic 500mm:376097
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlEE;30MCbSofj3dxQ32C2pYWXC;Floor:Generic 300mm:375833;Basic Wall:Exterior 300mm:351996
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlEE;30MCbSofj3dxQ32C2pYWc7;Floor:Generic 300mm:375833;Basic Wall:Exterior 300mm:352055
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlEE;30MCbSofj3dxQ32C2pYWdO;Floor:Generic 300mm:375833;Basic Wall:Exterior 300mm:352104
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlEE;30MCbSofj3dxQ32C2pYWb8;Floor:Generic 300mm:375833;Basic Wall:Exterior 300mm:352248
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlEE;30MCbSofj3dxQ32C2pYZQ2;Floor:Generic 300mm:375833;Basic Wall:Exterior 300mm:352306
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlEE;30MCbSofj3dxQ32C2pYZR5;Floor:Generic 300mm:375833;Basic Wall:Exterior 300mm:352373
+;;;;;;
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlD9;30MCbSofj3dxQ32C2pYWdO;Floor:Generic 400mm:376030;Basic Wall:Exterior 300mm:352104
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlD9;30MCbSofj3dxQ32C2pYWb8;Floor:Generic 400mm:376030;Basic Wall:Exterior 300mm:352248
+;;;;;;
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlAs;30MCbSofj3dxQ32C2pYWXC;Floor:Generic 500mm:376097;Basic Wall:Exterior 300mm:351996
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlAs;30MCbSofj3dxQ32C2pYZR5;Floor:Generic 500mm:376097;Basic Wall:Exterior 300mm:352373
+o;IfcSlab;IfcWall;2RYJALCqHCIOqoo3CExlAs;30MCbSofj3dxQ32C2pYZOH;Floor:Generic 500mm:376097;Basic Wall:Exterior 300mm:352417
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYWXC;30MCbSofj3dxQ32C2pYWc7;Basic Wall:Exterior 300mm:351996;Basic Wall:Exterior 300mm:352055
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYWXC;30MCbSofj3dxQ32C2pYZOH;Basic Wall:Exterior 300mm:351996;Basic Wall:Exterior 300mm:352417
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYWc7;30MCbSofj3dxQ32C2pYWdO;Basic Wall:Exterior 300mm:352055;Basic Wall:Exterior 300mm:352104
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYWb8;30MCbSofj3dxQ32C2pYZQ2;Basic Wall:Exterior 300mm:352248;Basic Wall:Exterior 300mm:352306
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZQ2;30MCbSofj3dxQ32C2pYZR5;Basic Wall:Exterior 300mm:352306;Basic Wall:Exterior 300mm:352373
+;;;;;;
+o;IfcWall;IfcWall;30MCbSofj3dxQ32C2pYZR5;30MCbSofj3dxQ32C2pYZOH;Basic Wall:Exterior 300mm:352373;Basic Wall:Exterior 300mm:352417

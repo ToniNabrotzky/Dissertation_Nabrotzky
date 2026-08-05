@@ -1,0 +1,1137 @@
+Status;Type_A;GUID_A;Name_A;Type_B;GUID_B;Name_B
+auto;IfcBeam;IfcBeam;1k2rnqKH1ClAI40_sMU1UA;3wd7YnPan93gSai_LH_rtD;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859945;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782701
+auto;IfcBeam;IfcBeam;1k2rnqKH1ClAI40_sMU1UA;3wd7YnPan93gSai_LH_rtA;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859945;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782698
+auto;IfcBeam;IfcBeam;1k2rnqKH1ClAI40_sMU1UA;3wd7YnPan93gSai_LH_rt9;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859945;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782697
+auto;IfcBeam;IfcBeam;1k2rnqKH1ClAI40_sMU1UA;3wd7YnPan93gSai_LH_rtC;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859945;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782700
+auto;IfcBeam;IfcColumn;1k2rnqKH1ClAI40_sMU1UA;1Lc5xXkOTBjwSq5r7z8237;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859945;M_Concrete-Rectangular-Column:Column_Type_1:1780884
+auto;IfcBeam;IfcColumn;1k2rnqKH1ClAI40_sMU1UA;1Lc5xXkOTBjwSq5r7z8234;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859945;M_Concrete-Rectangular-Column:Column_Type_1:1780887
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtD;1k2rnqKH1ClAI40_sMU1U9;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782701;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859946
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtD;1Lc5xXkOTBjwSq5r7z8237;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782701;M_Concrete-Rectangular-Column:Column_Type_1:1780884
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtD;0bnlJNCLX69fZ_DIGa0GsG;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782701;M_Concrete-Rectangular-Column:Column_Type_1:1781682
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rsb;3wd7YnPan93gSai_LH_rt9;UB-Universal Beams:Beam_Type_5 - Steel:1782725;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782697
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rsb;1zvc8yHnX3FQmblWugBlbk;UB-Universal Beams:Beam_Type_5 - Steel:1782725;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1884276
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rsb;1Lc5xXkOTBjwSq5r7z8230;UB-Universal Beams:Beam_Type_5 - Steel:1782725;M_Concrete-Rectangular-Column:Column_Type_1:1780883
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rsb;1Lc5xXkOTBjwSq5r7z8236;UB-Universal Beams:Beam_Type_5 - Steel:1782725;M_Concrete-Rectangular-Column:Column_Type_1:1780885
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rsc;1zvc8yHnX3FQmblWugBlbf;UB-Universal Beams:Beam_Type_5 - Steel:1782726;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1884275
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rsc;3wd7YnPan93gSai_LH_rtQ;UB-Universal Beams:Beam_Type_5 - Steel:1782726;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782714
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rsc;1Lc5xXkOTBjwSq5r7z823s;UB-Universal Beams:Beam_Type_5 - Steel:1782726;M_Concrete-Rectangular-Column:Column_Type_1:1780901
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rsc;1Lc5xXkOTBjwSq5r7z823r;UB-Universal Beams:Beam_Type_5 - Steel:1782726;M_Concrete-Rectangular-Column:Column_Type_1:1780902
+;;;;;;
+auto;IfcBeam;IfcBeam;1k2rnqKH1ClAI40_sMU1RM;3wd7YnPan93gSai_LH_rtP;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859637;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782713
+auto;IfcBeam;IfcBeam;1k2rnqKH1ClAI40_sMU1RM;3wd7YnPan93gSai_LH_rtR;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859637;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782715
+auto;IfcBeam;IfcColumn;1k2rnqKH1ClAI40_sMU1RM;0bnlJNCLX69fZ_DIGa0GsM;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859637;M_Concrete-Rectangular-Column:Column_Type_1:1781684
+auto;IfcBeam;IfcColumn;1k2rnqKH1ClAI40_sMU1RM;0bnlJNCLX69fZ_DIGa0GsN;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859637;M_Concrete-Rectangular-Column:Column_Type_1:1781685
+;;;;;;
+auto;IfcBeam;IfcBeam;1zvc8yHnX3FQmblWugBlbf;3wd7YnPan93gSai_LH_rtQ;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1884275;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782714
+auto;IfcBeam;IfcBeam;1zvc8yHnX3FQmblWugBlbf;3wd7YnPan93gSai_LH_rtS;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1884275;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782716
+auto;IfcBeam;IfcColumn;1zvc8yHnX3FQmblWugBlbf;1Lc5xXkOTBjwSq5r7z823s;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1884275;M_Concrete-Rectangular-Column:Column_Type_1:1780901
+auto;IfcBeam;IfcColumn;1zvc8yHnX3FQmblWugBlbf;1Lc5xXkOTBjwSq5r7z823r;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1884275;M_Concrete-Rectangular-Column:Column_Type_1:1780902
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtA;1k2rnqKH1ClAI40_sMU1U9;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782698;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859946
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtA;1Lc5xXkOTBjwSq5r7z8234;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782698;M_Concrete-Rectangular-Column:Column_Type_1:1780887
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtA;0bnlJNCLX69fZ_DIGa0GsH;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782698;M_Concrete-Rectangular-Column:Column_Type_1:1781683
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtP;3wd7YnPan93gSai_LH_rtU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782713;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782718
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtP;1Lc5xXkOTBjwSq5r7z823F;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782713;M_Concrete-Rectangular-Column:Column_Type_1:1780892
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtP;0bnlJNCLX69fZ_DIGa0GsN;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782713;M_Concrete-Rectangular-Column:Column_Type_1:1781685
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rt3;3wd7YnPan93gSai_LH_rtd;UB-Universal Beams:Beam_Type_5 - Steel:1782691;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782663
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rt3;3wd7YnPan93gSai_LH_rtg;UB-Universal Beams:Beam_Type_5 - Steel:1782691;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782666
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt3;1Lc5xXkOTBjwSq5r7z820Y;UB-Universal Beams:Beam_Type_5 - Steel:1782691;M_Concrete-Rectangular-Column:Column_Type_1:1780849
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt3;1Lc5xXkOTBjwSq5r7z820W;UB-Universal Beams:Beam_Type_5 - Steel:1782691;M_Concrete-Rectangular-Column:Column_Type_1:1780851
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt3;1Lc5xXkOTBjwSq5r7z8230;UB-Universal Beams:Beam_Type_5 - Steel:1782691;M_Concrete-Rectangular-Column:Column_Type_1:1780883
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt3;1Lc5xXkOTBjwSq5r7z8236;UB-Universal Beams:Beam_Type_5 - Steel:1782691;M_Concrete-Rectangular-Column:Column_Type_1:1780885
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rt4;3wd7YnPan93gSai_LH_rtu;UB-Universal Beams:Beam_Type_5 - Steel:1782692;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782680
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rt4;3wd7YnPan93gSai_LH_rtw;UB-Universal Beams:Beam_Type_5 - Steel:1782692;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782682
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt4;1Lc5xXkOTBjwSq5r7z823G;UB-Universal Beams:Beam_Type_5 - Steel:1782692;M_Concrete-Rectangular-Column:Column_Type_1:1780867
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt4;1Lc5xXkOTBjwSq5r7z823N;UB-Universal Beams:Beam_Type_5 - Steel:1782692;M_Concrete-Rectangular-Column:Column_Type_1:1780868
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt4;1Lc5xXkOTBjwSq5r7z823s;UB-Universal Beams:Beam_Type_5 - Steel:1782692;M_Concrete-Rectangular-Column:Column_Type_1:1780901
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt4;1Lc5xXkOTBjwSq5r7z823r;UB-Universal Beams:Beam_Type_5 - Steel:1782692;M_Concrete-Rectangular-Column:Column_Type_1:1780902
+;;;;;;
+auto;IfcSlab;IfcWall;1T5I0CmoT59R8dSYICh9PL;3wd7YnPan93gSai_LH_rkt;Floor:Floor_Type_5 - Conference:1792266;Basic Wall:Wall_Type_5 - Structural:1783255
+auto;IfcSlab;IfcWall;1T5I0CmoT59R8dSYICh9PL;33kki$cAbE$uQxZ$49S20h;Floor:Floor_Type_5 - Conference:1792266;Basic Wall:Wall_Type_5 - Structural:1805217
+auto;IfcSlab;IfcBeam;1T5I0CmoT59R8dSYICh9PL;3wd7YnPan93gSai_LH_rqO;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782648
+auto;IfcSlab;IfcBeam;1T5I0CmoT59R8dSYICh9PL;3wd7YnPan93gSai_LH_rqP;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782649
+auto;IfcSlab;IfcBeam;1T5I0CmoT59R8dSYICh9PL;3wd7YnPan93gSai_LH_rqQ;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782650
+auto;IfcSlab;IfcBeam;1T5I0CmoT59R8dSYICh9PL;3wd7YnPan93gSai_LH_rqR;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782651
+auto;IfcSlab;IfcBeam;1T5I0CmoT59R8dSYICh9PL;3wd7YnPan93gSai_LH_rqS;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782652
+auto;IfcSlab;IfcBeam;1T5I0CmoT59R8dSYICh9PL;3wd7YnPan93gSai_LH_rqT;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782653
+auto;IfcSlab;IfcBeam;1T5I0CmoT59R8dSYICh9PL;1zvc8yHnX3FQmblWugBeSq;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1883694
+auto;IfcSlab;IfcColumn;1T5I0CmoT59R8dSYICh9PL;1Lc5xXkOTBjwSq5r7z8205;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular-Column:Column_Type_1:1780822
+auto;IfcSlab;IfcColumn;1T5I0CmoT59R8dSYICh9PL;1Lc5xXkOTBjwSq5r7z820B;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular-Column:Column_Type_1:1780824
+auto;IfcSlab;IfcColumn;1T5I0CmoT59R8dSYICh9PL;1Lc5xXkOTBjwSq5r7z820h;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular-Column:Column_Type_1:1780856
+auto;IfcSlab;IfcColumn;1T5I0CmoT59R8dSYICh9PL;1Lc5xXkOTBjwSq5r7z820g;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular-Column:Column_Type_1:1780857
+auto;IfcSlab;IfcColumn;1T5I0CmoT59R8dSYICh9PL;1Lc5xXkOTBjwSq5r7z820f;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular-Column:Column_Type_1:1780858
+auto;IfcSlab;IfcColumn;1T5I0CmoT59R8dSYICh9PL;0bnlJNCLX69fZ_DIGa0GpT;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular-Column:Column_Type_1:1781503
+auto;IfcSlab;IfcColumn;1T5I0CmoT59R8dSYICh9PL;0bnlJNCLX69fZ_DIGa0H3x;Floor:Floor_Type_5 - Conference:1792266;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+;;;;;;
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYyTKl;3wd7YnPan93gSai_LH_rku;Floor:Floor_Type_5 - Conference:1838084;Basic Wall:Wall_Type_5 - Structural:1783256
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYyTKl;33kki$cAbE$uQxZ$49S20e;Floor:Floor_Type_5 - Conference:1838084;Basic Wall:Wall_Type_5 - Structural:1805218
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTKl;3wd7YnPan93gSai_LH_rq8;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782632
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTKl;3wd7YnPan93gSai_LH_rq9;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782633
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTKl;3wd7YnPan93gSai_LH_rqA;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782634
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTKl;3wd7YnPan93gSai_LH_rqB;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782635
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTKl;3wd7YnPan93gSai_LH_rqC;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782636
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTKl;3wd7YnPan93gSai_LH_rtY;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782658
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTKl;2kauD9ZWn4SxJjjBX7h3yW;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887323
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTKl;1Lc5xXkOTBjwSq5r7z8203;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular-Column:Column_Type_1:1780816
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTKl;1Lc5xXkOTBjwSq5r7z8200;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular-Column:Column_Type_1:1780819
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTKl;1Lc5xXkOTBjwSq5r7z820X;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular-Column:Column_Type_1:1780850
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTKl;1Lc5xXkOTBjwSq5r7z820d;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular-Column:Column_Type_1:1780852
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTKl;1Lc5xXkOTBjwSq5r7z820c;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular-Column:Column_Type_1:1780853
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTKl;1Lc5xXkOTBjwSq5r7z820b;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular-Column:Column_Type_1:1780854
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTKl;0bnlJNCLX69fZ_DIGa0H3r;Floor:Floor_Type_5 - Conference:1838084;M_Concrete-Rectangular-Column:Column_Type_5:1782487
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rta;3wd7YnPan93gSai_LH_rq8;UB-Universal Beams:Beam_Type_5 - Steel:1782660;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782632
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rta;3wd7YnPan93gSai_LH_rqB;UB-Universal Beams:Beam_Type_5 - Steel:1782660;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782635
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rta;1Lc5xXkOTBjwSq5r7z820S;UB-Universal Beams:Beam_Type_5 - Steel:1782660;M_Concrete-Rectangular-Column:Column_Type_1:1780815
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rta;1Lc5xXkOTBjwSq5r7z8202;UB-Universal Beams:Beam_Type_5 - Steel:1782660;M_Concrete-Rectangular-Column:Column_Type_1:1780817
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rta;1Lc5xXkOTBjwSq5r7z820Y;UB-Universal Beams:Beam_Type_5 - Steel:1782660;M_Concrete-Rectangular-Column:Column_Type_1:1780849
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rta;1Lc5xXkOTBjwSq5r7z820W;UB-Universal Beams:Beam_Type_5 - Steel:1782660;M_Concrete-Rectangular-Column:Column_Type_1:1780851
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtb;3wd7YnPan93gSai_LH_rqP;UB-Universal Beams:Beam_Type_5 - Steel:1782661;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782649
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtb;3wd7YnPan93gSai_LH_rqR;UB-Universal Beams:Beam_Type_5 - Steel:1782661;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782651
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtb;1Lc5xXkOTBjwSq5r7z820o;UB-Universal Beams:Beam_Type_5 - Steel:1782661;M_Concrete-Rectangular-Column:Column_Type_1:1780833
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtb;1Lc5xXkOTBjwSq5r7z820n;UB-Universal Beams:Beam_Type_5 - Steel:1782661;M_Concrete-Rectangular-Column:Column_Type_1:1780834
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtb;1Lc5xXkOTBjwSq5r7z823G;UB-Universal Beams:Beam_Type_5 - Steel:1782661;M_Concrete-Rectangular-Column:Column_Type_1:1780867
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtb;1Lc5xXkOTBjwSq5r7z823N;UB-Universal Beams:Beam_Type_5 - Steel:1782661;M_Concrete-Rectangular-Column:Column_Type_1:1780868
+;;;;;;
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rkt;Floor:Floor_Type_2 - Carpet:1832810;Basic Wall:Wall_Type_5 - Structural:1783255
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rku;Floor:Floor_Type_2 - Carpet:1832810;Basic Wall:Wall_Type_5 - Structural:1783256
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYzYv1;33kki$cAbE$uQxZ$49S20h;Floor:Floor_Type_2 - Carpet:1832810;Basic Wall:Wall_Type_5 - Structural:1805217
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYzYv1;33kki$cAbE$uQxZ$49S20e;Floor:Floor_Type_2 - Carpet:1832810;Basic Wall:Wall_Type_5 - Structural:1805218
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_reL;Floor:Floor_Type_2 - Carpet:1832810;Basic Wall:Wall_Type_5 - Structural:1782901
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_reM;Floor:Floor_Type_2 - Carpet:1832810;Basic Wall:Wall_Type_5 - Structural:1782902
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYzYv1;33kki$cAbE$uQxZ$49S228;Floor:Floor_Type_2 - Carpet:1832810;Basic Wall:Wall_Type_5 - Structural:1805058
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYzYv1;33kki$cAbE$uQxZ$49S229;Floor:Floor_Type_2 - Carpet:1832810;Basic Wall:Wall_Type_5 - Structural:1805059
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rrU;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782590
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rrV;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782591
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqW;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782592
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqX;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782593
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqY;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782594
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqZ;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782595
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqa;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782596
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqb;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782597
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqc;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782598
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqd;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782599
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqe;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782600
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqf;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782601
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqg;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782602
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqh;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782603
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqi;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782604
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqj;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782605
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqk;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782606
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rql;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782607
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqm;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782608
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqn;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782609
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqo;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqp;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782611
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqq;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782612
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqr;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782613
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqs;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782614
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqt;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782615
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;3wd7YnPan93gSai_LH_rqu;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782616
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;2OyofZfarC$ekCcjwDbz77;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1882348
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYzYv1;2kauD9ZWn4SxJjjBX7h3yX;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821$;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_2:1780780
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821z;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780782
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821Y;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780785
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821W;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780787
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821d;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780788
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821b;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780790
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821g;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780793
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821f;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780794
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821e;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780795
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821l;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780796
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821k;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780797
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z821j;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780798
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z820T;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_2:1780814
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z8203;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780816
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z8200;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780819
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z8206;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780821
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z8205;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780822
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z820B;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780824
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z8208;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780827
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z820F;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780828
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z820E;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780829
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z820D;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780830
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z820C;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780831
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1Lc5xXkOTBjwSq5r7z820p;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_1:1780832
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;0bnlJNCLX69fZ_DIGa0H2E;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_5:1782444
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;0bnlJNCLX69fZ_DIGa0H2C;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;0bnlJNCLX69fZ_DIGa0H3r;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_5:1782487
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;0bnlJNCLX69fZ_DIGa0H3x;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;2E$hWs0vH16v$R76pKFCsy;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_3:1827753
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;2E$hWs0vH16v$R76pKFCs$;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_3:1827754
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1zvc8yHnX3FQmblWugBeNm;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_3:1883370
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYzYv1;1zvc8yHnX3FQmblWugBeNn;Floor:Floor_Type_2 - Carpet:1832810;M_Concrete-Rectangular-Column:Column_Type_3:1883371
+;;;;;;
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_rkt;33kki$cAbE$uQxZ$49S20h;Basic Wall:Wall_Type_5 - Structural:1783255;Basic Wall:Wall_Type_5 - Structural:1805217
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_rkt;3wd7YnPan93gSai_LH_reL;Basic Wall:Wall_Type_5 - Structural:1783255;Basic Wall:Wall_Type_5 - Structural:1782901
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_rkt;33kki$cAbE$uQxZ$49S228;Basic Wall:Wall_Type_5 - Structural:1783255;Basic Wall:Wall_Type_5 - Structural:1805058
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rkt;3wd7YnPan93gSai_LH_rqo;Basic Wall:Wall_Type_5 - Structural:1783255;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rkt;3wd7YnPan93gSai_LH_rqt;Basic Wall:Wall_Type_5 - Structural:1783255;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782615
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rkt;3wd7YnPan93gSai_LH_rqS;Basic Wall:Wall_Type_5 - Structural:1783255;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782652
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rkt;3wd7YnPan93gSai_LH_rtX;Basic Wall:Wall_Type_5 - Structural:1783255;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782657
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rkt;2OyofZfarC$ekCcjwDbz77;Basic Wall:Wall_Type_5 - Structural:1783255;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1882348
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rkt;2OyofZfarC$ekCcjwDbz2u;Basic Wall:Wall_Type_5 - Structural:1783255;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1882515
+;;;;;;
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_rku;33kki$cAbE$uQxZ$49S20e;Basic Wall:Wall_Type_5 - Structural:1783256;Basic Wall:Wall_Type_5 - Structural:1805218
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_rku;3wd7YnPan93gSai_LH_reM;Basic Wall:Wall_Type_5 - Structural:1783256;Basic Wall:Wall_Type_5 - Structural:1782902
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_rku;33kki$cAbE$uQxZ$49S229;Basic Wall:Wall_Type_5 - Structural:1783256;Basic Wall:Wall_Type_5 - Structural:1805059
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rku;3wd7YnPan93gSai_LH_rqZ;Basic Wall:Wall_Type_5 - Structural:1783256;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782595
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rku;3wd7YnPan93gSai_LH_rqD;Basic Wall:Wall_Type_5 - Structural:1783256;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782637
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rku;2OyofZfarC$ekCcjwDbz77;Basic Wall:Wall_Type_5 - Structural:1783256;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1882348
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rku;2OyofZfarC$ekCcjwDbz2u;Basic Wall:Wall_Type_5 - Structural:1783256;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1882515
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rku;2kauD9ZWn4SxJjjBX7h3yX;Basic Wall:Wall_Type_5 - Structural:1783256;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_rku;2kauD9ZWn4SxJjjBX7h3yW;Basic Wall:Wall_Type_5 - Structural:1783256;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887323
+;;;;;;
+auto;IfcWall;IfcWall;33kki$cAbE$uQxZ$49S20h;3wd7YnPan93gSai_LH_reL;Basic Wall:Wall_Type_5 - Structural:1805217;Basic Wall:Wall_Type_5 - Structural:1782901
+auto;IfcWall;IfcWall;33kki$cAbE$uQxZ$49S20h;33kki$cAbE$uQxZ$49S228;Basic Wall:Wall_Type_5 - Structural:1805217;Basic Wall:Wall_Type_5 - Structural:1805058
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S20h;3wd7YnPan93gSai_LH_rqm;Basic Wall:Wall_Type_5 - Structural:1805217;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782608
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S20h;3wd7YnPan93gSai_LH_rqo;Basic Wall:Wall_Type_5 - Structural:1805217;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S20h;3wd7YnPan93gSai_LH_rqQ;Basic Wall:Wall_Type_5 - Structural:1805217;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782650
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S20h;3wd7YnPan93gSai_LH_rqS;Basic Wall:Wall_Type_5 - Structural:1805217;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782652
+auto;IfcWall;IfcColumn;33kki$cAbE$uQxZ$49S20h;1Lc5xXkOTBjwSq5r7z820g;Basic Wall:Wall_Type_5 - Structural:1805217;M_Concrete-Rectangular-Column:Column_Type_1:1780857
+;;;;;;
+auto;IfcWall;IfcWall;33kki$cAbE$uQxZ$49S20e;3wd7YnPan93gSai_LH_reM;Basic Wall:Wall_Type_5 - Structural:1805218;Basic Wall:Wall_Type_5 - Structural:1782902
+auto;IfcWall;IfcWall;33kki$cAbE$uQxZ$49S20e;33kki$cAbE$uQxZ$49S229;Basic Wall:Wall_Type_5 - Structural:1805218;Basic Wall:Wall_Type_5 - Structural:1805059
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S20e;3wd7YnPan93gSai_LH_rqY;Basic Wall:Wall_Type_5 - Structural:1805218;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782594
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S20e;3wd7YnPan93gSai_LH_rqC;Basic Wall:Wall_Type_5 - Structural:1805218;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782636
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S20e;2kauD9ZWn4SxJjjBX7h3yX;Basic Wall:Wall_Type_5 - Structural:1805218;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S20e;2kauD9ZWn4SxJjjBX7h3yW;Basic Wall:Wall_Type_5 - Structural:1805218;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887323
+auto;IfcWall;IfcColumn;33kki$cAbE$uQxZ$49S20e;1Lc5xXkOTBjwSq5r7z820d;Basic Wall:Wall_Type_5 - Structural:1805218;M_Concrete-Rectangular-Column:Column_Type_1:1780852
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqw;3wd7YnPan93gSai_LH_rrU;UB-Universal Beams:Beam_Type_5 - Steel:1782618;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782590
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqw;3wd7YnPan93gSai_LH_rqX;UB-Universal Beams:Beam_Type_5 - Steel:1782618;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782593
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqw;1Lc5xXkOTBjwSq5r7z821_;UB-Universal Beams:Beam_Type_5 - Steel:1782618;M_Concrete-Rectangular-Column:Column_Type_1:1780781
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqw;1Lc5xXkOTBjwSq5r7z821y;UB-Universal Beams:Beam_Type_5 - Steel:1782618;M_Concrete-Rectangular-Column:Column_Type_1:1780783
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqw;1Lc5xXkOTBjwSq5r7z820S;UB-Universal Beams:Beam_Type_5 - Steel:1782618;M_Concrete-Rectangular-Column:Column_Type_1:1780815
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqw;1Lc5xXkOTBjwSq5r7z8202;UB-Universal Beams:Beam_Type_5 - Steel:1782618;M_Concrete-Rectangular-Column:Column_Type_1:1780817
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqx;3wd7YnPan93gSai_LH_rql;UB-Universal Beams:Beam_Type_5 - Steel:1782619;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782607
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqx;3wd7YnPan93gSai_LH_rqn;UB-Universal Beams:Beam_Type_5 - Steel:1782619;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782609
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqx;1Lc5xXkOTBjwSq5r7z821i;UB-Universal Beams:Beam_Type_5 - Steel:1782619;M_Concrete-Rectangular-Column:Column_Type_1:1780799
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqx;1Lc5xXkOTBjwSq5r7z820J;UB-Universal Beams:Beam_Type_5 - Steel:1782619;M_Concrete-Rectangular-Column:Column_Type_1:1780800
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqx;1Lc5xXkOTBjwSq5r7z820o;UB-Universal Beams:Beam_Type_5 - Steel:1782619;M_Concrete-Rectangular-Column:Column_Type_1:1780833
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqx;1Lc5xXkOTBjwSq5r7z820n;UB-Universal Beams:Beam_Type_5 - Steel:1782619;M_Concrete-Rectangular-Column:Column_Type_1:1780834
+;;;;;;
+auto;IfcSlab;IfcSlab;0xoJIXPA9ExRXdOLhYyTbz;2nPnum6DT5xeixt0dH1BV3;Floor:Floor_Type_2 - Carpet:1835094;Floor:Floor_Type_4 - Terrace:1866153
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYyTbz;3wd7YnPan93gSai_LH_reL;Floor:Floor_Type_2 - Carpet:1835094;Basic Wall:Wall_Type_5 - Structural:1782901
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYyTbz;3wd7YnPan93gSai_LH_reM;Floor:Floor_Type_2 - Carpet:1835094;Basic Wall:Wall_Type_5 - Structural:1782902
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYyTbz;33kki$cAbE$uQxZ$49S228;Floor:Floor_Type_2 - Carpet:1835094;Basic Wall:Wall_Type_5 - Structural:1805058
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYyTbz;33kki$cAbE$uQxZ$49S229;Floor:Floor_Type_2 - Carpet:1835094;Basic Wall:Wall_Type_5 - Structural:1805059
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;0sTfZMmBH3seOiTVSZtCNR;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1755804
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqZ8u;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771812
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqZAS;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771904
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqZ5T;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772097
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqZ5W;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772156
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqZ5X;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772157
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqZRW;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773052
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqZNX;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773309
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqZHg;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773430
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYiy;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773600
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYhO;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774020
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYa1;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774109
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYdS;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1774272
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqY$s;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774826
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYuj;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774897
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYuk;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774898
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYvX;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774973
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYxD;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775057
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYqu;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775140
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYqv;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775141
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYt4;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775320
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYol;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775539
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYCU;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775618
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYEI;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775758
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYEY;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775806
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1zC7hMbhr08wl_y1DKqYAL;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1776009
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;0Wpe6xn9nEZes$CGY6wAAI;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1865124
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1PtBUBmyf5ehv54v0f9qBL;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876626
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1PtBUBmyf5ehv54v0f9qDL;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876754
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;1PtBUBmyf5ehv54v0f9qDT;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876762
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;2kauD9ZWn4SxJjjBX7h3cr;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926
+auto;IfcSlab;IfcBeam;0xoJIXPA9ExRXdOLhYyTbz;2kauD9ZWn4SxJjjBX7h3yd;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;3G1l8Rd1X328pxkdm$rv_T;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_2:1599758
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;31NTv5DGv6h9St3q13CKzd;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1603144
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1AfdK3BYX8h8tPme4eKz7Q;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1615093
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1AfdK3BYX8h8tPme4eKz7P;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_5:1615094
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1AfdK3BYX8h8tPme4eKz0u;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1615127
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1AfdK3BYX8h8tPme4eKz36;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1615337
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1AfdK3BYX8h8tPme4eKzE4;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1615531
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1AfdK3BYX8h8tPme4eKzE3;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_4:1615532
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1AfdK3BYX8h8tPme4eKzE2;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_3:1615533
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;0s8i6QQczEc8OgsPtdAQH3;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1758728
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;0s8i6QQczEc8OgsPtdAQHZ;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1758760
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;0s8i6QQczEc8OgsPtdAQHv;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1758770
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;0s8i6QQczEc8OgsPtdAQI8;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1758915
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;0s8i6QQczEc8OgsPtdAQIF;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1758916
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;0s8i6QQczEc8OgsPtdAQIE;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1758917
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;0cymiVBZH4puvZoUyk4hiJ;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_3:1769404
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821$;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_2:1780780
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821z;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780782
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821Y;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780785
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821W;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780787
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821d;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780788
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821b;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780790
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821g;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780793
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821f;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780794
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821e;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780795
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821l;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780796
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821k;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780797
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;1Lc5xXkOTBjwSq5r7z821j;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_1:1780798
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;0bnlJNCLX69fZ_DIGa0H2E;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_5:1782444
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;0bnlJNCLX69fZ_DIGa0H2C;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;2E$hWs0vH16v$R76pKFCsy;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_3:1827753
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;2E$hWs0vH16v$R76pKFCs$;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_3:1827754
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;2nPnum6DT5xeixt0dH1B5K;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_6:1867582
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;2nPnum6DT5xeixt0dH14$9;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_6:1868195
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;2nPnum6DT5xeixt0dH14$7;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_6:1868205
+auto;IfcSlab;IfcColumn;0xoJIXPA9ExRXdOLhYyTbz;2nPnum6DT5xeixt0dH14$T;Floor:Floor_Type_2 - Carpet:1835094;M_Concrete-Rectangular-Column:Column_Type_6:1868215
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYyTbz;0cymiVBZH4puvZoUyk4hQC;Floor:Floor_Type_2 - Carpet:1835094;Basic Wall:Wall_Type_5 - Structural:1765923
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYyTbz;0cymiVBZH4puvZoUyk4hVC;Floor:Floor_Type_2 - Carpet:1835094;Basic Wall:Wall_Type_5 - Structural:1766243
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYyTbz;33kki$cAbE$uQxZ$49S2AT;Floor:Floor_Type_2 - Carpet:1835094;Basic Wall:Wall_Type_5 - Structural:1804567
+auto;IfcSlab;IfcWall;0xoJIXPA9ExRXdOLhYyTbz;33kki$cAbE$uQxZ$49S29J;Floor:Floor_Type_2 - Carpet:1835094;Basic Wall:Wall_Type_5 - Structural:1804761
+;;;;;;
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BV3;3wd7YnPan93gSai_LH_reL;Floor:Floor_Type_4 - Terrace:1866153;Basic Wall:Wall_Type_5 - Structural:1782901
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BV3;3wd7YnPan93gSai_LH_reM;Floor:Floor_Type_4 - Terrace:1866153;Basic Wall:Wall_Type_5 - Structural:1782902
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BV3;33kki$cAbE$uQxZ$49S228;Floor:Floor_Type_4 - Terrace:1866153;Basic Wall:Wall_Type_5 - Structural:1805058
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BV3;33kki$cAbE$uQxZ$49S229;Floor:Floor_Type_4 - Terrace:1866153;Basic Wall:Wall_Type_5 - Structural:1805059
+auto;IfcSlab;IfcBeam;2nPnum6DT5xeixt0dH1BV3;1zC7hMbhr08wl_y1DKqZ5T;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772097
+auto;IfcSlab;IfcBeam;2nPnum6DT5xeixt0dH1BV3;1zC7hMbhr08wl_y1DKqZ5W;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772156
+auto;IfcSlab;IfcBeam;2nPnum6DT5xeixt0dH1BV3;1zC7hMbhr08wl_y1DKqYqu;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775140
+auto;IfcSlab;IfcBeam;2nPnum6DT5xeixt0dH1BV3;1zC7hMbhr08wl_y1DKqYqv;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775141
+auto;IfcSlab;IfcBeam;2nPnum6DT5xeixt0dH1BV3;0Wpe6xn9nEZes$CGY6wAAI;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1865124
+auto;IfcSlab;IfcBeam;2nPnum6DT5xeixt0dH1BV3;1PtBUBmyf5ehv54v0f9qBL;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876626
+auto;IfcSlab;IfcBeam;2nPnum6DT5xeixt0dH1BV3;1PtBUBmyf5ehv54v0f9qDL;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876754
+auto;IfcSlab;IfcBeam;2nPnum6DT5xeixt0dH1BV3;1PtBUBmyf5ehv54v0f9qDT;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876762
+auto;IfcSlab;IfcColumn;2nPnum6DT5xeixt0dH1BV3;31NTv5DGv6h9St3q13CKzd;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular-Column:Column_Type_1:1603144
+auto;IfcSlab;IfcColumn;2nPnum6DT5xeixt0dH1BV3;1AfdK3BYX8h8tPme4eKz36;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular-Column:Column_Type_1:1615337
+auto;IfcSlab;IfcColumn;2nPnum6DT5xeixt0dH1BV3;1Lc5xXkOTBjwSq5r7z821z;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular-Column:Column_Type_1:1780782
+auto;IfcSlab;IfcColumn;2nPnum6DT5xeixt0dH1BV3;1Lc5xXkOTBjwSq5r7z821d;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular-Column:Column_Type_1:1780788
+auto;IfcSlab;IfcColumn;2nPnum6DT5xeixt0dH1BV3;2nPnum6DT5xeixt0dH1B5K;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular-Column:Column_Type_6:1867582
+auto;IfcSlab;IfcColumn;2nPnum6DT5xeixt0dH1BV3;2nPnum6DT5xeixt0dH14$9;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular-Column:Column_Type_6:1868195
+auto;IfcSlab;IfcColumn;2nPnum6DT5xeixt0dH1BV3;2nPnum6DT5xeixt0dH14$7;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular-Column:Column_Type_6:1868205
+auto;IfcSlab;IfcColumn;2nPnum6DT5xeixt0dH1BV3;2nPnum6DT5xeixt0dH14$T;Floor:Floor_Type_4 - Terrace:1866153;M_Concrete-Rectangular-Column:Column_Type_6:1868215
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BV3;0cymiVBZH4puvZoUyk4hQC;Floor:Floor_Type_4 - Terrace:1866153;Basic Wall:Wall_Type_5 - Structural:1765923
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BV3;0cymiVBZH4puvZoUyk4hVC;Floor:Floor_Type_4 - Terrace:1866153;Basic Wall:Wall_Type_5 - Structural:1766243
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BV3;33kki$cAbE$uQxZ$49S2AT;Floor:Floor_Type_4 - Terrace:1866153;Basic Wall:Wall_Type_5 - Structural:1804567
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BV3;33kki$cAbE$uQxZ$49S29J;Floor:Floor_Type_4 - Terrace:1866153;Basic Wall:Wall_Type_5 - Structural:1804761
+;;;;;;
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_reL;33kki$cAbE$uQxZ$49S228;Basic Wall:Wall_Type_5 - Structural:1782901;Basic Wall:Wall_Type_5 - Structural:1805058
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reL;1zC7hMbhr08wl_y1DKqYEY;Basic Wall:Wall_Type_5 - Structural:1782901;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775806
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reL;3wd7YnPan93gSai_LH_rqo;Basic Wall:Wall_Type_5 - Structural:1782901;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reL;3wd7YnPan93gSai_LH_rqt;Basic Wall:Wall_Type_5 - Structural:1782901;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782615
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reL;0Wpe6xn9nEZes$CGY6wAAI;Basic Wall:Wall_Type_5 - Structural:1782901;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1865124
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reL;2OyofZfarC$ekCcjwDbz77;Basic Wall:Wall_Type_5 - Structural:1782901;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1882348
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reL;2kauD9ZWn4SxJjjBX7h3cr;Basic Wall:Wall_Type_5 - Structural:1782901;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_reL;0cymiVBZH4puvZoUyk4hQC;Basic Wall:Wall_Type_5 - Structural:1782901;Basic Wall:Wall_Type_5 - Structural:1765923
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_reL;33kki$cAbE$uQxZ$49S2AT;Basic Wall:Wall_Type_5 - Structural:1782901;Basic Wall:Wall_Type_5 - Structural:1804567
+;;;;;;
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_reM;33kki$cAbE$uQxZ$49S229;Basic Wall:Wall_Type_5 - Structural:1782902;Basic Wall:Wall_Type_5 - Structural:1805059
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reM;1zC7hMbhr08wl_y1DKqZ5X;Basic Wall:Wall_Type_5 - Structural:1782902;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772157
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reM;3wd7YnPan93gSai_LH_rqZ;Basic Wall:Wall_Type_5 - Structural:1782902;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782595
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reM;0Wpe6xn9nEZes$CGY6wAAI;Basic Wall:Wall_Type_5 - Structural:1782902;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1865124
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reM;2OyofZfarC$ekCcjwDbz77;Basic Wall:Wall_Type_5 - Structural:1782902;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1882348
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reM;2kauD9ZWn4SxJjjBX7h3yX;Basic Wall:Wall_Type_5 - Structural:1782902;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322
+auto;IfcWall;IfcBeam;3wd7YnPan93gSai_LH_reM;2kauD9ZWn4SxJjjBX7h3yd;Basic Wall:Wall_Type_5 - Structural:1782902;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_reM;0cymiVBZH4puvZoUyk4hVC;Basic Wall:Wall_Type_5 - Structural:1782902;Basic Wall:Wall_Type_5 - Structural:1766243
+auto;IfcWall;IfcWall;3wd7YnPan93gSai_LH_reM;33kki$cAbE$uQxZ$49S29J;Basic Wall:Wall_Type_5 - Structural:1782902;Basic Wall:Wall_Type_5 - Structural:1804761
+;;;;;;
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S228;1zC7hMbhr08wl_y1DKqYqu;Basic Wall:Wall_Type_5 - Structural:1805058;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775140
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S228;3wd7YnPan93gSai_LH_rqm;Basic Wall:Wall_Type_5 - Structural:1805058;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782608
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S228;3wd7YnPan93gSai_LH_rqo;Basic Wall:Wall_Type_5 - Structural:1805058;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S228;2kauD9ZWn4SxJjjBX7h3cr;Basic Wall:Wall_Type_5 - Structural:1805058;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926
+auto;IfcWall;IfcWall;33kki$cAbE$uQxZ$49S228;0cymiVBZH4puvZoUyk4hQC;Basic Wall:Wall_Type_5 - Structural:1805058;Basic Wall:Wall_Type_5 - Structural:1765923
+auto;IfcWall;IfcWall;33kki$cAbE$uQxZ$49S228;33kki$cAbE$uQxZ$49S2AT;Basic Wall:Wall_Type_5 - Structural:1805058;Basic Wall:Wall_Type_5 - Structural:1804567
+;;;;;;
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S229;1zC7hMbhr08wl_y1DKqZ5W;Basic Wall:Wall_Type_5 - Structural:1805059;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772156
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S229;3wd7YnPan93gSai_LH_rqY;Basic Wall:Wall_Type_5 - Structural:1805059;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782594
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S229;2kauD9ZWn4SxJjjBX7h3yX;Basic Wall:Wall_Type_5 - Structural:1805059;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322
+auto;IfcWall;IfcBeam;33kki$cAbE$uQxZ$49S229;2kauD9ZWn4SxJjjBX7h3yd;Basic Wall:Wall_Type_5 - Structural:1805059;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324
+auto;IfcWall;IfcWall;33kki$cAbE$uQxZ$49S229;0cymiVBZH4puvZoUyk4hVC;Basic Wall:Wall_Type_5 - Structural:1805059;Basic Wall:Wall_Type_5 - Structural:1766243
+auto;IfcWall;IfcWall;33kki$cAbE$uQxZ$49S229;33kki$cAbE$uQxZ$49S29J;Basic Wall:Wall_Type_5 - Structural:1805059;Basic Wall:Wall_Type_5 - Structural:1804761
+;;;;;;
+auto;IfcBeam;IfcBeam;3WncPlkyj2iBaz4K_J207h;0sTfZMmBH3seOiTVSZtCNR;UB-Universal Beams:Beam_Type_5 - Steel:1779868;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1755804
+auto;IfcBeam;IfcBeam;3WncPlkyj2iBaz4K_J207h;1zC7hMbhr08wl_y1DKqZ5T;UB-Universal Beams:Beam_Type_5 - Steel:1779868;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772097
+auto;IfcBeam;IfcColumn;3WncPlkyj2iBaz4K_J207h;31NTv5DGv6h9St3q13CKml;UB-Universal Beams:Beam_Type_5 - Steel:1779868;M_Concrete-Rectangular-Column:Column_Type_1:1602816
+auto;IfcBeam;IfcColumn;3WncPlkyj2iBaz4K_J207h;1AfdK3BYX8h8tPme4eKzI1;UB-Universal Beams:Beam_Type_5 - Steel:1779868;M_Concrete-Rectangular-Column:Column_Type_1:1614254
+auto;IfcBeam;IfcColumn;3WncPlkyj2iBaz4K_J207h;1Lc5xXkOTBjwSq5r7z821_;UB-Universal Beams:Beam_Type_5 - Steel:1779868;M_Concrete-Rectangular-Column:Column_Type_1:1780781
+auto;IfcBeam;IfcColumn;3WncPlkyj2iBaz4K_J207h;1Lc5xXkOTBjwSq5r7z821y;UB-Universal Beams:Beam_Type_5 - Steel:1779868;M_Concrete-Rectangular-Column:Column_Type_1:1780783
+;;;;;;
+auto;IfcBeam;IfcBeam;3WncPlkyj2iBaz4K_J20BK;1zC7hMbhr08wl_y1DKqYxD;UB-Universal Beams:Beam_Type_5 - Steel:1780643;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775057
+auto;IfcBeam;IfcBeam;3WncPlkyj2iBaz4K_J20BK;1zC7hMbhr08wl_y1DKqYqv;UB-Universal Beams:Beam_Type_5 - Steel:1780643;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775141
+auto;IfcBeam;IfcColumn;3WncPlkyj2iBaz4K_J20BK;1hOzILKtn3NxAVbjRocyUK;UB-Universal Beams:Beam_Type_5 - Steel:1780643;M_Concrete-Rectangular-Column:Column_Type_1:1765560
+auto;IfcBeam;IfcColumn;3WncPlkyj2iBaz4K_J20BK;1hOzILKtn3NxAVbjRocyO8;UB-Universal Beams:Beam_Type_5 - Steel:1780643;M_Concrete-Rectangular-Column:Column_Type_1:1765668
+auto;IfcBeam;IfcColumn;3WncPlkyj2iBaz4K_J20BK;1Lc5xXkOTBjwSq5r7z821i;UB-Universal Beams:Beam_Type_5 - Steel:1780643;M_Concrete-Rectangular-Column:Column_Type_1:1780799
+auto;IfcBeam;IfcColumn;3WncPlkyj2iBaz4K_J20BK;1Lc5xXkOTBjwSq5r7z820J;UB-Universal Beams:Beam_Type_5 - Steel:1780643;M_Concrete-Rectangular-Column:Column_Type_1:1780800
+;;;;;;
+auto;IfcBeam;IfcBeam;0sTfZMmBH3seOiTVSZtCNR;1zC7hMbhr08wl_y1DKqYAL;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1755804;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1776009
+auto;IfcBeam;IfcColumn;0sTfZMmBH3seOiTVSZtCNR;1AfdK3BYX8h8tPme4eKzI1;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1755804;M_Concrete-Rectangular-Column:Column_Type_1:1614254
+auto;IfcBeam;IfcColumn;0sTfZMmBH3seOiTVSZtCNR;1AfdK3BYX8h8tPme4eKz7Q;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1755804;M_Concrete-Rectangular-Column:Column_Type_1:1615093
+auto;IfcBeam;IfcColumn;0sTfZMmBH3seOiTVSZtCNR;1Lc5xXkOTBjwSq5r7z821y;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1755804;M_Concrete-Rectangular-Column:Column_Type_1:1780783
+auto;IfcBeam;IfcColumn;0sTfZMmBH3seOiTVSZtCNR;1Lc5xXkOTBjwSq5r7z821Y;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1755804;M_Concrete-Rectangular-Column:Column_Type_1:1780785
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZ8u;1zC7hMbhr08wl_y1DKqYAL;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771812;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1776009
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZ8u;2kauD9ZWn4SxJjjBX7h3yd;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771812;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ8u;1AfdK3BYX8h8tPme4eKz7Q;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771812;M_Concrete-Rectangular-Column:Column_Type_1:1615093
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ8u;1AfdK3BYX8h8tPme4eKz7P;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771812;M_Concrete-Rectangular-Column:Column_Type_5:1615094
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ8u;1Lc5xXkOTBjwSq5r7z821Y;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771812;M_Concrete-Rectangular-Column:Column_Type_1:1780785
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ8u;0bnlJNCLX69fZ_DIGa0H2E;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771812;M_Concrete-Rectangular-Column:Column_Type_5:1782444
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZAS;1zC7hMbhr08wl_y1DKqZRW;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771904;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773052
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZAS;2kauD9ZWn4SxJjjBX7h3yd;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771904;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZAS;3G1l8Rd1X328pxkdm$rv_T;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771904;M_Concrete-Rectangular-Column:Column_Type_2:1599758
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZAS;1AfdK3BYX8h8tPme4eKz7P;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771904;M_Concrete-Rectangular-Column:Column_Type_5:1615094
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZAS;1Lc5xXkOTBjwSq5r7z821$;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771904;M_Concrete-Rectangular-Column:Column_Type_2:1780780
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZAS;0bnlJNCLX69fZ_DIGa0H2E;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1771904;M_Concrete-Rectangular-Column:Column_Type_5:1782444
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZ5T;1zC7hMbhr08wl_y1DKqYAL;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772097;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1776009
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ5T;31NTv5DGv6h9St3q13CKml;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772097;M_Concrete-Rectangular-Column:Column_Type_1:1602816
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ5T;31NTv5DGv6h9St3q13CKzd;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772097;M_Concrete-Rectangular-Column:Column_Type_1:1603144
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ5T;1Lc5xXkOTBjwSq5r7z821_;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772097;M_Concrete-Rectangular-Column:Column_Type_1:1780781
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ5T;1Lc5xXkOTBjwSq5r7z821z;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772097;M_Concrete-Rectangular-Column:Column_Type_1:1780782
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ5T;2nPnum6DT5xeixt0dH14$T;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772097;M_Concrete-Rectangular-Column:Column_Type_6:1868215
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZ5W;1zC7hMbhr08wl_y1DKqYAL;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772156;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1776009
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZ5W;2kauD9ZWn4SxJjjBX7h3yd;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772156;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ5W;31NTv5DGv6h9St3q13CKzd;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772156;M_Concrete-Rectangular-Column:Column_Type_1:1603144
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ5W;1Lc5xXkOTBjwSq5r7z821z;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772156;M_Concrete-Rectangular-Column:Column_Type_1:1780782
+auto;IfcBeam;IfcWall;1zC7hMbhr08wl_y1DKqZ5W;33kki$cAbE$uQxZ$49S29J;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772156;Basic Wall:Wall_Type_5 - Structural:1804761
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZ5X;1zC7hMbhr08wl_y1DKqZRW;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772157;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773052
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZ5X;1zC7hMbhr08wl_y1DKqZNX;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772157;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773309
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZ5X;2kauD9ZWn4SxJjjBX7h3yd;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772157;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ5X;1AfdK3BYX8h8tPme4eKz0u;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772157;M_Concrete-Rectangular-Column:Column_Type_1:1615127
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZ5X;1Lc5xXkOTBjwSq5r7z821W;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772157;M_Concrete-Rectangular-Column:Column_Type_1:1780787
+auto;IfcBeam;IfcWall;1zC7hMbhr08wl_y1DKqZ5X;0cymiVBZH4puvZoUyk4hVC;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1772157;Basic Wall:Wall_Type_5 - Structural:1766243
+;;;;;;
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZRW;3G1l8Rd1X328pxkdm$rv_T;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773052;M_Concrete-Rectangular-Column:Column_Type_2:1599758
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZRW;1AfdK3BYX8h8tPme4eKz0u;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773052;M_Concrete-Rectangular-Column:Column_Type_1:1615127
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZRW;1Lc5xXkOTBjwSq5r7z821$;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773052;M_Concrete-Rectangular-Column:Column_Type_2:1780780
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZRW;1Lc5xXkOTBjwSq5r7z821W;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773052;M_Concrete-Rectangular-Column:Column_Type_1:1780787
+;;;;;;
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZNX;1AfdK3BYX8h8tPme4eKz0u;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773309;M_Concrete-Rectangular-Column:Column_Type_1:1615127
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZNX;0cymiVBZH4puvZoUyk4hiJ;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773309;M_Concrete-Rectangular-Column:Column_Type_3:1769404
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZNX;1Lc5xXkOTBjwSq5r7z821W;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773309;M_Concrete-Rectangular-Column:Column_Type_1:1780787
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZNX;2E$hWs0vH16v$R76pKFCs$;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773309;M_Concrete-Rectangular-Column:Column_Type_3:1827754
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqZHg;1zC7hMbhr08wl_y1DKqYEY;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773430;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775806
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZHg;1AfdK3BYX8h8tPme4eKzE2;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773430;M_Concrete-Rectangular-Column:Column_Type_3:1615533
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZHg;0cymiVBZH4puvZoUyk4hiJ;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773430;M_Concrete-Rectangular-Column:Column_Type_3:1769404
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZHg;2E$hWs0vH16v$R76pKFCsy;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773430;M_Concrete-Rectangular-Column:Column_Type_3:1827753
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqZHg;2E$hWs0vH16v$R76pKFCs$;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773430;M_Concrete-Rectangular-Column:Column_Type_3:1827754
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYiy;1zC7hMbhr08wl_y1DKqYCU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773600;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775618
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYiy;1zC7hMbhr08wl_y1DKqYEI;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773600;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775758
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYiy;1AfdK3BYX8h8tPme4eKzE2;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773600;M_Concrete-Rectangular-Column:Column_Type_3:1615533
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYiy;0s8i6QQczEc8OgsPtdAQH3;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773600;M_Concrete-Rectangular-Column:Column_Type_1:1758728
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYiy;1Lc5xXkOTBjwSq5r7z821g;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773600;M_Concrete-Rectangular-Column:Column_Type_1:1780793
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYiy;2E$hWs0vH16v$R76pKFCsy;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1773600;M_Concrete-Rectangular-Column:Column_Type_3:1827753
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYhO;1zC7hMbhr08wl_y1DKqYol;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774020;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775539
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYhO;1zC7hMbhr08wl_y1DKqYCU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774020;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775618
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYhO;0s8i6QQczEc8OgsPtdAQH3;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774020;M_Concrete-Rectangular-Column:Column_Type_1:1758728
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYhO;0s8i6QQczEc8OgsPtdAQHZ;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774020;M_Concrete-Rectangular-Column:Column_Type_1:1758760
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYhO;1Lc5xXkOTBjwSq5r7z821g;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774020;M_Concrete-Rectangular-Column:Column_Type_1:1780793
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYhO;1Lc5xXkOTBjwSq5r7z821f;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774020;M_Concrete-Rectangular-Column:Column_Type_1:1780794
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYa1;1zC7hMbhr08wl_y1DKqYdS;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774109;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1774272
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYa1;1zC7hMbhr08wl_y1DKqYol;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774109;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775539
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYa1;0s8i6QQczEc8OgsPtdAQHZ;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774109;M_Concrete-Rectangular-Column:Column_Type_1:1758760
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYa1;0s8i6QQczEc8OgsPtdAQHv;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774109;M_Concrete-Rectangular-Column:Column_Type_1:1758770
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYa1;1Lc5xXkOTBjwSq5r7z821f;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774109;M_Concrete-Rectangular-Column:Column_Type_1:1780794
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYa1;1Lc5xXkOTBjwSq5r7z821e;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774109;M_Concrete-Rectangular-Column:Column_Type_1:1780795
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYdS;1zC7hMbhr08wl_y1DKqY$s;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1774272;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774826
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYdS;0s8i6QQczEc8OgsPtdAQHv;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1774272;M_Concrete-Rectangular-Column:Column_Type_1:1758770
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYdS;0s8i6QQczEc8OgsPtdAQIE;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1774272;M_Concrete-Rectangular-Column:Column_Type_1:1758917
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYdS;1Lc5xXkOTBjwSq5r7z821e;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1774272;M_Concrete-Rectangular-Column:Column_Type_1:1780795
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYdS;1Lc5xXkOTBjwSq5r7z821j;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1774272;M_Concrete-Rectangular-Column:Column_Type_1:1780798
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqY$s;1zC7hMbhr08wl_y1DKqYol;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774826;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775539
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqY$s;0s8i6QQczEc8OgsPtdAQIF;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774826;M_Concrete-Rectangular-Column:Column_Type_1:1758916
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqY$s;0s8i6QQczEc8OgsPtdAQIE;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774826;M_Concrete-Rectangular-Column:Column_Type_1:1758917
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqY$s;1Lc5xXkOTBjwSq5r7z821k;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774826;M_Concrete-Rectangular-Column:Column_Type_1:1780797
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqY$s;1Lc5xXkOTBjwSq5r7z821j;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774826;M_Concrete-Rectangular-Column:Column_Type_1:1780798
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYuj;1zC7hMbhr08wl_y1DKqYCU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774897;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775618
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYuj;1zC7hMbhr08wl_y1DKqYEI;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774897;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775758
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYuj;1AfdK3BYX8h8tPme4eKzE3;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774897;M_Concrete-Rectangular-Column:Column_Type_4:1615532
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYuj;0s8i6QQczEc8OgsPtdAQI8;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774897;M_Concrete-Rectangular-Column:Column_Type_1:1758915
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYuj;1Lc5xXkOTBjwSq5r7z821l;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774897;M_Concrete-Rectangular-Column:Column_Type_1:1780796
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYuj;0bnlJNCLX69fZ_DIGa0H2C;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774897;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYuk;1zC7hMbhr08wl_y1DKqYol;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774898;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775539
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYuk;1zC7hMbhr08wl_y1DKqYCU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774898;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775618
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYuk;0s8i6QQczEc8OgsPtdAQI8;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774898;M_Concrete-Rectangular-Column:Column_Type_1:1758915
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYuk;0s8i6QQczEc8OgsPtdAQIF;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774898;M_Concrete-Rectangular-Column:Column_Type_1:1758916
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYuk;1Lc5xXkOTBjwSq5r7z821l;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774898;M_Concrete-Rectangular-Column:Column_Type_1:1780796
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYuk;1Lc5xXkOTBjwSq5r7z821k;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774898;M_Concrete-Rectangular-Column:Column_Type_1:1780797
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYvX;1zC7hMbhr08wl_y1DKqYt4;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774973;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775320
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYvX;2kauD9ZWn4SxJjjBX7h3cr;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774973;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYvX;1AfdK3BYX8h8tPme4eKzE4;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774973;M_Concrete-Rectangular-Column:Column_Type_1:1615531
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYvX;1AfdK3BYX8h8tPme4eKzE3;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774973;M_Concrete-Rectangular-Column:Column_Type_4:1615532
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYvX;1Lc5xXkOTBjwSq5r7z821b;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774973;M_Concrete-Rectangular-Column:Column_Type_1:1780790
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYvX;0bnlJNCLX69fZ_DIGa0H2C;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1774973;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYxD;1zC7hMbhr08wl_y1DKqYt4;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775057;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775320
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYxD;1AfdK3BYX8h8tPme4eKzE4;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775057;M_Concrete-Rectangular-Column:Column_Type_1:1615531
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYxD;1hOzILKtn3NxAVbjRocyO8;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775057;M_Concrete-Rectangular-Column:Column_Type_1:1765668
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYxD;1Lc5xXkOTBjwSq5r7z821b;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775057;M_Concrete-Rectangular-Column:Column_Type_1:1780790
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYxD;1Lc5xXkOTBjwSq5r7z820J;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775057;M_Concrete-Rectangular-Column:Column_Type_1:1780800
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYqu;1zC7hMbhr08wl_y1DKqYt4;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775140;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775320
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYqu;2kauD9ZWn4SxJjjBX7h3cr;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775140;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYqu;1AfdK3BYX8h8tPme4eKz36;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775140;M_Concrete-Rectangular-Column:Column_Type_1:1615337
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYqu;1Lc5xXkOTBjwSq5r7z821d;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775140;M_Concrete-Rectangular-Column:Column_Type_1:1780788
+auto;IfcBeam;IfcWall;1zC7hMbhr08wl_y1DKqYqu;33kki$cAbE$uQxZ$49S2AT;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775140;Basic Wall:Wall_Type_5 - Structural:1804567
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYqv;1zC7hMbhr08wl_y1DKqYt4;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775141;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775320
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYqv;1AfdK3BYX8h8tPme4eKz36;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775141;M_Concrete-Rectangular-Column:Column_Type_1:1615337
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYqv;1hOzILKtn3NxAVbjRocyUK;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775141;M_Concrete-Rectangular-Column:Column_Type_1:1765560
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYqv;1Lc5xXkOTBjwSq5r7z821d;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775141;M_Concrete-Rectangular-Column:Column_Type_1:1780788
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYqv;1Lc5xXkOTBjwSq5r7z821i;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775141;M_Concrete-Rectangular-Column:Column_Type_1:1780799
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYqv;2nPnum6DT5xeixt0dH1B5K;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775141;M_Concrete-Rectangular-Column:Column_Type_6:1867582
+;;;;;;
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYt4;1AfdK3BYX8h8tPme4eKz36;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775320;M_Concrete-Rectangular-Column:Column_Type_1:1615337
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYt4;1AfdK3BYX8h8tPme4eKzE4;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775320;M_Concrete-Rectangular-Column:Column_Type_1:1615531
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYt4;1Lc5xXkOTBjwSq5r7z821d;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775320;M_Concrete-Rectangular-Column:Column_Type_1:1780788
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYt4;1Lc5xXkOTBjwSq5r7z821b;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775320;M_Concrete-Rectangular-Column:Column_Type_1:1780790
+;;;;;;
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYol;0s8i6QQczEc8OgsPtdAQHZ;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775539;M_Concrete-Rectangular-Column:Column_Type_1:1758760
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYol;0s8i6QQczEc8OgsPtdAQIF;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775539;M_Concrete-Rectangular-Column:Column_Type_1:1758916
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYol;1Lc5xXkOTBjwSq5r7z821f;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775539;M_Concrete-Rectangular-Column:Column_Type_1:1780794
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYol;1Lc5xXkOTBjwSq5r7z821k;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775539;M_Concrete-Rectangular-Column:Column_Type_1:1780797
+;;;;;;
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYCU;0s8i6QQczEc8OgsPtdAQH3;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775618;M_Concrete-Rectangular-Column:Column_Type_1:1758728
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYCU;0s8i6QQczEc8OgsPtdAQI8;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775618;M_Concrete-Rectangular-Column:Column_Type_1:1758915
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYCU;1Lc5xXkOTBjwSq5r7z821g;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775618;M_Concrete-Rectangular-Column:Column_Type_1:1780793
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYCU;1Lc5xXkOTBjwSq5r7z821l;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1775618;M_Concrete-Rectangular-Column:Column_Type_1:1780796
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYEI;2kauD9ZWn4SxJjjBX7h3cr;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775758;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYEI;1AfdK3BYX8h8tPme4eKzE3;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775758;M_Concrete-Rectangular-Column:Column_Type_4:1615532
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYEI;1AfdK3BYX8h8tPme4eKzE2;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775758;M_Concrete-Rectangular-Column:Column_Type_3:1615533
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYEI;0bnlJNCLX69fZ_DIGa0H2C;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775758;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYEI;2E$hWs0vH16v$R76pKFCsy;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775758;M_Concrete-Rectangular-Column:Column_Type_3:1827753
+;;;;;;
+auto;IfcBeam;IfcBeam;1zC7hMbhr08wl_y1DKqYEY;2kauD9ZWn4SxJjjBX7h3cr;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775806;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYEY;0cymiVBZH4puvZoUyk4hiJ;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775806;M_Concrete-Rectangular-Column:Column_Type_3:1769404
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYEY;2E$hWs0vH16v$R76pKFCs$;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775806;M_Concrete-Rectangular-Column:Column_Type_3:1827754
+auto;IfcBeam;IfcWall;1zC7hMbhr08wl_y1DKqYEY;0cymiVBZH4puvZoUyk4hQC;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1775806;Basic Wall:Wall_Type_5 - Structural:1765923
+;;;;;;
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYAL;31NTv5DGv6h9St3q13CKzd;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1776009;M_Concrete-Rectangular-Column:Column_Type_1:1603144
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYAL;1AfdK3BYX8h8tPme4eKz7Q;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1776009;M_Concrete-Rectangular-Column:Column_Type_1:1615093
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYAL;1Lc5xXkOTBjwSq5r7z821z;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1776009;M_Concrete-Rectangular-Column:Column_Type_1:1780782
+auto;IfcBeam;IfcColumn;1zC7hMbhr08wl_y1DKqYAL;1Lc5xXkOTBjwSq5r7z821Y;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1776009;M_Concrete-Rectangular-Column:Column_Type_1:1780785
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rrU;3wd7YnPan93gSai_LH_rqu;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782590;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782616
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rrU;1Lc5xXkOTBjwSq5r7z821y;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782590;M_Concrete-Rectangular-Column:Column_Type_1:1780783
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rrU;1Lc5xXkOTBjwSq5r7z821Y;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782590;M_Concrete-Rectangular-Column:Column_Type_1:1780785
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rrU;1Lc5xXkOTBjwSq5r7z8202;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782590;M_Concrete-Rectangular-Column:Column_Type_1:1780817
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rrU;1Lc5xXkOTBjwSq5r7z8200;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782590;M_Concrete-Rectangular-Column:Column_Type_1:1780819
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rrV;3wd7YnPan93gSai_LH_rqu;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782591;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782616
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rrV;2kauD9ZWn4SxJjjBX7h3yX;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782591;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rrV;1Lc5xXkOTBjwSq5r7z821Y;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782591;M_Concrete-Rectangular-Column:Column_Type_1:1780785
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rrV;1Lc5xXkOTBjwSq5r7z8200;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782591;M_Concrete-Rectangular-Column:Column_Type_1:1780819
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rrV;0bnlJNCLX69fZ_DIGa0H2E;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782591;M_Concrete-Rectangular-Column:Column_Type_5:1782444
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rrV;0bnlJNCLX69fZ_DIGa0H3r;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782591;M_Concrete-Rectangular-Column:Column_Type_5:1782487
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqW;3wd7YnPan93gSai_LH_rqa;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782592;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782596
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqW;2kauD9ZWn4SxJjjBX7h3yX;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782592;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqW;1Lc5xXkOTBjwSq5r7z821$;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782592;M_Concrete-Rectangular-Column:Column_Type_2:1780780
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqW;1Lc5xXkOTBjwSq5r7z820T;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782592;M_Concrete-Rectangular-Column:Column_Type_2:1780814
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqW;0bnlJNCLX69fZ_DIGa0H2E;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782592;M_Concrete-Rectangular-Column:Column_Type_5:1782444
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqW;0bnlJNCLX69fZ_DIGa0H3r;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782592;M_Concrete-Rectangular-Column:Column_Type_5:1782487
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqX;3wd7YnPan93gSai_LH_rqu;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782593;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782616
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqX;1Lc5xXkOTBjwSq5r7z821_;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782593;M_Concrete-Rectangular-Column:Column_Type_1:1780781
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqX;1Lc5xXkOTBjwSq5r7z821z;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782593;M_Concrete-Rectangular-Column:Column_Type_1:1780782
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqX;1Lc5xXkOTBjwSq5r7z820S;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782593;M_Concrete-Rectangular-Column:Column_Type_1:1780815
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqX;1Lc5xXkOTBjwSq5r7z8203;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782593;M_Concrete-Rectangular-Column:Column_Type_1:1780816
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqY;3wd7YnPan93gSai_LH_rqu;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782594;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782616
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqY;2kauD9ZWn4SxJjjBX7h3yX;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782594;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqY;1Lc5xXkOTBjwSq5r7z821z;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782594;M_Concrete-Rectangular-Column:Column_Type_1:1780782
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqY;1Lc5xXkOTBjwSq5r7z8203;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782594;M_Concrete-Rectangular-Column:Column_Type_1:1780816
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqZ;3wd7YnPan93gSai_LH_rqa;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782595;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782596
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqZ;3wd7YnPan93gSai_LH_rqb;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782595;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782597
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqZ;2kauD9ZWn4SxJjjBX7h3yX;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782595;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqZ;1Lc5xXkOTBjwSq5r7z821W;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782595;M_Concrete-Rectangular-Column:Column_Type_1:1780787
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqZ;1Lc5xXkOTBjwSq5r7z8206;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782595;M_Concrete-Rectangular-Column:Column_Type_1:1780821
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqa;1Lc5xXkOTBjwSq5r7z821$;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782596;M_Concrete-Rectangular-Column:Column_Type_2:1780780
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqa;1Lc5xXkOTBjwSq5r7z821W;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782596;M_Concrete-Rectangular-Column:Column_Type_1:1780787
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqa;1Lc5xXkOTBjwSq5r7z820T;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782596;M_Concrete-Rectangular-Column:Column_Type_2:1780814
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqa;1Lc5xXkOTBjwSq5r7z8206;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782596;M_Concrete-Rectangular-Column:Column_Type_1:1780821
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqb;1Lc5xXkOTBjwSq5r7z821W;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782597;M_Concrete-Rectangular-Column:Column_Type_1:1780787
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqb;1Lc5xXkOTBjwSq5r7z8206;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782597;M_Concrete-Rectangular-Column:Column_Type_1:1780821
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqb;2E$hWs0vH16v$R76pKFCs$;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782597;M_Concrete-Rectangular-Column:Column_Type_3:1827754
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqb;1zvc8yHnX3FQmblWugBeNn;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782597;M_Concrete-Rectangular-Column:Column_Type_3:1883371
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqc;3wd7YnPan93gSai_LH_rqt;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782598;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782615
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqc;2E$hWs0vH16v$R76pKFCsy;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782598;M_Concrete-Rectangular-Column:Column_Type_3:1827753
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqc;2E$hWs0vH16v$R76pKFCs$;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782598;M_Concrete-Rectangular-Column:Column_Type_3:1827754
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqc;1zvc8yHnX3FQmblWugBeNm;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782598;M_Concrete-Rectangular-Column:Column_Type_3:1883370
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqc;1zvc8yHnX3FQmblWugBeNn;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782598;M_Concrete-Rectangular-Column:Column_Type_3:1883371
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqd;3wd7YnPan93gSai_LH_rqr;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782599;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782613
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqd;3wd7YnPan93gSai_LH_rqs;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782599;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782614
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqd;1Lc5xXkOTBjwSq5r7z821g;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782599;M_Concrete-Rectangular-Column:Column_Type_1:1780793
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqd;1Lc5xXkOTBjwSq5r7z8208;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782599;M_Concrete-Rectangular-Column:Column_Type_1:1780827
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqd;2E$hWs0vH16v$R76pKFCsy;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782599;M_Concrete-Rectangular-Column:Column_Type_3:1827753
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqd;1zvc8yHnX3FQmblWugBeNm;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782599;M_Concrete-Rectangular-Column:Column_Type_3:1883370
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqe;3wd7YnPan93gSai_LH_rqq;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782600;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782612
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqe;3wd7YnPan93gSai_LH_rqr;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782600;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782613
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqe;1Lc5xXkOTBjwSq5r7z821g;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782600;M_Concrete-Rectangular-Column:Column_Type_1:1780793
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqe;1Lc5xXkOTBjwSq5r7z821f;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782600;M_Concrete-Rectangular-Column:Column_Type_1:1780794
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqe;1Lc5xXkOTBjwSq5r7z8208;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782600;M_Concrete-Rectangular-Column:Column_Type_1:1780827
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqe;1Lc5xXkOTBjwSq5r7z820F;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782600;M_Concrete-Rectangular-Column:Column_Type_1:1780828
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqf;3wd7YnPan93gSai_LH_rqg;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782601;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782602
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqf;3wd7YnPan93gSai_LH_rqq;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782601;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782612
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqf;1Lc5xXkOTBjwSq5r7z821f;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782601;M_Concrete-Rectangular-Column:Column_Type_1:1780794
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqf;1Lc5xXkOTBjwSq5r7z821e;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782601;M_Concrete-Rectangular-Column:Column_Type_1:1780795
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqf;1Lc5xXkOTBjwSq5r7z820F;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782601;M_Concrete-Rectangular-Column:Column_Type_1:1780828
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqf;1Lc5xXkOTBjwSq5r7z820E;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782601;M_Concrete-Rectangular-Column:Column_Type_1:1780829
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqg;3wd7YnPan93gSai_LH_rqh;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782602;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782603
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqg;1Lc5xXkOTBjwSq5r7z821e;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782602;M_Concrete-Rectangular-Column:Column_Type_1:1780795
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqg;1Lc5xXkOTBjwSq5r7z821j;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782602;M_Concrete-Rectangular-Column:Column_Type_1:1780798
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqg;1Lc5xXkOTBjwSq5r7z820E;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782602;M_Concrete-Rectangular-Column:Column_Type_1:1780829
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqg;1Lc5xXkOTBjwSq5r7z820p;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782602;M_Concrete-Rectangular-Column:Column_Type_1:1780832
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqh;3wd7YnPan93gSai_LH_rqq;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782603;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782612
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqh;1Lc5xXkOTBjwSq5r7z821k;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782603;M_Concrete-Rectangular-Column:Column_Type_1:1780797
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqh;1Lc5xXkOTBjwSq5r7z821j;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782603;M_Concrete-Rectangular-Column:Column_Type_1:1780798
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqh;1Lc5xXkOTBjwSq5r7z820C;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782603;M_Concrete-Rectangular-Column:Column_Type_1:1780831
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqh;1Lc5xXkOTBjwSq5r7z820p;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782603;M_Concrete-Rectangular-Column:Column_Type_1:1780832
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqi;3wd7YnPan93gSai_LH_rqr;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782604;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782613
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqi;3wd7YnPan93gSai_LH_rqs;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782604;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782614
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqi;1Lc5xXkOTBjwSq5r7z821l;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782604;M_Concrete-Rectangular-Column:Column_Type_1:1780796
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqi;1Lc5xXkOTBjwSq5r7z820D;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782604;M_Concrete-Rectangular-Column:Column_Type_1:1780830
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqi;0bnlJNCLX69fZ_DIGa0H2C;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782604;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqi;0bnlJNCLX69fZ_DIGa0H3x;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782604;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqj;3wd7YnPan93gSai_LH_rqq;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782605;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782612
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqj;3wd7YnPan93gSai_LH_rqr;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782605;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782613
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqj;1Lc5xXkOTBjwSq5r7z821l;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782605;M_Concrete-Rectangular-Column:Column_Type_1:1780796
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqj;1Lc5xXkOTBjwSq5r7z821k;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782605;M_Concrete-Rectangular-Column:Column_Type_1:1780797
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqj;1Lc5xXkOTBjwSq5r7z820D;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782605;M_Concrete-Rectangular-Column:Column_Type_1:1780830
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqj;1Lc5xXkOTBjwSq5r7z820C;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782605;M_Concrete-Rectangular-Column:Column_Type_1:1780831
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqk;3wd7YnPan93gSai_LH_rqo;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782606;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqk;3wd7YnPan93gSai_LH_rqp;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782606;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782611
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqk;1Lc5xXkOTBjwSq5r7z821b;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782606;M_Concrete-Rectangular-Column:Column_Type_1:1780790
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqk;1Lc5xXkOTBjwSq5r7z820B;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782606;M_Concrete-Rectangular-Column:Column_Type_1:1780824
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqk;0bnlJNCLX69fZ_DIGa0H2C;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782606;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqk;0bnlJNCLX69fZ_DIGa0H3x;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782606;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rql;3wd7YnPan93gSai_LH_rqp;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782607;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782611
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rql;1Lc5xXkOTBjwSq5r7z821b;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782607;M_Concrete-Rectangular-Column:Column_Type_1:1780790
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rql;1Lc5xXkOTBjwSq5r7z820J;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782607;M_Concrete-Rectangular-Column:Column_Type_1:1780800
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rql;1Lc5xXkOTBjwSq5r7z820B;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782607;M_Concrete-Rectangular-Column:Column_Type_1:1780824
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rql;1Lc5xXkOTBjwSq5r7z820n;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782607;M_Concrete-Rectangular-Column:Column_Type_1:1780834
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqm;3wd7YnPan93gSai_LH_rqo;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782608;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqm;3wd7YnPan93gSai_LH_rqp;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782608;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782611
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqm;1Lc5xXkOTBjwSq5r7z821d;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782608;M_Concrete-Rectangular-Column:Column_Type_1:1780788
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqm;1Lc5xXkOTBjwSq5r7z8205;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782608;M_Concrete-Rectangular-Column:Column_Type_1:1780822
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqn;3wd7YnPan93gSai_LH_rqp;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782609;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782611
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqn;1Lc5xXkOTBjwSq5r7z821d;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782609;M_Concrete-Rectangular-Column:Column_Type_1:1780788
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqn;1Lc5xXkOTBjwSq5r7z821i;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782609;M_Concrete-Rectangular-Column:Column_Type_1:1780799
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqn;1Lc5xXkOTBjwSq5r7z8205;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782609;M_Concrete-Rectangular-Column:Column_Type_1:1780822
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqn;1Lc5xXkOTBjwSq5r7z820o;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782609;M_Concrete-Rectangular-Column:Column_Type_1:1780833
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqo;3wd7YnPan93gSai_LH_rqs;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782614
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqo;3wd7YnPan93gSai_LH_rqt;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782615
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqo;0bnlJNCLX69fZ_DIGa0H2C;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqo;0bnlJNCLX69fZ_DIGa0H3x;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782610;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqp;1Lc5xXkOTBjwSq5r7z821d;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782611;M_Concrete-Rectangular-Column:Column_Type_1:1780788
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqp;1Lc5xXkOTBjwSq5r7z821b;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782611;M_Concrete-Rectangular-Column:Column_Type_1:1780790
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqp;1Lc5xXkOTBjwSq5r7z8205;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782611;M_Concrete-Rectangular-Column:Column_Type_1:1780822
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqp;1Lc5xXkOTBjwSq5r7z820B;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782611;M_Concrete-Rectangular-Column:Column_Type_1:1780824
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqq;1Lc5xXkOTBjwSq5r7z821f;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782612;M_Concrete-Rectangular-Column:Column_Type_1:1780794
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqq;1Lc5xXkOTBjwSq5r7z821k;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782612;M_Concrete-Rectangular-Column:Column_Type_1:1780797
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqq;1Lc5xXkOTBjwSq5r7z820F;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782612;M_Concrete-Rectangular-Column:Column_Type_1:1780828
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqq;1Lc5xXkOTBjwSq5r7z820C;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782612;M_Concrete-Rectangular-Column:Column_Type_1:1780831
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqr;1Lc5xXkOTBjwSq5r7z821g;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782613;M_Concrete-Rectangular-Column:Column_Type_1:1780793
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqr;1Lc5xXkOTBjwSq5r7z821l;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782613;M_Concrete-Rectangular-Column:Column_Type_1:1780796
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqr;1Lc5xXkOTBjwSq5r7z8208;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782613;M_Concrete-Rectangular-Column:Column_Type_1:1780827
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqr;1Lc5xXkOTBjwSq5r7z820D;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782613;M_Concrete-Rectangular-Column:Column_Type_1:1780830
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqs;0bnlJNCLX69fZ_DIGa0H2C;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782614;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqs;0bnlJNCLX69fZ_DIGa0H3x;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782614;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqs;2E$hWs0vH16v$R76pKFCsy;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782614;M_Concrete-Rectangular-Column:Column_Type_3:1827753
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqs;1zvc8yHnX3FQmblWugBeNm;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782614;M_Concrete-Rectangular-Column:Column_Type_3:1883370
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqt;2E$hWs0vH16v$R76pKFCs$;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782615;M_Concrete-Rectangular-Column:Column_Type_3:1827754
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqt;1zvc8yHnX3FQmblWugBeNn;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782615;M_Concrete-Rectangular-Column:Column_Type_3:1883371
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqu;1Lc5xXkOTBjwSq5r7z821z;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782616;M_Concrete-Rectangular-Column:Column_Type_1:1780782
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqu;1Lc5xXkOTBjwSq5r7z821Y;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782616;M_Concrete-Rectangular-Column:Column_Type_1:1780785
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqu;1Lc5xXkOTBjwSq5r7z8203;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782616;M_Concrete-Rectangular-Column:Column_Type_1:1780816
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqu;1Lc5xXkOTBjwSq5r7z8200;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782616;M_Concrete-Rectangular-Column:Column_Type_1:1780819
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rq8;3wd7YnPan93gSai_LH_rtY;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782632;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782658
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rq8;1Lc5xXkOTBjwSq5r7z8202;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782632;M_Concrete-Rectangular-Column:Column_Type_1:1780817
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rq8;1Lc5xXkOTBjwSq5r7z8200;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782632;M_Concrete-Rectangular-Column:Column_Type_1:1780819
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rq8;1Lc5xXkOTBjwSq5r7z820W;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782632;M_Concrete-Rectangular-Column:Column_Type_1:1780851
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rq8;1Lc5xXkOTBjwSq5r7z820c;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782632;M_Concrete-Rectangular-Column:Column_Type_1:1780853
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rq9;3wd7YnPan93gSai_LH_rtY;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782633;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782658
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rq9;2kauD9ZWn4SxJjjBX7h3yW;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782633;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887323
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rq9;1Lc5xXkOTBjwSq5r7z8200;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782633;M_Concrete-Rectangular-Column:Column_Type_1:1780819
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rq9;1Lc5xXkOTBjwSq5r7z820c;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782633;M_Concrete-Rectangular-Column:Column_Type_1:1780853
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rq9;1Lc5xXkOTBjwSq5r7z820b;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782633;M_Concrete-Rectangular-Column:Column_Type_1:1780854
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rq9;0bnlJNCLX69fZ_DIGa0H3r;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782633;M_Concrete-Rectangular-Column:Column_Type_5:1782487
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqA;3wd7YnPan93gSai_LH_rqE;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782634;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782638
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqA;2kauD9ZWn4SxJjjBX7h3yW;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782634;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887323
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqA;1Lc5xXkOTBjwSq5r7z820T;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782634;M_Concrete-Rectangular-Column:Column_Type_2:1780814
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqA;0bnlJNCLX69fZ_DIGa0H3r;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782634;M_Concrete-Rectangular-Column:Column_Type_5:1782487
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqB;3wd7YnPan93gSai_LH_rtY;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782635;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782658
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqB;1Lc5xXkOTBjwSq5r7z820S;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782635;M_Concrete-Rectangular-Column:Column_Type_1:1780815
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqB;1Lc5xXkOTBjwSq5r7z8203;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782635;M_Concrete-Rectangular-Column:Column_Type_1:1780816
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqB;1Lc5xXkOTBjwSq5r7z820Y;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782635;M_Concrete-Rectangular-Column:Column_Type_1:1780849
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqB;1Lc5xXkOTBjwSq5r7z820X;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782635;M_Concrete-Rectangular-Column:Column_Type_1:1780850
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqC;3wd7YnPan93gSai_LH_rtY;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782636;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782658
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqC;2kauD9ZWn4SxJjjBX7h3yW;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782636;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887323
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqC;1Lc5xXkOTBjwSq5r7z8203;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782636;M_Concrete-Rectangular-Column:Column_Type_1:1780816
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqC;1Lc5xXkOTBjwSq5r7z820X;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782636;M_Concrete-Rectangular-Column:Column_Type_1:1780850
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqC;1Lc5xXkOTBjwSq5r7z820d;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782636;M_Concrete-Rectangular-Column:Column_Type_1:1780852
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqD;3wd7YnPan93gSai_LH_rqE;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782637;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782638
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqD;3wd7YnPan93gSai_LH_rqF;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782637;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782639
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqD;2kauD9ZWn4SxJjjBX7h3yW;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782637;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887323
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqD;1Lc5xXkOTBjwSq5r7z8206;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782637;M_Concrete-Rectangular-Column:Column_Type_1:1780821
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqE;1Lc5xXkOTBjwSq5r7z820T;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782638;M_Concrete-Rectangular-Column:Column_Type_2:1780814
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqE;1Lc5xXkOTBjwSq5r7z8206;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782638;M_Concrete-Rectangular-Column:Column_Type_1:1780821
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqF;1Lc5xXkOTBjwSq5r7z8206;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782639;M_Concrete-Rectangular-Column:Column_Type_1:1780821
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqF;1zvc8yHnX3FQmblWugBeNn;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782639;M_Concrete-Rectangular-Column:Column_Type_3:1883371
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqG;3wd7YnPan93gSai_LH_rtX;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782640;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782657
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqG;1zvc8yHnX3FQmblWugBeNm;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782640;M_Concrete-Rectangular-Column:Column_Type_3:1883370
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqG;1zvc8yHnX3FQmblWugBeNn;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782640;M_Concrete-Rectangular-Column:Column_Type_3:1883371
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqH;3wd7YnPan93gSai_LH_rqV;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782641;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782655
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqH;3wd7YnPan93gSai_LH_rtW;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782641;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782656
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqH;1Lc5xXkOTBjwSq5r7z8208;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782641;M_Concrete-Rectangular-Column:Column_Type_1:1780827
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqH;1zvc8yHnX3FQmblWugBeNm;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782641;M_Concrete-Rectangular-Column:Column_Type_3:1883370
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqI;3wd7YnPan93gSai_LH_rqU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782642;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782654
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqI;3wd7YnPan93gSai_LH_rqV;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782642;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782655
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqI;1Lc5xXkOTBjwSq5r7z8208;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782642;M_Concrete-Rectangular-Column:Column_Type_1:1780827
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqI;1Lc5xXkOTBjwSq5r7z820F;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782642;M_Concrete-Rectangular-Column:Column_Type_1:1780828
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqJ;3wd7YnPan93gSai_LH_rqK;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782643;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782644
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqJ;3wd7YnPan93gSai_LH_rqU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782643;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782654
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqJ;1Lc5xXkOTBjwSq5r7z820F;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782643;M_Concrete-Rectangular-Column:Column_Type_1:1780828
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqJ;1Lc5xXkOTBjwSq5r7z820E;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782643;M_Concrete-Rectangular-Column:Column_Type_1:1780829
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqK;3wd7YnPan93gSai_LH_rqL;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782644;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782645
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqK;1Lc5xXkOTBjwSq5r7z820E;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782644;M_Concrete-Rectangular-Column:Column_Type_1:1780829
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqK;1Lc5xXkOTBjwSq5r7z820p;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782644;M_Concrete-Rectangular-Column:Column_Type_1:1780832
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqL;3wd7YnPan93gSai_LH_rqU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782645;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782654
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqL;1Lc5xXkOTBjwSq5r7z820C;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782645;M_Concrete-Rectangular-Column:Column_Type_1:1780831
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqL;1Lc5xXkOTBjwSq5r7z820p;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782645;M_Concrete-Rectangular-Column:Column_Type_1:1780832
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqN;3wd7YnPan93gSai_LH_rqU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782647;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782654
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqN;3wd7YnPan93gSai_LH_rqV;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782647;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782655
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqN;1Lc5xXkOTBjwSq5r7z820D;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782647;M_Concrete-Rectangular-Column:Column_Type_1:1780830
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqN;1Lc5xXkOTBjwSq5r7z820C;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782647;M_Concrete-Rectangular-Column:Column_Type_1:1780831
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqO;3wd7YnPan93gSai_LH_rqS;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782648;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782652
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqO;3wd7YnPan93gSai_LH_rqT;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782648;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782653
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqO;1Lc5xXkOTBjwSq5r7z820B;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782648;M_Concrete-Rectangular-Column:Column_Type_1:1780824
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqO;1Lc5xXkOTBjwSq5r7z820f;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782648;M_Concrete-Rectangular-Column:Column_Type_1:1780858
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqO;0bnlJNCLX69fZ_DIGa0GpT;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782648;M_Concrete-Rectangular-Column:Column_Type_1:1781503
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqO;0bnlJNCLX69fZ_DIGa0H3x;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782648;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqP;3wd7YnPan93gSai_LH_rqT;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782649;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782653
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqP;1Lc5xXkOTBjwSq5r7z820B;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782649;M_Concrete-Rectangular-Column:Column_Type_1:1780824
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqP;1Lc5xXkOTBjwSq5r7z820n;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782649;M_Concrete-Rectangular-Column:Column_Type_1:1780834
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqP;1Lc5xXkOTBjwSq5r7z820f;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782649;M_Concrete-Rectangular-Column:Column_Type_1:1780858
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqP;1Lc5xXkOTBjwSq5r7z823N;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782649;M_Concrete-Rectangular-Column:Column_Type_1:1780868
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqQ;3wd7YnPan93gSai_LH_rqS;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782650;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782652
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqQ;3wd7YnPan93gSai_LH_rqT;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782650;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782653
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqQ;1Lc5xXkOTBjwSq5r7z8205;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782650;M_Concrete-Rectangular-Column:Column_Type_1:1780822
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqQ;1Lc5xXkOTBjwSq5r7z820h;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782650;M_Concrete-Rectangular-Column:Column_Type_1:1780856
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqQ;1Lc5xXkOTBjwSq5r7z820g;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782650;M_Concrete-Rectangular-Column:Column_Type_1:1780857
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqR;3wd7YnPan93gSai_LH_rqT;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782651;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782653
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqR;1Lc5xXkOTBjwSq5r7z8205;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782651;M_Concrete-Rectangular-Column:Column_Type_1:1780822
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqR;1Lc5xXkOTBjwSq5r7z820o;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782651;M_Concrete-Rectangular-Column:Column_Type_1:1780833
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqR;1Lc5xXkOTBjwSq5r7z820h;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782651;M_Concrete-Rectangular-Column:Column_Type_1:1780856
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqR;1Lc5xXkOTBjwSq5r7z823G;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782651;M_Concrete-Rectangular-Column:Column_Type_1:1780867
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqS;3wd7YnPan93gSai_LH_rtW;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782652;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782656
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqS;3wd7YnPan93gSai_LH_rtX;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782652;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782657
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqS;1Lc5xXkOTBjwSq5r7z820g;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782652;M_Concrete-Rectangular-Column:Column_Type_1:1780857
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqS;0bnlJNCLX69fZ_DIGa0GpT;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782652;M_Concrete-Rectangular-Column:Column_Type_1:1781503
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqS;0bnlJNCLX69fZ_DIGa0H3x;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1782652;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqT;1Lc5xXkOTBjwSq5r7z8205;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782653;M_Concrete-Rectangular-Column:Column_Type_1:1780822
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqT;1Lc5xXkOTBjwSq5r7z820B;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782653;M_Concrete-Rectangular-Column:Column_Type_1:1780824
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqT;1Lc5xXkOTBjwSq5r7z820h;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782653;M_Concrete-Rectangular-Column:Column_Type_1:1780856
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqT;1Lc5xXkOTBjwSq5r7z820f;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782653;M_Concrete-Rectangular-Column:Column_Type_1:1780858
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqU;1Lc5xXkOTBjwSq5r7z820F;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782654;M_Concrete-Rectangular-Column:Column_Type_1:1780828
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqU;1Lc5xXkOTBjwSq5r7z820C;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782654;M_Concrete-Rectangular-Column:Column_Type_1:1780831
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rqV;1zvc8yHnX3FQmblWugBeSq;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782655;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1883694
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqV;1Lc5xXkOTBjwSq5r7z8208;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782655;M_Concrete-Rectangular-Column:Column_Type_1:1780827
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rqV;1Lc5xXkOTBjwSq5r7z820D;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782655;M_Concrete-Rectangular-Column:Column_Type_1:1780830
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtW;1zvc8yHnX3FQmblWugBeSq;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782656;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1883694
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtW;0bnlJNCLX69fZ_DIGa0H3x;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782656;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtW;1zvc8yHnX3FQmblWugBeNm;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782656;M_Concrete-Rectangular-Column:Column_Type_3:1883370
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtX;1zvc8yHnX3FQmblWugBeNn;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782657;M_Concrete-Rectangular-Column:Column_Type_3:1883371
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtY;1Lc5xXkOTBjwSq5r7z8203;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782658;M_Concrete-Rectangular-Column:Column_Type_1:1780816
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtY;1Lc5xXkOTBjwSq5r7z8200;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782658;M_Concrete-Rectangular-Column:Column_Type_1:1780819
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtY;1Lc5xXkOTBjwSq5r7z820X;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782658;M_Concrete-Rectangular-Column:Column_Type_1:1780850
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtY;1Lc5xXkOTBjwSq5r7z820c;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782658;M_Concrete-Rectangular-Column:Column_Type_1:1780853
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtd;1Lc5xXkOTBjwSq5r7z820W;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782663;M_Concrete-Rectangular-Column:Column_Type_1:1780851
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtd;1Lc5xXkOTBjwSq5r7z820c;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782663;M_Concrete-Rectangular-Column:Column_Type_1:1780853
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtd;1Lc5xXkOTBjwSq5r7z8236;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782663;M_Concrete-Rectangular-Column:Column_Type_1:1780885
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtd;1Lc5xXkOTBjwSq5r7z8234;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782663;M_Concrete-Rectangular-Column:Column_Type_1:1780887
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rte;3wd7YnPan93gSai_LH_rt2;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782664;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782690
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rte;1Lc5xXkOTBjwSq5r7z820c;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782664;M_Concrete-Rectangular-Column:Column_Type_1:1780853
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rte;1Lc5xXkOTBjwSq5r7z820b;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782664;M_Concrete-Rectangular-Column:Column_Type_1:1780854
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rte;1Lc5xXkOTBjwSq5r7z8234;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782664;M_Concrete-Rectangular-Column:Column_Type_1:1780887
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rte;0bnlJNCLX69fZ_DIGa0GsH;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782664;M_Concrete-Rectangular-Column:Column_Type_1:1781683
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtg;1Lc5xXkOTBjwSq5r7z820Y;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782666;M_Concrete-Rectangular-Column:Column_Type_1:1780849
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtg;1Lc5xXkOTBjwSq5r7z820X;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782666;M_Concrete-Rectangular-Column:Column_Type_1:1780850
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtg;1Lc5xXkOTBjwSq5r7z8230;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782666;M_Concrete-Rectangular-Column:Column_Type_1:1780883
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtg;1Lc5xXkOTBjwSq5r7z8237;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782666;M_Concrete-Rectangular-Column:Column_Type_1:1780884
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rth;3wd7YnPan93gSai_LH_rt2;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782667;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782690
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rth;1Lc5xXkOTBjwSq5r7z820X;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782667;M_Concrete-Rectangular-Column:Column_Type_1:1780850
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rth;1Lc5xXkOTBjwSq5r7z820d;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782667;M_Concrete-Rectangular-Column:Column_Type_1:1780852
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rth;1Lc5xXkOTBjwSq5r7z8237;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782667;M_Concrete-Rectangular-Column:Column_Type_1:1780884
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rth;0bnlJNCLX69fZ_DIGa0GsG;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782667;M_Concrete-Rectangular-Column:Column_Type_1:1781682
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtt;3wd7YnPan93gSai_LH_r97;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782679;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1784871
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtt;1Lc5xXkOTBjwSq5r7z820f;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782679;M_Concrete-Rectangular-Column:Column_Type_1:1780858
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtt;1Lc5xXkOTBjwSq5r7z823F;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782679;M_Concrete-Rectangular-Column:Column_Type_1:1780892
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtt;0bnlJNCLX69fZ_DIGa0GpT;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782679;M_Concrete-Rectangular-Column:Column_Type_1:1781503
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtt;0bnlJNCLX69fZ_DIGa0GsN;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782679;M_Concrete-Rectangular-Column:Column_Type_1:1781685
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtu;1Lc5xXkOTBjwSq5r7z820f;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782680;M_Concrete-Rectangular-Column:Column_Type_1:1780858
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtu;1Lc5xXkOTBjwSq5r7z823N;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782680;M_Concrete-Rectangular-Column:Column_Type_1:1780868
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtu;1Lc5xXkOTBjwSq5r7z823F;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782680;M_Concrete-Rectangular-Column:Column_Type_1:1780892
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtu;1Lc5xXkOTBjwSq5r7z823r;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782680;M_Concrete-Rectangular-Column:Column_Type_1:1780902
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtv;3wd7YnPan93gSai_LH_r97;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782681;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1784871
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtv;1Lc5xXkOTBjwSq5r7z820h;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782681;M_Concrete-Rectangular-Column:Column_Type_1:1780856
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtv;1Lc5xXkOTBjwSq5r7z820g;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782681;M_Concrete-Rectangular-Column:Column_Type_1:1780857
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtv;1Lc5xXkOTBjwSq5r7z8239;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782681;M_Concrete-Rectangular-Column:Column_Type_1:1780890
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtv;0bnlJNCLX69fZ_DIGa0GsM;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782681;M_Concrete-Rectangular-Column:Column_Type_1:1781684
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtw;1Lc5xXkOTBjwSq5r7z820h;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782682;M_Concrete-Rectangular-Column:Column_Type_1:1780856
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtw;1Lc5xXkOTBjwSq5r7z823G;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782682;M_Concrete-Rectangular-Column:Column_Type_1:1780867
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtw;1Lc5xXkOTBjwSq5r7z8239;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782682;M_Concrete-Rectangular-Column:Column_Type_1:1780890
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtw;1Lc5xXkOTBjwSq5r7z823s;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782682;M_Concrete-Rectangular-Column:Column_Type_1:1780901
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt2;1Lc5xXkOTBjwSq5r7z820d;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782690;M_Concrete-Rectangular-Column:Column_Type_1:1780852
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt2;1Lc5xXkOTBjwSq5r7z820b;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782690;M_Concrete-Rectangular-Column:Column_Type_1:1780854
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt2;0bnlJNCLX69fZ_DIGa0GsG;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782690;M_Concrete-Rectangular-Column:Column_Type_1:1781682
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt2;0bnlJNCLX69fZ_DIGa0GsH;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782690;M_Concrete-Rectangular-Column:Column_Type_1:1781683
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rt9;1zvc8yHnX3FQmblWugBlbk;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782697;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1884276
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt9;1Lc5xXkOTBjwSq5r7z8236;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782697;M_Concrete-Rectangular-Column:Column_Type_1:1780885
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rt9;1Lc5xXkOTBjwSq5r7z8234;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782697;M_Concrete-Rectangular-Column:Column_Type_1:1780887
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtC;1zvc8yHnX3FQmblWugBlbk;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782700;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1884276
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtC;1Lc5xXkOTBjwSq5r7z8230;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782700;M_Concrete-Rectangular-Column:Column_Type_1:1780883
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtC;1Lc5xXkOTBjwSq5r7z8237;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782700;M_Concrete-Rectangular-Column:Column_Type_1:1780884
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtQ;3wd7YnPan93gSai_LH_rtU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782714;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782718
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtQ;1Lc5xXkOTBjwSq5r7z823F;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782714;M_Concrete-Rectangular-Column:Column_Type_1:1780892
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtQ;1Lc5xXkOTBjwSq5r7z823r;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782714;M_Concrete-Rectangular-Column:Column_Type_1:1780902
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtR;3wd7YnPan93gSai_LH_rtU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782715;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782718
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtR;1Lc5xXkOTBjwSq5r7z8239;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782715;M_Concrete-Rectangular-Column:Column_Type_1:1780890
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtR;0bnlJNCLX69fZ_DIGa0GsM;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782715;M_Concrete-Rectangular-Column:Column_Type_1:1781684
+;;;;;;
+auto;IfcBeam;IfcBeam;3wd7YnPan93gSai_LH_rtS;3wd7YnPan93gSai_LH_rtU;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782716;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782718
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtS;1Lc5xXkOTBjwSq5r7z8239;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782716;M_Concrete-Rectangular-Column:Column_Type_1:1780890
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtS;1Lc5xXkOTBjwSq5r7z823s;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1782716;M_Concrete-Rectangular-Column:Column_Type_1:1780901
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtU;1Lc5xXkOTBjwSq5r7z8239;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782718;M_Concrete-Rectangular-Column:Column_Type_1:1780890
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_rtU;1Lc5xXkOTBjwSq5r7z823F;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1782718;M_Concrete-Rectangular-Column:Column_Type_1:1780892
+;;;;;;
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_r97;1Lc5xXkOTBjwSq5r7z820g;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1784871;M_Concrete-Rectangular-Column:Column_Type_1:1780857
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_r97;0bnlJNCLX69fZ_DIGa0GpT;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1784871;M_Concrete-Rectangular-Column:Column_Type_1:1781503
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_r97;0bnlJNCLX69fZ_DIGa0GsM;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1784871;M_Concrete-Rectangular-Column:Column_Type_1:1781684
+auto;IfcBeam;IfcColumn;3wd7YnPan93gSai_LH_r97;0bnlJNCLX69fZ_DIGa0GsN;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1784871;M_Concrete-Rectangular-Column:Column_Type_1:1781685
+;;;;;;
+auto;IfcBeam;IfcColumn;1k2rnqKH1ClAI40_sMU1U9;0bnlJNCLX69fZ_DIGa0GsG;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859946;M_Concrete-Rectangular-Column:Column_Type_1:1781682
+auto;IfcBeam;IfcColumn;1k2rnqKH1ClAI40_sMU1U9;0bnlJNCLX69fZ_DIGa0GsH;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1859946;M_Concrete-Rectangular-Column:Column_Type_1:1781683
+;;;;;;
+auto;IfcBeam;IfcWall;0Wpe6xn9nEZes$CGY6wAAI;0cymiVBZH4puvZoUyk4hQC;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1865124;Basic Wall:Wall_Type_5 - Structural:1765923
+auto;IfcBeam;IfcWall;0Wpe6xn9nEZes$CGY6wAAI;0cymiVBZH4puvZoUyk4hVC;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1865124;Basic Wall:Wall_Type_5 - Structural:1766243
+;;;;;;
+auto;IfcBeam;IfcColumn;1PtBUBmyf5ehv54v0f9qBL;2nPnum6DT5xeixt0dH1B5K;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876626;M_Concrete-Rectangular-Column:Column_Type_6:1867582
+auto;IfcBeam;IfcColumn;1PtBUBmyf5ehv54v0f9qBL;2nPnum6DT5xeixt0dH14$9;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876626;M_Concrete-Rectangular-Column:Column_Type_6:1868195
+;;;;;;
+auto;IfcBeam;IfcColumn;1PtBUBmyf5ehv54v0f9qDL;2nPnum6DT5xeixt0dH14$9;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876754;M_Concrete-Rectangular-Column:Column_Type_6:1868195
+auto;IfcBeam;IfcColumn;1PtBUBmyf5ehv54v0f9qDL;2nPnum6DT5xeixt0dH14$7;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876754;M_Concrete-Rectangular-Column:Column_Type_6:1868205
+;;;;;;
+auto;IfcBeam;IfcColumn;1PtBUBmyf5ehv54v0f9qDT;2nPnum6DT5xeixt0dH14$7;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876762;M_Concrete-Rectangular-Column:Column_Type_6:1868205
+auto;IfcBeam;IfcColumn;1PtBUBmyf5ehv54v0f9qDT;2nPnum6DT5xeixt0dH14$T;M_Concrete-Rectangular Beam:Beam_Type_3 - Concrete Exterior:1876762;M_Concrete-Rectangular-Column:Column_Type_6:1868215
+;;;;;;
+auto;IfcBeam;IfcColumn;1zvc8yHnX3FQmblWugBeSq;1Lc5xXkOTBjwSq5r7z820D;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1883694;M_Concrete-Rectangular-Column:Column_Type_1:1780830
+auto;IfcBeam;IfcColumn;1zvc8yHnX3FQmblWugBeSq;0bnlJNCLX69fZ_DIGa0H3x;M_Concrete-Rectangular Beam:Beam_Type_1 - Concrete:1883694;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+;;;;;;
+auto;IfcBeam;IfcColumn;1zvc8yHnX3FQmblWugBlbk;1Lc5xXkOTBjwSq5r7z8230;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1884276;M_Concrete-Rectangular-Column:Column_Type_1:1780883
+auto;IfcBeam;IfcColumn;1zvc8yHnX3FQmblWugBlbk;1Lc5xXkOTBjwSq5r7z8236;M_Concrete-Rectangular Beam:Beam_Type_2 - Concrete:1884276;M_Concrete-Rectangular-Column:Column_Type_1:1780885
+;;;;;;
+auto;IfcBeam;IfcColumn;2kauD9ZWn4SxJjjBX7h3cr;1AfdK3BYX8h8tPme4eKzE3;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926;M_Concrete-Rectangular-Column:Column_Type_4:1615532
+auto;IfcBeam;IfcColumn;2kauD9ZWn4SxJjjBX7h3cr;0bnlJNCLX69fZ_DIGa0H2C;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+auto;IfcBeam;IfcWall;2kauD9ZWn4SxJjjBX7h3cr;0cymiVBZH4puvZoUyk4hQC;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926;Basic Wall:Wall_Type_5 - Structural:1765923
+auto;IfcBeam;IfcWall;2kauD9ZWn4SxJjjBX7h3cr;33kki$cAbE$uQxZ$49S2AT;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1886926;Basic Wall:Wall_Type_5 - Structural:1804567
+;;;;;;
+auto;IfcBeam;IfcColumn;2kauD9ZWn4SxJjjBX7h3yX;0bnlJNCLX69fZ_DIGa0H2E;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322;M_Concrete-Rectangular-Column:Column_Type_5:1782444
+auto;IfcBeam;IfcColumn;2kauD9ZWn4SxJjjBX7h3yX;0bnlJNCLX69fZ_DIGa0H3r;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887322;M_Concrete-Rectangular-Column:Column_Type_5:1782487
+;;;;;;
+auto;IfcBeam;IfcColumn;2kauD9ZWn4SxJjjBX7h3yW;1Lc5xXkOTBjwSq5r7z820d;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887323;M_Concrete-Rectangular-Column:Column_Type_1:1780852
+auto;IfcBeam;IfcColumn;2kauD9ZWn4SxJjjBX7h3yW;1Lc5xXkOTBjwSq5r7z820b;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887323;M_Concrete-Rectangular-Column:Column_Type_1:1780854
+auto;IfcBeam;IfcColumn;2kauD9ZWn4SxJjjBX7h3yW;0bnlJNCLX69fZ_DIGa0H3r;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887323;M_Concrete-Rectangular-Column:Column_Type_5:1782487
+;;;;;;
+auto;IfcBeam;IfcColumn;2kauD9ZWn4SxJjjBX7h3yd;1AfdK3BYX8h8tPme4eKz7P;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324;M_Concrete-Rectangular-Column:Column_Type_5:1615094
+auto;IfcBeam;IfcColumn;2kauD9ZWn4SxJjjBX7h3yd;0bnlJNCLX69fZ_DIGa0H2E;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324;M_Concrete-Rectangular-Column:Column_Type_5:1782444
+auto;IfcBeam;IfcWall;2kauD9ZWn4SxJjjBX7h3yd;0cymiVBZH4puvZoUyk4hVC;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324;Basic Wall:Wall_Type_5 - Structural:1766243
+auto;IfcBeam;IfcWall;2kauD9ZWn4SxJjjBX7h3yd;33kki$cAbE$uQxZ$49S29J;M_Concrete-Rectangular Beam:Beam_Type_4 - Concrete:1887324;Basic Wall:Wall_Type_5 - Structural:1804761
+;;;;;;
+auto;IfcColumn;IfcColumn;3G1l8Rd1X328pxkdm$rv_T;1Lc5xXkOTBjwSq5r7z821$;M_Concrete-Rectangular-Column:Column_Type_2:1599758;M_Concrete-Rectangular-Column:Column_Type_2:1780780
+auto;IfcColumn;IfcSlab;3G1l8Rd1X328pxkdm$rv_T;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_2:1599758;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;3G1l8Rd1X328pxkdm$rv_T;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_2:1599758;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;31NTv5DGv6h9St3q13CKml;1Lc5xXkOTBjwSq5r7z821_;M_Concrete-Rectangular-Column:Column_Type_1:1602816;M_Concrete-Rectangular-Column:Column_Type_1:1780781
+auto;IfcColumn;IfcSlab;31NTv5DGv6h9St3q13CKml;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1602816;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;31NTv5DGv6h9St3q13CKml;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1602816;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;31NTv5DGv6h9St3q13CKzd;1Lc5xXkOTBjwSq5r7z821z;M_Concrete-Rectangular-Column:Column_Type_1:1603144;M_Concrete-Rectangular-Column:Column_Type_1:1780782
+auto;IfcColumn;IfcColumn;31NTv5DGv6h9St3q13CKzd;2nPnum6DT5xeixt0dH14$T;M_Concrete-Rectangular-Column:Column_Type_1:1603144;M_Concrete-Rectangular-Column:Column_Type_6:1868215
+auto;IfcColumn;IfcSlab;31NTv5DGv6h9St3q13CKzd;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1603144;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;31NTv5DGv6h9St3q13CKzd;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1603144;Floor:Floor_Type_2 - Carpet:1818107
+auto;IfcColumn;IfcSlab;31NTv5DGv6h9St3q13CKzd;2nPnum6DT5xeixt0dH1BFz;M_Concrete-Rectangular-Column:Column_Type_1:1603144;Floor:Floor_Type_4 - Terrace:1867159
+;;;;;;
+auto;IfcColumn;IfcColumn;1AfdK3BYX8h8tPme4eKzI1;1Lc5xXkOTBjwSq5r7z821y;M_Concrete-Rectangular-Column:Column_Type_1:1614254;M_Concrete-Rectangular-Column:Column_Type_1:1780783
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKzI1;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1614254;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKzI1;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1614254;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;1AfdK3BYX8h8tPme4eKz7Q;1Lc5xXkOTBjwSq5r7z821Y;M_Concrete-Rectangular-Column:Column_Type_1:1615093;M_Concrete-Rectangular-Column:Column_Type_1:1780785
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKz7Q;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1615093;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKz7Q;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1615093;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;1AfdK3BYX8h8tPme4eKz7P;0bnlJNCLX69fZ_DIGa0H2E;M_Concrete-Rectangular-Column:Column_Type_5:1615094;M_Concrete-Rectangular-Column:Column_Type_5:1782444
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKz7P;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_5:1615094;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKz7P;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_5:1615094;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;1AfdK3BYX8h8tPme4eKz0u;1Lc5xXkOTBjwSq5r7z821W;M_Concrete-Rectangular-Column:Column_Type_1:1615127;M_Concrete-Rectangular-Column:Column_Type_1:1780787
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKz0u;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1615127;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKz0u;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1615127;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;1AfdK3BYX8h8tPme4eKz36;1Lc5xXkOTBjwSq5r7z821d;M_Concrete-Rectangular-Column:Column_Type_1:1615337;M_Concrete-Rectangular-Column:Column_Type_1:1780788
+auto;IfcColumn;IfcColumn;1AfdK3BYX8h8tPme4eKz36;2nPnum6DT5xeixt0dH1B5K;M_Concrete-Rectangular-Column:Column_Type_1:1615337;M_Concrete-Rectangular-Column:Column_Type_6:1867582
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKz36;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1615337;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKz36;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1615337;Floor:Floor_Type_2 - Carpet:1818107
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKz36;2nPnum6DT5xeixt0dH1BFz;M_Concrete-Rectangular-Column:Column_Type_1:1615337;Floor:Floor_Type_4 - Terrace:1867159
+;;;;;;
+auto;IfcColumn;IfcColumn;1AfdK3BYX8h8tPme4eKzE4;1Lc5xXkOTBjwSq5r7z821b;M_Concrete-Rectangular-Column:Column_Type_1:1615531;M_Concrete-Rectangular-Column:Column_Type_1:1780790
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKzE4;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1615531;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKzE4;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1615531;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;1AfdK3BYX8h8tPme4eKzE3;0bnlJNCLX69fZ_DIGa0H2C;M_Concrete-Rectangular-Column:Column_Type_4:1615532;M_Concrete-Rectangular-Column:Column_Type_4:1782446
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKzE3;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_4:1615532;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKzE3;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_4:1615532;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;1AfdK3BYX8h8tPme4eKzE2;2E$hWs0vH16v$R76pKFCsy;M_Concrete-Rectangular-Column:Column_Type_3:1615533;M_Concrete-Rectangular-Column:Column_Type_3:1827753
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKzE2;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_3:1615533;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;1AfdK3BYX8h8tPme4eKzE2;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_3:1615533;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;0s8i6QQczEc8OgsPtdAQH3;1Lc5xXkOTBjwSq5r7z821g;M_Concrete-Rectangular-Column:Column_Type_1:1758728;M_Concrete-Rectangular-Column:Column_Type_1:1780793
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQH3;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1758728;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQH3;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1758728;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;0s8i6QQczEc8OgsPtdAQHZ;1Lc5xXkOTBjwSq5r7z821f;M_Concrete-Rectangular-Column:Column_Type_1:1758760;M_Concrete-Rectangular-Column:Column_Type_1:1780794
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQHZ;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1758760;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQHZ;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1758760;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;0s8i6QQczEc8OgsPtdAQHv;1Lc5xXkOTBjwSq5r7z821e;M_Concrete-Rectangular-Column:Column_Type_1:1758770;M_Concrete-Rectangular-Column:Column_Type_1:1780795
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQHv;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1758770;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQHv;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1758770;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;0s8i6QQczEc8OgsPtdAQI8;1Lc5xXkOTBjwSq5r7z821l;M_Concrete-Rectangular-Column:Column_Type_1:1758915;M_Concrete-Rectangular-Column:Column_Type_1:1780796
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQI8;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1758915;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQI8;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1758915;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;0s8i6QQczEc8OgsPtdAQIF;1Lc5xXkOTBjwSq5r7z821k;M_Concrete-Rectangular-Column:Column_Type_1:1758916;M_Concrete-Rectangular-Column:Column_Type_1:1780797
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQIF;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1758916;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQIF;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1758916;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;0s8i6QQczEc8OgsPtdAQIE;1Lc5xXkOTBjwSq5r7z821j;M_Concrete-Rectangular-Column:Column_Type_1:1758917;M_Concrete-Rectangular-Column:Column_Type_1:1780798
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQIE;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1758917;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;0s8i6QQczEc8OgsPtdAQIE;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1758917;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;1hOzILKtn3NxAVbjRocyUK;1Lc5xXkOTBjwSq5r7z821i;M_Concrete-Rectangular-Column:Column_Type_1:1765560;M_Concrete-Rectangular-Column:Column_Type_1:1780799
+auto;IfcColumn;IfcSlab;1hOzILKtn3NxAVbjRocyUK;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1765560;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;1hOzILKtn3NxAVbjRocyUK;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1765560;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;1hOzILKtn3NxAVbjRocyO8;1Lc5xXkOTBjwSq5r7z820J;M_Concrete-Rectangular-Column:Column_Type_1:1765668;M_Concrete-Rectangular-Column:Column_Type_1:1780800
+auto;IfcColumn;IfcSlab;1hOzILKtn3NxAVbjRocyO8;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_1:1765668;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;1hOzILKtn3NxAVbjRocyO8;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_1:1765668;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;0cymiVBZH4puvZoUyk4hiJ;2E$hWs0vH16v$R76pKFCs$;M_Concrete-Rectangular-Column:Column_Type_3:1769404;M_Concrete-Rectangular-Column:Column_Type_3:1827754
+auto;IfcColumn;IfcSlab;0cymiVBZH4puvZoUyk4hiJ;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_3:1769404;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;0cymiVBZH4puvZoUyk4hiJ;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_3:1769404;Floor:Floor_Type_2 - Carpet:1818107
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821$;1Lc5xXkOTBjwSq5r7z820T;M_Concrete-Rectangular-Column:Column_Type_2:1780780;M_Concrete-Rectangular-Column:Column_Type_2:1780814
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821_;1Lc5xXkOTBjwSq5r7z820S;M_Concrete-Rectangular-Column:Column_Type_1:1780781;M_Concrete-Rectangular-Column:Column_Type_1:1780815
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821z;1Lc5xXkOTBjwSq5r7z8203;M_Concrete-Rectangular-Column:Column_Type_1:1780782;M_Concrete-Rectangular-Column:Column_Type_1:1780816
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821z;2nPnum6DT5xeixt0dH14$T;M_Concrete-Rectangular-Column:Column_Type_1:1780782;M_Concrete-Rectangular-Column:Column_Type_6:1868215
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821y;1Lc5xXkOTBjwSq5r7z8202;M_Concrete-Rectangular-Column:Column_Type_1:1780783;M_Concrete-Rectangular-Column:Column_Type_1:1780817
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821Y;1Lc5xXkOTBjwSq5r7z8200;M_Concrete-Rectangular-Column:Column_Type_1:1780785;M_Concrete-Rectangular-Column:Column_Type_1:1780819
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821W;1Lc5xXkOTBjwSq5r7z8206;M_Concrete-Rectangular-Column:Column_Type_1:1780787;M_Concrete-Rectangular-Column:Column_Type_1:1780821
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821d;1Lc5xXkOTBjwSq5r7z8205;M_Concrete-Rectangular-Column:Column_Type_1:1780788;M_Concrete-Rectangular-Column:Column_Type_1:1780822
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821d;2nPnum6DT5xeixt0dH1B5K;M_Concrete-Rectangular-Column:Column_Type_1:1780788;M_Concrete-Rectangular-Column:Column_Type_6:1867582
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821b;1Lc5xXkOTBjwSq5r7z820B;M_Concrete-Rectangular-Column:Column_Type_1:1780790;M_Concrete-Rectangular-Column:Column_Type_1:1780824
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821g;1Lc5xXkOTBjwSq5r7z8208;M_Concrete-Rectangular-Column:Column_Type_1:1780793;M_Concrete-Rectangular-Column:Column_Type_1:1780827
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821f;1Lc5xXkOTBjwSq5r7z820F;M_Concrete-Rectangular-Column:Column_Type_1:1780794;M_Concrete-Rectangular-Column:Column_Type_1:1780828
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821e;1Lc5xXkOTBjwSq5r7z820E;M_Concrete-Rectangular-Column:Column_Type_1:1780795;M_Concrete-Rectangular-Column:Column_Type_1:1780829
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821l;1Lc5xXkOTBjwSq5r7z820D;M_Concrete-Rectangular-Column:Column_Type_1:1780796;M_Concrete-Rectangular-Column:Column_Type_1:1780830
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821k;1Lc5xXkOTBjwSq5r7z820C;M_Concrete-Rectangular-Column:Column_Type_1:1780797;M_Concrete-Rectangular-Column:Column_Type_1:1780831
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821j;1Lc5xXkOTBjwSq5r7z820p;M_Concrete-Rectangular-Column:Column_Type_1:1780798;M_Concrete-Rectangular-Column:Column_Type_1:1780832
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z821i;1Lc5xXkOTBjwSq5r7z820o;M_Concrete-Rectangular-Column:Column_Type_1:1780799;M_Concrete-Rectangular-Column:Column_Type_1:1780833
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820J;1Lc5xXkOTBjwSq5r7z820n;M_Concrete-Rectangular-Column:Column_Type_1:1780800;M_Concrete-Rectangular-Column:Column_Type_1:1780834
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820S;1Lc5xXkOTBjwSq5r7z820Y;M_Concrete-Rectangular-Column:Column_Type_1:1780815;M_Concrete-Rectangular-Column:Column_Type_1:1780849
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z8203;1Lc5xXkOTBjwSq5r7z820X;M_Concrete-Rectangular-Column:Column_Type_1:1780816;M_Concrete-Rectangular-Column:Column_Type_1:1780850
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z8202;1Lc5xXkOTBjwSq5r7z820W;M_Concrete-Rectangular-Column:Column_Type_1:1780817;M_Concrete-Rectangular-Column:Column_Type_1:1780851
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z8200;1Lc5xXkOTBjwSq5r7z820c;M_Concrete-Rectangular-Column:Column_Type_1:1780819;M_Concrete-Rectangular-Column:Column_Type_1:1780853
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z8205;1Lc5xXkOTBjwSq5r7z820h;M_Concrete-Rectangular-Column:Column_Type_1:1780822;M_Concrete-Rectangular-Column:Column_Type_1:1780856
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820B;1Lc5xXkOTBjwSq5r7z820f;M_Concrete-Rectangular-Column:Column_Type_1:1780824;M_Concrete-Rectangular-Column:Column_Type_1:1780858
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820o;1Lc5xXkOTBjwSq5r7z823G;M_Concrete-Rectangular-Column:Column_Type_1:1780833;M_Concrete-Rectangular-Column:Column_Type_1:1780867
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820n;1Lc5xXkOTBjwSq5r7z823N;M_Concrete-Rectangular-Column:Column_Type_1:1780834;M_Concrete-Rectangular-Column:Column_Type_1:1780868
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820Y;1Lc5xXkOTBjwSq5r7z8230;M_Concrete-Rectangular-Column:Column_Type_1:1780849;M_Concrete-Rectangular-Column:Column_Type_1:1780883
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820X;1Lc5xXkOTBjwSq5r7z8237;M_Concrete-Rectangular-Column:Column_Type_1:1780850;M_Concrete-Rectangular-Column:Column_Type_1:1780884
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820W;1Lc5xXkOTBjwSq5r7z8236;M_Concrete-Rectangular-Column:Column_Type_1:1780851;M_Concrete-Rectangular-Column:Column_Type_1:1780885
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820d;0bnlJNCLX69fZ_DIGa0GsG;M_Concrete-Rectangular-Column:Column_Type_1:1780852;M_Concrete-Rectangular-Column:Column_Type_1:1781682
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820c;1Lc5xXkOTBjwSq5r7z8234;M_Concrete-Rectangular-Column:Column_Type_1:1780853;M_Concrete-Rectangular-Column:Column_Type_1:1780887
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820b;0bnlJNCLX69fZ_DIGa0GsH;M_Concrete-Rectangular-Column:Column_Type_1:1780854;M_Concrete-Rectangular-Column:Column_Type_1:1781683
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820b;0bnlJNCLX69fZ_DIGa0H3r;M_Concrete-Rectangular-Column:Column_Type_1:1780854;M_Concrete-Rectangular-Column:Column_Type_5:1782487
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820h;1Lc5xXkOTBjwSq5r7z8239;M_Concrete-Rectangular-Column:Column_Type_1:1780856;M_Concrete-Rectangular-Column:Column_Type_1:1780890
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820g;0bnlJNCLX69fZ_DIGa0GsM;M_Concrete-Rectangular-Column:Column_Type_1:1780857;M_Concrete-Rectangular-Column:Column_Type_1:1781684
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z820f;1Lc5xXkOTBjwSq5r7z823F;M_Concrete-Rectangular-Column:Column_Type_1:1780858;M_Concrete-Rectangular-Column:Column_Type_1:1780892
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z823G;1Lc5xXkOTBjwSq5r7z823s;M_Concrete-Rectangular-Column:Column_Type_1:1780867;M_Concrete-Rectangular-Column:Column_Type_1:1780901
+;;;;;;
+auto;IfcColumn;IfcColumn;1Lc5xXkOTBjwSq5r7z823N;1Lc5xXkOTBjwSq5r7z823r;M_Concrete-Rectangular-Column:Column_Type_1:1780868;M_Concrete-Rectangular-Column:Column_Type_1:1780902
+;;;;;;
+auto;IfcColumn;IfcColumn;0bnlJNCLX69fZ_DIGa0GpT;0bnlJNCLX69fZ_DIGa0GsN;M_Concrete-Rectangular-Column:Column_Type_1:1781503;M_Concrete-Rectangular-Column:Column_Type_1:1781685
+auto;IfcColumn;IfcColumn;0bnlJNCLX69fZ_DIGa0GpT;0bnlJNCLX69fZ_DIGa0H3x;M_Concrete-Rectangular-Column:Column_Type_1:1781503;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+;;;;;;
+auto;IfcColumn;IfcColumn;0bnlJNCLX69fZ_DIGa0H2E;0bnlJNCLX69fZ_DIGa0H3r;M_Concrete-Rectangular-Column:Column_Type_5:1782444;M_Concrete-Rectangular-Column:Column_Type_5:1782487
+;;;;;;
+auto;IfcColumn;IfcColumn;0bnlJNCLX69fZ_DIGa0H2C;0bnlJNCLX69fZ_DIGa0H3x;M_Concrete-Rectangular-Column:Column_Type_4:1782446;M_Concrete-Rectangular-Column:Column_Type_4:1782489
+;;;;;;
+auto;IfcColumn;IfcColumn;2E$hWs0vH16v$R76pKFCsy;1zvc8yHnX3FQmblWugBeNm;M_Concrete-Rectangular-Column:Column_Type_3:1827753;M_Concrete-Rectangular-Column:Column_Type_3:1883370
+;;;;;;
+auto;IfcColumn;IfcColumn;2E$hWs0vH16v$R76pKFCs$;1zvc8yHnX3FQmblWugBeNn;M_Concrete-Rectangular-Column:Column_Type_3:1827754;M_Concrete-Rectangular-Column:Column_Type_3:1883371
+;;;;;;
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH1B5K;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_6:1867582;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH1B5K;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_6:1867582;Floor:Floor_Type_2 - Carpet:1818107
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH1B5K;2nPnum6DT5xeixt0dH1BFz;M_Concrete-Rectangular-Column:Column_Type_6:1867582;Floor:Floor_Type_4 - Terrace:1867159
+;;;;;;
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH14$9;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_6:1868195;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH14$9;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_6:1868195;Floor:Floor_Type_2 - Carpet:1818107
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH14$9;2nPnum6DT5xeixt0dH1BFz;M_Concrete-Rectangular-Column:Column_Type_6:1868195;Floor:Floor_Type_4 - Terrace:1867159
+;;;;;;
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH14$7;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_6:1868205;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH14$7;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_6:1868205;Floor:Floor_Type_2 - Carpet:1818107
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH14$7;2nPnum6DT5xeixt0dH1BFz;M_Concrete-Rectangular-Column:Column_Type_6:1868205;Floor:Floor_Type_4 - Terrace:1867159
+;;;;;;
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH14$T;3ZjujPNUb4Qe61xFUAhjiI;M_Concrete-Rectangular-Column:Column_Type_6:1868215;Floor:Floor_Type_1 - Foundation:1611586
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH14$T;1XuC4IIwz0hvfCmZDuLJ_7;M_Concrete-Rectangular-Column:Column_Type_6:1868215;Floor:Floor_Type_2 - Carpet:1818107
+auto;IfcColumn;IfcSlab;2nPnum6DT5xeixt0dH14$T;2nPnum6DT5xeixt0dH1BFz;M_Concrete-Rectangular-Column:Column_Type_6:1868215;Floor:Floor_Type_4 - Terrace:1867159
+;;;;;;
+auto;IfcSlab;IfcSlab;3ZjujPNUb4Qe61xFUAhjiI;1XuC4IIwz0hvfCmZDuLJ_7;Floor:Floor_Type_1 - Foundation:1611586;Floor:Floor_Type_2 - Carpet:1818107
+auto;IfcSlab;IfcSlab;3ZjujPNUb4Qe61xFUAhjiI;2nPnum6DT5xeixt0dH1BFz;Floor:Floor_Type_1 - Foundation:1611586;Floor:Floor_Type_4 - Terrace:1867159
+auto;IfcSlab;IfcWall;3ZjujPNUb4Qe61xFUAhjiI;0cymiVBZH4puvZoUyk4hQC;Floor:Floor_Type_1 - Foundation:1611586;Basic Wall:Wall_Type_5 - Structural:1765923
+auto;IfcSlab;IfcWall;3ZjujPNUb4Qe61xFUAhjiI;0cymiVBZH4puvZoUyk4hVC;Floor:Floor_Type_1 - Foundation:1611586;Basic Wall:Wall_Type_5 - Structural:1766243
+auto;IfcSlab;IfcWall;3ZjujPNUb4Qe61xFUAhjiI;33kki$cAbE$uQxZ$49S2AT;Floor:Floor_Type_1 - Foundation:1611586;Basic Wall:Wall_Type_5 - Structural:1804567
+auto;IfcSlab;IfcWall;3ZjujPNUb4Qe61xFUAhjiI;33kki$cAbE$uQxZ$49S29J;Floor:Floor_Type_1 - Foundation:1611586;Basic Wall:Wall_Type_5 - Structural:1804761
+;;;;;;
+auto;IfcSlab;IfcSlab;1XuC4IIwz0hvfCmZDuLJ_7;2nPnum6DT5xeixt0dH1BFz;Floor:Floor_Type_2 - Carpet:1818107;Floor:Floor_Type_4 - Terrace:1867159
+auto;IfcSlab;IfcWall;1XuC4IIwz0hvfCmZDuLJ_7;0cymiVBZH4puvZoUyk4hQC;Floor:Floor_Type_2 - Carpet:1818107;Basic Wall:Wall_Type_5 - Structural:1765923
+auto;IfcSlab;IfcWall;1XuC4IIwz0hvfCmZDuLJ_7;0cymiVBZH4puvZoUyk4hVC;Floor:Floor_Type_2 - Carpet:1818107;Basic Wall:Wall_Type_5 - Structural:1766243
+auto;IfcSlab;IfcWall;1XuC4IIwz0hvfCmZDuLJ_7;33kki$cAbE$uQxZ$49S2AT;Floor:Floor_Type_2 - Carpet:1818107;Basic Wall:Wall_Type_5 - Structural:1804567
+auto;IfcSlab;IfcWall;1XuC4IIwz0hvfCmZDuLJ_7;33kki$cAbE$uQxZ$49S29J;Floor:Floor_Type_2 - Carpet:1818107;Basic Wall:Wall_Type_5 - Structural:1804761
+;;;;;;
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BFz;0cymiVBZH4puvZoUyk4hQC;Floor:Floor_Type_4 - Terrace:1867159;Basic Wall:Wall_Type_5 - Structural:1765923
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BFz;0cymiVBZH4puvZoUyk4hVC;Floor:Floor_Type_4 - Terrace:1867159;Basic Wall:Wall_Type_5 - Structural:1766243
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BFz;33kki$cAbE$uQxZ$49S2AT;Floor:Floor_Type_4 - Terrace:1867159;Basic Wall:Wall_Type_5 - Structural:1804567
+auto;IfcSlab;IfcWall;2nPnum6DT5xeixt0dH1BFz;33kki$cAbE$uQxZ$49S29J;Floor:Floor_Type_4 - Terrace:1867159;Basic Wall:Wall_Type_5 - Structural:1804761
+;;;;;;
+auto;IfcWall;IfcWall;0cymiVBZH4puvZoUyk4hQC;33kki$cAbE$uQxZ$49S2AT;Basic Wall:Wall_Type_5 - Structural:1765923;Basic Wall:Wall_Type_5 - Structural:1804567
+;;;;;;
+auto;IfcWall;IfcWall;0cymiVBZH4puvZoUyk4hVC;33kki$cAbE$uQxZ$49S29J;Basic Wall:Wall_Type_5 - Structural:1766243;Basic Wall:Wall_Type_5 - Structural:1804761

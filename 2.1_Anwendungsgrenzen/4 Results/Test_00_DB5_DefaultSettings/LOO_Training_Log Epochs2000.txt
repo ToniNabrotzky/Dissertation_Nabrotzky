@@ -1,0 +1,131 @@
+Lade 5 Graphen in den Speicher...
+CONFIG:
+	model_type: GINE
+	hidden_dim: 128
+	num_layers: 3
+	activation: ELU
+	dropout: 0.1
+	lr: 0.001
+	epochs: 2000
+	edge_dim: 1
+	batch_size: 5
+	threshold: 0.5
+--- Starte Fold 1 | Test-Modell: 202102183458-Model Graph.json ---
+  Epoch 100 | Loss: 0.6233 | Best Val-F1: 0.52
+  Epoch 200 | Loss: 0.5589 | Best Val-F1: 0.52
+  Epoch 300 | Loss: 0.5036 | Best Val-F1: 0.53
+  Epoch 400 | Loss: 0.4590 | Best Val-F1: 0.54
+  Epoch 500 | Loss: 0.4151 | Best Val-F1: 0.54
+  Epoch 600 | Loss: 0.3735 | Best Val-F1: 0.54
+  Epoch 700 | Loss: 0.3237 | Best Val-F1: 0.54
+  Epoch 800 | Loss: 0.3186 | Best Val-F1: 0.54
+  Epoch 900 | Loss: 0.2677 | Best Val-F1: 0.54
+  Epoch 1000 | Loss: 0.2556 | Best Val-F1: 0.54
+  Epoch 1100 | Loss: 0.2073 | Best Val-F1: 0.54
+  Epoch 1200 | Loss: 0.1909 | Best Val-F1: 0.54
+  Epoch 1300 | Loss: 0.1705 | Best Val-F1: 0.54
+  Epoch 1400 | Loss: 0.1626 | Best Val-F1: 0.54
+  Epoch 1500 | Loss: 0.1318 | Best Val-F1: 0.54
+  Epoch 1600 | Loss: 0.1640 | Best Val-F1: 0.54
+  Epoch 1700 | Loss: 0.1104 | Best Val-F1: 0.54
+  Epoch 1800 | Loss: 0.1238 | Best Val-F1: 0.54
+  Epoch 1900 | Loss: 0.0971 | Best Val-F1: 0.54
+  Epoch 2000 | Loss: 0.0915 | Best Val-F1: 0.54
+RESULT Fold 1 (Threshold 0.5): Acc: 41.25%, F1: 0.54, Prec: 0.37, Rec: 0.95
+--- Starte Fold 2 | Test-Modell: 20220421MODEL REV01 Graph.json ---
+  Epoch 100 | Loss: 0.5553 | Best Val-F1: 0.66
+  Epoch 200 | Loss: 0.4284 | Best Val-F1: 0.67
+  Epoch 300 | Loss: 0.3307 | Best Val-F1: 0.67
+  Epoch 400 | Loss: 0.2774 | Best Val-F1: 0.67
+  Epoch 500 | Loss: 0.2221 | Best Val-F1: 0.67
+  Epoch 600 | Loss: 0.1700 | Best Val-F1: 0.67
+  Epoch 700 | Loss: 0.1327 | Best Val-F1: 0.67
+  Epoch 800 | Loss: 0.1304 | Best Val-F1: 0.67
+  Epoch 900 | Loss: 0.0894 | Best Val-F1: 0.67
+  Epoch 1000 | Loss: 0.0719 | Best Val-F1: 0.67
+  Epoch 1100 | Loss: 0.0700 | Best Val-F1: 0.67
+  Epoch 1200 | Loss: 0.0507 | Best Val-F1: 0.67
+  Epoch 1300 | Loss: 0.0444 | Best Val-F1: 0.67
+  Epoch 1400 | Loss: 0.0358 | Best Val-F1: 0.67
+  Epoch 1500 | Loss: 0.0283 | Best Val-F1: 0.67
+  Epoch 1600 | Loss: 0.0278 | Best Val-F1: 0.67
+  Epoch 1700 | Loss: 0.0305 | Best Val-F1: 0.67
+  Epoch 1800 | Loss: 0.0239 | Best Val-F1: 0.67
+  Epoch 1900 | Loss: 0.0210 | Best Val-F1: 0.67
+  Epoch 2000 | Loss: 0.0169 | Best Val-F1: 0.67
+RESULT Fold 2 (Threshold 0.5): Acc: 51.17%, F1: 0.67, Prec: 0.51, Rec: 0.99
+--- Starte Fold 3 | Test-Modell: 21_22 L_TWP_Tragwerksmodell Graph.json ---
+  Epoch 100 | Loss: 0.5999 | Best Val-F1: 0.77
+  Epoch 200 | Loss: 0.5128 | Best Val-F1: 0.77
+  Epoch 300 | Loss: 0.4364 | Best Val-F1: 0.77
+  Epoch 400 | Loss: 0.3812 | Best Val-F1: 0.80
+  Epoch 500 | Loss: 0.3423 | Best Val-F1: 0.80
+  Epoch 600 | Loss: 0.3141 | Best Val-F1: 0.80
+  Epoch 700 | Loss: 0.2713 | Best Val-F1: 0.80
+  Epoch 800 | Loss: 0.2408 | Best Val-F1: 0.80
+  Epoch 900 | Loss: 0.2181 | Best Val-F1: 0.80
+  Epoch 1000 | Loss: 0.1901 | Best Val-F1: 0.80
+  Epoch 1100 | Loss: 0.1472 | Best Val-F1: 0.80
+  Epoch 1200 | Loss: 0.1393 | Best Val-F1: 0.80
+  Epoch 1300 | Loss: 0.1121 | Best Val-F1: 0.80
+  Epoch 1400 | Loss: 0.3460 | Best Val-F1: 0.80
+  Epoch 1500 | Loss: 0.2280 | Best Val-F1: 0.80
+  Epoch 1600 | Loss: 0.1525 | Best Val-F1: 0.80
+  Epoch 1700 | Loss: 0.1301 | Best Val-F1: 0.80
+  Epoch 1800 | Loss: 0.1097 | Best Val-F1: 0.80
+  Epoch 1900 | Loss: 0.1003 | Best Val-F1: 0.80
+  Epoch 2000 | Loss: 0.0961 | Best Val-F1: 0.80
+RESULT Fold 3 (Threshold 0.5): Acc: 67.51%, F1: 0.80, Prec: 0.68, Rec: 0.98
+--- Starte Fold 4 | Test-Modell: 23_24 LTWP-V__Dachtragwerk Graph.json ---
+  Epoch 100 | Loss: 0.6290 | Best Val-F1: 0.87
+  Epoch 200 | Loss: 0.5888 | Best Val-F1: 0.87
+  Epoch 300 | Loss: 0.5448 | Best Val-F1: 0.87
+  Epoch 400 | Loss: 0.5025 | Best Val-F1: 0.87
+  Epoch 500 | Loss: 0.4508 | Best Val-F1: 0.87
+  Epoch 600 | Loss: 0.4190 | Best Val-F1: 0.87
+  Epoch 700 | Loss: 0.3866 | Best Val-F1: 0.87
+  Epoch 800 | Loss: 0.3513 | Best Val-F1: 0.87
+  Epoch 900 | Loss: 0.3230 | Best Val-F1: 0.87
+  Epoch 1000 | Loss: 0.3123 | Best Val-F1: 0.87
+  Epoch 1100 | Loss: 0.2738 | Best Val-F1: 0.87
+  Epoch 1200 | Loss: 0.2557 | Best Val-F1: 0.87
+  Epoch 1300 | Loss: 0.2391 | Best Val-F1: 0.87
+  Epoch 1400 | Loss: 0.2253 | Best Val-F1: 0.87
+  Epoch 1500 | Loss: 0.2330 | Best Val-F1: 0.87
+  Epoch 1600 | Loss: 0.1927 | Best Val-F1: 0.87
+  Epoch 1700 | Loss: 0.1961 | Best Val-F1: 0.87
+  Epoch 1800 | Loss: 0.1824 | Best Val-F1: 0.87
+  Epoch 1900 | Loss: 0.1455 | Best Val-F1: 0.87
+  Epoch 2000 | Loss: 0.1558 | Best Val-F1: 0.87
+RESULT Fold 4 (Threshold 0.5): Acc: 77.85%, F1: 0.87, Prec: 0.79, Rec: 0.97
+--- Starte Fold 5 | Test-Modell: Grethes-hus-bok-2 Graph.json ---
+  Epoch 100 | Loss: 0.5946 | Best Val-F1: 0.64
+  Epoch 200 | Loss: 0.5098 | Best Val-F1: 0.64
+  Epoch 300 | Loss: 0.4333 | Best Val-F1: 0.64
+  Epoch 400 | Loss: 0.3885 | Best Val-F1: 0.64
+  Epoch 500 | Loss: 0.3431 | Best Val-F1: 0.64
+  Epoch 600 | Loss: 0.2919 | Best Val-F1: 0.64
+  Epoch 700 | Loss: 0.2567 | Best Val-F1: 0.64
+  Epoch 800 | Loss: 0.2299 | Best Val-F1: 0.64
+  Epoch 900 | Loss: 0.2202 | Best Val-F1: 0.68
+  Epoch 1000 | Loss: 0.1764 | Best Val-F1: 0.69
+  Epoch 1100 | Loss: 0.1608 | Best Val-F1: 0.71
+  Epoch 1200 | Loss: 0.1758 | Best Val-F1: 0.71
+  Epoch 1300 | Loss: 0.1286 | Best Val-F1: 0.71
+  Epoch 1400 | Loss: 0.1147 | Best Val-F1: 0.71
+  Epoch 1500 | Loss: 0.1027 | Best Val-F1: 0.72
+  Epoch 1600 | Loss: 0.1093 | Best Val-F1: 0.72
+  Epoch 1700 | Loss: 0.0898 | Best Val-F1: 0.72
+  Epoch 1800 | Loss: 0.0916 | Best Val-F1: 0.72
+  Epoch 1900 | Loss: 0.0757 | Best Val-F1: 0.72
+  Epoch 2000 | Loss: 0.0648 | Best Val-F1: 0.73
+RESULT Fold 5 (Threshold 0.5): Acc: 67.27%, F1: 0.73, Prec: 0.59, Rec: 0.94
+========================================
+LOO-KREUZVALIDIERUNG ABSCHLUSS
+Anzahl Modelle: 5
+Durchschnittliche Accuracy:  61.01%
+Durchschnittlicher F1-Score: 0.72
+Durchschnittliche Precision: 0.59
+Durchschnittlicher Recall:    0.97
+Modelle gespeichert in: h:\2_2 GNN_Modellkonvertierung (Anwendungsrenze)\3 Model_Training\Test_00_DB5_DefaultSettings
+========================================

@@ -1,0 +1,56 @@
+Lade 5 Graphen in den Speicher...
+CONFIG:
+	model_type: GINE
+	hidden_dim: 128
+	num_layers: 4
+	activation: ELU
+	dropout: 0.1
+	lr: 0.001
+	epochs: 500
+	edge_dim: 1
+	batch_size: 12
+	threshold: 0.5
+--- Starte Fold 1 | Test-Modell: 202102183458-Model Graph.json ---
+  Epoch 100 | Loss: 0.5882 | Best Val-F1: 0.50
+  Epoch 200 | Loss: 0.5222 | Best Val-F1: 0.50
+  Epoch 300 | Loss: 0.4363 | Best Val-F1: 0.53
+  Epoch 400 | Loss: 0.3947 | Best Val-F1: 0.56
+  Epoch 500 | Loss: 0.3629 | Best Val-F1: 0.56
+RESULT Fold 1 (Threshold 0.5): Acc: 58.45%, F1: 0.56, Prec: 0.45, Rec: 0.75
+--- Starte Fold 2 | Test-Modell: 20220421MODEL REV01 Graph.json ---
+  Epoch 100 | Loss: 0.5191 | Best Val-F1: 0.67
+  Epoch 200 | Loss: 0.4092 | Best Val-F1: 0.67
+  Epoch 300 | Loss: 0.3214 | Best Val-F1: 0.67
+  Epoch 400 | Loss: 0.2660 | Best Val-F1: 0.67
+  Epoch 500 | Loss: 0.2333 | Best Val-F1: 0.68
+RESULT Fold 2 (Threshold 0.5): Acc: 54.35%, F1: 0.68, Prec: 0.53, Rec: 0.96
+--- Starte Fold 3 | Test-Modell: 21_22 L_TWP_Tragwerksmodell Graph.json ---
+  Epoch 100 | Loss: 0.5559 | Best Val-F1: 0.80
+  Epoch 200 | Loss: 0.4701 | Best Val-F1: 0.80
+  Epoch 300 | Loss: 0.4006 | Best Val-F1: 0.80
+  Epoch 400 | Loss: 0.3476 | Best Val-F1: 0.80
+  Epoch 500 | Loss: 0.3208 | Best Val-F1: 0.80
+RESULT Fold 3 (Threshold 0.5): Acc: 66.73%, F1: 0.80, Prec: 0.67, Rec: 1.00
+--- Starte Fold 4 | Test-Modell: 23_24 LTWP-V__Dachtragwerk Graph.json ---
+  Epoch 100 | Loss: 0.5924 | Best Val-F1: 0.86
+  Epoch 200 | Loss: 0.5175 | Best Val-F1: 0.86
+  Epoch 300 | Loss: 0.4429 | Best Val-F1: 0.86
+  Epoch 400 | Loss: 0.3988 | Best Val-F1: 0.87
+  Epoch 500 | Loss: 0.3364 | Best Val-F1: 0.87
+RESULT Fold 4 (Threshold 0.5): Acc: 78.07%, F1: 0.87, Prec: 0.78, Rec: 0.98
+--- Starte Fold 5 | Test-Modell: Grethes-hus-bok-2 Graph.json ---
+  Epoch 100 | Loss: 0.5565 | Best Val-F1: 0.64
+  Epoch 200 | Loss: 0.4966 | Best Val-F1: 0.64
+  Epoch 300 | Loss: 0.4204 | Best Val-F1: 0.67
+  Epoch 400 | Loss: 0.3679 | Best Val-F1: 0.67
+  Epoch 500 | Loss: 0.3249 | Best Val-F1: 0.67
+RESULT Fold 5 (Threshold 0.5): Acc: 61.82%, F1: 0.67, Prec: 0.56, Rec: 0.82
+========================================
+LOO-KREUZVALIDIERUNG ABSCHLUSS
+Anzahl Modelle: 5
+Durchschnittliche Accuracy:  63.89%
+Durchschnittlicher F1-Score: 0.72
+Durchschnittliche Precision: 0.60
+Durchschnittlicher Recall:    0.90
+Modelle gespeichert in: h:\2_2 GNN_Modellkonvertierung (Anwendungsrenze)\3 Model_Training\Test_00_DB5_DefaultSettings
+========================================

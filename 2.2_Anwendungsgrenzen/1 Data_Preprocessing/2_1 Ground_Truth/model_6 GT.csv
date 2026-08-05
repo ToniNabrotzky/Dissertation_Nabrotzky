@@ -1,0 +1,1402 @@
+Status;Type_A;GUID_A;Name_A;Type_B;GUID_B;Name_B
+auto;IfcBeam;IfcBeam;1DkPs2cwjCbwZocSAYPT9z;0l8T8REs5DXexDv0Gfa1Cu;BMR - 019;BMR - 004
+auto;IfcBeam;IfcBeam;1DkPs2cwjCbwZocSAYPT9z;3blmPGiMrEYhsUM_btHrJ$;BMR - 019;BMR - 001
+auto;IfcBeam;IfcBeam;1DkPs2cwjCbwZocSAYPT9z;3VgGxo7in58weFP2Xv2Ac_;BMR - 019;BMR - 004
+auto;IfcBeam;IfcBeam;1DkPs2cwjCbwZocSAYPT9z;3jbww2IBz7ueRLOOP1vrVw;BMR - 019;BMR - 004
+auto;IfcBeam;IfcColumn;1DkPs2cwjCbwZocSAYPT9z;3YINTHTG58XgpiTBQpyGIC;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;1DkPs2cwjCbwZocSAYPT9z;1RF_GZTbrCfwsNJj63JOoC;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;2f1jSHo7f3BwGfW2jTI1G4;2tWp8VAbD2yPFMTxO_FUrl;BMR - 022;BMR - 011
+auto;IfcBeam;IfcBeam;2f1jSHo7f3BwGfW2jTI1G4;1o0xFVGDf4m8yT1wbBgv9O;BMR - 022;BMR - 021
+auto;IfcBeam;IfcColumn;2f1jSHo7f3BwGfW2jTI1G4;3SLVIlV7X3fu_ryBpIya4r;BMR - 022;CRE - 003
+auto;IfcBeam;IfcColumn;2f1jSHo7f3BwGfW2jTI1G4;2ZWydQCOjCevqc_LSW2syx;BMR - 022;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;29WSY9CEv9fPtWoUTrdYTl;1U95gz74v0oPHTgUrbGbFp;BMR - 023;BMR - 015
+auto;IfcBeam;IfcBeam;29WSY9CEv9fPtWoUTrdYTl;2tWp8VAbD2yPFMTxO_FUrl;BMR - 023;BMR - 011
+auto;IfcBeam;IfcColumn;29WSY9CEv9fPtWoUTrdYTl;2ZWydQCOjCevqc_LSW2syx;BMR - 023;CRE - 003
+auto;IfcBeam;IfcColumn;29WSY9CEv9fPtWoUTrdYTl;1HvTn3HY12cxQanRj3OgKu;BMR - 023;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;0GkjTPjTnAKwTvnkTCUf$h;1fIv87oID29eRZEanwtkhR;BMR - 024;BMR - 018
+auto;IfcBeam;IfcBeam;0GkjTPjTnAKwTvnkTCUf$h;1pURgyNUjC$uchEuodIDc2;BMR - 024;BMR - 013
+auto;IfcBeam;IfcColumn;0GkjTPjTnAKwTvnkTCUf$h;2$Oe1kLM15Bw5saKxamNHR;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;0GkjTPjTnAKwTvnkTCUf$h;1y2_$JSR974upDdunXuuS7;BMR - 024;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcBeam;03CbrJ1k5FQupzCMYIH7TG;1pURgyNUjC$uchEuodIDc2;BMR - 023;BMR - 013
+auto;IfcBeam;IfcBeam;03CbrJ1k5FQupzCMYIH7TG;1p$dxrBD188OTC1eLsEnYD;BMR - 023;BMR - 012
+auto;IfcBeam;IfcColumn;03CbrJ1k5FQupzCMYIH7TG;0Pf4VGRArBDuwoG_ZWfCK_;BMR - 023;CRE - 003
+auto;IfcBeam;IfcColumn;03CbrJ1k5FQupzCMYIH7TG;2$Oe1kLM15Bw5saKxamNHR;BMR - 023;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;00Wwf5Rn9FSwo5W9rRB0ED;1o6MchJOX3p840sdXxEkpR;BMR - 021;BMR - 022
+auto;IfcBeam;IfcBeam;00Wwf5Rn9FSwo5W9rRB0ED;3enw0k9UD3J9IrHSF6XYN1;BMR - 021;BMR - 008
+auto;IfcBeam;IfcColumn;00Wwf5Rn9FSwo5W9rRB0ED;3VTswmmr1FSASzwN877TRU;BMR - 021;CRE - 002
+auto;IfcBeam;IfcColumn;00Wwf5Rn9FSwo5W9rRB0ED;12Z$FtvEvEHfEclR8onQeZ;BMR - 021;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;1o6MchJOX3p840sdXxEkpR;1p$dxrBD188OTC1eLsEnYD;BMR - 022;BMR - 012
+auto;IfcBeam;IfcColumn;1o6MchJOX3p840sdXxEkpR;12Z$FtvEvEHfEclR8onQeZ;BMR - 022;CRE - 002
+auto;IfcBeam;IfcColumn;1o6MchJOX3p840sdXxEkpR;3cdsdgtAD2GOIBEPBHLcOY;BMR - 022;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;3lV2jfe_bBHxQTx_2ObsMb;3enw0k9UD3J9IrHSF6XYN1;BMR - 020;BMR - 008
+auto;IfcBeam;IfcBeam;3lV2jfe_bBHxQTx_2ObsMb;2DElCUSg90uwoAbNKSxn9r;BMR - 020;BMR - 006
+auto;IfcBeam;IfcColumn;3lV2jfe_bBHxQTx_2ObsMb;3$6hwbmWX1DBuv_z7BN2hO;BMR - 020;CRE - 003
+auto;IfcBeam;IfcColumn;3lV2jfe_bBHxQTx_2ObsMb;1imBFyIJ9FOuuAIg16yHSl;BMR - 020;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0l8T8REs5DXexDv0Gfa1Cu;0STrznbenFFgJQU2IlVJRx;BMR - 004;BMR - 020
+auto;IfcBeam;IfcBeam;0l8T8REs5DXexDv0Gfa1Cu;1RGGyl8dLEYgx1cHhgItOr;BMR - 004;BMR - 020
+auto;IfcBeam;IfcBeam;0l8T8REs5DXexDv0Gfa1Cu;38FGTLOuT35B8qhW7McAKK;BMR - 004;BMR - 019
+auto;IfcBeam;IfcColumn;0l8T8REs5DXexDv0Gfa1Cu;1Sm3UT9kn3lBNvmqc3JgNg;BMR - 004;CRE - 001
+auto;IfcBeam;IfcColumn;0l8T8REs5DXexDv0Gfa1Cu;3YINTHTG58XgpiTBQpyGIC;BMR - 004;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;21KmgWu891WhT2eeaCW2Ol;1fIv87oID29eRZEanwtkhR;BMR - 024;BMR - 018
+auto;IfcBeam;IfcBeam;21KmgWu891WhT2eeaCW2Ol;1pURgyNUjC$uchEuodIDc2;BMR - 024;BMR - 013
+auto;IfcBeam;IfcColumn;21KmgWu891WhT2eeaCW2Ol;1O3SoEpGb62Q6DaxfBmTAE;BMR - 024;CRE - 001
+auto;IfcBeam;IfcColumn;21KmgWu891WhT2eeaCW2Ol;2PtpWadar6JOfVkif6FHd3;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;21KmgWu891WhT2eeaCW2Ol;30N0j_nTHEbRBydQD6yssh;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;3blmPGiMrEYhsUM_btHrJ$;38FGTLOuT35B8qhW7McAKK;BMR - 001;BMR - 019
+auto;IfcBeam;IfcColumn;3blmPGiMrEYhsUM_btHrJ$;2fZJxWUO5C7eLoioGf__rv;BMR - 001;CRE - 001
+auto;IfcBeam;IfcColumn;3blmPGiMrEYhsUM_btHrJ$;1RF_GZTbrCfwsNJj63JOoC;BMR - 001;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0EvOKURXj8XuwlABWNITkX;3GlCcw6nrFt9r2qRlApJ8r;BMR - 016;BMR - 024
+auto;IfcBeam;IfcBeam;0EvOKURXj8XuwlABWNITkX;2KWqe4FuTBEesBOSfuBUou;BMR - 016;BMR - 024
+auto;IfcBeam;IfcColumn;0EvOKURXj8XuwlABWNITkX;0EG_n8p2P92hTuX8j3jdZs;BMR - 016;CRE - 002
+auto;IfcBeam;IfcColumn;0EvOKURXj8XuwlABWNITkX;0SFeN0B7bEaO2H49WiLgP9;BMR - 016;CRE - 004
+;;;;;;
+auto;IfcBeam;IfcBeam;1M$WW4tRX4LwnTIWqgf53G;1pURgyNUjC$uchEuodIDc2;BMR - 023;BMR - 013
+auto;IfcBeam;IfcBeam;1M$WW4tRX4LwnTIWqgf53G;1p$dxrBD188OTC1eLsEnYD;BMR - 023;BMR - 012
+auto;IfcBeam;IfcColumn;1M$WW4tRX4LwnTIWqgf53G;30N0j_nTHEbRBydQD6yssh;BMR - 023;CRE - 002
+auto;IfcBeam;IfcColumn;1M$WW4tRX4LwnTIWqgf53G;3cdsdgtAD2GOIBEPBHLcOY;BMR - 023;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;2cgiaMDYLE8RgFMDQLyZzm;34VXCiAfH2tPH2ko0fSgYt;BMR - 019;BMR - 003
+auto;IfcBeam;IfcBeam;2cgiaMDYLE8RgFMDQLyZzm;2DElCUSg90uwoAbNKSxn9r;BMR - 019;BMR - 006
+auto;IfcBeam;IfcColumn;2cgiaMDYLE8RgFMDQLyZzm;0LLz4A19T2wv5NxO7Yp3qH;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;2cgiaMDYLE8RgFMDQLyZzm;1KSpyiPgDFlQDQjD5TeQmM;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;1Nx2jhSe1FYwbNIRMUuerv;3enw0k9UD3J9IrHSF6XYN1;BMR - 020;BMR - 008
+auto;IfcBeam;IfcBeam;1Nx2jhSe1FYwbNIRMUuerv;2DElCUSg90uwoAbNKSxn9r;BMR - 020;BMR - 006
+auto;IfcBeam;IfcColumn;1Nx2jhSe1FYwbNIRMUuerv;3VTswmmr1FSASzwN877TRU;BMR - 020;CRE - 002
+auto;IfcBeam;IfcColumn;1Nx2jhSe1FYwbNIRMUuerv;1KSpyiPgDFlQDQjD5TeQmM;BMR - 020;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;1U95gz74v0oPHTgUrbGbFp;3GlCcw6nrFt9r2qRlApJ8r;BMR - 015;BMR - 024
+auto;IfcBeam;IfcBeam;1U95gz74v0oPHTgUrbGbFp;2KWqe4FuTBEesBOSfuBUou;BMR - 015;BMR - 024
+auto;IfcBeam;IfcBeam;1U95gz74v0oPHTgUrbGbFp;2rAf$GuQzB$959a92jO4N0;BMR - 015;BMR - 023
+auto;IfcBeam;IfcColumn;1U95gz74v0oPHTgUrbGbFp;0Zz87qIgL9TehJ$Gry3WJg;BMR - 015;CRE - 002
+auto;IfcBeam;IfcColumn;1U95gz74v0oPHTgUrbGbFp;1HvTn3HY12cxQanRj3OgKu;BMR - 015;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;1fIv87oID29eRZEanwtkhR;1O3SoEpGb62Q6DaxfBmTAE;BMR - 018;CRE - 001
+auto;IfcBeam;IfcColumn;1fIv87oID29eRZEanwtkhR;2PtpWadar6JOfVkif6FHd3;BMR - 018;CRE - 002
+auto;IfcBeam;IfcColumn;1fIv87oID29eRZEanwtkhR;1y2_$JSR974upDdunXuuS7;BMR - 018;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcColumn;1pURgyNUjC$uchEuodIDc2;30N0j_nTHEbRBydQD6yssh;BMR - 013;CRE - 002
+auto;IfcBeam;IfcColumn;1pURgyNUjC$uchEuodIDc2;2$Oe1kLM15Bw5saKxamNHR;BMR - 013;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;1p$dxrBD188OTC1eLsEnYD;1amW90CpT75vKJdzlAwR3Q;BMR - 012;BMR - 022
+auto;IfcBeam;IfcColumn;1p$dxrBD188OTC1eLsEnYD;0Pf4VGRArBDuwoG_ZWfCK_;BMR - 012;CRE - 003
+auto;IfcBeam;IfcColumn;1p$dxrBD188OTC1eLsEnYD;3cdsdgtAD2GOIBEPBHLcOY;BMR - 012;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;2tWp8VAbD2yPFMTxO_FUrl;2OrmXh5Sz4wwqaCh$9whPb;BMR - 011;BMR - 022
+auto;IfcBeam;IfcBeam;2tWp8VAbD2yPFMTxO_FUrl;2rAf$GuQzB$959a92jO4N0;BMR - 011;BMR - 023
+auto;IfcBeam;IfcColumn;2tWp8VAbD2yPFMTxO_FUrl;0MdFh0JSbE8eON5oI$Mu88;BMR - 011;CRE - 002
+auto;IfcBeam;IfcColumn;2tWp8VAbD2yPFMTxO_FUrl;2ZWydQCOjCevqc_LSW2syx;BMR - 011;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3enw0k9UD3J9IrHSF6XYN1;2MgkkiCt98Ff3zXEaizi3$;BMR - 008;BMR - 021
+auto;IfcBeam;IfcColumn;3enw0k9UD3J9IrHSF6XYN1;3VTswmmr1FSASzwN877TRU;BMR - 008;CRE - 002
+auto;IfcBeam;IfcColumn;3enw0k9UD3J9IrHSF6XYN1;3$6hwbmWX1DBuv_z7BN2hO;BMR - 008;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;34VXCiAfH2tPH2ko0fSgYt;2POu8V4WzDxfPZvvVdt6RK;BMR - 003;BMR - 019
+auto;IfcBeam;IfcColumn;34VXCiAfH2tPH2ko0fSgYt;0LLz4A19T2wv5NxO7Yp3qH;BMR - 003;CRE - 001
+auto;IfcBeam;IfcColumn;34VXCiAfH2tPH2ko0fSgYt;1Ba9fa7BvEygdCbB8aUfFG;BMR - 003;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;2MgkkiCt98Ff3zXEaizi3$;1amW90CpT75vKJdzlAwR3Q;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;2MgkkiCt98Ff3zXEaizi3$;3k$a$mlD5Bn90D9xyCaOBv;BMR - 021;CRE - 003
+auto;IfcBeam;IfcColumn;2MgkkiCt98Ff3zXEaizi3$;3$6hwbmWX1DBuv_z7BN2hO;BMR - 021;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;1ruwv3$ZfB9u9ibauoegdI;3I$xqigmHA2Qum2oZ4TTzV;BMR - 007;BMR - 021
+auto;IfcBeam;IfcBeam;1ruwv3$ZfB9u9ibauoegdI;0STrznbenFFgJQU2IlVJRx;BMR - 007;BMR - 020
+auto;IfcBeam;IfcBeam;1ruwv3$ZfB9u9ibauoegdI;1o0xFVGDf4m8yT1wbBgv9O;BMR - 007;BMR - 021
+auto;IfcBeam;IfcBeam;1ruwv3$ZfB9u9ibauoegdI;1RGGyl8dLEYgx1cHhgItOr;BMR - 007;BMR - 020
+auto;IfcBeam;IfcColumn;1ruwv3$ZfB9u9ibauoegdI;23JtkwoNX0nO9$e65VSawO;BMR - 007;CRE - 002
+auto;IfcBeam;IfcColumn;1ruwv3$ZfB9u9ibauoegdI;1R8KO82unBdeT9gHOA2Kd0;BMR - 007;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;2DElCUSg90uwoAbNKSxn9r;2POu8V4WzDxfPZvvVdt6RK;BMR - 006;BMR - 019
+auto;IfcBeam;IfcColumn;2DElCUSg90uwoAbNKSxn9r;1KSpyiPgDFlQDQjD5TeQmM;BMR - 006;CRE - 001
+auto;IfcBeam;IfcColumn;2DElCUSg90uwoAbNKSxn9r;1imBFyIJ9FOuuAIg16yHSl;BMR - 006;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;2POu8V4WzDxfPZvvVdt6RK;1Ba9fa7BvEygdCbB8aUfFG;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;2POu8V4WzDxfPZvvVdt6RK;1imBFyIJ9FOuuAIg16yHSl;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;3I$xqigmHA2Qum2oZ4TTzV;2OrmXh5Sz4wwqaCh$9whPb;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;3I$xqigmHA2Qum2oZ4TTzV;23JtkwoNX0nO9$e65VSawO;BMR - 021;CRE - 002
+auto;IfcBeam;IfcColumn;3I$xqigmHA2Qum2oZ4TTzV;2FiyU5HGvAnfpmCyNHyNtn;BMR - 021;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;3GlCcw6nrFt9r2qRlApJ8r;0EG_n8p2P92hTuX8j3jdZs;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;3GlCcw6nrFt9r2qRlApJ8r;0Zz87qIgL9TehJ$Gry3WJg;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;2OrmXh5Sz4wwqaCh$9whPb;0MdFh0JSbE8eON5oI$Mu88;BMR - 022;CRE - 002
+auto;IfcBeam;IfcColumn;2OrmXh5Sz4wwqaCh$9whPb;2FiyU5HGvAnfpmCyNHyNtn;BMR - 022;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;2KWqe4FuTBEesBOSfuBUou;1HvTn3HY12cxQanRj3OgKu;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;2KWqe4FuTBEesBOSfuBUou;0SFeN0B7bEaO2H49WiLgP9;BMR - 024;CRE - 004
+;;;;;;
+auto;IfcBeam;IfcColumn;1amW90CpT75vKJdzlAwR3Q;3k$a$mlD5Bn90D9xyCaOBv;BMR - 022;CRE - 003
+auto;IfcBeam;IfcColumn;1amW90CpT75vKJdzlAwR3Q;0Pf4VGRArBDuwoG_ZWfCK_;BMR - 022;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;2rAf$GuQzB$959a92jO4N0;0MdFh0JSbE8eON5oI$Mu88;BMR - 023;CRE - 002
+auto;IfcBeam;IfcColumn;2rAf$GuQzB$959a92jO4N0;0Zz87qIgL9TehJ$Gry3WJg;BMR - 023;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;0STrznbenFFgJQU2IlVJRx;1R8KO82unBdeT9gHOA2Kd0;BMR - 020;CRE - 003
+auto;IfcBeam;IfcColumn;0STrznbenFFgJQU2IlVJRx;3YINTHTG58XgpiTBQpyGIC;BMR - 020;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;1o0xFVGDf4m8yT1wbBgv9O;3SLVIlV7X3fu_ryBpIya4r;BMR - 021;CRE - 003
+auto;IfcBeam;IfcColumn;1o0xFVGDf4m8yT1wbBgv9O;1R8KO82unBdeT9gHOA2Kd0;BMR - 021;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;1RGGyl8dLEYgx1cHhgItOr;23JtkwoNX0nO9$e65VSawO;BMR - 020;CRE - 002
+auto;IfcBeam;IfcColumn;1RGGyl8dLEYgx1cHhgItOr;1Sm3UT9kn3lBNvmqc3JgNg;BMR - 020;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;38FGTLOuT35B8qhW7McAKK;3VgGxo7in58weFP2Xv2Ac_;BMR - 019;BMR - 004
+auto;IfcBeam;IfcBeam;38FGTLOuT35B8qhW7McAKK;3jbww2IBz7ueRLOOP1vrVw;BMR - 019;BMR - 004
+auto;IfcBeam;IfcColumn;38FGTLOuT35B8qhW7McAKK;1Sm3UT9kn3lBNvmqc3JgNg;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;38FGTLOuT35B8qhW7McAKK;2fZJxWUO5C7eLoioGf__rv;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcColumn;IfcBeam;3k$a$mlD5Bn90D9xyCaOBv;2WNQiJhPn0hRPYKjE3wfbZ;CRE - 003;BMR - 021
+auto;IfcColumn;IfcBeam;3k$a$mlD5Bn90D9xyCaOBv;14dqaysDr1ahMRZCQ$FXiN;CRE - 003;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;0MdFh0JSbE8eON5oI$Mu88;1N8JSzbYDD3RVn2MIuIcOi;CRE - 002;BMR - 011
+auto;IfcColumn;IfcBeam;0MdFh0JSbE8eON5oI$Mu88;2gTxXeRTX9pf3imdRg8yvx;CRE - 002;BMR - 022
+auto;IfcColumn;IfcBeam;0MdFh0JSbE8eON5oI$Mu88;3tLO2VoWDB0BLnjvKWv5yG;CRE - 002;BMR - 023
+;;;;;;
+auto;IfcColumn;IfcBeam;3VTswmmr1FSASzwN877TRU;3VhlDHOw969AaNcKbC11j4;CRE - 002;BMR - 008
+auto;IfcColumn;IfcBeam;3VTswmmr1FSASzwN877TRU;3JcPRNyW55mPeyyyQQn$pn;CRE - 002;BMR - 020
+auto;IfcColumn;IfcBeam;3VTswmmr1FSASzwN877TRU;0DU2DbkIX9$OIKbUJ2Sh9A;CRE - 002;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;23JtkwoNX0nO9$e65VSawO;32Sa$4xb9AFwdRN$VNp2OL;CRE - 002;BMR - 007
+auto;IfcColumn;IfcBeam;23JtkwoNX0nO9$e65VSawO;0wGP$M3GD1uhrsK4OviC3y;CRE - 002;BMR - 020
+auto;IfcColumn;IfcBeam;23JtkwoNX0nO9$e65VSawO;2$IWL4cWv0LOPyZhB$KrLR;CRE - 002;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;3SLVIlV7X3fu_ryBpIya4r;0TblQbCaPBiedgMHoNXhDp;CRE - 003;BMR - 021
+auto;IfcColumn;IfcBeam;3SLVIlV7X3fu_ryBpIya4r;0e5i0GZBn4tuyRRQOHVlsd;CRE - 003;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;1R8KO82unBdeT9gHOA2Kd0;32Sa$4xb9AFwdRN$VNp2OL;CRE - 003;BMR - 007
+auto;IfcColumn;IfcBeam;1R8KO82unBdeT9gHOA2Kd0;33m6Kp3rr3xAjNQDX1PK12;CRE - 003;BMR - 020
+auto;IfcColumn;IfcBeam;1R8KO82unBdeT9gHOA2Kd0;0TblQbCaPBiedgMHoNXhDp;CRE - 003;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;2ZWydQCOjCevqc_LSW2syx;1N8JSzbYDD3RVn2MIuIcOi;CRE - 003;BMR - 011
+auto;IfcColumn;IfcBeam;2ZWydQCOjCevqc_LSW2syx;0e5i0GZBn4tuyRRQOHVlsd;CRE - 003;BMR - 022
+auto;IfcColumn;IfcBeam;2ZWydQCOjCevqc_LSW2syx;0DY8kTel10hBgFklI6K_A7;CRE - 003;BMR - 023
+;;;;;;
+auto;IfcColumn;IfcBeam;0Pf4VGRArBDuwoG_ZWfCK_;0QxaP$j9v4pQB3a6pomYr_;CRE - 003;BMR - 012
+auto;IfcColumn;IfcBeam;0Pf4VGRArBDuwoG_ZWfCK_;14dqaysDr1ahMRZCQ$FXiN;CRE - 003;BMR - 022
+auto;IfcColumn;IfcBeam;0Pf4VGRArBDuwoG_ZWfCK_;00OEvqd0vDW9dWP$SetE4h;CRE - 003;BMR - 023
+;;;;;;
+auto;IfcColumn;IfcBeam;3$6hwbmWX1DBuv_z7BN2hO;3VhlDHOw969AaNcKbC11j4;CRE - 003;BMR - 008
+auto;IfcColumn;IfcBeam;3$6hwbmWX1DBuv_z7BN2hO;1dh9xbC8T0nxbJIlKJD7l$;CRE - 003;BMR - 020
+auto;IfcColumn;IfcBeam;3$6hwbmWX1DBuv_z7BN2hO;2WNQiJhPn0hRPYKjE3wfbZ;CRE - 003;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;2FiyU5HGvAnfpmCyNHyNtn;2$IWL4cWv0LOPyZhB$KrLR;CRE - 002;BMR - 021
+auto;IfcColumn;IfcBeam;2FiyU5HGvAnfpmCyNHyNtn;2gTxXeRTX9pf3imdRg8yvx;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;12Z$FtvEvEHfEclR8onQeZ;0DU2DbkIX9$OIKbUJ2Sh9A;CRE - 002;BMR - 021
+auto;IfcColumn;IfcBeam;12Z$FtvEvEHfEclR8onQeZ;162qCpLTf71AHmTQJsgMzZ;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;0EG_n8p2P92hTuX8j3jdZs;2aviFS6NH9whWitxdjjpGd;CRE - 002;BMR - 016
+auto;IfcColumn;IfcBeam;0EG_n8p2P92hTuX8j3jdZs;0NAPRThSr5T87wilAO4$So;CRE - 002;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;0LLz4A19T2wv5NxO7Yp3qH;0w9L$VScL5y9vxHQUBw7AI;CRE - 001;BMR - 003
+auto;IfcColumn;IfcBeam;0LLz4A19T2wv5NxO7Yp3qH;2LdP7$z1LDqhxApFjWCsmd;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcColumn;1O3SoEpGb62Q6DaxfBmTAE;2PtpWadar6JOfVkif6FHd3;CRE - 001;CRE - 002
+auto;IfcColumn;IfcBeam;1O3SoEpGb62Q6DaxfBmTAE;3bZTUwpfX2F9ZKj9UV03Vn;CRE - 001;BMR - 024
+auto;IfcColumn;IfcBeam;1O3SoEpGb62Q6DaxfBmTAE;2JXFKSidvFUhnAYIvzhaXE;CRE - 001;BMR - 018
+;;;;;;
+auto;IfcColumn;IfcBeam;1KSpyiPgDFlQDQjD5TeQmM;0plDjz_XHByQjjQwY_uODP;CRE - 001;BMR - 006
+auto;IfcColumn;IfcBeam;1KSpyiPgDFlQDQjD5TeQmM;2LdP7$z1LDqhxApFjWCsmd;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;1KSpyiPgDFlQDQjD5TeQmM;3JcPRNyW55mPeyyyQQn$pn;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;0Zz87qIgL9TehJ$Gry3WJg;2GJRwkVwL6kQ67H3TM0sAA;CRE - 002;BMR - 015
+auto;IfcColumn;IfcBeam;0Zz87qIgL9TehJ$Gry3WJg;3tLO2VoWDB0BLnjvKWv5yG;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;0Zz87qIgL9TehJ$Gry3WJg;0NAPRThSr5T87wilAO4$So;CRE - 002;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;2PtpWadar6JOfVkif6FHd3;3bZTUwpfX2F9ZKj9UV03Vn;CRE - 002;BMR - 024
+auto;IfcColumn;IfcBeam;2PtpWadar6JOfVkif6FHd3;2JXFKSidvFUhnAYIvzhaXE;CRE - 002;BMR - 018
+;;;;;;
+auto;IfcColumn;IfcBeam;1Sm3UT9kn3lBNvmqc3JgNg;34jODYBFH6bRaf_3BdQfZl;CRE - 001;BMR - 004
+auto;IfcColumn;IfcBeam;1Sm3UT9kn3lBNvmqc3JgNg;1sxWalq$P7Tw2bVe4Nohj1;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;1Sm3UT9kn3lBNvmqc3JgNg;0wGP$M3GD1uhrsK4OviC3y;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;30N0j_nTHEbRBydQD6yssh;3lTdNG6zn47BtiBNNumPib;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;30N0j_nTHEbRBydQD6yssh;3bZTUwpfX2F9ZKj9UV03Vn;CRE - 002;BMR - 024
+auto;IfcColumn;IfcBeam;30N0j_nTHEbRBydQD6yssh;2xC9Qj0VP0gua3vqP9STkU;CRE - 002;BMR - 013
+;;;;;;
+auto;IfcColumn;IfcBeam;1Ba9fa7BvEygdCbB8aUfFG;0w9L$VScL5y9vxHQUBw7AI;CRE - 001;BMR - 003
+auto;IfcColumn;IfcBeam;1Ba9fa7BvEygdCbB8aUfFG;1TtiW_hu126eecaLm7X4XT;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;3YINTHTG58XgpiTBQpyGIC;34jODYBFH6bRaf_3BdQfZl;CRE - 001;BMR - 004
+auto;IfcColumn;IfcBeam;3YINTHTG58XgpiTBQpyGIC;1sZ6fuq3n5sxNZJEMWZ06B;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;3YINTHTG58XgpiTBQpyGIC;33m6Kp3rr3xAjNQDX1PK12;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;1imBFyIJ9FOuuAIg16yHSl;0plDjz_XHByQjjQwY_uODP;CRE - 001;BMR - 006
+auto;IfcColumn;IfcBeam;1imBFyIJ9FOuuAIg16yHSl;1TtiW_hu126eecaLm7X4XT;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;1imBFyIJ9FOuuAIg16yHSl;1dh9xbC8T0nxbJIlKJD7l$;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;1HvTn3HY12cxQanRj3OgKu;3JyIAAAYP71BZxwSs3ykgI;CRE - 003;BMR - 024
+auto;IfcColumn;IfcBeam;1HvTn3HY12cxQanRj3OgKu;2GJRwkVwL6kQ67H3TM0sAA;CRE - 003;BMR - 015
+auto;IfcColumn;IfcBeam;1HvTn3HY12cxQanRj3OgKu;0DY8kTel10hBgFklI6K_A7;CRE - 003;BMR - 023
+;;;;;;
+auto;IfcColumn;IfcBeam;2$Oe1kLM15Bw5saKxamNHR;2xC9Qj0VP0gua3vqP9STkU;CRE - 003;BMR - 013
+auto;IfcColumn;IfcBeam;2$Oe1kLM15Bw5saKxamNHR;00OEvqd0vDW9dWP$SetE4h;CRE - 003;BMR - 023
+auto;IfcColumn;IfcBeam;2$Oe1kLM15Bw5saKxamNHR;1DWQgRg25EPOre446yUyHS;CRE - 003;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;0SFeN0B7bEaO2H49WiLgP9;3JyIAAAYP71BZxwSs3ykgI;CRE - 004;BMR - 024
+auto;IfcColumn;IfcBeam;0SFeN0B7bEaO2H49WiLgP9;2aviFS6NH9whWitxdjjpGd;CRE - 004;BMR - 016
+;;;;;;
+auto;IfcColumn;IfcBeam;1y2_$JSR974upDdunXuuS7;2JXFKSidvFUhnAYIvzhaXE;CRE - 005;BMR - 018
+auto;IfcColumn;IfcBeam;1y2_$JSR974upDdunXuuS7;1DWQgRg25EPOre446yUyHS;CRE - 005;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;3cdsdgtAD2GOIBEPBHLcOY;3lTdNG6zn47BtiBNNumPib;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;3cdsdgtAD2GOIBEPBHLcOY;0QxaP$j9v4pQB3a6pomYr_;CRE - 002;BMR - 012
+auto;IfcColumn;IfcBeam;3cdsdgtAD2GOIBEPBHLcOY;162qCpLTf71AHmTQJsgMzZ;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcBeam;IfcBeam;3JyIAAAYP71BZxwSs3ykgI;2GJRwkVwL6kQ67H3TM0sAA;BMR - 024;BMR - 015
+auto;IfcBeam;IfcBeam;3JyIAAAYP71BZxwSs3ykgI;2aviFS6NH9whWitxdjjpGd;BMR - 024;BMR - 016
+auto;IfcBeam;IfcColumn;3JyIAAAYP71BZxwSs3ykgI;3T3IgkVdn01gjoO4R9f1Bv;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;3JyIAAAYP71BZxwSs3ykgI;0NjsH9rpzAb86zoajVPsMj;BMR - 024;CRE - 004
+;;;;;;
+auto;IfcBeam;IfcBeam;3lTdNG6zn47BtiBNNumPib;0QxaP$j9v4pQB3a6pomYr_;BMR - 023;BMR - 012
+auto;IfcBeam;IfcBeam;3lTdNG6zn47BtiBNNumPib;2xC9Qj0VP0gua3vqP9STkU;BMR - 023;BMR - 013
+auto;IfcBeam;IfcColumn;3lTdNG6zn47BtiBNNumPib;0wcVAfU4XDXPS4TIiTxkkY;BMR - 023;CRE - 002
+auto;IfcBeam;IfcColumn;3lTdNG6zn47BtiBNNumPib;0T8bAf7ljFPxihSyJhquc2;BMR - 023;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;3bZTUwpfX2F9ZKj9UV03Vn;2xC9Qj0VP0gua3vqP9STkU;BMR - 024;BMR - 013
+auto;IfcBeam;IfcBeam;3bZTUwpfX2F9ZKj9UV03Vn;2JXFKSidvFUhnAYIvzhaXE;BMR - 024;BMR - 018
+auto;IfcBeam;IfcColumn;3bZTUwpfX2F9ZKj9UV03Vn;2HaltnzRv60e2kBRU$sQvm;BMR - 024;CRE - 001
+auto;IfcBeam;IfcColumn;3bZTUwpfX2F9ZKj9UV03Vn;2xobQ$UML1tPQmrJBGZCJc;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;3bZTUwpfX2F9ZKj9UV03Vn;0wcVAfU4XDXPS4TIiTxkkY;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;3Nbi6Bul55DBZ8vaay2XLQ;1sxWalq$P7Tw2bVe4Nohj1;BMR - 001;BMR - 019
+auto;IfcBeam;IfcBeam;3Nbi6Bul55DBZ8vaay2XLQ;1sZ6fuq3n5sxNZJEMWZ06B;BMR - 001;BMR - 019
+auto;IfcBeam;IfcColumn;3Nbi6Bul55DBZ8vaay2XLQ;2fZJxWUO5C7eLoioGf__rv;BMR - 001;CRE - 001
+auto;IfcBeam;IfcColumn;3Nbi6Bul55DBZ8vaay2XLQ;1RF_GZTbrCfwsNJj63JOoC;BMR - 001;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0w9L$VScL5y9vxHQUBw7AI;1TtiW_hu126eecaLm7X4XT;BMR - 003;BMR - 019
+auto;IfcBeam;IfcBeam;0w9L$VScL5y9vxHQUBw7AI;2LdP7$z1LDqhxApFjWCsmd;BMR - 003;BMR - 019
+;;;;;;
+auto;IfcBeam;IfcBeam;34jODYBFH6bRaf_3BdQfZl;1sxWalq$P7Tw2bVe4Nohj1;BMR - 004;BMR - 019
+auto;IfcBeam;IfcBeam;34jODYBFH6bRaf_3BdQfZl;0wGP$M3GD1uhrsK4OviC3y;BMR - 004;BMR - 020
+auto;IfcBeam;IfcBeam;34jODYBFH6bRaf_3BdQfZl;1sZ6fuq3n5sxNZJEMWZ06B;BMR - 004;BMR - 019
+auto;IfcBeam;IfcBeam;34jODYBFH6bRaf_3BdQfZl;33m6Kp3rr3xAjNQDX1PK12;BMR - 004;BMR - 020
+;;;;;;
+auto;IfcBeam;IfcBeam;0plDjz_XHByQjjQwY_uODP;1TtiW_hu126eecaLm7X4XT;BMR - 006;BMR - 019
+auto;IfcBeam;IfcBeam;0plDjz_XHByQjjQwY_uODP;1dh9xbC8T0nxbJIlKJD7l$;BMR - 006;BMR - 020
+auto;IfcBeam;IfcBeam;0plDjz_XHByQjjQwY_uODP;2LdP7$z1LDqhxApFjWCsmd;BMR - 006;BMR - 019
+auto;IfcBeam;IfcBeam;0plDjz_XHByQjjQwY_uODP;3JcPRNyW55mPeyyyQQn$pn;BMR - 006;BMR - 020
+;;;;;;
+auto;IfcBeam;IfcBeam;32Sa$4xb9AFwdRN$VNp2OL;0wGP$M3GD1uhrsK4OviC3y;BMR - 007;BMR - 020
+auto;IfcBeam;IfcBeam;32Sa$4xb9AFwdRN$VNp2OL;2$IWL4cWv0LOPyZhB$KrLR;BMR - 007;BMR - 021
+auto;IfcBeam;IfcBeam;32Sa$4xb9AFwdRN$VNp2OL;33m6Kp3rr3xAjNQDX1PK12;BMR - 007;BMR - 020
+auto;IfcBeam;IfcBeam;32Sa$4xb9AFwdRN$VNp2OL;0TblQbCaPBiedgMHoNXhDp;BMR - 007;BMR - 021
+;;;;;;
+auto;IfcBeam;IfcBeam;3VhlDHOw969AaNcKbC11j4;1dh9xbC8T0nxbJIlKJD7l$;BMR - 008;BMR - 020
+auto;IfcBeam;IfcBeam;3VhlDHOw969AaNcKbC11j4;2WNQiJhPn0hRPYKjE3wfbZ;BMR - 008;BMR - 021
+auto;IfcBeam;IfcBeam;3VhlDHOw969AaNcKbC11j4;3JcPRNyW55mPeyyyQQn$pn;BMR - 008;BMR - 020
+auto;IfcBeam;IfcBeam;3VhlDHOw969AaNcKbC11j4;0DU2DbkIX9$OIKbUJ2Sh9A;BMR - 008;BMR - 021
+;;;;;;
+auto;IfcBeam;IfcBeam;1N8JSzbYDD3RVn2MIuIcOi;2gTxXeRTX9pf3imdRg8yvx;BMR - 011;BMR - 022
+auto;IfcBeam;IfcBeam;1N8JSzbYDD3RVn2MIuIcOi;3tLO2VoWDB0BLnjvKWv5yG;BMR - 011;BMR - 023
+auto;IfcBeam;IfcBeam;1N8JSzbYDD3RVn2MIuIcOi;0e5i0GZBn4tuyRRQOHVlsd;BMR - 011;BMR - 022
+auto;IfcBeam;IfcBeam;1N8JSzbYDD3RVn2MIuIcOi;0DY8kTel10hBgFklI6K_A7;BMR - 011;BMR - 023
+;;;;;;
+auto;IfcBeam;IfcBeam;0QxaP$j9v4pQB3a6pomYr_;14dqaysDr1ahMRZCQ$FXiN;BMR - 012;BMR - 022
+auto;IfcBeam;IfcBeam;0QxaP$j9v4pQB3a6pomYr_;00OEvqd0vDW9dWP$SetE4h;BMR - 012;BMR - 023
+auto;IfcBeam;IfcBeam;0QxaP$j9v4pQB3a6pomYr_;162qCpLTf71AHmTQJsgMzZ;BMR - 012;BMR - 022
+;;;;;;
+auto;IfcBeam;IfcBeam;2xC9Qj0VP0gua3vqP9STkU;00OEvqd0vDW9dWP$SetE4h;BMR - 013;BMR - 023
+auto;IfcBeam;IfcBeam;2xC9Qj0VP0gua3vqP9STkU;1DWQgRg25EPOre446yUyHS;BMR - 013;BMR - 024
+;;;;;;
+auto;IfcBeam;IfcBeam;2GJRwkVwL6kQ67H3TM0sAA;3tLO2VoWDB0BLnjvKWv5yG;BMR - 015;BMR - 023
+auto;IfcBeam;IfcBeam;2GJRwkVwL6kQ67H3TM0sAA;0NAPRThSr5T87wilAO4$So;BMR - 015;BMR - 024
+auto;IfcBeam;IfcBeam;2GJRwkVwL6kQ67H3TM0sAA;0DY8kTel10hBgFklI6K_A7;BMR - 015;BMR - 023
+;;;;;;
+auto;IfcBeam;IfcBeam;2aviFS6NH9whWitxdjjpGd;0NAPRThSr5T87wilAO4$So;BMR - 016;BMR - 024
+;;;;;;
+auto;IfcBeam;IfcBeam;2JXFKSidvFUhnAYIvzhaXE;1DWQgRg25EPOre446yUyHS;BMR - 018;BMR - 024
+;;;;;;
+auto;IfcBeam;IfcColumn;1sxWalq$P7Tw2bVe4Nohj1;2fZJxWUO5C7eLoioGf__rv;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;1sxWalq$P7Tw2bVe4Nohj1;1qHlZl0UX99BjpIn5dohuS;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;1sxWalq$P7Tw2bVe4Nohj1;1TxeLmt1b5CggbxiMFPIBD;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;0wGP$M3GD1uhrsK4OviC3y;1TxeLmt1b5CggbxiMFPIBD;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;0wGP$M3GD1uhrsK4OviC3y;3fpN7XDdbCjgaUJ2O4y8iK;BMR - 020;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;2$IWL4cWv0LOPyZhB$KrLR;2gTxXeRTX9pf3imdRg8yvx;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;2$IWL4cWv0LOPyZhB$KrLR;360MV6idD8oBmj6OLfonqa;BMR - 021;CRE - 002
+auto;IfcBeam;IfcColumn;2$IWL4cWv0LOPyZhB$KrLR;3fpN7XDdbCjgaUJ2O4y8iK;BMR - 021;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;2gTxXeRTX9pf3imdRg8yvx;3rfbdmSOHCnOyvGdrgPyEP;BMR - 022;CRE - 002
+auto;IfcBeam;IfcColumn;2gTxXeRTX9pf3imdRg8yvx;360MV6idD8oBmj6OLfonqa;BMR - 022;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;3tLO2VoWDB0BLnjvKWv5yG;0Scx5pc9z0cxliaUvLZEpE;BMR - 023;CRE - 002
+auto;IfcBeam;IfcColumn;3tLO2VoWDB0BLnjvKWv5yG;3rfbdmSOHCnOyvGdrgPyEP;BMR - 023;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;0NAPRThSr5T87wilAO4$So;2E2F4SD7f3heZPFg7OHK79;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;0NAPRThSr5T87wilAO4$So;0Scx5pc9z0cxliaUvLZEpE;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;1sZ6fuq3n5sxNZJEMWZ06B;1RF_GZTbrCfwsNJj63JOoC;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;1sZ6fuq3n5sxNZJEMWZ06B;1VeVeBBO1AIBVfDVv72aGN;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;1sZ6fuq3n5sxNZJEMWZ06B;1Gg$Fc0RLEDuJw5CWp8r8n;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;33m6Kp3rr3xAjNQDX1PK12;1Gg$Fc0RLEDuJw5CWp8r8n;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;33m6Kp3rr3xAjNQDX1PK12;2SMppWY_zAwulXJOW770O7;BMR - 020;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;0TblQbCaPBiedgMHoNXhDp;0e5i0GZBn4tuyRRQOHVlsd;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;0TblQbCaPBiedgMHoNXhDp;1MBDgIlxL3yxC819To2osT;BMR - 021;CRE - 003
+auto;IfcBeam;IfcColumn;0TblQbCaPBiedgMHoNXhDp;2SMppWY_zAwulXJOW770O7;BMR - 021;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;0e5i0GZBn4tuyRRQOHVlsd;3EnnRcNGf6HwSne7SurwDZ;BMR - 022;CRE - 003
+auto;IfcBeam;IfcColumn;0e5i0GZBn4tuyRRQOHVlsd;1MBDgIlxL3yxC819To2osT;BMR - 022;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;0DY8kTel10hBgFklI6K_A7;3T3IgkVdn01gjoO4R9f1Bv;BMR - 023;CRE - 003
+auto;IfcBeam;IfcColumn;0DY8kTel10hBgFklI6K_A7;3EnnRcNGf6HwSne7SurwDZ;BMR - 023;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;1TtiW_hu126eecaLm7X4XT;0X0H9NF9vE2x9YsLAaf$$b;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;1TtiW_hu126eecaLm7X4XT;3Yg7ghL7rBfviWqvF1p_Sj;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;1dh9xbC8T0nxbJIlKJD7l$;3Yg7ghL7rBfviWqvF1p_Sj;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;1dh9xbC8T0nxbJIlKJD7l$;09va5iTi15Wuu$82Bzu_Cu;BMR - 020;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;2WNQiJhPn0hRPYKjE3wfbZ;14dqaysDr1ahMRZCQ$FXiN;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;2WNQiJhPn0hRPYKjE3wfbZ;09va5iTi15Wuu$82Bzu_Cu;BMR - 021;CRE - 003
+auto;IfcBeam;IfcColumn;2WNQiJhPn0hRPYKjE3wfbZ;1meuW2Qd5FbwKNyffgeA4$;BMR - 021;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;14dqaysDr1ahMRZCQ$FXiN;1meuW2Qd5FbwKNyffgeA4$;BMR - 022;CRE - 003
+auto;IfcBeam;IfcColumn;14dqaysDr1ahMRZCQ$FXiN;2CARGkRJP0SxnmJNVMzFpt;BMR - 022;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;00OEvqd0vDW9dWP$SetE4h;134Y43Ogr1NusVOtLyF6ll;BMR - 023;CRE - 003
+auto;IfcBeam;IfcColumn;00OEvqd0vDW9dWP$SetE4h;2CARGkRJP0SxnmJNVMzFpt;BMR - 023;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;1DWQgRg25EPOre446yUyHS;134Y43Ogr1NusVOtLyF6ll;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;1DWQgRg25EPOre446yUyHS;0BOlDvsEb3$u1YSCwymW4p;BMR - 024;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcColumn;2LdP7$z1LDqhxApFjWCsmd;2ZZPePsw15hBiAV2aMawkR;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;2LdP7$z1LDqhxApFjWCsmd;1TqiOr5KX1xABJZrArwRPx;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;3JcPRNyW55mPeyyyQQn$pn;1TqiOr5KX1xABJZrArwRPx;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;3JcPRNyW55mPeyyyQQn$pn;21JUV1hpv9AfLm0Jjkcs3N;BMR - 020;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;0DU2DbkIX9$OIKbUJ2Sh9A;162qCpLTf71AHmTQJsgMzZ;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;0DU2DbkIX9$OIKbUJ2Sh9A;0Kc8M3$HDC4gwr_z$8Yqqy;BMR - 021;CRE - 002
+auto;IfcBeam;IfcColumn;0DU2DbkIX9$OIKbUJ2Sh9A;21JUV1hpv9AfLm0Jjkcs3N;BMR - 021;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;162qCpLTf71AHmTQJsgMzZ;0T8bAf7ljFPxihSyJhquc2;BMR - 022;CRE - 002
+auto;IfcBeam;IfcColumn;162qCpLTf71AHmTQJsgMzZ;0Kc8M3$HDC4gwr_z$8Yqqy;BMR - 022;CRE - 002
+;;;;;;
+auto;IfcColumn;IfcBeam;1qHlZl0UX99BjpIn5dohuS;142cEIXoP8OO2kUuf165Jp;CRE - 001;BMR - 001
+auto;IfcColumn;IfcBeam;1qHlZl0UX99BjpIn5dohuS;0D$l4ykAr1y9GfdLKAxhLa;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;2E2F4SD7f3heZPFg7OHK79;06b6YTg6T71OUYaHwF3Ib5;CRE - 002;BMR - 016
+auto;IfcColumn;IfcBeam;2E2F4SD7f3heZPFg7OHK79;1Hgr3igiHFfPZA2Pbl6qbe;CRE - 002;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;2ZZPePsw15hBiAV2aMawkR;0yrABT47XD1x09Rnfbdhq_;CRE - 001;BMR - 003
+auto;IfcColumn;IfcBeam;2ZZPePsw15hBiAV2aMawkR;042wID94H1jhz$aG7yihEL;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcColumn;2HaltnzRv60e2kBRU$sQvm;2xobQ$UML1tPQmrJBGZCJc;CRE - 001;CRE - 002
+auto;IfcColumn;IfcBeam;2HaltnzRv60e2kBRU$sQvm;0$6UKUD7LACAy2keyKF4Yi;CRE - 001;BMR - 024
+auto;IfcColumn;IfcBeam;2HaltnzRv60e2kBRU$sQvm;0_BjhaTUv86vVbMlGhf51T;CRE - 001;BMR - 018
+;;;;;;
+auto;IfcColumn;IfcBeam;1TqiOr5KX1xABJZrArwRPx;3FrtKzcWD9mRoG4LG8MDDf;CRE - 001;BMR - 006
+auto;IfcColumn;IfcBeam;1TqiOr5KX1xABJZrArwRPx;042wID94H1jhz$aG7yihEL;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;1TqiOr5KX1xABJZrArwRPx;2h$4jpsJX97RN5FyKBmZxh;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;0Scx5pc9z0cxliaUvLZEpE;3LJJTJzDT4N9o651BI3bk$;CRE - 002;BMR - 015
+auto;IfcColumn;IfcBeam;0Scx5pc9z0cxliaUvLZEpE;199EbK3MT4RPDkMti6dawu;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;0Scx5pc9z0cxliaUvLZEpE;1Hgr3igiHFfPZA2Pbl6qbe;CRE - 002;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;2xobQ$UML1tPQmrJBGZCJc;0$6UKUD7LACAy2keyKF4Yi;CRE - 002;BMR - 024
+auto;IfcColumn;IfcBeam;2xobQ$UML1tPQmrJBGZCJc;0_BjhaTUv86vVbMlGhf51T;CRE - 002;BMR - 018
+;;;;;;
+auto;IfcColumn;IfcBeam;1TxeLmt1b5CggbxiMFPIBD;0jwpgYKlr5EgUTk9hTnUHZ;CRE - 001;BMR - 004
+auto;IfcColumn;IfcBeam;1TxeLmt1b5CggbxiMFPIBD;0D$l4ykAr1y9GfdLKAxhLa;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;1TxeLmt1b5CggbxiMFPIBD;3vRUGhzef2mBY5QX7ZJPjn;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;0wcVAfU4XDXPS4TIiTxkkY;1A2jMc$lf7NQL8qYuDP0LY;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;0wcVAfU4XDXPS4TIiTxkkY;0$6UKUD7LACAy2keyKF4Yi;CRE - 002;BMR - 024
+auto;IfcColumn;IfcBeam;0wcVAfU4XDXPS4TIiTxkkY;0LTJKvuzP60fnZcwEYyxE8;CRE - 002;BMR - 013
+;;;;;;
+auto;IfcColumn;IfcBeam;1VeVeBBO1AIBVfDVv72aGN;142cEIXoP8OO2kUuf165Jp;CRE - 001;BMR - 001
+auto;IfcColumn;IfcBeam;1VeVeBBO1AIBVfDVv72aGN;3FGTp83$j4gRqCWDmGwzSR;CRE - 001;BMR - 002
+auto;IfcColumn;IfcBeam;1VeVeBBO1AIBVfDVv72aGN;1jMgkwBpb5uP$tY3B3sE1G;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;0X0H9NF9vE2x9YsLAaf$$b;3FGTp83$j4gRqCWDmGwzSR;CRE - 001;BMR - 002
+auto;IfcColumn;IfcBeam;0X0H9NF9vE2x9YsLAaf$$b;0yrABT47XD1x09Rnfbdhq_;CRE - 001;BMR - 003
+auto;IfcColumn;IfcBeam;0X0H9NF9vE2x9YsLAaf$$b;0JTwbMI2fEce1bnRNmr7Ej;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;1Gg$Fc0RLEDuJw5CWp8r8n;0jwpgYKlr5EgUTk9hTnUHZ;CRE - 001;BMR - 004
+auto;IfcColumn;IfcBeam;1Gg$Fc0RLEDuJw5CWp8r8n;350p10XszCJgmLSoHnVTFr;CRE - 001;BMR - 005
+auto;IfcColumn;IfcBeam;1Gg$Fc0RLEDuJw5CWp8r8n;1jMgkwBpb5uP$tY3B3sE1G;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;1Gg$Fc0RLEDuJw5CWp8r8n;2eQg0nBdjCxALRYMsyPGip;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;3Yg7ghL7rBfviWqvF1p_Sj;350p10XszCJgmLSoHnVTFr;CRE - 001;BMR - 005
+auto;IfcColumn;IfcBeam;3Yg7ghL7rBfviWqvF1p_Sj;3FrtKzcWD9mRoG4LG8MDDf;CRE - 001;BMR - 006
+auto;IfcColumn;IfcBeam;3Yg7ghL7rBfviWqvF1p_Sj;0JTwbMI2fEce1bnRNmr7Ej;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;3Yg7ghL7rBfviWqvF1p_Sj;1diqNpTdP6UAmjIpMDw3Ur;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;3T3IgkVdn01gjoO4R9f1Bv;1VTV9El2vDou57BoOBCOFV;CRE - 003;BMR - 014
+auto;IfcColumn;IfcBeam;3T3IgkVdn01gjoO4R9f1Bv;3LJJTJzDT4N9o651BI3bk$;CRE - 003;BMR - 015
+auto;IfcColumn;IfcBeam;3T3IgkVdn01gjoO4R9f1Bv;20JdbyvyrBswghk7lIokiH;CRE - 003;BMR - 023
+auto;IfcColumn;IfcBeam;3T3IgkVdn01gjoO4R9f1Bv;3iEe8xRUT99glrG1cExEY2;CRE - 003;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;134Y43Ogr1NusVOtLyF6ll;0LTJKvuzP60fnZcwEYyxE8;CRE - 003;BMR - 013
+auto;IfcColumn;IfcBeam;134Y43Ogr1NusVOtLyF6ll;1VTV9El2vDou57BoOBCOFV;CRE - 003;BMR - 014
+auto;IfcColumn;IfcBeam;134Y43Ogr1NusVOtLyF6ll;1Y8f0uyQ12A9pHSd4652Xd;CRE - 003;BMR - 023
+auto;IfcColumn;IfcBeam;134Y43Ogr1NusVOtLyF6ll;2BstW$MYLFuATsfR4xDV_D;CRE - 003;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;0NjsH9rpzAb86zoajVPsMj;06b6YTg6T71OUYaHwF3Ib5;CRE - 004;BMR - 016
+auto;IfcColumn;IfcBeam;0NjsH9rpzAb86zoajVPsMj;3TXsdmUi17XP6zJbIcgpi9;CRE - 004;BMR - 017
+auto;IfcColumn;IfcBeam;0NjsH9rpzAb86zoajVPsMj;3iEe8xRUT99glrG1cExEY2;CRE - 004;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;0BOlDvsEb3$u1YSCwymW4p;3TXsdmUi17XP6zJbIcgpi9;CRE - 005;BMR - 017
+auto;IfcColumn;IfcBeam;0BOlDvsEb3$u1YSCwymW4p;2BstW$MYLFuATsfR4xDV_D;CRE - 005;BMR - 024
+auto;IfcColumn;IfcBeam;0BOlDvsEb3$u1YSCwymW4p;0_BjhaTUv86vVbMlGhf51T;CRE - 005;BMR - 018
+;;;;;;
+auto;IfcColumn;IfcBeam;0T8bAf7ljFPxihSyJhquc2;34xiyCZAn5jeFbwj70JaG8;CRE - 002;BMR - 012
+auto;IfcColumn;IfcBeam;0T8bAf7ljFPxihSyJhquc2;1A2jMc$lf7NQL8qYuDP0LY;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;0T8bAf7ljFPxihSyJhquc2;1DUkcfKaPEv9lI_KVMsV4A;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;3rfbdmSOHCnOyvGdrgPyEP;14LpZtOrbBRu4VNX8nVBcS;CRE - 002;BMR - 011
+auto;IfcColumn;IfcBeam;3rfbdmSOHCnOyvGdrgPyEP;2Q5LkrOJPCLAxp_EDMTuo4;CRE - 002;BMR - 022
+auto;IfcColumn;IfcBeam;3rfbdmSOHCnOyvGdrgPyEP;199EbK3MT4RPDkMti6dawu;CRE - 002;BMR - 023
+;;;;;;
+auto;IfcColumn;IfcBeam;3EnnRcNGf6HwSne7SurwDZ;14LpZtOrbBRu4VNX8nVBcS;CRE - 003;BMR - 011
+auto;IfcColumn;IfcBeam;3EnnRcNGf6HwSne7SurwDZ;3kWfC3thzAChlgT4P_p23R;CRE - 003;BMR - 022
+auto;IfcColumn;IfcBeam;3EnnRcNGf6HwSne7SurwDZ;20JdbyvyrBswghk7lIokiH;CRE - 003;BMR - 023
+;;;;;;
+auto;IfcColumn;IfcBeam;0Kc8M3$HDC4gwr_z$8Yqqy;0rpLajCRLBLxYembEsH$Wa;CRE - 002;BMR - 021
+auto;IfcColumn;IfcBeam;0Kc8M3$HDC4gwr_z$8Yqqy;1DUkcfKaPEv9lI_KVMsV4A;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;360MV6idD8oBmj6OLfonqa;2$v6jCFCf1X8j1dWFvSqlE;CRE - 002;BMR - 021
+auto;IfcColumn;IfcBeam;360MV6idD8oBmj6OLfonqa;2Q5LkrOJPCLAxp_EDMTuo4;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;1MBDgIlxL3yxC819To2osT;2uuQVJoOD4agt47$LFkXxc;CRE - 003;BMR - 021
+auto;IfcColumn;IfcBeam;1MBDgIlxL3yxC819To2osT;3kWfC3thzAChlgT4P_p23R;CRE - 003;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;21JUV1hpv9AfLm0Jjkcs3N;3InrIAciXCsOFXeKTmlGtc;CRE - 002;BMR - 008
+auto;IfcColumn;IfcBeam;21JUV1hpv9AfLm0Jjkcs3N;2h$4jpsJX97RN5FyKBmZxh;CRE - 002;BMR - 020
+auto;IfcColumn;IfcBeam;21JUV1hpv9AfLm0Jjkcs3N;0rpLajCRLBLxYembEsH$Wa;CRE - 002;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;3fpN7XDdbCjgaUJ2O4y8iK;0vsJ5RQdLB3B9x4boYlGZt;CRE - 002;BMR - 007
+auto;IfcColumn;IfcBeam;3fpN7XDdbCjgaUJ2O4y8iK;3vRUGhzef2mBY5QX7ZJPjn;CRE - 002;BMR - 020
+auto;IfcColumn;IfcBeam;3fpN7XDdbCjgaUJ2O4y8iK;2$v6jCFCf1X8j1dWFvSqlE;CRE - 002;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;2SMppWY_zAwulXJOW770O7;0vsJ5RQdLB3B9x4boYlGZt;CRE - 003;BMR - 007
+auto;IfcColumn;IfcBeam;2SMppWY_zAwulXJOW770O7;2eQg0nBdjCxALRYMsyPGip;CRE - 003;BMR - 020
+auto;IfcColumn;IfcBeam;2SMppWY_zAwulXJOW770O7;2uuQVJoOD4agt47$LFkXxc;CRE - 003;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;09va5iTi15Wuu$82Bzu_Cu;3InrIAciXCsOFXeKTmlGtc;CRE - 003;BMR - 008
+auto;IfcColumn;IfcBeam;09va5iTi15Wuu$82Bzu_Cu;1diqNpTdP6UAmjIpMDw3Ur;CRE - 003;BMR - 020
+auto;IfcColumn;IfcBeam;09va5iTi15Wuu$82Bzu_Cu;0NcKanlyzC_Bxjtku9kruo;CRE - 003;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;1meuW2Qd5FbwKNyffgeA4$;0NcKanlyzC_Bxjtku9kruo;CRE - 003;BMR - 021
+auto;IfcColumn;IfcBeam;1meuW2Qd5FbwKNyffgeA4$;0cPPWBjFz1NPo7rsNeKq0N;CRE - 003;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;2CARGkRJP0SxnmJNVMzFpt;34xiyCZAn5jeFbwj70JaG8;CRE - 003;BMR - 012
+auto;IfcColumn;IfcBeam;2CARGkRJP0SxnmJNVMzFpt;0cPPWBjFz1NPo7rsNeKq0N;CRE - 003;BMR - 022
+auto;IfcColumn;IfcBeam;2CARGkRJP0SxnmJNVMzFpt;1Y8f0uyQ12A9pHSd4652Xd;CRE - 003;BMR - 023
+;;;;;;
+auto;IfcBeam;IfcBeam;34xiyCZAn5jeFbwj70JaG8;1A2jMc$lf7NQL8qYuDP0LY;BMR - 012;BMR - 023
+auto;IfcBeam;IfcBeam;34xiyCZAn5jeFbwj70JaG8;0cPPWBjFz1NPo7rsNeKq0N;BMR - 012;BMR - 022
+auto;IfcBeam;IfcBeam;34xiyCZAn5jeFbwj70JaG8;1Y8f0uyQ12A9pHSd4652Xd;BMR - 012;BMR - 023
+auto;IfcBeam;IfcBeam;34xiyCZAn5jeFbwj70JaG8;1DUkcfKaPEv9lI_KVMsV4A;BMR - 012;BMR - 022
+auto;IfcBeam;IfcColumn;34xiyCZAn5jeFbwj70JaG8;03xzvFvPDD7AYeS_EZY4xi;BMR - 012;CRE - 002
+auto;IfcBeam;IfcColumn;34xiyCZAn5jeFbwj70JaG8;008fthThv2Z8Qz70t3bOLz;BMR - 012;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;1A2jMc$lf7NQL8qYuDP0LY;0LTJKvuzP60fnZcwEYyxE8;BMR - 023;BMR - 013
+auto;IfcBeam;IfcColumn;1A2jMc$lf7NQL8qYuDP0LY;07IcCfkaL3wO88qSPOoDdn;BMR - 023;CRE - 002
+auto;IfcBeam;IfcColumn;1A2jMc$lf7NQL8qYuDP0LY;03xzvFvPDD7AYeS_EZY4xi;BMR - 023;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;0$6UKUD7LACAy2keyKF4Yi;0LTJKvuzP60fnZcwEYyxE8;BMR - 024;BMR - 013
+auto;IfcBeam;IfcBeam;0$6UKUD7LACAy2keyKF4Yi;0_BjhaTUv86vVbMlGhf51T;BMR - 024;BMR - 018
+auto;IfcBeam;IfcColumn;0$6UKUD7LACAy2keyKF4Yi;2q1XR1Pj1Cd82Oy5gWK87M;BMR - 024;CRE - 001
+auto;IfcBeam;IfcColumn;0$6UKUD7LACAy2keyKF4Yi;3AWLhag_r6IRjsOymDu8mO;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;0$6UKUD7LACAy2keyKF4Yi;07IcCfkaL3wO88qSPOoDdn;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;142cEIXoP8OO2kUuf165Jp;3FGTp83$j4gRqCWDmGwzSR;BMR - 001;BMR - 002
+auto;IfcBeam;IfcBeam;142cEIXoP8OO2kUuf165Jp;0D$l4ykAr1y9GfdLKAxhLa;BMR - 001;BMR - 019
+auto;IfcBeam;IfcBeam;142cEIXoP8OO2kUuf165Jp;1jMgkwBpb5uP$tY3B3sE1G;BMR - 001;BMR - 019
+auto;IfcBeam;IfcColumn;142cEIXoP8OO2kUuf165Jp;3YHMDZ9QjC5fgXsVRRWduZ;BMR - 001;CRE - 001
+auto;IfcBeam;IfcColumn;142cEIXoP8OO2kUuf165Jp;35HvgsHADBkQ2QGu8RUmrx;BMR - 001;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;3FGTp83$j4gRqCWDmGwzSR;0yrABT47XD1x09Rnfbdhq_;BMR - 002;BMR - 003
+auto;IfcBeam;IfcBeam;3FGTp83$j4gRqCWDmGwzSR;1jMgkwBpb5uP$tY3B3sE1G;BMR - 002;BMR - 019
+auto;IfcBeam;IfcBeam;3FGTp83$j4gRqCWDmGwzSR;0JTwbMI2fEce1bnRNmr7Ej;BMR - 002;BMR - 019
+auto;IfcBeam;IfcColumn;3FGTp83$j4gRqCWDmGwzSR;35HvgsHADBkQ2QGu8RUmrx;BMR - 002;CRE - 001
+auto;IfcBeam;IfcColumn;3FGTp83$j4gRqCWDmGwzSR;0o0pwLYvX4TBgS1FR4EuA8;BMR - 002;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0yrABT47XD1x09Rnfbdhq_;0JTwbMI2fEce1bnRNmr7Ej;BMR - 003;BMR - 019
+auto;IfcBeam;IfcBeam;0yrABT47XD1x09Rnfbdhq_;042wID94H1jhz$aG7yihEL;BMR - 003;BMR - 019
+auto;IfcBeam;IfcColumn;0yrABT47XD1x09Rnfbdhq_;3dN9jPeT93wghqYHGjjPwa;BMR - 003;CRE - 001
+auto;IfcBeam;IfcColumn;0yrABT47XD1x09Rnfbdhq_;0o0pwLYvX4TBgS1FR4EuA8;BMR - 003;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0jwpgYKlr5EgUTk9hTnUHZ;350p10XszCJgmLSoHnVTFr;BMR - 004;BMR - 005
+auto;IfcBeam;IfcBeam;0jwpgYKlr5EgUTk9hTnUHZ;0D$l4ykAr1y9GfdLKAxhLa;BMR - 004;BMR - 019
+auto;IfcBeam;IfcBeam;0jwpgYKlr5EgUTk9hTnUHZ;3vRUGhzef2mBY5QX7ZJPjn;BMR - 004;BMR - 020
+auto;IfcBeam;IfcBeam;0jwpgYKlr5EgUTk9hTnUHZ;1jMgkwBpb5uP$tY3B3sE1G;BMR - 004;BMR - 019
+auto;IfcBeam;IfcBeam;0jwpgYKlr5EgUTk9hTnUHZ;2eQg0nBdjCxALRYMsyPGip;BMR - 004;BMR - 020
+auto;IfcBeam;IfcColumn;0jwpgYKlr5EgUTk9hTnUHZ;3ppEbNb5X6MeUnM4kXf_iX;BMR - 004;CRE - 001
+auto;IfcBeam;IfcColumn;0jwpgYKlr5EgUTk9hTnUHZ;3Jde5X4xXByfDCHAHJ5qwd;BMR - 004;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;350p10XszCJgmLSoHnVTFr;3FrtKzcWD9mRoG4LG8MDDf;BMR - 005;BMR - 006
+auto;IfcBeam;IfcBeam;350p10XszCJgmLSoHnVTFr;1jMgkwBpb5uP$tY3B3sE1G;BMR - 005;BMR - 019
+auto;IfcBeam;IfcBeam;350p10XszCJgmLSoHnVTFr;2eQg0nBdjCxALRYMsyPGip;BMR - 005;BMR - 020
+auto;IfcBeam;IfcBeam;350p10XszCJgmLSoHnVTFr;0JTwbMI2fEce1bnRNmr7Ej;BMR - 005;BMR - 019
+auto;IfcBeam;IfcBeam;350p10XszCJgmLSoHnVTFr;1diqNpTdP6UAmjIpMDw3Ur;BMR - 005;BMR - 020
+auto;IfcBeam;IfcColumn;350p10XszCJgmLSoHnVTFr;3Jde5X4xXByfDCHAHJ5qwd;BMR - 005;CRE - 001
+auto;IfcBeam;IfcColumn;350p10XszCJgmLSoHnVTFr;0HMlGPq$HDoulkXSJrZCNS;BMR - 005;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0vsJ5RQdLB3B9x4boYlGZt;3vRUGhzef2mBY5QX7ZJPjn;BMR - 007;BMR - 020
+auto;IfcBeam;IfcBeam;0vsJ5RQdLB3B9x4boYlGZt;2$v6jCFCf1X8j1dWFvSqlE;BMR - 007;BMR - 021
+auto;IfcBeam;IfcBeam;0vsJ5RQdLB3B9x4boYlGZt;2eQg0nBdjCxALRYMsyPGip;BMR - 007;BMR - 020
+auto;IfcBeam;IfcBeam;0vsJ5RQdLB3B9x4boYlGZt;2uuQVJoOD4agt47$LFkXxc;BMR - 007;BMR - 021
+auto;IfcBeam;IfcColumn;0vsJ5RQdLB3B9x4boYlGZt;3WCUB0LvbACvptFvq_M200;BMR - 007;CRE - 002
+auto;IfcBeam;IfcColumn;0vsJ5RQdLB3B9x4boYlGZt;1IG4MiaVTBLQefz4t8VFdL;BMR - 007;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3InrIAciXCsOFXeKTmlGtc;1diqNpTdP6UAmjIpMDw3Ur;BMR - 008;BMR - 020
+auto;IfcBeam;IfcBeam;3InrIAciXCsOFXeKTmlGtc;0NcKanlyzC_Bxjtku9kruo;BMR - 008;BMR - 021
+auto;IfcBeam;IfcBeam;3InrIAciXCsOFXeKTmlGtc;2h$4jpsJX97RN5FyKBmZxh;BMR - 008;BMR - 020
+auto;IfcBeam;IfcBeam;3InrIAciXCsOFXeKTmlGtc;0rpLajCRLBLxYembEsH$Wa;BMR - 008;BMR - 021
+auto;IfcBeam;IfcColumn;3InrIAciXCsOFXeKTmlGtc;3RLI8uet96xfr02KpfGYyz;BMR - 008;CRE - 002
+auto;IfcBeam;IfcColumn;3InrIAciXCsOFXeKTmlGtc;0dqAyXOMz0Jw$Pt0Q35W50;BMR - 008;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;14LpZtOrbBRu4VNX8nVBcS;2Q5LkrOJPCLAxp_EDMTuo4;BMR - 011;BMR - 022
+auto;IfcBeam;IfcBeam;14LpZtOrbBRu4VNX8nVBcS;199EbK3MT4RPDkMti6dawu;BMR - 011;BMR - 023
+auto;IfcBeam;IfcBeam;14LpZtOrbBRu4VNX8nVBcS;3kWfC3thzAChlgT4P_p23R;BMR - 011;BMR - 022
+auto;IfcBeam;IfcBeam;14LpZtOrbBRu4VNX8nVBcS;20JdbyvyrBswghk7lIokiH;BMR - 011;BMR - 023
+auto;IfcBeam;IfcColumn;14LpZtOrbBRu4VNX8nVBcS;10qYvUMD1FUBcOIaeADizv;BMR - 011;CRE - 002
+auto;IfcBeam;IfcColumn;14LpZtOrbBRu4VNX8nVBcS;16IRXgPpv6kOH0XE2ben9x;BMR - 011;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3FrtKzcWD9mRoG4LG8MDDf;0JTwbMI2fEce1bnRNmr7Ej;BMR - 006;BMR - 019
+auto;IfcBeam;IfcBeam;3FrtKzcWD9mRoG4LG8MDDf;1diqNpTdP6UAmjIpMDw3Ur;BMR - 006;BMR - 020
+auto;IfcBeam;IfcBeam;3FrtKzcWD9mRoG4LG8MDDf;042wID94H1jhz$aG7yihEL;BMR - 006;BMR - 019
+auto;IfcBeam;IfcBeam;3FrtKzcWD9mRoG4LG8MDDf;2h$4jpsJX97RN5FyKBmZxh;BMR - 006;BMR - 020
+auto;IfcBeam;IfcColumn;3FrtKzcWD9mRoG4LG8MDDf;2qQnmnv71DPuZSlMORG$_i;BMR - 006;CRE - 001
+auto;IfcBeam;IfcColumn;3FrtKzcWD9mRoG4LG8MDDf;0HMlGPq$HDoulkXSJrZCNS;BMR - 006;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0LTJKvuzP60fnZcwEYyxE8;1VTV9El2vDou57BoOBCOFV;BMR - 013;BMR - 014
+auto;IfcBeam;IfcBeam;0LTJKvuzP60fnZcwEYyxE8;1Y8f0uyQ12A9pHSd4652Xd;BMR - 013;BMR - 023
+auto;IfcBeam;IfcBeam;0LTJKvuzP60fnZcwEYyxE8;2BstW$MYLFuATsfR4xDV_D;BMR - 013;BMR - 024
+auto;IfcBeam;IfcColumn;0LTJKvuzP60fnZcwEYyxE8;07IcCfkaL3wO88qSPOoDdn;BMR - 013;CRE - 002
+auto;IfcBeam;IfcColumn;0LTJKvuzP60fnZcwEYyxE8;3c5G6R_6XEWApwxnYaZ3H5;BMR - 013;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;1VTV9El2vDou57BoOBCOFV;3LJJTJzDT4N9o651BI3bk$;BMR - 014;BMR - 015
+auto;IfcBeam;IfcBeam;1VTV9El2vDou57BoOBCOFV;20JdbyvyrBswghk7lIokiH;BMR - 014;BMR - 023
+auto;IfcBeam;IfcBeam;1VTV9El2vDou57BoOBCOFV;3iEe8xRUT99glrG1cExEY2;BMR - 014;BMR - 024
+auto;IfcBeam;IfcBeam;1VTV9El2vDou57BoOBCOFV;1Y8f0uyQ12A9pHSd4652Xd;BMR - 014;BMR - 023
+auto;IfcBeam;IfcBeam;1VTV9El2vDou57BoOBCOFV;2BstW$MYLFuATsfR4xDV_D;BMR - 014;BMR - 024
+auto;IfcBeam;IfcColumn;1VTV9El2vDou57BoOBCOFV;2LZYBol1vFVvwoSxnS07iD;BMR - 014;CRE - 003
+auto;IfcBeam;IfcColumn;1VTV9El2vDou57BoOBCOFV;3c5G6R_6XEWApwxnYaZ3H5;BMR - 014;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3LJJTJzDT4N9o651BI3bk$;199EbK3MT4RPDkMti6dawu;BMR - 015;BMR - 023
+auto;IfcBeam;IfcBeam;3LJJTJzDT4N9o651BI3bk$;1Hgr3igiHFfPZA2Pbl6qbe;BMR - 015;BMR - 024
+auto;IfcBeam;IfcBeam;3LJJTJzDT4N9o651BI3bk$;20JdbyvyrBswghk7lIokiH;BMR - 015;BMR - 023
+auto;IfcBeam;IfcBeam;3LJJTJzDT4N9o651BI3bk$;3iEe8xRUT99glrG1cExEY2;BMR - 015;BMR - 024
+auto;IfcBeam;IfcColumn;3LJJTJzDT4N9o651BI3bk$;3P8ZRsw_v7_9SDzYVGIIcM;BMR - 015;CRE - 002
+auto;IfcBeam;IfcColumn;3LJJTJzDT4N9o651BI3bk$;2LZYBol1vFVvwoSxnS07iD;BMR - 015;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;06b6YTg6T71OUYaHwF3Ib5;3TXsdmUi17XP6zJbIcgpi9;BMR - 016;BMR - 017
+auto;IfcBeam;IfcBeam;06b6YTg6T71OUYaHwF3Ib5;1Hgr3igiHFfPZA2Pbl6qbe;BMR - 016;BMR - 024
+auto;IfcBeam;IfcBeam;06b6YTg6T71OUYaHwF3Ib5;3iEe8xRUT99glrG1cExEY2;BMR - 016;BMR - 024
+auto;IfcBeam;IfcColumn;06b6YTg6T71OUYaHwF3Ib5;3LMGKblPz8l8rU$m8itM8f;BMR - 016;CRE - 002
+auto;IfcBeam;IfcColumn;06b6YTg6T71OUYaHwF3Ib5;1mU3znzcH1kgw76jXxoWa3;BMR - 016;CRE - 004
+;;;;;;
+auto;IfcBeam;IfcBeam;3TXsdmUi17XP6zJbIcgpi9;3iEe8xRUT99glrG1cExEY2;BMR - 017;BMR - 024
+auto;IfcBeam;IfcBeam;3TXsdmUi17XP6zJbIcgpi9;2BstW$MYLFuATsfR4xDV_D;BMR - 017;BMR - 024
+auto;IfcBeam;IfcBeam;3TXsdmUi17XP6zJbIcgpi9;0_BjhaTUv86vVbMlGhf51T;BMR - 017;BMR - 018
+auto;IfcBeam;IfcColumn;3TXsdmUi17XP6zJbIcgpi9;1mU3znzcH1kgw76jXxoWa3;BMR - 017;CRE - 004
+auto;IfcBeam;IfcColumn;3TXsdmUi17XP6zJbIcgpi9;3j2u5DmDX9efvtVxejnvsV;BMR - 017;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcColumn;0D$l4ykAr1y9GfdLKAxhLa;3YHMDZ9QjC5fgXsVRRWduZ;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;0D$l4ykAr1y9GfdLKAxhLa;3ppEbNb5X6MeUnM4kXf_iX;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;3vRUGhzef2mBY5QX7ZJPjn;3ppEbNb5X6MeUnM4kXf_iX;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;3vRUGhzef2mBY5QX7ZJPjn;3WCUB0LvbACvptFvq_M200;BMR - 020;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;2$v6jCFCf1X8j1dWFvSqlE;2Q5LkrOJPCLAxp_EDMTuo4;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;2$v6jCFCf1X8j1dWFvSqlE;1A5X7F4ZvB7eDOdFWe5yux;BMR - 021;CRE - 002
+auto;IfcBeam;IfcColumn;2$v6jCFCf1X8j1dWFvSqlE;3WCUB0LvbACvptFvq_M200;BMR - 021;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;2Q5LkrOJPCLAxp_EDMTuo4;10qYvUMD1FUBcOIaeADizv;BMR - 022;CRE - 002
+auto;IfcBeam;IfcColumn;2Q5LkrOJPCLAxp_EDMTuo4;1A5X7F4ZvB7eDOdFWe5yux;BMR - 022;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;199EbK3MT4RPDkMti6dawu;3P8ZRsw_v7_9SDzYVGIIcM;BMR - 023;CRE - 002
+auto;IfcBeam;IfcColumn;199EbK3MT4RPDkMti6dawu;10qYvUMD1FUBcOIaeADizv;BMR - 023;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;1Hgr3igiHFfPZA2Pbl6qbe;3LMGKblPz8l8rU$m8itM8f;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;1Hgr3igiHFfPZA2Pbl6qbe;3P8ZRsw_v7_9SDzYVGIIcM;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;1jMgkwBpb5uP$tY3B3sE1G;35HvgsHADBkQ2QGu8RUmrx;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;1jMgkwBpb5uP$tY3B3sE1G;3Jde5X4xXByfDCHAHJ5qwd;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;2eQg0nBdjCxALRYMsyPGip;3Jde5X4xXByfDCHAHJ5qwd;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;2eQg0nBdjCxALRYMsyPGip;1IG4MiaVTBLQefz4t8VFdL;BMR - 020;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;2uuQVJoOD4agt47$LFkXxc;3kWfC3thzAChlgT4P_p23R;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;2uuQVJoOD4agt47$LFkXxc;3KumR7RwDDPvPqSjQJQiXD;BMR - 021;CRE - 003
+auto;IfcBeam;IfcColumn;2uuQVJoOD4agt47$LFkXxc;1IG4MiaVTBLQefz4t8VFdL;BMR - 021;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;3kWfC3thzAChlgT4P_p23R;16IRXgPpv6kOH0XE2ben9x;BMR - 022;CRE - 003
+auto;IfcBeam;IfcColumn;3kWfC3thzAChlgT4P_p23R;3KumR7RwDDPvPqSjQJQiXD;BMR - 022;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;20JdbyvyrBswghk7lIokiH;2LZYBol1vFVvwoSxnS07iD;BMR - 023;CRE - 003
+auto;IfcBeam;IfcColumn;20JdbyvyrBswghk7lIokiH;16IRXgPpv6kOH0XE2ben9x;BMR - 023;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;3iEe8xRUT99glrG1cExEY2;2LZYBol1vFVvwoSxnS07iD;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;3iEe8xRUT99glrG1cExEY2;1mU3znzcH1kgw76jXxoWa3;BMR - 024;CRE - 004
+;;;;;;
+auto;IfcBeam;IfcColumn;0JTwbMI2fEce1bnRNmr7Ej;0o0pwLYvX4TBgS1FR4EuA8;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;0JTwbMI2fEce1bnRNmr7Ej;0HMlGPq$HDoulkXSJrZCNS;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;1diqNpTdP6UAmjIpMDw3Ur;0HMlGPq$HDoulkXSJrZCNS;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;1diqNpTdP6UAmjIpMDw3Ur;0dqAyXOMz0Jw$Pt0Q35W50;BMR - 020;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;0NcKanlyzC_Bxjtku9kruo;0cPPWBjFz1NPo7rsNeKq0N;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;0NcKanlyzC_Bxjtku9kruo;0dqAyXOMz0Jw$Pt0Q35W50;BMR - 021;CRE - 003
+auto;IfcBeam;IfcColumn;0NcKanlyzC_Bxjtku9kruo;0m34EedFz1egUzhj_Ii5vo;BMR - 021;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;0cPPWBjFz1NPo7rsNeKq0N;0m34EedFz1egUzhj_Ii5vo;BMR - 022;CRE - 003
+auto;IfcBeam;IfcColumn;0cPPWBjFz1NPo7rsNeKq0N;008fthThv2Z8Qz70t3bOLz;BMR - 022;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;1Y8f0uyQ12A9pHSd4652Xd;3c5G6R_6XEWApwxnYaZ3H5;BMR - 023;CRE - 003
+auto;IfcBeam;IfcColumn;1Y8f0uyQ12A9pHSd4652Xd;008fthThv2Z8Qz70t3bOLz;BMR - 023;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;2BstW$MYLFuATsfR4xDV_D;0_BjhaTUv86vVbMlGhf51T;BMR - 024;BMR - 018
+auto;IfcBeam;IfcColumn;2BstW$MYLFuATsfR4xDV_D;3c5G6R_6XEWApwxnYaZ3H5;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;2BstW$MYLFuATsfR4xDV_D;3j2u5DmDX9efvtVxejnvsV;BMR - 024;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcColumn;042wID94H1jhz$aG7yihEL;3dN9jPeT93wghqYHGjjPwa;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;042wID94H1jhz$aG7yihEL;2qQnmnv71DPuZSlMORG$_i;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;2h$4jpsJX97RN5FyKBmZxh;2qQnmnv71DPuZSlMORG$_i;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;2h$4jpsJX97RN5FyKBmZxh;3RLI8uet96xfr02KpfGYyz;BMR - 020;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;0rpLajCRLBLxYembEsH$Wa;1DUkcfKaPEv9lI_KVMsV4A;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;0rpLajCRLBLxYembEsH$Wa;2rqRw85lbEJRheR8kG9mbj;BMR - 021;CRE - 002
+auto;IfcBeam;IfcColumn;0rpLajCRLBLxYembEsH$Wa;3RLI8uet96xfr02KpfGYyz;BMR - 021;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;1DUkcfKaPEv9lI_KVMsV4A;03xzvFvPDD7AYeS_EZY4xi;BMR - 022;CRE - 002
+auto;IfcBeam;IfcColumn;1DUkcfKaPEv9lI_KVMsV4A;2rqRw85lbEJRheR8kG9mbj;BMR - 022;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;0_BjhaTUv86vVbMlGhf51T;2q1XR1Pj1Cd82Oy5gWK87M;BMR - 018;CRE - 001
+auto;IfcBeam;IfcColumn;0_BjhaTUv86vVbMlGhf51T;3AWLhag_r6IRjsOymDu8mO;BMR - 018;CRE - 002
+auto;IfcBeam;IfcColumn;0_BjhaTUv86vVbMlGhf51T;3j2u5DmDX9efvtVxejnvsV;BMR - 018;CRE - 005
+;;;;;;
+auto;IfcColumn;IfcBeam;3YHMDZ9QjC5fgXsVRRWduZ;0ediKA3uH8aPtwQaubq3iy;CRE - 001;BMR - 001
+auto;IfcColumn;IfcBeam;3YHMDZ9QjC5fgXsVRRWduZ;2IBg18Juj6xvSZlyylOFCT;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;3LMGKblPz8l8rU$m8itM8f;0wKqBMjTzDxQTB7oWc3$5h;CRE - 002;BMR - 016
+auto;IfcColumn;IfcBeam;3LMGKblPz8l8rU$m8itM8f;00E6Ml$kv0AedjqicDKf$A;CRE - 002;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;3dN9jPeT93wghqYHGjjPwa;1GNzf2JnL30O8jJEALyOWL;CRE - 001;BMR - 003
+auto;IfcColumn;IfcBeam;3dN9jPeT93wghqYHGjjPwa;3x7JSjD3zBJee9B7JmJL3d;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcColumn;2q1XR1Pj1Cd82Oy5gWK87M;3AWLhag_r6IRjsOymDu8mO;CRE - 001;CRE - 002
+auto;IfcColumn;IfcBeam;2q1XR1Pj1Cd82Oy5gWK87M;2Hz7euuGr5G82zFrlGZR7m;CRE - 001;BMR - 018
+auto;IfcColumn;IfcBeam;2q1XR1Pj1Cd82Oy5gWK87M;2iGwf90hv25PhfUVzXukSY;CRE - 001;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;2qQnmnv71DPuZSlMORG$_i;0xGSuB0kD8bRB9KVjtWfV8;CRE - 001;BMR - 006
+auto;IfcColumn;IfcBeam;2qQnmnv71DPuZSlMORG$_i;3x7JSjD3zBJee9B7JmJL3d;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;2qQnmnv71DPuZSlMORG$_i;3bIF5Xqkv14QDOeGp_DLfU;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;3P8ZRsw_v7_9SDzYVGIIcM;30Fd0xWMrC2f3usbd_mizb;CRE - 002;BMR - 015
+auto;IfcColumn;IfcBeam;3P8ZRsw_v7_9SDzYVGIIcM;2zLlMzCVT2WBgF3CgyJjgR;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;3P8ZRsw_v7_9SDzYVGIIcM;00E6Ml$kv0AedjqicDKf$A;CRE - 002;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;3AWLhag_r6IRjsOymDu8mO;2Hz7euuGr5G82zFrlGZR7m;CRE - 002;BMR - 018
+auto;IfcColumn;IfcBeam;3AWLhag_r6IRjsOymDu8mO;2iGwf90hv25PhfUVzXukSY;CRE - 002;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;3ppEbNb5X6MeUnM4kXf_iX;0hcnAzu_1CSwe9HdKcZijy;CRE - 001;BMR - 004
+auto;IfcColumn;IfcBeam;3ppEbNb5X6MeUnM4kXf_iX;2IBg18Juj6xvSZlyylOFCT;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;3ppEbNb5X6MeUnM4kXf_iX;2Ta2WFyAD4uwIMODwkyq2a;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;07IcCfkaL3wO88qSPOoDdn;2ftaKuC$L7MRZ_udBz_VIn;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;07IcCfkaL3wO88qSPOoDdn;2iGwf90hv25PhfUVzXukSY;CRE - 002;BMR - 024
+auto;IfcColumn;IfcBeam;07IcCfkaL3wO88qSPOoDdn;3ZPXatXGb29AYeMR29YQPv;CRE - 002;BMR - 013
+;;;;;;
+auto;IfcColumn;IfcBeam;35HvgsHADBkQ2QGu8RUmrx;0ediKA3uH8aPtwQaubq3iy;CRE - 001;BMR - 001
+auto;IfcColumn;IfcBeam;35HvgsHADBkQ2QGu8RUmrx;0oBNrOVJL7qu6Th9WGsVYO;CRE - 001;BMR - 002
+auto;IfcColumn;IfcBeam;35HvgsHADBkQ2QGu8RUmrx;0u5p0Jd$D8g9PwpmW4CepW;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;0o0pwLYvX4TBgS1FR4EuA8;0oBNrOVJL7qu6Th9WGsVYO;CRE - 001;BMR - 002
+auto;IfcColumn;IfcBeam;0o0pwLYvX4TBgS1FR4EuA8;1GNzf2JnL30O8jJEALyOWL;CRE - 001;BMR - 003
+auto;IfcColumn;IfcBeam;0o0pwLYvX4TBgS1FR4EuA8;2jyvcMGNH3eQtfXehCW5M9;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;3Jde5X4xXByfDCHAHJ5qwd;0hcnAzu_1CSwe9HdKcZijy;CRE - 001;BMR - 004
+auto;IfcColumn;IfcBeam;3Jde5X4xXByfDCHAHJ5qwd;3m32of8mf65BCn8_iKDwzH;CRE - 001;BMR - 005
+auto;IfcColumn;IfcBeam;3Jde5X4xXByfDCHAHJ5qwd;0u5p0Jd$D8g9PwpmW4CepW;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;3Jde5X4xXByfDCHAHJ5qwd;092MTFevL1VR4Vq1DVFvtq;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;0HMlGPq$HDoulkXSJrZCNS;3m32of8mf65BCn8_iKDwzH;CRE - 001;BMR - 005
+auto;IfcColumn;IfcBeam;0HMlGPq$HDoulkXSJrZCNS;0xGSuB0kD8bRB9KVjtWfV8;CRE - 001;BMR - 006
+auto;IfcColumn;IfcBeam;0HMlGPq$HDoulkXSJrZCNS;2jyvcMGNH3eQtfXehCW5M9;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;0HMlGPq$HDoulkXSJrZCNS;1XESaj$dXEqRYZ5mTfRqZo;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;2LZYBol1vFVvwoSxnS07iD;0Xly5Xerr12B$oJ4_NkKPF;CRE - 003;BMR - 014
+auto;IfcColumn;IfcBeam;2LZYBol1vFVvwoSxnS07iD;30Fd0xWMrC2f3usbd_mizb;CRE - 003;BMR - 015
+auto;IfcColumn;IfcBeam;2LZYBol1vFVvwoSxnS07iD;3m419Zmm51RvLRm$2TEw3z;CRE - 003;BMR - 023
+auto;IfcColumn;IfcBeam;2LZYBol1vFVvwoSxnS07iD;3B1hMUncD0QxhnYZnI6rpI;CRE - 003;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;3c5G6R_6XEWApwxnYaZ3H5;3ZPXatXGb29AYeMR29YQPv;CRE - 003;BMR - 013
+auto;IfcColumn;IfcBeam;3c5G6R_6XEWApwxnYaZ3H5;0Xly5Xerr12B$oJ4_NkKPF;CRE - 003;BMR - 014
+auto;IfcColumn;IfcBeam;3c5G6R_6XEWApwxnYaZ3H5;02adh2QYb8mAowFTUDfN45;CRE - 003;BMR - 023
+auto;IfcColumn;IfcBeam;3c5G6R_6XEWApwxnYaZ3H5;3i4_rFohrCq8q0XKcl_ovx;CRE - 003;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;1mU3znzcH1kgw76jXxoWa3;0wKqBMjTzDxQTB7oWc3$5h;CRE - 004;BMR - 016
+auto;IfcColumn;IfcBeam;1mU3znzcH1kgw76jXxoWa3;3KPaSyP$rAdPR9V6aR88vx;CRE - 004;BMR - 017
+auto;IfcColumn;IfcBeam;1mU3znzcH1kgw76jXxoWa3;3B1hMUncD0QxhnYZnI6rpI;CRE - 004;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;3j2u5DmDX9efvtVxejnvsV;2Hz7euuGr5G82zFrlGZR7m;CRE - 005;BMR - 018
+auto;IfcColumn;IfcBeam;3j2u5DmDX9efvtVxejnvsV;3KPaSyP$rAdPR9V6aR88vx;CRE - 005;BMR - 017
+auto;IfcColumn;IfcBeam;3j2u5DmDX9efvtVxejnvsV;3i4_rFohrCq8q0XKcl_ovx;CRE - 005;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;03xzvFvPDD7AYeS_EZY4xi;2ftaKuC$L7MRZ_udBz_VIn;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;03xzvFvPDD7AYeS_EZY4xi;3I5mNOp6b44AJIAXnWjqMy;CRE - 002;BMR - 012
+auto;IfcColumn;IfcBeam;03xzvFvPDD7AYeS_EZY4xi;1wL2qRULzDHgh4F7zPVS6N;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;10qYvUMD1FUBcOIaeADizv;1phCWl4R18gRqnxN$R9Wa2;CRE - 002;BMR - 011
+auto;IfcColumn;IfcBeam;10qYvUMD1FUBcOIaeADizv;2kVxeYAu19GuRmjGrRzaJr;CRE - 002;BMR - 022
+auto;IfcColumn;IfcBeam;10qYvUMD1FUBcOIaeADizv;2zLlMzCVT2WBgF3CgyJjgR;CRE - 002;BMR - 023
+;;;;;;
+auto;IfcColumn;IfcBeam;16IRXgPpv6kOH0XE2ben9x;1phCWl4R18gRqnxN$R9Wa2;CRE - 003;BMR - 011
+auto;IfcColumn;IfcBeam;16IRXgPpv6kOH0XE2ben9x;3E5TyqD$H81BNrcuOdSTy8;CRE - 003;BMR - 022
+auto;IfcColumn;IfcBeam;16IRXgPpv6kOH0XE2ben9x;3m419Zmm51RvLRm$2TEw3z;CRE - 003;BMR - 023
+;;;;;;
+auto;IfcColumn;IfcBeam;2rqRw85lbEJRheR8kG9mbj;2x40vGLhTAGvxCBXEvf1Mv;CRE - 002;BMR - 021
+auto;IfcColumn;IfcBeam;2rqRw85lbEJRheR8kG9mbj;1wL2qRULzDHgh4F7zPVS6N;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;1A5X7F4ZvB7eDOdFWe5yux;1gKCu_pjj3DeQk53PkBBfC;CRE - 002;BMR - 021
+auto;IfcColumn;IfcBeam;1A5X7F4ZvB7eDOdFWe5yux;2kVxeYAu19GuRmjGrRzaJr;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;3KumR7RwDDPvPqSjQJQiXD;3Z0UpN1Ib4gOGeoKGUngtb;CRE - 003;BMR - 021
+auto;IfcColumn;IfcBeam;3KumR7RwDDPvPqSjQJQiXD;3E5TyqD$H81BNrcuOdSTy8;CRE - 003;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;3RLI8uet96xfr02KpfGYyz;1YHSCacrD21OtP0eVDBYEY;CRE - 002;BMR - 008
+auto;IfcColumn;IfcBeam;3RLI8uet96xfr02KpfGYyz;3bIF5Xqkv14QDOeGp_DLfU;CRE - 002;BMR - 020
+auto;IfcColumn;IfcBeam;3RLI8uet96xfr02KpfGYyz;2x40vGLhTAGvxCBXEvf1Mv;CRE - 002;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;3WCUB0LvbACvptFvq_M200;2NSBoSyMT1Ux90jMuyc3XV;CRE - 002;BMR - 007
+auto;IfcColumn;IfcBeam;3WCUB0LvbACvptFvq_M200;2Ta2WFyAD4uwIMODwkyq2a;CRE - 002;BMR - 020
+auto;IfcColumn;IfcBeam;3WCUB0LvbACvptFvq_M200;1gKCu_pjj3DeQk53PkBBfC;CRE - 002;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;1IG4MiaVTBLQefz4t8VFdL;2NSBoSyMT1Ux90jMuyc3XV;CRE - 003;BMR - 007
+auto;IfcColumn;IfcBeam;1IG4MiaVTBLQefz4t8VFdL;092MTFevL1VR4Vq1DVFvtq;CRE - 003;BMR - 020
+auto;IfcColumn;IfcBeam;1IG4MiaVTBLQefz4t8VFdL;3Z0UpN1Ib4gOGeoKGUngtb;CRE - 003;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;0dqAyXOMz0Jw$Pt0Q35W50;1YHSCacrD21OtP0eVDBYEY;CRE - 003;BMR - 008
+auto;IfcColumn;IfcBeam;0dqAyXOMz0Jw$Pt0Q35W50;1XESaj$dXEqRYZ5mTfRqZo;CRE - 003;BMR - 020
+auto;IfcColumn;IfcBeam;0dqAyXOMz0Jw$Pt0Q35W50;3B0afyOUr0EAmGY0S4t1$q;CRE - 003;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;0m34EedFz1egUzhj_Ii5vo;3B0afyOUr0EAmGY0S4t1$q;CRE - 003;BMR - 021
+auto;IfcColumn;IfcBeam;0m34EedFz1egUzhj_Ii5vo;10oGCcZtn1cPAzajEwKEfn;CRE - 003;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;008fthThv2Z8Qz70t3bOLz;3I5mNOp6b44AJIAXnWjqMy;CRE - 003;BMR - 012
+auto;IfcColumn;IfcBeam;008fthThv2Z8Qz70t3bOLz;10oGCcZtn1cPAzajEwKEfn;CRE - 003;BMR - 022
+auto;IfcColumn;IfcBeam;008fthThv2Z8Qz70t3bOLz;02adh2QYb8mAowFTUDfN45;CRE - 003;BMR - 023
+;;;;;;
+auto;IfcBeam;IfcBeam;2Hz7euuGr5G82zFrlGZR7m;2iGwf90hv25PhfUVzXukSY;BMR - 018;BMR - 024
+auto;IfcBeam;IfcBeam;2Hz7euuGr5G82zFrlGZR7m;3KPaSyP$rAdPR9V6aR88vx;BMR - 018;BMR - 017
+auto;IfcBeam;IfcBeam;2Hz7euuGr5G82zFrlGZR7m;3i4_rFohrCq8q0XKcl_ovx;BMR - 018;BMR - 024
+auto;IfcBeam;IfcColumn;2Hz7euuGr5G82zFrlGZR7m;2koB_urbP5CRCIVHxliNaA;BMR - 018;CRE - 001
+auto;IfcBeam;IfcColumn;2Hz7euuGr5G82zFrlGZR7m;0_i$ZoQZv4gP790rYJY7Eu;BMR - 018;CRE - 002
+auto;IfcBeam;IfcColumn;2Hz7euuGr5G82zFrlGZR7m;2ah0KKYDH0nQHS$ech1KMY;BMR - 018;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcBeam;2ftaKuC$L7MRZ_udBz_VIn;3I5mNOp6b44AJIAXnWjqMy;BMR - 023;BMR - 012
+auto;IfcBeam;IfcBeam;2ftaKuC$L7MRZ_udBz_VIn;3ZPXatXGb29AYeMR29YQPv;BMR - 023;BMR - 013
+auto;IfcBeam;IfcColumn;2ftaKuC$L7MRZ_udBz_VIn;0ikPQI67nEuPzG$ZroWa9h;BMR - 023;CRE - 002
+auto;IfcBeam;IfcColumn;2ftaKuC$L7MRZ_udBz_VIn;2O8DKZTJXCmwhapduQ2MAz;BMR - 023;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;2iGwf90hv25PhfUVzXukSY;3ZPXatXGb29AYeMR29YQPv;BMR - 024;BMR - 013
+auto;IfcBeam;IfcColumn;2iGwf90hv25PhfUVzXukSY;2koB_urbP5CRCIVHxliNaA;BMR - 024;CRE - 001
+auto;IfcBeam;IfcColumn;2iGwf90hv25PhfUVzXukSY;0_i$ZoQZv4gP790rYJY7Eu;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;2iGwf90hv25PhfUVzXukSY;0ikPQI67nEuPzG$ZroWa9h;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;0ediKA3uH8aPtwQaubq3iy;0oBNrOVJL7qu6Th9WGsVYO;BMR - 001;BMR - 002
+auto;IfcBeam;IfcBeam;0ediKA3uH8aPtwQaubq3iy;2IBg18Juj6xvSZlyylOFCT;BMR - 001;BMR - 019
+auto;IfcBeam;IfcBeam;0ediKA3uH8aPtwQaubq3iy;0u5p0Jd$D8g9PwpmW4CepW;BMR - 001;BMR - 019
+auto;IfcBeam;IfcColumn;0ediKA3uH8aPtwQaubq3iy;1Yk_P_xoD1Ywdzd7Xgwqlb;BMR - 001;CRE - 001
+auto;IfcBeam;IfcColumn;0ediKA3uH8aPtwQaubq3iy;0rFolR_v1FMOMCr8gLF3Xb;BMR - 001;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0oBNrOVJL7qu6Th9WGsVYO;1GNzf2JnL30O8jJEALyOWL;BMR - 002;BMR - 003
+auto;IfcBeam;IfcBeam;0oBNrOVJL7qu6Th9WGsVYO;0u5p0Jd$D8g9PwpmW4CepW;BMR - 002;BMR - 019
+auto;IfcBeam;IfcBeam;0oBNrOVJL7qu6Th9WGsVYO;2jyvcMGNH3eQtfXehCW5M9;BMR - 002;BMR - 019
+auto;IfcBeam;IfcColumn;0oBNrOVJL7qu6Th9WGsVYO;0rFolR_v1FMOMCr8gLF3Xb;BMR - 002;CRE - 001
+auto;IfcBeam;IfcColumn;0oBNrOVJL7qu6Th9WGsVYO;22jLR1fuX4ewoJKpkInXxe;BMR - 002;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;1GNzf2JnL30O8jJEALyOWL;2jyvcMGNH3eQtfXehCW5M9;BMR - 003;BMR - 019
+auto;IfcBeam;IfcBeam;1GNzf2JnL30O8jJEALyOWL;3x7JSjD3zBJee9B7JmJL3d;BMR - 003;BMR - 019
+auto;IfcBeam;IfcColumn;1GNzf2JnL30O8jJEALyOWL;2lW3vBFxzDbxEM4mN$lhwg;BMR - 003;CRE - 001
+auto;IfcBeam;IfcColumn;1GNzf2JnL30O8jJEALyOWL;22jLR1fuX4ewoJKpkInXxe;BMR - 003;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0hcnAzu_1CSwe9HdKcZijy;3m32of8mf65BCn8_iKDwzH;BMR - 004;BMR - 005
+auto;IfcBeam;IfcBeam;0hcnAzu_1CSwe9HdKcZijy;2IBg18Juj6xvSZlyylOFCT;BMR - 004;BMR - 019
+auto;IfcBeam;IfcBeam;0hcnAzu_1CSwe9HdKcZijy;2Ta2WFyAD4uwIMODwkyq2a;BMR - 004;BMR - 020
+auto;IfcBeam;IfcBeam;0hcnAzu_1CSwe9HdKcZijy;0u5p0Jd$D8g9PwpmW4CepW;BMR - 004;BMR - 019
+auto;IfcBeam;IfcBeam;0hcnAzu_1CSwe9HdKcZijy;092MTFevL1VR4Vq1DVFvtq;BMR - 004;BMR - 020
+auto;IfcBeam;IfcColumn;0hcnAzu_1CSwe9HdKcZijy;3rIxvugTT8sfOKIRV4EN$9;BMR - 004;CRE - 001
+auto;IfcBeam;IfcColumn;0hcnAzu_1CSwe9HdKcZijy;0nxGhktv9AZQtDQnOlNhdB;BMR - 004;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;3m32of8mf65BCn8_iKDwzH;0xGSuB0kD8bRB9KVjtWfV8;BMR - 005;BMR - 006
+auto;IfcBeam;IfcBeam;3m32of8mf65BCn8_iKDwzH;0u5p0Jd$D8g9PwpmW4CepW;BMR - 005;BMR - 019
+auto;IfcBeam;IfcBeam;3m32of8mf65BCn8_iKDwzH;092MTFevL1VR4Vq1DVFvtq;BMR - 005;BMR - 020
+auto;IfcBeam;IfcBeam;3m32of8mf65BCn8_iKDwzH;2jyvcMGNH3eQtfXehCW5M9;BMR - 005;BMR - 019
+auto;IfcBeam;IfcBeam;3m32of8mf65BCn8_iKDwzH;1XESaj$dXEqRYZ5mTfRqZo;BMR - 005;BMR - 020
+auto;IfcBeam;IfcColumn;3m32of8mf65BCn8_iKDwzH;0nxGhktv9AZQtDQnOlNhdB;BMR - 005;CRE - 001
+auto;IfcBeam;IfcColumn;3m32of8mf65BCn8_iKDwzH;0$Knh0VX1649Tfn3z4TQAD;BMR - 005;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0xGSuB0kD8bRB9KVjtWfV8;2jyvcMGNH3eQtfXehCW5M9;BMR - 006;BMR - 019
+auto;IfcBeam;IfcBeam;0xGSuB0kD8bRB9KVjtWfV8;1XESaj$dXEqRYZ5mTfRqZo;BMR - 006;BMR - 020
+auto;IfcBeam;IfcBeam;0xGSuB0kD8bRB9KVjtWfV8;3x7JSjD3zBJee9B7JmJL3d;BMR - 006;BMR - 019
+auto;IfcBeam;IfcBeam;0xGSuB0kD8bRB9KVjtWfV8;3bIF5Xqkv14QDOeGp_DLfU;BMR - 006;BMR - 020
+auto;IfcBeam;IfcColumn;0xGSuB0kD8bRB9KVjtWfV8;1yYCv1tbDD18i5rBMMToGC;BMR - 006;CRE - 001
+auto;IfcBeam;IfcColumn;0xGSuB0kD8bRB9KVjtWfV8;0$Knh0VX1649Tfn3z4TQAD;BMR - 006;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;2NSBoSyMT1Ux90jMuyc3XV;2Ta2WFyAD4uwIMODwkyq2a;BMR - 007;BMR - 020
+auto;IfcBeam;IfcBeam;2NSBoSyMT1Ux90jMuyc3XV;1gKCu_pjj3DeQk53PkBBfC;BMR - 007;BMR - 021
+auto;IfcBeam;IfcBeam;2NSBoSyMT1Ux90jMuyc3XV;092MTFevL1VR4Vq1DVFvtq;BMR - 007;BMR - 020
+auto;IfcBeam;IfcBeam;2NSBoSyMT1Ux90jMuyc3XV;3Z0UpN1Ib4gOGeoKGUngtb;BMR - 007;BMR - 021
+auto;IfcBeam;IfcColumn;2NSBoSyMT1Ux90jMuyc3XV;0SkeicCFLFvAcr3aSn4HNF;BMR - 007;CRE - 002
+auto;IfcBeam;IfcColumn;2NSBoSyMT1Ux90jMuyc3XV;34gtGDBAbDBeaZGV6wMApX;BMR - 007;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;1YHSCacrD21OtP0eVDBYEY;1XESaj$dXEqRYZ5mTfRqZo;BMR - 008;BMR - 020
+auto;IfcBeam;IfcBeam;1YHSCacrD21OtP0eVDBYEY;3B0afyOUr0EAmGY0S4t1$q;BMR - 008;BMR - 021
+auto;IfcBeam;IfcBeam;1YHSCacrD21OtP0eVDBYEY;3bIF5Xqkv14QDOeGp_DLfU;BMR - 008;BMR - 020
+auto;IfcBeam;IfcBeam;1YHSCacrD21OtP0eVDBYEY;2x40vGLhTAGvxCBXEvf1Mv;BMR - 008;BMR - 021
+auto;IfcBeam;IfcColumn;1YHSCacrD21OtP0eVDBYEY;22843sGpDCfPQkMJimNhoj;BMR - 008;CRE - 002
+auto;IfcBeam;IfcColumn;1YHSCacrD21OtP0eVDBYEY;18IBa1wy1AbAjHh7HWai$Q;BMR - 008;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;1phCWl4R18gRqnxN$R9Wa2;2kVxeYAu19GuRmjGrRzaJr;BMR - 011;BMR - 022
+auto;IfcBeam;IfcBeam;1phCWl4R18gRqnxN$R9Wa2;2zLlMzCVT2WBgF3CgyJjgR;BMR - 011;BMR - 023
+auto;IfcBeam;IfcBeam;1phCWl4R18gRqnxN$R9Wa2;3E5TyqD$H81BNrcuOdSTy8;BMR - 011;BMR - 022
+auto;IfcBeam;IfcBeam;1phCWl4R18gRqnxN$R9Wa2;3m419Zmm51RvLRm$2TEw3z;BMR - 011;BMR - 023
+auto;IfcBeam;IfcColumn;1phCWl4R18gRqnxN$R9Wa2;3PW1g6HNP798xLktH2roXx;BMR - 011;CRE - 002
+auto;IfcBeam;IfcColumn;1phCWl4R18gRqnxN$R9Wa2;1IDHxHMu1CDh$mWh3xZJnZ;BMR - 011;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3I5mNOp6b44AJIAXnWjqMy;10oGCcZtn1cPAzajEwKEfn;BMR - 012;BMR - 022
+auto;IfcBeam;IfcBeam;3I5mNOp6b44AJIAXnWjqMy;02adh2QYb8mAowFTUDfN45;BMR - 012;BMR - 023
+auto;IfcBeam;IfcBeam;3I5mNOp6b44AJIAXnWjqMy;1wL2qRULzDHgh4F7zPVS6N;BMR - 012;BMR - 022
+auto;IfcBeam;IfcColumn;3I5mNOp6b44AJIAXnWjqMy;2O8DKZTJXCmwhapduQ2MAz;BMR - 012;CRE - 002
+auto;IfcBeam;IfcColumn;3I5mNOp6b44AJIAXnWjqMy;2uTr_OFS1Dpxj6dMWy77g5;BMR - 012;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3ZPXatXGb29AYeMR29YQPv;0Xly5Xerr12B$oJ4_NkKPF;BMR - 013;BMR - 014
+auto;IfcBeam;IfcBeam;3ZPXatXGb29AYeMR29YQPv;02adh2QYb8mAowFTUDfN45;BMR - 013;BMR - 023
+auto;IfcBeam;IfcBeam;3ZPXatXGb29AYeMR29YQPv;3i4_rFohrCq8q0XKcl_ovx;BMR - 013;BMR - 024
+auto;IfcBeam;IfcColumn;3ZPXatXGb29AYeMR29YQPv;0ikPQI67nEuPzG$ZroWa9h;BMR - 013;CRE - 002
+auto;IfcBeam;IfcColumn;3ZPXatXGb29AYeMR29YQPv;19ZNfXLbj9o9DGnH2DaPHZ;BMR - 013;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;0Xly5Xerr12B$oJ4_NkKPF;30Fd0xWMrC2f3usbd_mizb;BMR - 014;BMR - 015
+auto;IfcBeam;IfcBeam;0Xly5Xerr12B$oJ4_NkKPF;3m419Zmm51RvLRm$2TEw3z;BMR - 014;BMR - 023
+auto;IfcBeam;IfcBeam;0Xly5Xerr12B$oJ4_NkKPF;3B1hMUncD0QxhnYZnI6rpI;BMR - 014;BMR - 024
+auto;IfcBeam;IfcBeam;0Xly5Xerr12B$oJ4_NkKPF;02adh2QYb8mAowFTUDfN45;BMR - 014;BMR - 023
+auto;IfcBeam;IfcBeam;0Xly5Xerr12B$oJ4_NkKPF;3i4_rFohrCq8q0XKcl_ovx;BMR - 014;BMR - 024
+auto;IfcBeam;IfcColumn;0Xly5Xerr12B$oJ4_NkKPF;2XWTw1t511vgLY9hrNeyEL;BMR - 014;CRE - 003
+auto;IfcBeam;IfcColumn;0Xly5Xerr12B$oJ4_NkKPF;19ZNfXLbj9o9DGnH2DaPHZ;BMR - 014;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;30Fd0xWMrC2f3usbd_mizb;2zLlMzCVT2WBgF3CgyJjgR;BMR - 015;BMR - 023
+auto;IfcBeam;IfcBeam;30Fd0xWMrC2f3usbd_mizb;00E6Ml$kv0AedjqicDKf$A;BMR - 015;BMR - 024
+auto;IfcBeam;IfcBeam;30Fd0xWMrC2f3usbd_mizb;3m419Zmm51RvLRm$2TEw3z;BMR - 015;BMR - 023
+auto;IfcBeam;IfcBeam;30Fd0xWMrC2f3usbd_mizb;3B1hMUncD0QxhnYZnI6rpI;BMR - 015;BMR - 024
+auto;IfcBeam;IfcColumn;30Fd0xWMrC2f3usbd_mizb;0MXDT9r9L9e94m8H_QvMLv;BMR - 015;CRE - 002
+auto;IfcBeam;IfcColumn;30Fd0xWMrC2f3usbd_mizb;2XWTw1t511vgLY9hrNeyEL;BMR - 015;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;0wKqBMjTzDxQTB7oWc3$5h;3KPaSyP$rAdPR9V6aR88vx;BMR - 016;BMR - 017
+auto;IfcBeam;IfcBeam;0wKqBMjTzDxQTB7oWc3$5h;00E6Ml$kv0AedjqicDKf$A;BMR - 016;BMR - 024
+auto;IfcBeam;IfcBeam;0wKqBMjTzDxQTB7oWc3$5h;3B1hMUncD0QxhnYZnI6rpI;BMR - 016;BMR - 024
+auto;IfcBeam;IfcColumn;0wKqBMjTzDxQTB7oWc3$5h;2mdmVZ4BX6oPb6zh87EM77;BMR - 016;CRE - 002
+auto;IfcBeam;IfcColumn;0wKqBMjTzDxQTB7oWc3$5h;2Wre_KcHX4pv$NQUqK8F6$;BMR - 016;CRE - 004
+;;;;;;
+auto;IfcBeam;IfcBeam;3KPaSyP$rAdPR9V6aR88vx;3B1hMUncD0QxhnYZnI6rpI;BMR - 017;BMR - 024
+auto;IfcBeam;IfcBeam;3KPaSyP$rAdPR9V6aR88vx;3i4_rFohrCq8q0XKcl_ovx;BMR - 017;BMR - 024
+auto;IfcBeam;IfcColumn;3KPaSyP$rAdPR9V6aR88vx;2Wre_KcHX4pv$NQUqK8F6$;BMR - 017;CRE - 004
+auto;IfcBeam;IfcColumn;3KPaSyP$rAdPR9V6aR88vx;2ah0KKYDH0nQHS$ech1KMY;BMR - 017;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcColumn;2IBg18Juj6xvSZlyylOFCT;1Yk_P_xoD1Ywdzd7Xgwqlb;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;2IBg18Juj6xvSZlyylOFCT;3rIxvugTT8sfOKIRV4EN$9;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;2Ta2WFyAD4uwIMODwkyq2a;3rIxvugTT8sfOKIRV4EN$9;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;2Ta2WFyAD4uwIMODwkyq2a;0SkeicCFLFvAcr3aSn4HNF;BMR - 020;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;1gKCu_pjj3DeQk53PkBBfC;2kVxeYAu19GuRmjGrRzaJr;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;1gKCu_pjj3DeQk53PkBBfC;07tD1Nh3zALeBI95EDDPFf;BMR - 021;CRE - 002
+auto;IfcBeam;IfcColumn;1gKCu_pjj3DeQk53PkBBfC;0SkeicCFLFvAcr3aSn4HNF;BMR - 021;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;2kVxeYAu19GuRmjGrRzaJr;3PW1g6HNP798xLktH2roXx;BMR - 022;CRE - 002
+auto;IfcBeam;IfcColumn;2kVxeYAu19GuRmjGrRzaJr;07tD1Nh3zALeBI95EDDPFf;BMR - 022;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;2zLlMzCVT2WBgF3CgyJjgR;0MXDT9r9L9e94m8H_QvMLv;BMR - 023;CRE - 002
+auto;IfcBeam;IfcColumn;2zLlMzCVT2WBgF3CgyJjgR;3PW1g6HNP798xLktH2roXx;BMR - 023;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;00E6Ml$kv0AedjqicDKf$A;2mdmVZ4BX6oPb6zh87EM77;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;00E6Ml$kv0AedjqicDKf$A;0MXDT9r9L9e94m8H_QvMLv;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;0u5p0Jd$D8g9PwpmW4CepW;0rFolR_v1FMOMCr8gLF3Xb;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;0u5p0Jd$D8g9PwpmW4CepW;0nxGhktv9AZQtDQnOlNhdB;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;092MTFevL1VR4Vq1DVFvtq;0nxGhktv9AZQtDQnOlNhdB;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;092MTFevL1VR4Vq1DVFvtq;34gtGDBAbDBeaZGV6wMApX;BMR - 020;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3Z0UpN1Ib4gOGeoKGUngtb;3E5TyqD$H81BNrcuOdSTy8;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;3Z0UpN1Ib4gOGeoKGUngtb;2$JnzPt5vEr8BxgYg$7mO7;BMR - 021;CRE - 003
+auto;IfcBeam;IfcColumn;3Z0UpN1Ib4gOGeoKGUngtb;34gtGDBAbDBeaZGV6wMApX;BMR - 021;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;3E5TyqD$H81BNrcuOdSTy8;1IDHxHMu1CDh$mWh3xZJnZ;BMR - 022;CRE - 003
+auto;IfcBeam;IfcColumn;3E5TyqD$H81BNrcuOdSTy8;2$JnzPt5vEr8BxgYg$7mO7;BMR - 022;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;3m419Zmm51RvLRm$2TEw3z;2XWTw1t511vgLY9hrNeyEL;BMR - 023;CRE - 003
+auto;IfcBeam;IfcColumn;3m419Zmm51RvLRm$2TEw3z;1IDHxHMu1CDh$mWh3xZJnZ;BMR - 023;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;3B1hMUncD0QxhnYZnI6rpI;2XWTw1t511vgLY9hrNeyEL;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;3B1hMUncD0QxhnYZnI6rpI;2Wre_KcHX4pv$NQUqK8F6$;BMR - 024;CRE - 004
+;;;;;;
+auto;IfcBeam;IfcColumn;2jyvcMGNH3eQtfXehCW5M9;22jLR1fuX4ewoJKpkInXxe;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;2jyvcMGNH3eQtfXehCW5M9;0$Knh0VX1649Tfn3z4TQAD;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;1XESaj$dXEqRYZ5mTfRqZo;0$Knh0VX1649Tfn3z4TQAD;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;1XESaj$dXEqRYZ5mTfRqZo;18IBa1wy1AbAjHh7HWai$Q;BMR - 020;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3B0afyOUr0EAmGY0S4t1$q;10oGCcZtn1cPAzajEwKEfn;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;3B0afyOUr0EAmGY0S4t1$q;18IBa1wy1AbAjHh7HWai$Q;BMR - 021;CRE - 003
+auto;IfcBeam;IfcColumn;3B0afyOUr0EAmGY0S4t1$q;0Q4ZWjd5TEgwKFqpm2u2mz;BMR - 021;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;10oGCcZtn1cPAzajEwKEfn;0Q4ZWjd5TEgwKFqpm2u2mz;BMR - 022;CRE - 003
+auto;IfcBeam;IfcColumn;10oGCcZtn1cPAzajEwKEfn;2uTr_OFS1Dpxj6dMWy77g5;BMR - 022;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;02adh2QYb8mAowFTUDfN45;19ZNfXLbj9o9DGnH2DaPHZ;BMR - 023;CRE - 003
+auto;IfcBeam;IfcColumn;02adh2QYb8mAowFTUDfN45;2uTr_OFS1Dpxj6dMWy77g5;BMR - 023;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;3i4_rFohrCq8q0XKcl_ovx;19ZNfXLbj9o9DGnH2DaPHZ;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;3i4_rFohrCq8q0XKcl_ovx;2ah0KKYDH0nQHS$ech1KMY;BMR - 024;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcColumn;3x7JSjD3zBJee9B7JmJL3d;2lW3vBFxzDbxEM4mN$lhwg;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;3x7JSjD3zBJee9B7JmJL3d;1yYCv1tbDD18i5rBMMToGC;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;3bIF5Xqkv14QDOeGp_DLfU;1yYCv1tbDD18i5rBMMToGC;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;3bIF5Xqkv14QDOeGp_DLfU;22843sGpDCfPQkMJimNhoj;BMR - 020;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;2x40vGLhTAGvxCBXEvf1Mv;1wL2qRULzDHgh4F7zPVS6N;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;2x40vGLhTAGvxCBXEvf1Mv;2f9aQZVnH4tQihncqY76cg;BMR - 021;CRE - 002
+auto;IfcBeam;IfcColumn;2x40vGLhTAGvxCBXEvf1Mv;22843sGpDCfPQkMJimNhoj;BMR - 021;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;1wL2qRULzDHgh4F7zPVS6N;2O8DKZTJXCmwhapduQ2MAz;BMR - 022;CRE - 002
+auto;IfcBeam;IfcColumn;1wL2qRULzDHgh4F7zPVS6N;2f9aQZVnH4tQihncqY76cg;BMR - 022;CRE - 002
+;;;;;;
+auto;IfcColumn;IfcBeam;1Yk_P_xoD1Ywdzd7Xgwqlb;3yKnlW_cjF1e5u1cCjiy_r;CRE - 001;BMR - 001
+auto;IfcColumn;IfcBeam;1Yk_P_xoD1Ywdzd7Xgwqlb;1pfgRwHM96A92_jwBH426w;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;2mdmVZ4BX6oPb6zh87EM77;17KNO1wN15XPscG7ODa8Dz;CRE - 002;BMR - 024
+auto;IfcColumn;IfcBeam;2mdmVZ4BX6oPb6zh87EM77;3iopm3tHDEyPn51TLxFZlh;CRE - 002;BMR - 016
+;;;;;;
+auto;IfcColumn;IfcBeam;2lW3vBFxzDbxEM4mN$lhwg;2x4aiPdgL5Y95qPbTWuEfD;CRE - 001;BMR - 003
+auto;IfcColumn;IfcBeam;2lW3vBFxzDbxEM4mN$lhwg;2Jts3_Noj3lfsWP7kvrDm_;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcColumn;2koB_urbP5CRCIVHxliNaA;0_i$ZoQZv4gP790rYJY7Eu;CRE - 001;CRE - 002
+auto;IfcColumn;IfcBeam;2koB_urbP5CRCIVHxliNaA;0V0NKgCubEEhC8p7wuYKSS;CRE - 001;BMR - 024
+auto;IfcColumn;IfcBeam;2koB_urbP5CRCIVHxliNaA;2OCnOIxUDD0wxGhkIhd2KN;CRE - 001;BMR - 024
+auto;IfcColumn;IfcBeam;2koB_urbP5CRCIVHxliNaA;26a8zHkHT9QANRMjxYxrn6;CRE - 001;BMR - 018
+;;;;;;
+auto;IfcColumn;IfcBeam;1yYCv1tbDD18i5rBMMToGC;1$IDGhLjX3B9gUYoIQTG9h;CRE - 001;BMR - 020
+auto;IfcColumn;IfcBeam;1yYCv1tbDD18i5rBMMToGC;0Ou7GdsCj4Sw1TnjHJQ9qB;CRE - 001;BMR - 006
+auto;IfcColumn;IfcBeam;1yYCv1tbDD18i5rBMMToGC;2mnrXiVpvAP8RucWOLIbYa;CRE - 001;BMR - 006
+auto;IfcColumn;IfcBeam;1yYCv1tbDD18i5rBMMToGC;2Jts3_Noj3lfsWP7kvrDm_;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;0MXDT9r9L9e94m8H_QvMLv;1HGValakb6xvr$kMUGR6NH;CRE - 002;BMR - 015
+auto;IfcColumn;IfcBeam;0MXDT9r9L9e94m8H_QvMLv;3xVJBDb6H8aAfZdgOwn4V5;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;0MXDT9r9L9e94m8H_QvMLv;17KNO1wN15XPscG7ODa8Dz;CRE - 002;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;0_i$ZoQZv4gP790rYJY7Eu;0V0NKgCubEEhC8p7wuYKSS;CRE - 002;BMR - 024
+auto;IfcColumn;IfcBeam;0_i$ZoQZv4gP790rYJY7Eu;2OCnOIxUDD0wxGhkIhd2KN;CRE - 002;BMR - 024
+auto;IfcColumn;IfcBeam;0_i$ZoQZv4gP790rYJY7Eu;26a8zHkHT9QANRMjxYxrn6;CRE - 002;BMR - 018
+;;;;;;
+auto;IfcColumn;IfcBeam;3rIxvugTT8sfOKIRV4EN$9;24sJYe4l9AexCK8JGlGr46;CRE - 001;BMR - 004
+auto;IfcColumn;IfcBeam;3rIxvugTT8sfOKIRV4EN$9;2BDJUvhF16yBfAoTw8$zie;CRE - 001;BMR - 004
+auto;IfcColumn;IfcBeam;3rIxvugTT8sfOKIRV4EN$9;1pfgRwHM96A92_jwBH426w;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;3rIxvugTT8sfOKIRV4EN$9;2QjdaUmF9Bqx0MJwIRGRBl;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;0ikPQI67nEuPzG$ZroWa9h;0V0NKgCubEEhC8p7wuYKSS;CRE - 002;BMR - 024
+auto;IfcColumn;IfcBeam;0ikPQI67nEuPzG$ZroWa9h;3i9DPagVjCnPA_6Xbgs57n;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;0ikPQI67nEuPzG$ZroWa9h;2OCnOIxUDD0wxGhkIhd2KN;CRE - 002;BMR - 024
+auto;IfcColumn;IfcBeam;0ikPQI67nEuPzG$ZroWa9h;3gohpEEQbCuhw47yxIqG_c;CRE - 002;BMR - 015
+;;;;;;
+auto;IfcColumn;IfcBeam;0rFolR_v1FMOMCr8gLF3Xb;3Geza17qT51PKdkJQUpTPm;CRE - 001;BMR - 002
+auto;IfcColumn;IfcBeam;0rFolR_v1FMOMCr8gLF3Xb;3yKnlW_cjF1e5u1cCjiy_r;CRE - 001;BMR - 001
+auto;IfcColumn;IfcBeam;0rFolR_v1FMOMCr8gLF3Xb;1MEoxEzGL9mQcGKQpZodCP;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;22jLR1fuX4ewoJKpkInXxe;3Geza17qT51PKdkJQUpTPm;CRE - 001;BMR - 002
+auto;IfcColumn;IfcBeam;22jLR1fuX4ewoJKpkInXxe;2x4aiPdgL5Y95qPbTWuEfD;CRE - 001;BMR - 003
+auto;IfcColumn;IfcBeam;22jLR1fuX4ewoJKpkInXxe;28mZ8PBHP91RZsMtJCo7Ex;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;0nxGhktv9AZQtDQnOlNhdB;24sJYe4l9AexCK8JGlGr46;CRE - 001;BMR - 004
+auto;IfcColumn;IfcBeam;0nxGhktv9AZQtDQnOlNhdB;29XGOrrmP018xGC__a5QOA;CRE - 001;BMR - 005
+auto;IfcColumn;IfcBeam;0nxGhktv9AZQtDQnOlNhdB;2BDJUvhF16yBfAoTw8$zie;CRE - 001;BMR - 004
+auto;IfcColumn;IfcBeam;0nxGhktv9AZQtDQnOlNhdB;1MEoxEzGL9mQcGKQpZodCP;CRE - 001;BMR - 019
+auto;IfcColumn;IfcBeam;0nxGhktv9AZQtDQnOlNhdB;1ezxDHi2H1_vQ1MOp4kbJ5;CRE - 001;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;0$Knh0VX1649Tfn3z4TQAD;29XGOrrmP018xGC__a5QOA;CRE - 001;BMR - 005
+auto;IfcColumn;IfcBeam;0$Knh0VX1649Tfn3z4TQAD;0Ou7GdsCj4Sw1TnjHJQ9qB;CRE - 001;BMR - 006
+auto;IfcColumn;IfcBeam;0$Knh0VX1649Tfn3z4TQAD;1tLxpRYob3OuaRYS4n_A4h;CRE - 001;BMR - 020
+auto;IfcColumn;IfcBeam;0$Knh0VX1649Tfn3z4TQAD;2mnrXiVpvAP8RucWOLIbYa;CRE - 001;BMR - 006
+auto;IfcColumn;IfcBeam;0$Knh0VX1649Tfn3z4TQAD;28mZ8PBHP91RZsMtJCo7Ex;CRE - 001;BMR - 019
+;;;;;;
+auto;IfcColumn;IfcBeam;2XWTw1t511vgLY9hrNeyEL;1HGValakb6xvr$kMUGR6NH;CRE - 003;BMR - 015
+auto;IfcColumn;IfcBeam;2XWTw1t511vgLY9hrNeyEL;1RJmnXjOz6KvSiKk7LlBwp;CRE - 003;BMR - 024
+auto;IfcColumn;IfcBeam;2XWTw1t511vgLY9hrNeyEL;0BxM1HVy1Dtx__yTmUHdNI;CRE - 003;BMR - 024
+auto;IfcColumn;IfcBeam;2XWTw1t511vgLY9hrNeyEL;0OSCg88bH3nApDixDRoj2J;CRE - 003;BMR - 023
+auto;IfcColumn;IfcBeam;2XWTw1t511vgLY9hrNeyEL;2r8_EiOtjFPfEl0w8b924a;CRE - 003;BMR - 005
+;;;;;;
+auto;IfcColumn;IfcBeam;19ZNfXLbj9o9DGnH2DaPHZ;0yrCNqvR564wLgYLuDE1_1;CRE - 003;BMR - 024
+auto;IfcColumn;IfcBeam;19ZNfXLbj9o9DGnH2DaPHZ;1$ebeR0vP2jR9t7$XxEUQ0;CRE - 003;BMR - 023
+auto;IfcColumn;IfcBeam;19ZNfXLbj9o9DGnH2DaPHZ;3gohpEEQbCuhw47yxIqG_c;CRE - 003;BMR - 015
+auto;IfcColumn;IfcBeam;19ZNfXLbj9o9DGnH2DaPHZ;2r8_EiOtjFPfEl0w8b924a;CRE - 003;BMR - 005
+;;;;;;
+auto;IfcColumn;IfcBeam;2Wre_KcHX4pv$NQUqK8F6$;1RJmnXjOz6KvSiKk7LlBwp;CRE - 004;BMR - 024
+auto;IfcColumn;IfcBeam;2Wre_KcHX4pv$NQUqK8F6$;3iopm3tHDEyPn51TLxFZlh;CRE - 004;BMR - 016
+auto;IfcColumn;IfcBeam;2Wre_KcHX4pv$NQUqK8F6$;0P03jFGxz37f5TMhz8khkT;CRE - 004;BMR - 017
+auto;IfcColumn;IfcBeam;2Wre_KcHX4pv$NQUqK8F6$;0BxM1HVy1Dtx__yTmUHdNI;CRE - 004;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;2ah0KKYDH0nQHS$ech1KMY;0P03jFGxz37f5TMhz8khkT;CRE - 005;BMR - 017
+auto;IfcColumn;IfcBeam;2ah0KKYDH0nQHS$ech1KMY;26a8zHkHT9QANRMjxYxrn6;CRE - 005;BMR - 018
+auto;IfcColumn;IfcBeam;2ah0KKYDH0nQHS$ech1KMY;0yrCNqvR564wLgYLuDE1_1;CRE - 005;BMR - 024
+;;;;;;
+auto;IfcColumn;IfcBeam;2O8DKZTJXCmwhapduQ2MAz;024KoVDL53lg61bo7nWoaw;CRE - 002;BMR - 022
+auto;IfcColumn;IfcBeam;2O8DKZTJXCmwhapduQ2MAz;3i9DPagVjCnPA_6Xbgs57n;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;2O8DKZTJXCmwhapduQ2MAz;02zPrgE0PDyQmuofkWTq6y;CRE - 002;BMR - 011
+;;;;;;
+auto;IfcColumn;IfcBeam;3PW1g6HNP798xLktH2roXx;3xVJBDb6H8aAfZdgOwn4V5;CRE - 002;BMR - 023
+auto;IfcColumn;IfcBeam;3PW1g6HNP798xLktH2roXx;3jkq38ifb7ffvrZgNm_Khj;CRE - 002;BMR - 011
+auto;IfcColumn;IfcBeam;3PW1g6HNP798xLktH2roXx;0Qt8N2IYTECRIpvcexAwlP;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;1IDHxHMu1CDh$mWh3xZJnZ;3jkq38ifb7ffvrZgNm_Khj;CRE - 003;BMR - 011
+auto;IfcColumn;IfcBeam;1IDHxHMu1CDh$mWh3xZJnZ;0OSCg88bH3nApDixDRoj2J;CRE - 003;BMR - 023
+auto;IfcColumn;IfcBeam;1IDHxHMu1CDh$mWh3xZJnZ;2qsXNWgH12Vv5FXHvPzZ9q;CRE - 003;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;2f9aQZVnH4tQihncqY76cg;1gMtEZH9nBKg0QICXdlB76;CRE - 002;BMR - 021
+auto;IfcColumn;IfcBeam;2f9aQZVnH4tQihncqY76cg;024KoVDL53lg61bo7nWoaw;CRE - 002;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;07tD1Nh3zALeBI95EDDPFf;0Qt8N2IYTECRIpvcexAwlP;CRE - 002;BMR - 022
+auto;IfcColumn;IfcBeam;07tD1Nh3zALeBI95EDDPFf;26UPUUQsH5HxvV5EDtw7SB;CRE - 002;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;2$JnzPt5vEr8BxgYg$7mO7;0fSo9MDg97ihrG8ETdDVvM;CRE - 003;BMR - 021
+auto;IfcColumn;IfcBeam;2$JnzPt5vEr8BxgYg$7mO7;2qsXNWgH12Vv5FXHvPzZ9q;CRE - 003;BMR - 022
+;;;;;;
+auto;IfcColumn;IfcBeam;22843sGpDCfPQkMJimNhoj;1$IDGhLjX3B9gUYoIQTG9h;CRE - 002;BMR - 020
+auto;IfcColumn;IfcBeam;22843sGpDCfPQkMJimNhoj;1gMtEZH9nBKg0QICXdlB76;CRE - 002;BMR - 021
+auto;IfcColumn;IfcBeam;22843sGpDCfPQkMJimNhoj;0McIKRtB9AhQBvJ_XrbefJ;CRE - 002;BMR - 008
+;;;;;;
+auto;IfcColumn;IfcBeam;0SkeicCFLFvAcr3aSn4HNF;2QjdaUmF9Bqx0MJwIRGRBl;CRE - 002;BMR - 020
+auto;IfcColumn;IfcBeam;0SkeicCFLFvAcr3aSn4HNF;0PqBKxRWX01vswryq7ciMC;CRE - 002;BMR - 007
+auto;IfcColumn;IfcBeam;0SkeicCFLFvAcr3aSn4HNF;26UPUUQsH5HxvV5EDtw7SB;CRE - 002;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;34gtGDBAbDBeaZGV6wMApX;0fSo9MDg97ihrG8ETdDVvM;CRE - 003;BMR - 021
+auto;IfcColumn;IfcBeam;34gtGDBAbDBeaZGV6wMApX;0PqBKxRWX01vswryq7ciMC;CRE - 003;BMR - 007
+auto;IfcColumn;IfcBeam;34gtGDBAbDBeaZGV6wMApX;1ezxDHi2H1_vQ1MOp4kbJ5;CRE - 003;BMR - 020
+;;;;;;
+auto;IfcColumn;IfcBeam;18IBa1wy1AbAjHh7HWai$Q;1tLxpRYob3OuaRYS4n_A4h;CRE - 003;BMR - 020
+auto;IfcColumn;IfcBeam;18IBa1wy1AbAjHh7HWai$Q;0McIKRtB9AhQBvJ_XrbefJ;CRE - 003;BMR - 008
+auto;IfcColumn;IfcBeam;18IBa1wy1AbAjHh7HWai$Q;1miqtvIMT3_edggO3wlNpv;CRE - 003;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;0Q4ZWjd5TEgwKFqpm2u2mz;2xfmt1qJv7TurLKlB61jLW;CRE - 003;BMR - 022
+auto;IfcColumn;IfcBeam;0Q4ZWjd5TEgwKFqpm2u2mz;1miqtvIMT3_edggO3wlNpv;CRE - 003;BMR - 021
+;;;;;;
+auto;IfcColumn;IfcBeam;2uTr_OFS1Dpxj6dMWy77g5;2xfmt1qJv7TurLKlB61jLW;CRE - 003;BMR - 022
+auto;IfcColumn;IfcBeam;2uTr_OFS1Dpxj6dMWy77g5;1$ebeR0vP2jR9t7$XxEUQ0;CRE - 003;BMR - 023
+auto;IfcColumn;IfcBeam;2uTr_OFS1Dpxj6dMWy77g5;02zPrgE0PDyQmuofkWTq6y;CRE - 003;BMR - 011
+;;;;;;
+auto;IfcBeam;IfcBeam;1$IDGhLjX3B9gUYoIQTG9h;0Ou7GdsCj4Sw1TnjHJQ9qB;BMR - 020;BMR - 006
+auto;IfcBeam;IfcBeam;1$IDGhLjX3B9gUYoIQTG9h;2mnrXiVpvAP8RucWOLIbYa;BMR - 020;BMR - 006
+auto;IfcBeam;IfcBeam;1$IDGhLjX3B9gUYoIQTG9h;0McIKRtB9AhQBvJ_XrbefJ;BMR - 020;BMR - 008
+auto;IfcBeam;IfcColumn;1$IDGhLjX3B9gUYoIQTG9h;2WnArHTzj4xRAuo0nsZDfW;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;1$IDGhLjX3B9gUYoIQTG9h;1EaMI0rqH8LeOffD_b96$G;BMR - 020;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;3Geza17qT51PKdkJQUpTPm;2x4aiPdgL5Y95qPbTWuEfD;BMR - 002;BMR - 003
+auto;IfcBeam;IfcBeam;3Geza17qT51PKdkJQUpTPm;3yKnlW_cjF1e5u1cCjiy_r;BMR - 002;BMR - 001
+auto;IfcBeam;IfcBeam;3Geza17qT51PKdkJQUpTPm;1MEoxEzGL9mQcGKQpZodCP;BMR - 002;BMR - 019
+auto;IfcBeam;IfcBeam;3Geza17qT51PKdkJQUpTPm;28mZ8PBHP91RZsMtJCo7Ex;BMR - 002;BMR - 019
+auto;IfcBeam;IfcColumn;3Geza17qT51PKdkJQUpTPm;3qKoiFsu1E7B5wES6QAr0B;BMR - 002;CRE - 001
+auto;IfcBeam;IfcColumn;3Geza17qT51PKdkJQUpTPm;3xf1uYHNnAousCZthkQ8gF;BMR - 002;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;2x4aiPdgL5Y95qPbTWuEfD;28mZ8PBHP91RZsMtJCo7Ex;BMR - 003;BMR - 019
+auto;IfcBeam;IfcBeam;2x4aiPdgL5Y95qPbTWuEfD;2Jts3_Noj3lfsWP7kvrDm_;BMR - 003;BMR - 019
+auto;IfcBeam;IfcColumn;2x4aiPdgL5Y95qPbTWuEfD;3moCPzD4XFkAgfTDwYMWLr;BMR - 003;CRE - 001
+auto;IfcBeam;IfcColumn;2x4aiPdgL5Y95qPbTWuEfD;3xf1uYHNnAousCZthkQ8gF;BMR - 003;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;24sJYe4l9AexCK8JGlGr46;29XGOrrmP018xGC__a5QOA;BMR - 004;BMR - 005
+auto;IfcBeam;IfcBeam;24sJYe4l9AexCK8JGlGr46;2BDJUvhF16yBfAoTw8$zie;BMR - 004;BMR - 004
+auto;IfcBeam;IfcBeam;24sJYe4l9AexCK8JGlGr46;1pfgRwHM96A92_jwBH426w;BMR - 004;BMR - 019
+auto;IfcBeam;IfcBeam;24sJYe4l9AexCK8JGlGr46;2QjdaUmF9Bqx0MJwIRGRBl;BMR - 004;BMR - 020
+auto;IfcBeam;IfcBeam;24sJYe4l9AexCK8JGlGr46;1MEoxEzGL9mQcGKQpZodCP;BMR - 004;BMR - 019
+auto;IfcBeam;IfcBeam;24sJYe4l9AexCK8JGlGr46;1ezxDHi2H1_vQ1MOp4kbJ5;BMR - 004;BMR - 020
+auto;IfcBeam;IfcColumn;24sJYe4l9AexCK8JGlGr46;3RRKf_9813rQqFV3Uk2yd1;BMR - 004;CRE - 001
+auto;IfcBeam;IfcColumn;24sJYe4l9AexCK8JGlGr46;3VKH0fNnz9WuDz03qCEtTk;BMR - 004;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;29XGOrrmP018xGC__a5QOA;0Ou7GdsCj4Sw1TnjHJQ9qB;BMR - 005;BMR - 006
+auto;IfcBeam;IfcBeam;29XGOrrmP018xGC__a5QOA;1tLxpRYob3OuaRYS4n_A4h;BMR - 005;BMR - 020
+auto;IfcBeam;IfcBeam;29XGOrrmP018xGC__a5QOA;2BDJUvhF16yBfAoTw8$zie;BMR - 005;BMR - 004
+auto;IfcBeam;IfcBeam;29XGOrrmP018xGC__a5QOA;2mnrXiVpvAP8RucWOLIbYa;BMR - 005;BMR - 006
+auto;IfcBeam;IfcBeam;29XGOrrmP018xGC__a5QOA;1MEoxEzGL9mQcGKQpZodCP;BMR - 005;BMR - 019
+auto;IfcBeam;IfcBeam;29XGOrrmP018xGC__a5QOA;1ezxDHi2H1_vQ1MOp4kbJ5;BMR - 005;BMR - 020
+auto;IfcBeam;IfcBeam;29XGOrrmP018xGC__a5QOA;28mZ8PBHP91RZsMtJCo7Ex;BMR - 005;BMR - 019
+auto;IfcBeam;IfcColumn;29XGOrrmP018xGC__a5QOA;3VKH0fNnz9WuDz03qCEtTk;BMR - 005;CRE - 001
+auto;IfcBeam;IfcColumn;29XGOrrmP018xGC__a5QOA;26T4xwL7536AkEX1utGryX;BMR - 005;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0Ou7GdsCj4Sw1TnjHJQ9qB;1tLxpRYob3OuaRYS4n_A4h;BMR - 006;BMR - 020
+auto;IfcBeam;IfcBeam;0Ou7GdsCj4Sw1TnjHJQ9qB;2mnrXiVpvAP8RucWOLIbYa;BMR - 006;BMR - 006
+auto;IfcBeam;IfcBeam;0Ou7GdsCj4Sw1TnjHJQ9qB;28mZ8PBHP91RZsMtJCo7Ex;BMR - 006;BMR - 019
+auto;IfcBeam;IfcBeam;0Ou7GdsCj4Sw1TnjHJQ9qB;2Jts3_Noj3lfsWP7kvrDm_;BMR - 006;BMR - 019
+auto;IfcBeam;IfcColumn;0Ou7GdsCj4Sw1TnjHJQ9qB;2WnArHTzj4xRAuo0nsZDfW;BMR - 006;CRE - 001
+auto;IfcBeam;IfcColumn;0Ou7GdsCj4Sw1TnjHJQ9qB;26T4xwL7536AkEX1utGryX;BMR - 006;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;1HGValakb6xvr$kMUGR6NH;3xVJBDb6H8aAfZdgOwn4V5;BMR - 015;BMR - 023
+auto;IfcBeam;IfcBeam;1HGValakb6xvr$kMUGR6NH;17KNO1wN15XPscG7ODa8Dz;BMR - 015;BMR - 024
+auto;IfcBeam;IfcBeam;1HGValakb6xvr$kMUGR6NH;1RJmnXjOz6KvSiKk7LlBwp;BMR - 015;BMR - 024
+auto;IfcBeam;IfcBeam;1HGValakb6xvr$kMUGR6NH;0BxM1HVy1Dtx__yTmUHdNI;BMR - 015;BMR - 024
+auto;IfcBeam;IfcBeam;1HGValakb6xvr$kMUGR6NH;0OSCg88bH3nApDixDRoj2J;BMR - 015;BMR - 023
+auto;IfcBeam;IfcBeam;1HGValakb6xvr$kMUGR6NH;2r8_EiOtjFPfEl0w8b924a;BMR - 015;BMR - 005
+auto;IfcBeam;IfcColumn;1HGValakb6xvr$kMUGR6NH;2o8YacL6j7tviVdizYrxTu;BMR - 015;CRE - 002
+auto;IfcBeam;IfcColumn;1HGValakb6xvr$kMUGR6NH;2q3nRa6XP25RdY8Xk7tIFp;BMR - 015;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3xVJBDb6H8aAfZdgOwn4V5;3jkq38ifb7ffvrZgNm_Khj;BMR - 023;BMR - 011
+auto;IfcBeam;IfcColumn;3xVJBDb6H8aAfZdgOwn4V5;2o8YacL6j7tviVdizYrxTu;BMR - 023;CRE - 002
+auto;IfcBeam;IfcColumn;3xVJBDb6H8aAfZdgOwn4V5;3louBkaKHFA9XtCmTwBzDT;BMR - 023;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;17KNO1wN15XPscG7ODa8Dz;3iopm3tHDEyPn51TLxFZlh;BMR - 024;BMR - 016
+auto;IfcBeam;IfcColumn;17KNO1wN15XPscG7ODa8Dz;2IEYYe8U11hejMwF6tp8l5;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;17KNO1wN15XPscG7ODa8Dz;2o8YacL6j7tviVdizYrxTu;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;0fSo9MDg97ihrG8ETdDVvM;0PqBKxRWX01vswryq7ciMC;BMR - 021;BMR - 007
+auto;IfcBeam;IfcBeam;0fSo9MDg97ihrG8ETdDVvM;2qsXNWgH12Vv5FXHvPzZ9q;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;0fSo9MDg97ihrG8ETdDVvM;1TqKrZRd14LxBJfzP7a6Px;BMR - 021;CRE - 003
+auto;IfcBeam;IfcColumn;0fSo9MDg97ihrG8ETdDVvM;0vRjLYG9D52OR099upPfBZ;BMR - 021;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;1RJmnXjOz6KvSiKk7LlBwp;3iopm3tHDEyPn51TLxFZlh;BMR - 024;BMR - 016
+auto;IfcBeam;IfcBeam;1RJmnXjOz6KvSiKk7LlBwp;0P03jFGxz37f5TMhz8khkT;BMR - 024;BMR - 017
+auto;IfcBeam;IfcBeam;1RJmnXjOz6KvSiKk7LlBwp;0BxM1HVy1Dtx__yTmUHdNI;BMR - 024;BMR - 024
+auto;IfcBeam;IfcBeam;1RJmnXjOz6KvSiKk7LlBwp;2r8_EiOtjFPfEl0w8b924a;BMR - 024;BMR - 005
+auto;IfcBeam;IfcColumn;1RJmnXjOz6KvSiKk7LlBwp;2q3nRa6XP25RdY8Xk7tIFp;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;1RJmnXjOz6KvSiKk7LlBwp;2ageK7xfP3EhcTuP1VKiPl;BMR - 024;CRE - 004
+;;;;;;
+auto;IfcBeam;IfcBeam;1tLxpRYob3OuaRYS4n_A4h;2mnrXiVpvAP8RucWOLIbYa;BMR - 020;BMR - 006
+auto;IfcBeam;IfcBeam;1tLxpRYob3OuaRYS4n_A4h;0McIKRtB9AhQBvJ_XrbefJ;BMR - 020;BMR - 008
+auto;IfcBeam;IfcColumn;1tLxpRYob3OuaRYS4n_A4h;26T4xwL7536AkEX1utGryX;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;1tLxpRYob3OuaRYS4n_A4h;3Q$Y8bvQ15V8VWb5fBDLSP;BMR - 020;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;1gMtEZH9nBKg0QICXdlB76;0McIKRtB9AhQBvJ_XrbefJ;BMR - 021;BMR - 008
+auto;IfcBeam;IfcBeam;1gMtEZH9nBKg0QICXdlB76;024KoVDL53lg61bo7nWoaw;BMR - 021;BMR - 022
+auto;IfcBeam;IfcColumn;1gMtEZH9nBKg0QICXdlB76;0Nu6G8pN55$ByptiJ_N01J;BMR - 021;CRE - 002
+auto;IfcBeam;IfcColumn;1gMtEZH9nBKg0QICXdlB76;1EaMI0rqH8LeOffD_b96$G;BMR - 021;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;0V0NKgCubEEhC8p7wuYKSS;2OCnOIxUDD0wxGhkIhd2KN;BMR - 024;BMR - 024
+auto;IfcBeam;IfcBeam;0V0NKgCubEEhC8p7wuYKSS;26a8zHkHT9QANRMjxYxrn6;BMR - 024;BMR - 018
+auto;IfcBeam;IfcBeam;0V0NKgCubEEhC8p7wuYKSS;3gohpEEQbCuhw47yxIqG_c;BMR - 024;BMR - 015
+auto;IfcBeam;IfcColumn;0V0NKgCubEEhC8p7wuYKSS;2OneS2DeP0dBV5FtJ5P95L;BMR - 024;CRE - 001
+auto;IfcBeam;IfcColumn;0V0NKgCubEEhC8p7wuYKSS;0fbZcF8BP4CAbQBBHORDtW;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;0V0NKgCubEEhC8p7wuYKSS;2bG7LxED5EYhFdEELTJ8js;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;3yKnlW_cjF1e5u1cCjiy_r;1pfgRwHM96A92_jwBH426w;BMR - 001;BMR - 019
+auto;IfcBeam;IfcBeam;3yKnlW_cjF1e5u1cCjiy_r;1MEoxEzGL9mQcGKQpZodCP;BMR - 001;BMR - 019
+auto;IfcBeam;IfcColumn;3yKnlW_cjF1e5u1cCjiy_r;1cRyHsncP4aPnhR37E18BT;BMR - 001;CRE - 001
+auto;IfcBeam;IfcColumn;3yKnlW_cjF1e5u1cCjiy_r;3qKoiFsu1E7B5wES6QAr0B;BMR - 001;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;2BDJUvhF16yBfAoTw8$zie;1pfgRwHM96A92_jwBH426w;BMR - 004;BMR - 019
+auto;IfcBeam;IfcBeam;2BDJUvhF16yBfAoTw8$zie;2QjdaUmF9Bqx0MJwIRGRBl;BMR - 004;BMR - 020
+auto;IfcBeam;IfcBeam;2BDJUvhF16yBfAoTw8$zie;1MEoxEzGL9mQcGKQpZodCP;BMR - 004;BMR - 019
+auto;IfcBeam;IfcBeam;2BDJUvhF16yBfAoTw8$zie;1ezxDHi2H1_vQ1MOp4kbJ5;BMR - 004;BMR - 020
+auto;IfcBeam;IfcColumn;2BDJUvhF16yBfAoTw8$zie;3RRKf_9813rQqFV3Uk2yd1;BMR - 004;CRE - 001
+auto;IfcBeam;IfcColumn;2BDJUvhF16yBfAoTw8$zie;3VKH0fNnz9WuDz03qCEtTk;BMR - 004;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;2mnrXiVpvAP8RucWOLIbYa;28mZ8PBHP91RZsMtJCo7Ex;BMR - 006;BMR - 019
+auto;IfcBeam;IfcBeam;2mnrXiVpvAP8RucWOLIbYa;2Jts3_Noj3lfsWP7kvrDm_;BMR - 006;BMR - 019
+auto;IfcBeam;IfcColumn;2mnrXiVpvAP8RucWOLIbYa;2WnArHTzj4xRAuo0nsZDfW;BMR - 006;CRE - 001
+auto;IfcBeam;IfcColumn;2mnrXiVpvAP8RucWOLIbYa;26T4xwL7536AkEX1utGryX;BMR - 006;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;0McIKRtB9AhQBvJ_XrbefJ;1miqtvIMT3_edggO3wlNpv;BMR - 008;BMR - 021
+auto;IfcBeam;IfcColumn;0McIKRtB9AhQBvJ_XrbefJ;1EaMI0rqH8LeOffD_b96$G;BMR - 008;CRE - 002
+auto;IfcBeam;IfcColumn;0McIKRtB9AhQBvJ_XrbefJ;3Q$Y8bvQ15V8VWb5fBDLSP;BMR - 008;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3jkq38ifb7ffvrZgNm_Khj;0Qt8N2IYTECRIpvcexAwlP;BMR - 011;BMR - 022
+auto;IfcBeam;IfcBeam;3jkq38ifb7ffvrZgNm_Khj;0OSCg88bH3nApDixDRoj2J;BMR - 011;BMR - 023
+auto;IfcBeam;IfcBeam;3jkq38ifb7ffvrZgNm_Khj;2qsXNWgH12Vv5FXHvPzZ9q;BMR - 011;BMR - 022
+auto;IfcBeam;IfcColumn;3jkq38ifb7ffvrZgNm_Khj;3louBkaKHFA9XtCmTwBzDT;BMR - 011;CRE - 002
+auto;IfcBeam;IfcColumn;3jkq38ifb7ffvrZgNm_Khj;1udZ7yQT52LfnSK3_Vgmsm;BMR - 011;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;2xfmt1qJv7TurLKlB61jLW;1miqtvIMT3_edggO3wlNpv;BMR - 022;BMR - 021
+auto;IfcBeam;IfcBeam;2xfmt1qJv7TurLKlB61jLW;02zPrgE0PDyQmuofkWTq6y;BMR - 022;BMR - 011
+auto;IfcBeam;IfcColumn;2xfmt1qJv7TurLKlB61jLW;3BXbsnCprCrQ9IxeCA0SfT;BMR - 022;CRE - 003
+auto;IfcBeam;IfcColumn;2xfmt1qJv7TurLKlB61jLW;2uYXr6rjz9yBNacUqwCdS_;BMR - 022;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3iopm3tHDEyPn51TLxFZlh;0P03jFGxz37f5TMhz8khkT;BMR - 016;BMR - 017
+auto;IfcBeam;IfcBeam;3iopm3tHDEyPn51TLxFZlh;0BxM1HVy1Dtx__yTmUHdNI;BMR - 016;BMR - 024
+auto;IfcBeam;IfcColumn;3iopm3tHDEyPn51TLxFZlh;2IEYYe8U11hejMwF6tp8l5;BMR - 016;CRE - 002
+auto;IfcBeam;IfcColumn;3iopm3tHDEyPn51TLxFZlh;2ageK7xfP3EhcTuP1VKiPl;BMR - 016;CRE - 004
+;;;;;;
+auto;IfcBeam;IfcBeam;0P03jFGxz37f5TMhz8khkT;0BxM1HVy1Dtx__yTmUHdNI;BMR - 017;BMR - 024
+auto;IfcBeam;IfcBeam;0P03jFGxz37f5TMhz8khkT;26a8zHkHT9QANRMjxYxrn6;BMR - 017;BMR - 018
+auto;IfcBeam;IfcBeam;0P03jFGxz37f5TMhz8khkT;0yrCNqvR564wLgYLuDE1_1;BMR - 017;BMR - 024
+auto;IfcBeam;IfcColumn;0P03jFGxz37f5TMhz8khkT;2ageK7xfP3EhcTuP1VKiPl;BMR - 017;CRE - 004
+auto;IfcBeam;IfcColumn;0P03jFGxz37f5TMhz8khkT;2hWijKN$147RbLslsGs4zM;BMR - 017;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcColumn;1pfgRwHM96A92_jwBH426w;1cRyHsncP4aPnhR37E18BT;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;1pfgRwHM96A92_jwBH426w;3RRKf_9813rQqFV3Uk2yd1;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;2QjdaUmF9Bqx0MJwIRGRBl;0PqBKxRWX01vswryq7ciMC;BMR - 020;BMR - 007
+auto;IfcBeam;IfcColumn;2QjdaUmF9Bqx0MJwIRGRBl;3RRKf_9813rQqFV3Uk2yd1;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;2QjdaUmF9Bqx0MJwIRGRBl;2ihOc9HAL6TR$_xzjpsCX0;BMR - 020;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;0PqBKxRWX01vswryq7ciMC;1ezxDHi2H1_vQ1MOp4kbJ5;BMR - 007;BMR - 020
+auto;IfcBeam;IfcBeam;0PqBKxRWX01vswryq7ciMC;26UPUUQsH5HxvV5EDtw7SB;BMR - 007;BMR - 021
+auto;IfcBeam;IfcColumn;0PqBKxRWX01vswryq7ciMC;2ihOc9HAL6TR$_xzjpsCX0;BMR - 007;CRE - 002
+auto;IfcBeam;IfcColumn;0PqBKxRWX01vswryq7ciMC;0vRjLYG9D52OR099upPfBZ;BMR - 007;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;0Qt8N2IYTECRIpvcexAwlP;26UPUUQsH5HxvV5EDtw7SB;BMR - 022;BMR - 021
+auto;IfcBeam;IfcColumn;0Qt8N2IYTECRIpvcexAwlP;3louBkaKHFA9XtCmTwBzDT;BMR - 022;CRE - 002
+auto;IfcBeam;IfcColumn;0Qt8N2IYTECRIpvcexAwlP;29AjkplTD5GQR_p1o8yfNZ;BMR - 022;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcColumn;1MEoxEzGL9mQcGKQpZodCP;3qKoiFsu1E7B5wES6QAr0B;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;1MEoxEzGL9mQcGKQpZodCP;3VKH0fNnz9WuDz03qCEtTk;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;1ezxDHi2H1_vQ1MOp4kbJ5;3VKH0fNnz9WuDz03qCEtTk;BMR - 020;CRE - 001
+auto;IfcBeam;IfcColumn;1ezxDHi2H1_vQ1MOp4kbJ5;0vRjLYG9D52OR099upPfBZ;BMR - 020;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;0BxM1HVy1Dtx__yTmUHdNI;2r8_EiOtjFPfEl0w8b924a;BMR - 024;BMR - 005
+auto;IfcBeam;IfcColumn;0BxM1HVy1Dtx__yTmUHdNI;2q3nRa6XP25RdY8Xk7tIFp;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;0BxM1HVy1Dtx__yTmUHdNI;2ageK7xfP3EhcTuP1VKiPl;BMR - 024;CRE - 004
+;;;;;;
+auto;IfcBeam;IfcColumn;28mZ8PBHP91RZsMtJCo7Ex;3xf1uYHNnAousCZthkQ8gF;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;28mZ8PBHP91RZsMtJCo7Ex;26T4xwL7536AkEX1utGryX;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcColumn;1miqtvIMT3_edggO3wlNpv;3Q$Y8bvQ15V8VWb5fBDLSP;BMR - 021;CRE - 003
+auto;IfcBeam;IfcColumn;1miqtvIMT3_edggO3wlNpv;3BXbsnCprCrQ9IxeCA0SfT;BMR - 021;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;2Jts3_Noj3lfsWP7kvrDm_;3moCPzD4XFkAgfTDwYMWLr;BMR - 019;CRE - 001
+auto;IfcBeam;IfcColumn;2Jts3_Noj3lfsWP7kvrDm_;2WnArHTzj4xRAuo0nsZDfW;BMR - 019;CRE - 001
+;;;;;;
+auto;IfcBeam;IfcBeam;024KoVDL53lg61bo7nWoaw;02zPrgE0PDyQmuofkWTq6y;BMR - 022;BMR - 011
+auto;IfcBeam;IfcColumn;024KoVDL53lg61bo7nWoaw;0ACj7PsC11dwZjRovjC$k8;BMR - 022;CRE - 002
+auto;IfcBeam;IfcColumn;024KoVDL53lg61bo7nWoaw;0Nu6G8pN55$ByptiJ_N01J;BMR - 022;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;3i9DPagVjCnPA_6Xbgs57n;3gohpEEQbCuhw47yxIqG_c;BMR - 023;BMR - 015
+auto;IfcBeam;IfcBeam;3i9DPagVjCnPA_6Xbgs57n;02zPrgE0PDyQmuofkWTq6y;BMR - 023;BMR - 011
+auto;IfcBeam;IfcColumn;3i9DPagVjCnPA_6Xbgs57n;2bG7LxED5EYhFdEELTJ8js;BMR - 023;CRE - 002
+auto;IfcBeam;IfcColumn;3i9DPagVjCnPA_6Xbgs57n;0ACj7PsC11dwZjRovjC$k8;BMR - 023;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;2OCnOIxUDD0wxGhkIhd2KN;26a8zHkHT9QANRMjxYxrn6;BMR - 024;BMR - 018
+auto;IfcBeam;IfcBeam;2OCnOIxUDD0wxGhkIhd2KN;3gohpEEQbCuhw47yxIqG_c;BMR - 024;BMR - 015
+auto;IfcBeam;IfcColumn;2OCnOIxUDD0wxGhkIhd2KN;2OneS2DeP0dBV5FtJ5P95L;BMR - 024;CRE - 001
+auto;IfcBeam;IfcColumn;2OCnOIxUDD0wxGhkIhd2KN;0fbZcF8BP4CAbQBBHORDtW;BMR - 024;CRE - 002
+auto;IfcBeam;IfcColumn;2OCnOIxUDD0wxGhkIhd2KN;2bG7LxED5EYhFdEELTJ8js;BMR - 024;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;26a8zHkHT9QANRMjxYxrn6;0yrCNqvR564wLgYLuDE1_1;BMR - 018;BMR - 024
+auto;IfcBeam;IfcColumn;26a8zHkHT9QANRMjxYxrn6;2OneS2DeP0dBV5FtJ5P95L;BMR - 018;CRE - 001
+auto;IfcBeam;IfcColumn;26a8zHkHT9QANRMjxYxrn6;0fbZcF8BP4CAbQBBHORDtW;BMR - 018;CRE - 002
+auto;IfcBeam;IfcColumn;26a8zHkHT9QANRMjxYxrn6;2hWijKN$147RbLslsGs4zM;BMR - 018;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcColumn;26UPUUQsH5HxvV5EDtw7SB;29AjkplTD5GQR_p1o8yfNZ;BMR - 021;CRE - 002
+auto;IfcBeam;IfcColumn;26UPUUQsH5HxvV5EDtw7SB;2ihOc9HAL6TR$_xzjpsCX0;BMR - 021;CRE - 002
+;;;;;;
+auto;IfcBeam;IfcBeam;0yrCNqvR564wLgYLuDE1_1;3gohpEEQbCuhw47yxIqG_c;BMR - 024;BMR - 015
+auto;IfcBeam;IfcBeam;0yrCNqvR564wLgYLuDE1_1;2r8_EiOtjFPfEl0w8b924a;BMR - 024;BMR - 005
+auto;IfcBeam;IfcColumn;0yrCNqvR564wLgYLuDE1_1;38x4kifMvCOfoF6gkHwodH;BMR - 024;CRE - 003
+auto;IfcBeam;IfcColumn;0yrCNqvR564wLgYLuDE1_1;2hWijKN$147RbLslsGs4zM;BMR - 024;CRE - 005
+;;;;;;
+auto;IfcBeam;IfcBeam;0OSCg88bH3nApDixDRoj2J;2r8_EiOtjFPfEl0w8b924a;BMR - 023;BMR - 005
+auto;IfcBeam;IfcColumn;0OSCg88bH3nApDixDRoj2J;2q3nRa6XP25RdY8Xk7tIFp;BMR - 023;CRE - 003
+auto;IfcBeam;IfcColumn;0OSCg88bH3nApDixDRoj2J;1udZ7yQT52LfnSK3_Vgmsm;BMR - 023;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;2qsXNWgH12Vv5FXHvPzZ9q;1udZ7yQT52LfnSK3_Vgmsm;BMR - 022;CRE - 003
+auto;IfcBeam;IfcColumn;2qsXNWgH12Vv5FXHvPzZ9q;1TqKrZRd14LxBJfzP7a6Px;BMR - 022;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;1$ebeR0vP2jR9t7$XxEUQ0;3gohpEEQbCuhw47yxIqG_c;BMR - 023;BMR - 015
+auto;IfcBeam;IfcBeam;1$ebeR0vP2jR9t7$XxEUQ0;02zPrgE0PDyQmuofkWTq6y;BMR - 023;BMR - 011
+auto;IfcBeam;IfcBeam;1$ebeR0vP2jR9t7$XxEUQ0;2r8_EiOtjFPfEl0w8b924a;BMR - 023;BMR - 005
+auto;IfcBeam;IfcColumn;1$ebeR0vP2jR9t7$XxEUQ0;38x4kifMvCOfoF6gkHwodH;BMR - 023;CRE - 003
+auto;IfcBeam;IfcColumn;1$ebeR0vP2jR9t7$XxEUQ0;2uYXr6rjz9yBNacUqwCdS_;BMR - 023;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcBeam;3gohpEEQbCuhw47yxIqG_c;2r8_EiOtjFPfEl0w8b924a;BMR - 015;BMR - 005
+auto;IfcBeam;IfcColumn;3gohpEEQbCuhw47yxIqG_c;2bG7LxED5EYhFdEELTJ8js;BMR - 015;CRE - 002
+auto;IfcBeam;IfcColumn;3gohpEEQbCuhw47yxIqG_c;38x4kifMvCOfoF6gkHwodH;BMR - 015;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;02zPrgE0PDyQmuofkWTq6y;0ACj7PsC11dwZjRovjC$k8;BMR - 011;CRE - 002
+auto;IfcBeam;IfcColumn;02zPrgE0PDyQmuofkWTq6y;2uYXr6rjz9yBNacUqwCdS_;BMR - 011;CRE - 003
+;;;;;;
+auto;IfcBeam;IfcColumn;2r8_EiOtjFPfEl0w8b924a;2q3nRa6XP25RdY8Xk7tIFp;BMR - 005;CRE - 003
+auto;IfcBeam;IfcColumn;2r8_EiOtjFPfEl0w8b924a;38x4kifMvCOfoF6gkHwodH;BMR - 005;CRE - 003
+;;;;;;
+auto;IfcColumn;IfcSlab;1cRyHsncP4aPnhR37E18BT;3_aQPUHkf1JRWUeIgNeew9;CRE - 001;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;2IEYYe8U11hejMwF6tp8l5;3_aQPUHkf1JRWUeIgNeew9;CRE - 002;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;3moCPzD4XFkAgfTDwYMWLr;1QMbMGb5r2CgFBZ8SU3doM;CRE - 001;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcColumn;2OneS2DeP0dBV5FtJ5P95L;0fbZcF8BP4CAbQBBHORDtW;CRE - 001;CRE - 002
+auto;IfcColumn;IfcSlab;2OneS2DeP0dBV5FtJ5P95L;1QMbMGb5r2CgFBZ8SU3doM;CRE - 001;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;2WnArHTzj4xRAuo0nsZDfW;1QMbMGb5r2CgFBZ8SU3doM;CRE - 001;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;2o8YacL6j7tviVdizYrxTu;3_aQPUHkf1JRWUeIgNeew9;CRE - 002;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;0fbZcF8BP4CAbQBBHORDtW;1QMbMGb5r2CgFBZ8SU3doM;CRE - 002;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;3RRKf_9813rQqFV3Uk2yd1;3_aQPUHkf1JRWUeIgNeew9;CRE - 001;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;2bG7LxED5EYhFdEELTJ8js;1QMbMGb5r2CgFBZ8SU3doM;CRE - 002;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;3qKoiFsu1E7B5wES6QAr0B;3_aQPUHkf1JRWUeIgNeew9;CRE - 001;SLA - 002
+auto;IfcColumn;IfcSlab;3qKoiFsu1E7B5wES6QAr0B;0QK9kn0anF$R1TOejE0LbK;CRE - 001;SLA - 003
+;;;;;;
+auto;IfcColumn;IfcSlab;3xf1uYHNnAousCZthkQ8gF;0QK9kn0anF$R1TOejE0LbK;CRE - 001;SLA - 003
+auto;IfcColumn;IfcSlab;3xf1uYHNnAousCZthkQ8gF;1QMbMGb5r2CgFBZ8SU3doM;CRE - 001;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;3VKH0fNnz9WuDz03qCEtTk;3_aQPUHkf1JRWUeIgNeew9;CRE - 001;SLA - 002
+auto;IfcColumn;IfcSlab;3VKH0fNnz9WuDz03qCEtTk;0QK9kn0anF$R1TOejE0LbK;CRE - 001;SLA - 003
+;;;;;;
+auto;IfcColumn;IfcSlab;26T4xwL7536AkEX1utGryX;0QK9kn0anF$R1TOejE0LbK;CRE - 001;SLA - 003
+auto;IfcColumn;IfcSlab;26T4xwL7536AkEX1utGryX;1QMbMGb5r2CgFBZ8SU3doM;CRE - 001;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;2q3nRa6XP25RdY8Xk7tIFp;3_aQPUHkf1JRWUeIgNeew9;CRE - 003;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;38x4kifMvCOfoF6gkHwodH;1QMbMGb5r2CgFBZ8SU3doM;CRE - 003;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;2ageK7xfP3EhcTuP1VKiPl;3_aQPUHkf1JRWUeIgNeew9;CRE - 004;SLA - 002
+auto;IfcColumn;IfcSlab;2ageK7xfP3EhcTuP1VKiPl;3$5D2dXL9CchfIMa_npnh5;CRE - 004;SLA - 003
+;;;;;;
+auto;IfcColumn;IfcSlab;2hWijKN$147RbLslsGs4zM;1QMbMGb5r2CgFBZ8SU3doM;CRE - 005;SLA - 002
+auto;IfcColumn;IfcSlab;2hWijKN$147RbLslsGs4zM;3$5D2dXL9CchfIMa_npnh5;CRE - 005;SLA - 003
+;;;;;;
+auto;IfcColumn;IfcSlab;0ACj7PsC11dwZjRovjC$k8;1QMbMGb5r2CgFBZ8SU3doM;CRE - 002;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;3louBkaKHFA9XtCmTwBzDT;3_aQPUHkf1JRWUeIgNeew9;CRE - 002;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;1udZ7yQT52LfnSK3_Vgmsm;3_aQPUHkf1JRWUeIgNeew9;CRE - 003;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;0Nu6G8pN55$ByptiJ_N01J;1QMbMGb5r2CgFBZ8SU3doM;CRE - 002;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;29AjkplTD5GQR_p1o8yfNZ;3_aQPUHkf1JRWUeIgNeew9;CRE - 002;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;1TqKrZRd14LxBJfzP7a6Px;3_aQPUHkf1JRWUeIgNeew9;CRE - 003;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;1EaMI0rqH8LeOffD_b96$G;1QMbMGb5r2CgFBZ8SU3doM;CRE - 002;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;2ihOc9HAL6TR$_xzjpsCX0;3_aQPUHkf1JRWUeIgNeew9;CRE - 002;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;0vRjLYG9D52OR099upPfBZ;3_aQPUHkf1JRWUeIgNeew9;CRE - 003;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;3Q$Y8bvQ15V8VWb5fBDLSP;1QMbMGb5r2CgFBZ8SU3doM;CRE - 003;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;3BXbsnCprCrQ9IxeCA0SfT;1QMbMGb5r2CgFBZ8SU3doM;CRE - 003;SLA - 002
+;;;;;;
+auto;IfcColumn;IfcSlab;2uYXr6rjz9yBNacUqwCdS_;1QMbMGb5r2CgFBZ8SU3doM;CRE - 003;SLA - 002
+auto;IfcColumn;IfcSlab;2uYXr6rjz9yBNacUqwCdS_;0tEprrNkLC8OKujGCT6xdg;CRE - 003;SLA - 003
+;;;;;;
+auto;IfcSlab;IfcSlab;3_aQPUHkf1JRWUeIgNeew9;0QK9kn0anF$R1TOejE0LbK;SLA - 002;SLA - 003
+auto;IfcSlab;IfcSlab;3_aQPUHkf1JRWUeIgNeew9;3$5D2dXL9CchfIMa_npnh5;SLA - 002;SLA - 003
+;;;;;;
+auto;IfcSlab;IfcSlab;0QK9kn0anF$R1TOejE0LbK;1QMbMGb5r2CgFBZ8SU3doM;SLA - 003;SLA - 002
+;;;;;;
+auto;IfcSlab;IfcSlab;1QMbMGb5r2CgFBZ8SU3doM;3$5D2dXL9CchfIMa_npnh5;SLA - 002;SLA - 003
+auto;IfcSlab;IfcSlab;1QMbMGb5r2CgFBZ8SU3doM;0tEprrNkLC8OKujGCT6xdg;SLA - 002;SLA - 003
+auto;IfcSlab;IfcSlab;1QMbMGb5r2CgFBZ8SU3doM;33v7PUV_r6fP7YD5Nu77nv;SLA - 002;SLA - 003
+;;;;;;
+auto;IfcSlab;IfcSlab;0tEprrNkLC8OKujGCT6xdg;33v7PUV_r6fP7YD5Nu77nv;SLA - 003;SLA - 003

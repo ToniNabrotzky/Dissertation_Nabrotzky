@@ -1,0 +1,248 @@
+Status;Type_A;Type_B;GUID_A;GUID_B;Name_A;Name_B
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRzld5WO;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRbld5WO;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRXld5WO;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746
+o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRnld6_$;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:366541
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRnld64z;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:366927
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRnld6D7;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:367413
+;;;;;;
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRzld5WO;0wvQwH4mn9TPt_aRXld5WO;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRzld5WO;0wvQwH4mn9TPt_aRbld5WO;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRzld5WO;0wvQwH4mn9TPt_aRnld6_$;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:366541
+o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRzld5WO;0wvQwH4mn9TPt_aRnld64z;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:366927
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRzld5WO;0wvQwH4mn9TPt_aRnld69A;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:367160
+;;;;;;
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRXld5WO;0wvQwH4mn9TPt_aRbld5WO;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRXld5WO;0wvQwH4mn9TPt_aRnld64z;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:366927
+o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRXld5WO;0wvQwH4mn9TPt_aRnld69A;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:367160
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRXld5WO;0wvQwH4mn9TPt_aRnld6D7;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:367413
+;;;;;;
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRbld5WO;0wvQwH4mn9TPt_aRnld6_$;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:366541
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRbld5WO;0wvQwH4mn9TPt_aRnld69A;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:367160
+o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRbld5WO;0wvQwH4mn9TPt_aRnld6D7;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:367413
+;;;;;;
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRzld5pX;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRbld5pX;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRXld5pX;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRnld6N2;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368048
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRnld6S2;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368496
+o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRnld5X1;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368691
+;;;;;;
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRzld5pX;0wvQwH4mn9TPt_aRXld5pX;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRzld5pX;0wvQwH4mn9TPt_aRbld5pX;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRzld5pX;0wvQwH4mn9TPt_aRnld6OF;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368253
+o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRzld5pX;0wvQwH4mn9TPt_aRnld6S2;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368496
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRzld5pX;0wvQwH4mn9TPt_aRnld5X1;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368691
+;;;;;;
+o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRXld5pX;0wvQwH4mn9TPt_aRbld5pX;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRXld5pX;0wvQwH4mn9TPt_aRnld6N2;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368048
+o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRXld5pX;0wvQwH4mn9TPt_aRnld6OF;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368253
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRXld5pX;0wvQwH4mn9TPt_aRnld6S2;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368496
+;;;;;;
+o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRbld5pX;0wvQwH4mn9TPt_aRnld6N2;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368048
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRbld5pX;0wvQwH4mn9TPt_aRnld6OF;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368253
+x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRbld5pX;0wvQwH4mn9TPt_aRnld5X1;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368691
+;;;;;;
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27btN;0wvQwH4mn9TPt_aRnld6_$;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;Basic Wall:load bearing:366541
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27btN;0wvQwH4mn9TPt_aRnld64z;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;Basic Wall:load bearing:366927
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27btN;0wvQwH4mn9TPt_aRnld69A;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;Basic Wall:load bearing:367160
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27btN;0wvQwH4mn9TPt_aRnld6D7;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;Basic Wall:load bearing:367413
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27btN;1pnHUanNPAueqWfsp27bwu;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;Basic Wall:wall 1:355711
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27btN;1pnHUanNPAueqWfsp27b9A;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;UC-Universal Columns-Column:UC305x305x97:352653
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27btN;1pnHUanNPAueqWfsp27b99;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;UC-Universal Columns-Column:UC305x305x97:352654
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27btN;1pnHUanNPAueqWfsp27b98;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;UC-Universal Columns-Column:UC305x305x97:352655
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27btN;1pnHUanNPAueqWfsp27b9N;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;UC-Universal Columns-Column:UC305x305x97:352656
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27btN;1pnHUanNPAueqWfsp27b9M;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;UC-Universal Columns-Column:UC305x305x97:352657
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27btN;1pnHUanNPAueqWfsp27b9Z;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;UC-Universal Columns-Column:UC305x305x97:352676
+;;;;;;
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bnw;0wvQwH4mn9TPt_aRnld6N2;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;Basic Wall:load bearing:368048
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bnw;0wvQwH4mn9TPt_aRnld6OF;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;Basic Wall:load bearing:368253
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bnw;0wvQwH4mn9TPt_aRnld6S2;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;Basic Wall:load bearing:368496
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bnw;0wvQwH4mn9TPt_aRnld5X1;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;Basic Wall:load bearing:368691
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bnw;1pnHUanNPAueqWfsp27bu_;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;Basic Wall:wall 1:355833
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bnw;1pnHUanNPAueqWfsp27b93;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;UC-Universal Columns-Column:UC305x305x97:352644
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bnw;1pnHUanNPAueqWfsp27b92;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;UC-Universal Columns-Column:UC305x305x97:352645
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bnw;1pnHUanNPAueqWfsp27b91;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;UC-Universal Columns-Column:UC305x305x97:352646
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bnw;1pnHUanNPAueqWfsp27b90;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;UC-Universal Columns-Column:UC305x305x97:352647
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bnw;1pnHUanNPAueqWfsp27b9F;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;UC-Universal Columns-Column:UC305x305x97:352648
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bnw;1pnHUanNPAueqWfsp27b9E;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;UC-Universal Columns-Column:UC305x305x97:352649
+;;;;;;
+o;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld6_$;0wvQwH4mn9TPt_aRnld64z;Basic Wall:load bearing:366541;Basic Wall:load bearing:366927
+o;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld6_$;0wvQwH4mn9TPt_aRnld6D7;Basic Wall:load bearing:366541;Basic Wall:load bearing:367413
+o;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld6_$;1pnHUanNPAueqWfsp27bwu;Basic Wall:load bearing:366541;Basic Wall:wall 1:355711
+;;;;;;
+o;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld64z;0wvQwH4mn9TPt_aRnld69A;Basic Wall:load bearing:366927;Basic Wall:load bearing:367160
+x;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld64z;1pnHUanNPAueqWfsp27bwu;Basic Wall:load bearing:366927;Basic Wall:wall 1:355711
+o;IfcWall;IfcColumn;0wvQwH4mn9TPt_aRnld64z;1pnHUanNPAueqWfsp27b99;Basic Wall:load bearing:366927;UC-Universal Columns-Column:UC305x305x97:352654
+;;;;;;
+o;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld69A;0wvQwH4mn9TPt_aRnld6D7;Basic Wall:load bearing:367160;Basic Wall:load bearing:367413
+o;IfcWall;IfcColumn;0wvQwH4mn9TPt_aRnld69A;1pnHUanNPAueqWfsp27b9A;Basic Wall:load bearing:367160;UC-Universal Columns-Column:UC305x305x97:352653
+o;IfcWall;IfcColumn;0wvQwH4mn9TPt_aRnld69A;1pnHUanNPAueqWfsp27b99;Basic Wall:load bearing:367160;UC-Universal Columns-Column:UC305x305x97:352654
+;;;;;;
+x;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld6D7;1pnHUanNPAueqWfsp27bwu;Basic Wall:load bearing:367413;Basic Wall:wall 1:355711
+o;IfcWall;IfcColumn;0wvQwH4mn9TPt_aRnld6D7;1pnHUanNPAueqWfsp27b9A;Basic Wall:load bearing:367413;UC-Universal Columns-Column:UC305x305x97:352653
+;;;;;;
+o;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld6N2;0wvQwH4mn9TPt_aRnld6OF;Basic Wall:load bearing:368048;Basic Wall:load bearing:368253
+o;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld6N2;0wvQwH4mn9TPt_aRnld5X1;Basic Wall:load bearing:368048;Basic Wall:load bearing:368691
+x;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld6N2;1pnHUanNPAueqWfsp27bu_;Basic Wall:load bearing:368048;Basic Wall:wall 1:355833
+o;IfcWall;IfcColumn;0wvQwH4mn9TPt_aRnld6N2;1pnHUanNPAueqWfsp27b93;Basic Wall:load bearing:368048;UC-Universal Columns-Column:UC305x305x97:352644
+;;;;;;
+o;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld6OF;0wvQwH4mn9TPt_aRnld6S2;Basic Wall:load bearing:368253;Basic Wall:load bearing:368496
+o;IfcWall;IfcColumn;0wvQwH4mn9TPt_aRnld6OF;1pnHUanNPAueqWfsp27b93;Basic Wall:load bearing:368253;UC-Universal Columns-Column:UC305x305x97:352644
+o;IfcWall;IfcColumn;0wvQwH4mn9TPt_aRnld6OF;1pnHUanNPAueqWfsp27b92;Basic Wall:load bearing:368253;UC-Universal Columns-Column:UC305x305x97:352645
+;;;;;;
+o;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld6S2;0wvQwH4mn9TPt_aRnld5X1;Basic Wall:load bearing:368496;Basic Wall:load bearing:368691
+x;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld6S2;1pnHUanNPAueqWfsp27bu_;Basic Wall:load bearing:368496;Basic Wall:wall 1:355833
+o;IfcWall;IfcColumn;0wvQwH4mn9TPt_aRnld6S2;1pnHUanNPAueqWfsp27b92;Basic Wall:load bearing:368496;UC-Universal Columns-Column:UC305x305x97:352645
+;;;;;;
+o;IfcWall;IfcWall;0wvQwH4mn9TPt_aRnld5X1;1pnHUanNPAueqWfsp27bu_;Basic Wall:load bearing:368691;Basic Wall:wall 1:355833
+;;;;;;
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bwu;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;Basic Wall:wall 1:355711
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bu_;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;Basic Wall:wall 1:355833
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCT;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;Basic Wall:wall 1:352474
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCR;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;Basic Wall:wall 1:352476
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCQ;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;Basic Wall:wall 1:352477
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCP;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;Basic Wall:wall 1:352478
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCs;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;Basic Wall:wall 1:352497
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCr;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;Basic Wall:wall 1:352498
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCd;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352480
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCc;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352481
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCb;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352482
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCa;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352483
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCX;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352486
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCW;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352487
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCl;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352488
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCp;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352500
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bCn;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352502
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27bBE;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352521
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b93;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352644
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b92;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352645
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b91;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352646
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b90;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352647
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b9F;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352648
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b9E;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352649
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b9A;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352653
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b99;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352654
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b98;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352655
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b9N;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352656
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b9M;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352657
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bAI;1pnHUanNPAueqWfsp27b9Z;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;UC-Universal Columns-Column:UC305x305x97:352676
+;;;;;;
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCT;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352474
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCR;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352476
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCQ;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352477
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCP;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352478
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCs;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352497
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCr;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352498
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bE6;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352321
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bE4;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352323
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bE3;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352324
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bE2;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352325
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bEV;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352344
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bEU;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:wall 1:352345
+o;IfcSlab;IfcWall;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bET;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;Basic Wall:load bearing:352346
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bE0;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352327
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bEF;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352328
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bEE;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352329
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bED;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352330
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bEA;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352333
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bE9;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352334
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bE8;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352335
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bEt;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352368
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCd;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352480
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCc;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352481
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCb;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352482
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCa;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352483
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCX;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352486
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCW;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352487
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCl;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352488
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCp;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352500
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bCn;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352502
+o;IfcSlab;IfcColumn;1pnHUanNPAueqWfsp27bDx;1pnHUanNPAueqWfsp27bBE;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;UC-Universal Columns-Column:UC305x305x97:352521
+;;;;;;
+o;IfcWall;IfcWall;1pnHUanNPAueqWfsp27bCT;1pnHUanNPAueqWfsp27bCQ;Basic Wall:wall 1:352474;Basic Wall:wall 1:352477
+;;;;;;
+o;IfcWall;IfcWall;1pnHUanNPAueqWfsp27bCQ;1pnHUanNPAueqWfsp27bCP;Basic Wall:wall 1:352477;Basic Wall:wall 1:352478
+;;;;;;
+o;IfcWall;IfcWall;1pnHUanNPAueqWfsp27bCs;1pnHUanNPAueqWfsp27bCr;Basic Wall:wall 1:352497;Basic Wall:wall 1:352498
+;;;;;;
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bE6;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:352321
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bE4;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:352323
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bE3;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:352324
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bE2;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:352325
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bEV;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:352344
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bEU;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:352345
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bET;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:load bearing:352346
+o;IfcSlab;IfcColumn;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bE0;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;UC-Universal Columns-Column:UC305x305x97:352327
+o;IfcSlab;IfcColumn;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bEF;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;UC-Universal Columns-Column:UC305x305x97:352328
+o;IfcSlab;IfcColumn;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bEE;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;UC-Universal Columns-Column:UC305x305x97:352329
+o;IfcSlab;IfcColumn;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bED;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;UC-Universal Columns-Column:UC305x305x97:352330
+o;IfcSlab;IfcColumn;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bEA;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;UC-Universal Columns-Column:UC305x305x97:352333
+o;IfcSlab;IfcColumn;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bE9;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;UC-Universal Columns-Column:UC305x305x97:352334
+o;IfcSlab;IfcColumn;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bE8;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;UC-Universal Columns-Column:UC305x305x97:352335
+o;IfcSlab;IfcColumn;2HuL5GFRr3p8gzj7BPE9s$;1pnHUanNPAueqWfsp27bEt;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;UC-Universal Columns-Column:UC305x305x97:352368
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;24RD9DDvr8xuDgQbCpe0kV;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:314166
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;24RD9DDvr8xuDgQbCpe0l2;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:314219
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;24RD9DDvr8xuDgQbCpe0jO;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:314353
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;24RD9DDvr8xuDgQbCpe0sq;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:314653
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;24RD9DDvr8xuDgQbCpe0tQ;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:314739
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;3PcPWHAnHClxTvsIqbWNmZ;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:322642
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;3PcPWHAnHClxTvsIqbWNmY;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:322643
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;3PcPWHAnHClxTvsIqbWNmb;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:322644
+o;IfcSlab;IfcWall;2HuL5GFRr3p8gzj7BPE9s$;1j9MRkXyjFDutwdWyjJKw9;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;Basic Wall:wall 1:385548
+;;;;;;
+o;IfcWall;IfcWall;1pnHUanNPAueqWfsp27bE6;1pnHUanNPAueqWfsp27bE3;Basic Wall:wall 1:352321;Basic Wall:wall 1:352324
+;;;;;;
+o;IfcWall;IfcWall;1pnHUanNPAueqWfsp27bE4;1pnHUanNPAueqWfsp27bET;Basic Wall:wall 1:352323;Basic Wall:load bearing:352346
+;;;;;;
+o;IfcWall;IfcWall;1pnHUanNPAueqWfsp27bE3;1pnHUanNPAueqWfsp27bE2;Basic Wall:wall 1:352324;Basic Wall:wall 1:352325
+;;;;;;
+o;IfcWall;IfcWall;1pnHUanNPAueqWfsp27bEV;1pnHUanNPAueqWfsp27bEU;Basic Wall:wall 1:352344;Basic Wall:wall 1:352345
+;;;;;;
+o;IfcWall;IfcWall;1pnHUanNPAueqWfsp27bEU;1pnHUanNPAueqWfsp27bET;Basic Wall:wall 1:352345;Basic Wall:load bearing:352346
+;;;;;;
+x;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bE0;1pnHUanNPAueqWfsp27bCd;UC-Universal Columns-Column:UC305x305x97:352327;UC-Universal Columns-Column:UC305x305x97:352480
+;;;;;;
+x;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEF;1pnHUanNPAueqWfsp27bCc;UC-Universal Columns-Column:UC305x305x97:352328;UC-Universal Columns-Column:UC305x305x97:352481
+;;;;;;
+x;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEE;1pnHUanNPAueqWfsp27bCb;UC-Universal Columns-Column:UC305x305x97:352329;UC-Universal Columns-Column:UC305x305x97:352482
+;;;;;;
+x;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bED;1pnHUanNPAueqWfsp27bCa;UC-Universal Columns-Column:UC305x305x97:352330;UC-Universal Columns-Column:UC305x305x97:352483
+;;;;;;
+x;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEA;1pnHUanNPAueqWfsp27bCX;UC-Universal Columns-Column:UC305x305x97:352333;UC-Universal Columns-Column:UC305x305x97:352486
+;;;;;;
+x;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bE9;1pnHUanNPAueqWfsp27bCW;UC-Universal Columns-Column:UC305x305x97:352334;UC-Universal Columns-Column:UC305x305x97:352487
+;;;;;;
+x;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bE8;1pnHUanNPAueqWfsp27bCl;UC-Universal Columns-Column:UC305x305x97:352335;UC-Universal Columns-Column:UC305x305x97:352488
+;;;;;;
+x;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEt;1pnHUanNPAueqWfsp27bBE;UC-Universal Columns-Column:UC305x305x97:352368;UC-Universal Columns-Column:UC305x305x97:352521
+;;;;;;
+x;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCp;1pnHUanNPAueqWfsp27b9A;UC-Universal Columns-Column:UC305x305x97:352500;UC-Universal Columns-Column:UC305x305x97:352653
+;;;;;;
+x;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCn;1pnHUanNPAueqWfsp27b98;UC-Universal Columns-Column:UC305x305x97:352502;UC-Universal Columns-Column:UC305x305x97:352655
+;;;;;;
+o;IfcSlab;IfcWall;3Tt69ndVvBkv7If$RWPIQP;24RD9DDvr8xuDgQbCpe0kV;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841;Basic Wall:wall 1:314166
+o;IfcSlab;IfcWall;3Tt69ndVvBkv7If$RWPIQP;24RD9DDvr8xuDgQbCpe0l2;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841;Basic Wall:wall 1:314219
+o;IfcSlab;IfcWall;3Tt69ndVvBkv7If$RWPIQP;24RD9DDvr8xuDgQbCpe0jO;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841;Basic Wall:wall 1:314353
+o;IfcSlab;IfcWall;3Tt69ndVvBkv7If$RWPIQP;24RD9DDvr8xuDgQbCpe0sq;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841;Basic Wall:wall 1:314653
+o;IfcSlab;IfcWall;3Tt69ndVvBkv7If$RWPIQP;24RD9DDvr8xuDgQbCpe0tQ;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841;Basic Wall:wall 1:314739
+o;IfcSlab;IfcWall;3Tt69ndVvBkv7If$RWPIQP;3PcPWHAnHClxTvsIqbWNmZ;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841;Basic Wall:wall 1:322642
+o;IfcSlab;IfcWall;3Tt69ndVvBkv7If$RWPIQP;3PcPWHAnHClxTvsIqbWNmY;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841;Basic Wall:wall 1:322643
+o;IfcSlab;IfcWall;3Tt69ndVvBkv7If$RWPIQP;3PcPWHAnHClxTvsIqbWNmb;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841;Basic Wall:wall 1:322644
+o;IfcSlab;IfcWall;3Tt69ndVvBkv7If$RWPIQP;1j9MRkXyjFDutwdWyjJKw9;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841;Basic Wall:wall 1:385548
+;;;;;;
+o;IfcWall;IfcWall;24RD9DDvr8xuDgQbCpe0kV;24RD9DDvr8xuDgQbCpe0l2;Basic Wall:wall 1:314166;Basic Wall:wall 1:314219
+o;IfcWall;IfcWall;24RD9DDvr8xuDgQbCpe0kV;24RD9DDvr8xuDgQbCpe0jO;Basic Wall:wall 1:314166;Basic Wall:wall 1:314353
+;;;;;;
+o;IfcWall;IfcWall;24RD9DDvr8xuDgQbCpe0l2;24RD9DDvr8xuDgQbCpe0sq;Basic Wall:wall 1:314219;Basic Wall:wall 1:314653
+;;;;;;
+o;IfcWall;IfcWall;24RD9DDvr8xuDgQbCpe0jO;3PcPWHAnHClxTvsIqbWNmb;Basic Wall:wall 1:314353;Basic Wall:wall 1:322644
+;;;;;;
+o;IfcWall;IfcWall;24RD9DDvr8xuDgQbCpe0sq;24RD9DDvr8xuDgQbCpe0tQ;Basic Wall:wall 1:314653;Basic Wall:wall 1:314739
+;;;;;;
+o;IfcWall;IfcWall;24RD9DDvr8xuDgQbCpe0tQ;1j9MRkXyjFDutwdWyjJKw9;Basic Wall:wall 1:314739;Basic Wall:wall 1:385548
+;;;;;;
+o;IfcWall;IfcWall;3PcPWHAnHClxTvsIqbWNmZ;3PcPWHAnHClxTvsIqbWNmY;Basic Wall:wall 1:322642;Basic Wall:wall 1:322643
+o;IfcWall;IfcWall;3PcPWHAnHClxTvsIqbWNmZ;1j9MRkXyjFDutwdWyjJKw9;Basic Wall:wall 1:322642;Basic Wall:wall 1:385548
+;;;;;;
+o;IfcWall;IfcWall;3PcPWHAnHClxTvsIqbWNmY;3PcPWHAnHClxTvsIqbWNmb;Basic Wall:wall 1:322643;Basic Wall:wall 1:322644

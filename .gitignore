@@ -1,3 +1,42 @@
+# ==============================================================================
+# SPICKZETTEL & ANLEITUNG FÜR DIESE .GITIGNORE-DATEI
+# ==============================================================================
+#
+# 1. GRUNDSYNTAX:
+# #                    Kommentar (wird von Git ignoriert)
+# ordnername/          Ignoriert einen Ordner und ALLES, was darin liegt
+# dateiname.txt        Ignoriert diese Datei überall im Projekt
+# *.log                Wildcard: Ignoriert alle Dateien mit der Endung .log
+# !                    Ausnahme (Whitelisting): Holt eine ignoriere Datei/Ordner zurück
+#
+# 2. PFAD-TYPEN:
+# datei.txt            Ignoriert "datei.txt" im aktuellen Ordner UND in Subordnern
+# /datei.txt           Ignoriert "datei.txt" NUR direkt in diesem Wurzelordner
+# ordner/              Ignoriert den Ordner "ordner" egal wo er liegt
+# /ordner/             Ignoriert den Ordner "ordner" NUR auf dieser Ebene
+#
+# 3. WILDCARDS (* und **):
+# *.pdf                Ignoriert alle .pdf-Dateien
+# temp_*               Ignoriert alles, was mit "temp_" beginnt (z.B. temp_1.txt)
+# ordner/*             Ignoriert den INHALT von "ordner", aber nicht den Ordner selbst
+# ordner/**/data       Ignoriert "data" in "ordner" und allen tiefen Unterordnern
+#
+# 4. AUSNAHMEN DEFINIEREN (Whitelisting mit "!"):
+# WICHTIGE REGEL: Git kann eine Datei in einem Subordner NICHT wieder freigeben,
+# wenn der übergeordnete Ordner mit "ordner/" komplett ausgesperrt wurde.
+#
+# -> Richtiger Weg für Ordner-Ausnahmen (Inhalt mit * sperren, Ordner offen lassen):
+# pfad/ordner/*                                # 1. Sperrt den Inhalt des Ordners
+# !pfad/ordner/mein_spezieller_unterordner/    # 2. Schaltet spezifischen Subordner frei
+# !pfad/ordner/wichtige_datei.txt              # 3. Schaltet spezifische Datei frei
+#
+# 5. TROUBLESHOOTING (Dateien werden trotz Regel weiter getrackt?):
+# Wenn Dateien früher schon im Git-Index waren, ignoriert Git sie nicht automatisch.
+# Befehl im Terminal ausführen (löscht nichts auf der Festplatte!):
+# -> git rm -r --cached "Pfad/Zum/Ordner"
+# ==============================================================================
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -76,6 +115,11 @@ Thumbs.db
 # IFC- und sonstige Modell-Dateien
 *.ifc
 *.ifcxml
+*.rf6
+*.rf6bak
+
+# Trainingsmodelle
+*.pth
 
 # Versuchsreihe 1
 1_Machbarkeit/1 Model_Database/
@@ -93,17 +137,35 @@ Thumbs.db
 1_Machbarkeit/4 Results/*
 # !1_Machbarkeit/4 Results/Modell_2_Parametrisch Stahlbeton alt 00000_01535 Paper Nr2/ #So könnte man eine Ausnahme speichern, aber die Pfadnamen sind zu lang.
 
-# Versuchsreihe 2
-2_Anwendungsgrenzen/1 Model_Database/
-2_Anwendungsgrenzen/2 Data_Preprocessing/2_1 Graph_Generation/
-2_Anwendungsgrenzen/2 Data_Preprocessing/2_2 Distance_Meassurement/
-2_Anwendungsgrenzen/2 Data_Preprocessing/2_3 Edge_Labeling/
-2_Anwendungsgrenzen/2 Data_Preprocessing/2_4 Graph_Labeled/
-2_Anwendungsgrenzen/2 Data_Preprocessing/Analysemodelle/
+# Versuchsreihe 2.1
+2.1_Anwendungsgrenzen/1 Model_Database/
 
-2_Anwendungsgrenzen/3 Model_Training/Test*/
+2.1_Anwendungsgrenzen/2 Data_Preprocessing/2_1 Graph_Generation/
+2.1_Anwendungsgrenzen/2 Data_Preprocessing/2_2 Distance_Meassurement/
+2.1_Anwendungsgrenzen/2 Data_Preprocessing/2_3 Edge_Labeling/
+2.1_Anwendungsgrenzen/2 Data_Preprocessing/2_4 Graph_Labeled/
+2.1_Anwendungsgrenzen/2 Data_Preprocessing/Analysemodelle/
 
-2_Anwendungsgrenzen/4 Results/
+2.1_Anwendungsgrenzen/3 Model_Training/Test*/
+
+2.1_Anwendungsgrenzen/4 Results/Tests*/
+
+# Versuchsreihe 2.2
+2.2_Anwendungsgrenzen/0 Model_Database/
+
+# 2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_1 Ground_Truth
+2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_2 Analysemodell
+2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_3 RBC_Labels/*.png
+2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_3 RBC_Labels/*.svg
+2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_4 Graph_Generation/_Reservebank
+2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_4 Graph_Generation/_Bild_Protokoll TUM_Modelle
+# 2.2_Anwendungsgrenzen/1 Data_Preprocessing/Test_RFEM_Regelkonverter/*.rf6
+# 2.2_Anwendungsgrenzen/1 Data_Preprocessing/Test_RFEM_Regelkonverter/*.rf6bak
+
+# 2_Anwendungsgrenzen/3 Model_Training/Test*/
+
+# 2_Anwendungsgrenzen/4 Results/*
+
 # Sonstiges, z.B. temp-Dateien:
 temp/
 tmp/

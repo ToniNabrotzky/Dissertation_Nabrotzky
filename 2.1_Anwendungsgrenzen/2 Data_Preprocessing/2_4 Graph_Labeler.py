@@ -15,6 +15,10 @@ def main():
     # prepare_gnn_graph("20220421MODEL REV01")
     # prepare_gnn_graph("202102183458-Model")
     # prepare_gnn_graph("Grethes-hus-bok-2")
+    prepare_gnn_graph("Parametrisches Modell Index_00000")
+    prepare_gnn_graph("Parametrisches Modell Index_00050")
+    prepare_gnn_graph("Parametrisches Modell Index_00055")
+    prepare_gnn_graph("Parametrisches Modell Index_00100")
     return
 
 

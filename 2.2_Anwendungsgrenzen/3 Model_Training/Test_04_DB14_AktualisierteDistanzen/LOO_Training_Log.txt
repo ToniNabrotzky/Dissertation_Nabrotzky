@@ -1,0 +1,120 @@
+Lade 14 Graphen in den Speicher...
+CONFIG:
+	model_type: GINE
+	hidden_dim: 128
+	num_layers: 5
+	activation: ELU
+	dropout: 0.2
+	lr: 0.001
+	epochs: 500
+	edge_dim: 1
+	batch_size: 12
+	threshold: 0.5
+	node_features: norm_dimensions, area, volume, ratio_av, entity_one_hot_idx
+--- Starte Fold 1 | Test-Modell: 202102183458-Model Graph.json ---
+  Epoch 100 | Loss: 0.6972 | Best Val-F1: 0.50
+  Epoch 200 | Loss: 0.5607 | Best Val-F1: 0.50
+  Epoch 300 | Loss: 0.5825 | Best Val-F1: 0.50
+  Epoch 400 | Loss: 0.5701 | Best Val-F1: 0.50
+  Epoch 500 | Loss: 0.6513 | Best Val-F1: 0.50
+RESULT Fold 1 (Threshold 0.5): Acc: 33.42%, F1: 0.50, Prec: 0.33, Rec: 1.00
+--- Starte Fold 2 | Test-Modell: 20220421MODEL REV01 Graph.json ---
+  Epoch 100 | Loss: 0.7432 | Best Val-F1: 0.68
+  Epoch 200 | Loss: 0.6051 | Best Val-F1: 0.68
+  Epoch 300 | Loss: 0.6345 | Best Val-F1: 0.68
+  Epoch 400 | Loss: 0.6608 | Best Val-F1: 0.68
+  Epoch 500 | Loss: 0.6532 | Best Val-F1: 0.68
+RESULT Fold 2 (Threshold 0.5): Acc: 55.75%, F1: 0.68, Prec: 0.53, Rec: 0.94
+--- Starte Fold 3 | Test-Modell: 21_22 L_TWP_Tragwerksmodell Graph.json ---
+  Epoch 100 | Loss: 0.6759 | Best Val-F1: 0.77
+  Epoch 200 | Loss: 0.6533 | Best Val-F1: 0.77
+  Epoch 300 | Loss: 0.5694 | Best Val-F1: 0.77
+  Epoch 400 | Loss: 0.6630 | Best Val-F1: 0.77
+  Epoch 500 | Loss: 0.6654 | Best Val-F1: 0.77
+RESULT Fold 3 (Threshold 0.5): Acc: 65.17%, F1: 0.77, Prec: 0.68, Rec: 0.89
+--- Starte Fold 4 | Test-Modell: 23_24 LTWP-V__Dachtragwerk Graph.json ---
+  Epoch 100 | Loss: 0.7814 | Best Val-F1: 0.87
+  Epoch 200 | Loss: 0.7651 | Best Val-F1: 0.87
+  Epoch 300 | Loss: 0.6871 | Best Val-F1: 0.87
+  Epoch 400 | Loss: 0.5268 | Best Val-F1: 0.87
+  Epoch 500 | Loss: 0.6413 | Best Val-F1: 0.87
+RESULT Fold 4 (Threshold 0.5): Acc: 76.32%, F1: 0.87, Prec: 0.76, Rec: 1.00
+--- Starte Fold 5 | Test-Modell: Grethes-hus-bok-2 Graph.json ---
+  Epoch 100 | Loss: 0.6982 | Best Val-F1: 0.76
+  Epoch 200 | Loss: 0.6036 | Best Val-F1: 0.76
+  Epoch 300 | Loss: 0.7013 | Best Val-F1: 0.76
+  Epoch 400 | Loss: 0.6514 | Best Val-F1: 0.76
+  Epoch 500 | Loss: 0.6472 | Best Val-F1: 0.76
+RESULT Fold 5 (Threshold 0.5): Acc: 72.73%, F1: 0.76, Prec: 0.64, Rec: 0.92
+--- Starte Fold 6 | Test-Modell: model_1 Graph.json ---
+  Epoch 100 | Loss: 0.6963 | Best Val-F1: 0.60
+  Epoch 200 | Loss: 0.5971 | Best Val-F1: 0.62
+  Epoch 300 | Loss: 0.6475 | Best Val-F1: 0.62
+  Epoch 400 | Loss: 0.6361 | Best Val-F1: 0.62
+  Epoch 500 | Loss: 0.5347 | Best Val-F1: 0.62
+RESULT Fold 6 (Threshold 0.5): Acc: 72.57%, F1: 0.62, Prec: 0.60, Rec: 0.64
+--- Starte Fold 7 | Test-Modell: model_7 Graph.json ---
+  Epoch 100 | Loss: 0.6157 | Best Val-F1: 0.59
+  Epoch 200 | Loss: 0.6823 | Best Val-F1: 0.64
+  Epoch 300 | Loss: 0.6641 | Best Val-F1: 0.64
+  Epoch 400 | Loss: 0.5971 | Best Val-F1: 0.64
+  Epoch 500 | Loss: 0.5609 | Best Val-F1: 0.64
+RESULT Fold 7 (Threshold 0.5): Acc: 68.50%, F1: 0.64, Prec: 0.54, Rec: 0.80
+--- Starte Fold 8 | Test-Modell: model_8 Graph.json ---
+  Epoch 100 | Loss: 0.7294 | Best Val-F1: 0.70
+  Epoch 200 | Loss: 0.6508 | Best Val-F1: 0.70
+  Epoch 300 | Loss: 0.6662 | Best Val-F1: 0.73
+  Epoch 400 | Loss: 0.6111 | Best Val-F1: 0.73
+  Epoch 500 | Loss: 0.6453 | Best Val-F1: 0.73
+RESULT Fold 8 (Threshold 0.5): Acc: 74.53%, F1: 0.73, Prec: 0.63, Rec: 0.88
+--- Starte Fold 9 | Test-Modell: model_9 Graph.json ---
+  Epoch 100 | Loss: 0.7243 | Best Val-F1: 0.78
+  Epoch 200 | Loss: 0.6568 | Best Val-F1: 0.78
+  Epoch 300 | Loss: 0.6713 | Best Val-F1: 0.79
+  Epoch 400 | Loss: 0.6067 | Best Val-F1: 0.79
+  Epoch 500 | Loss: 0.6373 | Best Val-F1: 0.79
+RESULT Fold 9 (Threshold 0.5): Acc: 73.16%, F1: 0.79, Prec: 0.70, Rec: 0.92
+--- Starte Fold 10 | Test-Modell: Parametrisches Modell Index_00000 Graph.json ---
+  Epoch 100 | Loss: 0.6971 | Best Val-F1: 0.55
+  Epoch 200 | Loss: 0.7151 | Best Val-F1: 0.60
+  Epoch 300 | Loss: 0.6686 | Best Val-F1: 0.60
+  Epoch 400 | Loss: 0.6173 | Best Val-F1: 0.60
+  Epoch 500 | Loss: 0.6312 | Best Val-F1: 0.60
+RESULT Fold 10 (Threshold 0.5): Acc: 71.06%, F1: 0.60, Prec: 0.61, Rec: 0.60
+--- Starte Fold 11 | Test-Modell: Parametrisches Modell Index_00050 Graph.json ---
+  Epoch 100 | Loss: 0.7213 | Best Val-F1: 0.68
+  Epoch 200 | Loss: 0.6064 | Best Val-F1: 0.69
+  Epoch 300 | Loss: 0.6667 | Best Val-F1: 0.70
+  Epoch 400 | Loss: 0.5953 | Best Val-F1: 0.70
+  Epoch 500 | Loss: 0.6447 | Best Val-F1: 0.70
+RESULT Fold 11 (Threshold 0.5): Acc: 65.17%, F1: 0.70, Prec: 0.61, Rec: 0.83
+--- Starte Fold 12 | Test-Modell: Parametrisches Modell Index_00055 Graph.json ---
+  Epoch 100 | Loss: 0.7210 | Best Val-F1: 0.68
+  Epoch 200 | Loss: 0.6264 | Best Val-F1: 0.68
+  Epoch 300 | Loss: 0.6676 | Best Val-F1: 0.68
+  Epoch 400 | Loss: 0.5731 | Best Val-F1: 0.68
+  Epoch 500 | Loss: 0.5496 | Best Val-F1: 0.68
+RESULT Fold 12 (Threshold 0.5): Acc: 55.61%, F1: 0.68, Prec: 0.52, Rec: 0.99
+--- Starte Fold 13 | Test-Modell: Parametrisches Modell Index_00100 Graph.json ---
+  Epoch 100 | Loss: 0.6918 | Best Val-F1: 0.55
+  Epoch 200 | Loss: 0.5929 | Best Val-F1: 0.55
+  Epoch 300 | Loss: 0.5234 | Best Val-F1: 0.55
+  Epoch 400 | Loss: 0.6159 | Best Val-F1: 0.55
+  Epoch 500 | Loss: 0.5252 | Best Val-F1: 0.57
+RESULT Fold 13 (Threshold 0.5): Acc: 64.42%, F1: 0.57, Prec: 0.50, Rec: 0.65
+--- Starte Fold 14 | Test-Modell: Parametrisches Modell Index_00250 Graph.json ---
+  Epoch 100 | Loss: 0.6698 | Best Val-F1: 0.63
+  Epoch 200 | Loss: 0.7116 | Best Val-F1: 0.67
+  Epoch 300 | Loss: 0.6892 | Best Val-F1: 0.69
+  Epoch 400 | Loss: 0.6665 | Best Val-F1: 0.71
+  Epoch 500 | Loss: 0.5132 | Best Val-F1: 0.71
+RESULT Fold 14 (Threshold 0.5): Acc: 66.29%, F1: 0.71, Prec: 0.63, Rec: 0.81
+========================================
+LOO-KREUZVALIDIERUNG ABSCHLUSS
+Anzahl Modelle: 14
+Durchschnittliche Accuracy:  65.34%
+Durchschnittlicher F1-Score: 0.69
+Durchschnittliche Precision: 0.59
+Durchschnittlicher Recall:    0.85
+Modelle gespeichert in: h:\GitHub - 2 GNN_Modellkonvertierung\2.2_Anwendungsgrenzen\3 Model_Training\Test_04_DB14_AktualisierteDistanzen
+========================================

@@ -1,0 +1,568 @@
+Status;Type_A;GUID_A;Name_A;Type_B;GUID_B;Name_B
+auto;IfcSlab;IfcWall;0heJa29Iv8qO_Bq1grzCpT;1dIP0$x$TBaf5IWEDvgkRZ;Floor:STB 20.0:532579;Basic Wall:STB 25.0 WD 12.0:532754
+auto;IfcSlab;IfcWall;0heJa29Iv8qO_Bq1grzCpT;1dIP0$x$TBaf5IWEDvgkRY;Floor:STB 20.0:532579;Basic Wall:STB 25.0 WD 12.0:532755
+auto;IfcSlab;IfcWall;0heJa29Iv8qO_Bq1grzCpT;1dIP0$x$TBaf5IWEDvgkRb;Floor:STB 20.0:532579;Basic Wall:STB 25.0 WD 12.0:532756
+auto;IfcSlab;IfcWall;0heJa29Iv8qO_Bq1grzCpT;1dIP0$x$TBaf5IWEDvgkRc;Floor:STB 20.0:532579;Basic Wall:STB 25.0 WD 12.0:532759
+auto;IfcSlab;IfcWall;0heJa29Iv8qO_Bq1grzCpT;1dIP0$x$TBaf5IWEDvgkQg;Floor:STB 20.0:532579;Basic Wall:STB 25cm verputzt:532827
+auto;IfcSlab;IfcWall;0heJa29Iv8qO_Bq1grzCpT;3Q11Pn5hbCshcW6xdv$I9p;Floor:STB 20.0:532579;Basic Wall:STB 25.0 WD 12.0:532125
+auto;IfcSlab;IfcWall;0heJa29Iv8qO_Bq1grzCpT;3Q11Pn5hbCshcW6xdv$I9m;Floor:STB 20.0:532579;Basic Wall:STB 25.0 WD 12.0:532126
+auto;IfcSlab;IfcWall;0heJa29Iv8qO_Bq1grzCpT;3Q11Pn5hbCshcW6xdv$I9n;Floor:STB 20.0:532579;Basic Wall:STB 25.0 WD 12.0:532127
+auto;IfcSlab;IfcWall;0heJa29Iv8qO_Bq1grzCpT;3Q11Pn5hbCshcW6xdv$I9C;Floor:STB 20.0:532579;Basic Wall:STB 25.0 WD 12.0:532130
+auto;IfcSlab;IfcWall;0heJa29Iv8qO_Bq1grzCpT;3Q11Pn5hbCshcW6xdv$I98;Floor:STB 20.0:532579;Basic Wall:STB 25cm verputzt:532134
+;;;;;;
+auto;IfcSlab;IfcWall;0xjRrXNMv2pwKAgJC8ysAK;1dIP0$x$TBaf5IWEDvgkRa;Floor:STB 20.0:628830;Basic Wall:STB 25.0 WD 12.0:532757
+auto;IfcSlab;IfcWall;0xjRrXNMv2pwKAgJC8ysAK;1dIP0$x$TBaf5IWEDvgkRd;Floor:STB 20.0:628830;Basic Wall:STB 25.0 WD 12.0:532758
+auto;IfcSlab;IfcWall;0xjRrXNMv2pwKAgJC8ysAK;1dIP0$x$TBaf5IWEDvgkRf;Floor:STB 20.0:628830;Basic Wall:STB 25.0 WD 12.0:532760
+auto;IfcSlab;IfcWall;0xjRrXNMv2pwKAgJC8ysAK;20SOpDRPr8aOVEcTqgUJnm;Floor:STB 20.0:628830;Basic Wall:STB 25cm verputzt:547945
+auto;IfcSlab;IfcWall;0xjRrXNMv2pwKAgJC8ysAK;3Q11Pn5hbCshcW6xdv$I9E;Floor:STB 20.0:628830;Basic Wall:STB 25.0 WD 12.0:532128
+auto;IfcSlab;IfcWall;0xjRrXNMv2pwKAgJC8ysAK;3Q11Pn5hbCshcW6xdv$I9F;Floor:STB 20.0:628830;Basic Wall:STB 25.0 WD 12.0:532129
+auto;IfcSlab;IfcWall;0xjRrXNMv2pwKAgJC8ysAK;3Q11Pn5hbCshcW6xdv$I9B;Floor:STB 20.0:628830;Basic Wall:STB 25.0 WD 12.0:532133
+auto;IfcSlab;IfcWall;0xjRrXNMv2pwKAgJC8ysAK;3Q11Pn5hbCshcW6xdv$I99;Floor:STB 20.0:628830;Basic Wall:STB 25cm verputzt:532135
+;;;;;;
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I8Y;1dIP0$x$TBaf5IWEDvgkRa;Basic Wall:STB 25.0 WD 12.0:532172;Basic Wall:STB 25.0 WD 12.0:532757
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I8Y;1dIP0$x$TBaf5IWEDvgkRf;Basic Wall:STB 25.0 WD 12.0:532172;Basic Wall:STB 25.0 WD 12.0:532760
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I8Y;3Q11Pn5hbCshcW6xdv$I9E;Basic Wall:STB 25.0 WD 12.0:532172;Basic Wall:STB 25.0 WD 12.0:532128
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I8Y;3Q11Pn5hbCshcW6xdv$I9B;Basic Wall:STB 25.0 WD 12.0:532172;Basic Wall:STB 25.0 WD 12.0:532133
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I8Y;3SzNDDjD149h3TfMZ7$4HE;Basic Wall:STB 25.0 WD 12.0:532172;Basic Wall:STB 25.0 WD 12.0:628018
+;;;;;;
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRZ;1dIP0$x$TBaf5IWEDvgkRY;Basic Wall:STB 25.0 WD 12.0:532754;Basic Wall:STB 25.0 WD 12.0:532755
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRZ;1dIP0$x$TBaf5IWEDvgkRc;Basic Wall:STB 25.0 WD 12.0:532754;Basic Wall:STB 25.0 WD 12.0:532759
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRZ;1dIP0$x$TBaf5IWEDvgkQg;Basic Wall:STB 25.0 WD 12.0:532754;Basic Wall:STB 25cm verputzt:532827
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRZ;3Q11Pn5hbCshcW6xdv$I9p;Basic Wall:STB 25.0 WD 12.0:532754;Basic Wall:STB 25.0 WD 12.0:532125
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRZ;3Q11Pn5hbCshcW6xdv$I9m;Basic Wall:STB 25.0 WD 12.0:532754;Basic Wall:STB 25.0 WD 12.0:532126
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRZ;3Q11Pn5hbCshcW6xdv$I9C;Basic Wall:STB 25.0 WD 12.0:532754;Basic Wall:STB 25.0 WD 12.0:532130
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRZ;3Q11Pn5hbCshcW6xdv$I98;Basic Wall:STB 25.0 WD 12.0:532754;Basic Wall:STB 25cm verputzt:532134
+;;;;;;
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRY;1dIP0$x$TBaf5IWEDvgkRb;Basic Wall:STB 25.0 WD 12.0:532755;Basic Wall:STB 25.0 WD 12.0:532756
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRY;3Q11Pn5hbCshcW6xdv$I9p;Basic Wall:STB 25.0 WD 12.0:532755;Basic Wall:STB 25.0 WD 12.0:532125
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRY;3Q11Pn5hbCshcW6xdv$I9m;Basic Wall:STB 25.0 WD 12.0:532755;Basic Wall:STB 25.0 WD 12.0:532126
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRY;3Q11Pn5hbCshcW6xdv$I9n;Basic Wall:STB 25.0 WD 12.0:532755;Basic Wall:STB 25.0 WD 12.0:532127
+;;;;;;
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRb;1dIP0$x$TBaf5IWEDvgkRc;Basic Wall:STB 25.0 WD 12.0:532756;Basic Wall:STB 25.0 WD 12.0:532759
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRb;1dIP0$x$TBaf5IWEDvgkQg;Basic Wall:STB 25.0 WD 12.0:532756;Basic Wall:STB 25cm verputzt:532827
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRb;3Q11Pn5hbCshcW6xdv$I9m;Basic Wall:STB 25.0 WD 12.0:532756;Basic Wall:STB 25.0 WD 12.0:532126
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRb;3Q11Pn5hbCshcW6xdv$I9n;Basic Wall:STB 25.0 WD 12.0:532756;Basic Wall:STB 25.0 WD 12.0:532127
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRb;3Q11Pn5hbCshcW6xdv$I9C;Basic Wall:STB 25.0 WD 12.0:532756;Basic Wall:STB 25.0 WD 12.0:532130
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRb;3Q11Pn5hbCshcW6xdv$I98;Basic Wall:STB 25.0 WD 12.0:532756;Basic Wall:STB 25cm verputzt:532134
+;;;;;;
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRa;1dIP0$x$TBaf5IWEDvgkRd;Basic Wall:STB 25.0 WD 12.0:532757;Basic Wall:STB 25.0 WD 12.0:532758
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRa;20SOpDRPr8aOVEcTqgUJnm;Basic Wall:STB 25.0 WD 12.0:532757;Basic Wall:STB 25cm verputzt:547945
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRa;3Q11Pn5hbCshcW6xdv$I9E;Basic Wall:STB 25.0 WD 12.0:532757;Basic Wall:STB 25.0 WD 12.0:532128
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRa;3Q11Pn5hbCshcW6xdv$I9F;Basic Wall:STB 25.0 WD 12.0:532757;Basic Wall:STB 25.0 WD 12.0:532129
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRa;3Q11Pn5hbCshcW6xdv$I99;Basic Wall:STB 25.0 WD 12.0:532757;Basic Wall:STB 25cm verputzt:532135
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRa;3SzNDDjD149h3TfMZ7$4HE;Basic Wall:STB 25.0 WD 12.0:532757;Basic Wall:STB 25.0 WD 12.0:628018
+;;;;;;
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRd;1dIP0$x$TBaf5IWEDvgkRf;Basic Wall:STB 25.0 WD 12.0:532758;Basic Wall:STB 25.0 WD 12.0:532760
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRd;3Q11Pn5hbCshcW6xdv$I9E;Basic Wall:STB 25.0 WD 12.0:532758;Basic Wall:STB 25.0 WD 12.0:532128
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRd;3Q11Pn5hbCshcW6xdv$I9F;Basic Wall:STB 25.0 WD 12.0:532758;Basic Wall:STB 25.0 WD 12.0:532129
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRd;3Q11Pn5hbCshcW6xdv$I9B;Basic Wall:STB 25.0 WD 12.0:532758;Basic Wall:STB 25.0 WD 12.0:532133
+;;;;;;
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRc;3Q11Pn5hbCshcW6xdv$I9p;Basic Wall:STB 25.0 WD 12.0:532759;Basic Wall:STB 25.0 WD 12.0:532125
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRc;3Q11Pn5hbCshcW6xdv$I9n;Basic Wall:STB 25.0 WD 12.0:532759;Basic Wall:STB 25.0 WD 12.0:532127
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRc;3Q11Pn5hbCshcW6xdv$I9C;Basic Wall:STB 25.0 WD 12.0:532759;Basic Wall:STB 25.0 WD 12.0:532130
+;;;;;;
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRf;20SOpDRPr8aOVEcTqgUJnm;Basic Wall:STB 25.0 WD 12.0:532760;Basic Wall:STB 25cm verputzt:547945
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRf;3Q11Pn5hbCshcW6xdv$I9F;Basic Wall:STB 25.0 WD 12.0:532760;Basic Wall:STB 25.0 WD 12.0:532129
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRf;3Q11Pn5hbCshcW6xdv$I9B;Basic Wall:STB 25.0 WD 12.0:532760;Basic Wall:STB 25.0 WD 12.0:532133
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRf;3Q11Pn5hbCshcW6xdv$I99;Basic Wall:STB 25.0 WD 12.0:532760;Basic Wall:STB 25cm verputzt:532135
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkRf;3SzNDDjD149h3TfMZ7$4HE;Basic Wall:STB 25.0 WD 12.0:532760;Basic Wall:STB 25.0 WD 12.0:628018
+;;;;;;
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkQg;3Q11Pn5hbCshcW6xdv$I9p;Basic Wall:STB 25cm verputzt:532827;Basic Wall:STB 25.0 WD 12.0:532125
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkQg;3Q11Pn5hbCshcW6xdv$I9n;Basic Wall:STB 25cm verputzt:532827;Basic Wall:STB 25.0 WD 12.0:532127
+auto;IfcWall;IfcWall;1dIP0$x$TBaf5IWEDvgkQg;3Q11Pn5hbCshcW6xdv$I98;Basic Wall:STB 25cm verputzt:532827;Basic Wall:STB 25cm verputzt:532134
+;;;;;;
+auto;IfcWall;IfcWall;20SOpDRPr8aOVEcTqgUJnm;3Q11Pn5hbCshcW6xdv$I9E;Basic Wall:STB 25cm verputzt:547945;Basic Wall:STB 25.0 WD 12.0:532128
+auto;IfcWall;IfcWall;20SOpDRPr8aOVEcTqgUJnm;3Q11Pn5hbCshcW6xdv$I9B;Basic Wall:STB 25cm verputzt:547945;Basic Wall:STB 25.0 WD 12.0:532133
+auto;IfcWall;IfcWall;20SOpDRPr8aOVEcTqgUJnm;3Q11Pn5hbCshcW6xdv$I99;Basic Wall:STB 25cm verputzt:547945;Basic Wall:STB 25cm verputzt:532135
+;;;;;;
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3Q11Pn5hbCshcW6xdv$I9p;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:532125
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3Q11Pn5hbCshcW6xdv$I9m;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:532126
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3Q11Pn5hbCshcW6xdv$I9n;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:532127
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3Q11Pn5hbCshcW6xdv$I9E;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:532128
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3Q11Pn5hbCshcW6xdv$I9F;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:532129
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3Q11Pn5hbCshcW6xdv$I9C;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:532130
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3Q11Pn5hbCshcW6xdv$I9B;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:532133
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3Q11Pn5hbCshcW6xdv$I98;Floor:STB 20.0:531637;Basic Wall:STB 25cm verputzt:532134
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3Q11Pn5hbCshcW6xdv$I99;Floor:STB 20.0:531637;Basic Wall:STB 25cm verputzt:532135
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3SzNDDjD149h3TfMZ7$4HE;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:628018
+auto;IfcSlab;IfcBeam;0odRXJnXz4aPtdmSp8M5p3;112a_oQQPAjRRzPXDoz5eR;Floor:STB 20.0:531637;STB Unterzug:STB 20 x 40:544606
+auto;IfcSlab;IfcBeam;0odRXJnXz4aPtdmSp8M5p3;112a_oQQPAjRRzPXDoz5h9;Floor:STB 20.0:531637;STB Unterzug:STB 20 x 40:544652
+auto;IfcSlab;IfcBeam;0odRXJnXz4aPtdmSp8M5p3;112a_oQQPAjRRzPXDoz5pa;Floor:STB 20.0:531637;STB Unterzug:STB 25 x 50:543137
+auto;IfcSlab;IfcBeam;0odRXJnXz4aPtdmSp8M5p3;112a_oQQPAjRRzPXDoz5XY;Floor:STB 20.0:531637;STB Unterzug:STB 25 x 50:544039
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3p4;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528299
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3p3;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528300
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3p2;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528301
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3p1;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528302
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3pT;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528306
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3pS;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528307
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3pR;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528308
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3pQ;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528309
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3pP;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528310
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3pO;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528311
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3pN;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528312
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3pH;Floor:STB 20.0:531637;Basic Wall:STB 25cm verputzt:528318
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3pG;Floor:STB 20.0:531637;Basic Wall:STB 25cm verputzt:528319
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3DV_NwRrPECOODEVXYE3ok;Floor:STB 20.0:531637;Basic Wall:STB 25cm verputzt:528321
+auto;IfcSlab;IfcWall;0odRXJnXz4aPtdmSp8M5p3;3kfYhXmY5DvR5bWMjacYwf;Floor:STB 20.0:531637;Basic Wall:STB 25.0 WD 12.0:528885
+;;;;;;
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9p;3Q11Pn5hbCshcW6xdv$I9m;Basic Wall:STB 25.0 WD 12.0:532125;Basic Wall:STB 25.0 WD 12.0:532126
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9p;3Q11Pn5hbCshcW6xdv$I9C;Basic Wall:STB 25.0 WD 12.0:532125;Basic Wall:STB 25.0 WD 12.0:532130
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9p;3Q11Pn5hbCshcW6xdv$I98;Basic Wall:STB 25.0 WD 12.0:532125;Basic Wall:STB 25cm verputzt:532134
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9p;3DV_NwRrPECOODEVXYE3p3;Basic Wall:STB 25.0 WD 12.0:532125;Basic Wall:STB 25.0 WD 12.0:528300
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9p;3DV_NwRrPECOODEVXYE3p2;Basic Wall:STB 25.0 WD 12.0:532125;Basic Wall:STB 25.0 WD 12.0:528301
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9p;3DV_NwRrPECOODEVXYE3pR;Basic Wall:STB 25.0 WD 12.0:532125;Basic Wall:STB 25.0 WD 12.0:528308
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9p;3DV_NwRrPECOODEVXYE3pH;Basic Wall:STB 25.0 WD 12.0:532125;Basic Wall:STB 25cm verputzt:528318
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9p;3DV_NwRrPECOODEVXYE3pG;Basic Wall:STB 25.0 WD 12.0:532125;Basic Wall:STB 25cm verputzt:528319
+;;;;;;
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9m;3Q11Pn5hbCshcW6xdv$I9n;Basic Wall:STB 25.0 WD 12.0:532126;Basic Wall:STB 25.0 WD 12.0:532127
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9m;3DV_NwRrPECOODEVXYE3p3;Basic Wall:STB 25.0 WD 12.0:532126;Basic Wall:STB 25.0 WD 12.0:528300
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9m;3DV_NwRrPECOODEVXYE3p2;Basic Wall:STB 25.0 WD 12.0:532126;Basic Wall:STB 25.0 WD 12.0:528301
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9m;3DV_NwRrPECOODEVXYE3p1;Basic Wall:STB 25.0 WD 12.0:532126;Basic Wall:STB 25.0 WD 12.0:528302
+;;;;;;
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3Q11Pn5hbCshcW6xdv$I9C;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25.0 WD 12.0:532130
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3Q11Pn5hbCshcW6xdv$I98;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25cm verputzt:532134
+auto;IfcWall;IfcBeam;3Q11Pn5hbCshcW6xdv$I9n;112a_oQQPAjRRzPXDoz5h9;Basic Wall:STB 25.0 WD 12.0:532127;STB Unterzug:STB 20 x 40:544652
+auto;IfcWall;IfcBeam;3Q11Pn5hbCshcW6xdv$I9n;112a_oQQPAjRRzPXDoz5XY;Basic Wall:STB 25.0 WD 12.0:532127;STB Unterzug:STB 25 x 50:544039
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3DV_NwRrPECOODEVXYE3p4;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25.0 WD 12.0:528299
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3DV_NwRrPECOODEVXYE3p2;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25.0 WD 12.0:528301
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3DV_NwRrPECOODEVXYE3p1;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25.0 WD 12.0:528302
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3DV_NwRrPECOODEVXYE3pR;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25.0 WD 12.0:528308
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3DV_NwRrPECOODEVXYE3pQ;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25.0 WD 12.0:528309
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3DV_NwRrPECOODEVXYE3pP;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25.0 WD 12.0:528310
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3DV_NwRrPECOODEVXYE3pH;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25cm verputzt:528318
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3DV_NwRrPECOODEVXYE3pG;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25cm verputzt:528319
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9n;3kfYhXmY5DvR5bWMjacYwf;Basic Wall:STB 25.0 WD 12.0:532127;Basic Wall:STB 25.0 WD 12.0:528885
+;;;;;;
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9E;3Q11Pn5hbCshcW6xdv$I9F;Basic Wall:STB 25.0 WD 12.0:532128;Basic Wall:STB 25.0 WD 12.0:532129
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9E;3Q11Pn5hbCshcW6xdv$I99;Basic Wall:STB 25.0 WD 12.0:532128;Basic Wall:STB 25cm verputzt:532135
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9E;3SzNDDjD149h3TfMZ7$4HE;Basic Wall:STB 25.0 WD 12.0:532128;Basic Wall:STB 25.0 WD 12.0:628018
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9E;3DV_NwRrPECOODEVXYE3pT;Basic Wall:STB 25.0 WD 12.0:532128;Basic Wall:STB 25.0 WD 12.0:528306
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9E;3DV_NwRrPECOODEVXYE3pS;Basic Wall:STB 25.0 WD 12.0:532128;Basic Wall:STB 25.0 WD 12.0:528307
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9E;3DV_NwRrPECOODEVXYE3pR;Basic Wall:STB 25.0 WD 12.0:532128;Basic Wall:STB 25.0 WD 12.0:528308
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9E;3DV_NwRrPECOODEVXYE3ok;Basic Wall:STB 25.0 WD 12.0:532128;Basic Wall:STB 25cm verputzt:528321
+;;;;;;
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9F;3Q11Pn5hbCshcW6xdv$I9B;Basic Wall:STB 25.0 WD 12.0:532129;Basic Wall:STB 25.0 WD 12.0:532133
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9F;3DV_NwRrPECOODEVXYE3pT;Basic Wall:STB 25.0 WD 12.0:532129;Basic Wall:STB 25.0 WD 12.0:528306
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9F;3DV_NwRrPECOODEVXYE3pS;Basic Wall:STB 25.0 WD 12.0:532129;Basic Wall:STB 25.0 WD 12.0:528307
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9F;3DV_NwRrPECOODEVXYE3pN;Basic Wall:STB 25.0 WD 12.0:532129;Basic Wall:STB 25.0 WD 12.0:528312
+;;;;;;
+auto;IfcWall;IfcBeam;3Q11Pn5hbCshcW6xdv$I9C;112a_oQQPAjRRzPXDoz5h9;Basic Wall:STB 25.0 WD 12.0:532130;STB Unterzug:STB 20 x 40:544652
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9C;3DV_NwRrPECOODEVXYE3p3;Basic Wall:STB 25.0 WD 12.0:532130;Basic Wall:STB 25.0 WD 12.0:528300
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9C;3DV_NwRrPECOODEVXYE3pR;Basic Wall:STB 25.0 WD 12.0:532130;Basic Wall:STB 25.0 WD 12.0:528308
+;;;;;;
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9B;3Q11Pn5hbCshcW6xdv$I99;Basic Wall:STB 25.0 WD 12.0:532133;Basic Wall:STB 25cm verputzt:532135
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9B;3SzNDDjD149h3TfMZ7$4HE;Basic Wall:STB 25.0 WD 12.0:532133;Basic Wall:STB 25.0 WD 12.0:628018
+auto;IfcWall;IfcBeam;3Q11Pn5hbCshcW6xdv$I9B;112a_oQQPAjRRzPXDoz5eR;Basic Wall:STB 25.0 WD 12.0:532133;STB Unterzug:STB 20 x 40:544606
+auto;IfcWall;IfcBeam;3Q11Pn5hbCshcW6xdv$I9B;112a_oQQPAjRRzPXDoz5pa;Basic Wall:STB 25.0 WD 12.0:532133;STB Unterzug:STB 25 x 50:543137
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9B;3DV_NwRrPECOODEVXYE3p4;Basic Wall:STB 25.0 WD 12.0:532133;Basic Wall:STB 25.0 WD 12.0:528299
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9B;3DV_NwRrPECOODEVXYE3pS;Basic Wall:STB 25.0 WD 12.0:532133;Basic Wall:STB 25.0 WD 12.0:528307
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9B;3DV_NwRrPECOODEVXYE3pR;Basic Wall:STB 25.0 WD 12.0:532133;Basic Wall:STB 25.0 WD 12.0:528308
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9B;3DV_NwRrPECOODEVXYE3pQ;Basic Wall:STB 25.0 WD 12.0:532133;Basic Wall:STB 25.0 WD 12.0:528309
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9B;3DV_NwRrPECOODEVXYE3pO;Basic Wall:STB 25.0 WD 12.0:532133;Basic Wall:STB 25.0 WD 12.0:528311
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9B;3DV_NwRrPECOODEVXYE3pN;Basic Wall:STB 25.0 WD 12.0:532133;Basic Wall:STB 25.0 WD 12.0:528312
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9B;3DV_NwRrPECOODEVXYE3ok;Basic Wall:STB 25.0 WD 12.0:532133;Basic Wall:STB 25cm verputzt:528321
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I9B;3kfYhXmY5DvR5bWMjacYwf;Basic Wall:STB 25.0 WD 12.0:532133;Basic Wall:STB 25.0 WD 12.0:528885
+;;;;;;
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I98;3DV_NwRrPECOODEVXYE3p3;Basic Wall:STB 25cm verputzt:532134;Basic Wall:STB 25.0 WD 12.0:528300
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I98;3DV_NwRrPECOODEVXYE3p1;Basic Wall:STB 25cm verputzt:532134;Basic Wall:STB 25.0 WD 12.0:528302
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I98;3DV_NwRrPECOODEVXYE3pG;Basic Wall:STB 25cm verputzt:532134;Basic Wall:STB 25cm verputzt:528319
+;;;;;;
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I99;3DV_NwRrPECOODEVXYE3pT;Basic Wall:STB 25cm verputzt:532135;Basic Wall:STB 25.0 WD 12.0:528306
+auto;IfcWall;IfcWall;3Q11Pn5hbCshcW6xdv$I99;3DV_NwRrPECOODEVXYE3pN;Basic Wall:STB 25cm verputzt:532135;Basic Wall:STB 25.0 WD 12.0:528312
+;;;;;;
+auto;IfcWall;IfcBeam;3SzNDDjD149h3TfMZ7$4HE;112a_oQQPAjRRzPXDoz5eR;Basic Wall:STB 25.0 WD 12.0:628018;STB Unterzug:STB 20 x 40:544606
+auto;IfcWall;IfcWall;3SzNDDjD149h3TfMZ7$4HE;3DV_NwRrPECOODEVXYE3pT;Basic Wall:STB 25.0 WD 12.0:628018;Basic Wall:STB 25.0 WD 12.0:528306
+auto;IfcWall;IfcWall;3SzNDDjD149h3TfMZ7$4HE;3DV_NwRrPECOODEVXYE3pR;Basic Wall:STB 25.0 WD 12.0:628018;Basic Wall:STB 25.0 WD 12.0:528308
+;;;;;;
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5eR;3DV_NwRrPECOODEVXYE3pR;STB Unterzug:STB 20 x 40:544606;Basic Wall:STB 25.0 WD 12.0:528308
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5eR;3DV_NwRrPECOODEVXYE3pO;STB Unterzug:STB 20 x 40:544606;Basic Wall:STB 25.0 WD 12.0:528311
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5eR;3kfYhXmY5DvR5bWMjacYwf;STB Unterzug:STB 20 x 40:544606;Basic Wall:STB 25.0 WD 12.0:528885
+;;;;;;
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5h9;3DV_NwRrPECOODEVXYE3pR;STB Unterzug:STB 20 x 40:544652;Basic Wall:STB 25.0 WD 12.0:528308
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5h9;3DV_NwRrPECOODEVXYE3pP;STB Unterzug:STB 20 x 40:544652;Basic Wall:STB 25.0 WD 12.0:528310
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5h9;3kfYhXmY5DvR5bWMjacYwf;STB Unterzug:STB 20 x 40:544652;Basic Wall:STB 25.0 WD 12.0:528885
+;;;;;;
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5pa;3DV_NwRrPECOODEVXYE3p4;STB Unterzug:STB 25 x 50:543137;Basic Wall:STB 25.0 WD 12.0:528299
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5pa;3DV_NwRrPECOODEVXYE3pQ;STB Unterzug:STB 25 x 50:543137;Basic Wall:STB 25.0 WD 12.0:528309
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5pa;3DV_NwRrPECOODEVXYE3pO;STB Unterzug:STB 25 x 50:543137;Basic Wall:STB 25.0 WD 12.0:528311
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5pa;3DV_NwRrPECOODEVXYE3pN;STB Unterzug:STB 25 x 50:543137;Basic Wall:STB 25.0 WD 12.0:528312
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5pa;3DV_NwRrPECOODEVXYE3ok;STB Unterzug:STB 25 x 50:543137;Basic Wall:STB 25cm verputzt:528321
+;;;;;;
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5XY;3DV_NwRrPECOODEVXYE3p4;STB Unterzug:STB 25 x 50:544039;Basic Wall:STB 25.0 WD 12.0:528299
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5XY;3DV_NwRrPECOODEVXYE3p1;STB Unterzug:STB 25 x 50:544039;Basic Wall:STB 25.0 WD 12.0:528302
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5XY;3DV_NwRrPECOODEVXYE3pQ;STB Unterzug:STB 25 x 50:544039;Basic Wall:STB 25.0 WD 12.0:528309
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5XY;3DV_NwRrPECOODEVXYE3pP;STB Unterzug:STB 25 x 50:544039;Basic Wall:STB 25.0 WD 12.0:528310
+auto;IfcBeam;IfcWall;112a_oQQPAjRRzPXDoz5XY;3DV_NwRrPECOODEVXYE3pH;STB Unterzug:STB 25 x 50:544039;Basic Wall:STB 25cm verputzt:528318
+;;;;;;
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3p4;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528299
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3p3;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528300
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3p2;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528301
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3p1;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528302
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3pT;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528306
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3pS;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528307
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3pR;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528308
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3pQ;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528309
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3pP;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528310
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3pO;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528311
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3pN;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528312
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3pH;Floor:STB 20.0:529257;Basic Wall:STB 25cm verputzt:528318
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3pG;Floor:STB 20.0:529257;Basic Wall:STB 25cm verputzt:528319
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3DV_NwRrPECOODEVXYE3ok;Floor:STB 20.0:529257;Basic Wall:STB 25cm verputzt:528321
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3kfYhXmY5DvR5bWMjacYwf;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:528885
+auto;IfcSlab;IfcBeam;0RXOt4VrH7K9tmfmxuQy0J;2fhDKcX_j9tQ3e8Z5jo3Uo;Floor:STB 20.0:529257;STB Unterzug:STB 25 x 50:544949
+auto;IfcSlab;IfcBeam;0RXOt4VrH7K9tmfmxuQy0J;2fhDKcX_j9tQ3e8Z5jo3Un;Floor:STB 20.0:529257;STB Unterzug:STB 25 x 50:544950
+auto;IfcSlab;IfcColumn;0RXOt4VrH7K9tmfmxuQy0J;1p9NrdKprDShNO5JSM3gK_;Floor:STB 20.0:529257;STB Stütze - rechteckig:STB 35 x 40:539476
+auto;IfcSlab;IfcColumn;0RXOt4VrH7K9tmfmxuQy0J;1p9NrdKprDShNO5JSM3g9n;Floor:STB 20.0:529257;STB Stütze - rechteckig:STB 35 x 40:539675
+auto;IfcSlab;IfcColumn;0RXOt4VrH7K9tmfmxuQy0J;1W75q5z5vEahqtDAN7x6fu;Floor:STB 20.0:529257;STB Stütze - rechteckig:STB 30 x 30:576268
+auto;IfcSlab;IfcColumn;0RXOt4VrH7K9tmfmxuQy0J;1W75q5z5vEahqtDAN7x6ez;Floor:STB 20.0:529257;STB Stütze - rechteckig:STB 30 x 30:576329
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;29TvOE9uD0DQv8zkiKRq1u;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:457369
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;29TvOE9uD0DQv8zkiKRqJR;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:458298
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;29TvOE9uD0DQv8zkiKRqHp;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:458386
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3TfJ4Kf19Fbfj9OZ8Qb9z2;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:473278
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3TfJ4Kf19Fbfj9OZ8Qb9w8;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:473460
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3TfJ4Kf19Fbfj9OZ8Qb9vM;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:473514
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;2SUwsMeezCYhCy$QQ82nTe;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:487278
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;0SvG3UgvP32eAicgd63hXG;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;0SvG3UgvP32eAicgd63hjn;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:495346
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;3$o647Vd16yRDk1RcQI$c$;Floor:STB 20.0:529257;Basic Wall:STB 25.0 WD 12.0:504018
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;1veODZT0X1W9kLs0CyBEW_;Floor:STB 20.0:529257;Basic Wall:MW 36.5cm:521155
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;1TX5WU5If4dxI9Tc_c5h7_;Floor:STB 20.0:529257;Basic Wall:STB 25cm verputzt:524002
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;1TX5WU5If4dxI9Tc_c6KvY;Floor:STB 20.0:529257;Basic Wall:STB 25cm verputzt:524670
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;1TX5WU5If4dxI9Tc_c6KqO;Floor:STB 20.0:529257;Basic Wall:STB 25cm verputzt:524804
+auto;IfcSlab;IfcWall;0RXOt4VrH7K9tmfmxuQy0J;1gndkauHnEixC6gbH085m4;Floor:STB 20.0:529257;Basic Wall:STB 25cm verputzt:527693
+;;;;;;
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p4;3DV_NwRrPECOODEVXYE3p1;Basic Wall:STB 25.0 WD 12.0:528299;Basic Wall:STB 25.0 WD 12.0:528302
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p4;3DV_NwRrPECOODEVXYE3pN;Basic Wall:STB 25.0 WD 12.0:528299;Basic Wall:STB 25.0 WD 12.0:528312
+auto;IfcWall;IfcBeam;3DV_NwRrPECOODEVXYE3p4;2fhDKcX_j9tQ3e8Z5jo3Uo;Basic Wall:STB 25.0 WD 12.0:528299;STB Unterzug:STB 25 x 50:544949
+auto;IfcWall;IfcBeam;3DV_NwRrPECOODEVXYE3p4;2fhDKcX_j9tQ3e8Z5jo3Un;Basic Wall:STB 25.0 WD 12.0:528299;STB Unterzug:STB 25 x 50:544950
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p4;29TvOE9uD0DQv8zkiKRq1u;Basic Wall:STB 25.0 WD 12.0:528299;Basic Wall:STB 25.0 WD 12.0:457369
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p4;29TvOE9uD0DQv8zkiKRqHp;Basic Wall:STB 25.0 WD 12.0:528299;Basic Wall:STB 25.0 WD 12.0:458386
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p4;3$o647Vd16yRDk1RcQI$c$;Basic Wall:STB 25.0 WD 12.0:528299;Basic Wall:STB 25.0 WD 12.0:504018
+;;;;;;
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p3;3DV_NwRrPECOODEVXYE3p2;Basic Wall:STB 25.0 WD 12.0:528300;Basic Wall:STB 25.0 WD 12.0:528301
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p3;3DV_NwRrPECOODEVXYE3pR;Basic Wall:STB 25.0 WD 12.0:528300;Basic Wall:STB 25.0 WD 12.0:528308
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p3;3DV_NwRrPECOODEVXYE3pH;Basic Wall:STB 25.0 WD 12.0:528300;Basic Wall:STB 25cm verputzt:528318
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p3;3DV_NwRrPECOODEVXYE3pG;Basic Wall:STB 25.0 WD 12.0:528300;Basic Wall:STB 25cm verputzt:528319
+auto;IfcWall;IfcColumn;3DV_NwRrPECOODEVXYE3p3;1p9NrdKprDShNO5JSM3gK_;Basic Wall:STB 25.0 WD 12.0:528300;STB Stütze - rechteckig:STB 35 x 40:539476
+auto;IfcWall;IfcColumn;3DV_NwRrPECOODEVXYE3p3;1p9NrdKprDShNO5JSM3g9n;Basic Wall:STB 25.0 WD 12.0:528300;STB Stütze - rechteckig:STB 35 x 40:539675
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p3;29TvOE9uD0DQv8zkiKRqJR;Basic Wall:STB 25.0 WD 12.0:528300;Basic Wall:STB 25.0 WD 12.0:458298
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p3;3TfJ4Kf19Fbfj9OZ8Qb9z2;Basic Wall:STB 25.0 WD 12.0:528300;Basic Wall:STB 25.0 WD 12.0:473278
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p3;1TX5WU5If4dxI9Tc_c5h7_;Basic Wall:STB 25.0 WD 12.0:528300;Basic Wall:STB 25cm verputzt:524002
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p3;1TX5WU5If4dxI9Tc_c6KvY;Basic Wall:STB 25.0 WD 12.0:528300;Basic Wall:STB 25cm verputzt:524670
+;;;;;;
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p2;3DV_NwRrPECOODEVXYE3p1;Basic Wall:STB 25.0 WD 12.0:528301;Basic Wall:STB 25.0 WD 12.0:528302
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p2;29TvOE9uD0DQv8zkiKRqJR;Basic Wall:STB 25.0 WD 12.0:528301;Basic Wall:STB 25.0 WD 12.0:458298
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p2;29TvOE9uD0DQv8zkiKRqHp;Basic Wall:STB 25.0 WD 12.0:528301;Basic Wall:STB 25.0 WD 12.0:458386
+;;;;;;
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p1;3DV_NwRrPECOODEVXYE3pG;Basic Wall:STB 25.0 WD 12.0:528302;Basic Wall:STB 25cm verputzt:528319
+auto;IfcWall;IfcBeam;3DV_NwRrPECOODEVXYE3p1;2fhDKcX_j9tQ3e8Z5jo3Un;Basic Wall:STB 25.0 WD 12.0:528302;STB Unterzug:STB 25 x 50:544950
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p1;29TvOE9uD0DQv8zkiKRq1u;Basic Wall:STB 25.0 WD 12.0:528302;Basic Wall:STB 25.0 WD 12.0:457369
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p1;29TvOE9uD0DQv8zkiKRqJR;Basic Wall:STB 25.0 WD 12.0:528302;Basic Wall:STB 25.0 WD 12.0:458298
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p1;29TvOE9uD0DQv8zkiKRqHp;Basic Wall:STB 25.0 WD 12.0:528302;Basic Wall:STB 25.0 WD 12.0:458386
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3p1;1TX5WU5If4dxI9Tc_c6KvY;Basic Wall:STB 25.0 WD 12.0:528302;Basic Wall:STB 25cm verputzt:524670
+;;;;;;
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pT;3DV_NwRrPECOODEVXYE3pS;Basic Wall:STB 25.0 WD 12.0:528306;Basic Wall:STB 25.0 WD 12.0:528307
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pT;3DV_NwRrPECOODEVXYE3pR;Basic Wall:STB 25.0 WD 12.0:528306;Basic Wall:STB 25.0 WD 12.0:528308
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pT;3DV_NwRrPECOODEVXYE3ok;Basic Wall:STB 25.0 WD 12.0:528306;Basic Wall:STB 25cm verputzt:528321
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pT;3TfJ4Kf19Fbfj9OZ8Qb9z2;Basic Wall:STB 25.0 WD 12.0:528306;Basic Wall:STB 25.0 WD 12.0:473278
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pT;3TfJ4Kf19Fbfj9OZ8Qb9w8;Basic Wall:STB 25.0 WD 12.0:528306;Basic Wall:STB 25.0 WD 12.0:473460
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pT;3TfJ4Kf19Fbfj9OZ8Qb9vM;Basic Wall:STB 25.0 WD 12.0:528306;Basic Wall:STB 25.0 WD 12.0:473514
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pT;1TX5WU5If4dxI9Tc_c6KqO;Basic Wall:STB 25.0 WD 12.0:528306;Basic Wall:STB 25cm verputzt:524804
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pT;1gndkauHnEixC6gbH085m4;Basic Wall:STB 25.0 WD 12.0:528306;Basic Wall:STB 25cm verputzt:527693
+;;;;;;
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pS;3DV_NwRrPECOODEVXYE3pN;Basic Wall:STB 25.0 WD 12.0:528307;Basic Wall:STB 25.0 WD 12.0:528312
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pS;3TfJ4Kf19Fbfj9OZ8Qb9w8;Basic Wall:STB 25.0 WD 12.0:528307;Basic Wall:STB 25.0 WD 12.0:473460
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pS;3TfJ4Kf19Fbfj9OZ8Qb9vM;Basic Wall:STB 25.0 WD 12.0:528307;Basic Wall:STB 25.0 WD 12.0:473514
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pS;3$o647Vd16yRDk1RcQI$c$;Basic Wall:STB 25.0 WD 12.0:528307;Basic Wall:STB 25.0 WD 12.0:504018
+;;;;;;
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pR;3TfJ4Kf19Fbfj9OZ8Qb9z2;Basic Wall:STB 25.0 WD 12.0:528308;Basic Wall:STB 25.0 WD 12.0:473278
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pR;3TfJ4Kf19Fbfj9OZ8Qb9w8;Basic Wall:STB 25.0 WD 12.0:528308;Basic Wall:STB 25.0 WD 12.0:473460
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pR;0SvG3UgvP32eAicgd63hXG;Basic Wall:STB 25.0 WD 12.0:528308;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pR;0SvG3UgvP32eAicgd63hjn;Basic Wall:STB 25.0 WD 12.0:528308;Basic Wall:STB 25.0 WD 12.0:495346
+;;;;;;
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pQ;3DV_NwRrPECOODEVXYE3pP;Basic Wall:STB 25.0 WD 12.0:528309;Basic Wall:STB 25.0 WD 12.0:528310
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pQ;3DV_NwRrPECOODEVXYE3pO;Basic Wall:STB 25.0 WD 12.0:528309;Basic Wall:STB 25.0 WD 12.0:528311
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pQ;3DV_NwRrPECOODEVXYE3pH;Basic Wall:STB 25.0 WD 12.0:528309;Basic Wall:STB 25cm verputzt:528318
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pQ;3DV_NwRrPECOODEVXYE3ok;Basic Wall:STB 25.0 WD 12.0:528309;Basic Wall:STB 25cm verputzt:528321
+auto;IfcWall;IfcBeam;3DV_NwRrPECOODEVXYE3pQ;2fhDKcX_j9tQ3e8Z5jo3Uo;Basic Wall:STB 25.0 WD 12.0:528309;STB Unterzug:STB 25 x 50:544949
+auto;IfcWall;IfcBeam;3DV_NwRrPECOODEVXYE3pQ;2fhDKcX_j9tQ3e8Z5jo3Un;Basic Wall:STB 25.0 WD 12.0:528309;STB Unterzug:STB 25 x 50:544950
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pQ;2SUwsMeezCYhCy$QQ82nTe;Basic Wall:STB 25.0 WD 12.0:528309;Basic Wall:STB 25.0 WD 12.0:487278
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pQ;0SvG3UgvP32eAicgd63hXG;Basic Wall:STB 25.0 WD 12.0:528309;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pQ;0SvG3UgvP32eAicgd63hjn;Basic Wall:STB 25.0 WD 12.0:528309;Basic Wall:STB 25.0 WD 12.0:495346
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pQ;1TX5WU5If4dxI9Tc_c5h7_;Basic Wall:STB 25.0 WD 12.0:528309;Basic Wall:STB 25cm verputzt:524002
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pQ;1gndkauHnEixC6gbH085m4;Basic Wall:STB 25.0 WD 12.0:528309;Basic Wall:STB 25cm verputzt:527693
+;;;;;;
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pP;3DV_NwRrPECOODEVXYE3pH;Basic Wall:STB 25.0 WD 12.0:528310;Basic Wall:STB 25cm verputzt:528318
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pP;3kfYhXmY5DvR5bWMjacYwf;Basic Wall:STB 25.0 WD 12.0:528310;Basic Wall:STB 25.0 WD 12.0:528885
+auto;IfcWall;IfcBeam;3DV_NwRrPECOODEVXYE3pP;2fhDKcX_j9tQ3e8Z5jo3Un;Basic Wall:STB 25.0 WD 12.0:528310;STB Unterzug:STB 25 x 50:544950
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pP;2SUwsMeezCYhCy$QQ82nTe;Basic Wall:STB 25.0 WD 12.0:528310;Basic Wall:STB 25.0 WD 12.0:487278
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pP;0SvG3UgvP32eAicgd63hXG;Basic Wall:STB 25.0 WD 12.0:528310;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pP;1veODZT0X1W9kLs0CyBEW_;Basic Wall:STB 25.0 WD 12.0:528310;Basic Wall:MW 36.5cm:521155
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pP;1TX5WU5If4dxI9Tc_c5h7_;Basic Wall:STB 25.0 WD 12.0:528310;Basic Wall:STB 25cm verputzt:524002
+;;;;;;
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pO;3DV_NwRrPECOODEVXYE3ok;Basic Wall:STB 25.0 WD 12.0:528311;Basic Wall:STB 25cm verputzt:528321
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pO;3kfYhXmY5DvR5bWMjacYwf;Basic Wall:STB 25.0 WD 12.0:528311;Basic Wall:STB 25.0 WD 12.0:528885
+auto;IfcWall;IfcBeam;3DV_NwRrPECOODEVXYE3pO;2fhDKcX_j9tQ3e8Z5jo3Uo;Basic Wall:STB 25.0 WD 12.0:528311;STB Unterzug:STB 25 x 50:544949
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pO;2SUwsMeezCYhCy$QQ82nTe;Basic Wall:STB 25.0 WD 12.0:528311;Basic Wall:STB 25.0 WD 12.0:487278
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pO;0SvG3UgvP32eAicgd63hjn;Basic Wall:STB 25.0 WD 12.0:528311;Basic Wall:STB 25.0 WD 12.0:495346
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pO;1veODZT0X1W9kLs0CyBEW_;Basic Wall:STB 25.0 WD 12.0:528311;Basic Wall:MW 36.5cm:521155
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pO;1gndkauHnEixC6gbH085m4;Basic Wall:STB 25.0 WD 12.0:528311;Basic Wall:STB 25cm verputzt:527693
+;;;;;;
+auto;IfcWall;IfcBeam;3DV_NwRrPECOODEVXYE3pN;2fhDKcX_j9tQ3e8Z5jo3Uo;Basic Wall:STB 25.0 WD 12.0:528312;STB Unterzug:STB 25 x 50:544949
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pN;29TvOE9uD0DQv8zkiKRq1u;Basic Wall:STB 25.0 WD 12.0:528312;Basic Wall:STB 25.0 WD 12.0:457369
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pN;3TfJ4Kf19Fbfj9OZ8Qb9vM;Basic Wall:STB 25.0 WD 12.0:528312;Basic Wall:STB 25.0 WD 12.0:473514
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pN;3$o647Vd16yRDk1RcQI$c$;Basic Wall:STB 25.0 WD 12.0:528312;Basic Wall:STB 25.0 WD 12.0:504018
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pN;1TX5WU5If4dxI9Tc_c6KqO;Basic Wall:STB 25.0 WD 12.0:528312;Basic Wall:STB 25cm verputzt:524804
+;;;;;;
+auto;IfcWall;IfcBeam;3DV_NwRrPECOODEVXYE3pH;2fhDKcX_j9tQ3e8Z5jo3Un;Basic Wall:STB 25cm verputzt:528318;STB Unterzug:STB 25 x 50:544950
+auto;IfcWall;IfcColumn;3DV_NwRrPECOODEVXYE3pH;1p9NrdKprDShNO5JSM3gK_;Basic Wall:STB 25cm verputzt:528318;STB Stütze - rechteckig:STB 35 x 40:539476
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pH;2SUwsMeezCYhCy$QQ82nTe;Basic Wall:STB 25cm verputzt:528318;Basic Wall:STB 25.0 WD 12.0:487278
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pH;0SvG3UgvP32eAicgd63hXG;Basic Wall:STB 25cm verputzt:528318;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pH;1TX5WU5If4dxI9Tc_c5h7_;Basic Wall:STB 25cm verputzt:528318;Basic Wall:STB 25cm verputzt:524002
+;;;;;;
+auto;IfcWall;IfcColumn;3DV_NwRrPECOODEVXYE3pG;1p9NrdKprDShNO5JSM3g9n;Basic Wall:STB 25cm verputzt:528319;STB Stütze - rechteckig:STB 35 x 40:539675
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pG;29TvOE9uD0DQv8zkiKRqHp;Basic Wall:STB 25cm verputzt:528319;Basic Wall:STB 25.0 WD 12.0:458386
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3pG;1TX5WU5If4dxI9Tc_c6KvY;Basic Wall:STB 25cm verputzt:528319;Basic Wall:STB 25cm verputzt:524670
+;;;;;;
+auto;IfcWall;IfcBeam;3DV_NwRrPECOODEVXYE3ok;2fhDKcX_j9tQ3e8Z5jo3Uo;Basic Wall:STB 25cm verputzt:528321;STB Unterzug:STB 25 x 50:544949
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3ok;3TfJ4Kf19Fbfj9OZ8Qb9w8;Basic Wall:STB 25cm verputzt:528321;Basic Wall:STB 25.0 WD 12.0:473460
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3ok;0SvG3UgvP32eAicgd63hjn;Basic Wall:STB 25cm verputzt:528321;Basic Wall:STB 25.0 WD 12.0:495346
+auto;IfcWall;IfcWall;3DV_NwRrPECOODEVXYE3ok;1gndkauHnEixC6gbH085m4;Basic Wall:STB 25cm verputzt:528321;Basic Wall:STB 25cm verputzt:527693
+;;;;;;
+auto;IfcWall;IfcWall;3kfYhXmY5DvR5bWMjacYwf;0SvG3UgvP32eAicgd63hXG;Basic Wall:STB 25.0 WD 12.0:528885;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcWall;IfcWall;3kfYhXmY5DvR5bWMjacYwf;0SvG3UgvP32eAicgd63hjn;Basic Wall:STB 25.0 WD 12.0:528885;Basic Wall:STB 25.0 WD 12.0:495346
+auto;IfcWall;IfcWall;3kfYhXmY5DvR5bWMjacYwf;1veODZT0X1W9kLs0CyBEW_;Basic Wall:STB 25.0 WD 12.0:528885;Basic Wall:MW 36.5cm:521155
+;;;;;;
+auto;IfcBeam;IfcWall;2fhDKcX_j9tQ3e8Z5jo3Uo;29TvOE9uD0DQv8zkiKRq1u;STB Unterzug:STB 25 x 50:544949;Basic Wall:STB 25.0 WD 12.0:457369
+auto;IfcBeam;IfcWall;2fhDKcX_j9tQ3e8Z5jo3Uo;2SUwsMeezCYhCy$QQ82nTe;STB Unterzug:STB 25 x 50:544949;Basic Wall:STB 25.0 WD 12.0:487278
+auto;IfcBeam;IfcWall;2fhDKcX_j9tQ3e8Z5jo3Uo;0SvG3UgvP32eAicgd63hjn;STB Unterzug:STB 25 x 50:544949;Basic Wall:STB 25.0 WD 12.0:495346
+auto;IfcBeam;IfcWall;2fhDKcX_j9tQ3e8Z5jo3Uo;3$o647Vd16yRDk1RcQI$c$;STB Unterzug:STB 25 x 50:544949;Basic Wall:STB 25.0 WD 12.0:504018
+auto;IfcBeam;IfcWall;2fhDKcX_j9tQ3e8Z5jo3Uo;1gndkauHnEixC6gbH085m4;STB Unterzug:STB 25 x 50:544949;Basic Wall:STB 25cm verputzt:527693
+;;;;;;
+auto;IfcBeam;IfcWall;2fhDKcX_j9tQ3e8Z5jo3Un;29TvOE9uD0DQv8zkiKRq1u;STB Unterzug:STB 25 x 50:544950;Basic Wall:STB 25.0 WD 12.0:457369
+auto;IfcBeam;IfcWall;2fhDKcX_j9tQ3e8Z5jo3Un;29TvOE9uD0DQv8zkiKRqHp;STB Unterzug:STB 25 x 50:544950;Basic Wall:STB 25.0 WD 12.0:458386
+auto;IfcBeam;IfcWall;2fhDKcX_j9tQ3e8Z5jo3Un;2SUwsMeezCYhCy$QQ82nTe;STB Unterzug:STB 25 x 50:544950;Basic Wall:STB 25.0 WD 12.0:487278
+auto;IfcBeam;IfcWall;2fhDKcX_j9tQ3e8Z5jo3Un;0SvG3UgvP32eAicgd63hXG;STB Unterzug:STB 25 x 50:544950;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcBeam;IfcWall;2fhDKcX_j9tQ3e8Z5jo3Un;1TX5WU5If4dxI9Tc_c5h7_;STB Unterzug:STB 25 x 50:544950;Basic Wall:STB 25cm verputzt:524002
+;;;;;;
+auto;IfcColumn;IfcSlab;1p9NrdKprDShNO5JSM3gK_;1gndkauHnEixC6gbH085mX;STB Stütze - rechteckig:STB 35 x 40:539476;Floor:STB 20.0:527720
+auto;IfcColumn;IfcWall;1p9NrdKprDShNO5JSM3gK_;1TX5WU5If4dxI9Tc_c5h7_;STB Stütze - rechteckig:STB 35 x 40:539476;Basic Wall:STB 25cm verputzt:524002
+auto;IfcColumn;IfcSlab;1p9NrdKprDShNO5JSM3gK_;1TX5WU5If4dxI9Tc_c6Kl1;STB Stütze - rechteckig:STB 35 x 40:539476;Floor:STB 20cm:525533
+auto;IfcColumn;IfcWall;1p9NrdKprDShNO5JSM3gK_;3SikjAVePFG80ZhsJdM5pn;STB Stütze - rechteckig:STB 35 x 40:539476;Basic Wall:STB 25cm:510184
+auto;IfcColumn;IfcWall;1p9NrdKprDShNO5JSM3gK_;3SikjAVePFG80ZhsJdM5bH;STB Stütze - rechteckig:STB 35 x 40:539476;Basic Wall:STB 25cm:511304
+;;;;;;
+auto;IfcColumn;IfcSlab;1p9NrdKprDShNO5JSM3g9n;1gndkauHnEixC6gbH085mX;STB Stütze - rechteckig:STB 35 x 40:539675;Floor:STB 20.0:527720
+auto;IfcColumn;IfcWall;1p9NrdKprDShNO5JSM3g9n;1TX5WU5If4dxI9Tc_c6KvY;STB Stütze - rechteckig:STB 35 x 40:539675;Basic Wall:STB 25cm verputzt:524670
+auto;IfcColumn;IfcSlab;1p9NrdKprDShNO5JSM3g9n;3jw8FRgIEswbG$ImNokus5;STB Stütze - rechteckig:STB 35 x 40:539675;Floor:STB 20cm:525533:3
+auto;IfcColumn;IfcWall;1p9NrdKprDShNO5JSM3g9n;3SikjAVePFG80ZhsJdM5bH;STB Stütze - rechteckig:STB 35 x 40:539675;Basic Wall:STB 25cm:511304
+auto;IfcColumn;IfcWall;1p9NrdKprDShNO5JSM3g9n;1TX5WU5If4dxI9Tc_c6Kd0;STB Stütze - rechteckig:STB 35 x 40:539675;Basic Wall:STB 25cm:526044
+;;;;;;
+auto;IfcColumn;IfcSlab;1W75q5z5vEahqtDAN7x6fu;1gndkauHnEixC6gbH085mX;STB Stütze - rechteckig:STB 30 x 30:576268;Floor:STB 20.0:527720
+;;;;;;
+auto;IfcColumn;IfcSlab;1W75q5z5vEahqtDAN7x6ez;1gndkauHnEixC6gbH085mX;STB Stütze - rechteckig:STB 30 x 30:576329;Floor:STB 20.0:527720
+;;;;;;
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;29TvOE9uD0DQv8zkiKRq1u;Floor:STB 20.0:527720;Basic Wall:STB 25.0 WD 12.0:457369
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;29TvOE9uD0DQv8zkiKRqHp;Floor:STB 20.0:527720;Basic Wall:STB 25.0 WD 12.0:458386
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;3TfJ4Kf19Fbfj9OZ8Qb9w8;Floor:STB 20.0:527720;Basic Wall:STB 25.0 WD 12.0:473460
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;2SUwsMeezCYhCy$QQ82nTe;Floor:STB 20.0:527720;Basic Wall:STB 25.0 WD 12.0:487278
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;0SvG3UgvP32eAicgd63hXG;Floor:STB 20.0:527720;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;0SvG3UgvP32eAicgd63hjn;Floor:STB 20.0:527720;Basic Wall:STB 25.0 WD 12.0:495346
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;3$o647Vd16yRDk1RcQI$c$;Floor:STB 20.0:527720;Basic Wall:STB 25.0 WD 12.0:504018
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;1TX5WU5If4dxI9Tc_c5h7_;Floor:STB 20.0:527720;Basic Wall:STB 25cm verputzt:524002
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;1TX5WU5If4dxI9Tc_c6KvY;Floor:STB 20.0:527720;Basic Wall:STB 25cm verputzt:524670
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;1TX5WU5If4dxI9Tc_c6KqO;Floor:STB 20.0:527720;Basic Wall:STB 25cm verputzt:524804
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;1gndkauHnEixC6gbH085m4;Floor:STB 20.0:527720;Basic Wall:STB 25cm verputzt:527693
+auto;IfcSlab;IfcSlab;1gndkauHnEixC6gbH085mX;3SutctR5brUh87YP22dz40;Floor:STB 20.0:527720;Floor:STB 20cm:525533:2
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;3SikjAVePFG80ZhsJdM5pn;Floor:STB 20.0:527720;Basic Wall:STB 25cm:510184
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;3SikjAVePFG80ZhsJdM5vV;Floor:STB 20.0:527720;Basic Wall:STB 25cm:510534
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;3SikjAVePFG80ZhsJdM5xc;Floor:STB 20.0:527720;Basic Wall:STB 25cm:510719
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;3SikjAVePFG80ZhsJdM5zm;Floor:STB 20.0:527720;Basic Wall:STB 25cm:510825
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;3SikjAVePFG80ZhsJdM5$n;Floor:STB 20.0:527720;Basic Wall:STB 25cm:510952
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;3SikjAVePFG80ZhsJdM5bH;Floor:STB 20.0:527720;Basic Wall:STB 25cm:511304
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;1TX5WU5If4dxI9Tc_c6Kd0;Floor:STB 20.0:527720;Basic Wall:STB 25cm:526044
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;1TX5WU5If4dxI9Tc_c6KXW;Floor:STB 20.0:527720;Basic Wall:STB 25cm:526204
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;1TX5WU5If4dxI9Tc_c6KSa;Floor:STB 20.0:527720;Basic Wall:STB 25cm:526392
+auto;IfcSlab;IfcWall;1gndkauHnEixC6gbH085mX;1gndkauHnEixC6gbH085tS;Floor:STB 20.0:527720;Basic Wall:STB 25cm:527509
+;;;;;;
+auto;IfcSlab;IfcWall;3RlhhoTNL4lhDVbtXXsFvx;3TfJ4Kf19Fbfj9OZ8Qb9z2;Floor:STB 25cm:633203;Basic Wall:STB 25.0 WD 12.0:473278
+auto;IfcSlab;IfcWall;3RlhhoTNL4lhDVbtXXsFvx;0SvG3UgvP32eAicgd63hXG;Floor:STB 25cm:633203;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcSlab;IfcWall;3RlhhoTNL4lhDVbtXXsFvx;0SvG3UgvP32eAicgd63hjn;Floor:STB 25cm:633203;Basic Wall:STB 25.0 WD 12.0:495346
+auto;IfcSlab;IfcWall;3RlhhoTNL4lhDVbtXXsFvx;1veODZT0X1W9kLs0CyBEW_;Floor:STB 25cm:633203;Basic Wall:MW 36.5cm:521155
+auto;IfcSlab;IfcWall;3RlhhoTNL4lhDVbtXXsFvx;3SikjAVePFG80ZhsJdM5ED;Floor:STB 25cm:633203;Basic Wall:STB 25cm:509844
+auto;IfcSlab;IfcWall;3RlhhoTNL4lhDVbtXXsFvx;3SikjAVePFG80ZhsJdM5nk;Floor:STB 25cm:633203;Basic Wall:STB 25cm:510071
+auto;IfcSlab;IfcWall;3RlhhoTNL4lhDVbtXXsFvx;3SikjAVePFG80ZhsJdM5rH;Floor:STB 25cm:633203;Basic Wall:STB 25cm:510280
+auto;IfcSlab;IfcWall;3RlhhoTNL4lhDVbtXXsFvx;3SikjAVePFG80ZhsJdM5si;Floor:STB 25cm:633203;Basic Wall:STB 25cm:510389
+auto;IfcSlab;IfcWall;3RlhhoTNL4lhDVbtXXsFvx;3SikjAVePFG80ZhsJdM5fZ;Floor:STB 25cm:633203;Basic Wall:STB 25cm:511610
+;;;;;;
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRq1u;29TvOE9uD0DQv8zkiKRqHp;Basic Wall:STB 25.0 WD 12.0:457369;Basic Wall:STB 25.0 WD 12.0:458386
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRq1u;3$o647Vd16yRDk1RcQI$c$;Basic Wall:STB 25.0 WD 12.0:457369;Basic Wall:STB 25.0 WD 12.0:504018
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRq1u;3SikjAVePFG80ZhsJdM5xc;Basic Wall:STB 25.0 WD 12.0:457369;Basic Wall:STB 25cm:510719
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRq1u;3SikjAVePFG80ZhsJdM5zm;Basic Wall:STB 25.0 WD 12.0:457369;Basic Wall:STB 25cm:510825
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRq1u;3SikjAVePFG80ZhsJdM5$n;Basic Wall:STB 25.0 WD 12.0:457369;Basic Wall:STB 25cm:510952
+;;;;;;
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRqJR;29TvOE9uD0DQv8zkiKRqHp;Basic Wall:STB 25.0 WD 12.0:458298;Basic Wall:STB 25.0 WD 12.0:458386
+auto;IfcWall;IfcSlab;29TvOE9uD0DQv8zkiKRqJR;3jw8FRgIEswbG$ImNokus5;Basic Wall:STB 25.0 WD 12.0:458298;Floor:STB 20cm:525533:3
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRqJR;3SikjAVePFG80ZhsJdM5$n;Basic Wall:STB 25.0 WD 12.0:458298;Basic Wall:STB 25cm:510952
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRqJR;3SikjAVePFG80ZhsJdM5XI;Basic Wall:STB 25.0 WD 12.0:458298;Basic Wall:STB 25cm:511051
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRqJR;3SikjAVePFG80ZhsJdM5bH;Basic Wall:STB 25.0 WD 12.0:458298;Basic Wall:STB 25cm:511304
+;;;;;;
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRqHp;1TX5WU5If4dxI9Tc_c6KvY;Basic Wall:STB 25.0 WD 12.0:458386;Basic Wall:STB 25cm verputzt:524670
+auto;IfcWall;IfcSlab;29TvOE9uD0DQv8zkiKRqHp;3jw8FRgIEswbG$ImNokus5;Basic Wall:STB 25.0 WD 12.0:458386;Floor:STB 20cm:525533:3
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRqHp;3SikjAVePFG80ZhsJdM5zm;Basic Wall:STB 25.0 WD 12.0:458386;Basic Wall:STB 25cm:510825
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRqHp;3SikjAVePFG80ZhsJdM5$n;Basic Wall:STB 25.0 WD 12.0:458386;Basic Wall:STB 25cm:510952
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRqHp;3SikjAVePFG80ZhsJdM5XI;Basic Wall:STB 25.0 WD 12.0:458386;Basic Wall:STB 25cm:511051
+auto;IfcWall;IfcWall;29TvOE9uD0DQv8zkiKRqHp;1TX5WU5If4dxI9Tc_c6Kd0;Basic Wall:STB 25.0 WD 12.0:458386;Basic Wall:STB 25cm:526044
+;;;;;;
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9z2;3TfJ4Kf19Fbfj9OZ8Qb9w8;Basic Wall:STB 25.0 WD 12.0:473278;Basic Wall:STB 25.0 WD 12.0:473460
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9z2;0SvG3UgvP32eAicgd63hXG;Basic Wall:STB 25.0 WD 12.0:473278;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9z2;0SvG3UgvP32eAicgd63hjn;Basic Wall:STB 25.0 WD 12.0:473278;Basic Wall:STB 25.0 WD 12.0:495346
+auto;IfcWall;IfcSlab;3TfJ4Kf19Fbfj9OZ8Qb9z2;1TX5WU5If4dxI9Tc_c6Kl1;Basic Wall:STB 25.0 WD 12.0:473278;Floor:STB 20cm:525533
+auto;IfcWall;IfcSlab;3TfJ4Kf19Fbfj9OZ8Qb9z2;3SutctR5brUh87YP22dz40;Basic Wall:STB 25.0 WD 12.0:473278;Floor:STB 20cm:525533:2
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9z2;3SikjAVePFG80ZhsJdM5ED;Basic Wall:STB 25.0 WD 12.0:473278;Basic Wall:STB 25cm:509844
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9z2;3SikjAVePFG80ZhsJdM5nk;Basic Wall:STB 25.0 WD 12.0:473278;Basic Wall:STB 25cm:510071
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9z2;3SikjAVePFG80ZhsJdM5rH;Basic Wall:STB 25.0 WD 12.0:473278;Basic Wall:STB 25cm:510280
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9z2;3SikjAVePFG80ZhsJdM5si;Basic Wall:STB 25.0 WD 12.0:473278;Basic Wall:STB 25cm:510389
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9z2;3SikjAVePFG80ZhsJdM5vV;Basic Wall:STB 25.0 WD 12.0:473278;Basic Wall:STB 25cm:510534
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9z2;3SikjAVePFG80ZhsJdM5bH;Basic Wall:STB 25.0 WD 12.0:473278;Basic Wall:STB 25cm:511304
+;;;;;;
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9w8;3TfJ4Kf19Fbfj9OZ8Qb9vM;Basic Wall:STB 25.0 WD 12.0:473460;Basic Wall:STB 25.0 WD 12.0:473514
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9w8;1TX5WU5If4dxI9Tc_c6KqO;Basic Wall:STB 25.0 WD 12.0:473460;Basic Wall:STB 25cm verputzt:524804
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9w8;1gndkauHnEixC6gbH085m4;Basic Wall:STB 25.0 WD 12.0:473460;Basic Wall:STB 25cm verputzt:527693
+auto;IfcWall;IfcSlab;3TfJ4Kf19Fbfj9OZ8Qb9w8;3SutctR5brUh87YP22dz40;Basic Wall:STB 25.0 WD 12.0:473460;Floor:STB 20cm:525533:2
+auto;IfcWall;IfcSlab;3TfJ4Kf19Fbfj9OZ8Qb9w8;3WZDybcnwxtSgqlQh4IhHJ;Basic Wall:STB 25.0 WD 12.0:473460;Floor:STB 20cm:525533:4
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9w8;3SikjAVePFG80ZhsJdM5si;Basic Wall:STB 25.0 WD 12.0:473460;Basic Wall:STB 25cm:510389
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9w8;3SikjAVePFG80ZhsJdM5vV;Basic Wall:STB 25.0 WD 12.0:473460;Basic Wall:STB 25cm:510534
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9w8;3SikjAVePFG80ZhsJdM5wB;Basic Wall:STB 25.0 WD 12.0:473460;Basic Wall:STB 25cm:510610
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9w8;1TX5WU5If4dxI9Tc_c6KXW;Basic Wall:STB 25.0 WD 12.0:473460;Basic Wall:STB 25cm:526204
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9w8;1TX5WU5If4dxI9Tc_c6KSa;Basic Wall:STB 25.0 WD 12.0:473460;Basic Wall:STB 25cm:526392
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9w8;1gndkauHnEixC6gbH085tS;Basic Wall:STB 25.0 WD 12.0:473460;Basic Wall:STB 25cm:527509
+;;;;;;
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9vM;3$o647Vd16yRDk1RcQI$c$;Basic Wall:STB 25.0 WD 12.0:473514;Basic Wall:STB 25.0 WD 12.0:504018
+auto;IfcWall;IfcSlab;3TfJ4Kf19Fbfj9OZ8Qb9vM;3WZDybcnwxtSgqlQh4IhHJ;Basic Wall:STB 25.0 WD 12.0:473514;Floor:STB 20cm:525533:4
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9vM;3SikjAVePFG80ZhsJdM5vV;Basic Wall:STB 25.0 WD 12.0:473514;Basic Wall:STB 25cm:510534
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9vM;3SikjAVePFG80ZhsJdM5wB;Basic Wall:STB 25.0 WD 12.0:473514;Basic Wall:STB 25cm:510610
+auto;IfcWall;IfcWall;3TfJ4Kf19Fbfj9OZ8Qb9vM;3SikjAVePFG80ZhsJdM5xc;Basic Wall:STB 25.0 WD 12.0:473514;Basic Wall:STB 25cm:510719
+;;;;;;
+auto;IfcWall;IfcWall;2SUwsMeezCYhCy$QQ82nTe;0SvG3UgvP32eAicgd63hXG;Basic Wall:STB 25.0 WD 12.0:487278;Basic Wall:STB 25.0 WD 12.0:495059
+auto;IfcWall;IfcWall;2SUwsMeezCYhCy$QQ82nTe;0SvG3UgvP32eAicgd63hjn;Basic Wall:STB 25.0 WD 12.0:487278;Basic Wall:STB 25.0 WD 12.0:495346
+auto;IfcWall;IfcWall;2SUwsMeezCYhCy$QQ82nTe;1TX5WU5If4dxI9Tc_c5h7_;Basic Wall:STB 25.0 WD 12.0:487278;Basic Wall:STB 25cm verputzt:524002
+auto;IfcWall;IfcWall;2SUwsMeezCYhCy$QQ82nTe;1gndkauHnEixC6gbH085m4;Basic Wall:STB 25.0 WD 12.0:487278;Basic Wall:STB 25cm verputzt:527693
+auto;IfcWall;IfcSlab;2SUwsMeezCYhCy$QQ82nTe;1TX5WU5If4dxI9Tc_c6Kl1;Basic Wall:STB 25.0 WD 12.0:487278;Floor:STB 20cm:525533
+auto;IfcWall;IfcWall;2SUwsMeezCYhCy$QQ82nTe;3SikjAVePFG80ZhsJdM5nk;Basic Wall:STB 25.0 WD 12.0:487278;Basic Wall:STB 25cm:510071
+auto;IfcWall;IfcWall;2SUwsMeezCYhCy$QQ82nTe;3SikjAVePFG80ZhsJdM5pn;Basic Wall:STB 25.0 WD 12.0:487278;Basic Wall:STB 25cm:510184
+auto;IfcWall;IfcWall;2SUwsMeezCYhCy$QQ82nTe;3SikjAVePFG80ZhsJdM5rH;Basic Wall:STB 25.0 WD 12.0:487278;Basic Wall:STB 25cm:510280
+;;;;;;
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hXG;1veODZT0X1W9kLs0CyBEW_;Basic Wall:STB 25.0 WD 12.0:495059;Basic Wall:MW 36.5cm:521155
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hXG;1TX5WU5If4dxI9Tc_c5h7_;Basic Wall:STB 25.0 WD 12.0:495059;Basic Wall:STB 25cm verputzt:524002
+auto;IfcWall;IfcSlab;0SvG3UgvP32eAicgd63hXG;1TX5WU5If4dxI9Tc_c6Kl1;Basic Wall:STB 25.0 WD 12.0:495059;Floor:STB 20cm:525533
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hXG;3SikjAVePFG80ZhsJdM5ED;Basic Wall:STB 25.0 WD 12.0:495059;Basic Wall:STB 25cm:509844
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hXG;3SikjAVePFG80ZhsJdM5nk;Basic Wall:STB 25.0 WD 12.0:495059;Basic Wall:STB 25cm:510071
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hXG;3SikjAVePFG80ZhsJdM5pn;Basic Wall:STB 25.0 WD 12.0:495059;Basic Wall:STB 25cm:510184
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hXG;3SikjAVePFG80ZhsJdM5si;Basic Wall:STB 25.0 WD 12.0:495059;Basic Wall:STB 25cm:510389
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hXG;3SikjAVePFG80ZhsJdM5fZ;Basic Wall:STB 25.0 WD 12.0:495059;Basic Wall:STB 25cm:511610
+;;;;;;
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hjn;1veODZT0X1W9kLs0CyBEW_;Basic Wall:STB 25.0 WD 12.0:495346;Basic Wall:MW 36.5cm:521155
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hjn;1gndkauHnEixC6gbH085m4;Basic Wall:STB 25.0 WD 12.0:495346;Basic Wall:STB 25cm verputzt:527693
+auto;IfcWall;IfcSlab;0SvG3UgvP32eAicgd63hjn;3SutctR5brUh87YP22dz40;Basic Wall:STB 25.0 WD 12.0:495346;Floor:STB 20cm:525533:2
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hjn;3SikjAVePFG80ZhsJdM5pn;Basic Wall:STB 25.0 WD 12.0:495346;Basic Wall:STB 25cm:510184
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hjn;3SikjAVePFG80ZhsJdM5rH;Basic Wall:STB 25.0 WD 12.0:495346;Basic Wall:STB 25cm:510280
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hjn;3SikjAVePFG80ZhsJdM5si;Basic Wall:STB 25.0 WD 12.0:495346;Basic Wall:STB 25cm:510389
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hjn;3SikjAVePFG80ZhsJdM5fZ;Basic Wall:STB 25.0 WD 12.0:495346;Basic Wall:STB 25cm:511610
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hjn;1TX5WU5If4dxI9Tc_c6KSa;Basic Wall:STB 25.0 WD 12.0:495346;Basic Wall:STB 25cm:526392
+auto;IfcWall;IfcWall;0SvG3UgvP32eAicgd63hjn;1gndkauHnEixC6gbH085tS;Basic Wall:STB 25.0 WD 12.0:495346;Basic Wall:STB 25cm:527509
+;;;;;;
+auto;IfcWall;IfcWall;3$o647Vd16yRDk1RcQI$c$;1TX5WU5If4dxI9Tc_c6KqO;Basic Wall:STB 25.0 WD 12.0:504018;Basic Wall:STB 25cm verputzt:524804
+auto;IfcWall;IfcSlab;3$o647Vd16yRDk1RcQI$c$;3WZDybcnwxtSgqlQh4IhHJ;Basic Wall:STB 25.0 WD 12.0:504018;Floor:STB 20cm:525533:4
+auto;IfcWall;IfcWall;3$o647Vd16yRDk1RcQI$c$;3SikjAVePFG80ZhsJdM5wB;Basic Wall:STB 25.0 WD 12.0:504018;Basic Wall:STB 25cm:510610
+auto;IfcWall;IfcWall;3$o647Vd16yRDk1RcQI$c$;3SikjAVePFG80ZhsJdM5xc;Basic Wall:STB 25.0 WD 12.0:504018;Basic Wall:STB 25cm:510719
+auto;IfcWall;IfcWall;3$o647Vd16yRDk1RcQI$c$;3SikjAVePFG80ZhsJdM5zm;Basic Wall:STB 25.0 WD 12.0:504018;Basic Wall:STB 25cm:510825
+auto;IfcWall;IfcWall;3$o647Vd16yRDk1RcQI$c$;1TX5WU5If4dxI9Tc_c6KXW;Basic Wall:STB 25.0 WD 12.0:504018;Basic Wall:STB 25cm:526204
+;;;;;;
+auto;IfcWall;IfcWall;1veODZT0X1W9kLs0CyBEW_;3SikjAVePFG80ZhsJdM5nk;Basic Wall:MW 36.5cm:521155;Basic Wall:STB 25cm:510071
+auto;IfcWall;IfcWall;1veODZT0X1W9kLs0CyBEW_;3SikjAVePFG80ZhsJdM5rH;Basic Wall:MW 36.5cm:521155;Basic Wall:STB 25cm:510280
+auto;IfcWall;IfcWall;1veODZT0X1W9kLs0CyBEW_;3SikjAVePFG80ZhsJdM5fZ;Basic Wall:MW 36.5cm:521155;Basic Wall:STB 25cm:511610
+;;;;;;
+auto;IfcWall;IfcSlab;1TX5WU5If4dxI9Tc_c5h7_;1TX5WU5If4dxI9Tc_c6Kl1;Basic Wall:STB 25cm verputzt:524002;Floor:STB 20cm:525533
+auto;IfcWall;IfcWall;1TX5WU5If4dxI9Tc_c5h7_;3SikjAVePFG80ZhsJdM5nk;Basic Wall:STB 25cm verputzt:524002;Basic Wall:STB 25cm:510071
+auto;IfcWall;IfcWall;1TX5WU5If4dxI9Tc_c5h7_;3SikjAVePFG80ZhsJdM5pn;Basic Wall:STB 25cm verputzt:524002;Basic Wall:STB 25cm:510184
+auto;IfcWall;IfcWall;1TX5WU5If4dxI9Tc_c5h7_;3SikjAVePFG80ZhsJdM5bH;Basic Wall:STB 25cm verputzt:524002;Basic Wall:STB 25cm:511304
+;;;;;;
+auto;IfcWall;IfcSlab;1TX5WU5If4dxI9Tc_c6KvY;3jw8FRgIEswbG$ImNokus5;Basic Wall:STB 25cm verputzt:524670;Floor:STB 20cm:525533:3
+auto;IfcWall;IfcWall;1TX5WU5If4dxI9Tc_c6KvY;3SikjAVePFG80ZhsJdM5$n;Basic Wall:STB 25cm verputzt:524670;Basic Wall:STB 25cm:510952
+auto;IfcWall;IfcWall;1TX5WU5If4dxI9Tc_c6KvY;3SikjAVePFG80ZhsJdM5bH;Basic Wall:STB 25cm verputzt:524670;Basic Wall:STB 25cm:511304
+auto;IfcWall;IfcWall;1TX5WU5If4dxI9Tc_c6KvY;1TX5WU5If4dxI9Tc_c6Kd0;Basic Wall:STB 25cm verputzt:524670;Basic Wall:STB 25cm:526044
+;;;;;;
+auto;IfcWall;IfcSlab;1TX5WU5If4dxI9Tc_c6KqO;3WZDybcnwxtSgqlQh4IhHJ;Basic Wall:STB 25cm verputzt:524804;Floor:STB 20cm:525533:4
+auto;IfcWall;IfcWall;1TX5WU5If4dxI9Tc_c6KqO;3SikjAVePFG80ZhsJdM5vV;Basic Wall:STB 25cm verputzt:524804;Basic Wall:STB 25cm:510534
+auto;IfcWall;IfcWall;1TX5WU5If4dxI9Tc_c6KqO;3SikjAVePFG80ZhsJdM5xc;Basic Wall:STB 25cm verputzt:524804;Basic Wall:STB 25cm:510719
+auto;IfcWall;IfcWall;1TX5WU5If4dxI9Tc_c6KqO;1TX5WU5If4dxI9Tc_c6KXW;Basic Wall:STB 25cm verputzt:524804;Basic Wall:STB 25cm:526204
+;;;;;;
+auto;IfcWall;IfcSlab;1gndkauHnEixC6gbH085m4;3SutctR5brUh87YP22dz40;Basic Wall:STB 25cm verputzt:527693;Floor:STB 20cm:525533:2
+auto;IfcWall;IfcWall;1gndkauHnEixC6gbH085m4;3SikjAVePFG80ZhsJdM5pn;Basic Wall:STB 25cm verputzt:527693;Basic Wall:STB 25cm:510184
+auto;IfcWall;IfcWall;1gndkauHnEixC6gbH085m4;3SikjAVePFG80ZhsJdM5rH;Basic Wall:STB 25cm verputzt:527693;Basic Wall:STB 25cm:510280
+auto;IfcWall;IfcWall;1gndkauHnEixC6gbH085m4;3SikjAVePFG80ZhsJdM5vV;Basic Wall:STB 25cm verputzt:527693;Basic Wall:STB 25cm:510534
+auto;IfcWall;IfcWall;1gndkauHnEixC6gbH085m4;1TX5WU5If4dxI9Tc_c6KSa;Basic Wall:STB 25cm verputzt:527693;Basic Wall:STB 25cm:526392
+auto;IfcWall;IfcWall;1gndkauHnEixC6gbH085m4;1gndkauHnEixC6gbH085tS;Basic Wall:STB 25cm verputzt:527693;Basic Wall:STB 25cm:527509
+;;;;;;
+auto;IfcSlab;IfcWall;1TX5WU5If4dxI9Tc_c6Kl1;3SikjAVePFG80ZhsJdM5ED;Floor:STB 20cm:525533;Basic Wall:STB 25cm:509844
+auto;IfcSlab;IfcWall;1TX5WU5If4dxI9Tc_c6Kl1;3SikjAVePFG80ZhsJdM5nk;Floor:STB 20cm:525533;Basic Wall:STB 25cm:510071
+auto;IfcSlab;IfcWall;1TX5WU5If4dxI9Tc_c6Kl1;3SikjAVePFG80ZhsJdM5pn;Floor:STB 20cm:525533;Basic Wall:STB 25cm:510184
+auto;IfcSlab;IfcWall;1TX5WU5If4dxI9Tc_c6Kl1;3SikjAVePFG80ZhsJdM5bH;Floor:STB 20cm:525533;Basic Wall:STB 25cm:511304
+;;;;;;
+auto;IfcSlab;IfcWall;3SutctR5brUh87YP22dz40;3SikjAVePFG80ZhsJdM5pn;Floor:STB 20cm:525533:2;Basic Wall:STB 25cm:510184
+auto;IfcSlab;IfcWall;3SutctR5brUh87YP22dz40;3SikjAVePFG80ZhsJdM5rH;Floor:STB 20cm:525533:2;Basic Wall:STB 25cm:510280
+auto;IfcSlab;IfcWall;3SutctR5brUh87YP22dz40;3SikjAVePFG80ZhsJdM5si;Floor:STB 20cm:525533:2;Basic Wall:STB 25cm:510389
+auto;IfcSlab;IfcWall;3SutctR5brUh87YP22dz40;3SikjAVePFG80ZhsJdM5vV;Floor:STB 20cm:525533:2;Basic Wall:STB 25cm:510534
+auto;IfcSlab;IfcWall;3SutctR5brUh87YP22dz40;1TX5WU5If4dxI9Tc_c6KSa;Floor:STB 20cm:525533:2;Basic Wall:STB 25cm:526392
+auto;IfcSlab;IfcWall;3SutctR5brUh87YP22dz40;1gndkauHnEixC6gbH085tS;Floor:STB 20cm:525533:2;Basic Wall:STB 25cm:527509
+;;;;;;
+auto;IfcSlab;IfcWall;3jw8FRgIEswbG$ImNokus5;3SikjAVePFG80ZhsJdM5$n;Floor:STB 20cm:525533:3;Basic Wall:STB 25cm:510952
+auto;IfcSlab;IfcWall;3jw8FRgIEswbG$ImNokus5;3SikjAVePFG80ZhsJdM5XI;Floor:STB 20cm:525533:3;Basic Wall:STB 25cm:511051
+auto;IfcSlab;IfcWall;3jw8FRgIEswbG$ImNokus5;3SikjAVePFG80ZhsJdM5bH;Floor:STB 20cm:525533:3;Basic Wall:STB 25cm:511304
+auto;IfcSlab;IfcWall;3jw8FRgIEswbG$ImNokus5;1TX5WU5If4dxI9Tc_c6Kd0;Floor:STB 20cm:525533:3;Basic Wall:STB 25cm:526044
+;;;;;;
+auto;IfcSlab;IfcWall;3WZDybcnwxtSgqlQh4IhHJ;3SikjAVePFG80ZhsJdM5vV;Floor:STB 20cm:525533:4;Basic Wall:STB 25cm:510534
+auto;IfcSlab;IfcWall;3WZDybcnwxtSgqlQh4IhHJ;3SikjAVePFG80ZhsJdM5wB;Floor:STB 20cm:525533:4;Basic Wall:STB 25cm:510610
+auto;IfcSlab;IfcWall;3WZDybcnwxtSgqlQh4IhHJ;3SikjAVePFG80ZhsJdM5xc;Floor:STB 20cm:525533:4;Basic Wall:STB 25cm:510719
+auto;IfcSlab;IfcWall;3WZDybcnwxtSgqlQh4IhHJ;1TX5WU5If4dxI9Tc_c6KXW;Floor:STB 20cm:525533:4;Basic Wall:STB 25cm:526204
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5ED;3SikjAVePFG80ZhsJdM5nk;Basic Wall:STB 25cm:509844;Basic Wall:STB 25cm:510071
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5ED;3SikjAVePFG80ZhsJdM5si;Basic Wall:STB 25cm:509844;Basic Wall:STB 25cm:510389
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5ED;3SikjAVePFG80ZhsJdM5bH;Basic Wall:STB 25cm:509844;Basic Wall:STB 25cm:511304
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5nk;3SikjAVePFG80ZhsJdM5pn;Basic Wall:STB 25cm:510071;Basic Wall:STB 25cm:510184
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5nk;3SikjAVePFG80ZhsJdM5si;Basic Wall:STB 25cm:510071;Basic Wall:STB 25cm:510389
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5nk;3SikjAVePFG80ZhsJdM5fZ;Basic Wall:STB 25cm:510071;Basic Wall:STB 25cm:511610
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5pn;3SikjAVePFG80ZhsJdM5rH;Basic Wall:STB 25cm:510184;Basic Wall:STB 25cm:510280
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5pn;3SikjAVePFG80ZhsJdM5bH;Basic Wall:STB 25cm:510184;Basic Wall:STB 25cm:511304
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5pn;1TX5WU5If4dxI9Tc_c6KSa;Basic Wall:STB 25cm:510184;Basic Wall:STB 25cm:526392
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5pn;1gndkauHnEixC6gbH085tS;Basic Wall:STB 25cm:510184;Basic Wall:STB 25cm:527509
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5rH;3SikjAVePFG80ZhsJdM5si;Basic Wall:STB 25cm:510280;Basic Wall:STB 25cm:510389
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5rH;3SikjAVePFG80ZhsJdM5fZ;Basic Wall:STB 25cm:510280;Basic Wall:STB 25cm:511610
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5rH;1TX5WU5If4dxI9Tc_c6KSa;Basic Wall:STB 25cm:510280;Basic Wall:STB 25cm:526392
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5rH;1gndkauHnEixC6gbH085tS;Basic Wall:STB 25cm:510280;Basic Wall:STB 25cm:527509
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5si;3SikjAVePFG80ZhsJdM5vV;Basic Wall:STB 25cm:510389;Basic Wall:STB 25cm:510534
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5vV;3SikjAVePFG80ZhsJdM5wB;Basic Wall:STB 25cm:510534;Basic Wall:STB 25cm:510610
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5vV;1TX5WU5If4dxI9Tc_c6KXW;Basic Wall:STB 25cm:510534;Basic Wall:STB 25cm:526204
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5vV;1TX5WU5If4dxI9Tc_c6KSa;Basic Wall:STB 25cm:510534;Basic Wall:STB 25cm:526392
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5vV;1gndkauHnEixC6gbH085tS;Basic Wall:STB 25cm:510534;Basic Wall:STB 25cm:527509
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5wB;3SikjAVePFG80ZhsJdM5xc;Basic Wall:STB 25cm:510610;Basic Wall:STB 25cm:510719
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5xc;3SikjAVePFG80ZhsJdM5zm;Basic Wall:STB 25cm:510719;Basic Wall:STB 25cm:510825
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5xc;1TX5WU5If4dxI9Tc_c6KXW;Basic Wall:STB 25cm:510719;Basic Wall:STB 25cm:526204
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5zm;3SikjAVePFG80ZhsJdM5$n;Basic Wall:STB 25cm:510825;Basic Wall:STB 25cm:510952
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5$n;3SikjAVePFG80ZhsJdM5XI;Basic Wall:STB 25cm:510952;Basic Wall:STB 25cm:511051
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5$n;1TX5WU5If4dxI9Tc_c6Kd0;Basic Wall:STB 25cm:510952;Basic Wall:STB 25cm:526044
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5XI;3SikjAVePFG80ZhsJdM5bH;Basic Wall:STB 25cm:511051;Basic Wall:STB 25cm:511304
+;;;;;;
+auto;IfcWall;IfcWall;3SikjAVePFG80ZhsJdM5bH;1TX5WU5If4dxI9Tc_c6Kd0;Basic Wall:STB 25cm:511304;Basic Wall:STB 25cm:526044
+;;;;;;
+auto;IfcWall;IfcWall;1TX5WU5If4dxI9Tc_c6KSa;1gndkauHnEixC6gbH085tS;Basic Wall:STB 25cm:526392;Basic Wall:STB 25cm:527509

@@ -1,0 +1,49 @@
+Lade 9 Graphen in den Speicher... 
+ 
+--- Starte Fold 1 | Test-Modell: model_1 Graph.json ---
+Training mit 7 Knotenmerkmalen gestartet... 
+  Epoch 100 | Loss: 0.2335 | Best Val-F1: 0.53 
+  Epoch 200 | Loss: 0.1845 | Best Val-F1: 0.53 
+  Epoch 300 | Loss: 0.1775 | Best Val-F1: 0.54 
+  Epoch 400 | Loss: 0.1962 | Best Val-F1: 0.54 
+  Epoch 500 | Loss: 0.1467 | Best Val-F1: 0.54 
+RESULT Fold 1 (Threshold 0.5): Acc: 66.14%, F1: 0.54, Prec: 0.51, Rec: 0.56 
+ 
+--- Starte Fold 2 | Test-Modell: model_10_1D Graph.json ---
+Training mit 7 Knotenmerkmalen gestartet... 
+  Epoch 100 | Loss: 0.4763 | Best Val-F1: 0.00 
+  Epoch 200 | Loss: 0.3979 | Best Val-F1: 0.00 
+  Epoch 300 | Loss: 0.3395 | Best Val-F1: 0.00 
+  Epoch 400 | Loss: 0.3095 | Best Val-F1: 0.00 
+  Epoch 500 | Loss: 0.2650 | Best Val-F1: 0.00 
+RESULT Fold 2 (Threshold 0.5): Acc: 67.85%, F1: 0.00, Prec: 0.00, Rec: 0.00 
+
+--- Starte Fold 3 | Test-Modell: model_10_2D Graph.json ---
+Training mit 7 Knotenmerkmalen gestartet... 
+  Epoch 100 | Loss: 0.4888 | Best Val-F1: 0.00 
+  Epoch 200 | Loss: 0.3848 | Best Val-F1: 0.00 
+  Epoch 300 | Loss: 0.3245 | Best Val-F1: 0.00 
+  Epoch 400 | Loss: 0.2786 | Best Val-F1: 0.00 
+  Epoch 500 | Loss: 0.2311 | Best Val-F1: 0.00 
+RESULT Fold 3 (Threshold 0.5): Acc: 87.26%, F1: 0.00, Prec: 0.00, Rec: 0.00 
+
+--- Starte Fold 4 | Test-Modell: model_3_1D Graph.json ---
+Training mit 7 Knotenmerkmalen gestartet... 
+  Epoch 100 | Loss: 0.4740 | Best Val-F1: 0.00 
+  Epoch 200 | Loss: 0.3736 | Best Val-F1: 0.00 
+Traceback (most recent call last): 
+  File "h:\GitHub - 2 GNN_Modellkonvertierung\2.2_Anwendungsgrenzen\3 Model_Training\GNN_Edge_Classifier.py", line 392, in <module> 
+    run_loo_training() 
+  File "h:\GitHub - 2 GNN_Modellkonvertierung\2.2_Anwendungsgrenzen\3 Model_Training\GNN_Edge_Classifier.py", line 355, in run_loo_training
+    result = train_one_fold(train_graphs, test_graph, i, save_dir, logger) 
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+  File "h:\GitHub - 2 GNN_Modellkonvertierung\2.2_Anwendungsgrenzen\3 Model_Training\GNN_Edge_Classifier.py", line 265, in train_one_fold
+    loss.backward() 
+  File "C:\Users\tnabrotz\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\_tensor.py", line 630, in backward
+    torch.autograd.backward( 
+  File "C:\Users\tnabrotz\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\autograd\__init__.py", line 364, in backward
+    _engine_run_backward(
+  File "C:\Users\tnabrotz\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\autograd\graph.py", line 865, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass 
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

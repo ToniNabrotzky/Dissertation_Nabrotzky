@@ -1,0 +1,475 @@
+Verbindungs_Nr;Verbindungs_Art;Begrenzung_1_Nr;Begrenzung_2_Nr;Elem_A_Typ;Elem_A_Nr;Elem_B_Typ;Elem_B_Nr;IFC_GUID_A;IFC_GUID_B;Typus;Label;Kommentar
+9;Knotenkopplung;1575;1591;Stab;1;Fläche;89;2uEC5lWcnE7BDU0ErbW3GD;3DWkEUmNbEUw4r79zq9qkM;Rule;FP;
+10;Knotenkopplung;1578;1592;Stab;2;Fläche;89;2uEC5lWcnE7BDU0ErbW3Jm;3DWkEUmNbEUw4r79zq9qkM;Rule;FP;
+11;Knotenkopplung;1580;1593;Stab;3;Fläche;91;2uEC5lWcnE7BDU0ErbW3LZ;3DWkEUmNbEUw4r79zq9qkN;Rule;FP;
+12;Knotenkopplung;1581;1594;Stab;4;Fläche;89;2uEC5lWcnE7BDU0ErbW3J4;3DWkEUmNbEUw4r79zq9qkM;Rule;FP;
+13;Knotenkopplung;1583;1595;Stab;5;Fläche;89;2uEC5lWcnE7BDU0ErbW3IO;3DWkEUmNbEUw4r79zq9qkM;Rule;FP;
+14;Knotenkopplung;1586;1596;Stab;6;Fläche;91;2uEC5lWcnE7BDU0ErbW3L$;3DWkEUmNbEUw4r79zq9qkN;Rule;FP;
+15;Knotenkopplung;1587;1597;Stab;7;Fläche;91;2uEC5lWcnE7BDU0ErbW3Lz;3DWkEUmNbEUw4r79zq9qkN;Rule;FP;
+16;Knotenkopplung;1590;1598;Stab;8;Fläche;91;2uEC5lWcnE7BDU0ErbW3LX;3DWkEUmNbEUw4r79zq9qkN;Rule;FP;
+21;Knotenkopplung;1599;1607;Stab;17;Stab;6;0HhC9uqTb6QgUcRAtyFIVg;2uEC5lWcnE7BDU0ErbW3L$;Rule;TP;
+22;Knotenkopplung;1600;1608;Stab;17;Stab;4;0HhC9uqTb6QgUcRAtyFIVg;2uEC5lWcnE7BDU0ErbW3J4;Rule;TP;
+23;Knotenkopplung;1601;1609;Stab;18;Stab;5;0HhC9uqTb6QgUcRAtyFIVp;2uEC5lWcnE7BDU0ErbW3IO;Rule;TP;
+24;Knotenkopplung;1602;1610;Stab;18;Stab;8;0HhC9uqTb6QgUcRAtyFIVp;2uEC5lWcnE7BDU0ErbW3LX;Rule;TP;
+25;Knotenkopplung;1603;1611;Stab;19;Stab;7;0HhC9uqTb6QgUcRAtyFIUs;2uEC5lWcnE7BDU0ErbW3Lz;Rule;TP;
+26;Knotenkopplung;1604;1612;Stab;19;Stab;2;0HhC9uqTb6QgUcRAtyFIUs;2uEC5lWcnE7BDU0ErbW3Jm;Rule;TP;
+27;Knotenkopplung;1605;1613;Stab;20;Stab;3;0HhC9uqTb6QgUcRAtyFIVR;2uEC5lWcnE7BDU0ErbW3LZ;Rule;TP;
+28;Knotenkopplung;1606;1614;Stab;20;Stab;1;0HhC9uqTb6QgUcRAtyFIVR;2uEC5lWcnE7BDU0ErbW3GD;Rule;TP;
+1;Linienkopplung;9;103;Fläche;3;Fläche;4;1hXC4WhvX7OfF8X3V_$Y76;1hXC4WhvX7OfF8X3V_$Y76;Rule;FP;
+2;Linienkopplung;11;104;Fläche;3;Fläche;25;1hXC4WhvX7OfF8X3V_$Y76;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+3;Linienkopplung;12;105;Fläche;3;Fläche;27;1hXC4WhvX7OfF8X3V_$Y76;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+4;Linienkopplung;15;106;Fläche;4;Fläche;3;1hXC4WhvX7OfF8X3V_$Y76;1hXC4WhvX7OfF8X3V_$Y76;Rule;FP;
+5;Linienkopplung;17;107;Fläche;4;Fläche;27;1hXC4WhvX7OfF8X3V_$Y76;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+6;Linienkopplung;18;108;Fläche;4;Fläche;25;1hXC4WhvX7OfF8X3V_$Y76;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+7;Linienkopplung;19;109;Fläche;5;Fläche;25;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+8;Linienkopplung;21;110;Fläche;5;Fläche;6;1hXC4WhvX7OfF8X3V_$Y93;1hXC4WhvX7OfF8X3V_$Y93;Rule;FP;
+9;Linienkopplung;23;111;Fläche;6;Fläche;5;1hXC4WhvX7OfF8X3V_$Y93;1hXC4WhvX7OfF8X3V_$Y93;Rule;FP;
+10;Linienkopplung;25;112;Fläche;6;Fläche;25;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+11;Linienkopplung;28;113;Fläche;7;Fläche;5;1hXC4WhvX7OfF8X3V_$Y93;1hXC4WhvX7OfF8X3V_$Y93;Rule;FP;
+12;Linienkopplung;30;114;Fläche;7;Fläche;27;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+13;Linienkopplung;32;115;Fläche;8;Fläche;25;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+14;Linienkopplung;34;116;Fläche;8;Fläche;5;1hXC4WhvX7OfF8X3V_$Y93;1hXC4WhvX7OfF8X3V_$Y93;Rule;FP;
+15;Linienkopplung;35;117;Fläche;9;Fläche;10;07CR7fHeP4QfYTyO_6ZsDE;07CR7fHeP4QfYTyO_6ZsDE;Rule;FP;
+16;Linienkopplung;37;118;Fläche;9;Fläche;27;07CR7fHeP4QfYTyO_6ZsDE;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+17;Linienkopplung;39;119;Fläche;10;Fläche;27;07CR7fHeP4QfYTyO_6ZsDE;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+18;Linienkopplung;41;120;Fläche;10;Fläche;9;07CR7fHeP4QfYTyO_6ZsDE;07CR7fHeP4QfYTyO_6ZsDE;Rule;FP;
+19;Linienkopplung;43;121;Fläche;11;Fläche;12;07CR7fHeP4QfYTyO_6Zts4;07CR7fHeP4QfYTyO_6Zts4;Rule;FP;
+20;Linienkopplung;45;122;Fläche;11;Fläche;25;07CR7fHeP4QfYTyO_6Zts4;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+21;Linienkopplung;47;123;Fläche;12;Fläche;11;07CR7fHeP4QfYTyO_6Zts4;07CR7fHeP4QfYTyO_6Zts4;Rule;FP;
+22;Linienkopplung;49;124;Fläche;12;Fläche;25;07CR7fHeP4QfYTyO_6Zts4;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+23;Linienkopplung;51;125;Fläche;13;Fläche;25;07CR7fHeP4QfYTyO_6Ztm1;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+24;Linienkopplung;53;126;Fläche;13;Fläche;14;07CR7fHeP4QfYTyO_6Ztm1;07CR7fHeP4QfYTyO_6Ztm1;Rule;FP;
+25;Linienkopplung;54;127;Fläche;13;Fläche;14;07CR7fHeP4QfYTyO_6Ztm1;07CR7fHeP4QfYTyO_6Ztm1;Rule;FP;
+26;Linienkopplung;56;128;Fläche;13;Fläche;25;07CR7fHeP4QfYTyO_6Ztm1;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+27;Linienkopplung;57;129;Fläche;14;Fläche;25;07CR7fHeP4QfYTyO_6Ztm1;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+28;Linienkopplung;59;130;Fläche;14;Fläche;13;07CR7fHeP4QfYTyO_6Ztm1;07CR7fHeP4QfYTyO_6Ztm1;Rule;FP;
+29;Linienkopplung;61;131;Fläche;15;Fläche;16;07CR7fHeP4QfYTyO_6ZtpJ;07CR7fHeP4QfYTyO_6ZtpJ;Rule;FP;
+30;Linienkopplung;63;132;Fläche;15;Fläche;25;07CR7fHeP4QfYTyO_6ZtpJ;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+31;Linienkopplung;65;133;Fläche;16;Fläche;15;07CR7fHeP4QfYTyO_6ZtpJ;07CR7fHeP4QfYTyO_6ZtpJ;Rule;FP;
+32;Linienkopplung;67;134;Fläche;16;Fläche;25;07CR7fHeP4QfYTyO_6ZtpJ;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+33;Linienkopplung;69;135;Fläche;17;Fläche;26;07CR7fHeP4QfYTyO_6ZtuF;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+34;Linienkopplung;71;136;Fläche;17;Fläche;18;07CR7fHeP4QfYTyO_6ZtuF;07CR7fHeP4QfYTyO_6ZtuF;Rule;FP;
+35;Linienkopplung;73;137;Fläche;18;Fläche;17;07CR7fHeP4QfYTyO_6ZtuF;07CR7fHeP4QfYTyO_6ZtuF;Rule;FP;
+36;Linienkopplung;75;138;Fläche;18;Fläche;26;07CR7fHeP4QfYTyO_6ZtuF;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+37;Linienkopplung;77;139;Fläche;19;Fläche;20;07CR7fHeP4QfYTyO_6ZtwW;07CR7fHeP4QfYTyO_6ZtwW;Rule;FP;
+38;Linienkopplung;79;140;Fläche;19;Fläche;26;07CR7fHeP4QfYTyO_6ZtwW;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+39;Linienkopplung;81;141;Fläche;20;Fläche;26;07CR7fHeP4QfYTyO_6ZtwW;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+40;Linienkopplung;83;142;Fläche;20;Fläche;19;07CR7fHeP4QfYTyO_6ZtwW;07CR7fHeP4QfYTyO_6ZtwW;Rule;FP;
+41;Linienkopplung;85;143;Fläche;21;Fläche;26;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+42;Linienkopplung;87;144;Fläche;21;Fläche;22;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtwJ;Rule;FP;
+43;Linienkopplung;88;145;Fläche;21;Fläche;22;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtwJ;Rule;FP;
+44;Linienkopplung;90;146;Fläche;21;Fläche;26;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+45;Linienkopplung;91;147;Fläche;22;Fläche;26;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+46;Linienkopplung;93;148;Fläche;22;Fläche;21;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtwJ;Rule;FP;
+47;Linienkopplung;95;149;Fläche;23;Fläche;25;07CR7fHeP4QfYTyO_6ZtnF;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+48;Linienkopplung;97;150;Fläche;23;Fläche;24;07CR7fHeP4QfYTyO_6ZtnF;07CR7fHeP4QfYTyO_6ZtnF;Rule;FP;
+49;Linienkopplung;99;151;Fläche;24;Fläche;25;07CR7fHeP4QfYTyO_6ZtnF;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+50;Linienkopplung;101;152;Fläche;24;Fläche;23;07CR7fHeP4QfYTyO_6ZtnF;07CR7fHeP4QfYTyO_6ZtnF;Rule;FP;
+51;Linienkopplung;10;153;Fläche;3;Fläche;12;1hXC4WhvX7OfF8X3V_$Y76;07CR7fHeP4QfYTyO_6Zts4;Rule;TP;
+52;Linienkopplung;13;154;Fläche;3;Fläche;10;1hXC4WhvX7OfF8X3V_$Y76;07CR7fHeP4QfYTyO_6ZsDE;Rule;TP;
+53;Linienkopplung;20;155;Fläche;5;Fläche;12;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6Zts4;Rule;TP;
+54;Linienkopplung;22;156;Fläche;5;Fläche;10;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZsDE;Rule;TP;
+55;Linienkopplung;24;157;Fläche;6;Fläche;19;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtwW;Rule;TP;
+56;Linienkopplung;26;158;Fläche;6;Fläche;23;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtnF;Rule;TP;
+57;Linienkopplung;29;159;Fläche;7;Fläche;19;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtwW;Rule;TP;
+58;Linienkopplung;31;160;Fläche;8;Fläche;23;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtnF;Rule;TP;
+59;Linienkopplung;36;161;Fläche;9;Fläche;3;07CR7fHeP4QfYTyO_6ZsDE;1hXC4WhvX7OfF8X3V_$Y76;Rule;TP;
+60;Linienkopplung;38;162;Fläche;9;Fläche;5;07CR7fHeP4QfYTyO_6ZsDE;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+61;Linienkopplung;40;163;Fläche;10;Fläche;7;07CR7fHeP4QfYTyO_6ZsDE;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+62;Linienkopplung;42;164;Fläche;10;Fläche;4;07CR7fHeP4QfYTyO_6ZsDE;1hXC4WhvX7OfF8X3V_$Y76;Rule;TP;
+63;Linienkopplung;44;165;Fläche;11;Fläche;5;07CR7fHeP4QfYTyO_6Zts4;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+64;Linienkopplung;46;166;Fläche;11;Fläche;3;07CR7fHeP4QfYTyO_6Zts4;1hXC4WhvX7OfF8X3V_$Y76;Rule;TP;
+65;Linienkopplung;48;167;Fläche;12;Fläche;4;07CR7fHeP4QfYTyO_6Zts4;1hXC4WhvX7OfF8X3V_$Y76;Rule;TP;
+66;Linienkopplung;50;168;Fläche;12;Fläche;8;07CR7fHeP4QfYTyO_6Zts4;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+67;Linienkopplung;52;169;Fläche;13;Fläche;15;07CR7fHeP4QfYTyO_6Ztm1;07CR7fHeP4QfYTyO_6ZtpJ;Rule;TP;
+68;Linienkopplung;55;170;Fläche;13;Fläche;24;07CR7fHeP4QfYTyO_6Ztm1;07CR7fHeP4QfYTyO_6ZtnF;Rule;TP;
+69;Linienkopplung;58;171;Fläche;14;Fläche;16;07CR7fHeP4QfYTyO_6Ztm1;07CR7fHeP4QfYTyO_6ZtpJ;Rule;TP;
+70;Linienkopplung;62;172;Fläche;15;Fläche;14;07CR7fHeP4QfYTyO_6ZtpJ;07CR7fHeP4QfYTyO_6Ztm1;Rule;TP;
+71;Linienkopplung;64;173;Fläche;15;Fläche;8;07CR7fHeP4QfYTyO_6ZtpJ;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+72;Linienkopplung;66;174;Fläche;16;Fläche;8;07CR7fHeP4QfYTyO_6ZtpJ;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+73;Linienkopplung;70;175;Fläche;17;Fläche;7;07CR7fHeP4QfYTyO_6ZtuF;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+74;Linienkopplung;72;176;Fläche;17;Fläche;21;07CR7fHeP4QfYTyO_6ZtuF;07CR7fHeP4QfYTyO_6ZtwJ;Rule;TP;
+75;Linienkopplung;74;177;Fläche;18;Fläche;22;07CR7fHeP4QfYTyO_6ZtuF;07CR7fHeP4QfYTyO_6ZtwJ;Rule;TP;
+76;Linienkopplung;76;178;Fläche;18;Fläche;7;07CR7fHeP4QfYTyO_6ZtuF;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+77;Linienkopplung;78;179;Fläche;19;Fläche;22;07CR7fHeP4QfYTyO_6ZtwW;07CR7fHeP4QfYTyO_6ZtwJ;Rule;TP;
+78;Linienkopplung;80;180;Fläche;19;Fläche;5;07CR7fHeP4QfYTyO_6ZtwW;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+79;Linienkopplung;82;181;Fläche;20;Fläche;6;07CR7fHeP4QfYTyO_6ZtwW;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+80;Linienkopplung;86;182;Fläche;21;Fläche;19;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtwW;Rule;TP;
+81;Linienkopplung;89;183;Fläche;21;Fläche;18;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtuF;Rule;TP;
+82;Linienkopplung;92;184;Fläche;22;Fläche;20;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtwW;Rule;TP;
+83;Linienkopplung;96;185;Fläche;23;Fläche;5;07CR7fHeP4QfYTyO_6ZtnF;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+84;Linienkopplung;98;186;Fläche;23;Fläche;13;07CR7fHeP4QfYTyO_6ZtnF;07CR7fHeP4QfYTyO_6Ztm1;Rule;TP;
+85;Linienkopplung;100;187;Fläche;24;Fläche;14;07CR7fHeP4QfYTyO_6ZtnF;07CR7fHeP4QfYTyO_6Ztm1;Rule;TP;
+86;Linienkopplung;102;188;Fläche;24;Fläche;6;07CR7fHeP4QfYTyO_6ZtnF;1hXC4WhvX7OfF8X3V_$Y93;Rule;TP;
+87;Linienkopplung;2;201;Fläche;1;Fläche;26;0zsH1FRoz_i3qclsczFiid;07CR7fHeP4QfYTyO_6ZtAZ;Rule;FP;
+88;Linienkopplung;6;202;Fläche;2;Fläche;25;3I$bXTvt52eieaAAHcdW_5;07CR7fHeP4QfYTyO_6ZtDa;Rule;FP;
+89;Linienkopplung;288;291;Fläche;40;Fläche;27;3A2yjZ0AR93RbjX4wqf$n2;07CR7fHeP4QfYTyO_6ZtD5;Rule;FP;
+90;Linienkopplung;295;304;Fläche;41;Fläche;27;3fCK50BC3t9Vy_GN69lbkB;07CR7fHeP4QfYTyO_6ZtD5;Rule;FP;
+90;Linienkopplung;295;304;Fläche;41;Fläche;43;3fCK50BC3t9Vy_GN69lbkB;35MXw1KX6YcSv4EWZQn04Y;Rule;FP;
+90;Linienkopplung;295;304;Fläche;43;Fläche;27;35MXw1KX6YcSv4EWZQn04Y;07CR7fHeP4QfYTyO_6ZtD5;Rule;FP;
+90;Linienkopplung;295;304;Fläche;43;Fläche;41;35MXw1KX6YcSv4EWZQn04Y;3fCK50BC3t9Vy_GN69lbkB;Rule;FP;
+91;Linienkopplung;313;575;Fläche;45;Fläche;46;07CR7fHeP4QfYTyO_6ZtT0;07CR7fHeP4QfYTyO_6ZtT0;Rule;FP;
+91;Linienkopplung;313;575;Fläche;45;Fläche;69;07CR7fHeP4QfYTyO_6ZtT0;1jKaC_UV9EHQtr4wyx6Mnl;Rule;FP;
+91;Linienkopplung;313;575;Fläche;68;Fläche;46;1jKaC_UV9EHQtr4wyx6Mnl;07CR7fHeP4QfYTyO_6ZtT0;Rule;FP;
+91;Linienkopplung;313;575;Fläche;68;Fläche;69;1jKaC_UV9EHQtr4wyx6Mnl;1jKaC_UV9EHQtr4wyx6Mnl;Rule;FP;
+92;Linienkopplung;315;576;Fläche;45;Fläche;25;07CR7fHeP4QfYTyO_6ZtT0;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+93;Linienkopplung;317;577;Fläche;46;Fläche;28;07CR7fHeP4QfYTyO_6ZtT0;1ksvnTQ291hfq4qBxBzHDk;Rule;FP;
+93;Linienkopplung;317;577;Fläche;69;Fläche;28;1jKaC_UV9EHQtr4wyx6Mnl;1ksvnTQ291hfq4qBxBzHDk;Rule;FP;
+93;Linienkopplung;317;577;Fläche;69;Fläche;46;1jKaC_UV9EHQtr4wyx6Mnl;07CR7fHeP4QfYTyO_6ZtT0;Rule;FP;
+94;Linienkopplung;319;578;Fläche;46;Fläche;25;07CR7fHeP4QfYTyO_6ZtT0;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+95;Linienkopplung;321;579;Fläche;47;Fläche;48;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT1;Rule;FP;
+96;Linienkopplung;323;580;Fläche;47;Fläche;25;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+97;Linienkopplung;325;581;Fläche;47;Fläche;31;07CR7fHeP4QfYTyO_6ZtT1;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+98;Linienkopplung;327;582;Fläche;47;Fläche;25;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+99;Linienkopplung;337;583;Fläche;48;Fläche;25;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+100;Linienkopplung;339;584;Fläche;48;Fläche;47;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT1;Rule;FP;
+101;Linienkopplung;341;585;Fläche;48;Fläche;25;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+102;Linienkopplung;343;586;Fläche;48;Fläche;31;07CR7fHeP4QfYTyO_6ZtT1;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+103;Linienkopplung;354;587;Fläche;49;Fläche;27;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+104;Linienkopplung;356;588;Fläche;49;Fläche;51;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+105;Linienkopplung;358;589;Fläche;49;Fläche;25;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+106;Linienkopplung;360;590;Fläche;49;Fläche;52;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+107;Linienkopplung;362;591;Fläche;49;Fläche;25;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+108;Linienkopplung;364;592;Fläche;49;Fläche;31;07CR7fHeP4QfYTyO_6ZtT5;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+109;Linienkopplung;366;593;Fläche;49;Fläche;50;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+109;Linienkopplung;366;593;Fläche;49;Fläche;64;07CR7fHeP4QfYTyO_6ZtT5;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+109;Linienkopplung;366;593;Fläche;63;Fläche;50;1jKaC_UV9EHQtr4wyx6MnY;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+109;Linienkopplung;366;593;Fläche;63;Fläche;64;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+110;Linienkopplung;368;594;Fläche;49;Fläche;36;07CR7fHeP4QfYTyO_6ZtT5;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+111;Linienkopplung;402;595;Fläche;50;Fläche;49;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+111;Linienkopplung;402;595;Fläche;50;Fläche;63;07CR7fHeP4QfYTyO_6ZtT5;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+111;Linienkopplung;402;595;Fläche;64;Fläche;49;1jKaC_UV9EHQtr4wyx6MnY;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+111;Linienkopplung;402;595;Fläche;64;Fläche;63;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+112;Linienkopplung;404;596;Fläche;50;Fläche;36;07CR7fHeP4QfYTyO_6ZtT5;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+113;Linienkopplung;406;597;Fläche;50;Fläche;25;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+114;Linienkopplung;408;598;Fläche;50;Fläche;31;07CR7fHeP4QfYTyO_6ZtT5;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+115;Linienkopplung;442;599;Fläche;51;Fläche;36;07CR7fHeP4QfYTyO_6ZtT5;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+116;Linienkopplung;444;600;Fläche;51;Fläche;27;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+117;Linienkopplung;446;601;Fläche;51;Fläche;49;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+118;Linienkopplung;448;602;Fläche;51;Fläche;27;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+119;Linienkopplung;449;603;Fläche;52;Fläche;25;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+120;Linienkopplung;451;604;Fläche;52;Fläche;49;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+121;Linienkopplung;453;605;Fläche;52;Fläche;25;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+122;Linienkopplung;455;606;Fläche;52;Fläche;31;07CR7fHeP4QfYTyO_6ZtT5;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+123;Linienkopplung;457;607;Fläche;53;Fläche;54;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+124;Linienkopplung;459;608;Fläche;53;Fläche;27;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+125;Linienkopplung;461;609;Fläche;53;Fläche;54;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+126;Linienkopplung;463;610;Fläche;53;Fläche;27;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+127;Linienkopplung;465;611;Fläche;53;Fläche;36;07CR7fHeP4QfYTyO_6ZtT6;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+128;Linienkopplung;467;612;Fläche;53;Fläche;54;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+128;Linienkopplung;467;612;Fläche;53;Fläche;73;07CR7fHeP4QfYTyO_6ZtT6;1jKaC_UV9EHQtr4wyx6MnX;Rule;FP;
+128;Linienkopplung;467;612;Fläche;72;Fläche;54;1jKaC_UV9EHQtr4wyx6MnX;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+128;Linienkopplung;467;612;Fläche;72;Fläche;73;1jKaC_UV9EHQtr4wyx6MnX;1jKaC_UV9EHQtr4wyx6MnX;Rule;FP;
+129;Linienkopplung;469;613;Fläche;53;Fläche;25;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+130;Linienkopplung;495;614;Fläche;54;Fläche;27;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+131;Linienkopplung;497;615;Fläche;54;Fläche;53;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+132;Linienkopplung;499;616;Fläche;54;Fläche;27;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtD5;Rule;TP;
+133;Linienkopplung;501;617;Fläche;54;Fläche;53;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+134;Linienkopplung;503;618;Fläche;54;Fläche;25;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+135;Linienkopplung;505;619;Fläche;54;Fläche;53;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+135;Linienkopplung;505;619;Fläche;54;Fläche;72;07CR7fHeP4QfYTyO_6ZtT6;1jKaC_UV9EHQtr4wyx6MnX;Rule;FP;
+135;Linienkopplung;505;619;Fläche;73;Fläche;53;1jKaC_UV9EHQtr4wyx6MnX;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+135;Linienkopplung;505;619;Fläche;73;Fläche;72;1jKaC_UV9EHQtr4wyx6MnX;1jKaC_UV9EHQtr4wyx6MnX;Rule;FP;
+136;Linienkopplung;507;620;Fläche;54;Fläche;36;07CR7fHeP4QfYTyO_6ZtT6;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+137;Linienkopplung;533;621;Fläche;55;Fläche;26;07CR7fHeP4QfYTyO_6ZtTS;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+138;Linienkopplung;535;622;Fläche;55;Fläche;36;07CR7fHeP4QfYTyO_6ZtTS;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+139;Linienkopplung;537;623;Fläche;56;Fläche;36;07CR7fHeP4QfYTyO_6ZtTS;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+140;Linienkopplung;539;624;Fläche;56;Fläche;26;07CR7fHeP4QfYTyO_6ZtTS;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+141;Linienkopplung;541;625;Fläche;57;Fläche;36;07CR7fHeP4QfYTyO_6ZtTT;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+142;Linienkopplung;543;626;Fläche;57;Fläche;26;07CR7fHeP4QfYTyO_6ZtTT;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+143;Linienkopplung;545;627;Fläche;58;Fläche;36;07CR7fHeP4QfYTyO_6ZtTT;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+144;Linienkopplung;547;628;Fläche;58;Fläche;26;07CR7fHeP4QfYTyO_6ZtTT;07CR7fHeP4QfYTyO_6ZtAZ;Rule;TP;
+145;Linienkopplung;549;629;Fläche;59;Fläche;31;07CR7fHeP4QfYTyO_6ZtT2;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+146;Linienkopplung;551;630;Fläche;59;Fläche;25;07CR7fHeP4QfYTyO_6ZtT2;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+147;Linienkopplung;552;631;Fläche;59;Fläche;25;07CR7fHeP4QfYTyO_6ZtT2;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+148;Linienkopplung;554;632;Fläche;59;Fläche;31;07CR7fHeP4QfYTyO_6ZtT2;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+149;Linienkopplung;555;633;Fläche;60;Fläche;31;07CR7fHeP4QfYTyO_6ZtT2;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+150;Linienkopplung;557;634;Fläche;60;Fläche;25;07CR7fHeP4QfYTyO_6ZtT2;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+151;Linienkopplung;559;635;Fläche;61;Fläche;25;07CR7fHeP4QfYTyO_6ZtT3;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+152;Linienkopplung;561;636;Fläche;61;Fläche;31;07CR7fHeP4QfYTyO_6ZtT3;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+153;Linienkopplung;567;637;Fläche;62;Fläche;25;07CR7fHeP4QfYTyO_6ZtT3;07CR7fHeP4QfYTyO_6ZtDa;Rule;TP;
+154;Linienkopplung;569;638;Fläche;62;Fläche;31;07CR7fHeP4QfYTyO_6ZtT3;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+155;Linienkopplung;314;639;Fläche;45;Fläche;49;07CR7fHeP4QfYTyO_6ZtT0;07CR7fHeP4QfYTyO_6ZtT5;Rule;TP;
+156;Linienkopplung;316;640;Fläche;45;Fläche;53;07CR7fHeP4QfYTyO_6ZtT0;07CR7fHeP4QfYTyO_6ZtT6;Rule;TP;
+157;Linienkopplung;318;641;Fläche;46;Fläche;54;07CR7fHeP4QfYTyO_6ZtT0;07CR7fHeP4QfYTyO_6ZtT6;Rule;TP;
+158;Linienkopplung;320;642;Fläche;46;Fläche;52;07CR7fHeP4QfYTyO_6ZtT0;07CR7fHeP4QfYTyO_6ZtT5;Rule;TP;
+159;Linienkopplung;322;643;Fläche;47;Fläche;48;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT1;Rule;FP;
+160;Linienkopplung;324;644;Fläche;47;Fläche;52;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT5;Rule;TP;
+161;Linienkopplung;326;645;Fläche;47;Fläche;60;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT2;Rule;TP;
+162;Linienkopplung;328;646;Fläche;47;Fläche;48;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT1;Rule;FP;
+163;Linienkopplung;338;647;Fläche;48;Fläche;47;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT1;Rule;FP;
+164;Linienkopplung;340;648;Fläche;48;Fläche;47;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT1;Rule;FP;
+165;Linienkopplung;344;649;Fläche;48;Fläche;52;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT5;Rule;TP;
+166;Linienkopplung;353;650;Fläche;49;Fläche;51;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+167;Linienkopplung;355;651;Fläche;49;Fläche;51;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+168;Linienkopplung;357;652;Fläche;49;Fläche;51;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+169;Linienkopplung;359;653;Fläche;49;Fläche;52;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+170;Linienkopplung;361;654;Fläche;49;Fläche;52;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+171;Linienkopplung;363;655;Fläche;49;Fläche;46;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT0;Rule;TP;
+172;Linienkopplung;365;656;Fläche;49;Fläche;50;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+173;Linienkopplung;367;657;Fläche;49;Fläche;50;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+174;Linienkopplung;401;658;Fläche;50;Fläche;49;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+175;Linienkopplung;403;659;Fläche;50;Fläche;49;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+176;Linienkopplung;405;660;Fläche;50;Fläche;55;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtTS;Rule;TP;
+177;Linienkopplung;407;661;Fläche;50;Fläche;61;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT3;Rule;TP;
+178;Linienkopplung;441;662;Fläche;51;Fläche;49;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+179;Linienkopplung;443;663;Fläche;51;Fläche;55;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtTS;Rule;TP;
+180;Linienkopplung;445;664;Fläche;51;Fläche;49;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+181;Linienkopplung;447;665;Fläche;51;Fläche;49;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+182;Linienkopplung;450;666;Fläche;52;Fläche;49;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+183;Linienkopplung;452;667;Fläche;52;Fläche;49;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT5;Rule;FP;
+184;Linienkopplung;454;668;Fläche;52;Fläche;61;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT3;Rule;TP;
+185;Linienkopplung;458;669;Fläche;53;Fläche;54;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+186;Linienkopplung;460;670;Fläche;53;Fläche;54;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+187;Linienkopplung;462;671;Fläche;53;Fläche;54;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+188;Linienkopplung;464;672;Fläche;53;Fläche;54;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+189;Linienkopplung;466;673;Fläche;53;Fläche;54;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+190;Linienkopplung;468;674;Fläche;53;Fläche;46;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT0;Rule;TP;
+191;Linienkopplung;470;675;Fläche;53;Fläche;54;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+192;Linienkopplung;496;676;Fläche;54;Fläche;53;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+193;Linienkopplung;498;677;Fläche;54;Fläche;53;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+194;Linienkopplung;500;678;Fläche;54;Fläche;53;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+195;Linienkopplung;502;679;Fläche;54;Fläche;53;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+196;Linienkopplung;506;680;Fläche;54;Fläche;53;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+197;Linienkopplung;508;681;Fläche;54;Fläche;53;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT6;Rule;FP;
+198;Linienkopplung;534;682;Fläche;55;Fläche;58;07CR7fHeP4QfYTyO_6ZtTS;07CR7fHeP4QfYTyO_6ZtTT;Rule;TP;
+199;Linienkopplung;536;683;Fläche;55;Fläche;49;07CR7fHeP4QfYTyO_6ZtTS;07CR7fHeP4QfYTyO_6ZtT5;Rule;TP;
+200;Linienkopplung;538;684;Fläche;56;Fläche;50;07CR7fHeP4QfYTyO_6ZtTS;07CR7fHeP4QfYTyO_6ZtT5;Rule;TP;
+201;Linienkopplung;542;685;Fläche;57;Fläche;55;07CR7fHeP4QfYTyO_6ZtTT;07CR7fHeP4QfYTyO_6ZtTS;Rule;TP;
+202;Linienkopplung;544;686;Fläche;57;Fläche;58;07CR7fHeP4QfYTyO_6ZtTT;07CR7fHeP4QfYTyO_6ZtTT;Rule;FP;
+203;Linienkopplung;546;687;Fläche;58;Fläche;56;07CR7fHeP4QfYTyO_6ZtTT;07CR7fHeP4QfYTyO_6ZtTS;Rule;TP;
+204;Linienkopplung;548;688;Fläche;58;Fläche;57;07CR7fHeP4QfYTyO_6ZtTT;07CR7fHeP4QfYTyO_6ZtTT;Rule;FP;
+205;Linienkopplung;550;689;Fläche;59;Fläche;47;07CR7fHeP4QfYTyO_6ZtT2;07CR7fHeP4QfYTyO_6ZtT1;Rule;TP;
+206;Linienkopplung;553;690;Fläche;59;Fläche;62;07CR7fHeP4QfYTyO_6ZtT2;07CR7fHeP4QfYTyO_6ZtT3;Rule;TP;
+207;Linienkopplung;556;691;Fläche;60;Fläche;48;07CR7fHeP4QfYTyO_6ZtT2;07CR7fHeP4QfYTyO_6ZtT1;Rule;TP;
+208;Linienkopplung;560;692;Fläche;61;Fläche;59;07CR7fHeP4QfYTyO_6ZtT3;07CR7fHeP4QfYTyO_6ZtT2;Rule;TP;
+209;Linienkopplung;562;693;Fläche;61;Fläche;49;07CR7fHeP4QfYTyO_6ZtT3;07CR7fHeP4QfYTyO_6ZtT5;Rule;TP;
+210;Linienkopplung;568;694;Fläche;62;Fläche;60;07CR7fHeP4QfYTyO_6ZtT3;07CR7fHeP4QfYTyO_6ZtT2;Rule;TP;
+211;Linienkopplung;570;695;Fläche;62;Fläche;50;07CR7fHeP4QfYTyO_6ZtT3;07CR7fHeP4QfYTyO_6ZtT5;Rule;TP;
+212;Linienkopplung;697;938;Fläche;63;Fläche;33;1jKaC_UV9EHQtr4wyx6MnY;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+213;Linienkopplung;699;939;Fläche;63;Fläche;65;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+214;Linienkopplung;701;940;Fläche;63;Fläche;28;1jKaC_UV9EHQtr4wyx6MnY;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+215;Linienkopplung;703;941;Fläche;63;Fläche;39;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+216;Linienkopplung;737;942;Fläche;64;Fläche;28;1jKaC_UV9EHQtr4wyx6MnY;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+217;Linienkopplung;739;943;Fläche;64;Fläche;39;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+218;Linienkopplung;773;944;Fläche;65;Fläche;39;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+219;Linienkopplung;775;945;Fläche;65;Fläche;33;1jKaC_UV9EHQtr4wyx6MnY;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+220;Linienkopplung;777;946;Fläche;65;Fläche;63;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+221;Linienkopplung;779;947;Fläche;65;Fläche;33;1jKaC_UV9EHQtr4wyx6MnY;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+222;Linienkopplung;780;948;Fläche;66;Fläche;28;1jKaC_UV9EHQtr4wyx6MnY;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+223;Linienkopplung;782;949;Fläche;66;Fläche;39;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+224;Linienkopplung;785;950;Fläche;67;Fläche;37;38qvHcT_zZWLFvcoY_yCSQ;1ksvnTQ291hfq4qBxBzHDD;Rule;FP;
+225;Linienkopplung;789;951;Fläche;68;Fläche;39;1jKaC_UV9EHQtr4wyx6Mnl;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+226;Linienkopplung;791;952;Fläche;69;Fläche;39;1jKaC_UV9EHQtr4wyx6Mnl;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+227;Linienkopplung;794;953;Fläche;70;Fläche;28;1jKaC_UV9EHQtr4wyx6Mnk;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+228;Linienkopplung;797;954;Fläche;70;Fläche;71;1jKaC_UV9EHQtr4wyx6Mnk;1jKaC_UV9EHQtr4wyx6Mnk;Rule;FP;
+229;Linienkopplung;808;955;Fläche;71;Fläche;28;1jKaC_UV9EHQtr4wyx6Mnk;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+230;Linienkopplung;811;956;Fläche;71;Fläche;70;1jKaC_UV9EHQtr4wyx6Mnk;1jKaC_UV9EHQtr4wyx6Mnk;Rule;FP;
+231;Linienkopplung;822;957;Fläche;72;Fläche;33;1jKaC_UV9EHQtr4wyx6MnX;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+232;Linienkopplung;824;958;Fläche;72;Fläche;39;1jKaC_UV9EHQtr4wyx6MnX;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+233;Linienkopplung;850;959;Fläche;73;Fläche;33;1jKaC_UV9EHQtr4wyx6MnX;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+234;Linienkopplung;852;960;Fläche;73;Fläche;39;1jKaC_UV9EHQtr4wyx6MnX;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+235;Linienkopplung;878;961;Fläche;74;Fläche;28;1jKaC_UV9EHQtr4wyx6Mnj;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+236;Linienkopplung;880;962;Fläche;74;Fläche;75;1jKaC_UV9EHQtr4wyx6Mnj;1jKaC_UV9EHQtr4wyx6Mnj;Rule;FP;
+237;Linienkopplung;883;963;Fläche;75;Fläche;28;1jKaC_UV9EHQtr4wyx6Mnj;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+238;Linienkopplung;885;964;Fläche;75;Fläche;74;1jKaC_UV9EHQtr4wyx6Mnj;1jKaC_UV9EHQtr4wyx6Mnj;Rule;FP;
+239;Linienkopplung;889;965;Fläche;76;Fläche;36;09wqowYZTY2xj3UPhQv6Is;1ksvnTQ291hfq4qBxBzHAg;Rule;FP;
+240;Linienkopplung;892;966;Fläche;77;Fläche;39;1jKaC_UV9EHQtr4wyx6Mnh;1jKaC_UV9EHQtr4wyx6Msp;Rule;FP;
+241;Linienkopplung;894;967;Fläche;77;Fläche;33;1jKaC_UV9EHQtr4wyx6Mnh;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+242;Linienkopplung;896;968;Fläche;77;Fläche;78;1jKaC_UV9EHQtr4wyx6Mnh;1jKaC_UV9EHQtr4wyx6Mnh;Rule;FP;
+243;Linienkopplung;898;969;Fläche;78;Fläche;33;1jKaC_UV9EHQtr4wyx6Mnh;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+244;Linienkopplung;900;970;Fläche;78;Fläche;77;1jKaC_UV9EHQtr4wyx6Mnh;1jKaC_UV9EHQtr4wyx6Mnh;Rule;FP;
+245;Linienkopplung;902;971;Fläche;79;Fläche;28;1jKaC_UV9EHQtr4wyx6Mni;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+246;Linienkopplung;904;972;Fläche;79;Fläche;80;1jKaC_UV9EHQtr4wyx6Mni;1jKaC_UV9EHQtr4wyx6Mni;Rule;FP;
+247;Linienkopplung;907;973;Fläche;79;Fläche;39;1jKaC_UV9EHQtr4wyx6Mni;1jKaC_UV9EHQtr4wyx6Msp;Rule;FP;
+248;Linienkopplung;917;974;Fläche;80;Fläche;28;1jKaC_UV9EHQtr4wyx6Mni;1ksvnTQ291hfq4qBxBzHDk;Rule;TP;
+249;Linienkopplung;920;975;Fläche;80;Fläche;79;1jKaC_UV9EHQtr4wyx6Mni;1jKaC_UV9EHQtr4wyx6Mni;Rule;FP;
+250;Linienkopplung;930;976;Fläche;81;Fläche;33;1jKaC_UV9EHQtr4wyx6Mng;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+251;Linienkopplung;932;977;Fläche;81;Fläche;82;1jKaC_UV9EHQtr4wyx6Mng;1jKaC_UV9EHQtr4wyx6Mng;Rule;FP;
+252;Linienkopplung;934;978;Fläche;82;Fläche;81;1jKaC_UV9EHQtr4wyx6Mng;1jKaC_UV9EHQtr4wyx6Mng;Rule;FP;
+253;Linienkopplung;936;979;Fläche;82;Fläche;33;1jKaC_UV9EHQtr4wyx6Mng;1ksvnTQ291hfq4qBxBzHAg;Rule;TP;
+254;Linienkopplung;696;980;Fläche;63;Fläche;65;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+255;Linienkopplung;698;981;Fläche;63;Fläche;65;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+256;Linienkopplung;700;982;Fläche;63;Fläche;65;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+257;Linienkopplung;702;983;Fläche;63;Fläche;69;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Mnl;Rule;TP;
+258;Linienkopplung;736;984;Fläche;64;Fläche;77;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Mnh;Rule;TP;
+259;Linienkopplung;738;985;Fläche;64;Fläche;79;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Mni;Rule;TP;
+260;Linienkopplung;772;986;Fläche;65;Fläche;63;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+261;Linienkopplung;774;987;Fläche;65;Fläche;77;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Mnh;Rule;TP;
+262;Linienkopplung;776;988;Fläche;65;Fläche;63;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+263;Linienkopplung;778;989;Fläche;65;Fläche;63;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6MnY;Rule;FP;
+264;Linienkopplung;781;990;Fläche;66;Fläche;79;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Mni;Rule;TP;
+265;Linienkopplung;786;991;Fläche;67;Fläche;72;38qvHcT_zZWLFvcoY_yCSQ;1jKaC_UV9EHQtr4wyx6MnX;Rule;FP;
+266;Linienkopplung;788;992;Fläche;68;Fläche;63;1jKaC_UV9EHQtr4wyx6Mnl;1jKaC_UV9EHQtr4wyx6MnY;Rule;TP;
+267;Linienkopplung;790;993;Fläche;68;Fläche;72;1jKaC_UV9EHQtr4wyx6Mnl;1jKaC_UV9EHQtr4wyx6MnX;Rule;TP;
+268;Linienkopplung;792;994;Fläche;69;Fläche;73;1jKaC_UV9EHQtr4wyx6Mnl;1jKaC_UV9EHQtr4wyx6MnX;Rule;TP;
+269;Linienkopplung;793;995;Fläche;69;Fläche;66;1jKaC_UV9EHQtr4wyx6Mnl;1jKaC_UV9EHQtr4wyx6MnY;Rule;TP;
+270;Linienkopplung;795;996;Fläche;70;Fläche;75;1jKaC_UV9EHQtr4wyx6Mnk;1jKaC_UV9EHQtr4wyx6Mnj;Rule;TP;
+271;Linienkopplung;799;997;Fläche;70;Fläche;66;1jKaC_UV9EHQtr4wyx6Mnk;1jKaC_UV9EHQtr4wyx6MnY;Rule;TP;
+272;Linienkopplung;809;998;Fläche;71;Fläche;66;1jKaC_UV9EHQtr4wyx6Mnk;1jKaC_UV9EHQtr4wyx6MnY;Rule;TP;
+273;Linienkopplung;823;999;Fläche;72;Fläche;69;1jKaC_UV9EHQtr4wyx6MnX;1jKaC_UV9EHQtr4wyx6Mnl;Rule;TP;
+274;Linienkopplung;825;1000;Fläche;72;Fläche;73;1jKaC_UV9EHQtr4wyx6MnX;1jKaC_UV9EHQtr4wyx6MnX;Rule;FP;
+275;Linienkopplung;853;1001;Fläche;73;Fläche;72;1jKaC_UV9EHQtr4wyx6MnX;1jKaC_UV9EHQtr4wyx6MnX;Rule;FP;
+276;Linienkopplung;879;1002;Fläche;74;Fläche;70;1jKaC_UV9EHQtr4wyx6Mnj;1jKaC_UV9EHQtr4wyx6Mnk;Rule;TP;
+277;Linienkopplung;882;1003;Fläche;74;Fläche;80;1jKaC_UV9EHQtr4wyx6Mnj;1jKaC_UV9EHQtr4wyx6Mni;Rule;TP;
+278;Linienkopplung;884;1004;Fläche;75;Fläche;71;1jKaC_UV9EHQtr4wyx6Mnj;1jKaC_UV9EHQtr4wyx6Mnk;Rule;TP;
+279;Linienkopplung;888;1005;Fläche;76;Fläche;77;09wqowYZTY2xj3UPhQv6Is;1jKaC_UV9EHQtr4wyx6Mnh;Rule;FP;
+280;Linienkopplung;893;1006;Fläche;77;Fläche;63;1jKaC_UV9EHQtr4wyx6Mnh;1jKaC_UV9EHQtr4wyx6MnY;Rule;TP;
+281;Linienkopplung;895;1007;Fläche;77;Fläche;82;1jKaC_UV9EHQtr4wyx6Mnh;1jKaC_UV9EHQtr4wyx6Mng;Rule;TP;
+282;Linienkopplung;897;1008;Fläche;77;Fläche;78;1jKaC_UV9EHQtr4wyx6Mnh;1jKaC_UV9EHQtr4wyx6Mnh;Rule;FP;
+283;Linienkopplung;901;1009;Fläche;78;Fläche;64;1jKaC_UV9EHQtr4wyx6Mnh;1jKaC_UV9EHQtr4wyx6MnY;Rule;TP;
+284;Linienkopplung;903;1010;Fläche;79;Fläche;74;1jKaC_UV9EHQtr4wyx6Mni;1jKaC_UV9EHQtr4wyx6Mnj;Rule;TP;
+285;Linienkopplung;908;1011;Fläche;79;Fläche;63;1jKaC_UV9EHQtr4wyx6Mni;1jKaC_UV9EHQtr4wyx6MnY;Rule;TP;
+286;Linienkopplung;918;1012;Fläche;80;Fläche;64;1jKaC_UV9EHQtr4wyx6Mni;1jKaC_UV9EHQtr4wyx6MnY;Rule;TP;
+287;Linienkopplung;921;1013;Fläche;80;Fläche;75;1jKaC_UV9EHQtr4wyx6Mni;1jKaC_UV9EHQtr4wyx6Mnj;Rule;TP;
+288;Linienkopplung;931;1014;Fläche;81;Fläche;82;1jKaC_UV9EHQtr4wyx6Mng;1jKaC_UV9EHQtr4wyx6Mng;Rule;FP;
+289;Linienkopplung;933;1015;Fläche;81;Fläche;77;1jKaC_UV9EHQtr4wyx6Mng;1jKaC_UV9EHQtr4wyx6Mnh;Rule;TP;
+290;Linienkopplung;935;1016;Fläche;82;Fläche;78;1jKaC_UV9EHQtr4wyx6Mng;1jKaC_UV9EHQtr4wyx6Mnh;Rule;TP;
+291;Linienkopplung;937;1017;Fläche;82;Fläche;81;1jKaC_UV9EHQtr4wyx6Mng;1jKaC_UV9EHQtr4wyx6Mng;Rule;FP;
+292;Linienkopplung;1018;1154;Fläche;83;Fläche;39;3DWkEUmNbEUw4r79zq9qii;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+293;Linienkopplung;1020;1155;Fläche;83;Fläche;42;3DWkEUmNbEUw4r79zq9qii;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+293;Linienkopplung;1020;1155;Fläche;89;Fläche;42;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+293;Linienkopplung;1020;1155;Fläche;89;Fläche;83;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qii;Rule;FP;
+294;Linienkopplung;1054;1156;Fläche;84;Fläche;39;3DWkEUmNbEUw4r79zq9qii;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+295;Linienkopplung;1056;1157;Fläche;84;Fläche;42;3DWkEUmNbEUw4r79zq9qii;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+295;Linienkopplung;1056;1157;Fläche;90;Fläche;42;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+295;Linienkopplung;1056;1157;Fläche;90;Fläche;84;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qii;Rule;FP;
+296;Linienkopplung;1090;1158;Fläche;85;Fläche;42;3DWkEUmNbEUw4r79zq9qij;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+296;Linienkopplung;1090;1158;Fläche;91;Fläche;42;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+296;Linienkopplung;1090;1158;Fläche;91;Fläche;85;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qij;Rule;FP;
+297;Linienkopplung;1092;1159;Fläche;85;Fläche;39;3DWkEUmNbEUw4r79zq9qij;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+298;Linienkopplung;1118;1160;Fläche;86;Fläche;39;3DWkEUmNbEUw4r79zq9qij;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+299;Linienkopplung;1120;1161;Fläche;86;Fläche;42;3DWkEUmNbEUw4r79zq9qij;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+299;Linienkopplung;1120;1161;Fläche;92;Fläche;42;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+299;Linienkopplung;1120;1161;Fläche;92;Fläche;86;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qij;Rule;FP;
+300;Linienkopplung;1146;1162;Fläche;87;Fläche;42;3DWkEUmNbEUw4r79zq9qil;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+300;Linienkopplung;1146;1162;Fläche;93;Fläche;42;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+300;Linienkopplung;1146;1162;Fläche;93;Fläche;87;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qil;Rule;FP;
+301;Linienkopplung;1148;1163;Fläche;87;Fläche;39;3DWkEUmNbEUw4r79zq9qil;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+302;Linienkopplung;1150;1164;Fläche;88;Fläche;42;3DWkEUmNbEUw4r79zq9qil;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+302;Linienkopplung;1150;1164;Fläche;94;Fläche;42;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qk7;Rule;TP;
+302;Linienkopplung;1150;1164;Fläche;94;Fläche;88;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qil;Rule;FP;
+303;Linienkopplung;1152;1165;Fläche;88;Fläche;39;3DWkEUmNbEUw4r79zq9qil;1jKaC_UV9EHQtr4wyx6Msp;Rule;TP;
+304;Linienkopplung;1021;1166;Fläche;83;Fläche;84;3DWkEUmNbEUw4r79zq9qii;3DWkEUmNbEUw4r79zq9qii;Rule;FP;
+305;Linienkopplung;1055;1167;Fläche;84;Fläche;87;3DWkEUmNbEUw4r79zq9qii;3DWkEUmNbEUw4r79zq9qil;Rule;TP;
+306;Linienkopplung;1057;1168;Fläche;84;Fläche;83;3DWkEUmNbEUw4r79zq9qii;3DWkEUmNbEUw4r79zq9qii;Rule;FP;
+307;Linienkopplung;1091;1169;Fläche;85;Fläche;86;3DWkEUmNbEUw4r79zq9qij;3DWkEUmNbEUw4r79zq9qij;Rule;FP;
+308;Linienkopplung;1119;1170;Fläche;86;Fläche;87;3DWkEUmNbEUw4r79zq9qij;3DWkEUmNbEUw4r79zq9qil;Rule;FP;
+309;Linienkopplung;1121;1171;Fläche;86;Fläche;85;3DWkEUmNbEUw4r79zq9qij;3DWkEUmNbEUw4r79zq9qij;Rule;FP;
+310;Linienkopplung;1147;1172;Fläche;87;Fläche;85;3DWkEUmNbEUw4r79zq9qil;3DWkEUmNbEUw4r79zq9qij;Rule;FP;
+311;Linienkopplung;1149;1173;Fläche;87;Fläche;83;3DWkEUmNbEUw4r79zq9qil;3DWkEUmNbEUw4r79zq9qii;Rule;TP;
+312;Linienkopplung;1151;1174;Fläche;88;Fläche;84;3DWkEUmNbEUw4r79zq9qil;3DWkEUmNbEUw4r79zq9qii;Rule;TP;
+313;Linienkopplung;1153;1175;Fläche;88;Fläche;86;3DWkEUmNbEUw4r79zq9qil;3DWkEUmNbEUw4r79zq9qij;Rule;FP;
+314;Linienkopplung;1177;1306;Fläche;89;Fläche;44;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+315;Linienkopplung;1212;1307;Fläche;90;Fläche;44;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+316;Linienkopplung;1246;1308;Fläche;91;Fläche;44;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+317;Linienkopplung;1274;1309;Fläche;92;Fläche;44;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+318;Linienkopplung;1300;1310;Fläche;93;Fläche;44;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+318;Linienkopplung;1300;1310;Fläche;97;Fläche;44;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+318;Linienkopplung;1300;1310;Fläche;97;Fläche;93;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qlf;Rule;FP;
+319;Linienkopplung;1303;1311;Fläche;94;Fläche;44;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+319;Linienkopplung;1303;1311;Fläche;98;Fläche;44;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+319;Linienkopplung;1303;1311;Fläche;98;Fläche;94;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qlf;Rule;FP;
+320;Linienkopplung;1178;1312;Fläche;89;Fläche;90;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qkM;Rule;FP;
+321;Linienkopplung;1211;1313;Fläche;90;Fläche;93;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qlf;Rule;TP;
+322;Linienkopplung;1213;1314;Fläche;90;Fläche;89;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qkM;Rule;FP;
+323;Linienkopplung;1247;1315;Fläche;91;Fläche;92;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qkN;Rule;FP;
+324;Linienkopplung;1273;1316;Fläche;92;Fläche;93;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qlf;Rule;TP;
+325;Linienkopplung;1275;1317;Fläche;92;Fläche;91;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qkN;Rule;FP;
+326;Linienkopplung;1301;1318;Fläche;93;Fläche;91;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qkN;Rule;TP;
+327;Linienkopplung;1302;1319;Fläche;93;Fläche;89;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qkM;Rule;TP;
+328;Linienkopplung;1304;1320;Fläche;94;Fläche;90;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qkM;Rule;TP;
+329;Linienkopplung;1305;1321;Fläche;94;Fläche;92;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qkN;Rule;TP;
+330;Linienkopplung;1322;1464;Fläche;89;Fläche;44;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+330;Linienkopplung;1322;1464;Fläche;95;Fläche;44;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+330;Linienkopplung;1322;1464;Fläche;95;Fläche;89;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qkM;Rule;FP;
+331;Linienkopplung;1324;1465;Fläche;95;Fläche;96;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qX5;Rule;FP;
+332;Linienkopplung;1354;1466;Fläche;90;Fläche;44;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+332;Linienkopplung;1354;1466;Fläche;96;Fläche;44;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+332;Linienkopplung;1354;1466;Fläche;96;Fläche;90;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qkM;Rule;FP;
+333;Linienkopplung;1356;1467;Fläche;96;Fläche;95;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qX5;Rule;FP;
+334;Linienkopplung;1387;1468;Fläche;97;Fläche;98;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qXO;Rule;FP;
+335;Linienkopplung;1389;1469;Fläche;98;Fläche;97;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qXO;Rule;FP;
+336;Linienkopplung;1392;1470;Fläche;99;Fläche;100;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qX6;Rule;FP;
+337;Linienkopplung;1394;1471;Fläche;91;Fläche;44;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+337;Linienkopplung;1394;1471;Fläche;99;Fläche;44;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+337;Linienkopplung;1394;1471;Fläche;99;Fläche;91;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qkN;Rule;FP;
+338;Linienkopplung;1420;1472;Fläche;92;Fläche;44;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+338;Linienkopplung;1420;1472;Fläche;100;Fläche;44;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+338;Linienkopplung;1420;1472;Fläche;100;Fläche;92;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qkN;Rule;FP;
+339;Linienkopplung;1422;1473;Fläche;100;Fläche;99;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qX6;Rule;FP;
+340;Linienkopplung;1448;1474;Fläche;101;Fläche;44;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+341;Linienkopplung;1450;1475;Fläche;101;Fläche;102;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qX7;Rule;FP;
+342;Linienkopplung;1452;1476;Fläche;101;Fläche;44;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+343;Linienkopplung;1454;1477;Fläche;101;Fläche;102;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qX7;Rule;FP;
+344;Linienkopplung;1456;1478;Fläche;102;Fläche;44;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+345;Linienkopplung;1458;1479;Fläche;102;Fläche;101;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qX7;Rule;FP;
+346;Linienkopplung;1460;1480;Fläche;102;Fläche;44;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qXs;Rule;TP;
+347;Linienkopplung;1355;1481;Fläche;96;Fläche;97;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qXO;Rule;TP;
+348;Linienkopplung;1357;1482;Fläche;96;Fläche;101;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qX7;Rule;TP;
+349;Linienkopplung;1386;1483;Fläche;97;Fläche;99;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qX6;Rule;TP;
+350;Linienkopplung;1388;1484;Fläche;97;Fläche;95;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qX5;Rule;TP;
+351;Linienkopplung;1390;1485;Fläche;98;Fläche;96;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qX5;Rule;TP;
+352;Linienkopplung;1391;1486;Fläche;98;Fläche;100;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qX6;Rule;TP;
+353;Linienkopplung;1421;1487;Fläche;100;Fläche;101;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qX7;Rule;TP;
+354;Linienkopplung;1423;1488;Fläche;100;Fläche;97;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qXO;Rule;TP;
+355;Linienkopplung;1449;1489;Fläche;101;Fläche;102;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qX7;Rule;FP;
+356;Linienkopplung;1451;1490;Fläche;101;Fläche;102;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qX7;Rule;FP;
+357;Linienkopplung;1453;1491;Fläche;101;Fläche;99;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qX6;Rule;TP;
+358;Linienkopplung;1455;1492;Fläche;101;Fläche;95;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qX5;Rule;TP;
+359;Linienkopplung;1457;1493;Fläche;102;Fläche;96;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qX5;Rule;TP;
+360;Linienkopplung;1459;1494;Fläche;102;Fläche;100;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qX6;Rule;TP;
+1;Geometriekopplung;3;193;Fläche;1;Fläche;26;0zsH1FRoz_i3qclsczFiid;07CR7fHeP4QfYTyO_6ZtAZ;Topology;FP;Flächen-Kreuzung (Durchdringung)
+2;Geometriekopplung;1;197;Fläche;1;Fläche;27;0zsH1FRoz_i3qclsczFiid;07CR7fHeP4QfYTyO_6ZtD5;Topology;FP;Flächen-Kreuzung (Durchdringung)
+3;Geometriekopplung;356;1;Fläche;49;Fläche;1;07CR7fHeP4QfYTyO_6ZtT5;0zsH1FRoz_i3qclsczFiid;Topology;FP;Flächen-Kreuzung (Durchdringung)
+4;Geometriekopplung;4;441;Fläche;1;Fläche;51;0zsH1FRoz_i3qclsczFiid;07CR7fHeP4QfYTyO_6ZtT5;Topology;FP;Flächen-Kreuzung (Durchdringung)
+5;Geometriekopplung;5;189;Fläche;2;Fläche;25;3I$bXTvt52eieaAAHcdW_5;07CR7fHeP4QfYTyO_6ZtDa;Topology;FP;Flächen-Kreuzung (Durchdringung)
+6;Geometriekopplung;8;353;Fläche;2;Fläche;49;3I$bXTvt52eieaAAHcdW_5;07CR7fHeP4QfYTyO_6ZtT5;Topology;FP;Flächen-Kreuzung (Durchdringung)
+7;Geometriekopplung;8;449;Fläche;2;Fläche;52;3I$bXTvt52eieaAAHcdW_5;07CR7fHeP4QfYTyO_6ZtT5;Topology;FP;Flächen-Kreuzung (Durchdringung)
+8;Geometriekopplung;199;189;Fläche;27;Fläche;25;07CR7fHeP4QfYTyO_6ZtD5;07CR7fHeP4QfYTyO_6ZtDa;Topology;TP;Randlinie auf Flächenebene
+9;Geometriekopplung;206;401;Fläche;28;Fläche;50;1ksvnTQ291hfq4qBxBzHDk;07CR7fHeP4QfYTyO_6ZtT5;Topology;TP;Flächen-Kreuzung (Durchdringung)
+10;Geometriekopplung;214;401;Fläche;29;Fläche;50;1ksvnTQ291hfq4qBxBzHDk;07CR7fHeP4QfYTyO_6ZtT5;Topology;TP;Flächen-Kreuzung (Durchdringung)
+11;Geometriekopplung;222;401;Fläche;30;Fläche;50;1ksvnTQ291hfq4qBxBzHDk;07CR7fHeP4QfYTyO_6ZtT5;Topology;TP;Flächen-Kreuzung (Durchdringung)
+12;Geometriekopplung;230;401;Fläche;31;Fläche;50;1ksvnTQ291hfq4qBxBzHDk;07CR7fHeP4QfYTyO_6ZtT5;Topology;TP;Flächen-Kreuzung (Durchdringung)
+13;Geometriekopplung;271;353;Fläche;37;Fläche;49;1ksvnTQ291hfq4qBxBzHDD;07CR7fHeP4QfYTyO_6ZtT5;Topology;TP;Flächen-Kreuzung (Durchdringung)
+14;Geometriekopplung;271;401;Fläche;37;Fläche;50;1ksvnTQ291hfq4qBxBzHDD;07CR7fHeP4QfYTyO_6ZtT5;Topology;TP;Flächen-Kreuzung (Durchdringung)
+15;Geometriekopplung;271;457;Fläche;37;Fläche;53;1ksvnTQ291hfq4qBxBzHDD;07CR7fHeP4QfYTyO_6ZtT6;Topology;TP;Flächen-Kreuzung (Durchdringung)
+16;Geometriekopplung;271;495;Fläche;37;Fläche;54;1ksvnTQ291hfq4qBxBzHDD;07CR7fHeP4QfYTyO_6ZtT6;Topology;TP;Flächen-Kreuzung (Durchdringung)
+17;Geometriekopplung;784;271;Fläche;67;Fläche;37;38qvHcT_zZWLFvcoY_yCSQ;1ksvnTQ291hfq4qBxBzHDD;Topology;FP;Flächen-Kreuzung (Durchdringung)
+18;Geometriekopplung;281;892;Fläche;39;Fläche;77;1jKaC_UV9EHQtr4wyx6Msp;1jKaC_UV9EHQtr4wyx6Mnh;Topology;FP;Flächen-Kreuzung (Durchdringung)
+19;Geometriekopplung;281;898;Fläche;39;Fläche;78;1jKaC_UV9EHQtr4wyx6Msp;1jKaC_UV9EHQtr4wyx6Mnh;Topology;FP;Flächen-Kreuzung (Durchdringung)
+20;Geometriekopplung;1019;296;Fläche;83;Fläche;42;3DWkEUmNbEUw4r79zq9qii;3DWkEUmNbEUw4r79zq9qk7;Topology;TP;Flächen-Kreuzung (Durchdringung)
+21;Geometriekopplung;1055;296;Fläche;84;Fläche;42;3DWkEUmNbEUw4r79zq9qii;3DWkEUmNbEUw4r79zq9qk7;Topology;TP;Flächen-Kreuzung (Durchdringung)
+22;Geometriekopplung;308;1020;Fläche;44;Fläche;89;3DWkEUmNbEUw4r79zq9qXs;3DWkEUmNbEUw4r79zq9qkM;Topology;TP;Flächen-Kreuzung (Durchdringung)
+23;Geometriekopplung;308;1056;Fläche;44;Fläche;90;3DWkEUmNbEUw4r79zq9qXs;3DWkEUmNbEUw4r79zq9qkM;Topology;TP;Flächen-Kreuzung (Durchdringung)
+24;Geometriekopplung;1273;305;Fläche;92;Fläche;44;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qXs;Topology;TP;Flächen-Kreuzung (Durchdringung)
+25;Geometriekopplung;796;883;Fläche;70;Fläche;75;1jKaC_UV9EHQtr4wyx6Mnk;1jKaC_UV9EHQtr4wyx6Mnj;Topology;TP;Flächen-Kreuzung (Durchdringung)
+26;Geometriekopplung;921;878;Fläche;80;Fläche;74;1jKaC_UV9EHQtr4wyx6Mni;1jKaC_UV9EHQtr4wyx6Mnj;Topology;TP;Flächen-Kreuzung (Durchdringung)
+27;Geometriekopplung;1020;1020;Fläche;83;Fläche;89;3DWkEUmNbEUw4r79zq9qii;3DWkEUmNbEUw4r79zq9qkM;Topology;FP;Randlinie auf Flächenebene
+28;Geometriekopplung;1056;1056;Fläche;84;Fläche;90;3DWkEUmNbEUw4r79zq9qii;3DWkEUmNbEUw4r79zq9qkM;Topology;FP;Randlinie auf Flächenebene
+29;Geometriekopplung;1212;1448;Fläche;90;Fläche;101;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qX7;Topology;FP;Flächen-Kreuzung (Durchdringung)
+30;Geometriekopplung;1274;1354;Fläche;92;Fläche;96;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qX5;Topology;FP;Flächen-Kreuzung (Durchdringung)
+31;Geometriekopplung;1274;1420;Fläche;92;Fläche;100;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qX6;Topology;FP;Flächen-Kreuzung (Durchdringung)
+32;Geometriekopplung;1274;1448;Fläche;92;Fläche;101;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qX7;Topology;FP;Flächen-Kreuzung (Durchdringung)
+33;Geometriekopplung;1394;1354;Fläche;99;Fläche;96;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qX5;Topology;FP;Flächen-Kreuzung (Durchdringung)
+34;Geometriekopplung;1420;1354;Fläche;100;Fläche;96;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qX5;Topology;FP;Flächen-Kreuzung (Durchdringung)
+35;Geometriekopplung;1394;1420;Fläche;99;Fläche;100;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qX6;Topology;FP;Flächen-Kreuzung (Durchdringung)
+361;Missing (GT);;;Stab;7;Fläche;44;2uEC5lWcnE7BDU0ErbW3Lz;3DWkEUmNbEUw4r79zq9qXs;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+362;Missing (GT);;;Fläche;16;Fläche;12;07CR7fHeP4QfYTyO_6ZtpJ;07CR7fHeP4QfYTyO_6Zts4;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+363;Missing (GT);;;Stab;3;Fläche;44;2uEC5lWcnE7BDU0ErbW3LZ;3DWkEUmNbEUw4r79zq9qXs;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+364;Missing (GT);;;Fläche;10;Fläche;26;07CR7fHeP4QfYTyO_6ZsDE;07CR7fHeP4QfYTyO_6ZtAZ;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+365;Missing (GT);;;Stab;4;Fläche;44;2uEC5lWcnE7BDU0ErbW3J4;3DWkEUmNbEUw4r79zq9qXs;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+366;Missing (GT);;;Stab;6;Fläche;44;2uEC5lWcnE7BDU0ErbW3L$;3DWkEUmNbEUw4r79zq9qXs;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+367;Missing (GT);;;Fläche;46;Fläche;48;07CR7fHeP4QfYTyO_6ZtT0;07CR7fHeP4QfYTyO_6ZtT1;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+368;Missing (GT);;;Fläche;26;Fläche;8;07CR7fHeP4QfYTyO_6ZtAZ;1hXC4WhvX7OfF8X3V_$Y93;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+369;Missing (GT);;;Stab;5;Fläche;44;2uEC5lWcnE7BDU0ErbW3IO;3DWkEUmNbEUw4r79zq9qXs;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+370;Missing (GT);;;Fläche;36;Fläche;37;1ksvnTQ291hfq4qBxBzHAg;1ksvnTQ291hfq4qBxBzHDD;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+371;Missing (GT);;;Stab;2;Fläche;44;2uEC5lWcnE7BDU0ErbW3Jm;3DWkEUmNbEUw4r79zq9qXs;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+372;Missing (GT);;;Stab;8;Fläche;44;2uEC5lWcnE7BDU0ErbW3LX;3DWkEUmNbEUw4r79zq9qXs;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+373;Missing (GT);;;Fläche;71;Fläche;69;1jKaC_UV9EHQtr4wyx6Mnk;1jKaC_UV9EHQtr4wyx6Mnl;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+374;Missing (GT);;;Fläche;66;Fläche;37;1jKaC_UV9EHQtr4wyx6MnY;1ksvnTQ291hfq4qBxBzHDD;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+375;Missing (GT);;;Fläche;10;Fläche;18;07CR7fHeP4QfYTyO_6ZsDE;07CR7fHeP4QfYTyO_6ZtuF;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+376;Missing (GT);;;Fläche;73;Fläche;37;1jKaC_UV9EHQtr4wyx6MnX;1ksvnTQ291hfq4qBxBzHDD;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+377;Missing (GT);;;Stab;1;Fläche;44;2uEC5lWcnE7BDU0ErbW3GD;3DWkEUmNbEUw4r79zq9qXs;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+378;Missing (GT);;;Fläche;26;Fläche;52;07CR7fHeP4QfYTyO_6ZtAZ;07CR7fHeP4QfYTyO_6ZtT5;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+379;Missing (GT);;;Fläche;26;Fläche;27;07CR7fHeP4QfYTyO_6ZtAZ;07CR7fHeP4QfYTyO_6ZtD5;GroundTruth;FN;In RFEM-Analyse nicht identifiziert

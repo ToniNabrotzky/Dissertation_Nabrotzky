@@ -11,13 +11,23 @@ from openpyxl.utils import get_column_letter
 
 def main():
     ### Anschlussanalyse ausführen
-    analyze_saf_connections('SAF_Analyser_Test - Kopie', check_internal_nodes=True)
+    # analyze_saf_connections('SAF_Analyser_Test - Kopie', check_internal_nodes=True)
     # analyze_saf_connections('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')              # erledigt
     # analyze_saf_connections('23_24 LTWP-V__Dachtragwerk 0D Ausr Anschluss')               # erledigt
     # analyze_saf_connections('20220421MODEL REV01 0D Ausr Anschluss')                      # erledigt
     # analyze_saf_connections('202102183458-Model 0d Ausr Anschluss')                       # erledigt
     # analyze_saf_connections('Grethes-hus-bok-2 0d Ausr Anschluss')                        # erledigt
     # analyze_saf_connections('Vectorworks2016-IFC2x3-EQUA_IDA_ICE 0d Ausr Anschluss')      # erledigt
+    # analyze_saf_connections("Parametrisches Modell Index_00000")                          # erledigt
+    # analyze_saf_connections("Parametrisches Modell Index_00050")                          # erledigt
+    # analyze_saf_connections("Parametrisches Modell Index_00055")                          # erledigt
+    # analyze_saf_connections("Parametrisches Modell Index_00100")                          # erledigt
+    # analyze_saf_connections("Parametrisches Modell Index_00111")                          # erledigt
+    # analyze_saf_connections("Parametrisches Modell Index_00150")                          # erledigt
+    # analyze_saf_connections("Parametrisches Modell Index_00155")                          # erledigt
+    # analyze_saf_connections("Parametrisches Modell Index_00200")                          # erledigt
+    # analyze_saf_connections("Parametrisches Modell Index_00222")                          # erledigt
+    # analyze_saf_connections("Parametrisches Modell Index_00250")                          # erledigt
 
 
     ### GNN-Label-Generierung ausführen --> Erst nach annotierter Anschlussanalyse
@@ -25,8 +35,18 @@ def main():
     # generate_gnn_labels('21_22 L_TWP_Tragwerksmodell 0D Ausr Anschluss')                  # erledigt
     # generate_gnn_labels('23_24 LTWP-V__Dachtragwerk 0D Ausr Anschluss')                   # erledigt
     # generate_gnn_labels('20220421MODEL REV01 0D Ausr Anschluss')                          # erledigt
-    # generate_gnn_labels('202102183458-Model 0d Ausr Anschluss')                           # erledigt
-    # generate_gnn_labels('Grethes-hus-bok-2 0d Ausr Anschluss')                            # erledigt
+    # generate_gnn_labels('202102183458-Model 0D Ausr Anschluss')                           # erledigt
+    # generate_gnn_labels('Grethes-hus-bok-2 0D Ausr Anschluss')                            # erledigt
+    # generate_gnn_labels("Parametrisches Modell Index_00000 0D Ausr Anschluss")
+    # generate_gnn_labels("Parametrisches Modell Index_00050 0D Ausr Anschluss")            # erledigt
+    # generate_gnn_labels("Parametrisches Modell Index_00055 0D Ausr Anschluss")            # erledigt
+    # generate_gnn_labels("Parametrisches Modell Index_00100 0D Ausr Anschluss")            # erledigt
+    # generate_gnn_labels("Parametrisches Modell Index_00111 0D Ausr Anschluss")
+    # generate_gnn_labels("Parametrisches Modell Index_00150 0D Ausr Anschluss")
+    # generate_gnn_labels("Parametrisches Modell Index_00155 0D Ausr Anschluss")
+    # generate_gnn_labels("Parametrisches Modell Index_00200 0D Ausr Anschluss")
+    # generate_gnn_labels("Parametrisches Modell Index_00222 0D Ausr Anschluss")
+    # generate_gnn_labels("Parametrisches Modell Index_00250 0D Ausr Anschluss")            # erledigt
     return
 
 

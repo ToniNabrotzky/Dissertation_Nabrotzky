@@ -1,0 +1,40 @@
+[
+    {
+        "Graph_ID": 1,
+        "RFEM": {
+            "Nr": 1,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "37Hi8j$3b5cwoX$KEiBpUC",
+            "analytische_Laenge": 3.25002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                1
+            ],
+            "zugehoerige_Knoten": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "Graph_ID": 154,
+        "RFEM": {
+            "Nr": 118,
+            "Kategorie": "Flaeche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "39$D4p3RvDeBum6XvJnHqf",
+            "analytische_Laenge": 16.131799999999984,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1224,
+                1225,
+                1226,
+                1227
+            ],
+            "zugehoerige_Knoten": []
+        }
+    }
+]

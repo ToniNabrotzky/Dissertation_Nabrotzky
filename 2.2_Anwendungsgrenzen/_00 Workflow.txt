@@ -1,0 +1,40 @@
+__PHASE__0: Bereinigung der Datenbasis
+Schritt 0: IFC-Modelle vorbereiten
+Optionaler Schritt, der notwendig ist, um:
+	- störende Elemente zu entfernen,
+	- fehlende/fehlerhafte Load-Bearing-Attributierung zu korrigieren
+	- (falsche Schichtaufbauten neu zu definieren)
+Dafür wird passend zum Zweck IfcLite oder Blender (BonsaiBIM) eingesetzt.
+Korrigierte Modelle werden in die Datenbank gespeichert.
+
+
+__PHASE__1: Referenzwahrheit (GT) und RBC-Benchmark erstellen
+Schritt 1.1: GT-Labels erstellen
+IFC-Modell manuell betrachten und die statischen Lastflüsse identizifieren.
+	Bauteilattribuierung (Load-Bearing = True?) betrachten und überflüssige Elemente (wie z.B. Fundamente) wegen Übersichtlichkeit löschen.
+Die GUIDs der verbundenen Elemente A und B als GT-Labels.csv speichern.
+
+Schritt 1.2: Analysemodell erzeugen und RBC-Labels erstellen.
+IFC-Modell in RFEM importieren und auf Basis eines festen Regelsatzes die Kopplungen automatisiert erzeugen lassen.
+Anschließend Python-API starten, um RFEM-Graph.json zu erstellen und RFEM-Labels.csv zu speichern.
+	Für RFEM-Labels.csv wird GT-Labels.csv herangezogen, damit das exakte Label (TP, FP, FN, TN) ermittelt und eine Statistik zur Leistungsauswertung gebildet werden kann.
+	
+__PHASE__2: Daten-Preprocessing
+Schritt 2.1: Datenextraktion und semantische Filterung
+Python-Skript starten, um lastabtragende Elemente zu identifizieren
+
+Schritt 2.2: Knotendefinition und Merkmalsharmonisierung
+Pyhton-Skript verwenden, um semantische und geometrische Merkmale zu extrahieren.
+Diese Merkmale werden dann weiter verarbeitet, um sie für das GNN-Training zu optimieren.
+
+Schritt 2.3: Kanteninitialisierung und räumliches Encoding
+Pyhton-Skript verwenden, um Distanzberechnung zwischen IFC-Elementen durchzuführen.
+Distanz wird ebenfalls weiter verarbeitet (Rdaial Basis Function, RBF), um sie für das GNN-Training zu optimieren.
+Anschließend GT-Labels heranziehen, um Kanten zu beschriften.
+
+__PHASE__3: Synthese (Kombination verschiedener Teilergebnisse)
+Schritt 3.1: Graph speichern
+Die erstellten Informationen (Knoten mit -merkmalen, Kanten mit -merkmalen) werden als Graph.json gespeichert.
+	Zusätzlich wird RFEM-Labels herangezogen, um die Statistik der RBC-Genauigkeit als Dokumentation im Graph zu speichern.
+	Zusätzlich werden einige Preprocessing-Statistiken für das GNN-Training als Dokumentation im Graph gespeichert.
+

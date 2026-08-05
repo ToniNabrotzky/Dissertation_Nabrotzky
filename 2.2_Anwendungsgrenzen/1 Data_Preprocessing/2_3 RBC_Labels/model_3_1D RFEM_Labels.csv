@@ -1,0 +1,806 @@
+Verbindungs_Nr;Verbindungs_Art;Begrenzung_1_Nr;Begrenzung_2_Nr;Elem_A_Typ;Elem_A_Nr;Elem_B_Typ;Elem_B_Nr;IFC_GUID_A;IFC_GUID_B;Typus;Label;Kommentar
+223;Knotenkopplung;111;4;Stab;56;Stab;2;1pnHUanNPAueqWfsp27b94;1pnHUanNPAueqWfsp27b9G;Rule;FP;
+224;Knotenkopplung;112;497;Stab;56;Stab;111;1pnHUanNPAueqWfsp27b94;1pnHUanNPAueqWfsp27bCj;Rule;FP;
+225;Knotenkopplung;115;24;Stab;58;Stab;12;1pnHUanNPAueqWfsp27bAv;1pnHUanNPAueqWfsp27b9W;Rule;FP;
+226;Knotenkopplung;116;507;Stab;58;Stab;105;1pnHUanNPAueqWfsp27bAv;1pnHUanNPAueqWfsp27bCY;Rule;FP;
+227;Knotenkopplung;117;3;Stab;59;Stab;2;1pnHUanNPAueqWfsp27b95;1pnHUanNPAueqWfsp27b9G;Rule;FP;
+228;Knotenkopplung;118;496;Stab;59;Stab;110;1pnHUanNPAueqWfsp27b95;1pnHUanNPAueqWfsp27bCk;Rule;FP;
+229;Knotenkopplung;119;506;Stab;60;Stab;109;1pnHUanNPAueqWfsp27b93;1pnHUanNPAueqWfsp27bCi;Rule;FP;
+230;Knotenkopplung;120;39;Stab;60;Stab;20;1pnHUanNPAueqWfsp27b93;1pnHUanNPAueqWfsp27b8F;Rule;FP;
+231;Knotenkopplung;122;38;Stab;61;Stab;19;1pnHUanNPAueqWfsp27b90;1pnHUanNPAueqWfsp27b80;Rule;FP;
+232;Knotenkopplung;121;502;Stab;61;Stab;113;1pnHUanNPAueqWfsp27b90;1pnHUanNPAueqWfsp27bCf;Rule;FP;
+233;Knotenkopplung;124;9;Stab;62;Stab;5;1pnHUanNPAueqWfsp27b9F;1pnHUanNPAueqWfsp27b9P;Rule;FP;
+234;Knotenkopplung;125;505;Stab;63;Stab;117;1pnHUanNPAueqWfsp27b91;1pnHUanNPAueqWfsp27bCg;Rule;FP;
+235;Knotenkopplung;123;504;Stab;62;Stab;115;1pnHUanNPAueqWfsp27b9F;1pnHUanNPAueqWfsp27bCe;Rule;FP;
+236;Knotenkopplung;127;503;Stab;64;Stab;112;1pnHUanNPAueqWfsp27b92;1pnHUanNPAueqWfsp27bCh;Rule;FP;
+237;Knotenkopplung;126;37;Stab;63;Stab;19;1pnHUanNPAueqWfsp27b91;1pnHUanNPAueqWfsp27b80;Rule;FP;
+238;Knotenkopplung;129;31;Stab;65;Stab;16;1pnHUanNPAueqWfsp27b9A;1pnHUanNPAueqWfsp27b82;Rule;FP;
+239;Knotenkopplung;128;40;Stab;64;Stab;20;1pnHUanNPAueqWfsp27b92;1pnHUanNPAueqWfsp27b8F;Rule;FP;
+240;Knotenkopplung;131;27;Stab;66;Stab;14;1pnHUanNPAueqWfsp27b98;1pnHUanNPAueqWfsp27b81;Rule;FP;
+241;Knotenkopplung;130;509;Stab;65;Stab;116;1pnHUanNPAueqWfsp27b9A;1pnHUanNPAueqWfsp27bCp;Rule;FP;
+242;Knotenkopplung;132;513;Stab;66;Stab;118;1pnHUanNPAueqWfsp27b98;1pnHUanNPAueqWfsp27bCn;Rule;FP;
+243;Knotenkopplung;134;511;Stab;67;Stab;119;1pnHUanNPAueqWfsp27b99;1pnHUanNPAueqWfsp27bCo;Rule;FP;
+244;Knotenkopplung;133;32;Stab;67;Stab;16;1pnHUanNPAueqWfsp27b99;1pnHUanNPAueqWfsp27b82;Rule;FP;
+245;Knotenkopplung;135;501;Stab;68;Stab;114;1pnHUanNPAueqWfsp27b9E;1pnHUanNPAueqWfsp27bCt;Rule;FP;
+246;Knotenkopplung;136;10;Stab;68;Stab;5;1pnHUanNPAueqWfsp27b9E;1pnHUanNPAueqWfsp27b9P;Rule;FP;
+247;Knotenkopplung;137;36;Stab;69;Stab;18;1pnHUanNPAueqWfsp27b9M;1pnHUanNPAueqWfsp27b9g;Rule;FP;
+248;Knotenkopplung;138;515;Stab;69;Stab;120;1pnHUanNPAueqWfsp27b9M;1pnHUanNPAueqWfsp27bC$;Rule;FP;
+249;Knotenkopplung;139;28;Stab;70;Stab;14;1pnHUanNPAueqWfsp27b9N;1pnHUanNPAueqWfsp27b81;Rule;FP;
+250;Knotenkopplung;140;510;Stab;70;Stab;121;1pnHUanNPAueqWfsp27b9N;1pnHUanNPAueqWfsp27bCm;Rule;FP;
+251;Knotenkopplung;141;35;Stab;71;Stab;18;1pnHUanNPAueqWfsp27b9Z;1pnHUanNPAueqWfsp27b9g;Rule;FP;
+252;Knotenkopplung;142;514;Stab;71;Stab;124;1pnHUanNPAueqWfsp27b9Z;1pnHUanNPAueqWfsp27bBC;Rule;FP;
+253;Knotenkopplung;143;23;Stab;72;Stab;12;1pnHUanNPAueqWfsp27b9a;1pnHUanNPAueqWfsp27b9W;Rule;FP;
+254;Knotenkopplung;144;512;Stab;72;Stab;123;1pnHUanNPAueqWfsp27b9a;1pnHUanNPAueqWfsp27bBD;Rule;FP;
+255;Knotenkopplung;193;91;Stab;97;Stab;46;1pnHUanNPAueqWfsp27bCO;1pnHUanNPAueqWfsp27bBI;Rule;FP;
+256;Knotenkopplung;194;525;Stab;97;Stab;179;1pnHUanNPAueqWfsp27bCO;1pnHUanNPAueqWfsp27bE1;Rule;FP;
+257;Knotenkopplung;197;93;Stab;99;Stab;47;1pnHUanNPAueqWfsp27bCd;1pnHUanNPAueqWfsp27bBH;Rule;FP;
+258;Knotenkopplung;198;533;Stab;99;Stab;177;1pnHUanNPAueqWfsp27bCd;1pnHUanNPAueqWfsp27bE0;Rule;FP;
+259;Knotenkopplung;201;541;Stab;101;Stab;178;1pnHUanNPAueqWfsp27bCc;1pnHUanNPAueqWfsp27bEF;Rule;FP;
+260;Knotenkopplung;202;41;Stab;101;Stab;21;1pnHUanNPAueqWfsp27bCc;1pnHUanNPAueqWfsp27bCz;Rule;FP;
+261;Knotenkopplung;203;537;Stab;102;Stab;180;1pnHUanNPAueqWfsp27bCb;1pnHUanNPAueqWfsp27bEE;Rule;FP;
+262;Knotenkopplung;204;45;Stab;102;Stab;23;1pnHUanNPAueqWfsp27bCb;1pnHUanNPAueqWfsp27bCy;Rule;FP;
+263;Knotenkopplung;205;542;Stab;103;Stab;184;1pnHUanNPAueqWfsp27bCZ;1pnHUanNPAueqWfsp27bEC;Rule;FP;
+264;Knotenkopplung;206;44;Stab;103;Stab;22;1pnHUanNPAueqWfsp27bCZ;1pnHUanNPAueqWfsp27bCx;Rule;FP;
+265;Knotenkopplung;207;538;Stab;104;Stab;181;1pnHUanNPAueqWfsp27bCa;1pnHUanNPAueqWfsp27bED;Rule;FP;
+266;Knotenkopplung;208;46;Stab;104;Stab;23;1pnHUanNPAueqWfsp27bCa;1pnHUanNPAueqWfsp27bCy;Rule;FP;
+267;Knotenkopplung;209;82;Stab;105;Stab;41;1pnHUanNPAueqWfsp27bCY;1pnHUanNPAueqWfsp27bB9;Rule;FP;
+268;Knotenkopplung;210;524;Stab;105;Stab;182;1pnHUanNPAueqWfsp27bCY;1pnHUanNPAueqWfsp27bEB;Rule;FP;
+269;Knotenkopplung;211;539;Stab;106;Stab;138;1pnHUanNPAueqWfsp27bCW;1pnHUanNPAueqWfsp27bE9;Rule;FP;
+270;Knotenkopplung;212;54;Stab;106;Stab;27;1pnHUanNPAueqWfsp27bCW;1pnHUanNPAueqWfsp27bB6;Rule;FP;
+271;Knotenkopplung;213;536;Stab;107;Stab;140;1pnHUanNPAueqWfsp27bCl;1pnHUanNPAueqWfsp27bE8;Rule;FP;
+272;Knotenkopplung;214;57;Stab;107;Stab;29;1pnHUanNPAueqWfsp27bCl;1pnHUanNPAueqWfsp27bCu;Rule;FP;
+273;Knotenkopplung;215;96;Stab;108;Stab;48;1pnHUanNPAueqWfsp27bCX;1pnHUanNPAueqWfsp27bBG;Rule;FP;
+274;Knotenkopplung;216;535;Stab;108;Stab;183;1pnHUanNPAueqWfsp27bCX;1pnHUanNPAueqWfsp27bEA;Rule;FP;
+275;Knotenkopplung;217;522;Stab;109;Stab;186;1pnHUanNPAueqWfsp27bCi;1pnHUanNPAueqWfsp27bEL;Rule;FP;
+276;Knotenkopplung;218;113;Stab;109;Stab;57;1pnHUanNPAueqWfsp27bCi;1pnHUanNPAueqWfsp27bBe;Rule;FP;
+277;Knotenkopplung;219;58;Stab;110;Stab;29;1pnHUanNPAueqWfsp27bCk;1pnHUanNPAueqWfsp27bCu;Rule;FP;
+278;Knotenkopplung;220;523;Stab;110;Stab;139;1pnHUanNPAueqWfsp27bCk;1pnHUanNPAueqWfsp27bEN;Rule;FP;
+279;Knotenkopplung;221;50;Stab;111;Stab;25;1pnHUanNPAueqWfsp27bCj;1pnHUanNPAueqWfsp27bCv;Rule;FP;
+280;Knotenkopplung;222;540;Stab;111;Stab;185;1pnHUanNPAueqWfsp27bCj;1pnHUanNPAueqWfsp27bEM;Rule;FP;
+281;Knotenkopplung;223;531;Stab;112;Stab;187;1pnHUanNPAueqWfsp27bCh;1pnHUanNPAueqWfsp27bEK;Rule;FP;
+282;Knotenkopplung;224;114;Stab;112;Stab;57;1pnHUanNPAueqWfsp27bCh;1pnHUanNPAueqWfsp27bBe;Rule;FP;
+283;Knotenkopplung;225;530;Stab;113;Stab;188;1pnHUanNPAueqWfsp27bCf;1pnHUanNPAueqWfsp27bEI;Rule;FP;
+284;Knotenkopplung;226;104;Stab;113;Stab;52;1pnHUanNPAueqWfsp27bCf;1pnHUanNPAueqWfsp27bBf;Rule;FP;
+285;Knotenkopplung;227;532;Stab;114;Stab;190;1pnHUanNPAueqWfsp27bCt;1pnHUanNPAueqWfsp27bEG;Rule;FP;
+286;Knotenkopplung;228;64;Stab;114;Stab;32;1pnHUanNPAueqWfsp27bCt;1pnHUanNPAueqWfsp27bB2;Rule;FP;
+287;Knotenkopplung;229;520;Stab;115;Stab;192;1pnHUanNPAueqWfsp27bCe;1pnHUanNPAueqWfsp27bEH;Rule;FP;
+288;Knotenkopplung;230;63;Stab;115;Stab;32;1pnHUanNPAueqWfsp27bCe;1pnHUanNPAueqWfsp27bB2;Rule;FP;
+289;Knotenkopplung;231;105;Stab;116;Stab;53;1pnHUanNPAueqWfsp27bCp;1pnHUanNPAueqWfsp27bBh;Rule;FP;
+290;Knotenkopplung;232;526;Stab;116;Stab;193;1pnHUanNPAueqWfsp27bCp;1pnHUanNPAueqWfsp27bES;Rule;FP;
+291;Knotenkopplung;233;521;Stab;117;Stab;189;1pnHUanNPAueqWfsp27bCg;1pnHUanNPAueqWfsp27bEJ;Rule;FP;
+292;Knotenkopplung;234;103;Stab;117;Stab;52;1pnHUanNPAueqWfsp27bCg;1pnHUanNPAueqWfsp27bBf;Rule;FP;
+293;Knotenkopplung;235;107;Stab;118;Stab;54;1pnHUanNPAueqWfsp27bCn;1pnHUanNPAueqWfsp27bBg;Rule;FP;
+294;Knotenkopplung;236;518;Stab;118;Stab;194;1pnHUanNPAueqWfsp27bCn;1pnHUanNPAueqWfsp27bEQ;Rule;FP;
+295;Knotenkopplung;237;106;Stab;119;Stab;53;1pnHUanNPAueqWfsp27bCo;1pnHUanNPAueqWfsp27bBh;Rule;FP;
+296;Knotenkopplung;238;528;Stab;119;Stab;191;1pnHUanNPAueqWfsp27bCo;1pnHUanNPAueqWfsp27bER;Rule;FP;
+297;Knotenkopplung;239;90;Stab;120;Stab;45;1pnHUanNPAueqWfsp27bC$;1pnHUanNPAueqWfsp27bBJ;Rule;FP;
+298;Knotenkopplung;240;517;Stab;120;Stab;196;1pnHUanNPAueqWfsp27bC$;1pnHUanNPAueqWfsp27bEO;Rule;FP;
+299;Knotenkopplung;241;108;Stab;121;Stab;54;1pnHUanNPAueqWfsp27bCm;1pnHUanNPAueqWfsp27bBg;Rule;FP;
+300;Knotenkopplung;242;527;Stab;121;Stab;195;1pnHUanNPAueqWfsp27bCm;1pnHUanNPAueqWfsp27bEP;Rule;FP;
+301;Knotenkopplung;243;94;Stab;122;Stab;47;1pnHUanNPAueqWfsp27bBE;1pnHUanNPAueqWfsp27bBH;Rule;FP;
+302;Knotenkopplung;244;534;Stab;122;Stab;135;1pnHUanNPAueqWfsp27bBE;1pnHUanNPAueqWfsp27bEt;Rule;FP;
+303;Knotenkopplung;245;81;Stab;123;Stab;41;1pnHUanNPAueqWfsp27bBD;1pnHUanNPAueqWfsp27bB9;Rule;FP;
+304;Knotenkopplung;246;529;Stab;123;Stab;136;1pnHUanNPAueqWfsp27bBD;1pnHUanNPAueqWfsp27bEs;Rule;FP;
+305;Knotenkopplung;247;89;Stab;124;Stab;45;1pnHUanNPAueqWfsp27bBC;1pnHUanNPAueqWfsp27bBJ;Rule;FP;
+306;Knotenkopplung;248;519;Stab;124;Stab;137;1pnHUanNPAueqWfsp27bBC;1pnHUanNPAueqWfsp27bEr;Rule;FP;
+307;Knotenkopplung;269;568;Stab;135;Stab;220;1pnHUanNPAueqWfsp27bEt;0G2Fg3$En0ZAkMe$WoETkI;Rule;FP;
+308;Knotenkopplung;270;176;Stab;135;Stab;88;1pnHUanNPAueqWfsp27bEt;1pnHUanNPAueqWfsp27bEw;Rule;FP;
+309;Knotenkopplung;271;564;Stab;136;Stab;221;1pnHUanNPAueqWfsp27bEs;0G2Fg3$En0ZAkMe$WoETI1;Rule;FP;
+310;Knotenkopplung;272;159;Stab;136;Stab;80;1pnHUanNPAueqWfsp27bEs;1pnHUanNPAueqWfsp27bEo;Rule;FP;
+311;Knotenkopplung;273;566;Stab;137;Stab;222;1pnHUanNPAueqWfsp27bEr;0G2Fg3$En0ZAkMe$WoETH0;Rule;FP;
+312;Knotenkopplung;274;147;Stab;137;Stab;74;1pnHUanNPAueqWfsp27bEr;1pnHUanNPAueqWfsp27bEy;Rule;FP;
+313;Knotenkopplung;275;551;Stab;138;Stab;205;1pnHUanNPAueqWfsp27bE9;3PcPWHAnHClxTvsIqbWKwp;Rule;FP;
+314;Knotenkopplung;276;251;Stab;138;Stab;126;1pnHUanNPAueqWfsp27bE9;1pnHUanNPAueqWfsp27bEW;Rule;FP;
+315;Knotenkopplung;277;549;Stab;139;Stab;208;1pnHUanNPAueqWfsp27bEN;3PcPWHAnHClxTvsIqbWK$5;Rule;FP;
+316;Knotenkopplung;278;250;Stab;139;Stab;125;1pnHUanNPAueqWfsp27bEN;1pnHUanNPAueqWfsp27bEX;Rule;FP;
+317;Knotenkopplung;279;553;Stab;140;Stab;206;1pnHUanNPAueqWfsp27bE8;3PcPWHAnHClxTvsIqbWKyi;Rule;FP;
+318;Knotenkopplung;280;249;Stab;140;Stab;125;1pnHUanNPAueqWfsp27bE8;1pnHUanNPAueqWfsp27bEX;Rule;FP;
+319;Knotenkopplung;353;543;Stab;177;Stab;199;1pnHUanNPAueqWfsp27bE0;3PcPWHAnHClxTvsIqbWKct;Rule;FP;
+320;Knotenkopplung;354;175;Stab;177;Stab;88;1pnHUanNPAueqWfsp27bE0;1pnHUanNPAueqWfsp27bEw;Rule;FP;
+321;Knotenkopplung;355;544;Stab;178;Stab;198;1pnHUanNPAueqWfsp27bEF;3PcPWHAnHClxTvsIqbWKhy;Rule;FP;
+322;Knotenkopplung;356;258;Stab;178;Stab;129;1pnHUanNPAueqWfsp27bEF;1pnHUanNPAueqWfsp27bEd;Rule;FP;
+323;Knotenkopplung;357;560;Stab;179;Stab;197;1pnHUanNPAueqWfsp27bE1;3PcPWHAnHClxTvsIqbWKW_;Rule;FP;
+324;Knotenkopplung;358;181;Stab;179;Stab;91;1pnHUanNPAueqWfsp27bE1;1pnHUanNPAueqWfsp27bEx;Rule;FP;
+325;Knotenkopplung;359;545;Stab;180;Stab;201;1pnHUanNPAueqWfsp27bEE;3PcPWHAnHClxTvsIqbWKjf;Rule;FP;
+326;Knotenkopplung;360;261;Stab;180;Stab;131;1pnHUanNPAueqWfsp27bEE;1pnHUanNPAueqWfsp27bEb;Rule;FP;
+327;Knotenkopplung;361;262;Stab;181;Stab;131;1pnHUanNPAueqWfsp27bED;1pnHUanNPAueqWfsp27bEb;Rule;FP;
+328;Knotenkopplung;362;548;Stab;181;Stab;200;1pnHUanNPAueqWfsp27bED;3PcPWHAnHClxTvsIqbWKlQ;Rule;FP;
+329;Knotenkopplung;363;559;Stab;182;Stab;203;1pnHUanNPAueqWfsp27bEB;3PcPWHAnHClxTvsIqbWKrY;Rule;FP;
+330;Knotenkopplung;364;160;Stab;182;Stab;80;1pnHUanNPAueqWfsp27bEB;1pnHUanNPAueqWfsp27bEo;Rule;FP;
+331;Knotenkopplung;365;550;Stab;183;Stab;204;1pnHUanNPAueqWfsp27bEA;3PcPWHAnHClxTvsIqbWKuY;Rule;FP;
+332;Knotenkopplung;366;178;Stab;183;Stab;89;1pnHUanNPAueqWfsp27bEA;1pnHUanNPAueqWfsp27bEv;Rule;FP;
+333;Knotenkopplung;367;264;Stab;184;Stab;132;1pnHUanNPAueqWfsp27bEC;1pnHUanNPAueqWfsp27bEa;Rule;FP;
+334;Knotenkopplung;368;547;Stab;184;Stab;202;1pnHUanNPAueqWfsp27bEC;3PcPWHAnHClxTvsIqbWKpd;Rule;FP;
+335;Knotenkopplung;369;546;Stab;185;Stab;209;1pnHUanNPAueqWfsp27bEM;3PcPWHAnHClxTvsIqbWN0o;Rule;FP;
+336;Knotenkopplung;370;266;Stab;185;Stab;133;1pnHUanNPAueqWfsp27bEM;1pnHUanNPAueqWfsp27bEY;Rule;FP;
+337;Knotenkopplung;371;191;Stab;186;Stab;96;1pnHUanNPAueqWfsp27bEL;1pnHUanNPAueqWfsp27bDH;Rule;FP;
+338;Knotenkopplung;372;558;Stab;186;Stab;207;1pnHUanNPAueqWfsp27bEL;3PcPWHAnHClxTvsIqbWN39;Rule;FP;
+339;Knotenkopplung;373;192;Stab;187;Stab;96;1pnHUanNPAueqWfsp27bEK;1pnHUanNPAueqWfsp27bDH;Rule;FP;
+340;Knotenkopplung;374;552;Stab;187;Stab;210;1pnHUanNPAueqWfsp27bEK;3PcPWHAnHClxTvsIqbWN4e;Rule;FP;
+341;Knotenkopplung;375;196;Stab;188;Stab;98;1pnHUanNPAueqWfsp27bEI;1pnHUanNPAueqWfsp27bDI;Rule;FP;
+342;Knotenkopplung;376;555;Stab;188;Stab;213;1pnHUanNPAueqWfsp27bEI;3PcPWHAnHClxTvsIqbWN9M;Rule;FP;
+343;Knotenkopplung;377;195;Stab;189;Stab;98;1pnHUanNPAueqWfsp27bEJ;1pnHUanNPAueqWfsp27bDI;Rule;FP;
+344;Knotenkopplung;378;557;Stab;189;Stab;211;1pnHUanNPAueqWfsp27bEJ;3PcPWHAnHClxTvsIqbWN7T;Rule;FP;
+345;Knotenkopplung;379;174;Stab;190;Stab;87;1pnHUanNPAueqWfsp27bEG;1pnHUanNPAueqWfsp27bEh;Rule;FP;
+346;Knotenkopplung;380;554;Stab;190;Stab;215;1pnHUanNPAueqWfsp27bEG;3PcPWHAnHClxTvsIqbWNDm;Rule;FP;
+347;Knotenkopplung;381;563;Stab;191;Stab;214;1pnHUanNPAueqWfsp27bER;3PcPWHAnHClxTvsIqbWMz6;Rule;FP;
+348;Knotenkopplung;382;188;Stab;191;Stab;94;1pnHUanNPAueqWfsp27bER;1pnHUanNPAueqWfsp27bDK;Rule;FP;
+349;Knotenkopplung;383;173;Stab;192;Stab;87;1pnHUanNPAueqWfsp27bEH;1pnHUanNPAueqWfsp27bEh;Rule;FP;
+350;Knotenkopplung;384;556;Stab;192;Stab;212;1pnHUanNPAueqWfsp27bEH;3PcPWHAnHClxTvsIqbWN83;Rule;FP;
+351;Knotenkopplung;385;561;Stab;193;Stab;217;1pnHUanNPAueqWfsp27bES;3PcPWHAnHClxTvsIqbWMwx;Rule;FP;
+352;Knotenkopplung;386;187;Stab;193;Stab;94;1pnHUanNPAueqWfsp27bES;1pnHUanNPAueqWfsp27bDK;Rule;FP;
+353;Knotenkopplung;387;565;Stab;194;Stab;216;1pnHUanNPAueqWfsp27bEQ;3PcPWHAnHClxTvsIqbWM$l;Rule;FP;
+354;Knotenkopplung;388;199;Stab;194;Stab;100;1pnHUanNPAueqWfsp27bEQ;1pnHUanNPAueqWfsp27bDJ;Rule;FP;
+355;Knotenkopplung;389;562;Stab;195;Stab;218;1pnHUanNPAueqWfsp27bEP;3PcPWHAnHClxTvsIqbW91U;Rule;FP;
+356;Knotenkopplung;390;200;Stab;195;Stab;100;1pnHUanNPAueqWfsp27bEP;1pnHUanNPAueqWfsp27bDJ;Rule;FP;
+357;Knotenkopplung;391;567;Stab;196;Stab;219;1pnHUanNPAueqWfsp27bEO;3PcPWHAnHClxTvsIqbW93t;Rule;FP;
+358;Knotenkopplung;392;148;Stab;196;Stab;74;1pnHUanNPAueqWfsp27bEO;1pnHUanNPAueqWfsp27bEy;Rule;FP;
+359;Knotenkopplung;398;329;Stab;197;Stab;165;3PcPWHAnHClxTvsIqbWKW_;0G2Fg3$En0ZAkMe$WoETFU;Rule;FP;
+360;Knotenkopplung;400;282;Stab;198;Stab;141;3PcPWHAnHClxTvsIqbWKhy;0G2Fg3$En0ZAkMe$WoESTa;Rule;FP;
+361;Knotenkopplung;402;331;Stab;199;Stab;166;3PcPWHAnHClxTvsIqbWKct;0G2Fg3$En0ZAkMe$WoETDy;Rule;FP;
+362;Knotenkopplung;403;292;Stab;200;Stab;146;3PcPWHAnHClxTvsIqbWKlQ;0G2Fg3$En0ZAkMe$WoES3s;Rule;FP;
+363;Knotenkopplung;406;291;Stab;201;Stab;146;3PcPWHAnHClxTvsIqbWKjf;0G2Fg3$En0ZAkMe$WoES3s;Rule;FP;
+364;Knotenkopplung;407;288;Stab;202;Stab;144;3PcPWHAnHClxTvsIqbWKpd;0G2Fg3$En0ZAkMe$WoES0$;Rule;FP;
+365;Knotenkopplung;410;318;Stab;203;Stab;159;3PcPWHAnHClxTvsIqbWKrY;0G2Fg3$En0ZAkMe$WoETTY;Rule;FP;
+366;Knotenkopplung;412;336;Stab;204;Stab;168;3PcPWHAnHClxTvsIqbWKuY;0G2Fg3$En0ZAkMe$WoEUoi;Rule;FP;
+367;Knotenkopplung;414;294;Stab;205;Stab;147;3PcPWHAnHClxTvsIqbWKwp;0G2Fg3$En0ZAkMe$WoES4r;Rule;FP;
+368;Knotenkopplung;416;297;Stab;206;Stab;149;3PcPWHAnHClxTvsIqbWKyi;0G2Fg3$En0ZAkMe$WoES7Z;Rule;FP;
+369;Knotenkopplung;417;351;Stab;207;Stab;176;3PcPWHAnHClxTvsIqbWN39;1eUxMLrF1C5BtgpYmswn0q;Rule;FP;
+370;Knotenkopplung;420;298;Stab;208;Stab;149;3PcPWHAnHClxTvsIqbWK$5;0G2Fg3$En0ZAkMe$WoES7Z;Rule;FP;
+371;Knotenkopplung;422;290;Stab;209;Stab;145;3PcPWHAnHClxTvsIqbWN0o;0G2Fg3$En0ZAkMe$WoES6_;Rule;FP;
+372;Knotenkopplung;423;352;Stab;210;Stab;176;3PcPWHAnHClxTvsIqbWN4e;1eUxMLrF1C5BtgpYmswn0q;Rule;FP;
+373;Knotenkopplung;425;349;Stab;211;Stab;175;3PcPWHAnHClxTvsIqbWN7T;1eUxMLrF1C5BtgpYmswn0I;Rule;FP;
+374;Knotenkopplung;427;305;Stab;212;Stab;153;3PcPWHAnHClxTvsIqbWN83;0G2Fg3$En0ZAkMe$WoESFp;Rule;FP;
+375;Knotenkopplung;429;350;Stab;213;Stab;175;3PcPWHAnHClxTvsIqbWN9M;1eUxMLrF1C5BtgpYmswn0I;Rule;FP;
+376;Knotenkopplung;432;348;Stab;214;Stab;174;3PcPWHAnHClxTvsIqbWMz6;1eUxMLrF1C5BtgpYmswnE2;Rule;FP;
+377;Knotenkopplung;433;306;Stab;215;Stab;153;3PcPWHAnHClxTvsIqbWNDm;0G2Fg3$En0ZAkMe$WoESFp;Rule;FP;
+378;Knotenkopplung;436;343;Stab;216;Stab;172;3PcPWHAnHClxTvsIqbWM$l;1eUxMLrF1C5BtgpYmswnF6;Rule;FP;
+379;Knotenkopplung;438;347;Stab;217;Stab;174;3PcPWHAnHClxTvsIqbWMwx;1eUxMLrF1C5BtgpYmswnE2;Rule;FP;
+380;Knotenkopplung;440;344;Stab;218;Stab;172;3PcPWHAnHClxTvsIqbW91U;1eUxMLrF1C5BtgpYmswnF6;Rule;FP;
+381;Knotenkopplung;442;334;Stab;219;Stab;167;3PcPWHAnHClxTvsIqbW93t;0G2Fg3$En0ZAkMe$WoETAH;Rule;FP;
+382;Knotenkopplung;444;332;Stab;220;Stab;166;0G2Fg3$En0ZAkMe$WoETkI;0G2Fg3$En0ZAkMe$WoETDy;Rule;FP;
+383;Knotenkopplung;446;317;Stab;221;Stab;159;0G2Fg3$En0ZAkMe$WoETI1;0G2Fg3$En0ZAkMe$WoETTY;Rule;FP;
+384;Knotenkopplung;448;333;Stab;222;Stab;167;0G2Fg3$En0ZAkMe$WoETH0;0G2Fg3$En0ZAkMe$WoETAH;Rule;FP;
+385;Knotenkopplung;1;475;Stab;1;Stab;64;1pnHUanNPAueqWfsp27b9S;1pnHUanNPAueqWfsp27b92;Rule;FP;
+386;Knotenkopplung;2;476;Stab;1;Stab;56;1pnHUanNPAueqWfsp27b9S;1pnHUanNPAueqWfsp27b94;Rule;FP;
+387;Knotenkopplung;3;477;Stab;2;Stab;59;1pnHUanNPAueqWfsp27b9G;1pnHUanNPAueqWfsp27b95;Rule;FP;
+388;Knotenkopplung;4;476;Stab;2;Stab;56;1pnHUanNPAueqWfsp27b9G;1pnHUanNPAueqWfsp27b94;Rule;FP;
+389;Knotenkopplung;5;478;Stab;3;Stab;62;1pnHUanNPAueqWfsp27b9O;1pnHUanNPAueqWfsp27b9F;Rule;FP;
+390;Knotenkopplung;6;479;Stab;3;Stab;63;1pnHUanNPAueqWfsp27b9O;1pnHUanNPAueqWfsp27b91;Rule;FP;
+391;Knotenkopplung;7;480;Stab;4;Stab;68;1pnHUanNPAueqWfsp27b9Q;1pnHUanNPAueqWfsp27b9E;Rule;FP;
+392;Knotenkopplung;8;481;Stab;4;Stab;61;1pnHUanNPAueqWfsp27b9Q;1pnHUanNPAueqWfsp27b90;Rule;FP;
+393;Knotenkopplung;9;478;Stab;5;Stab;62;1pnHUanNPAueqWfsp27b9P;1pnHUanNPAueqWfsp27b9F;Rule;FP;
+394;Knotenkopplung;10;480;Stab;5;Stab;68;1pnHUanNPAueqWfsp27b9P;1pnHUanNPAueqWfsp27b9E;Rule;FP;
+395;Knotenkopplung;11;479;Stab;6;Stab;63;1pnHUanNPAueqWfsp27b9d;1pnHUanNPAueqWfsp27b91;Rule;FP;
+396;Knotenkopplung;12;482;Stab;6;Stab;60;1pnHUanNPAueqWfsp27b9d;1pnHUanNPAueqWfsp27b93;Rule;FP;
+397;Knotenkopplung;13;481;Stab;7;Stab;61;1pnHUanNPAueqWfsp27b9R;1pnHUanNPAueqWfsp27b90;Rule;FP;
+398;Knotenkopplung;14;475;Stab;7;Stab;64;1pnHUanNPAueqWfsp27b9R;1pnHUanNPAueqWfsp27b92;Rule;FP;
+399;Knotenkopplung;15;482;Stab;8;Stab;60;1pnHUanNPAueqWfsp27b9c;1pnHUanNPAueqWfsp27b93;Rule;FP;
+400;Knotenkopplung;16;477;Stab;8;Stab;59;1pnHUanNPAueqWfsp27b9c;1pnHUanNPAueqWfsp27b95;Rule;FP;
+401;Knotenkopplung;17;483;Stab;9;Stab;65;1pnHUanNPAueqWfsp27b9X;1pnHUanNPAueqWfsp27b9A;Rule;FP;
+402;Knotenkopplung;18;484;Stab;9;Stab;58;1pnHUanNPAueqWfsp27b9X;1pnHUanNPAueqWfsp27bAv;Rule;FP;
+403;Knotenkopplung;19;485;Stab;10;Stab;70;1pnHUanNPAueqWfsp27b9k;1pnHUanNPAueqWfsp27b9N;Rule;FP;
+404;Knotenkopplung;20;486;Stab;10;Stab;67;1pnHUanNPAueqWfsp27b9k;1pnHUanNPAueqWfsp27b99;Rule;FP;
+405;Knotenkopplung;21;487;Stab;11;Stab;66;1pnHUanNPAueqWfsp27b9j;1pnHUanNPAueqWfsp27b98;Rule;FP;
+406;Knotenkopplung;22;483;Stab;11;Stab;65;1pnHUanNPAueqWfsp27b9j;1pnHUanNPAueqWfsp27b9A;Rule;FP;
+407;Knotenkopplung;23;143;Stab;12;Stab;72;1pnHUanNPAueqWfsp27b9W;1pnHUanNPAueqWfsp27b9a;Rule;FP;
+408;Knotenkopplung;24;484;Stab;12;Stab;58;1pnHUanNPAueqWfsp27b9W;1pnHUanNPAueqWfsp27bAv;Rule;FP;
+409;Knotenkopplung;25;486;Stab;13;Stab;67;1pnHUanNPAueqWfsp27b9l;1pnHUanNPAueqWfsp27b99;Rule;FP;
+410;Knotenkopplung;26;488;Stab;13;Stab;72;1pnHUanNPAueqWfsp27b9l;1pnHUanNPAueqWfsp27b9a;Rule;FP;
+411;Knotenkopplung;27;487;Stab;14;Stab;66;1pnHUanNPAueqWfsp27b81;1pnHUanNPAueqWfsp27b98;Rule;FP;
+412;Knotenkopplung;28;485;Stab;14;Stab;70;1pnHUanNPAueqWfsp27b81;1pnHUanNPAueqWfsp27b9N;Rule;FP;
+413;Knotenkopplung;29;489;Stab;15;Stab;69;1pnHUanNPAueqWfsp27b9h;1pnHUanNPAueqWfsp27b9M;Rule;FP;
+414;Knotenkopplung;30;487;Stab;15;Stab;66;1pnHUanNPAueqWfsp27b9h;1pnHUanNPAueqWfsp27b98;Rule;FP;
+415;Knotenkopplung;31;483;Stab;16;Stab;65;1pnHUanNPAueqWfsp27b82;1pnHUanNPAueqWfsp27b9A;Rule;FP;
+416;Knotenkopplung;32;486;Stab;16;Stab;67;1pnHUanNPAueqWfsp27b82;1pnHUanNPAueqWfsp27b99;Rule;FP;
+417;Knotenkopplung;33;490;Stab;17;Stab;71;1pnHUanNPAueqWfsp27b9i;1pnHUanNPAueqWfsp27b9Z;Rule;FP;
+418;Knotenkopplung;34;485;Stab;17;Stab;70;1pnHUanNPAueqWfsp27b9i;1pnHUanNPAueqWfsp27b9N;Rule;FP;
+419;Knotenkopplung;35;490;Stab;18;Stab;71;1pnHUanNPAueqWfsp27b9g;1pnHUanNPAueqWfsp27b9Z;Rule;FP;
+420;Knotenkopplung;36;489;Stab;18;Stab;69;1pnHUanNPAueqWfsp27b9g;1pnHUanNPAueqWfsp27b9M;Rule;FP;
+421;Knotenkopplung;37;479;Stab;19;Stab;63;1pnHUanNPAueqWfsp27b80;1pnHUanNPAueqWfsp27b91;Rule;FP;
+422;Knotenkopplung;38;481;Stab;19;Stab;61;1pnHUanNPAueqWfsp27b80;1pnHUanNPAueqWfsp27b90;Rule;FP;
+423;Knotenkopplung;39;482;Stab;20;Stab;60;1pnHUanNPAueqWfsp27b8F;1pnHUanNPAueqWfsp27b93;Rule;FP;
+424;Knotenkopplung;40;475;Stab;20;Stab;64;1pnHUanNPAueqWfsp27b8F;1pnHUanNPAueqWfsp27b92;Rule;FP;
+425;Knotenkopplung;41;491;Stab;21;Stab;101;1pnHUanNPAueqWfsp27bCz;1pnHUanNPAueqWfsp27bCc;Rule;FP;
+426;Knotenkopplung;42;492;Stab;21;Stab;102;1pnHUanNPAueqWfsp27bCz;1pnHUanNPAueqWfsp27bCb;Rule;FP;
+427;Knotenkopplung;43;493;Stab;22;Stab;104;1pnHUanNPAueqWfsp27bCx;1pnHUanNPAueqWfsp27bCa;Rule;FP;
+428;Knotenkopplung;44;494;Stab;22;Stab;103;1pnHUanNPAueqWfsp27bCx;1pnHUanNPAueqWfsp27bCZ;Rule;FP;
+429;Knotenkopplung;45;492;Stab;23;Stab;102;1pnHUanNPAueqWfsp27bCy;1pnHUanNPAueqWfsp27bCb;Rule;FP;
+430;Knotenkopplung;46;493;Stab;23;Stab;104;1pnHUanNPAueqWfsp27bCy;1pnHUanNPAueqWfsp27bCa;Rule;FP;
+431;Knotenkopplung;47;495;Stab;24;Stab;99;1pnHUanNPAueqWfsp27bC_;1pnHUanNPAueqWfsp27bCd;Rule;FP;
+432;Knotenkopplung;48;491;Stab;24;Stab;101;1pnHUanNPAueqWfsp27bC_;1pnHUanNPAueqWfsp27bCc;Rule;FP;
+433;Knotenkopplung;49;496;Stab;25;Stab;110;1pnHUanNPAueqWfsp27bCv;1pnHUanNPAueqWfsp27bCk;Rule;FP;
+434;Knotenkopplung;50;497;Stab;25;Stab;111;1pnHUanNPAueqWfsp27bCv;1pnHUanNPAueqWfsp27bCj;Rule;FP;
+435;Knotenkopplung;51;498;Stab;26;Stab;106;1pnHUanNPAueqWfsp27bB7;1pnHUanNPAueqWfsp27bCW;Rule;FP;
+436;Knotenkopplung;52;499;Stab;26;Stab;107;1pnHUanNPAueqWfsp27bB7;1pnHUanNPAueqWfsp27bCl;Rule;FP;
+437;Knotenkopplung;53;500;Stab;27;Stab;108;1pnHUanNPAueqWfsp27bB6;1pnHUanNPAueqWfsp27bCX;Rule;FP;
+438;Knotenkopplung;54;498;Stab;27;Stab;106;1pnHUanNPAueqWfsp27bB6;1pnHUanNPAueqWfsp27bCW;Rule;FP;
+439;Knotenkopplung;55;497;Stab;28;Stab;111;1pnHUanNPAueqWfsp27bCw;1pnHUanNPAueqWfsp27bCj;Rule;FP;
+440;Knotenkopplung;56;494;Stab;28;Stab;103;1pnHUanNPAueqWfsp27bCw;1pnHUanNPAueqWfsp27bCZ;Rule;FP;
+441;Knotenkopplung;57;499;Stab;29;Stab;107;1pnHUanNPAueqWfsp27bCu;1pnHUanNPAueqWfsp27bCl;Rule;FP;
+442;Knotenkopplung;58;496;Stab;29;Stab;110;1pnHUanNPAueqWfsp27bCu;1pnHUanNPAueqWfsp27bCk;Rule;FP;
+443;Knotenkopplung;59;501;Stab;30;Stab;114;1pnHUanNPAueqWfsp27bB3;1pnHUanNPAueqWfsp27bCt;Rule;FP;
+444;Knotenkopplung;60;502;Stab;30;Stab;113;1pnHUanNPAueqWfsp27bB3;1pnHUanNPAueqWfsp27bCf;Rule;FP;
+445;Knotenkopplung;61;503;Stab;31;Stab;112;1pnHUanNPAueqWfsp27bB5;1pnHUanNPAueqWfsp27bCh;Rule;FP;
+446;Knotenkopplung;62;497;Stab;31;Stab;111;1pnHUanNPAueqWfsp27bB5;1pnHUanNPAueqWfsp27bCj;Rule;FP;
+447;Knotenkopplung;63;504;Stab;32;Stab;115;1pnHUanNPAueqWfsp27bB2;1pnHUanNPAueqWfsp27bCe;Rule;FP;
+448;Knotenkopplung;64;501;Stab;32;Stab;114;1pnHUanNPAueqWfsp27bB2;1pnHUanNPAueqWfsp27bCt;Rule;FP;
+449;Knotenkopplung;65;502;Stab;33;Stab;113;1pnHUanNPAueqWfsp27bB4;1pnHUanNPAueqWfsp27bCf;Rule;FP;
+450;Knotenkopplung;66;503;Stab;33;Stab;112;1pnHUanNPAueqWfsp27bB4;1pnHUanNPAueqWfsp27bCh;Rule;FP;
+451;Knotenkopplung;67;505;Stab;34;Stab;117;1pnHUanNPAueqWfsp27bB0;1pnHUanNPAueqWfsp27bCg;Rule;FP;
+452;Knotenkopplung;68;506;Stab;34;Stab;109;1pnHUanNPAueqWfsp27bB0;1pnHUanNPAueqWfsp27bCi;Rule;FP;
+453;Knotenkopplung;69;504;Stab;35;Stab;115;1pnHUanNPAueqWfsp27bB1;1pnHUanNPAueqWfsp27bCe;Rule;FP;
+454;Knotenkopplung;70;505;Stab;35;Stab;117;1pnHUanNPAueqWfsp27bB1;1pnHUanNPAueqWfsp27bCg;Rule;FP;
+455;Knotenkopplung;71;506;Stab;36;Stab;109;1pnHUanNPAueqWfsp27bBF;1pnHUanNPAueqWfsp27bCi;Rule;FP;
+456;Knotenkopplung;72;496;Stab;36;Stab;110;1pnHUanNPAueqWfsp27bBF;1pnHUanNPAueqWfsp27bCk;Rule;FP;
+457;Knotenkopplung;73;507;Stab;37;Stab;105;1pnHUanNPAueqWfsp27bBB;1pnHUanNPAueqWfsp27bCY;Rule;FP;
+458;Knotenkopplung;74;508;Stab;37;Stab;97;1pnHUanNPAueqWfsp27bBB;1pnHUanNPAueqWfsp27bCO;Rule;FP;
+459;Knotenkopplung;75;509;Stab;38;Stab;116;1pnHUanNPAueqWfsp27bBA;1pnHUanNPAueqWfsp27bCp;Rule;FP;
+460;Knotenkopplung;76;507;Stab;38;Stab;105;1pnHUanNPAueqWfsp27bBA;1pnHUanNPAueqWfsp27bCY;Rule;FP;
+461;Knotenkopplung;77;510;Stab;39;Stab;121;1pnHUanNPAueqWfsp27bBN;1pnHUanNPAueqWfsp27bCm;Rule;FP;
+462;Knotenkopplung;78;511;Stab;39;Stab;119;1pnHUanNPAueqWfsp27bBN;1pnHUanNPAueqWfsp27bCo;Rule;FP;
+463;Knotenkopplung;79;511;Stab;40;Stab;119;1pnHUanNPAueqWfsp27bB8;1pnHUanNPAueqWfsp27bCo;Rule;FP;
+464;Knotenkopplung;80;512;Stab;40;Stab;123;1pnHUanNPAueqWfsp27bB8;1pnHUanNPAueqWfsp27bBD;Rule;FP;
+465;Knotenkopplung;81;245;Stab;41;Stab;123;1pnHUanNPAueqWfsp27bB9;1pnHUanNPAueqWfsp27bBD;Rule;FP;
+466;Knotenkopplung;82;507;Stab;41;Stab;105;1pnHUanNPAueqWfsp27bB9;1pnHUanNPAueqWfsp27bCY;Rule;FP;
+467;Knotenkopplung;83;513;Stab;42;Stab;118;1pnHUanNPAueqWfsp27bBM;1pnHUanNPAueqWfsp27bCn;Rule;FP;
+468;Knotenkopplung;84;509;Stab;42;Stab;116;1pnHUanNPAueqWfsp27bBM;1pnHUanNPAueqWfsp27bCp;Rule;FP;
+469;Knotenkopplung;85;514;Stab;43;Stab;124;1pnHUanNPAueqWfsp27bBL;1pnHUanNPAueqWfsp27bBC;Rule;FP;
+470;Knotenkopplung;86;510;Stab;43;Stab;121;1pnHUanNPAueqWfsp27bBL;1pnHUanNPAueqWfsp27bCm;Rule;FP;
+471;Knotenkopplung;87;515;Stab;44;Stab;120;1pnHUanNPAueqWfsp27bBK;1pnHUanNPAueqWfsp27bC$;Rule;FP;
+472;Knotenkopplung;88;513;Stab;44;Stab;118;1pnHUanNPAueqWfsp27bBK;1pnHUanNPAueqWfsp27bCn;Rule;FP;
+473;Knotenkopplung;89;514;Stab;45;Stab;124;1pnHUanNPAueqWfsp27bBJ;1pnHUanNPAueqWfsp27bBC;Rule;FP;
+474;Knotenkopplung;90;515;Stab;45;Stab;120;1pnHUanNPAueqWfsp27bBJ;1pnHUanNPAueqWfsp27bC$;Rule;FP;
+475;Knotenkopplung;91;508;Stab;46;Stab;97;1pnHUanNPAueqWfsp27bBI;1pnHUanNPAueqWfsp27bCO;Rule;FP;
+476;Knotenkopplung;92;516;Stab;46;Stab;122;1pnHUanNPAueqWfsp27bBI;1pnHUanNPAueqWfsp27bBE;Rule;FP;
+477;Knotenkopplung;93;495;Stab;47;Stab;99;1pnHUanNPAueqWfsp27bBH;1pnHUanNPAueqWfsp27bCd;Rule;FP;
+478;Knotenkopplung;94;516;Stab;47;Stab;122;1pnHUanNPAueqWfsp27bBH;1pnHUanNPAueqWfsp27bBE;Rule;FP;
+479;Knotenkopplung;95;512;Stab;48;Stab;123;1pnHUanNPAueqWfsp27bBG;1pnHUanNPAueqWfsp27bBD;Rule;FP;
+480;Knotenkopplung;96;500;Stab;48;Stab;108;1pnHUanNPAueqWfsp27bBG;1pnHUanNPAueqWfsp27bCX;Rule;FP;
+481;Knotenkopplung;97;499;Stab;49;Stab;107;1pnHUanNPAueqWfsp27bBj;1pnHUanNPAueqWfsp27bCl;Rule;FP;
+482;Knotenkopplung;98;492;Stab;49;Stab;102;1pnHUanNPAueqWfsp27bBj;1pnHUanNPAueqWfsp27bCb;Rule;FP;
+483;Knotenkopplung;99;512;Stab;50;Stab;123;1pnHUanNPAueqWfsp27bBl;1pnHUanNPAueqWfsp27bBD;Rule;FP;
+484;Knotenkopplung;100;516;Stab;50;Stab;122;1pnHUanNPAueqWfsp27bBl;1pnHUanNPAueqWfsp27bBE;Rule;FP;
+485;Knotenkopplung;101;500;Stab;51;Stab;108;1pnHUanNPAueqWfsp27bBk;1pnHUanNPAueqWfsp27bCX;Rule;FP;
+486;Knotenkopplung;102;495;Stab;51;Stab;99;1pnHUanNPAueqWfsp27bBk;1pnHUanNPAueqWfsp27bCd;Rule;FP;
+487;Knotenkopplung;103;505;Stab;52;Stab;117;1pnHUanNPAueqWfsp27bBf;1pnHUanNPAueqWfsp27bCg;Rule;FP;
+488;Knotenkopplung;104;502;Stab;52;Stab;113;1pnHUanNPAueqWfsp27bBf;1pnHUanNPAueqWfsp27bCf;Rule;FP;
+489;Knotenkopplung;105;509;Stab;53;Stab;116;1pnHUanNPAueqWfsp27bBh;1pnHUanNPAueqWfsp27bCp;Rule;FP;
+490;Knotenkopplung;106;511;Stab;53;Stab;119;1pnHUanNPAueqWfsp27bBh;1pnHUanNPAueqWfsp27bCo;Rule;FP;
+491;Knotenkopplung;107;513;Stab;54;Stab;118;1pnHUanNPAueqWfsp27bBg;1pnHUanNPAueqWfsp27bCn;Rule;FP;
+492;Knotenkopplung;108;510;Stab;54;Stab;121;1pnHUanNPAueqWfsp27bBg;1pnHUanNPAueqWfsp27bCm;Rule;FP;
+493;Knotenkopplung;109;496;Stab;55;Stab;110;1pnHUanNPAueqWfsp27bBi;1pnHUanNPAueqWfsp27bCk;Rule;FP;
+494;Knotenkopplung;110;493;Stab;55;Stab;104;1pnHUanNPAueqWfsp27bBi;1pnHUanNPAueqWfsp27bCa;Rule;FP;
+495;Knotenkopplung;113;506;Stab;57;Stab;109;1pnHUanNPAueqWfsp27bBe;1pnHUanNPAueqWfsp27bCi;Rule;FP;
+496;Knotenkopplung;114;503;Stab;57;Stab;112;1pnHUanNPAueqWfsp27bBe;1pnHUanNPAueqWfsp27bCh;Rule;FP;
+497;Knotenkopplung;145;517;Stab;73;Stab;196;1pnHUanNPAueqWfsp27bEz;1pnHUanNPAueqWfsp27bEO;Rule;FP;
+498;Knotenkopplung;146;518;Stab;73;Stab;194;1pnHUanNPAueqWfsp27bEz;1pnHUanNPAueqWfsp27bEQ;Rule;FP;
+499;Knotenkopplung;147;519;Stab;74;Stab;137;1pnHUanNPAueqWfsp27bEy;1pnHUanNPAueqWfsp27bEr;Rule;FP;
+500;Knotenkopplung;148;517;Stab;74;Stab;196;1pnHUanNPAueqWfsp27bEy;1pnHUanNPAueqWfsp27bEO;Rule;FP;
+501;Knotenkopplung;149;520;Stab;75;Stab;192;1pnHUanNPAueqWfsp27bEg;1pnHUanNPAueqWfsp27bEH;Rule;FP;
+502;Knotenkopplung;150;521;Stab;75;Stab;189;1pnHUanNPAueqWfsp27bEg;1pnHUanNPAueqWfsp27bEJ;Rule;FP;
+503;Knotenkopplung;151;521;Stab;76;Stab;189;1pnHUanNPAueqWfsp27bEf;1pnHUanNPAueqWfsp27bEJ;Rule;FP;
+504;Knotenkopplung;152;522;Stab;76;Stab;186;1pnHUanNPAueqWfsp27bEf;1pnHUanNPAueqWfsp27bEL;Rule;FP;
+505;Knotenkopplung;153;522;Stab;77;Stab;186;1pnHUanNPAueqWfsp27bEe;1pnHUanNPAueqWfsp27bEL;Rule;FP;
+506;Knotenkopplung;154;523;Stab;77;Stab;139;1pnHUanNPAueqWfsp27bEe;1pnHUanNPAueqWfsp27bEN;Rule;FP;
+507;Knotenkopplung;155;524;Stab;78;Stab;182;1pnHUanNPAueqWfsp27bEq;1pnHUanNPAueqWfsp27bEB;Rule;FP;
+508;Knotenkopplung;156;525;Stab;78;Stab;179;1pnHUanNPAueqWfsp27bEq;1pnHUanNPAueqWfsp27bE1;Rule;FP;
+509;Knotenkopplung;157;526;Stab;79;Stab;193;1pnHUanNPAueqWfsp27bEp;1pnHUanNPAueqWfsp27bES;Rule;FP;
+510;Knotenkopplung;158;524;Stab;79;Stab;182;1pnHUanNPAueqWfsp27bEp;1pnHUanNPAueqWfsp27bEB;Rule;FP;
+511;Knotenkopplung;159;272;Stab;80;Stab;136;1pnHUanNPAueqWfsp27bEo;1pnHUanNPAueqWfsp27bEs;Rule;FP;
+512;Knotenkopplung;160;524;Stab;80;Stab;182;1pnHUanNPAueqWfsp27bEo;1pnHUanNPAueqWfsp27bEB;Rule;FP;
+513;Knotenkopplung;161;527;Stab;81;Stab;195;1pnHUanNPAueqWfsp27bEm;1pnHUanNPAueqWfsp27bEP;Rule;FP;
+514;Knotenkopplung;162;528;Stab;81;Stab;191;1pnHUanNPAueqWfsp27bEm;1pnHUanNPAueqWfsp27bER;Rule;FP;
+515;Knotenkopplung;163;528;Stab;82;Stab;191;1pnHUanNPAueqWfsp27bEn;1pnHUanNPAueqWfsp27bER;Rule;FP;
+516;Knotenkopplung;164;529;Stab;82;Stab;136;1pnHUanNPAueqWfsp27bEn;1pnHUanNPAueqWfsp27bEs;Rule;FP;
+517;Knotenkopplung;165;519;Stab;83;Stab;137;1pnHUanNPAueqWfsp27bE_;1pnHUanNPAueqWfsp27bEr;Rule;FP;
+518;Knotenkopplung;166;527;Stab;83;Stab;195;1pnHUanNPAueqWfsp27bE_;1pnHUanNPAueqWfsp27bEP;Rule;FP;
+519;Knotenkopplung;167;518;Stab;84;Stab;194;1pnHUanNPAueqWfsp27bE$;1pnHUanNPAueqWfsp27bEQ;Rule;FP;
+520;Knotenkopplung;168;526;Stab;84;Stab;193;1pnHUanNPAueqWfsp27bE$;1pnHUanNPAueqWfsp27bES;Rule;FP;
+521;Knotenkopplung;169;530;Stab;85;Stab;188;1pnHUanNPAueqWfsp27bEj;1pnHUanNPAueqWfsp27bEI;Rule;FP;
+522;Knotenkopplung;170;531;Stab;85;Stab;187;1pnHUanNPAueqWfsp27bEj;1pnHUanNPAueqWfsp27bEK;Rule;FP;
+523;Knotenkopplung;171;532;Stab;86;Stab;190;1pnHUanNPAueqWfsp27bEi;1pnHUanNPAueqWfsp27bEG;Rule;FP;
+524;Knotenkopplung;172;530;Stab;86;Stab;188;1pnHUanNPAueqWfsp27bEi;1pnHUanNPAueqWfsp27bEI;Rule;FP;
+525;Knotenkopplung;173;520;Stab;87;Stab;192;1pnHUanNPAueqWfsp27bEh;1pnHUanNPAueqWfsp27bEH;Rule;FP;
+526;Knotenkopplung;174;532;Stab;87;Stab;190;1pnHUanNPAueqWfsp27bEh;1pnHUanNPAueqWfsp27bEG;Rule;FP;
+527;Knotenkopplung;175;533;Stab;88;Stab;177;1pnHUanNPAueqWfsp27bEw;1pnHUanNPAueqWfsp27bE0;Rule;FP;
+528;Knotenkopplung;176;534;Stab;88;Stab;135;1pnHUanNPAueqWfsp27bEw;1pnHUanNPAueqWfsp27bEt;Rule;FP;
+529;Knotenkopplung;177;529;Stab;89;Stab;136;1pnHUanNPAueqWfsp27bEv;1pnHUanNPAueqWfsp27bEs;Rule;FP;
+530;Knotenkopplung;178;535;Stab;89;Stab;183;1pnHUanNPAueqWfsp27bEv;1pnHUanNPAueqWfsp27bEA;Rule;FP;
+531;Knotenkopplung;179;529;Stab;90;Stab;136;1pnHUanNPAueqWfsp27bD8;1pnHUanNPAueqWfsp27bEs;Rule;FP;
+532;Knotenkopplung;180;534;Stab;90;Stab;135;1pnHUanNPAueqWfsp27bD8;1pnHUanNPAueqWfsp27bEt;Rule;FP;
+533;Knotenkopplung;181;525;Stab;91;Stab;179;1pnHUanNPAueqWfsp27bEx;1pnHUanNPAueqWfsp27bE1;Rule;FP;
+534;Knotenkopplung;182;534;Stab;91;Stab;135;1pnHUanNPAueqWfsp27bEx;1pnHUanNPAueqWfsp27bEt;Rule;FP;
+535;Knotenkopplung;183;536;Stab;92;Stab;140;1pnHUanNPAueqWfsp27bDM;1pnHUanNPAueqWfsp27bE8;Rule;FP;
+536;Knotenkopplung;184;537;Stab;92;Stab;180;1pnHUanNPAueqWfsp27bDM;1pnHUanNPAueqWfsp27bEE;Rule;FP;
+537;Knotenkopplung;185;535;Stab;93;Stab;183;1pnHUanNPAueqWfsp27bDN;1pnHUanNPAueqWfsp27bEA;Rule;FP;
+538;Knotenkopplung;186;533;Stab;93;Stab;177;1pnHUanNPAueqWfsp27bDN;1pnHUanNPAueqWfsp27bE0;Rule;FP;
+539;Knotenkopplung;187;526;Stab;94;Stab;193;1pnHUanNPAueqWfsp27bDK;1pnHUanNPAueqWfsp27bES;Rule;FP;
+540;Knotenkopplung;188;528;Stab;94;Stab;191;1pnHUanNPAueqWfsp27bDK;1pnHUanNPAueqWfsp27bER;Rule;FP;
+541;Knotenkopplung;189;523;Stab;95;Stab;139;1pnHUanNPAueqWfsp27bDL;1pnHUanNPAueqWfsp27bEN;Rule;FP;
+542;Knotenkopplung;190;538;Stab;95;Stab;181;1pnHUanNPAueqWfsp27bDL;1pnHUanNPAueqWfsp27bED;Rule;FP;
+543;Knotenkopplung;191;522;Stab;96;Stab;186;1pnHUanNPAueqWfsp27bDH;1pnHUanNPAueqWfsp27bEL;Rule;FP;
+544;Knotenkopplung;192;531;Stab;96;Stab;187;1pnHUanNPAueqWfsp27bDH;1pnHUanNPAueqWfsp27bEK;Rule;FP;
+545;Knotenkopplung;195;521;Stab;98;Stab;189;1pnHUanNPAueqWfsp27bDI;1pnHUanNPAueqWfsp27bEJ;Rule;FP;
+546;Knotenkopplung;196;530;Stab;98;Stab;188;1pnHUanNPAueqWfsp27bDI;1pnHUanNPAueqWfsp27bEI;Rule;FP;
+547;Knotenkopplung;199;518;Stab;100;Stab;194;1pnHUanNPAueqWfsp27bDJ;1pnHUanNPAueqWfsp27bEQ;Rule;FP;
+548;Knotenkopplung;200;527;Stab;100;Stab;195;1pnHUanNPAueqWfsp27bDJ;1pnHUanNPAueqWfsp27bEP;Rule;FP;
+549;Knotenkopplung;249;536;Stab;125;Stab;140;1pnHUanNPAueqWfsp27bEX;1pnHUanNPAueqWfsp27bE8;Rule;FP;
+550;Knotenkopplung;250;523;Stab;125;Stab;139;1pnHUanNPAueqWfsp27bEX;1pnHUanNPAueqWfsp27bEN;Rule;FP;
+551;Knotenkopplung;251;539;Stab;126;Stab;138;1pnHUanNPAueqWfsp27bEW;1pnHUanNPAueqWfsp27bE9;Rule;FP;
+552;Knotenkopplung;252;536;Stab;126;Stab;140;1pnHUanNPAueqWfsp27bEW;1pnHUanNPAueqWfsp27bE8;Rule;FP;
+553;Knotenkopplung;253;531;Stab;127;Stab;187;1pnHUanNPAueqWfsp27bEk;1pnHUanNPAueqWfsp27bEK;Rule;FP;
+554;Knotenkopplung;254;540;Stab;127;Stab;185;1pnHUanNPAueqWfsp27bEk;1pnHUanNPAueqWfsp27bEM;Rule;FP;
+555;Knotenkopplung;255;535;Stab;128;Stab;183;1pnHUanNPAueqWfsp27bEl;1pnHUanNPAueqWfsp27bEA;Rule;FP;
+556;Knotenkopplung;256;539;Stab;128;Stab;138;1pnHUanNPAueqWfsp27bEl;1pnHUanNPAueqWfsp27bE9;Rule;FP;
+557;Knotenkopplung;257;533;Stab;129;Stab;177;1pnHUanNPAueqWfsp27bEd;1pnHUanNPAueqWfsp27bE0;Rule;FP;
+558;Knotenkopplung;258;541;Stab;129;Stab;178;1pnHUanNPAueqWfsp27bEd;1pnHUanNPAueqWfsp27bEF;Rule;FP;
+559;Knotenkopplung;259;541;Stab;130;Stab;178;1pnHUanNPAueqWfsp27bEc;1pnHUanNPAueqWfsp27bEF;Rule;FP;
+560;Knotenkopplung;260;537;Stab;130;Stab;180;1pnHUanNPAueqWfsp27bEc;1pnHUanNPAueqWfsp27bEE;Rule;FP;
+561;Knotenkopplung;261;537;Stab;131;Stab;180;1pnHUanNPAueqWfsp27bEb;1pnHUanNPAueqWfsp27bEE;Rule;FP;
+562;Knotenkopplung;262;538;Stab;131;Stab;181;1pnHUanNPAueqWfsp27bEb;1pnHUanNPAueqWfsp27bED;Rule;FP;
+563;Knotenkopplung;263;538;Stab;132;Stab;181;1pnHUanNPAueqWfsp27bEa;1pnHUanNPAueqWfsp27bED;Rule;FP;
+564;Knotenkopplung;264;542;Stab;132;Stab;184;1pnHUanNPAueqWfsp27bEa;1pnHUanNPAueqWfsp27bEC;Rule;FP;
+565;Knotenkopplung;265;523;Stab;133;Stab;139;1pnHUanNPAueqWfsp27bEY;1pnHUanNPAueqWfsp27bEN;Rule;FP;
+566;Knotenkopplung;266;540;Stab;133;Stab;185;1pnHUanNPAueqWfsp27bEY;1pnHUanNPAueqWfsp27bEM;Rule;FP;
+567;Knotenkopplung;267;540;Stab;134;Stab;185;1pnHUanNPAueqWfsp27bEZ;1pnHUanNPAueqWfsp27bEM;Rule;FP;
+568;Knotenkopplung;268;542;Stab;134;Stab;184;1pnHUanNPAueqWfsp27bEZ;1pnHUanNPAueqWfsp27bEC;Rule;FP;
+569;Knotenkopplung;281;543;Stab;141;Stab;199;0G2Fg3$En0ZAkMe$WoESTa;3PcPWHAnHClxTvsIqbWKct;Rule;FP;
+570;Knotenkopplung;282;544;Stab;141;Stab;198;0G2Fg3$En0ZAkMe$WoESTa;3PcPWHAnHClxTvsIqbWKhy;Rule;FP;
+571;Knotenkopplung;283;544;Stab;142;Stab;198;0G2Fg3$En0ZAkMe$WoESTV;3PcPWHAnHClxTvsIqbWKhy;Rule;FP;
+572;Knotenkopplung;284;545;Stab;142;Stab;201;0G2Fg3$En0ZAkMe$WoESTV;3PcPWHAnHClxTvsIqbWKjf;Rule;FP;
+573;Knotenkopplung;285;546;Stab;143;Stab;209;0G2Fg3$En0ZAkMe$WoES1C;3PcPWHAnHClxTvsIqbWN0o;Rule;FP;
+574;Knotenkopplung;286;547;Stab;143;Stab;202;0G2Fg3$En0ZAkMe$WoES1C;3PcPWHAnHClxTvsIqbWKpd;Rule;FP;
+575;Knotenkopplung;287;548;Stab;144;Stab;200;0G2Fg3$En0ZAkMe$WoES0$;3PcPWHAnHClxTvsIqbWKlQ;Rule;FP;
+576;Knotenkopplung;288;547;Stab;144;Stab;202;0G2Fg3$En0ZAkMe$WoES0$;3PcPWHAnHClxTvsIqbWKpd;Rule;FP;
+577;Knotenkopplung;289;549;Stab;145;Stab;208;0G2Fg3$En0ZAkMe$WoES6_;3PcPWHAnHClxTvsIqbWK$5;Rule;FP;
+578;Knotenkopplung;290;546;Stab;145;Stab;209;0G2Fg3$En0ZAkMe$WoES6_;3PcPWHAnHClxTvsIqbWN0o;Rule;FP;
+579;Knotenkopplung;291;545;Stab;146;Stab;201;0G2Fg3$En0ZAkMe$WoES3s;3PcPWHAnHClxTvsIqbWKjf;Rule;FP;
+580;Knotenkopplung;292;548;Stab;146;Stab;200;0G2Fg3$En0ZAkMe$WoES3s;3PcPWHAnHClxTvsIqbWKlQ;Rule;FP;
+581;Knotenkopplung;293;550;Stab;147;Stab;204;0G2Fg3$En0ZAkMe$WoES4r;3PcPWHAnHClxTvsIqbWKuY;Rule;FP;
+582;Knotenkopplung;294;551;Stab;147;Stab;205;0G2Fg3$En0ZAkMe$WoES4r;3PcPWHAnHClxTvsIqbWKwp;Rule;FP;
+583;Knotenkopplung;295;552;Stab;148;Stab;210;0G2Fg3$En0ZAkMe$WoES96;3PcPWHAnHClxTvsIqbWN4e;Rule;FP;
+584;Knotenkopplung;296;546;Stab;148;Stab;209;0G2Fg3$En0ZAkMe$WoES96;3PcPWHAnHClxTvsIqbWN0o;Rule;FP;
+585;Knotenkopplung;297;553;Stab;149;Stab;206;0G2Fg3$En0ZAkMe$WoES7Z;3PcPWHAnHClxTvsIqbWKyi;Rule;FP;
+586;Knotenkopplung;298;549;Stab;149;Stab;208;0G2Fg3$En0ZAkMe$WoES7Z;3PcPWHAnHClxTvsIqbWK$5;Rule;FP;
+587;Knotenkopplung;299;551;Stab;150;Stab;205;0G2Fg3$En0ZAkMe$WoES7P;3PcPWHAnHClxTvsIqbWKwp;Rule;FP;
+588;Knotenkopplung;300;553;Stab;150;Stab;206;0G2Fg3$En0ZAkMe$WoES7P;3PcPWHAnHClxTvsIqbWKyi;Rule;FP;
+589;Knotenkopplung;301;554;Stab;151;Stab;215;0G2Fg3$En0ZAkMe$WoESFh;3PcPWHAnHClxTvsIqbWNDm;Rule;FP;
+590;Knotenkopplung;302;555;Stab;151;Stab;213;0G2Fg3$En0ZAkMe$WoESFh;3PcPWHAnHClxTvsIqbWN9M;Rule;FP;
+591;Knotenkopplung;303;555;Stab;152;Stab;213;0G2Fg3$En0ZAkMe$WoESEr;3PcPWHAnHClxTvsIqbWN9M;Rule;FP;
+592;Knotenkopplung;304;552;Stab;152;Stab;210;0G2Fg3$En0ZAkMe$WoESEr;3PcPWHAnHClxTvsIqbWN4e;Rule;FP;
+593;Knotenkopplung;305;556;Stab;153;Stab;212;0G2Fg3$En0ZAkMe$WoESFp;3PcPWHAnHClxTvsIqbWN83;Rule;FP;
+594;Knotenkopplung;306;554;Stab;153;Stab;215;0G2Fg3$En0ZAkMe$WoESFp;3PcPWHAnHClxTvsIqbWNDm;Rule;FP;
+595;Knotenkopplung;307;556;Stab;154;Stab;212;0G2Fg3$En0ZAkMe$WoESCg;3PcPWHAnHClxTvsIqbWN83;Rule;FP;
+596;Knotenkopplung;308;557;Stab;154;Stab;211;0G2Fg3$En0ZAkMe$WoESCg;3PcPWHAnHClxTvsIqbWN7T;Rule;FP;
+597;Knotenkopplung;309;557;Stab;155;Stab;211;0G2Fg3$En0ZAkMe$WoESDz;3PcPWHAnHClxTvsIqbWN7T;Rule;FP;
+598;Knotenkopplung;310;558;Stab;155;Stab;207;0G2Fg3$En0ZAkMe$WoESDz;3PcPWHAnHClxTvsIqbWN39;Rule;FP;
+599;Knotenkopplung;311;558;Stab;156;Stab;207;0G2Fg3$En0ZAkMe$WoEToB;3PcPWHAnHClxTvsIqbWN39;Rule;FP;
+600;Knotenkopplung;312;549;Stab;156;Stab;208;0G2Fg3$En0ZAkMe$WoEToB;3PcPWHAnHClxTvsIqbWK$5;Rule;FP;
+601;Knotenkopplung;313;559;Stab;157;Stab;203;0G2Fg3$En0ZAkMe$WoETPm;3PcPWHAnHClxTvsIqbWKrY;Rule;FP;
+602;Knotenkopplung;314;560;Stab;157;Stab;197;0G2Fg3$En0ZAkMe$WoETPm;3PcPWHAnHClxTvsIqbWKW_;Rule;FP;
+603;Knotenkopplung;315;561;Stab;158;Stab;217;0G2Fg3$En0ZAkMe$WoETUK;3PcPWHAnHClxTvsIqbWMwx;Rule;FP;
+604;Knotenkopplung;316;559;Stab;158;Stab;203;0G2Fg3$En0ZAkMe$WoETUK;3PcPWHAnHClxTvsIqbWKrY;Rule;FP;
+605;Knotenkopplung;317;446;Stab;159;Stab;221;0G2Fg3$En0ZAkMe$WoETTY;0G2Fg3$En0ZAkMe$WoETI1;Rule;FP;
+606;Knotenkopplung;318;559;Stab;159;Stab;203;0G2Fg3$En0ZAkMe$WoETTY;3PcPWHAnHClxTvsIqbWKrY;Rule;FP;
+607;Knotenkopplung;319;562;Stab;160;Stab;218;0G2Fg3$En0ZAkMe$WoET7Y;3PcPWHAnHClxTvsIqbW91U;Rule;FP;
+608;Knotenkopplung;320;563;Stab;160;Stab;214;0G2Fg3$En0ZAkMe$WoET7Y;3PcPWHAnHClxTvsIqbWMz6;Rule;FP;
+609;Knotenkopplung;321;563;Stab;161;Stab;214;0G2Fg3$En0ZAkMe$WoET6u;3PcPWHAnHClxTvsIqbWMz6;Rule;FP;
+610;Knotenkopplung;322;564;Stab;161;Stab;221;0G2Fg3$En0ZAkMe$WoET6u;0G2Fg3$En0ZAkMe$WoETI1;Rule;FP;
+611;Knotenkopplung;323;565;Stab;162;Stab;216;0G2Fg3$En0ZAkMe$WoET4f;3PcPWHAnHClxTvsIqbWM$l;Rule;FP;
+612;Knotenkopplung;324;561;Stab;162;Stab;217;0G2Fg3$En0ZAkMe$WoET4f;3PcPWHAnHClxTvsIqbWMwx;Rule;FP;
+613;Knotenkopplung;325;566;Stab;163;Stab;222;0G2Fg3$En0ZAkMe$WoET5x;0G2Fg3$En0ZAkMe$WoETH0;Rule;FP;
+614;Knotenkopplung;326;562;Stab;163;Stab;218;0G2Fg3$En0ZAkMe$WoET5x;3PcPWHAnHClxTvsIqbW91U;Rule;FP;
+615;Knotenkopplung;327;567;Stab;164;Stab;219;0G2Fg3$En0ZAkMe$WoETAf;3PcPWHAnHClxTvsIqbW93t;Rule;FP;
+616;Knotenkopplung;328;565;Stab;164;Stab;216;0G2Fg3$En0ZAkMe$WoETAf;3PcPWHAnHClxTvsIqbWM$l;Rule;FP;
+617;Knotenkopplung;329;560;Stab;165;Stab;197;0G2Fg3$En0ZAkMe$WoETFU;3PcPWHAnHClxTvsIqbWKW_;Rule;FP;
+618;Knotenkopplung;330;568;Stab;165;Stab;220;0G2Fg3$En0ZAkMe$WoETFU;0G2Fg3$En0ZAkMe$WoETkI;Rule;FP;
+619;Knotenkopplung;331;543;Stab;166;Stab;199;0G2Fg3$En0ZAkMe$WoETDy;3PcPWHAnHClxTvsIqbWKct;Rule;FP;
+620;Knotenkopplung;332;568;Stab;166;Stab;220;0G2Fg3$En0ZAkMe$WoETDy;0G2Fg3$En0ZAkMe$WoETkI;Rule;FP;
+621;Knotenkopplung;333;566;Stab;167;Stab;222;0G2Fg3$En0ZAkMe$WoETAH;0G2Fg3$En0ZAkMe$WoETH0;Rule;FP;
+622;Knotenkopplung;334;567;Stab;167;Stab;219;0G2Fg3$En0ZAkMe$WoETAH;3PcPWHAnHClxTvsIqbW93t;Rule;FP;
+623;Knotenkopplung;335;564;Stab;168;Stab;221;0G2Fg3$En0ZAkMe$WoEUoi;0G2Fg3$En0ZAkMe$WoETI1;Rule;FP;
+624;Knotenkopplung;336;550;Stab;168;Stab;204;0G2Fg3$En0ZAkMe$WoEUoi;3PcPWHAnHClxTvsIqbWKuY;Rule;FP;
+625;Knotenkopplung;337;550;Stab;169;Stab;204;1eUxMLrF1C5BtgpYmswnCB;3PcPWHAnHClxTvsIqbWKuY;Rule;FP;
+626;Knotenkopplung;338;543;Stab;169;Stab;199;1eUxMLrF1C5BtgpYmswnCB;3PcPWHAnHClxTvsIqbWKct;Rule;FP;
+627;Knotenkopplung;339;553;Stab;170;Stab;206;1eUxMLrF1C5BtgpYmswnCW;3PcPWHAnHClxTvsIqbWKyi;Rule;FP;
+628;Knotenkopplung;340;545;Stab;170;Stab;201;1eUxMLrF1C5BtgpYmswnCW;3PcPWHAnHClxTvsIqbWKjf;Rule;FP;
+629;Knotenkopplung;341;564;Stab;171;Stab;221;1eUxMLrF1C5BtgpYmswnBF;0G2Fg3$En0ZAkMe$WoETI1;Rule;FP;
+630;Knotenkopplung;342;568;Stab;171;Stab;220;1eUxMLrF1C5BtgpYmswnBF;0G2Fg3$En0ZAkMe$WoETkI;Rule;FP;
+631;Knotenkopplung;343;565;Stab;172;Stab;216;1eUxMLrF1C5BtgpYmswnF6;3PcPWHAnHClxTvsIqbWM$l;Rule;FP;
+632;Knotenkopplung;344;562;Stab;172;Stab;218;1eUxMLrF1C5BtgpYmswnF6;3PcPWHAnHClxTvsIqbW91U;Rule;FP;
+633;Knotenkopplung;345;549;Stab;173;Stab;208;1eUxMLrF1C5BtgpYmswnDU;3PcPWHAnHClxTvsIqbWK$5;Rule;FP;
+634;Knotenkopplung;346;548;Stab;173;Stab;200;1eUxMLrF1C5BtgpYmswnDU;3PcPWHAnHClxTvsIqbWKlQ;Rule;FP;
+635;Knotenkopplung;347;561;Stab;174;Stab;217;1eUxMLrF1C5BtgpYmswnE2;3PcPWHAnHClxTvsIqbWMwx;Rule;FP;
+636;Knotenkopplung;348;563;Stab;174;Stab;214;1eUxMLrF1C5BtgpYmswnE2;3PcPWHAnHClxTvsIqbWMz6;Rule;FP;
+637;Knotenkopplung;349;557;Stab;175;Stab;211;1eUxMLrF1C5BtgpYmswn0I;3PcPWHAnHClxTvsIqbWN7T;Rule;FP;
+638;Knotenkopplung;350;555;Stab;175;Stab;213;1eUxMLrF1C5BtgpYmswn0I;3PcPWHAnHClxTvsIqbWN9M;Rule;FP;
+639;Knotenkopplung;351;558;Stab;176;Stab;207;1eUxMLrF1C5BtgpYmswn0q;3PcPWHAnHClxTvsIqbWN39;Rule;FP;
+640;Knotenkopplung;352;552;Stab;176;Stab;210;1eUxMLrF1C5BtgpYmswn0q;3PcPWHAnHClxTvsIqbWN4e;Rule;FP;
+1;Geometriekopplung;112;221;Stab;56;Stab;111;1pnHUanNPAueqWfsp27b94;1pnHUanNPAueqWfsp27bCj;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+2;Geometriekopplung;116;209;Stab;58;Stab;105;1pnHUanNPAueqWfsp27bAv;1pnHUanNPAueqWfsp27bCY;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+3;Geometriekopplung;118;219;Stab;59;Stab;110;1pnHUanNPAueqWfsp27b95;1pnHUanNPAueqWfsp27bCk;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+4;Geometriekopplung;119;218;Stab;60;Stab;109;1pnHUanNPAueqWfsp27b93;1pnHUanNPAueqWfsp27bCi;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+5;Geometriekopplung;121;226;Stab;61;Stab;113;1pnHUanNPAueqWfsp27b90;1pnHUanNPAueqWfsp27bCf;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+6;Geometriekopplung;123;230;Stab;62;Stab;115;1pnHUanNPAueqWfsp27b9F;1pnHUanNPAueqWfsp27bCe;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+7;Geometriekopplung;125;234;Stab;63;Stab;117;1pnHUanNPAueqWfsp27b91;1pnHUanNPAueqWfsp27bCg;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+8;Geometriekopplung;127;224;Stab;64;Stab;112;1pnHUanNPAueqWfsp27b92;1pnHUanNPAueqWfsp27bCh;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+9;Geometriekopplung;130;231;Stab;65;Stab;116;1pnHUanNPAueqWfsp27b9A;1pnHUanNPAueqWfsp27bCp;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+10;Geometriekopplung;132;235;Stab;66;Stab;118;1pnHUanNPAueqWfsp27b98;1pnHUanNPAueqWfsp27bCn;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+11;Geometriekopplung;134;237;Stab;67;Stab;119;1pnHUanNPAueqWfsp27b99;1pnHUanNPAueqWfsp27bCo;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+12;Geometriekopplung;135;228;Stab;68;Stab;114;1pnHUanNPAueqWfsp27b9E;1pnHUanNPAueqWfsp27bCt;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+13;Geometriekopplung;138;239;Stab;69;Stab;120;1pnHUanNPAueqWfsp27b9M;1pnHUanNPAueqWfsp27bC$;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+14;Geometriekopplung;140;241;Stab;70;Stab;121;1pnHUanNPAueqWfsp27b9N;1pnHUanNPAueqWfsp27bCm;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+15;Geometriekopplung;142;247;Stab;71;Stab;124;1pnHUanNPAueqWfsp27b9Z;1pnHUanNPAueqWfsp27bBC;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+16;Geometriekopplung;144;245;Stab;72;Stab;123;1pnHUanNPAueqWfsp27b9a;1pnHUanNPAueqWfsp27bBD;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+17;Geometriekopplung;194;358;Stab;97;Stab;179;1pnHUanNPAueqWfsp27bCO;1pnHUanNPAueqWfsp27bE1;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+18;Geometriekopplung;198;354;Stab;99;Stab;177;1pnHUanNPAueqWfsp27bCd;1pnHUanNPAueqWfsp27bE0;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+19;Geometriekopplung;201;356;Stab;101;Stab;178;1pnHUanNPAueqWfsp27bCc;1pnHUanNPAueqWfsp27bEF;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+20;Geometriekopplung;203;360;Stab;102;Stab;180;1pnHUanNPAueqWfsp27bCb;1pnHUanNPAueqWfsp27bEE;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+21;Geometriekopplung;205;367;Stab;103;Stab;184;1pnHUanNPAueqWfsp27bCZ;1pnHUanNPAueqWfsp27bEC;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+22;Geometriekopplung;207;361;Stab;104;Stab;181;1pnHUanNPAueqWfsp27bCa;1pnHUanNPAueqWfsp27bED;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+23;Geometriekopplung;210;364;Stab;105;Stab;182;1pnHUanNPAueqWfsp27bCY;1pnHUanNPAueqWfsp27bEB;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+24;Geometriekopplung;211;276;Stab;106;Stab;138;1pnHUanNPAueqWfsp27bCW;1pnHUanNPAueqWfsp27bE9;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+25;Geometriekopplung;213;280;Stab;107;Stab;140;1pnHUanNPAueqWfsp27bCl;1pnHUanNPAueqWfsp27bE8;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+26;Geometriekopplung;216;366;Stab;108;Stab;183;1pnHUanNPAueqWfsp27bCX;1pnHUanNPAueqWfsp27bEA;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+27;Geometriekopplung;217;371;Stab;109;Stab;186;1pnHUanNPAueqWfsp27bCi;1pnHUanNPAueqWfsp27bEL;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+28;Geometriekopplung;220;278;Stab;110;Stab;139;1pnHUanNPAueqWfsp27bCk;1pnHUanNPAueqWfsp27bEN;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+29;Geometriekopplung;222;370;Stab;111;Stab;185;1pnHUanNPAueqWfsp27bCj;1pnHUanNPAueqWfsp27bEM;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+30;Geometriekopplung;223;373;Stab;112;Stab;187;1pnHUanNPAueqWfsp27bCh;1pnHUanNPAueqWfsp27bEK;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+31;Geometriekopplung;225;375;Stab;113;Stab;188;1pnHUanNPAueqWfsp27bCf;1pnHUanNPAueqWfsp27bEI;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+32;Geometriekopplung;227;379;Stab;114;Stab;190;1pnHUanNPAueqWfsp27bCt;1pnHUanNPAueqWfsp27bEG;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+33;Geometriekopplung;229;383;Stab;115;Stab;192;1pnHUanNPAueqWfsp27bCe;1pnHUanNPAueqWfsp27bEH;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+34;Geometriekopplung;232;386;Stab;116;Stab;193;1pnHUanNPAueqWfsp27bCp;1pnHUanNPAueqWfsp27bES;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+35;Geometriekopplung;233;377;Stab;117;Stab;189;1pnHUanNPAueqWfsp27bCg;1pnHUanNPAueqWfsp27bEJ;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+36;Geometriekopplung;236;388;Stab;118;Stab;194;1pnHUanNPAueqWfsp27bCn;1pnHUanNPAueqWfsp27bEQ;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+37;Geometriekopplung;238;382;Stab;119;Stab;191;1pnHUanNPAueqWfsp27bCo;1pnHUanNPAueqWfsp27bER;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+38;Geometriekopplung;240;392;Stab;120;Stab;196;1pnHUanNPAueqWfsp27bC$;1pnHUanNPAueqWfsp27bEO;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+39;Geometriekopplung;242;390;Stab;121;Stab;195;1pnHUanNPAueqWfsp27bCm;1pnHUanNPAueqWfsp27bEP;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+40;Geometriekopplung;244;270;Stab;122;Stab;135;1pnHUanNPAueqWfsp27bBE;1pnHUanNPAueqWfsp27bEt;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+41;Geometriekopplung;246;272;Stab;123;Stab;136;1pnHUanNPAueqWfsp27bBD;1pnHUanNPAueqWfsp27bEs;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+42;Geometriekopplung;248;274;Stab;124;Stab;137;1pnHUanNPAueqWfsp27bBC;1pnHUanNPAueqWfsp27bEr;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+43;Geometriekopplung;269;444;Stab;135;Stab;220;1pnHUanNPAueqWfsp27bEt;0G2Fg3$En0ZAkMe$WoETkI;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+44;Geometriekopplung;271;446;Stab;136;Stab;221;1pnHUanNPAueqWfsp27bEs;0G2Fg3$En0ZAkMe$WoETI1;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+45;Geometriekopplung;273;448;Stab;137;Stab;222;1pnHUanNPAueqWfsp27bEr;0G2Fg3$En0ZAkMe$WoETH0;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+46;Geometriekopplung;275;414;Stab;138;Stab;205;1pnHUanNPAueqWfsp27bE9;3PcPWHAnHClxTvsIqbWKwp;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+47;Geometriekopplung;277;420;Stab;139;Stab;208;1pnHUanNPAueqWfsp27bEN;3PcPWHAnHClxTvsIqbWK$5;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+48;Geometriekopplung;279;416;Stab;140;Stab;206;1pnHUanNPAueqWfsp27bE8;3PcPWHAnHClxTvsIqbWKyi;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+49;Geometriekopplung;353;402;Stab;177;Stab;199;1pnHUanNPAueqWfsp27bE0;3PcPWHAnHClxTvsIqbWKct;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+50;Geometriekopplung;355;400;Stab;178;Stab;198;1pnHUanNPAueqWfsp27bEF;3PcPWHAnHClxTvsIqbWKhy;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+51;Geometriekopplung;357;398;Stab;179;Stab;197;1pnHUanNPAueqWfsp27bE1;3PcPWHAnHClxTvsIqbWKW_;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+52;Geometriekopplung;359;406;Stab;180;Stab;201;1pnHUanNPAueqWfsp27bEE;3PcPWHAnHClxTvsIqbWKjf;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+53;Geometriekopplung;362;403;Stab;181;Stab;200;1pnHUanNPAueqWfsp27bED;3PcPWHAnHClxTvsIqbWKlQ;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+54;Geometriekopplung;363;410;Stab;182;Stab;203;1pnHUanNPAueqWfsp27bEB;3PcPWHAnHClxTvsIqbWKrY;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+55;Geometriekopplung;365;412;Stab;183;Stab;204;1pnHUanNPAueqWfsp27bEA;3PcPWHAnHClxTvsIqbWKuY;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+56;Geometriekopplung;368;407;Stab;184;Stab;202;1pnHUanNPAueqWfsp27bEC;3PcPWHAnHClxTvsIqbWKpd;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+57;Geometriekopplung;369;422;Stab;185;Stab;209;1pnHUanNPAueqWfsp27bEM;3PcPWHAnHClxTvsIqbWN0o;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+58;Geometriekopplung;372;417;Stab;186;Stab;207;1pnHUanNPAueqWfsp27bEL;3PcPWHAnHClxTvsIqbWN39;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+59;Geometriekopplung;374;423;Stab;187;Stab;210;1pnHUanNPAueqWfsp27bEK;3PcPWHAnHClxTvsIqbWN4e;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+60;Geometriekopplung;376;429;Stab;188;Stab;213;1pnHUanNPAueqWfsp27bEI;3PcPWHAnHClxTvsIqbWN9M;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+61;Geometriekopplung;378;425;Stab;189;Stab;211;1pnHUanNPAueqWfsp27bEJ;3PcPWHAnHClxTvsIqbWN7T;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+62;Geometriekopplung;380;433;Stab;190;Stab;215;1pnHUanNPAueqWfsp27bEG;3PcPWHAnHClxTvsIqbWNDm;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+63;Geometriekopplung;381;432;Stab;191;Stab;214;1pnHUanNPAueqWfsp27bER;3PcPWHAnHClxTvsIqbWMz6;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+64;Geometriekopplung;384;427;Stab;192;Stab;212;1pnHUanNPAueqWfsp27bEH;3PcPWHAnHClxTvsIqbWN83;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+65;Geometriekopplung;385;438;Stab;193;Stab;217;1pnHUanNPAueqWfsp27bES;3PcPWHAnHClxTvsIqbWMwx;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+66;Geometriekopplung;387;436;Stab;194;Stab;216;1pnHUanNPAueqWfsp27bEQ;3PcPWHAnHClxTvsIqbWM$l;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+67;Geometriekopplung;389;440;Stab;195;Stab;218;1pnHUanNPAueqWfsp27bEP;3PcPWHAnHClxTvsIqbW91U;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+68;Geometriekopplung;391;442;Stab;196;Stab;219;1pnHUanNPAueqWfsp27bEO;3PcPWHAnHClxTvsIqbW93t;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+641;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352505;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+642;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352361;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+643;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352508;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+644;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:335829;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+645;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352670;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+646;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:317894;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+647;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352525;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+648;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352669;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+649;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352361;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+650;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:338181;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+651;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352508;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+652;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:319672;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+653;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352516;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+654;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352526;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+655;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:335416;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+656;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:327814;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+657;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352525;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+658;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352502;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+659;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352368;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+660;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352493;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+661;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352526;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+662;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352331;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+663;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352356;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+664;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352406;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+665;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352334;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+666;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352401;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+667;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352405;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+668;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:320114;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+669;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331031;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+670;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352492;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+671;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352382;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+672;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:320039;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+673;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352371;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+674;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352382;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+675;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:330742;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+676;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352504;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+677;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352529;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+678;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:320039;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+679;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:330742;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+680;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:335179;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+681;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352529;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+682;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:334795;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+683;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:335179;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+684;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:334795;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+685;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352363;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+686;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352535;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+687;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:318614;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+688;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352363;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+689;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:335314;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+690;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352535;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+691;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352671;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+692;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331120;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+693;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:335314;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+694;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352710;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+695;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352330;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+696;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352671;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+697;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331120;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+698;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:338316;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+699;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:334653;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+700;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331810;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+701;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352359;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+702;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:334653;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+703;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352712;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+704;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331810;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+705;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:338222;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+706;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352359;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+707;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352517;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+708;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352347;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+709;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352336;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+710;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331503;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+711;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352507;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+712;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:318739;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+713;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352374;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+714;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352517;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+715;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331503;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+716;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352507;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+717;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352509;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+718;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352374;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+719;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:318739;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+720;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352503;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+721;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:327479;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+722;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352509;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+723;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:319555;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+724;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:318093;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+725;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:319555;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+726;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352678;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+727;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352379;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+728;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352678;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+729;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352373;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+730;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352373;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+731;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352365;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+732;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352366;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+733;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352365;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+734;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352350;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+735;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352335;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+736;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352366;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+737;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352358;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+738;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352667;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+739;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352530;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+740;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352402;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+741;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352554;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+742;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352358;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+743;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352667;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+744;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352530;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+745;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352357;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+746;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:320257;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+747;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:320257;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+748;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:319325;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+749;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352400;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+750;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331732;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+751;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352494;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+752;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:334057;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+753;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:318232;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+754;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352506;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+755;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352531;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+756;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:335232;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+757;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:319672;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+758;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352506;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+759;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352531;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+760;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:318232;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+761;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352352;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+762;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352370;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+763;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:335829;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+764;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352341;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+765;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352352;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+766;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:330847;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+767;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352332;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+768;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:330847;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+769;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352552;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+770;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:333627;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+771;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352552;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+772;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331610;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+773;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:333627;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+774;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352367;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+775;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352367;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+776;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331031;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+777;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352327;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+778;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:327582;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+779;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:327582;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+780;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352378;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+781;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352496;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+782;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352378;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+783;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352556;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+784;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352711;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+785;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352532;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+786;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352485;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+787;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352684;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+788;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352684;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+789;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:335877;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+790;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352668;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+791;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:319833;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+792;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331082;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+793;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352668;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+794;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352680;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+795;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:335877;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+796;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:319170;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+797;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:330902;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+798;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352501;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+799;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331082;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+800;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352680;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+801;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:319833;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+802;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:330902;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+803;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:334553;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+804;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352495;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+805;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:333864;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+806;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331651;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+807;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:334553;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+808;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352349;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+809;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352663;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+810;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:319059;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+811;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331651;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+812;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352329;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+813;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352663;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+814;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:318379;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+815;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352342;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+816;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:319059;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+817;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:318379;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+818;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352683;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+819;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352375;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+820;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:317519;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+821;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352683;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+822;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352682;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+823;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352369;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+824;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352375;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+825;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352682;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+826;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:317519;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+827;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352380;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+828;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352514;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+829;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:338460;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+830;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352339;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+831;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352380;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+832;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352338;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+833;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:318093;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+834;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:335121;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+835;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352514;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+836;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352709;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+837;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352679;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+838;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352679;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+839;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352519;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+840;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:338490;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+841;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352523;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+842;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352519;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+843;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352348;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+844;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352522;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+845;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352669;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+846;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:327370;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+847;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352516;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+848;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352513;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+849;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352510;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+850;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352513;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+851;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352356;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+852;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352510;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+853;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:327814;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+854;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352360;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+855;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352404;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+856;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352520;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+857;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352360;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+858;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352340;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+859;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352333;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+860;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352489;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+861;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352520;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+862;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352328;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+863;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352371;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+864;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352343;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+865;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:319325;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+866;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352500;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+867;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352355;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+868;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:320114;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+869;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352555;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+870;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352355;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+871;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352524;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+872;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:334057;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+873;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352524;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+874;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:335360;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+875;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:338113;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+876;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:319916;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+877;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352381;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+878;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331732;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+879;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:335360;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+880;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352381;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+881;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:319916;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+882;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:330701;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+883;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:335232;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+884;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352528;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+885;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352559;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+886;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352553;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+887;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:330701;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+888;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352512;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+889;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352528;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+890;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352512;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+891;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352681;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+892;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352377;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+893;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352681;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+894;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352377;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+895;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:318614;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+896;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352403;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+897;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331586;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+898;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352533;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+899;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331164;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+900;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331610;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+901;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331586;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+902;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352533;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+903;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331164;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+904;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352364;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+905;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352511;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+906;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:327727;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+907;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352364;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+908;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352511;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+909;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352376;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+910;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:327727;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+911;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352354;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+912;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:338256;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+913;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352376;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+914;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352527;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+915;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:319170;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+916;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352354;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+917;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352326;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+918;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352399;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+919;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352527;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+920;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:338376;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+921;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:333864;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+922;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352337;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+923;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:327479;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+924;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352372;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+925;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:335735;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+926;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352534;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+927;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352362;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+928;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:331548;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+929;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352372;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+930;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:319412;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+931;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:335735;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+932;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352534;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+933;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352362;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+934;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:331548;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+935;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352557;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+936;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:330981;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+937;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:319412;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+938;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:330981;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+939;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352685;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+940;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352673;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+941;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352518;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+942;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352357;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+943;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352515;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+944;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352490;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+945;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352673;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+946;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352518;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+947;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352515;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+948;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352353;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+949;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352672;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+950;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352351;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+951;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352353;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+952;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UC-Universal Columns-Column:UC305x305x97:352491;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+953;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:352672;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+954;Missing (GT);;;Unbekannt;;Unbekannt;;IfcBeam;UB-Universal Beams:BEAM1:335121;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+955;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352558;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+956;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352505;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+957;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:327370;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+958;Missing (GT);;;Unbekannt;;Unbekannt;;IfcSlab;UC-Universal Columns-Column:UC305x305x97:317894;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+959;Missing (GT);;;Unbekannt;;Unbekannt;;IfcColumn;UB-Universal Beams:BEAM1:352670;GroundTruth;FN;In RFEM-Analyse nicht identifiziert

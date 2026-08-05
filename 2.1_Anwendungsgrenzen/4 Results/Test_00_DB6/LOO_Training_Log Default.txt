@@ -1,0 +1,64 @@
+Lade 6 Graphen in den Speicher...
+CONFIG:
+	model_type: GINE
+	hidden_dim: 128
+	num_layers: 5
+	activation: ELU
+	dropout: 0.2
+	lr: 0.001
+	epochs: 500
+	edge_dim: 1
+	batch_size: 12
+	threshold: 0.5
+	node_features: origin, centroid, centroid_x, centroid_y, centroid_z, dimensions, norm_dimensions, area, volume, ratio_av, normed_x, normed_y, normed_z, entity_one_hot_idx
+--- Starte Fold 1 | Test-Modell: 202102183458-Model Graph.json ---
+  Epoch 100 | Loss: 0.5716 | Best Val-F1: 0.47
+  Epoch 200 | Loss: 0.5295 | Best Val-F1: 0.49
+  Epoch 300 | Loss: 0.4905 | Best Val-F1: 0.49
+  Epoch 400 | Loss: 0.4572 | Best Val-F1: 0.51
+  Epoch 500 | Loss: 0.4184 | Best Val-F1: 0.51
+RESULT Fold 1 (Threshold 0.5): Acc: 42.35%, F1: 0.51, Prec: 0.35, Rec: 0.90
+--- Starte Fold 2 | Test-Modell: 20220421MODEL REV01 Graph.json ---
+  Epoch 100 | Loss: 0.5574 | Best Val-F1: 0.67
+  Epoch 200 | Loss: 0.5028 | Best Val-F1: 0.67
+  Epoch 300 | Loss: 0.4570 | Best Val-F1: 0.67
+  Epoch 400 | Loss: 0.3965 | Best Val-F1: 0.67
+  Epoch 500 | Loss: 0.3357 | Best Val-F1: 0.67
+RESULT Fold 2 (Threshold 0.5): Acc: 56.22%, F1: 0.67, Prec: 0.54, Rec: 0.90
+--- Starte Fold 3 | Test-Modell: 21_22 L_TWP_Tragwerksmodell Graph.json ---
+  Epoch 100 | Loss: 0.5863 | Best Val-F1: 0.67
+  Epoch 200 | Loss: 0.5376 | Best Val-F1: 0.67
+  Epoch 300 | Loss: 0.4970 | Best Val-F1: 0.67
+  Epoch 400 | Loss: 0.4661 | Best Val-F1: 0.67
+  Epoch 500 | Loss: 0.4127 | Best Val-F1: 0.67
+RESULT Fold 3 (Threshold 0.5): Acc: 54.60%, F1: 0.67, Prec: 0.65, Rec: 0.70
+--- Starte Fold 4 | Test-Modell: 23_24 LTWP-V__Dachtragwerk Graph.json ---
+  Epoch 100 | Loss: 0.5922 | Best Val-F1: 0.87
+  Epoch 200 | Loss: 0.5592 | Best Val-F1: 0.87
+  Epoch 300 | Loss: 0.5199 | Best Val-F1: 0.87
+  Epoch 400 | Loss: 0.4795 | Best Val-F1: 0.87
+  Epoch 500 | Loss: 0.4543 | Best Val-F1: 0.87
+RESULT Fold 4 (Threshold 0.5): Acc: 76.32%, F1: 0.87, Prec: 0.76, Rec: 1.00
+--- Starte Fold 5 | Test-Modell: Grethes-hus-bok-2 Graph.json ---
+  Epoch 100 | Loss: 0.5748 | Best Val-F1: 0.79
+  Epoch 200 | Loss: 0.5352 | Best Val-F1: 0.79
+  Epoch 300 | Loss: 0.4993 | Best Val-F1: 0.79
+  Epoch 400 | Loss: 0.4607 | Best Val-F1: 0.79
+  Epoch 500 | Loss: 0.4164 | Best Val-F1: 0.79
+RESULT Fold 5 (Threshold 0.5): Acc: 77.27%, F1: 0.79, Prec: 0.70, Rec: 0.90
+--- Starte Fold 6 | Test-Modell: Parametrisches Modell Index_00250 Graph.json ---
+  Epoch 100 | Loss: 0.5548 | Best Val-F1: 0.69
+  Epoch 200 | Loss: 0.4939 | Best Val-F1: 0.69
+  Epoch 300 | Loss: 0.4408 | Best Val-F1: 0.69
+  Epoch 400 | Loss: 0.3976 | Best Val-F1: 0.69
+  Epoch 500 | Loss: 0.3328 | Best Val-F1: 0.69
+RESULT Fold 6 (Threshold 0.5): Acc: 67.02%, F1: 0.69, Prec: 0.66, Rec: 0.72
+========================================
+LOO-KREUZVALIDIERUNG ABSCHLUSS
+Anzahl Modelle: 6
+Durchschnittliche Accuracy:  62.30%
+Durchschnittlicher F1-Score: 0.70
+Durchschnittliche Precision: 0.61
+Durchschnittlicher Recall:    0.85
+Modelle gespeichert in: h:\2_2 GNN_Modellkonvertierung (Anwendungsrenze)\3 Model_Training\Test_00_DB6
+========================================
