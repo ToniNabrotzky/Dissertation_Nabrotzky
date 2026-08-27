@@ -1,0 +1,252 @@
+Status;Type_A;Type_B;GUID_A;GUID_B;Name_A;Name_B
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qXs;3DWkEUmNbEUw4r79zq9qX5;Geschossdecke:STB 350:2549342;Basiswand:Ziegel+WD hart 240+160:2549357
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qXs;3DWkEUmNbEUw4r79zq9qX6;Geschossdecke:STB 350:2549342;Basiswand:Ziegel+WD hart 240+160:2549358
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qXs;3DWkEUmNbEUw4r79zq9qX7;Geschossdecke:STB 350:2549342;Basiswand:Ziegel+WD hart 240+160:2549359
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qXs;3DWkEUmNbEUw4r79zq9qXO;Geschossdecke:STB 350:2549342;Basiswand:Ziegel+WD hart 240+160:2549360
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qXs;3DWkEUmNbEUw4r79zq9qkM;Geschossdecke:STB 350:2549342;Basiswand:Ziegel+WD hart 240+160:2549182
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qXs;3DWkEUmNbEUw4r79zq9qkN;Geschossdecke:STB 350:2549342;Basiswand:Ziegel+WD hart 240+160:2549183
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qXs;3DWkEUmNbEUw4r79zq9qlf;Geschossdecke:STB 350:2549342;Basiswand:Ziegel+WD hart 240+160:2549185
+o;IfcSlab;IfcColumn;3DWkEUmNbEUw4r79zq9qXs;2uEC5lWcnE7BDU0ErbW3GD;Geschossdecke:STB 350:2549342;STB Stütze - rechteckig:STB 250 x 250:2567170
+o;IfcSlab;IfcColumn;3DWkEUmNbEUw4r79zq9qXs;2uEC5lWcnE7BDU0ErbW3IO;Geschossdecke:STB 350:2549342;STB Stütze - rechteckig:STB 200 x 200:2567319
+o;IfcSlab;IfcColumn;3DWkEUmNbEUw4r79zq9qXs;2uEC5lWcnE7BDU0ErbW3J4;Geschossdecke:STB 350:2549342;STB Stütze - rechteckig:STB 200 x 200:2567371
+o;IfcSlab;IfcColumn;3DWkEUmNbEUw4r79zq9qXs;2uEC5lWcnE7BDU0ErbW3Jm;Geschossdecke:STB 350:2549342;STB Stütze - rechteckig:STB 300 x 400:2567423
+o;IfcSlab;IfcColumn;3DWkEUmNbEUw4r79zq9qXs;2uEC5lWcnE7BDU0ErbW3LZ;Geschossdecke:STB 350:2549342;STB Stütze - rechteckig:STB 250 x 250:2567532
+o;IfcSlab;IfcColumn;3DWkEUmNbEUw4r79zq9qXs;2uEC5lWcnE7BDU0ErbW3LX;Geschossdecke:STB 350:2549342;STB Stütze - rechteckig:STB 200 x 200:2567534
+o;IfcSlab;IfcColumn;3DWkEUmNbEUw4r79zq9qXs;2uEC5lWcnE7BDU0ErbW3L$;Geschossdecke:STB 350:2549342;STB Stütze - rechteckig:STB 200 x 200:2567536
+o;IfcSlab;IfcColumn;3DWkEUmNbEUw4r79zq9qXs;2uEC5lWcnE7BDU0ErbW3Lz;Geschossdecke:STB 350:2549342;STB Stütze - rechteckig:STB 300 x 400:2567538
+;;;;;;
+o;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qX7;Basiswand:Ziegel+WD hart 240+160:2549357;Basiswand:Ziegel+WD hart 240+160:2549359
+o;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qXO;Basiswand:Ziegel+WD hart 240+160:2549357;Basiswand:Ziegel+WD hart 240+160:2549360
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qkM;Basiswand:Ziegel+WD hart 240+160:2549357;Basiswand:Ziegel+WD hart 240+160:2549182
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qX5;3DWkEUmNbEUw4r79zq9qlf;Basiswand:Ziegel+WD hart 240+160:2549357;Basiswand:Ziegel+WD hart 240+160:2549185
+;;;;;;
+o;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qX7;Basiswand:Ziegel+WD hart 240+160:2549358;Basiswand:Ziegel+WD hart 240+160:2549359
+o;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qXO;Basiswand:Ziegel+WD hart 240+160:2549358;Basiswand:Ziegel+WD hart 240+160:2549360
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qkN;Basiswand:Ziegel+WD hart 240+160:2549358;Basiswand:Ziegel+WD hart 240+160:2549183
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qX6;3DWkEUmNbEUw4r79zq9qlf;Basiswand:Ziegel+WD hart 240+160:2549358;Basiswand:Ziegel+WD hart 240+160:2549185
+;;;;;;
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qkM;Basiswand:Ziegel+WD hart 240+160:2549359;Basiswand:Ziegel+WD hart 240+160:2549182
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qX7;3DWkEUmNbEUw4r79zq9qkN;Basiswand:Ziegel+WD hart 240+160:2549359;Basiswand:Ziegel+WD hart 240+160:2549183
+;;;;;;
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qkM;Basiswand:Ziegel+WD hart 240+160:2549360;Basiswand:Ziegel+WD hart 240+160:2549182
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qkN;Basiswand:Ziegel+WD hart 240+160:2549360;Basiswand:Ziegel+WD hart 240+160:2549183
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qXO;3DWkEUmNbEUw4r79zq9qlf;Basiswand:Ziegel+WD hart 240+160:2549360;Basiswand:Ziegel+WD hart 240+160:2549185
+;;;;;;
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qk7;3DWkEUmNbEUw4r79zq9qkM;Geschossdecke:STB 350:2549167;Basiswand:Ziegel+WD hart 240+160:2549182
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qk7;3DWkEUmNbEUw4r79zq9qkN;Geschossdecke:STB 350:2549167;Basiswand:Ziegel+WD hart 240+160:2549183
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qk7;3DWkEUmNbEUw4r79zq9qlf;Geschossdecke:STB 350:2549167;Basiswand:Ziegel+WD hart 240+160:2549185
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qk7;3DWkEUmNbEUw4r79zq9qii;Geschossdecke:STB 350:2549167;Basiswand:Ziegel+WD hart 240+160:2548996
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qk7;3DWkEUmNbEUw4r79zq9qij;Geschossdecke:STB 350:2549167;Basiswand:Ziegel+WD hart 240+160:2548997
+o;IfcSlab;IfcWall;3DWkEUmNbEUw4r79zq9qk7;3DWkEUmNbEUw4r79zq9qil;Geschossdecke:STB 350:2549167;Basiswand:Ziegel+WD hart 240+160:2548999
+;;;;;;
+o;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qlf;Basiswand:Ziegel+WD hart 240+160:2549182;Basiswand:Ziegel+WD hart 240+160:2549185
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qii;Basiswand:Ziegel+WD hart 240+160:2549182;Basiswand:Ziegel+WD hart 240+160:2548996
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qkM;3DWkEUmNbEUw4r79zq9qil;Basiswand:Ziegel+WD hart 240+160:2549182;Basiswand:Ziegel+WD hart 240+160:2548999
+x;IfcWall;IfcColumn;3DWkEUmNbEUw4r79zq9qkM;2uEC5lWcnE7BDU0ErbW3GD;Basiswand:Ziegel+WD hart 240+160:2549182;STB Stütze - rechteckig:STB 250 x 250:2567170
+x;IfcWall;IfcColumn;3DWkEUmNbEUw4r79zq9qkM;2uEC5lWcnE7BDU0ErbW3IO;Basiswand:Ziegel+WD hart 240+160:2549182;STB Stütze - rechteckig:STB 200 x 200:2567319
+x;IfcWall;IfcColumn;3DWkEUmNbEUw4r79zq9qkM;2uEC5lWcnE7BDU0ErbW3J4;Basiswand:Ziegel+WD hart 240+160:2549182;STB Stütze - rechteckig:STB 200 x 200:2567371
+x;IfcWall;IfcColumn;3DWkEUmNbEUw4r79zq9qkM;2uEC5lWcnE7BDU0ErbW3Jm;Basiswand:Ziegel+WD hart 240+160:2549182;STB Stütze - rechteckig:STB 300 x 400:2567423
+;;;;;;
+o;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qlf;Basiswand:Ziegel+WD hart 240+160:2549183;Basiswand:Ziegel+WD hart 240+160:2549185
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qij;Basiswand:Ziegel+WD hart 240+160:2549183;Basiswand:Ziegel+WD hart 240+160:2548997
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qkN;3DWkEUmNbEUw4r79zq9qil;Basiswand:Ziegel+WD hart 240+160:2549183;Basiswand:Ziegel+WD hart 240+160:2548999
+x;IfcWall;IfcColumn;3DWkEUmNbEUw4r79zq9qkN;2uEC5lWcnE7BDU0ErbW3LZ;Basiswand:Ziegel+WD hart 240+160:2549183;STB Stütze - rechteckig:STB 250 x 250:2567532
+x;IfcWall;IfcColumn;3DWkEUmNbEUw4r79zq9qkN;2uEC5lWcnE7BDU0ErbW3LX;Basiswand:Ziegel+WD hart 240+160:2549183;STB Stütze - rechteckig:STB 200 x 200:2567534
+x;IfcWall;IfcColumn;3DWkEUmNbEUw4r79zq9qkN;2uEC5lWcnE7BDU0ErbW3L$;Basiswand:Ziegel+WD hart 240+160:2549183;STB Stütze - rechteckig:STB 200 x 200:2567536
+x;IfcWall;IfcColumn;3DWkEUmNbEUw4r79zq9qkN;2uEC5lWcnE7BDU0ErbW3Lz;Basiswand:Ziegel+WD hart 240+160:2549183;STB Stütze - rechteckig:STB 300 x 400:2567538
+;;;;;;
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qii;Basiswand:Ziegel+WD hart 240+160:2549185;Basiswand:Ziegel+WD hart 240+160:2548996
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qij;Basiswand:Ziegel+WD hart 240+160:2549185;Basiswand:Ziegel+WD hart 240+160:2548997
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qlf;3DWkEUmNbEUw4r79zq9qil;Basiswand:Ziegel+WD hart 240+160:2549185;Basiswand:Ziegel+WD hart 240+160:2548999
+;;;;;;
+o;IfcSlab;IfcWall;1jKaC_UV9EHQtr4wyx6Msp;3DWkEUmNbEUw4r79zq9qii;Geschossdecke:STB 350:2543396;Basiswand:Ziegel+WD hart 240+160:2548996
+o;IfcSlab;IfcWall;1jKaC_UV9EHQtr4wyx6Msp;3DWkEUmNbEUw4r79zq9qij;Geschossdecke:STB 350:2543396;Basiswand:Ziegel+WD hart 240+160:2548997
+o;IfcSlab;IfcWall;1jKaC_UV9EHQtr4wyx6Msp;3DWkEUmNbEUw4r79zq9qil;Geschossdecke:STB 350:2543396;Basiswand:Ziegel+WD hart 240+160:2548999
+o;IfcSlab;IfcWall;1jKaC_UV9EHQtr4wyx6Msp;1jKaC_UV9EHQtr4wyx6MnY;Geschossdecke:STB 350:2543396;Basiswand:Ziegel+WD hart 300+160:2543349
+o;IfcSlab;IfcWall;1jKaC_UV9EHQtr4wyx6Msp;1jKaC_UV9EHQtr4wyx6MnX;Geschossdecke:STB 350:2543396;Basiswand:Ziegel+WD hart 300+160:2543350
+o;IfcSlab;IfcWall;1jKaC_UV9EHQtr4wyx6Msp;1jKaC_UV9EHQtr4wyx6Mnl;Geschossdecke:STB 350:2543396;Basiswand:Ziegel+WD hart 300+160:2543352
+x;IfcSlab;IfcWall;1jKaC_UV9EHQtr4wyx6Msp;1jKaC_UV9EHQtr4wyx6Mnk;Geschossdecke:STB 350:2543396;Basiswand:Ziegel+WD hart 200+200:2543353
+x;IfcSlab;IfcWall;1jKaC_UV9EHQtr4wyx6Msp;1jKaC_UV9EHQtr4wyx6Mni;Geschossdecke:STB 350:2543396;Basiswand:Ziegel+WD hart 200+200:2543355
+x;IfcSlab;IfcWall;1jKaC_UV9EHQtr4wyx6Msp;1jKaC_UV9EHQtr4wyx6Mnh;Geschossdecke:STB 350:2543396;Basiswand:Ziegel+WD hart 200+200:2543356
+;;;;;;
+o;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qii;3DWkEUmNbEUw4r79zq9qil;Basiswand:Ziegel+WD hart 240+160:2548996;Basiswand:Ziegel+WD hart 240+160:2548999
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qii;1jKaC_UV9EHQtr4wyx6Mnk;Basiswand:Ziegel+WD hart 240+160:2548996;Basiswand:Ziegel+WD hart 200+200:2543353
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qii;1jKaC_UV9EHQtr4wyx6Mni;Basiswand:Ziegel+WD hart 240+160:2548996;Basiswand:Ziegel+WD hart 200+200:2543355
+x;IfcWall;IfcWall;3DWkEUmNbEUw4r79zq9qii;1jKaC_UV9EHQtr4wyx6Mnh;Basiswand:Ziegel+WD hart 240+160:2548996;Basiswand:Ziegel+WD hart 200+200:2543356
+;;;;;;
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDk;1jKaC_UV9EHQtr4wyx6MnY;Geschossdecke:FB 200 Teppich:2532554;Basiswand:Ziegel+WD hart 300+160:2543349
+x;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDk;1jKaC_UV9EHQtr4wyx6Mnl;Geschossdecke:FB 200 Teppich:2532554;Basiswand:Ziegel+WD hart 300+160:2543352
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDk;1jKaC_UV9EHQtr4wyx6Mnk;Geschossdecke:FB 200 Teppich:2532554;Basiswand:Ziegel+WD hart 200+200:2543353
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDk;1jKaC_UV9EHQtr4wyx6Mnj;Geschossdecke:FB 200 Teppich:2532554;Basiswand:Ziegel+WD hart 200+200:2543354
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDk;1jKaC_UV9EHQtr4wyx6Mni;Geschossdecke:FB 200 Teppich:2532554;Basiswand:Ziegel+WD hart 200+200:2543355
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDk;07CR7fHeP4QfYTyO_6ZtT5;Geschossdecke:FB 200 Teppich:2532554;Basiswand:Ziegel+WD hart 300+160:2530025
+x;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDk;07CR7fHeP4QfYTyO_6ZtT0;Geschossdecke:FB 200 Teppich:2532554;Basiswand:Ziegel+WD hart 300+160:2530028
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDk;07CR7fHeP4QfYTyO_6ZtT1;Geschossdecke:FB 200 Teppich:2532554;Basiswand:Ziegel+WD hart 200+200:2530029
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDk;07CR7fHeP4QfYTyO_6ZtT2;Geschossdecke:FB 200 Teppich:2532554;Basiswand:Ziegel+WD hart 200+200:2530030
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDk;07CR7fHeP4QfYTyO_6ZtT3;Geschossdecke:FB 200 Teppich:2532554;Basiswand:Ziegel+WD hart 200+200:2530031
+;;;;;;
+o;IfcSlab;IfcSlab;1ksvnTQ291hfq4qBxBzHDD;1ksvnTQ291hfq4qBxBzHAg;Geschossdecke:STB 200:2532585;Geschossdecke:FB 200 Teppich:2532622
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDD;1jKaC_UV9EHQtr4wyx6MnY;Geschossdecke:STB 200:2532585;Basiswand:Ziegel+WD hart 300+160:2543349
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDD;1jKaC_UV9EHQtr4wyx6MnX;Geschossdecke:STB 200:2532585;Basiswand:Ziegel+WD hart 300+160:2543350
+x;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDD;1jKaC_UV9EHQtr4wyx6Mnh;Geschossdecke:STB 200:2532585;Basiswand:Ziegel+WD hart 200+200:2543356
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDD;07CR7fHeP4QfYTyO_6ZtT5;Geschossdecke:STB 200:2532585;Basiswand:Ziegel+WD hart 300+160:2530025
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDD;07CR7fHeP4QfYTyO_6ZtT6;Geschossdecke:STB 200:2532585;Basiswand:Ziegel+WD hart 300+160:2530026
+x;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHDD;07CR7fHeP4QfYTyO_6ZtTS;Geschossdecke:STB 200:2532585;Basiswand:Ziegel+WD hart 200+200:2530032
+;;;;;;
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHAg;1jKaC_UV9EHQtr4wyx6MnY;Geschossdecke:FB 200 Teppich:2532622;Basiswand:Ziegel+WD hart 300+160:2543349
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHAg;1jKaC_UV9EHQtr4wyx6MnX;Geschossdecke:FB 200 Teppich:2532622;Basiswand:Ziegel+WD hart 300+160:2543350
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHAg;1jKaC_UV9EHQtr4wyx6Mnh;Geschossdecke:FB 200 Teppich:2532622;Basiswand:Ziegel+WD hart 200+200:2543356
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHAg;1jKaC_UV9EHQtr4wyx6Mng;Geschossdecke:FB 200 Teppich:2532622;Basiswand:Ziegel+WD hart 200+200:2543357
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHAg;07CR7fHeP4QfYTyO_6ZtT5;Geschossdecke:FB 200 Teppich:2532622;Basiswand:Ziegel+WD hart 300+160:2530025
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHAg;07CR7fHeP4QfYTyO_6ZtT6;Geschossdecke:FB 200 Teppich:2532622;Basiswand:Ziegel+WD hart 300+160:2530026
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHAg;07CR7fHeP4QfYTyO_6ZtTS;Geschossdecke:FB 200 Teppich:2532622;Basiswand:Ziegel+WD hart 200+200:2530032
+o;IfcSlab;IfcWall;1ksvnTQ291hfq4qBxBzHAg;07CR7fHeP4QfYTyO_6ZtTT;Geschossdecke:FB 200 Teppich:2532622;Basiswand:Ziegel+WD hart 200+200:2530033
+;;;;;;
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnY;3DWkEUmNbEUw4r79zq9qil;Basiswand:Ziegel+WD hart 300+160:2543349;Basiswand:Ziegel+WD hart 240+160:2548999
+o;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Mnl;Basiswand:Ziegel+WD hart 300+160:2543349;Basiswand:Ziegel+WD hart 300+160:2543352
+o;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Mnk;Basiswand:Ziegel+WD hart 300+160:2543349;Basiswand:Ziegel+WD hart 200+200:2543353
+o;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Mni;Basiswand:Ziegel+WD hart 300+160:2543349;Basiswand:Ziegel+WD hart 200+200:2543355
+o;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnY;1jKaC_UV9EHQtr4wyx6Mnh;Basiswand:Ziegel+WD hart 300+160:2543349;Basiswand:Ziegel+WD hart 200+200:2543356
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnY;07CR7fHeP4QfYTyO_6ZtT5;Basiswand:Ziegel+WD hart 300+160:2543349;Basiswand:Ziegel+WD hart 300+160:2530025
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnY;07CR7fHeP4QfYTyO_6ZtTS;Basiswand:Ziegel+WD hart 300+160:2543349;Basiswand:Ziegel+WD hart 200+200:2530032
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnY;07CR7fHeP4QfYTyO_6ZtT0;Basiswand:Ziegel+WD hart 300+160:2543349;Basiswand:Ziegel+WD hart 300+160:2530028
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnY;07CR7fHeP4QfYTyO_6ZtT1;Basiswand:Ziegel+WD hart 300+160:2543349;Basiswand:Ziegel+WD hart 200+200:2530029
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnY;07CR7fHeP4QfYTyO_6ZtT3;Basiswand:Ziegel+WD hart 300+160:2543349;Basiswand:Ziegel+WD hart 200+200:2530031
+;;;;;;
+o;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnX;1jKaC_UV9EHQtr4wyx6Mnl;Basiswand:Ziegel+WD hart 300+160:2543350;Basiswand:Ziegel+WD hart 300+160:2543352
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnX;07CR7fHeP4QfYTyO_6ZtT6;Basiswand:Ziegel+WD hart 300+160:2543350;Basiswand:Ziegel+WD hart 300+160:2530026
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6MnX;07CR7fHeP4QfYTyO_6ZtT0;Basiswand:Ziegel+WD hart 300+160:2543350;Basiswand:Ziegel+WD hart 300+160:2530028
+;;;;;;
+o;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnl;1jKaC_UV9EHQtr4wyx6Mnk;Basiswand:Ziegel+WD hart 300+160:2543352;Basiswand:Ziegel+WD hart 200+200:2543353
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnl;07CR7fHeP4QfYTyO_6ZtT5;Basiswand:Ziegel+WD hart 300+160:2543352;Basiswand:Ziegel+WD hart 300+160:2530025
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnl;07CR7fHeP4QfYTyO_6ZtT6;Basiswand:Ziegel+WD hart 300+160:2543352;Basiswand:Ziegel+WD hart 300+160:2530026
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnl;07CR7fHeP4QfYTyO_6ZtT0;Basiswand:Ziegel+WD hart 300+160:2543352;Basiswand:Ziegel+WD hart 300+160:2530028
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnl;07CR7fHeP4QfYTyO_6ZtT1;Basiswand:Ziegel+WD hart 300+160:2543352;Basiswand:Ziegel+WD hart 200+200:2530029
+;;;;;;
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnk;3DWkEUmNbEUw4r79zq9qil;Basiswand:Ziegel+WD hart 200+200:2543353;Basiswand:Ziegel+WD hart 240+160:2548999
+o;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnk;1jKaC_UV9EHQtr4wyx6Mnj;Basiswand:Ziegel+WD hart 200+200:2543353;Basiswand:Ziegel+WD hart 200+200:2543354
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnk;07CR7fHeP4QfYTyO_6ZtT2;Basiswand:Ziegel+WD hart 200+200:2543353;Basiswand:Ziegel+WD hart 200+200:2530030
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnk;07CR7fHeP4QfYTyO_6ZtT1;Basiswand:Ziegel+WD hart 200+200:2543353;Basiswand:Ziegel+WD hart 200+200:2530029
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnk;07CR7fHeP4QfYTyO_6ZtT5;Basiswand:Ziegel+WD hart 200+200:2543353;Basiswand:Ziegel+WD hart 300+160:2530025
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnk;07CR7fHeP4QfYTyO_6ZtT0;Basiswand:Ziegel+WD hart 200+200:2543353;Basiswand:Ziegel+WD hart 300+160:2530028
+;;;;;;
+o;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnj;1jKaC_UV9EHQtr4wyx6Mni;Basiswand:Ziegel+WD hart 200+200:2543354;Basiswand:Ziegel+WD hart 200+200:2543355
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnj;07CR7fHeP4QfYTyO_6ZtT3;Basiswand:Ziegel+WD hart 200+200:2543354;Basiswand:Ziegel+WD hart 200+200:2530031
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnj;07CR7fHeP4QfYTyO_6ZtT2;Basiswand:Ziegel+WD hart 200+200:2543354;Basiswand:Ziegel+WD hart 200+200:2530030
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnj;07CR7fHeP4QfYTyO_6ZtT1;Basiswand:Ziegel+WD hart 200+200:2543354;Basiswand:Ziegel+WD hart 200+200:2530029
+;;;;;;
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mni;07CR7fHeP4QfYTyO_6ZtT5;Basiswand:Ziegel+WD hart 200+200:2543355;Basiswand:Ziegel+WD hart 300+160:2530025
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mni;07CR7fHeP4QfYTyO_6ZtT3;Basiswand:Ziegel+WD hart 200+200:2543355;Basiswand:Ziegel+WD hart 200+200:2530031
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mni;07CR7fHeP4QfYTyO_6ZtT2;Basiswand:Ziegel+WD hart 200+200:2543355;Basiswand:Ziegel+WD hart 200+200:2530030
+;;;;;;
+o;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnh;1jKaC_UV9EHQtr4wyx6Mng;Basiswand:Ziegel+WD hart 200+200:2543356;Basiswand:Ziegel+WD hart 200+200:2543357
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnh;07CR7fHeP4QfYTyO_6ZtT5;Basiswand:Ziegel+WD hart 200+200:2543356;Basiswand:Ziegel+WD hart 300+160:2530025
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnh;07CR7fHeP4QfYTyO_6ZtTS;Basiswand:Ziegel+WD hart 200+200:2543356;Basiswand:Ziegel+WD hart 200+200:2530032
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mnh;07CR7fHeP4QfYTyO_6ZtTT;Basiswand:Ziegel+WD hart 200+200:2543356;Basiswand:Ziegel+WD hart 200+200:2530033
+;;;;;;
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mng;07CR7fHeP4QfYTyO_6ZtTS;Basiswand:Ziegel+WD hart 200+200:2543357;Basiswand:Ziegel+WD hart 200+200:2530032
+x;IfcWall;IfcWall;1jKaC_UV9EHQtr4wyx6Mng;07CR7fHeP4QfYTyO_6ZtTT;Basiswand:Ziegel+WD hart 200+200:2543357;Basiswand:Ziegel+WD hart 200+200:2530033
+;;;;;;
+o;IfcBeam;IfcColumn;0HhC9uqTb6QgUcRAtyFIVg;2uEC5lWcnE7BDU0ErbW3J4;Holz Träger - rechteckig:Holz 120 x 160:2568834;STB Stütze - rechteckig:STB 200 x 200:2567371
+o;IfcBeam;IfcColumn;0HhC9uqTb6QgUcRAtyFIVg;2uEC5lWcnE7BDU0ErbW3L$;Holz Träger - rechteckig:Holz 120 x 160:2568834;STB Stütze - rechteckig:STB 200 x 200:2567536
+;;;;;;
+o;IfcBeam;IfcColumn;0HhC9uqTb6QgUcRAtyFIVp;2uEC5lWcnE7BDU0ErbW3IO;Holz Träger - rechteckig:Holz 120 x 160:2568859;STB Stütze - rechteckig:STB 200 x 200:2567319
+o;IfcBeam;IfcColumn;0HhC9uqTb6QgUcRAtyFIVp;2uEC5lWcnE7BDU0ErbW3LX;Holz Träger - rechteckig:Holz 120 x 160:2568859;STB Stütze - rechteckig:STB 200 x 200:2567534
+;;;;;;
+o;IfcBeam;IfcColumn;0HhC9uqTb6QgUcRAtyFIVR;2uEC5lWcnE7BDU0ErbW3GD;STB Träger - rechteckig:STB 250 x 500:2568883;STB Stütze - rechteckig:STB 250 x 250:2567170
+o;IfcBeam;IfcColumn;0HhC9uqTb6QgUcRAtyFIVR;2uEC5lWcnE7BDU0ErbW3LZ;STB Träger - rechteckig:STB 250 x 500:2568883;STB Stütze - rechteckig:STB 250 x 250:2567532
+;;;;;;
+o;IfcBeam;IfcColumn;0HhC9uqTb6QgUcRAtyFIUs;2uEC5lWcnE7BDU0ErbW3Jm;STB Träger - rechteckig:STB 300 x 600:2568926;STB Stütze - rechteckig:STB 300 x 400:2567423
+o;IfcBeam;IfcColumn;0HhC9uqTb6QgUcRAtyFIUs;2uEC5lWcnE7BDU0ErbW3Lz;STB Träger - rechteckig:STB 300 x 600:2568926;STB Stütze - rechteckig:STB 300 x 400:2567538
+;;;;;;
+o;IfcSlab;IfcSlab;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6ZtD5;Bodenplatte:STB 300:2531016;Bodenplatte:STB 300:2531049
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6ZtT5;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 300+160:2530025
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6ZtT6;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 300+160:2530026
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6ZtT0;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 300+160:2530028
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6ZtT1;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 200+200:2530029
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6ZtT2;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 200+200:2530030
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6ZtT3;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 200+200:2530031
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;1hXC4WhvX7OfF8X3V_$Y93;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 300+160:2525651
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;1hXC4WhvX7OfF8X3V_$Y76;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 300+160:2525782
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6Zts4;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 300+160:2527272
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6ZtpJ;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 200+200:2527615
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6Ztm1;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 200+200:2527661
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtDa;07CR7fHeP4QfYTyO_6ZtnF;Bodenplatte:STB 300:2531016;Basiswand:Ziegel+WD hart 200+200:2527715
+;;;;;;
+o;IfcSlab;IfcSlab;07CR7fHeP4QfYTyO_6ZtD5;07CR7fHeP4QfYTyO_6ZtAZ;Bodenplatte:STB 300:2531049;Bodenplatte:STB 300:2531087
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtD5;07CR7fHeP4QfYTyO_6ZtT5;Bodenplatte:STB 300:2531049;Basiswand:Ziegel+WD hart 300+160:2530025
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtD5;07CR7fHeP4QfYTyO_6ZtT6;Bodenplatte:STB 300:2531049;Basiswand:Ziegel+WD hart 300+160:2530026
+x;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtD5;07CR7fHeP4QfYTyO_6ZtT3;Bodenplatte:STB 300:2531049;Basiswand:Ziegel+WD hart 200+200:2530031
+x;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtD5;07CR7fHeP4QfYTyO_6ZtTS;Bodenplatte:STB 300:2531049;Basiswand:Ziegel+WD hart 200+200:2530032
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtD5;1hXC4WhvX7OfF8X3V_$Y93;Bodenplatte:STB 300:2531049;Basiswand:Ziegel+WD hart 300+160:2525651
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtD5;1hXC4WhvX7OfF8X3V_$Y76;Bodenplatte:STB 300:2531049;Basiswand:Ziegel+WD hart 300+160:2525782
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtD5;07CR7fHeP4QfYTyO_6ZsDE;Bodenplatte:STB 300:2531049;Basiswand:Ziegel+WD hart 300+160:2526946
+x;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtD5;07CR7fHeP4QfYTyO_6ZtnF;Bodenplatte:STB 300:2531049;Basiswand:Ziegel+WD hart 200+200:2527715
+x;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtD5;07CR7fHeP4QfYTyO_6ZtwW;Bodenplatte:STB 300:2531049;Basiswand:Ziegel+WD hart 200+200:2528012
+x;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtD5;07CR7fHeP4QfYTyO_6ZtuF;Bodenplatte:STB 300:2531049;Basiswand:Ziegel+WD hart 200+200:2528163
+;;;;;;
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtAZ;07CR7fHeP4QfYTyO_6ZtT5;Bodenplatte:STB 300:2531087;Basiswand:Ziegel+WD hart 300+160:2530025
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtAZ;07CR7fHeP4QfYTyO_6ZtTS;Bodenplatte:STB 300:2531087;Basiswand:Ziegel+WD hart 200+200:2530032
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtAZ;07CR7fHeP4QfYTyO_6ZtTT;Bodenplatte:STB 300:2531087;Basiswand:Ziegel+WD hart 200+200:2530033
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtAZ;1hXC4WhvX7OfF8X3V_$Y93;Bodenplatte:STB 300:2531087;Basiswand:Ziegel+WD hart 300+160:2525651
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtAZ;07CR7fHeP4QfYTyO_6ZsDE;Bodenplatte:STB 300:2531087;Basiswand:Ziegel+WD hart 300+160:2526946
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtAZ;07CR7fHeP4QfYTyO_6ZtwW;Bodenplatte:STB 300:2531087;Basiswand:Ziegel+WD hart 200+200:2528012
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtAZ;07CR7fHeP4QfYTyO_6ZtwJ;Bodenplatte:STB 300:2531087;Basiswand:Ziegel+WD hart 200+200:2528063
+o;IfcSlab;IfcWall;07CR7fHeP4QfYTyO_6ZtAZ;07CR7fHeP4QfYTyO_6ZtuF;Bodenplatte:STB 300:2531087;Basiswand:Ziegel+WD hart 200+200:2528163
+;;;;;;
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT0;Basiswand:Ziegel+WD hart 300+160:2530025;Basiswand:Ziegel+WD hart 300+160:2530028
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT1;Basiswand:Ziegel+WD hart 300+160:2530025;Basiswand:Ziegel+WD hart 200+200:2530029
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtT3;Basiswand:Ziegel+WD hart 300+160:2530025;Basiswand:Ziegel+WD hart 200+200:2530031
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT5;07CR7fHeP4QfYTyO_6ZtTS;Basiswand:Ziegel+WD hart 300+160:2530025;Basiswand:Ziegel+WD hart 200+200:2530032
+;;;;;;
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT6;07CR7fHeP4QfYTyO_6ZtT0;Basiswand:Ziegel+WD hart 300+160:2530026;Basiswand:Ziegel+WD hart 300+160:2530028
+;;;;;;
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT2;Basiswand:Ziegel+WD hart 200+200:2530029;Basiswand:Ziegel+WD hart 200+200:2530030
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtT0;Basiswand:Ziegel+WD hart 200+200:2530029;Basiswand:Ziegel+WD hart 300+160:2530028
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6ZtpJ;Basiswand:Ziegel+WD hart 200+200:2530029;Basiswand:Ziegel+WD hart 200+200:2527615
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6Ztm1;Basiswand:Ziegel+WD hart 200+200:2530029;Basiswand:Ziegel+WD hart 200+200:2527661
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT1;1hXC4WhvX7OfF8X3V_$Y93;Basiswand:Ziegel+WD hart 200+200:2530029;Basiswand:Ziegel+WD hart 300+160:2525651
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT1;07CR7fHeP4QfYTyO_6Zts4;Basiswand:Ziegel+WD hart 200+200:2530029;Basiswand:Ziegel+WD hart 300+160:2527272
+;;;;;;
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT2;07CR7fHeP4QfYTyO_6ZtT3;Basiswand:Ziegel+WD hart 200+200:2530030;Basiswand:Ziegel+WD hart 200+200:2530031
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT2;07CR7fHeP4QfYTyO_6ZtpJ;Basiswand:Ziegel+WD hart 200+200:2530030;Basiswand:Ziegel+WD hart 200+200:2527615
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT2;07CR7fHeP4QfYTyO_6Ztm1;Basiswand:Ziegel+WD hart 200+200:2530030;Basiswand:Ziegel+WD hart 200+200:2527661
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT2;07CR7fHeP4QfYTyO_6ZtnF;Basiswand:Ziegel+WD hart 200+200:2530030;Basiswand:Ziegel+WD hart 200+200:2527715
+;;;;;;
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT3;07CR7fHeP4QfYTyO_6Ztm1;Basiswand:Ziegel+WD hart 200+200:2530031;Basiswand:Ziegel+WD hart 200+200:2527661
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT3;07CR7fHeP4QfYTyO_6ZtnF;Basiswand:Ziegel+WD hart 200+200:2530031;Basiswand:Ziegel+WD hart 200+200:2527715
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT3;1hXC4WhvX7OfF8X3V_$Y93;Basiswand:Ziegel+WD hart 200+200:2530031;Basiswand:Ziegel+WD hart 300+160:2525651
+;;;;;;
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT0;1hXC4WhvX7OfF8X3V_$Y93;Basiswand:Ziegel+WD hart 300+160:2530028;Basiswand:Ziegel+WD hart 300+160:2525651
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT0;1hXC4WhvX7OfF8X3V_$Y76;Basiswand:Ziegel+WD hart 300+160:2530028;Basiswand:Ziegel+WD hart 300+160:2525782
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT0;07CR7fHeP4QfYTyO_6ZtpJ;Basiswand:Ziegel+WD hart 300+160:2530028;Basiswand:Ziegel+WD hart 200+200:2527615
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtT0;07CR7fHeP4QfYTyO_6Zts4;Basiswand:Ziegel+WD hart 300+160:2530028;Basiswand:Ziegel+WD hart 300+160:2527272
+;;;;;;
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtTS;07CR7fHeP4QfYTyO_6ZtTT;Basiswand:Ziegel+WD hart 200+200:2530032;Basiswand:Ziegel+WD hart 200+200:2530033
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtTS;07CR7fHeP4QfYTyO_6ZtwW;Basiswand:Ziegel+WD hart 200+200:2530032;Basiswand:Ziegel+WD hart 200+200:2528012
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtTS;07CR7fHeP4QfYTyO_6ZtwJ;Basiswand:Ziegel+WD hart 200+200:2530032;Basiswand:Ziegel+WD hart 200+200:2528063
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtTS;1hXC4WhvX7OfF8X3V_$Y93;Basiswand:Ziegel+WD hart 200+200:2530032;Basiswand:Ziegel+WD hart 300+160:2525651
+;;;;;;
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtTT;07CR7fHeP4QfYTyO_6ZtwW;Basiswand:Ziegel+WD hart 200+200:2530033;Basiswand:Ziegel+WD hart 200+200:2528012
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtTT;07CR7fHeP4QfYTyO_6ZtwJ;Basiswand:Ziegel+WD hart 200+200:2530033;Basiswand:Ziegel+WD hart 200+200:2528063
+x;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtTT;07CR7fHeP4QfYTyO_6ZtuF;Basiswand:Ziegel+WD hart 200+200:2530033;Basiswand:Ziegel+WD hart 200+200:2528163
+;;;;;;
+o;IfcWall;IfcWall;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZsDE;Basiswand:Ziegel+WD hart 300+160:2525651;Basiswand:Ziegel+WD hart 300+160:2526946
+o;IfcWall;IfcWall;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6Zts4;Basiswand:Ziegel+WD hart 300+160:2525651;Basiswand:Ziegel+WD hart 300+160:2527272
+o;IfcWall;IfcWall;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtpJ;Basiswand:Ziegel+WD hart 300+160:2525651;Basiswand:Ziegel+WD hart 200+200:2527615
+o;IfcWall;IfcWall;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtnF;Basiswand:Ziegel+WD hart 300+160:2525651;Basiswand:Ziegel+WD hart 200+200:2527715
+o;IfcWall;IfcWall;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtwW;Basiswand:Ziegel+WD hart 300+160:2525651;Basiswand:Ziegel+WD hart 200+200:2528012
+o;IfcWall;IfcWall;1hXC4WhvX7OfF8X3V_$Y93;07CR7fHeP4QfYTyO_6ZtuF;Basiswand:Ziegel+WD hart 300+160:2525651;Basiswand:Ziegel+WD hart 200+200:2528163
+;;;;;;
+o;IfcWall;IfcWall;1hXC4WhvX7OfF8X3V_$Y76;07CR7fHeP4QfYTyO_6ZsDE;Basiswand:Ziegel+WD hart 300+160:2525782;Basiswand:Ziegel+WD hart 300+160:2526946
+o;IfcWall;IfcWall;1hXC4WhvX7OfF8X3V_$Y76;07CR7fHeP4QfYTyO_6Zts4;Basiswand:Ziegel+WD hart 300+160:2525782;Basiswand:Ziegel+WD hart 300+160:2527272
+;;;;;;
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtpJ;07CR7fHeP4QfYTyO_6Ztm1;Basiswand:Ziegel+WD hart 200+200:2527615;Basiswand:Ziegel+WD hart 200+200:2527661
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtpJ;07CR7fHeP4QfYTyO_6Zts4;Basiswand:Ziegel+WD hart 200+200:2527615;Basiswand:Ziegel+WD hart 300+160:2527272
+;;;;;;
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6Ztm1;07CR7fHeP4QfYTyO_6ZtnF;Basiswand:Ziegel+WD hart 200+200:2527661;Basiswand:Ziegel+WD hart 200+200:2527715
+;;;;;;
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtwW;Basiswand:Ziegel+WD hart 200+200:2528063;Basiswand:Ziegel+WD hart 200+200:2528012
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtwJ;07CR7fHeP4QfYTyO_6ZtuF;Basiswand:Ziegel+WD hart 200+200:2528063;Basiswand:Ziegel+WD hart 200+200:2528163
+;;;;;;
+o;IfcWall;IfcWall;07CR7fHeP4QfYTyO_6ZtuF;07CR7fHeP4QfYTyO_6ZsDE;Basiswand:Ziegel+WD hart 200+200:2528163;Basiswand:Ziegel+WD hart 300+160:2526946

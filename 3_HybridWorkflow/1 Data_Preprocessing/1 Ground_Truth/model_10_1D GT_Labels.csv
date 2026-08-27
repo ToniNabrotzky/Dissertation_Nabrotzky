@@ -1,0 +1,1122 @@
+Status;Type_A;Type_B;GUID_A;GUID_B;Name_A;Name_B
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQ66bby3;Floor:Concrete 150mm:1645068;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQ26bby3;Floor:Concrete 150mm:1645068;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQU6bby3;Floor:Concrete 150mm:1645068;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQQ6bby3;Floor:Concrete 150mm:1645068;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrh;Floor:Concrete 150mm:1645068;M_C Shapes:C310X30.8:1644850
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrg;Floor:Concrete 150mm:1645068;M_C Shapes:C310X30.8:1644851
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrj;Floor:Concrete 150mm:1645068;M_C Shapes:C310X30.8:1644852
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbri;Floor:Concrete 150mm:1645068;M_C Shapes:C310X30.8:1644853
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrl;Floor:Concrete 150mm:1645068;M_C Shapes:C310X30.8:1644854
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrk;Floor:Concrete 150mm:1645068;M_C Shapes:C310X30.8:1644855
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbro;Floor:Concrete 150mm:1645068;UC-Universal Column-Column:203x203x46UC:1644843
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrq;Floor:Concrete 150mm:1645068;UC-Universal Column-Column:203x203x46UC:1644845
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrt;Floor:Concrete 150mm:1645068;UC-Universal Column-Column:203x203x46UC:1644846
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrs;Floor:Concrete 150mm:1645068;UC-Universal Column-Column:203x203x46UC:1644847
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrf;Floor:Concrete 150mm:1645068;UC-Universal Column-Column:203x203x46UC:1644848
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbre;Floor:Concrete 150mm:1645068;UC-Universal Column-Column:203x203x46UC:1644849
+;;;;;;
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQ26bby3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQQ6bby3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQE6bbrh;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644850
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQE6bbrl;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644854
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQE6bbrk;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644855
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQE6bbro;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;UC-Universal Column-Column:203x203x46UC:1644843
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQE6bbrq;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;UC-Universal Column-Column:203x203x46UC:1644845
+;;;;;;
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQU6bby3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQQ6bby3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQE6bbrj;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644852
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQE6bbri;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644853
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQE6bbrl;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644854
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQE6bbrk;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644855
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQE6bbrq;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;UC-Universal Column-Column:203x203x46UC:1644845
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQE6bbrs;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;UC-Universal Column-Column:203x203x46UC:1644847
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQE6bbre;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;UC-Universal Column-Column:203x203x46UC:1644849
+;;;;;;
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQU6bby3;1Ze_HzuKn5mB7tAQQ6bby3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQU6bby3;1Ze_HzuKn5mB7tAQE6bbrg;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644851
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQU6bby3;1Ze_HzuKn5mB7tAQE6bbrj;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644852
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQU6bby3;1Ze_HzuKn5mB7tAQE6bbri;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644853
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQU6bby3;1Ze_HzuKn5mB7tAQE6bbrf;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;UC-Universal Column-Column:203x203x46UC:1644848
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQU6bby3;1Ze_HzuKn5mB7tAQE6bbre;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;UC-Universal Column-Column:203x203x46UC:1644849
+;;;;;;
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQQ6bby3;1Ze_HzuKn5mB7tAQE6bbrh;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644850
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQQ6bby3;1Ze_HzuKn5mB7tAQE6bbrg;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644851
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQQ6bby3;1Ze_HzuKn5mB7tAQE6bbrj;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644852
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQQ6bby3;1Ze_HzuKn5mB7tAQE6bbrk;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;M_C Shapes:C310X30.8:1644855
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQQ6bby3;1Ze_HzuKn5mB7tAQE6bbro;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;UC-Universal Column-Column:203x203x46UC:1644843
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQQ6bby3;1Ze_HzuKn5mB7tAQE6bbrt;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;UC-Universal Column-Column:203x203x46UC:1644846
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQQ6bby3;1Ze_HzuKn5mB7tAQE6bbrf;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;UC-Universal Column-Column:203x203x46UC:1644848
+;;;;;;
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIuadDaEuM;Floor:Concrete 150mm:1651464;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIuaZDaEuM;Floor:Concrete 150mm:1651464;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIua$DaEuM;Floor:Concrete 150mm:1651464;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIuaxDaEuM;Floor:Concrete 150mm:1651464;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaEu4;Floor:Concrete 150mm:1651464;M_C Shapes:C310X30.8:1651457
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaEu7;Floor:Concrete 150mm:1651464;M_C Shapes:C310X30.8:1651458
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaEu6;Floor:Concrete 150mm:1651464;M_C Shapes:C310X30.8:1651459
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaEu1;Floor:Concrete 150mm:1651464;M_C Shapes:C310X30.8:1651460
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaEu0;Floor:Concrete 150mm:1651464;M_C Shapes:C310X30.8:1651461
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaEu3;Floor:Concrete 150mm:1651464;M_C Shapes:C310X30.8:1651462
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaE$$;Floor:Concrete 150mm:1651464;UC-Universal Column-Column:203x203x46UC:1651450
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaE$v;Floor:Concrete 150mm:1651464;UC-Universal Column-Column:203x203x46UC:1651452
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaE$u;Floor:Concrete 150mm:1651464;UC-Universal Column-Column:203x203x46UC:1651453
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaE$x;Floor:Concrete 150mm:1651464;UC-Universal Column-Column:203x203x46UC:1651454
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaE$w;Floor:Concrete 150mm:1651464;UC-Universal Column-Column:203x203x46UC:1651455
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaEu5;Floor:Concrete 150mm:1651464;UC-Universal Column-Column:203x203x46UC:1651456
+;;;;;;
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIuaZDaEuM;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIuaxDaEuM;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIualDaEu4;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651457
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIualDaEu0;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651461
+x;IfcSlab;IfcBeamx;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIualDaEu3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651462
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIualDaE$$;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;UC-Universal Column-Column:203x203x46UC:1651450
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIualDaE$v;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;UC-Universal Column-Column:203x203x46UC:1651452
+;;;;;;
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIua$DaEuM;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIuaxDaEuM;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIualDaEu6;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651459
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIualDaEu1;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651460
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIualDaEu0;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651461
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIualDaEu3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651462
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIualDaE$v;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;UC-Universal Column-Column:203x203x46UC:1651452
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIualDaE$x;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;UC-Universal Column-Column:203x203x46UC:1651454
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIualDaEu5;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;UC-Universal Column-Column:203x203x46UC:1651456
+;;;;;;
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIua$DaEuM;3zPFHdZZvE6QPIuaxDaEuM;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIua$DaEuM;3zPFHdZZvE6QPIualDaEu7;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651458
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIua$DaEuM;3zPFHdZZvE6QPIualDaEu6;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651459
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIua$DaEuM;3zPFHdZZvE6QPIualDaEu1;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651460
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIua$DaEuM;3zPFHdZZvE6QPIualDaE$w;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;UC-Universal Column-Column:203x203x46UC:1651455
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIua$DaEuM;3zPFHdZZvE6QPIualDaEu5;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;UC-Universal Column-Column:203x203x46UC:1651456
+;;;;;;
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIuaxDaEuM;3zPFHdZZvE6QPIualDaEu4;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651457
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIuaxDaEuM;3zPFHdZZvE6QPIualDaEu7;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651458
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIuaxDaEuM;3zPFHdZZvE6QPIualDaEu6;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651459
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIuaxDaEuM;3zPFHdZZvE6QPIualDaEu3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;M_C Shapes:C310X30.8:1651462
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIuaxDaEuM;3zPFHdZZvE6QPIualDaE$$;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;UC-Universal Column-Column:203x203x46UC:1651450
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIuaxDaEuM;3zPFHdZZvE6QPIualDaE$u;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;UC-Universal Column-Column:203x203x46UC:1651453
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIuaxDaEuM;3zPFHdZZvE6QPIualDaE$w;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;UC-Universal Column-Column:203x203x46UC:1651455
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbrh;1Ze_HzuKn5mB7tAQE6bbrg;M_C Shapes:C310X30.8:1644850;M_C Shapes:C310X30.8:1644851
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbrh;1Ze_HzuKn5mB7tAQE6bbrk;M_C Shapes:C310X30.8:1644850;M_C Shapes:C310X30.8:1644855
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbrh;1Ze_HzuKn5mB7tAQE6bbro;M_C Shapes:C310X30.8:1644850;UC-Universal Column-Column:203x203x46UC:1644843
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbrh;1Ze_HzuKn5mB7tAQE6bbrt;M_C Shapes:C310X30.8:1644850;UC-Universal Column-Column:203x203x46UC:1644846
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbrg;1Ze_HzuKn5mB7tAQE6bbrj;M_C Shapes:C310X30.8:1644851;M_C Shapes:C310X30.8:1644852
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbrg;1Ze_HzuKn5mB7tAQE6bbrt;M_C Shapes:C310X30.8:1644851;UC-Universal Column-Column:203x203x46UC:1644846
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbrg;1Ze_HzuKn5mB7tAQE6bbrf;M_C Shapes:C310X30.8:1644851;UC-Universal Column-Column:203x203x46UC:1644848
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbrj;1Ze_HzuKn5mB7tAQE6bbri;M_C Shapes:C310X30.8:1644852;M_C Shapes:C310X30.8:1644853
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbrj;1Ze_HzuKn5mB7tAQE6bbrf;M_C Shapes:C310X30.8:1644852;UC-Universal Column-Column:203x203x46UC:1644848
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbrj;1Ze_HzuKn5mB7tAQE6bbre;M_C Shapes:C310X30.8:1644852;UC-Universal Column-Column:203x203x46UC:1644849
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbri;1Ze_HzuKn5mB7tAQE6bbrl;M_C Shapes:C310X30.8:1644853;M_C Shapes:C310X30.8:1644854
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbri;1Ze_HzuKn5mB7tAQE6bbrs;M_C Shapes:C310X30.8:1644853;UC-Universal Column-Column:203x203x46UC:1644847
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbri;1Ze_HzuKn5mB7tAQE6bbre;M_C Shapes:C310X30.8:1644853;UC-Universal Column-Column:203x203x46UC:1644849
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbrl;1Ze_HzuKn5mB7tAQE6bbrk;M_C Shapes:C310X30.8:1644854;M_C Shapes:C310X30.8:1644855
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbrl;1Ze_HzuKn5mB7tAQE6bbrq;M_C Shapes:C310X30.8:1644854;UC-Universal Column-Column:203x203x46UC:1644845
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbrl;1Ze_HzuKn5mB7tAQE6bbrs;M_C Shapes:C310X30.8:1644854;UC-Universal Column-Column:203x203x46UC:1644847
+;;;;;;
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbrk;1Ze_HzuKn5mB7tAQE6bbro;M_C Shapes:C310X30.8:1644855;UC-Universal Column-Column:203x203x46UC:1644843
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbrk;1Ze_HzuKn5mB7tAQE6bbrq;M_C Shapes:C310X30.8:1644855;UC-Universal Column-Column:203x203x46UC:1644845
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEu4;3zPFHdZZvE6QPIualDaEu7;M_C Shapes:C310X30.8:1651457;M_C Shapes:C310X30.8:1651458
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEu4;3zPFHdZZvE6QPIualDaEu3;M_C Shapes:C310X30.8:1651457;M_C Shapes:C310X30.8:1651462
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu4;3zPFHdZZvE6QPIualDaE$$;M_C Shapes:C310X30.8:1651457;UC-Universal Column-Column:203x203x46UC:1651450
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu4;3zPFHdZZvE6QPIualDaE$u;M_C Shapes:C310X30.8:1651457;UC-Universal Column-Column:203x203x46UC:1651453
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEu7;3zPFHdZZvE6QPIualDaEu6;M_C Shapes:C310X30.8:1651458;M_C Shapes:C310X30.8:1651459
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu7;3zPFHdZZvE6QPIualDaE$u;M_C Shapes:C310X30.8:1651458;UC-Universal Column-Column:203x203x46UC:1651453
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu7;3zPFHdZZvE6QPIualDaE$w;M_C Shapes:C310X30.8:1651458;UC-Universal Column-Column:203x203x46UC:1651455
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEu6;3zPFHdZZvE6QPIualDaEu1;M_C Shapes:C310X30.8:1651459;M_C Shapes:C310X30.8:1651460
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu6;3zPFHdZZvE6QPIualDaE$w;M_C Shapes:C310X30.8:1651459;UC-Universal Column-Column:203x203x46UC:1651455
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu6;3zPFHdZZvE6QPIualDaEu5;M_C Shapes:C310X30.8:1651459;UC-Universal Column-Column:203x203x46UC:1651456
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEu1;3zPFHdZZvE6QPIualDaEu0;M_C Shapes:C310X30.8:1651460;M_C Shapes:C310X30.8:1651461
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu1;3zPFHdZZvE6QPIualDaE$x;M_C Shapes:C310X30.8:1651460;UC-Universal Column-Column:203x203x46UC:1651454
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu1;3zPFHdZZvE6QPIualDaEu5;M_C Shapes:C310X30.8:1651460;UC-Universal Column-Column:203x203x46UC:1651456
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEu0;3zPFHdZZvE6QPIualDaEu3;M_C Shapes:C310X30.8:1651461;M_C Shapes:C310X30.8:1651462
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu0;3zPFHdZZvE6QPIualDaE$v;M_C Shapes:C310X30.8:1651461;UC-Universal Column-Column:203x203x46UC:1651452
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu0;3zPFHdZZvE6QPIualDaE$x;M_C Shapes:C310X30.8:1651461;UC-Universal Column-Column:203x203x46UC:1651454
+;;;;;;
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu3;3zPFHdZZvE6QPIualDaE$$;M_C Shapes:C310X30.8:1651462;UC-Universal Column-Column:203x203x46UC:1651450
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEu3;3zPFHdZZvE6QPIualDaE$v;M_C Shapes:C310X30.8:1651462;UC-Universal Column-Column:203x203x46UC:1651452
+;;;;;;
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbFm;Floor:Concrete 150mm:1644675;M_C Shapes:C310X30.8:1644457
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbFp;Floor:Concrete 150mm:1644675;M_C Shapes:C310X30.8:1644458
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbFr;Floor:Concrete 150mm:1644675;M_C Shapes:C310X30.8:1644460
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbFq;Floor:Concrete 150mm:1644675;M_C Shapes:C310X30.8:1644461
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbFt;Floor:Concrete 150mm:1644675;M_C Shapes:C310X30.8:1644462
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbFx;Floor:Concrete 150mm:1644675;UC-Universal Column-Column:203x203x46UC:1644450
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbFz;Floor:Concrete 150mm:1644675;UC-Universal Column-Column:203x203x46UC:1644452
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbFy;Floor:Concrete 150mm:1644675;UC-Universal Column-Column:203x203x46UC:1644453
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbF$;Floor:Concrete 150mm:1644675;UC-Universal Column-Column:203x203x46UC:1644454
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbro;Floor:Concrete 150mm:1644675;UC-Universal Column-Column:203x203x46UC:1644843
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbrq;Floor:Concrete 150mm:1644675;UC-Universal Column-Column:203x203x46UC:1644845
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbrt;Floor:Concrete 150mm:1644675;UC-Universal Column-Column:203x203x46UC:1644846
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbrs;Floor:Concrete 150mm:1644675;UC-Universal Column-Column:203x203x46UC:1644847
+;;;;;;
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEyH;Floor:Concrete 150mm:1651289;M_C Shapes:C310X30.8:1651220
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEyG;Floor:Concrete 150mm:1651289;M_C Shapes:C310X30.8:1651221
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEyI;Floor:Concrete 150mm:1651289;M_C Shapes:C310X30.8:1651223
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEyT;Floor:Concrete 150mm:1651289;M_C Shapes:C310X30.8:1651224
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEyS;Floor:Concrete 150mm:1651289;M_C Shapes:C310X30.8:1651225
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEy8;Floor:Concrete 150mm:1651289;UC-Universal Column-Column:203x203x46UC:1651213
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEyA;Floor:Concrete 150mm:1651289;UC-Universal Column-Column:203x203x46UC:1651215
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEyL;Floor:Concrete 150mm:1651289;UC-Universal Column-Column:203x203x46UC:1651216
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEyK;Floor:Concrete 150mm:1651289;UC-Universal Column-Column:203x203x46UC:1651217
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaE$$;Floor:Concrete 150mm:1651289;UC-Universal Column-Column:203x203x46UC:1651450
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaE$v;Floor:Concrete 150mm:1651289;UC-Universal Column-Column:203x203x46UC:1651452
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaE$u;Floor:Concrete 150mm:1651289;UC-Universal Column-Column:203x203x46UC:1651453
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaE$x;Floor:Concrete 150mm:1651289;UC-Universal Column-Column:203x203x46UC:1651454
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbFm;1Ze_HzuKn5mB7tAQE6bbFp;M_C Shapes:C310X30.8:1644457;M_C Shapes:C310X30.8:1644458
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbFm;1Ze_HzuKn5mB7tAQE6bbFt;M_C Shapes:C310X30.8:1644457;M_C Shapes:C310X30.8:1644462
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFm;1Ze_HzuKn5mB7tAQE6bbFx;M_C Shapes:C310X30.8:1644457;UC-Universal Column-Column:203x203x46UC:1644450
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFm;1Ze_HzuKn5mB7tAQE6bbFy;M_C Shapes:C310X30.8:1644457;UC-Universal Column-Column:203x203x46UC:1644453
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFm;1Ze_HzuKn5mB7tAQE6bbro;M_C Shapes:C310X30.8:1644457;UC-Universal Column-Column:203x203x46UC:1644843
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFm;1Ze_HzuKn5mB7tAQE6bbrt;M_C Shapes:C310X30.8:1644457;UC-Universal Column-Column:203x203x46UC:1644846
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbFp;1Ze_HzuKn5mB7tAQE6bbFo;M_C Shapes:C310X30.8:1644458;M_C Shapes:C310X30.8:1644459
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFp;1Ze_HzuKn5mB7tAQE6bbFy;M_C Shapes:C310X30.8:1644458;UC-Universal Column-Column:203x203x46UC:1644453
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFp;1Ze_HzuKn5mB7tAQE6bbF_;M_C Shapes:C310X30.8:1644458;UC-Universal Column-Column:203x203x46UC:1644455
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFp;1Ze_HzuKn5mB7tAQE6bbrt;M_C Shapes:C310X30.8:1644458;UC-Universal Column-Column:203x203x46UC:1644846
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFp;1Ze_HzuKn5mB7tAQE6bbrf;M_C Shapes:C310X30.8:1644458;UC-Universal Column-Column:203x203x46UC:1644848
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbFo;1Ze_HzuKn5mB7tAQE6bbFr;M_C Shapes:C310X30.8:1644459;M_C Shapes:C310X30.8:1644460
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFo;1Ze_HzuKn5mB7tAQE6bbF_;M_C Shapes:C310X30.8:1644459;UC-Universal Column-Column:203x203x46UC:1644455
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFo;1Ze_HzuKn5mB7tAQE6bbFn;M_C Shapes:C310X30.8:1644459;UC-Universal Column-Column:203x203x46UC:1644456
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFo;1Ze_HzuKn5mB7tAQE6bbrf;M_C Shapes:C310X30.8:1644459;UC-Universal Column-Column:203x203x46UC:1644848
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFo;1Ze_HzuKn5mB7tAQE6bbre;M_C Shapes:C310X30.8:1644459;UC-Universal Column-Column:203x203x46UC:1644849
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbFr;1Ze_HzuKn5mB7tAQE6bbFq;M_C Shapes:C310X30.8:1644460;M_C Shapes:C310X30.8:1644461
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFr;1Ze_HzuKn5mB7tAQE6bbF$;M_C Shapes:C310X30.8:1644460;UC-Universal Column-Column:203x203x46UC:1644454
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFr;1Ze_HzuKn5mB7tAQE6bbFn;M_C Shapes:C310X30.8:1644460;UC-Universal Column-Column:203x203x46UC:1644456
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFr;1Ze_HzuKn5mB7tAQE6bbrs;M_C Shapes:C310X30.8:1644460;UC-Universal Column-Column:203x203x46UC:1644847
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFr;1Ze_HzuKn5mB7tAQE6bbre;M_C Shapes:C310X30.8:1644460;UC-Universal Column-Column:203x203x46UC:1644849
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bbFq;1Ze_HzuKn5mB7tAQE6bbFt;M_C Shapes:C310X30.8:1644461;M_C Shapes:C310X30.8:1644462
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFq;1Ze_HzuKn5mB7tAQE6bbFz;M_C Shapes:C310X30.8:1644461;UC-Universal Column-Column:203x203x46UC:1644452
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFq;1Ze_HzuKn5mB7tAQE6bbF$;M_C Shapes:C310X30.8:1644461;UC-Universal Column-Column:203x203x46UC:1644454
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFq;1Ze_HzuKn5mB7tAQE6bbrq;M_C Shapes:C310X30.8:1644461;UC-Universal Column-Column:203x203x46UC:1644845
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFq;1Ze_HzuKn5mB7tAQE6bbrs;M_C Shapes:C310X30.8:1644461;UC-Universal Column-Column:203x203x46UC:1644847
+;;;;;;
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFt;1Ze_HzuKn5mB7tAQE6bbFx;M_C Shapes:C310X30.8:1644462;UC-Universal Column-Column:203x203x46UC:1644450
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFt;1Ze_HzuKn5mB7tAQE6bbFz;M_C Shapes:C310X30.8:1644462;UC-Universal Column-Column:203x203x46UC:1644452
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFt;1Ze_HzuKn5mB7tAQE6bbro;M_C Shapes:C310X30.8:1644462;UC-Universal Column-Column:203x203x46UC:1644843
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFt;1Ze_HzuKn5mB7tAQE6bbrq;M_C Shapes:C310X30.8:1644462;UC-Universal Column-Column:203x203x46UC:1644845
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEyH;3zPFHdZZvE6QPIualDaEyG;M_C Shapes:C310X30.8:1651220;M_C Shapes:C310X30.8:1651221
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEyH;3zPFHdZZvE6QPIualDaEyS;M_C Shapes:C310X30.8:1651220;M_C Shapes:C310X30.8:1651225
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyH;3zPFHdZZvE6QPIualDaEy8;M_C Shapes:C310X30.8:1651220;UC-Universal Column-Column:203x203x46UC:1651213
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyH;3zPFHdZZvE6QPIualDaEyL;M_C Shapes:C310X30.8:1651220;UC-Universal Column-Column:203x203x46UC:1651216
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyH;3zPFHdZZvE6QPIualDaE$$;M_C Shapes:C310X30.8:1651220;UC-Universal Column-Column:203x203x46UC:1651450
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyH;3zPFHdZZvE6QPIualDaE$u;M_C Shapes:C310X30.8:1651220;UC-Universal Column-Column:203x203x46UC:1651453
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEyG;3zPFHdZZvE6QPIualDaEyJ;M_C Shapes:C310X30.8:1651221;M_C Shapes:C310X30.8:1651222
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyG;3zPFHdZZvE6QPIualDaEyL;M_C Shapes:C310X30.8:1651221;UC-Universal Column-Column:203x203x46UC:1651216
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyG;3zPFHdZZvE6QPIualDaEyN;M_C Shapes:C310X30.8:1651221;UC-Universal Column-Column:203x203x46UC:1651218
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyG;3zPFHdZZvE6QPIualDaE$u;M_C Shapes:C310X30.8:1651221;UC-Universal Column-Column:203x203x46UC:1651453
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyG;3zPFHdZZvE6QPIualDaE$w;M_C Shapes:C310X30.8:1651221;UC-Universal Column-Column:203x203x46UC:1651455
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEyJ;3zPFHdZZvE6QPIualDaEyI;M_C Shapes:C310X30.8:1651222;M_C Shapes:C310X30.8:1651223
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyJ;3zPFHdZZvE6QPIualDaEyN;M_C Shapes:C310X30.8:1651222;UC-Universal Column-Column:203x203x46UC:1651218
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyJ;3zPFHdZZvE6QPIualDaEyM;M_C Shapes:C310X30.8:1651222;UC-Universal Column-Column:203x203x46UC:1651219
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyJ;3zPFHdZZvE6QPIualDaE$w;M_C Shapes:C310X30.8:1651222;UC-Universal Column-Column:203x203x46UC:1651455
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyJ;3zPFHdZZvE6QPIualDaEu5;M_C Shapes:C310X30.8:1651222;UC-Universal Column-Column:203x203x46UC:1651456
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEyI;3zPFHdZZvE6QPIualDaEyT;M_C Shapes:C310X30.8:1651223;M_C Shapes:C310X30.8:1651224
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyI;3zPFHdZZvE6QPIualDaEyK;M_C Shapes:C310X30.8:1651223;UC-Universal Column-Column:203x203x46UC:1651217
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyI;3zPFHdZZvE6QPIualDaEyM;M_C Shapes:C310X30.8:1651223;UC-Universal Column-Column:203x203x46UC:1651219
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyI;3zPFHdZZvE6QPIualDaE$x;M_C Shapes:C310X30.8:1651223;UC-Universal Column-Column:203x203x46UC:1651454
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyI;3zPFHdZZvE6QPIualDaEu5;M_C Shapes:C310X30.8:1651223;UC-Universal Column-Column:203x203x46UC:1651456
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEyT;3zPFHdZZvE6QPIualDaEyS;M_C Shapes:C310X30.8:1651224;M_C Shapes:C310X30.8:1651225
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyT;3zPFHdZZvE6QPIualDaEyA;M_C Shapes:C310X30.8:1651224;UC-Universal Column-Column:203x203x46UC:1651215
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyT;3zPFHdZZvE6QPIualDaEyK;M_C Shapes:C310X30.8:1651224;UC-Universal Column-Column:203x203x46UC:1651217
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyT;3zPFHdZZvE6QPIualDaE$v;M_C Shapes:C310X30.8:1651224;UC-Universal Column-Column:203x203x46UC:1651452
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyT;3zPFHdZZvE6QPIualDaE$x;M_C Shapes:C310X30.8:1651224;UC-Universal Column-Column:203x203x46UC:1651454
+;;;;;;
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyS;3zPFHdZZvE6QPIualDaEy8;M_C Shapes:C310X30.8:1651225;UC-Universal Column-Column:203x203x46UC:1651213
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyS;3zPFHdZZvE6QPIualDaEyA;M_C Shapes:C310X30.8:1651225;UC-Universal Column-Column:203x203x46UC:1651215
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyS;3zPFHdZZvE6QPIualDaE$$;M_C Shapes:C310X30.8:1651225;UC-Universal Column-Column:203x203x46UC:1651450
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEyS;3zPFHdZZvE6QPIualDaE$v;M_C Shapes:C310X30.8:1651225;UC-Universal Column-Column:203x203x46UC:1651452
+;;;;;;
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb9v;Floor:Concrete 150mm:1644282;M_C Shapes:C310X30.8:1644064
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb9u;Floor:Concrete 150mm:1644282;M_C Shapes:C310X30.8:1644065
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb9w;Floor:Concrete 150mm:1644282;M_C Shapes:C310X30.8:1644067
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb9z;Floor:Concrete 150mm:1644282;M_C Shapes:C310X30.8:1644068
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb9y;Floor:Concrete 150mm:1644282;M_C Shapes:C310X30.8:1644069
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb90;Floor:Concrete 150mm:1644282;UC-Universal Column-Column:203x203x46UC:1644057
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb92;Floor:Concrete 150mm:1644282;UC-Universal Column-Column:203x203x46UC:1644059
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb95;Floor:Concrete 150mm:1644282;UC-Universal Column-Column:203x203x46UC:1644060
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb94;Floor:Concrete 150mm:1644282;UC-Universal Column-Column:203x203x46UC:1644061
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bbFx;Floor:Concrete 150mm:1644282;UC-Universal Column-Column:203x203x46UC:1644450
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bbFz;Floor:Concrete 150mm:1644282;UC-Universal Column-Column:203x203x46UC:1644452
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bbFy;Floor:Concrete 150mm:1644282;UC-Universal Column-Column:203x203x46UC:1644453
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bbF$;Floor:Concrete 150mm:1644282;UC-Universal Column-Column:203x203x46UC:1644454
+;;;;;;
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmY;Floor:Concrete 150mm:1651052;M_C Shapes:C310X30.8:1650983
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmj;Floor:Concrete 150mm:1651052;M_C Shapes:C310X30.8:1650984
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEml;Floor:Concrete 150mm:1651052;M_C Shapes:C310X30.8:1650986
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmk;Floor:Concrete 150mm:1651052;M_C Shapes:C310X30.8:1650987
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmf;Floor:Concrete 150mm:1651052;M_C Shapes:C310X30.8:1650988
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmb;Floor:Concrete 150mm:1651052;UC-Universal Column-Column:203x203x46UC:1650976
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmd;Floor:Concrete 150mm:1651052;UC-Universal Column-Column:203x203x46UC:1650978
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmc;Floor:Concrete 150mm:1651052;UC-Universal Column-Column:203x203x46UC:1650979
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmX;Floor:Concrete 150mm:1651052;UC-Universal Column-Column:203x203x46UC:1650980
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEy8;Floor:Concrete 150mm:1651052;UC-Universal Column-Column:203x203x46UC:1651213
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEyA;Floor:Concrete 150mm:1651052;UC-Universal Column-Column:203x203x46UC:1651215
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEyL;Floor:Concrete 150mm:1651052;UC-Universal Column-Column:203x203x46UC:1651216
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEyK;Floor:Concrete 150mm:1651052;UC-Universal Column-Column:203x203x46UC:1651217
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb9v;1Ze_HzuKn5mB7tAQE6bb9u;M_C Shapes:C310X30.8:1644064;M_C Shapes:C310X30.8:1644065
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb9v;1Ze_HzuKn5mB7tAQE6bb9y;M_C Shapes:C310X30.8:1644064;M_C Shapes:C310X30.8:1644069
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9v;1Ze_HzuKn5mB7tAQE6bb90;M_C Shapes:C310X30.8:1644064;UC-Universal Column-Column:203x203x46UC:1644057
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9v;1Ze_HzuKn5mB7tAQE6bb95;M_C Shapes:C310X30.8:1644064;UC-Universal Column-Column:203x203x46UC:1644060
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9v;1Ze_HzuKn5mB7tAQE6bbFx;M_C Shapes:C310X30.8:1644064;UC-Universal Column-Column:203x203x46UC:1644450
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9v;1Ze_HzuKn5mB7tAQE6bbFy;M_C Shapes:C310X30.8:1644064;UC-Universal Column-Column:203x203x46UC:1644453
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb9u;1Ze_HzuKn5mB7tAQE6bb9x;M_C Shapes:C310X30.8:1644065;M_C Shapes:C310X30.8:1644066
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9u;1Ze_HzuKn5mB7tAQE6bb95;M_C Shapes:C310X30.8:1644065;UC-Universal Column-Column:203x203x46UC:1644060
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9u;1Ze_HzuKn5mB7tAQE6bb97;M_C Shapes:C310X30.8:1644065;UC-Universal Column-Column:203x203x46UC:1644062
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9u;1Ze_HzuKn5mB7tAQE6bbFy;M_C Shapes:C310X30.8:1644065;UC-Universal Column-Column:203x203x46UC:1644453
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9u;1Ze_HzuKn5mB7tAQE6bbF_;M_C Shapes:C310X30.8:1644065;UC-Universal Column-Column:203x203x46UC:1644455
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb9x;1Ze_HzuKn5mB7tAQE6bb9w;M_C Shapes:C310X30.8:1644066;M_C Shapes:C310X30.8:1644067
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9x;1Ze_HzuKn5mB7tAQE6bb97;M_C Shapes:C310X30.8:1644066;UC-Universal Column-Column:203x203x46UC:1644062
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9x;1Ze_HzuKn5mB7tAQE6bb96;M_C Shapes:C310X30.8:1644066;UC-Universal Column-Column:203x203x46UC:1644063
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9x;1Ze_HzuKn5mB7tAQE6bbF_;M_C Shapes:C310X30.8:1644066;UC-Universal Column-Column:203x203x46UC:1644455
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9x;1Ze_HzuKn5mB7tAQE6bbFn;M_C Shapes:C310X30.8:1644066;UC-Universal Column-Column:203x203x46UC:1644456
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb9w;1Ze_HzuKn5mB7tAQE6bb9z;M_C Shapes:C310X30.8:1644067;M_C Shapes:C310X30.8:1644068
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9w;1Ze_HzuKn5mB7tAQE6bb94;M_C Shapes:C310X30.8:1644067;UC-Universal Column-Column:203x203x46UC:1644061
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9w;1Ze_HzuKn5mB7tAQE6bb96;M_C Shapes:C310X30.8:1644067;UC-Universal Column-Column:203x203x46UC:1644063
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9w;1Ze_HzuKn5mB7tAQE6bbF$;M_C Shapes:C310X30.8:1644067;UC-Universal Column-Column:203x203x46UC:1644454
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9w;1Ze_HzuKn5mB7tAQE6bbFn;M_C Shapes:C310X30.8:1644067;UC-Universal Column-Column:203x203x46UC:1644456
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb9z;1Ze_HzuKn5mB7tAQE6bb9y;M_C Shapes:C310X30.8:1644068;M_C Shapes:C310X30.8:1644069
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9z;1Ze_HzuKn5mB7tAQE6bb92;M_C Shapes:C310X30.8:1644068;UC-Universal Column-Column:203x203x46UC:1644059
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9z;1Ze_HzuKn5mB7tAQE6bb94;M_C Shapes:C310X30.8:1644068;UC-Universal Column-Column:203x203x46UC:1644061
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9z;1Ze_HzuKn5mB7tAQE6bbFz;M_C Shapes:C310X30.8:1644068;UC-Universal Column-Column:203x203x46UC:1644452
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9z;1Ze_HzuKn5mB7tAQE6bbF$;M_C Shapes:C310X30.8:1644068;UC-Universal Column-Column:203x203x46UC:1644454
+;;;;;;
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9y;1Ze_HzuKn5mB7tAQE6bb90;M_C Shapes:C310X30.8:1644069;UC-Universal Column-Column:203x203x46UC:1644057
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9y;1Ze_HzuKn5mB7tAQE6bb92;M_C Shapes:C310X30.8:1644069;UC-Universal Column-Column:203x203x46UC:1644059
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9y;1Ze_HzuKn5mB7tAQE6bbFx;M_C Shapes:C310X30.8:1644069;UC-Universal Column-Column:203x203x46UC:1644450
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9y;1Ze_HzuKn5mB7tAQE6bbFz;M_C Shapes:C310X30.8:1644069;UC-Universal Column-Column:203x203x46UC:1644452
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEmY;3zPFHdZZvE6QPIualDaEmj;M_C Shapes:C310X30.8:1650983;M_C Shapes:C310X30.8:1650984
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEmY;3zPFHdZZvE6QPIualDaEmf;M_C Shapes:C310X30.8:1650983;M_C Shapes:C310X30.8:1650988
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmY;3zPFHdZZvE6QPIualDaEmb;M_C Shapes:C310X30.8:1650983;UC-Universal Column-Column:203x203x46UC:1650976
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmY;3zPFHdZZvE6QPIualDaEmc;M_C Shapes:C310X30.8:1650983;UC-Universal Column-Column:203x203x46UC:1650979
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmY;3zPFHdZZvE6QPIualDaEy8;M_C Shapes:C310X30.8:1650983;UC-Universal Column-Column:203x203x46UC:1651213
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmY;3zPFHdZZvE6QPIualDaEyL;M_C Shapes:C310X30.8:1650983;UC-Universal Column-Column:203x203x46UC:1651216
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEmj;3zPFHdZZvE6QPIualDaEmi;M_C Shapes:C310X30.8:1650984;M_C Shapes:C310X30.8:1650985
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmj;3zPFHdZZvE6QPIualDaEmc;M_C Shapes:C310X30.8:1650984;UC-Universal Column-Column:203x203x46UC:1650979
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmj;3zPFHdZZvE6QPIualDaEmW;M_C Shapes:C310X30.8:1650984;UC-Universal Column-Column:203x203x46UC:1650981
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmj;3zPFHdZZvE6QPIualDaEyL;M_C Shapes:C310X30.8:1650984;UC-Universal Column-Column:203x203x46UC:1651216
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmj;3zPFHdZZvE6QPIualDaEyN;M_C Shapes:C310X30.8:1650984;UC-Universal Column-Column:203x203x46UC:1651218
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEmi;3zPFHdZZvE6QPIualDaEml;M_C Shapes:C310X30.8:1650985;M_C Shapes:C310X30.8:1650986
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmi;3zPFHdZZvE6QPIualDaEmW;M_C Shapes:C310X30.8:1650985;UC-Universal Column-Column:203x203x46UC:1650981
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmi;3zPFHdZZvE6QPIualDaEmZ;M_C Shapes:C310X30.8:1650985;UC-Universal Column-Column:203x203x46UC:1650982
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmi;3zPFHdZZvE6QPIualDaEyN;M_C Shapes:C310X30.8:1650985;UC-Universal Column-Column:203x203x46UC:1651218
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmi;3zPFHdZZvE6QPIualDaEyM;M_C Shapes:C310X30.8:1650985;UC-Universal Column-Column:203x203x46UC:1651219
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEml;3zPFHdZZvE6QPIualDaEmk;M_C Shapes:C310X30.8:1650986;M_C Shapes:C310X30.8:1650987
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEml;3zPFHdZZvE6QPIualDaEmX;M_C Shapes:C310X30.8:1650986;UC-Universal Column-Column:203x203x46UC:1650980
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEml;3zPFHdZZvE6QPIualDaEmZ;M_C Shapes:C310X30.8:1650986;UC-Universal Column-Column:203x203x46UC:1650982
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEml;3zPFHdZZvE6QPIualDaEyK;M_C Shapes:C310X30.8:1650986;UC-Universal Column-Column:203x203x46UC:1651217
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEml;3zPFHdZZvE6QPIualDaEyM;M_C Shapes:C310X30.8:1650986;UC-Universal Column-Column:203x203x46UC:1651219
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEmk;3zPFHdZZvE6QPIualDaEmf;M_C Shapes:C310X30.8:1650987;M_C Shapes:C310X30.8:1650988
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmk;3zPFHdZZvE6QPIualDaEmd;M_C Shapes:C310X30.8:1650987;UC-Universal Column-Column:203x203x46UC:1650978
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmk;3zPFHdZZvE6QPIualDaEmX;M_C Shapes:C310X30.8:1650987;UC-Universal Column-Column:203x203x46UC:1650980
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmk;3zPFHdZZvE6QPIualDaEyA;M_C Shapes:C310X30.8:1650987;UC-Universal Column-Column:203x203x46UC:1651215
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmk;3zPFHdZZvE6QPIualDaEyK;M_C Shapes:C310X30.8:1650987;UC-Universal Column-Column:203x203x46UC:1651217
+;;;;;;
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmf;3zPFHdZZvE6QPIualDaEmb;M_C Shapes:C310X30.8:1650988;UC-Universal Column-Column:203x203x46UC:1650976
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmf;3zPFHdZZvE6QPIualDaEmd;M_C Shapes:C310X30.8:1650988;UC-Universal Column-Column:203x203x46UC:1650978
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmf;3zPFHdZZvE6QPIualDaEy8;M_C Shapes:C310X30.8:1650988;UC-Universal Column-Column:203x203x46UC:1651213
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEmf;3zPFHdZZvE6QPIualDaEyA;M_C Shapes:C310X30.8:1650988;UC-Universal Column-Column:203x203x46UC:1651215
+;;;;;;
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;2mpujw6n12d93LqapNBqr9;Floor:Concrete 250mm:1623937;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;2mpujw6n12d93LqatNBqr9;Floor:Concrete 250mm:1623937;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;2mpujw6n12d93LqahNBqr9;Floor:Concrete 250mm:1623937;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;2mpujw6n12d93LqalNBqr9;Floor:Concrete 250mm:1623937;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb4e;Floor:Concrete 250mm:1623937;Floor:Concrete 150mm:1643889
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaErw;Floor:Concrete 250mm:1623937;Floor:Concrete 150mm:1650815
+x;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb3E;Floor:Concrete 250mm:1623937;M_C Shapes:C310X30.8:1643671
+x;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb32;Floor:Concrete 250mm:1623937;M_C Shapes:C310X30.8:1643675
+x;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb35;Floor:Concrete 250mm:1623937;M_C Shapes:C310X30.8:1643676
+x;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEq$;Floor:Concrete 250mm:1623937;M_C Shapes:C310X30.8:1650746
+x;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEqx;Floor:Concrete 250mm:1623937;M_C Shapes:C310X30.8:1650750
+x;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEqw;Floor:Concrete 250mm:1623937;M_C Shapes:C310X30.8:1650751
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9f;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619101
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9g;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619102
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9h;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619103
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9K;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619104
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9L;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619105
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9M;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619106
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9N;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1619107
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9G;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1619108
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9H;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1619109
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9I;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1619110
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eusR;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620847
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus4;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620848
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus5;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620849
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus6;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620850
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus7;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620851
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus0;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620852
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus1;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620853
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus2;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620854
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eure;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620892
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3lo8hfPmTDfP813$HDU1DS;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gTv;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gR5;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gR4;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gRq;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gRp;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gRf;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gRe;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gO0;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gO$;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evlR;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evl4;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evl5;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evl6;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evl7;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evl0;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+x;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb39;Floor:Concrete 250mm:1623937;UC-Universal Column-Column:203x203x46UC:1643664
+x;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb3B;Floor:Concrete 250mm:1623937;UC-Universal Column-Column:203x203x46UC:1643666
+x;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb90;Floor:Concrete 250mm:1623937;UC-Universal Column-Column:203x203x46UC:1644057
+x;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb92;Floor:Concrete 250mm:1623937;UC-Universal Column-Column:203x203x46UC:1644059
+x;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEqs;Floor:Concrete 250mm:1623937;UC-Universal Column-Column:203x203x46UC:1650739
+x;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEqm;Floor:Concrete 250mm:1623937;UC-Universal Column-Column:203x203x46UC:1650741
+x;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEmb;Floor:Concrete 250mm:1623937;UC-Universal Column-Column:203x203x46UC:1650976
+x;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEmd;Floor:Concrete 250mm:1623937;UC-Universal Column-Column:203x203x46UC:1650978
+;;;;;;
+o;IfcSlab;IfcSlab;2mpujw6n12d93LqapNBqr9;2mpujw6n12d93LqatNBqr9;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;2mpujw6n12d93LqapNBqr9;2mpujw6n12d93LqalNBqr9;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+x;IfcSlab;IfcSlab;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb4e;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Floor:Concrete 150mm:1643889
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb3E;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_C Shapes:C310X30.8:1643671
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb32;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_C Shapes:C310X30.8:1643675
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb35;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_C Shapes:C310X30.8:1643676
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqapNBqr9;3AKaO4ufT7ERYrUMp7eusR;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620847
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqapNBqr9;3AKaO4ufT7ERYrUMp7eus2;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620854
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqapNBqr9;3AKaO4ufT7ERYrUMp7eure;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620892
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqapNBqr9;3lo8hfPmTDfP813$HDU1DS;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqapNBqr9;1hbkU0pOD8Ug4zX2q86gTv;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb39;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1643664
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb3B;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1643666
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb90;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1644057
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb92;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1644059
+;;;;;;
+o;IfcSlab;IfcSlab;2mpujw6n12d93LqatNBqr9;2mpujw6n12d93LqahNBqr9;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;2mpujw6n12d93LqatNBqr9;2mpujw6n12d93LqalNBqr9;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+x;IfcSlab;IfcSlab;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb4e;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Floor:Concrete 150mm:1643889
+x;IfcSlab;IfcSlab;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaErw;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Floor:Concrete 150mm:1650815
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb3E;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_C Shapes:C310X30.8:1643671
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb32;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_C Shapes:C310X30.8:1643675
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb35;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_C Shapes:C310X30.8:1643676
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEq$;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_C Shapes:C310X30.8:1650746
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEqx;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_C Shapes:C310X30.8:1650750
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEqw;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_C Shapes:C310X30.8:1650751
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9K;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619104
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9L;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619105
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9M;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619106
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9N;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619107
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9G;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619108
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9H;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619109
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9I;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619110
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eus7;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620851
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eus0;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620852
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eus1;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620853
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eus2;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620854
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eure;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620892
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1hbkU0pOD8Ug4zX2q86gTv;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1hbkU0pOD8Ug4zX2q86gR4;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1hbkU0pOD8Ug4zX2q86gRp;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1hbkU0pOD8Ug4zX2q86gRe;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1hbkU0pOD8Ug4zX2q86gO$;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7evl4;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7evl6;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7evl0;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb39;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1643664
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb3B;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1643666
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb90;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1644057
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb92;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1644059
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEqs;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1650739
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEqm;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1650741
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEmb;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1650976
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEmd;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;UC-Universal Column-Column:203x203x46UC:1650978
+;;;;;;
+o;IfcSlab;IfcSlab;2mpujw6n12d93LqahNBqr9;2mpujw6n12d93LqalNBqr9;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqahNBqr9;3AKaO4ufT7ERYrUMp7eu9h;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619103
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqahNBqr9;3AKaO4ufT7ERYrUMp7eu9M;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619106
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqahNBqr9;3AKaO4ufT7ERYrUMp7eu9N;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619107
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqahNBqr9;3AKaO4ufT7ERYrUMp7evl7;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqahNBqr9;3AKaO4ufT7ERYrUMp7evl0;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9f;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619101
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9g;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619102
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9h;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619103
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9N;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619107
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9G;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619108
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9H;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619109
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9I;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619110
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eusR;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620847
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eus4;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620848
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eus5;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620849
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eus6;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620850
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eus2;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620854
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;3lo8hfPmTDfP813$HDU1DS;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;1hbkU0pOD8Ug4zX2q86gR5;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;1hbkU0pOD8Ug4zX2q86gRq;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;1hbkU0pOD8Ug4zX2q86gRf;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;1hbkU0pOD8Ug4zX2q86gO0;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7evlR;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7evl5;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+x;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7evl7;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+;;;;;;
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb3E;Floor:Concrete 150mm:1643889;M_C Shapes:C310X30.8:1643671
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb31;Floor:Concrete 150mm:1643889;M_C Shapes:C310X30.8:1643672
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb33;Floor:Concrete 150mm:1643889;M_C Shapes:C310X30.8:1643674
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb32;Floor:Concrete 150mm:1643889;M_C Shapes:C310X30.8:1643675
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb35;Floor:Concrete 150mm:1643889;M_C Shapes:C310X30.8:1643676
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bb4e;3AKaO4ufT7ERYrUMp7eus2;Floor:Concrete 150mm:1643889;M_W Shapes:W760X134:1620854
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bb4e;3AKaO4ufT7ERYrUMp7eure;Floor:Concrete 150mm:1643889;M_W Shapes:W760X134:1620892
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bb4e;1hbkU0pOD8Ug4zX2q86gTv;Floor:Concrete 150mm:1643889;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb39;Floor:Concrete 150mm:1643889;UC-Universal Column-Column:203x203x46UC:1643664
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb3B;Floor:Concrete 150mm:1643889;UC-Universal Column-Column:203x203x46UC:1643666
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb3A;Floor:Concrete 150mm:1643889;UC-Universal Column-Column:203x203x46UC:1643667
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb3D;Floor:Concrete 150mm:1643889;UC-Universal Column-Column:203x203x46UC:1643668
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb90;Floor:Concrete 150mm:1643889;UC-Universal Column-Column:203x203x46UC:1644057
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb92;Floor:Concrete 150mm:1643889;UC-Universal Column-Column:203x203x46UC:1644059
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb95;Floor:Concrete 150mm:1643889;UC-Universal Column-Column:203x203x46UC:1644060
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb94;Floor:Concrete 150mm:1643889;UC-Universal Column-Column:203x203x46UC:1644061
+;;;;;;
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEq$;Floor:Concrete 150mm:1650815;M_C Shapes:C310X30.8:1650746
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEq_;Floor:Concrete 150mm:1650815;M_C Shapes:C310X30.8:1650747
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEqu;Floor:Concrete 150mm:1650815;M_C Shapes:C310X30.8:1650749
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEqx;Floor:Concrete 150mm:1650815;M_C Shapes:C310X30.8:1650750
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEqw;Floor:Concrete 150mm:1650815;M_C Shapes:C310X30.8:1650751
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaErw;3AKaO4ufT7ERYrUMp7eus7;Floor:Concrete 150mm:1650815;M_W Shapes:W760X134:1620851
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaErw;3AKaO4ufT7ERYrUMp7eus0;Floor:Concrete 150mm:1650815;M_W Shapes:W760X134:1620852
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaErw;1hbkU0pOD8Ug4zX2q86gRe;Floor:Concrete 150mm:1650815;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEqs;Floor:Concrete 150mm:1650815;UC-Universal Column-Column:203x203x46UC:1650739
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEqm;Floor:Concrete 150mm:1650815;UC-Universal Column-Column:203x203x46UC:1650741
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEqp;Floor:Concrete 150mm:1650815;UC-Universal Column-Column:203x203x46UC:1650742
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEqo;Floor:Concrete 150mm:1650815;UC-Universal Column-Column:203x203x46UC:1650743
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEmb;Floor:Concrete 150mm:1650815;UC-Universal Column-Column:203x203x46UC:1650976
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEmd;Floor:Concrete 150mm:1650815;UC-Universal Column-Column:203x203x46UC:1650978
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEmc;Floor:Concrete 150mm:1650815;UC-Universal Column-Column:203x203x46UC:1650979
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEmX;Floor:Concrete 150mm:1650815;UC-Universal Column-Column:203x203x46UC:1650980
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb3E;1Ze_HzuKn5mB7tAQE6bb31;M_C Shapes:C310X30.8:1643671;M_C Shapes:C310X30.8:1643672
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb3E;1Ze_HzuKn5mB7tAQE6bb35;M_C Shapes:C310X30.8:1643671;M_C Shapes:C310X30.8:1643676
+x;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3E;1hbkU0pOD8Ug4zX2q86gTv;M_C Shapes:C310X30.8:1643671;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3E;1Ze_HzuKn5mB7tAQE6bb39;M_C Shapes:C310X30.8:1643671;UC-Universal Column-Column:203x203x46UC:1643664
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3E;1Ze_HzuKn5mB7tAQE6bb3A;M_C Shapes:C310X30.8:1643671;UC-Universal Column-Column:203x203x46UC:1643667
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3E;1Ze_HzuKn5mB7tAQE6bb90;M_C Shapes:C310X30.8:1643671;UC-Universal Column-Column:203x203x46UC:1644057
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3E;1Ze_HzuKn5mB7tAQE6bb95;M_C Shapes:C310X30.8:1643671;UC-Universal Column-Column:203x203x46UC:1644060
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb31;1Ze_HzuKn5mB7tAQE6bb30;M_C Shapes:C310X30.8:1643672;M_C Shapes:C310X30.8:1643673
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb31;1Ze_HzuKn5mB7tAQE6bb3A;M_C Shapes:C310X30.8:1643672;UC-Universal Column-Column:203x203x46UC:1643667
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb31;1Ze_HzuKn5mB7tAQE6bb3C;M_C Shapes:C310X30.8:1643672;UC-Universal Column-Column:203x203x46UC:1643669
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb31;1Ze_HzuKn5mB7tAQE6bb95;M_C Shapes:C310X30.8:1643672;UC-Universal Column-Column:203x203x46UC:1644060
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb31;1Ze_HzuKn5mB7tAQE6bb97;M_C Shapes:C310X30.8:1643672;UC-Universal Column-Column:203x203x46UC:1644062
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb30;1Ze_HzuKn5mB7tAQE6bb33;M_C Shapes:C310X30.8:1643673;M_C Shapes:C310X30.8:1643674
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb30;1Ze_HzuKn5mB7tAQE6bb3C;M_C Shapes:C310X30.8:1643673;UC-Universal Column-Column:203x203x46UC:1643669
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb30;1Ze_HzuKn5mB7tAQE6bb3F;M_C Shapes:C310X30.8:1643673;UC-Universal Column-Column:203x203x46UC:1643670
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb30;1Ze_HzuKn5mB7tAQE6bb97;M_C Shapes:C310X30.8:1643673;UC-Universal Column-Column:203x203x46UC:1644062
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb30;1Ze_HzuKn5mB7tAQE6bb96;M_C Shapes:C310X30.8:1643673;UC-Universal Column-Column:203x203x46UC:1644063
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb33;1Ze_HzuKn5mB7tAQE6bb32;M_C Shapes:C310X30.8:1643674;M_C Shapes:C310X30.8:1643675
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb33;1Ze_HzuKn5mB7tAQE6bb3D;M_C Shapes:C310X30.8:1643674;UC-Universal Column-Column:203x203x46UC:1643668
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb33;1Ze_HzuKn5mB7tAQE6bb3F;M_C Shapes:C310X30.8:1643674;UC-Universal Column-Column:203x203x46UC:1643670
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb33;1Ze_HzuKn5mB7tAQE6bb94;M_C Shapes:C310X30.8:1643674;UC-Universal Column-Column:203x203x46UC:1644061
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb33;1Ze_HzuKn5mB7tAQE6bb96;M_C Shapes:C310X30.8:1643674;UC-Universal Column-Column:203x203x46UC:1644063
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb32;1Ze_HzuKn5mB7tAQE6bb35;M_C Shapes:C310X30.8:1643675;M_C Shapes:C310X30.8:1643676
+x;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb32;3AKaO4ufT7ERYrUMp7eure;M_C Shapes:C310X30.8:1643675;M_W Shapes:W760X134:1620892
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb32;1Ze_HzuKn5mB7tAQE6bb3B;M_C Shapes:C310X30.8:1643675;UC-Universal Column-Column:203x203x46UC:1643666
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb32;1Ze_HzuKn5mB7tAQE6bb3D;M_C Shapes:C310X30.8:1643675;UC-Universal Column-Column:203x203x46UC:1643668
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb32;1Ze_HzuKn5mB7tAQE6bb92;M_C Shapes:C310X30.8:1643675;UC-Universal Column-Column:203x203x46UC:1644059
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb32;1Ze_HzuKn5mB7tAQE6bb94;M_C Shapes:C310X30.8:1643675;UC-Universal Column-Column:203x203x46UC:1644061
+;;;;;;
+x;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6bb35;3AKaO4ufT7ERYrUMp7eure;M_C Shapes:C310X30.8:1643676;M_W Shapes:W760X134:1620892
+x;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb35;1hbkU0pOD8Ug4zX2q86gTv;M_C Shapes:C310X30.8:1643676;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb35;1Ze_HzuKn5mB7tAQE6bb39;M_C Shapes:C310X30.8:1643676;UC-Universal Column-Column:203x203x46UC:1643664
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb35;1Ze_HzuKn5mB7tAQE6bb3B;M_C Shapes:C310X30.8:1643676;UC-Universal Column-Column:203x203x46UC:1643666
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb35;1Ze_HzuKn5mB7tAQE6bb90;M_C Shapes:C310X30.8:1643676;UC-Universal Column-Column:203x203x46UC:1644057
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6bb35;1Ze_HzuKn5mB7tAQE6bb92;M_C Shapes:C310X30.8:1643676;UC-Universal Column-Column:203x203x46UC:1644059
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEq$;3zPFHdZZvE6QPIualDaEq_;M_C Shapes:C310X30.8:1650746;M_C Shapes:C310X30.8:1650747
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEq$;3zPFHdZZvE6QPIualDaEqw;M_C Shapes:C310X30.8:1650746;M_C Shapes:C310X30.8:1650751
+x;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEq$;3AKaO4ufT7ERYrUMp7eus0;M_C Shapes:C310X30.8:1650746;M_W Shapes:W760X134:1620852
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEq$;3zPFHdZZvE6QPIualDaEqs;M_C Shapes:C310X30.8:1650746;UC-Universal Column-Column:203x203x46UC:1650739
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEq$;3zPFHdZZvE6QPIualDaEqp;M_C Shapes:C310X30.8:1650746;UC-Universal Column-Column:203x203x46UC:1650742
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEq$;3zPFHdZZvE6QPIualDaEmb;M_C Shapes:C310X30.8:1650746;UC-Universal Column-Column:203x203x46UC:1650976
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEq$;3zPFHdZZvE6QPIualDaEmc;M_C Shapes:C310X30.8:1650746;UC-Universal Column-Column:203x203x46UC:1650979
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEq_;3zPFHdZZvE6QPIualDaEqv;M_C Shapes:C310X30.8:1650747;M_C Shapes:C310X30.8:1650748
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEq_;3zPFHdZZvE6QPIualDaEqp;M_C Shapes:C310X30.8:1650747;UC-Universal Column-Column:203x203x46UC:1650742
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEq_;3zPFHdZZvE6QPIualDaEqz;M_C Shapes:C310X30.8:1650747;UC-Universal Column-Column:203x203x46UC:1650744
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEq_;3zPFHdZZvE6QPIualDaEmc;M_C Shapes:C310X30.8:1650747;UC-Universal Column-Column:203x203x46UC:1650979
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEq_;3zPFHdZZvE6QPIualDaEmW;M_C Shapes:C310X30.8:1650747;UC-Universal Column-Column:203x203x46UC:1650981
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEqv;3zPFHdZZvE6QPIualDaEqu;M_C Shapes:C310X30.8:1650748;M_C Shapes:C310X30.8:1650749
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqv;3zPFHdZZvE6QPIualDaEqz;M_C Shapes:C310X30.8:1650748;UC-Universal Column-Column:203x203x46UC:1650744
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqv;3zPFHdZZvE6QPIualDaEqy;M_C Shapes:C310X30.8:1650748;UC-Universal Column-Column:203x203x46UC:1650745
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqv;3zPFHdZZvE6QPIualDaEmW;M_C Shapes:C310X30.8:1650748;UC-Universal Column-Column:203x203x46UC:1650981
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqv;3zPFHdZZvE6QPIualDaEmZ;M_C Shapes:C310X30.8:1650748;UC-Universal Column-Column:203x203x46UC:1650982
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEqu;3zPFHdZZvE6QPIualDaEqx;M_C Shapes:C310X30.8:1650749;M_C Shapes:C310X30.8:1650750
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqu;3zPFHdZZvE6QPIualDaEqo;M_C Shapes:C310X30.8:1650749;UC-Universal Column-Column:203x203x46UC:1650743
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqu;3zPFHdZZvE6QPIualDaEqy;M_C Shapes:C310X30.8:1650749;UC-Universal Column-Column:203x203x46UC:1650745
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqu;3zPFHdZZvE6QPIualDaEmX;M_C Shapes:C310X30.8:1650749;UC-Universal Column-Column:203x203x46UC:1650980
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqu;3zPFHdZZvE6QPIualDaEmZ;M_C Shapes:C310X30.8:1650749;UC-Universal Column-Column:203x203x46UC:1650982
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEqx;3zPFHdZZvE6QPIualDaEqw;M_C Shapes:C310X30.8:1650750;M_C Shapes:C310X30.8:1650751
+x;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEqx;3AKaO4ufT7ERYrUMp7eus7;M_C Shapes:C310X30.8:1650750;M_W Shapes:W760X134:1620851
+x;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqx;1hbkU0pOD8Ug4zX2q86gRe;M_C Shapes:C310X30.8:1650750;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqx;3zPFHdZZvE6QPIualDaEqm;M_C Shapes:C310X30.8:1650750;UC-Universal Column-Column:203x203x46UC:1650741
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqx;3zPFHdZZvE6QPIualDaEqo;M_C Shapes:C310X30.8:1650750;UC-Universal Column-Column:203x203x46UC:1650743
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqx;3zPFHdZZvE6QPIualDaEmd;M_C Shapes:C310X30.8:1650750;UC-Universal Column-Column:203x203x46UC:1650978
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqx;3zPFHdZZvE6QPIualDaEmX;M_C Shapes:C310X30.8:1650750;UC-Universal Column-Column:203x203x46UC:1650980
+;;;;;;
+x;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEqw;3AKaO4ufT7ERYrUMp7eus7;M_C Shapes:C310X30.8:1650751;M_W Shapes:W760X134:1620851
+x;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaEqw;3AKaO4ufT7ERYrUMp7eus0;M_C Shapes:C310X30.8:1650751;M_W Shapes:W760X134:1620852
+x;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqw;1hbkU0pOD8Ug4zX2q86gRe;M_C Shapes:C310X30.8:1650751;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqw;3zPFHdZZvE6QPIualDaEqs;M_C Shapes:C310X30.8:1650751;UC-Universal Column-Column:203x203x46UC:1650739
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqw;3zPFHdZZvE6QPIualDaEqm;M_C Shapes:C310X30.8:1650751;UC-Universal Column-Column:203x203x46UC:1650741
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqw;3zPFHdZZvE6QPIualDaEmb;M_C Shapes:C310X30.8:1650751;UC-Universal Column-Column:203x203x46UC:1650976
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaEqw;3zPFHdZZvE6QPIualDaEmd;M_C Shapes:C310X30.8:1650751;UC-Universal Column-Column:203x203x46UC:1650978
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9f;3AKaO4ufT7ERYrUMp7eu9H;M_W Shapes:W410X53:1619101;M_W Shapes:W760X134:1619109
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9f;3AKaO4ufT7ERYrUMp7eus6;M_W Shapes:W410X53:1619101;M_W Shapes:W760X134:1620850
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9f;3AKaO4ufT7ERYrUMp7eu9I;M_W Shapes:W410X53:1619101;M_W Shapes:W760X134:1619110
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9f;3AKaO4ufT7ERYrUMp7eu9g;M_W Shapes:W410X53:1619101;M_W Shapes:W410X53:1619102
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9f;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W410X53:1619101;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9f;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W410X53:1619101;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9g;3AKaO4ufT7ERYrUMp7eu9G;M_W Shapes:W410X53:1619102;M_W Shapes:W760X134:1619108
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9g;3AKaO4ufT7ERYrUMp7eu9H;M_W Shapes:W410X53:1619102;M_W Shapes:W760X134:1619109
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9g;3AKaO4ufT7ERYrUMp7eu9h;M_W Shapes:W410X53:1619102;M_W Shapes:W410X53:1619103
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9g;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W410X53:1619102;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9g;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W410X53:1619102;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9h;3AKaO4ufT7ERYrUMp7eu9N;M_W Shapes:W410X53:1619103;M_W Shapes:W760X134:1619107
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9h;3AKaO4ufT7ERYrUMp7eu9G;M_W Shapes:W410X53:1619103;M_W Shapes:W760X134:1619108
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9h;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W410X53:1619103;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9h;3AKaO4ufT7ERYrUMp7evl7;M_W Shapes:W410X53:1619103;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9K;3AKaO4ufT7ERYrUMp7eu9H;M_W Shapes:W410X53:1619104;M_W Shapes:W760X134:1619109
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9K;3AKaO4ufT7ERYrUMp7eu9I;M_W Shapes:W410X53:1619104;M_W Shapes:W760X134:1619110
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9K;3AKaO4ufT7ERYrUMp7eus7;M_W Shapes:W410X53:1619104;M_W Shapes:W760X134:1620851
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9K;3AKaO4ufT7ERYrUMp7eu9L;M_W Shapes:W410X53:1619104;M_W Shapes:W410X53:1619105
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9K;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W410X53:1619104;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9K;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W410X53:1619104;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9L;3AKaO4ufT7ERYrUMp7eu9G;M_W Shapes:W410X53:1619105;M_W Shapes:W760X134:1619108
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9L;3AKaO4ufT7ERYrUMp7eu9H;M_W Shapes:W410X53:1619105;M_W Shapes:W760X134:1619109
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9L;3AKaO4ufT7ERYrUMp7eu9M;M_W Shapes:W410X53:1619105;M_W Shapes:W410X53:1619106
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9L;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W410X53:1619105;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9L;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W410X53:1619105;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9M;3AKaO4ufT7ERYrUMp7eu9N;M_W Shapes:W410X53:1619106;M_W Shapes:W760X134:1619107
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9M;3AKaO4ufT7ERYrUMp7eu9G;M_W Shapes:W410X53:1619106;M_W Shapes:W760X134:1619108
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9M;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W410X53:1619106;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9M;3AKaO4ufT7ERYrUMp7evl0;M_W Shapes:W410X53:1619106;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9N;3AKaO4ufT7ERYrUMp7evl7;M_W Shapes:W760X134:1619107;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9N;3AKaO4ufT7ERYrUMp7evl0;M_W Shapes:W760X134:1619107;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9G;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W760X134:1619108;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9G;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W760X134:1619108;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9H;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W760X134:1619109;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9H;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W760X134:1619109;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9I;3AKaO4ufT7ERYrUMp7eus6;M_W Shapes:W760X134:1619110;M_W Shapes:W760X134:1620850
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9I;3AKaO4ufT7ERYrUMp7eus7;M_W Shapes:W760X134:1619110;M_W Shapes:W760X134:1620851
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9I;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W760X134:1619110;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9I;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W760X134:1619110;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eusR;3AKaO4ufT7ERYrUMp7eus4;M_W Shapes:W760X134:1620847;M_W Shapes:W760X134:1620848
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eusR;3AKaO4ufT7ERYrUMp7eus2;M_W Shapes:W760X134:1620847;M_W Shapes:W760X134:1620854
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eusR;3lo8hfPmTDfP813$HDU1DS;M_W Shapes:W760X134:1620847;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eusR;1hbkU0pOD8Ug4zX2q86gR5;M_W Shapes:W760X134:1620847;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus4;3AKaO4ufT7ERYrUMp7eus5;M_W Shapes:W760X134:1620848;M_W Shapes:W760X134:1620849
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus4;1hbkU0pOD8Ug4zX2q86gR5;M_W Shapes:W760X134:1620848;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus4;1hbkU0pOD8Ug4zX2q86gRq;M_W Shapes:W760X134:1620848;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus5;3AKaO4ufT7ERYrUMp7eus6;M_W Shapes:W760X134:1620849;M_W Shapes:W760X134:1620850
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus5;1hbkU0pOD8Ug4zX2q86gRq;M_W Shapes:W760X134:1620849;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus5;1hbkU0pOD8Ug4zX2q86gRf;M_W Shapes:W760X134:1620849;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus6;1hbkU0pOD8Ug4zX2q86gRf;M_W Shapes:W760X134:1620850;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus6;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W760X134:1620850;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus7;3AKaO4ufT7ERYrUMp7eus0;M_W Shapes:W760X134:1620851;M_W Shapes:W760X134:1620852
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus7;1hbkU0pOD8Ug4zX2q86gRe;M_W Shapes:W760X134:1620851;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus7;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W760X134:1620851;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus0;3AKaO4ufT7ERYrUMp7eus1;M_W Shapes:W760X134:1620852;M_W Shapes:W760X134:1620853
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus0;1hbkU0pOD8Ug4zX2q86gRp;M_W Shapes:W760X134:1620852;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus0;1hbkU0pOD8Ug4zX2q86gRe;M_W Shapes:W760X134:1620852;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus1;3AKaO4ufT7ERYrUMp7eure;M_W Shapes:W760X134:1620853;M_W Shapes:W760X134:1620892
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus1;1hbkU0pOD8Ug4zX2q86gR4;M_W Shapes:W760X134:1620853;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus1;1hbkU0pOD8Ug4zX2q86gRp;M_W Shapes:W760X134:1620853;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus2;3AKaO4ufT7ERYrUMp7eure;M_W Shapes:W760X134:1620854;M_W Shapes:W760X134:1620892
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus2;3lo8hfPmTDfP813$HDU1DS;M_W Shapes:W760X134:1620854;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus2;1hbkU0pOD8Ug4zX2q86gTv;M_W Shapes:W760X134:1620854;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eure;1hbkU0pOD8Ug4zX2q86gTv;M_W Shapes:W760X134:1620892;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eure;1hbkU0pOD8Ug4zX2q86gR4;M_W Shapes:W760X134:1620892;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+;;;;;;
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euOx;Floor:Concrete 150mm:1621636;M_W Shapes:W410X53:1618127
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euO6;Floor:Concrete 150mm:1621636;M_W Shapes:W410X53:1618162
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euVT;Floor:Concrete 150mm:1621636;M_W Shapes:W410X53:1618217
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euJo;Floor:Concrete 150mm:1621636;M_W Shapes:W410X53:1618438
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euJp;Floor:Concrete 150mm:1621636;M_W Shapes:W410X53:1618439
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euJy;Floor:Concrete 150mm:1621636;M_W Shapes:W410X53:1618440
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euHo;Floor:Concrete 150mm:1621636;M_W Shapes:W760X134:1618566
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euH1;Floor:Concrete 150mm:1621636;M_W Shapes:W760X134:1618613
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euNw;Floor:Concrete 150mm:1621636;M_W Shapes:W760X134:1618702
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;1hbkU0pOD8Ug4zX2u86gO0;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;1hbkU0pOD8Ug4zX2q86gO0;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;1hbkU0pOD8Ug4zX2u86gO$;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;1hbkU0pOD8Ug4zX2q86gO$;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evue;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1616092
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7ev$C;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1616184
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evyT;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1616361
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evyU;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1616362
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evlR;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evl4;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evl5;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evl6;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+;;;;;;
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6baHJ;Floor:Concrete 150mm:1642013;M_C Shapes:C310X30.8:1638410
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6baGu;Floor:Concrete 150mm:1642013;M_C Shapes:C310X30.8:1638497
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6baJk;Floor:Concrete 150mm:1642013;M_C Shapes:C310X30.8:1638583
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6baIt;Floor:Concrete 150mm:1642013;M_C Shapes:C310X30.8:1638638
+o;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6baL6;Floor:Concrete 150mm:1642013;M_C Shapes:C310X30.8:1638687
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6baf4;3AKaO4ufT7ERYrUMp7euxN;Floor:Concrete 150mm:1642013;M_W Shapes:W360X32.9:1620003
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;1hbkU0pOD8Ug4zX2u86gTv;Floor:Concrete 150mm:1642013;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;1hbkU0pOD8Ug4zX2q86gTv;Floor:Concrete 150mm:1642013;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;2mpujw6n12d93LqaxNBs0w;Floor:Concrete 150mm:1642013;UC-Universal Column-Column:203x203x46UC:1632107
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;2mpujw6n12d93LqaxNBtqA;Floor:Concrete 150mm:1642013;UC-Universal Column-Column:203x203x46UC:1636955
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;2mpujw6n12d93LqaxNBtmW;Floor:Concrete 150mm:1642013;UC-Universal Column-Column:203x203x46UC:1637233
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;2mpujw6n12d93LqaxNBtmZ;Floor:Concrete 150mm:1642013;UC-Universal Column-Column:203x203x46UC:1637234
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6bb39;Floor:Concrete 150mm:1642013;UC-Universal Column-Column:203x203x46UC:1643664
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6bb3B;Floor:Concrete 150mm:1642013;UC-Universal Column-Column:203x203x46UC:1643666
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6bb3A;Floor:Concrete 150mm:1642013;UC-Universal Column-Column:203x203x46UC:1643667
+o;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6bb3D;Floor:Concrete 150mm:1642013;UC-Universal Column-Column:203x203x46UC:1643668
+;;;;;;
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF9E;Floor:Concrete 150mm:1650725;M_C Shapes:C310X30.8:1650507
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF99;Floor:Concrete 150mm:1650725;M_C Shapes:C310X30.8:1650508
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF9B;Floor:Concrete 150mm:1650725;M_C Shapes:C310X30.8:1650510
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF9A;Floor:Concrete 150mm:1650725;M_C Shapes:C310X30.8:1650511
+o;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF9L;Floor:Concrete 150mm:1650725;M_C Shapes:C310X30.8:1650512
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEqW;3AKaO4ufT7ERYrUMp7eu6I;Floor:Concrete 150mm:1650725;M_W Shapes:W360X32.9:1619814
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEqW;3AKaO4ufT7ERYrUMp7eu4i;Floor:Concrete 150mm:1650725;M_W Shapes:W360X32.9:1619928
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;1hbkU0pOD8Ug4zX2u86gRe;Floor:Concrete 150mm:1650725;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;1hbkU0pOD8Ug4zX2q86gRe;Floor:Concrete 150mm:1650725;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF8_;Floor:Concrete 150mm:1650725;UC-Universal Column-Column:203x203x46UC:1650491
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF8u;Floor:Concrete 150mm:1650725;UC-Universal Column-Column:203x203x46UC:1650493
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF8x;Floor:Concrete 150mm:1650725;UC-Universal Column-Column:203x203x46UC:1650494
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF8w;Floor:Concrete 150mm:1650725;UC-Universal Column-Column:203x203x46UC:1650495
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaEqs;Floor:Concrete 150mm:1650725;UC-Universal Column-Column:203x203x46UC:1650739
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaEqm;Floor:Concrete 150mm:1650725;UC-Universal Column-Column:203x203x46UC:1650741
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaEqp;Floor:Concrete 150mm:1650725;UC-Universal Column-Column:203x203x46UC:1650742
+o;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaEqo;Floor:Concrete 150mm:1650725;UC-Universal Column-Column:203x203x46UC:1650743
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6baHJ;1Ze_HzuKn5mB7tAQE6baGu;M_C Shapes:C310X30.8:1638410;M_C Shapes:C310X30.8:1638497
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6baHJ;1Ze_HzuKn5mB7tAQE6baL6;M_C Shapes:C310X30.8:1638410;M_C Shapes:C310X30.8:1638687
+x;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baHJ;1hbkU0pOD8Ug4zX2u86gTv;M_C Shapes:C310X30.8:1638410;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+x;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baHJ;1hbkU0pOD8Ug4zX2q86gTv;M_C Shapes:C310X30.8:1638410;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baHJ;2mpujw6n12d93LqaxNBs0w;M_C Shapes:C310X30.8:1638410;UC-Universal Column-Column:203x203x46UC:1632107
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baHJ;2mpujw6n12d93LqaxNBtmW;M_C Shapes:C310X30.8:1638410;UC-Universal Column-Column:203x203x46UC:1637233
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baHJ;1Ze_HzuKn5mB7tAQE6bb39;M_C Shapes:C310X30.8:1638410;UC-Universal Column-Column:203x203x46UC:1643664
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baHJ;1Ze_HzuKn5mB7tAQE6bb3A;M_C Shapes:C310X30.8:1638410;UC-Universal Column-Column:203x203x46UC:1643667
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6baGu;1Ze_HzuKn5mB7tAQE6baJK;M_C Shapes:C310X30.8:1638497;M_C Shapes:C310X30.8:1638541
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baGu;2mpujw6n12d93LqaxNBtmW;M_C Shapes:C310X30.8:1638497;UC-Universal Column-Column:203x203x46UC:1637233
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baGu;2mpujw6n12d93LqaxNBtis;M_C Shapes:C310X30.8:1638497;UC-Universal Column-Column:203x203x46UC:1637479
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baGu;1Ze_HzuKn5mB7tAQE6bb3A;M_C Shapes:C310X30.8:1638497;UC-Universal Column-Column:203x203x46UC:1643667
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baGu;1Ze_HzuKn5mB7tAQE6bb3C;M_C Shapes:C310X30.8:1638497;UC-Universal Column-Column:203x203x46UC:1643669
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6baJK;1Ze_HzuKn5mB7tAQE6baJk;M_C Shapes:C310X30.8:1638541;M_C Shapes:C310X30.8:1638583
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baJK;2mpujw6n12d93LqaxNBtis;M_C Shapes:C310X30.8:1638541;UC-Universal Column-Column:203x203x46UC:1637479
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baJK;2mpujw6n12d93LqaxNBtiv;M_C Shapes:C310X30.8:1638541;UC-Universal Column-Column:203x203x46UC:1637480
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baJK;1Ze_HzuKn5mB7tAQE6bb3C;M_C Shapes:C310X30.8:1638541;UC-Universal Column-Column:203x203x46UC:1643669
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baJK;1Ze_HzuKn5mB7tAQE6bb3F;M_C Shapes:C310X30.8:1638541;UC-Universal Column-Column:203x203x46UC:1643670
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6baJk;1Ze_HzuKn5mB7tAQE6baIt;M_C Shapes:C310X30.8:1638583;M_C Shapes:C310X30.8:1638638
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baJk;2mpujw6n12d93LqaxNBtmZ;M_C Shapes:C310X30.8:1638583;UC-Universal Column-Column:203x203x46UC:1637234
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baJk;2mpujw6n12d93LqaxNBtiv;M_C Shapes:C310X30.8:1638583;UC-Universal Column-Column:203x203x46UC:1637480
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baJk;1Ze_HzuKn5mB7tAQE6bb3D;M_C Shapes:C310X30.8:1638583;UC-Universal Column-Column:203x203x46UC:1643668
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baJk;1Ze_HzuKn5mB7tAQE6bb3F;M_C Shapes:C310X30.8:1638583;UC-Universal Column-Column:203x203x46UC:1643670
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6baIt;1Ze_HzuKn5mB7tAQE6baL6;M_C Shapes:C310X30.8:1638638;M_C Shapes:C310X30.8:1638687
+x;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6baIt;3AKaO4ufT7ERYrUMp7euxN;M_C Shapes:C310X30.8:1638638;M_W Shapes:W360X32.9:1620003
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baIt;2mpujw6n12d93LqaxNBtqA;M_C Shapes:C310X30.8:1638638;UC-Universal Column-Column:203x203x46UC:1636955
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baIt;2mpujw6n12d93LqaxNBtmZ;M_C Shapes:C310X30.8:1638638;UC-Universal Column-Column:203x203x46UC:1637234
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baIt;1Ze_HzuKn5mB7tAQE6bb3B;M_C Shapes:C310X30.8:1638638;UC-Universal Column-Column:203x203x46UC:1643666
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baIt;1Ze_HzuKn5mB7tAQE6bb3D;M_C Shapes:C310X30.8:1638638;UC-Universal Column-Column:203x203x46UC:1643668
+;;;;;;
+o;IfcBeam;IfcBeam;1Ze_HzuKn5mB7tAQE6baL6;3AKaO4ufT7ERYrUMp7euxN;M_C Shapes:C310X30.8:1638687;M_W Shapes:W360X32.9:1620003
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baL6;1hbkU0pOD8Ug4zX2u86gTv;M_C Shapes:C310X30.8:1638687;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baL6;1hbkU0pOD8Ug4zX2q86gTv;M_C Shapes:C310X30.8:1638687;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baL6;2mpujw6n12d93LqaxNBs0w;M_C Shapes:C310X30.8:1638687;UC-Universal Column-Column:203x203x46UC:1632107
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baL6;2mpujw6n12d93LqaxNBtqA;M_C Shapes:C310X30.8:1638687;UC-Universal Column-Column:203x203x46UC:1636955
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baL6;1Ze_HzuKn5mB7tAQE6bb39;M_C Shapes:C310X30.8:1638687;UC-Universal Column-Column:203x203x46UC:1643664
+o;IfcBeam;IfcColumn;1Ze_HzuKn5mB7tAQE6baL6;1Ze_HzuKn5mB7tAQE6bb3B;M_C Shapes:C310X30.8:1638687;UC-Universal Column-Column:203x203x46UC:1643666
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaF9E;3zPFHdZZvE6QPIualDaF99;M_C Shapes:C310X30.8:1650507;M_C Shapes:C310X30.8:1650508
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaF9E;3zPFHdZZvE6QPIualDaF9L;M_C Shapes:C310X30.8:1650507;M_C Shapes:C310X30.8:1650512
+x;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaF9E;3AKaO4ufT7ERYrUMp7eu4i;M_C Shapes:C310X30.8:1650507;M_W Shapes:W360X32.9:1619928
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9E;3zPFHdZZvE6QPIualDaF8_;M_C Shapes:C310X30.8:1650507;UC-Universal Column-Column:203x203x46UC:1650491
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9E;3zPFHdZZvE6QPIualDaF8x;M_C Shapes:C310X30.8:1650507;UC-Universal Column-Column:203x203x46UC:1650494
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9E;3zPFHdZZvE6QPIualDaEqs;M_C Shapes:C310X30.8:1650507;UC-Universal Column-Column:203x203x46UC:1650739
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9E;3zPFHdZZvE6QPIualDaEqp;M_C Shapes:C310X30.8:1650507;UC-Universal Column-Column:203x203x46UC:1650742
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaF99;3zPFHdZZvE6QPIualDaF98;M_C Shapes:C310X30.8:1650508;M_C Shapes:C310X30.8:1650509
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF99;3zPFHdZZvE6QPIualDaF8x;M_C Shapes:C310X30.8:1650508;UC-Universal Column-Column:203x203x46UC:1650494
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF99;3zPFHdZZvE6QPIualDaF95;M_C Shapes:C310X30.8:1650508;UC-Universal Column-Column:203x203x46UC:1650496
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF99;3zPFHdZZvE6QPIualDaEqp;M_C Shapes:C310X30.8:1650508;UC-Universal Column-Column:203x203x46UC:1650742
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF99;3zPFHdZZvE6QPIualDaEqz;M_C Shapes:C310X30.8:1650508;UC-Universal Column-Column:203x203x46UC:1650744
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaF98;3zPFHdZZvE6QPIualDaF9B;M_C Shapes:C310X30.8:1650509;M_C Shapes:C310X30.8:1650510
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF98;3zPFHdZZvE6QPIualDaF95;M_C Shapes:C310X30.8:1650509;UC-Universal Column-Column:203x203x46UC:1650496
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF98;3zPFHdZZvE6QPIualDaF94;M_C Shapes:C310X30.8:1650509;UC-Universal Column-Column:203x203x46UC:1650497
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF98;3zPFHdZZvE6QPIualDaEqz;M_C Shapes:C310X30.8:1650509;UC-Universal Column-Column:203x203x46UC:1650744
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF98;3zPFHdZZvE6QPIualDaEqy;M_C Shapes:C310X30.8:1650509;UC-Universal Column-Column:203x203x46UC:1650745
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaF9B;3zPFHdZZvE6QPIualDaF9A;M_C Shapes:C310X30.8:1650510;M_C Shapes:C310X30.8:1650511
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9B;3zPFHdZZvE6QPIualDaF8w;M_C Shapes:C310X30.8:1650510;UC-Universal Column-Column:203x203x46UC:1650495
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9B;3zPFHdZZvE6QPIualDaF94;M_C Shapes:C310X30.8:1650510;UC-Universal Column-Column:203x203x46UC:1650497
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9B;3zPFHdZZvE6QPIualDaEqo;M_C Shapes:C310X30.8:1650510;UC-Universal Column-Column:203x203x46UC:1650743
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9B;3zPFHdZZvE6QPIualDaEqy;M_C Shapes:C310X30.8:1650510;UC-Universal Column-Column:203x203x46UC:1650745
+;;;;;;
+o;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaF9A;3zPFHdZZvE6QPIualDaF9L;M_C Shapes:C310X30.8:1650511;M_C Shapes:C310X30.8:1650512
+x;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaF9A;3AKaO4ufT7ERYrUMp7eu6I;M_C Shapes:C310X30.8:1650511;M_W Shapes:W360X32.9:1619814
+x;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9A;1hbkU0pOD8Ug4zX2u86gRe;M_C Shapes:C310X30.8:1650511;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+x;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9A;1hbkU0pOD8Ug4zX2q86gRe;M_C Shapes:C310X30.8:1650511;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9A;3zPFHdZZvE6QPIualDaF8u;M_C Shapes:C310X30.8:1650511;UC-Universal Column-Column:203x203x46UC:1650493
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9A;3zPFHdZZvE6QPIualDaF8w;M_C Shapes:C310X30.8:1650511;UC-Universal Column-Column:203x203x46UC:1650495
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9A;3zPFHdZZvE6QPIualDaEqm;M_C Shapes:C310X30.8:1650511;UC-Universal Column-Column:203x203x46UC:1650741
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9A;3zPFHdZZvE6QPIualDaEqo;M_C Shapes:C310X30.8:1650511;UC-Universal Column-Column:203x203x46UC:1650743
+;;;;;;
+x;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaF9L;3AKaO4ufT7ERYrUMp7eu6I;M_C Shapes:C310X30.8:1650512;M_W Shapes:W360X32.9:1619814
+x;IfcBeam;IfcBeam;3zPFHdZZvE6QPIualDaF9L;3AKaO4ufT7ERYrUMp7eu4i;M_C Shapes:C310X30.8:1650512;M_W Shapes:W360X32.9:1619928
+x;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9L;1hbkU0pOD8Ug4zX2u86gRe;M_C Shapes:C310X30.8:1650512;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+x;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9L;1hbkU0pOD8Ug4zX2q86gRe;M_C Shapes:C310X30.8:1650512;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9L;3zPFHdZZvE6QPIualDaF8_;M_C Shapes:C310X30.8:1650512;UC-Universal Column-Column:203x203x46UC:1650491
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9L;3zPFHdZZvE6QPIualDaF8u;M_C Shapes:C310X30.8:1650512;UC-Universal Column-Column:203x203x46UC:1650493
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9L;3zPFHdZZvE6QPIualDaEqs;M_C Shapes:C310X30.8:1650512;UC-Universal Column-Column:203x203x46UC:1650739
+o;IfcBeam;IfcColumn;3zPFHdZZvE6QPIualDaF9L;3zPFHdZZvE6QPIualDaEqm;M_C Shapes:C310X30.8:1650512;UC-Universal Column-Column:203x203x46UC:1650741
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu0L;3AKaO4ufT7ERYrUMp7eu7rS;M_W Shapes:W360X32.9:1619681;M_W Shapes:W360X32.9:1619713
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;3lo8hfPmTDfP813$TDU1DS;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;3lo8hfPmTDfP813$HDU1DS;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;1hbkU0pOD8Ug4zX2u86gR5;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;1hbkU0pOD8Ug4zX2q86gR5;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu7r;3AKaO4ufT7ERYrUMp7eu7K;M_W Shapes:W360X32.9:1619713;M_W Shapes:W360X32.9:1619744
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7r;1hbkU0pOD8Ug4zX2u86gR5;M_W Shapes:W360X32.9:1619713;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7r;1hbkU0pOD8Ug4zX2q86gR5;M_W Shapes:W360X32.9:1619713;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7r;1hbkU0pOD8Ug4zX2u86gRq;M_W Shapes:W360X32.9:1619713;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7r;1hbkU0pOD8Ug4zX2q86gRq;M_W Shapes:W360X32.9:1619713;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu7K;3AKaO4ufT7ERYrUMp7eu6q;M_W Shapes:W360X32.9:1619744;M_W Shapes:W360X32.9:1619776
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7K;1hbkU0pOD8Ug4zX2u86gRq;M_W Shapes:W360X32.9:1619744;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7K;1hbkU0pOD8Ug4zX2q86gRq;M_W Shapes:W360X32.9:1619744;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7K;1hbkU0pOD8Ug4zX2u86gRf;M_W Shapes:W360X32.9:1619744;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7K;1hbkU0pOD8Ug4zX2q86gRf;M_W Shapes:W360X32.9:1619744;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu6q;3AKaO4ufT7ERYrUMp7euOx;M_W Shapes:W360X32.9:1619776;M_W Shapes:W410X53:1618127
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu6q;3AKaO4ufT7ERYrUMp7euNw;M_W Shapes:W360X32.9:1619776;M_W Shapes:W760X134:1618702
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6q;1hbkU0pOD8Ug4zX2u86gRf;M_W Shapes:W360X32.9:1619776;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6q;1hbkU0pOD8Ug4zX2q86gRf;M_W Shapes:W360X32.9:1619776;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6q;1hbkU0pOD8Ug4zX2u86gO0;M_W Shapes:W360X32.9:1619776;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6q;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W360X32.9:1619776;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu6I;3AKaO4ufT7ERYrUMp7euNw;M_W Shapes:W360X32.9:1619814;M_W Shapes:W760X134:1618702
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu6I;3AKaO4ufT7ERYrUMp7euJo;M_W Shapes:W360X32.9:1619814;M_W Shapes:W410X53:1618438
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu6I;3AKaO4ufT7ERYrUMp7eu4i;M_W Shapes:W360X32.9:1619814;M_W Shapes:W360X32.9:1619928
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6I;1hbkU0pOD8Ug4zX2u86gRe;M_W Shapes:W360X32.9:1619814;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6I;1hbkU0pOD8Ug4zX2q86gRe;M_W Shapes:W360X32.9:1619814;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6I;1hbkU0pOD8Ug4zX2u86gO$;M_W Shapes:W360X32.9:1619814;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6I;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W360X32.9:1619814;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu4i;3AKaO4ufT7ERYrUMp7euxs;M_W Shapes:W360X32.9:1619928;M_W Shapes:W360X32.9:1619970
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu4i;1hbkU0pOD8Ug4zX2u86gRp;M_W Shapes:W360X32.9:1619928;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu4i;1hbkU0pOD8Ug4zX2q86gRp;M_W Shapes:W360X32.9:1619928;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu4i;1hbkU0pOD8Ug4zX2u86gRe;M_W Shapes:W360X32.9:1619928;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu4i;1hbkU0pOD8Ug4zX2q86gRe;M_W Shapes:W360X32.9:1619928;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euxs;3AKaO4ufT7ERYrUMp7euxN;M_W Shapes:W360X32.9:1619970;M_W Shapes:W360X32.9:1620003
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxs;1hbkU0pOD8Ug4zX2u86gR4;M_W Shapes:W360X32.9:1619970;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxs;1hbkU0pOD8Ug4zX2q86gR4;M_W Shapes:W360X32.9:1619970;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxs;1hbkU0pOD8Ug4zX2u86gRp;M_W Shapes:W360X32.9:1619970;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxs;1hbkU0pOD8Ug4zX2q86gRp;M_W Shapes:W360X32.9:1619970;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxN;1hbkU0pOD8Ug4zX2u86gTv;M_W Shapes:W360X32.9:1620003;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxN;1hbkU0pOD8Ug4zX2q86gTv;M_W Shapes:W360X32.9:1620003;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxN;1hbkU0pOD8Ug4zX2u86gR4;M_W Shapes:W360X32.9:1620003;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxN;1hbkU0pOD8Ug4zX2q86gR4;M_W Shapes:W360X32.9:1620003;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euOx;3AKaO4ufT7ERYrUMp7euNw;M_W Shapes:W410X53:1618127;M_W Shapes:W760X134:1618702
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euOx;3AKaO4ufT7ERYrUMp7euH1;M_W Shapes:W410X53:1618127;M_W Shapes:W760X134:1618613
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euOx;1hbkU0pOD8Ug4zX2u86gO0;M_W Shapes:W410X53:1618127;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euOx;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W410X53:1618127;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euOx;3AKaO4ufT7ERYrUMp7evue;M_W Shapes:W410X53:1618127;M_Concrete-Rectangular-Column:300 x 600mm:1616092
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euOx;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W410X53:1618127;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7euVT;M_W Shapes:W410X53:1618162;M_W Shapes:W410X53:1618217
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7euHo;M_W Shapes:W410X53:1618162;M_W Shapes:W760X134:1618566
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7euH1;M_W Shapes:W410X53:1618162;M_W Shapes:W760X134:1618613
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7evue;M_W Shapes:W410X53:1618162;M_Concrete-Rectangular-Column:300 x 600mm:1616092
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7evyT;M_W Shapes:W410X53:1618162;M_Concrete-Rectangular-Column:300 x 600mm:1616361
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W410X53:1618162;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W410X53:1618162;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7euIn;M_W Shapes:W410X53:1618217;M_W Shapes:W760X134:1618501
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7euHo;M_W Shapes:W410X53:1618217;M_W Shapes:W760X134:1618566
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7evyT;M_W Shapes:W410X53:1618217;M_Concrete-Rectangular-Column:300 x 600mm:1616361
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7evf0;M_W Shapes:W410X53:1618217;M_Concrete-Rectangular-Column:300 x 600mm:1617076
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W410X53:1618217;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7evl7;M_W Shapes:W410X53:1618217;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJo;3AKaO4ufT7ERYrUMp7euNw;M_W Shapes:W410X53:1618438;M_W Shapes:W760X134:1618702
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJo;3AKaO4ufT7ERYrUMp7euH1;M_W Shapes:W410X53:1618438;M_W Shapes:W760X134:1618613
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJo;1hbkU0pOD8Ug4zX2u86gO$;M_W Shapes:W410X53:1618438;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJo;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W410X53:1618438;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJo;3AKaO4ufT7ERYrUMp7ev$C;M_W Shapes:W410X53:1618438;M_Concrete-Rectangular-Column:300 x 600mm:1616184
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJo;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W410X53:1618438;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7euJy;M_W Shapes:W410X53:1618439;M_W Shapes:W410X53:1618440
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7euHo;M_W Shapes:W410X53:1618439;M_W Shapes:W760X134:1618566
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7euH1;M_W Shapes:W410X53:1618439;M_W Shapes:W760X134:1618613
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7ev$C;M_W Shapes:W410X53:1618439;M_Concrete-Rectangular-Column:300 x 600mm:1616184
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7evyU;M_W Shapes:W410X53:1618439;M_Concrete-Rectangular-Column:300 x 600mm:1616362
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W410X53:1618439;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W410X53:1618439;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7euIn;M_W Shapes:W410X53:1618440;M_W Shapes:W760X134:1618501
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7euHo;M_W Shapes:W410X53:1618440;M_W Shapes:W760X134:1618566
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7evyU;M_W Shapes:W410X53:1618440;M_Concrete-Rectangular-Column:300 x 600mm:1616362
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7evf1;M_W Shapes:W410X53:1618440;M_Concrete-Rectangular-Column:300 x 600mm:1617077
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W410X53:1618440;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7evl0;M_W Shapes:W410X53:1618440;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euIn;3AKaO4ufT7ERYrUMp7evf0;M_W Shapes:W760X134:1618501;M_Concrete-Rectangular-Column:300 x 600mm:1617076
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euIn;3AKaO4ufT7ERYrUMp7evf1;M_W Shapes:W760X134:1618501;M_Concrete-Rectangular-Column:300 x 600mm:1617077
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euIn;3AKaO4ufT7ERYrUMp7evl7;M_W Shapes:W760X134:1618501;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euIn;3AKaO4ufT7ERYrUMp7evl0;M_W Shapes:W760X134:1618501;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euHo;3AKaO4ufT7ERYrUMp7evyT;M_W Shapes:W760X134:1618566;M_Concrete-Rectangular-Column:300 x 600mm:1616361
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euHo;3AKaO4ufT7ERYrUMp7evyU;M_W Shapes:W760X134:1618566;M_Concrete-Rectangular-Column:300 x 600mm:1616362
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euHo;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W760X134:1618566;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euHo;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W760X134:1618566;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euH1;3AKaO4ufT7ERYrUMp7evue;M_W Shapes:W760X134:1618613;M_Concrete-Rectangular-Column:300 x 600mm:1616092
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euH1;3AKaO4ufT7ERYrUMp7ev$C;M_W Shapes:W760X134:1618613;M_Concrete-Rectangular-Column:300 x 600mm:1616184
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euH1;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W760X134:1618613;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euH1;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W760X134:1618613;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euNw;1hbkU0pOD8Ug4zX2u86gO0;M_W Shapes:W760X134:1618702;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euNw;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W760X134:1618702;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euNw;1hbkU0pOD8Ug4zX2u86gO$;M_W Shapes:W760X134:1618702;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euNw;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W760X134:1618702;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+;;;;;;
+o;IfcColumn;IfcColumn;3lo8hfPmTDfP813$TDU1DS;3lo8hfPmTDfP813$HDU1DS;M_Concrete-Rectangular-Column:400 x 700 mm:1604255;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcColumn;IfcSlab;3lo8hfPmTDfP813$TDU1DS;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1604255;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gTv;1hbkU0pOD8Ug4zX2q86gTv;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gTv;2mpujw6n12d93LqaxNBs0w;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;UC-Universal Column-Column:203x203x46UC:1632107
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gTv;1Ze_HzuKn5mB7tAQE6bb39;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;UC-Universal Column-Column:203x203x46UC:1643664
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gTv;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;Floor:Concrete 250mm:1608216
+x;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gTv;2mpujw6n12d93LqaxNBtb2;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;Floor:Concrete 250mm:1637907
+;;;;;;
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2q86gTv;2mpujw6n12d93LqaxNBs0w;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;UC-Universal Column-Column:203x203x46UC:1632107
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2q86gTv;1Ze_HzuKn5mB7tAQE6bb39;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;UC-Universal Column-Column:203x203x46UC:1643664
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2q86gTv;1Ze_HzuKn5mB7tAQE6bb90;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;UC-Universal Column-Column:203x203x46UC:1644057
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gR5;1hbkU0pOD8Ug4zX2q86gR5;M_Concrete-Rectangular-Column:400 x 700 mm:1605466;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gR5;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605466;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gR4;1hbkU0pOD8Ug4zX2q86gR4;M_Concrete-Rectangular-Column:400 x 700 mm:1605467;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gR4;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605467;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gRq;1hbkU0pOD8Ug4zX2q86gRq;M_Concrete-Rectangular-Column:400 x 700 mm:1605483;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gRq;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605483;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gRp;1hbkU0pOD8Ug4zX2q86gRp;M_Concrete-Rectangular-Column:400 x 700 mm:1605484;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gRp;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605484;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gRf;1hbkU0pOD8Ug4zX2q86gRf;M_Concrete-Rectangular-Column:400 x 700 mm:1605494;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gRf;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605494;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gRe;1hbkU0pOD8Ug4zX2q86gRe;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gRe;3zPFHdZZvE6QPIualDaF8u;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;UC-Universal Column-Column:203x203x46UC:1650493
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gRe;3zPFHdZZvE6QPIualDaEqm;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;UC-Universal Column-Column:203x203x46UC:1650741
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gRe;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;Floor:Concrete 250mm:1608216
+x;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gRe;3zPFHdZZvE6QPIualDaF91;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;Floor:Concrete 250mm:1650500
+;;;;;;
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2q86gRe;3zPFHdZZvE6QPIualDaF8u;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;UC-Universal Column-Column:203x203x46UC:1650493
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2q86gRe;3zPFHdZZvE6QPIualDaEqm;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;UC-Universal Column-Column:203x203x46UC:1650741
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2q86gRe;3zPFHdZZvE6QPIualDaEmd;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;UC-Universal Column-Column:203x203x46UC:1650978
+;;;;;;
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gO0;1hbkU0pOD8Ug4zX2q86gO0;M_Concrete-Rectangular-Column:400 x 700 mm:1605535;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gO0;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605535;Floor:Concrete 250mm:1608216
+;;;;;;
+x;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gO$;1hbkU0pOD8Ug4zX2q86gO$;M_Concrete-Rectangular-Column:400 x 700 mm:1605536;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gO$;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605536;Floor:Concrete 250mm:1608216
+;;;;;;
+x;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7evue;3AKaO4ufT7ERYrUMp7evlR;M_Concrete-Rectangular-Column:300 x 600mm:1616092;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7evue;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1616092;Floor:Concrete 250mm:1608216
+;;;;;;
+x;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7ev$C;3AKaO4ufT7ERYrUMp7evl4;M_Concrete-Rectangular-Column:300 x 600mm:1616184;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7ev$C;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1616184;Floor:Concrete 250mm:1608216
+;;;;;;
+x;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7evyT;3AKaO4ufT7ERYrUMp7evl5;M_Concrete-Rectangular-Column:300 x 600mm:1616361;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7evyT;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1616361;Floor:Concrete 250mm:1608216
+;;;;;;
+x;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7evyU;3AKaO4ufT7ERYrUMp7evl6;M_Concrete-Rectangular-Column:300 x 600mm:1616362;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7evyU;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1616362;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7evf0;3AKaO4ufT7ERYrUMp7evl7;M_Concrete-Rectangular-Column:300 x 600mm:1617076;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7evf0;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1617076;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7evf1;3AKaO4ufT7ERYrUMp7evl0;M_Concrete-Rectangular-Column:300 x 600mm:1617077;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7evf1;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1617077;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;2mpujw6n12d93LqaxNBs0w;1Ze_HzuKn5mB7tAQE6bb39;UC-Universal Column-Column:203x203x46UC:1632107;UC-Universal Column-Column:203x203x46UC:1643664
+x;IfcColumn;IfcSlab;2mpujw6n12d93LqaxNBs0w;1hbkU0pOD8Ug4zZ2y86bE7;UC-Universal Column-Column:203x203x46UC:1632107;Floor:Concrete 250mm:1608216
+o;IfcColumn;IfcSlab;2mpujw6n12d93LqaxNBs0w;2mpujw6n12d93LqaxNBtb2;UC-Universal Column-Column:203x203x46UC:1632107;Floor:Concrete 250mm:1637907
+;;;;;;
+o;IfcColumn;IfcColumn;2mpujw6n12d93LqaxNBtqA;1Ze_HzuKn5mB7tAQE6bb3B;UC-Universal Column-Column:203x203x46UC:1636955;UC-Universal Column-Column:203x203x46UC:1643666
+x;IfcColumn;IfcSlab;2mpujw6n12d93LqaxNBtqA;1hbkU0pOD8Ug4zZ2y86bE7;UC-Universal Column-Column:203x203x46UC:1636955;Floor:Concrete 250mm:1608216
+o;IfcColumn;IfcSlab;2mpujw6n12d93LqaxNBtqA;2mpujw6n12d93LqaxNBtb2;UC-Universal Column-Column:203x203x46UC:1636955;Floor:Concrete 250mm:1637907
+;;;;;;
+o;IfcColumn;IfcColumn;2mpujw6n12d93LqaxNBtmW;1Ze_HzuKn5mB7tAQE6bb3A;UC-Universal Column-Column:203x203x46UC:1637233;UC-Universal Column-Column:203x203x46UC:1643667
+o;IfcColumn;IfcSlab;2mpujw6n12d93LqaxNBtmW;2mpujw6n12d93LqaxNBtb2;UC-Universal Column-Column:203x203x46UC:1637233;Floor:Concrete 250mm:1637907
+;;;;;;
+o;IfcColumn;IfcColumn;2mpujw6n12d93LqaxNBtmZ;1Ze_HzuKn5mB7tAQE6bb3D;UC-Universal Column-Column:203x203x46UC:1637234;UC-Universal Column-Column:203x203x46UC:1643668
+o;IfcColumn;IfcSlab;2mpujw6n12d93LqaxNBtmZ;2mpujw6n12d93LqaxNBtb2;UC-Universal Column-Column:203x203x46UC:1637234;Floor:Concrete 250mm:1637907
+;;;;;;
+o;IfcColumn;IfcColumn;2mpujw6n12d93LqaxNBtis;1Ze_HzuKn5mB7tAQE6bb3C;UC-Universal Column-Column:203x203x46UC:1637479;UC-Universal Column-Column:203x203x46UC:1643669
+o;IfcColumn;IfcSlab;2mpujw6n12d93LqaxNBtis;2mpujw6n12d93LqaxNBtb2;UC-Universal Column-Column:203x203x46UC:1637479;Floor:Concrete 250mm:1637907
+;;;;;;
+o;IfcColumn;IfcColumn;2mpujw6n12d93LqaxNBtiv;1Ze_HzuKn5mB7tAQE6bb3F;UC-Universal Column-Column:203x203x46UC:1637480;UC-Universal Column-Column:203x203x46UC:1643670
+o;IfcColumn;IfcSlab;2mpujw6n12d93LqaxNBtiv;2mpujw6n12d93LqaxNBtb2;UC-Universal Column-Column:203x203x46UC:1637480;Floor:Concrete 250mm:1637907
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb39;1Ze_HzuKn5mB7tAQE6bb90;UC-Universal Column-Column:203x203x46UC:1643664;UC-Universal Column-Column:203x203x46UC:1644057
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3B;1Ze_HzuKn5mB7tAQE6bb92;UC-Universal Column-Column:203x203x46UC:1643666;UC-Universal Column-Column:203x203x46UC:1644059
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3A;1Ze_HzuKn5mB7tAQE6bb95;UC-Universal Column-Column:203x203x46UC:1643667;UC-Universal Column-Column:203x203x46UC:1644060
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3D;1Ze_HzuKn5mB7tAQE6bb94;UC-Universal Column-Column:203x203x46UC:1643668;UC-Universal Column-Column:203x203x46UC:1644061
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3C;1Ze_HzuKn5mB7tAQE6bb97;UC-Universal Column-Column:203x203x46UC:1643669;UC-Universal Column-Column:203x203x46UC:1644062
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3F;1Ze_HzuKn5mB7tAQE6bb96;UC-Universal Column-Column:203x203x46UC:1643670;UC-Universal Column-Column:203x203x46UC:1644063
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb90;1Ze_HzuKn5mB7tAQE6bbFx;UC-Universal Column-Column:203x203x46UC:1644057;UC-Universal Column-Column:203x203x46UC:1644450
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb92;1Ze_HzuKn5mB7tAQE6bbFz;UC-Universal Column-Column:203x203x46UC:1644059;UC-Universal Column-Column:203x203x46UC:1644452
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb95;1Ze_HzuKn5mB7tAQE6bbFy;UC-Universal Column-Column:203x203x46UC:1644060;UC-Universal Column-Column:203x203x46UC:1644453
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb94;1Ze_HzuKn5mB7tAQE6bbF$;UC-Universal Column-Column:203x203x46UC:1644061;UC-Universal Column-Column:203x203x46UC:1644454
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb97;1Ze_HzuKn5mB7tAQE6bbF_;UC-Universal Column-Column:203x203x46UC:1644062;UC-Universal Column-Column:203x203x46UC:1644455
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bb96;1Ze_HzuKn5mB7tAQE6bbFn;UC-Universal Column-Column:203x203x46UC:1644063;UC-Universal Column-Column:203x203x46UC:1644456
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFx;1Ze_HzuKn5mB7tAQE6bbro;UC-Universal Column-Column:203x203x46UC:1644450;UC-Universal Column-Column:203x203x46UC:1644843
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFz;1Ze_HzuKn5mB7tAQE6bbrq;UC-Universal Column-Column:203x203x46UC:1644452;UC-Universal Column-Column:203x203x46UC:1644845
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFy;1Ze_HzuKn5mB7tAQE6bbrt;UC-Universal Column-Column:203x203x46UC:1644453;UC-Universal Column-Column:203x203x46UC:1644846
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bbF$;1Ze_HzuKn5mB7tAQE6bbrs;UC-Universal Column-Column:203x203x46UC:1644454;UC-Universal Column-Column:203x203x46UC:1644847
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bbF_;1Ze_HzuKn5mB7tAQE6bbrf;UC-Universal Column-Column:203x203x46UC:1644455;UC-Universal Column-Column:203x203x46UC:1644848
+;;;;;;
+o;IfcColumn;IfcColumn;1Ze_HzuKn5mB7tAQE6bbFn;1Ze_HzuKn5mB7tAQE6bbre;UC-Universal Column-Column:203x203x46UC:1644456;UC-Universal Column-Column:203x203x46UC:1644849
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaF8_;3zPFHdZZvE6QPIualDaEqs;UC-Universal Column-Column:203x203x46UC:1650491;UC-Universal Column-Column:203x203x46UC:1650739
+x;IfcColumn;IfcSlab;3zPFHdZZvE6QPIualDaF8_;1hbkU0pOD8Ug4zZ2y86bE7;UC-Universal Column-Column:203x203x46UC:1650491;Floor:Concrete 250mm:1608216
+o;IfcColumn;IfcSlab;3zPFHdZZvE6QPIualDaF8_;3zPFHdZZvE6QPIualDaF91;UC-Universal Column-Column:203x203x46UC:1650491;Floor:Concrete 250mm:1650500
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaF8u;3zPFHdZZvE6QPIualDaEqm;UC-Universal Column-Column:203x203x46UC:1650493;UC-Universal Column-Column:203x203x46UC:1650741
+x;IfcColumn;IfcSlab;3zPFHdZZvE6QPIualDaF8u;1hbkU0pOD8Ug4zZ2y86bE7;UC-Universal Column-Column:203x203x46UC:1650493;Floor:Concrete 250mm:1608216
+o;IfcColumn;IfcSlab;3zPFHdZZvE6QPIualDaF8u;3zPFHdZZvE6QPIualDaF91;UC-Universal Column-Column:203x203x46UC:1650493;Floor:Concrete 250mm:1650500
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaF8x;3zPFHdZZvE6QPIualDaEqp;UC-Universal Column-Column:203x203x46UC:1650494;UC-Universal Column-Column:203x203x46UC:1650742
+o;IfcColumn;IfcSlab;3zPFHdZZvE6QPIualDaF8x;3zPFHdZZvE6QPIualDaF91;UC-Universal Column-Column:203x203x46UC:1650494;Floor:Concrete 250mm:1650500
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaF8w;3zPFHdZZvE6QPIualDaEqo;UC-Universal Column-Column:203x203x46UC:1650495;UC-Universal Column-Column:203x203x46UC:1650743
+o;IfcColumn;IfcSlab;3zPFHdZZvE6QPIualDaF8w;3zPFHdZZvE6QPIualDaF91;UC-Universal Column-Column:203x203x46UC:1650495;Floor:Concrete 250mm:1650500
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaF95;3zPFHdZZvE6QPIualDaEqz;UC-Universal Column-Column:203x203x46UC:1650496;UC-Universal Column-Column:203x203x46UC:1650744
+o;IfcColumn;IfcSlab;3zPFHdZZvE6QPIualDaF95;3zPFHdZZvE6QPIualDaF91;UC-Universal Column-Column:203x203x46UC:1650496;Floor:Concrete 250mm:1650500
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaF94;3zPFHdZZvE6QPIualDaEqy;UC-Universal Column-Column:203x203x46UC:1650497;UC-Universal Column-Column:203x203x46UC:1650745
+o;IfcColumn;IfcSlab;3zPFHdZZvE6QPIualDaF94;3zPFHdZZvE6QPIualDaF91;UC-Universal Column-Column:203x203x46UC:1650497;Floor:Concrete 250mm:1650500
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEqs;3zPFHdZZvE6QPIualDaEmb;UC-Universal Column-Column:203x203x46UC:1650739;UC-Universal Column-Column:203x203x46UC:1650976
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEqm;3zPFHdZZvE6QPIualDaEmd;UC-Universal Column-Column:203x203x46UC:1650741;UC-Universal Column-Column:203x203x46UC:1650978
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEqp;3zPFHdZZvE6QPIualDaEmc;UC-Universal Column-Column:203x203x46UC:1650742;UC-Universal Column-Column:203x203x46UC:1650979
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEqo;3zPFHdZZvE6QPIualDaEmX;UC-Universal Column-Column:203x203x46UC:1650743;UC-Universal Column-Column:203x203x46UC:1650980
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEqz;3zPFHdZZvE6QPIualDaEmW;UC-Universal Column-Column:203x203x46UC:1650744;UC-Universal Column-Column:203x203x46UC:1650981
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEqy;3zPFHdZZvE6QPIualDaEmZ;UC-Universal Column-Column:203x203x46UC:1650745;UC-Universal Column-Column:203x203x46UC:1650982
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEmb;3zPFHdZZvE6QPIualDaEy8;UC-Universal Column-Column:203x203x46UC:1650976;UC-Universal Column-Column:203x203x46UC:1651213
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEmd;3zPFHdZZvE6QPIualDaEyA;UC-Universal Column-Column:203x203x46UC:1650978;UC-Universal Column-Column:203x203x46UC:1651215
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEmc;3zPFHdZZvE6QPIualDaEyL;UC-Universal Column-Column:203x203x46UC:1650979;UC-Universal Column-Column:203x203x46UC:1651216
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEmX;3zPFHdZZvE6QPIualDaEyK;UC-Universal Column-Column:203x203x46UC:1650980;UC-Universal Column-Column:203x203x46UC:1651217
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEmW;3zPFHdZZvE6QPIualDaEyN;UC-Universal Column-Column:203x203x46UC:1650981;UC-Universal Column-Column:203x203x46UC:1651218
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEmZ;3zPFHdZZvE6QPIualDaEyM;UC-Universal Column-Column:203x203x46UC:1650982;UC-Universal Column-Column:203x203x46UC:1651219
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEy8;3zPFHdZZvE6QPIualDaE$$;UC-Universal Column-Column:203x203x46UC:1651213;UC-Universal Column-Column:203x203x46UC:1651450
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEyA;3zPFHdZZvE6QPIualDaE$v;UC-Universal Column-Column:203x203x46UC:1651215;UC-Universal Column-Column:203x203x46UC:1651452
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEyL;3zPFHdZZvE6QPIualDaE$u;UC-Universal Column-Column:203x203x46UC:1651216;UC-Universal Column-Column:203x203x46UC:1651453
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEyK;3zPFHdZZvE6QPIualDaE$x;UC-Universal Column-Column:203x203x46UC:1651217;UC-Universal Column-Column:203x203x46UC:1651454
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEyN;3zPFHdZZvE6QPIualDaE$w;UC-Universal Column-Column:203x203x46UC:1651218;UC-Universal Column-Column:203x203x46UC:1651455
+;;;;;;
+o;IfcColumn;IfcColumn;3zPFHdZZvE6QPIualDaEyM;3zPFHdZZvE6QPIualDaEu5;UC-Universal Column-Column:203x203x46UC:1651219;UC-Universal Column-Column:203x203x46UC:1651456
+;;;;;;
+o;IfcSlab;IfcSlab;1hbkU0pOD8Ug4zZ2y86bE7;2mpujw6n12d93LqaxNBtb2;Floor:Concrete 250mm:1608216;Floor:Concrete 250mm:1637907
+o;IfcSlab;IfcSlab;1hbkU0pOD8Ug4zZ2y86bE7;3zPFHdZZvE6QPIualDaF91;Floor:Concrete 250mm:1608216;Floor:Concrete 250mm:1650500

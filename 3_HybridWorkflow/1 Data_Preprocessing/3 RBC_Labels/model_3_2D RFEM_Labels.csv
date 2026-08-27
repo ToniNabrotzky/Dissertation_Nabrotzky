@@ -1,0 +1,287 @@
+Verbindungs_Nr;Verbindungs_Art;Begrenzung_1_Nr;Begrenzung_2_Nr;Elem_A_Typ;Elem_A_Nr;Elem_B_Typ;Elem_B_Nr;IFC_GUID_A;IFC_GUID_B;Typus;Label;Kommentar
+13;Knotenkopplung;149;173;Stab;1;Fläche;24;1pnHUanNPAueqWfsp27b92;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+14;Knotenkopplung;150;30;Stab;1;Fläche;12;1pnHUanNPAueqWfsp27b92;0wvQwH4mn9TPt_aRnld6OF;Rule;FP;
+14;Knotenkopplung;150;30;Fläche;13;Fläche;12;0wvQwH4mn9TPt_aRnld6S2;0wvQwH4mn9TPt_aRnld6OF;Rule;FP;
+15;Knotenkopplung;151;174;Stab;2;Fläche;24;1pnHUanNPAueqWfsp27b90;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+16;Knotenkopplung;152;175;Stab;2;Fläche;19;1pnHUanNPAueqWfsp27b90;1pnHUanNPAueqWfsp27bnw;Rule;FP;
+17;Knotenkopplung;153;176;Stab;3;Fläche;24;1pnHUanNPAueqWfsp27b91;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+18;Knotenkopplung;154;177;Stab;3;Fläche;19;1pnHUanNPAueqWfsp27b91;1pnHUanNPAueqWfsp27bnw;Rule;FP;
+19;Knotenkopplung;155;178;Stab;4;Fläche;24;1pnHUanNPAueqWfsp27b93;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+20;Knotenkopplung;156;29;Stab;4;Fläche;12;1pnHUanNPAueqWfsp27b93;0wvQwH4mn9TPt_aRnld6OF;Rule;FP;
+20;Knotenkopplung;156;29;Fläche;14;Fläche;12;0wvQwH4mn9TPt_aRnld6N2;0wvQwH4mn9TPt_aRnld6OF;Rule;FP;
+21;Knotenkopplung;157;179;Stab;5;Fläche;24;1pnHUanNPAueqWfsp27b9F;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+22;Knotenkopplung;158;180;Stab;5;Fläche;19;1pnHUanNPAueqWfsp27b9F;1pnHUanNPAueqWfsp27bnw;Rule;FP;
+23;Knotenkopplung;159;181;Stab;6;Fläche;24;1pnHUanNPAueqWfsp27b9E;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+24;Knotenkopplung;160;182;Stab;6;Fläche;19;1pnHUanNPAueqWfsp27b9E;1pnHUanNPAueqWfsp27bnw;Rule;FP;
+25;Knotenkopplung;161;50;Stab;7;Fläche;15;1pnHUanNPAueqWfsp27b9A;0wvQwH4mn9TPt_aRnld6D7;Rule;FP;
+25;Knotenkopplung;161;50;Fläche;10;Fläche;15;0wvQwH4mn9TPt_aRnld69A;0wvQwH4mn9TPt_aRnld6D7;Rule;FP;
+26;Knotenkopplung;162;183;Stab;7;Fläche;24;1pnHUanNPAueqWfsp27b9A;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+27;Knotenkopplung;163;22;Stab;8;Fläche;10;1pnHUanNPAueqWfsp27b99;0wvQwH4mn9TPt_aRnld69A;Rule;FP;
+27;Knotenkopplung;163;22;Fläche;11;Fläche;10;0wvQwH4mn9TPt_aRnld64z;0wvQwH4mn9TPt_aRnld69A;Rule;FP;
+28;Knotenkopplung;164;184;Stab;8;Fläche;24;1pnHUanNPAueqWfsp27b99;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+29;Knotenkopplung;165;185;Stab;9;Fläche;18;1pnHUanNPAueqWfsp27b98;1pnHUanNPAueqWfsp27btN;Rule;FP;
+30;Knotenkopplung;166;186;Stab;9;Fläche;24;1pnHUanNPAueqWfsp27b98;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+31;Knotenkopplung;167;187;Stab;10;Fläche;18;1pnHUanNPAueqWfsp27b9Z;1pnHUanNPAueqWfsp27btN;Rule;FP;
+32;Knotenkopplung;168;188;Stab;10;Fläche;24;1pnHUanNPAueqWfsp27b9Z;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+33;Knotenkopplung;169;189;Stab;11;Fläche;18;1pnHUanNPAueqWfsp27b9M;1pnHUanNPAueqWfsp27btN;Rule;FP;
+34;Knotenkopplung;170;190;Stab;11;Fläche;24;1pnHUanNPAueqWfsp27b9M;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+35;Knotenkopplung;171;191;Stab;12;Fläche;18;1pnHUanNPAueqWfsp27b9N;1pnHUanNPAueqWfsp27btN;Rule;FP;
+36;Knotenkopplung;172;192;Stab;12;Fläche;24;1pnHUanNPAueqWfsp27b9N;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+47;Knotenkopplung;284;304;Stab;37;Fläche;24;1pnHUanNPAueqWfsp27bCd;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+48;Knotenkopplung;285;305;Stab;37;Fläche;36;1pnHUanNPAueqWfsp27bCd;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+49;Knotenkopplung;286;306;Stab;38;Fläche;36;1pnHUanNPAueqWfsp27bCb;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+50;Knotenkopplung;287;307;Stab;38;Fläche;24;1pnHUanNPAueqWfsp27bCb;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+51;Knotenkopplung;288;308;Stab;39;Fläche;36;1pnHUanNPAueqWfsp27bCc;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+52;Knotenkopplung;289;309;Stab;39;Fläche;24;1pnHUanNPAueqWfsp27bCc;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+53;Knotenkopplung;290;310;Stab;40;Fläche;24;1pnHUanNPAueqWfsp27bCX;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+54;Knotenkopplung;291;311;Stab;40;Fläche;36;1pnHUanNPAueqWfsp27bCX;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+55;Knotenkopplung;292;312;Stab;41;Fläche;36;1pnHUanNPAueqWfsp27bCl;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+56;Knotenkopplung;293;313;Stab;41;Fläche;24;1pnHUanNPAueqWfsp27bCl;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+57;Knotenkopplung;294;314;Stab;42;Fläche;36;1pnHUanNPAueqWfsp27bCa;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+58;Knotenkopplung;295;315;Stab;42;Fläche;24;1pnHUanNPAueqWfsp27bCa;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+59;Knotenkopplung;296;316;Stab;43;Fläche;36;1pnHUanNPAueqWfsp27bCW;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+60;Knotenkopplung;297;317;Stab;43;Fläche;24;1pnHUanNPAueqWfsp27bCW;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+61;Knotenkopplung;298;183;Stab;44;Fläche;24;1pnHUanNPAueqWfsp27bCp;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+62;Knotenkopplung;299;318;Stab;44;Fläche;36;1pnHUanNPAueqWfsp27bCp;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+63;Knotenkopplung;300;319;Stab;45;Fläche;24;1pnHUanNPAueqWfsp27bBE;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+64;Knotenkopplung;301;320;Stab;45;Fläche;36;1pnHUanNPAueqWfsp27bBE;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+65;Knotenkopplung;302;186;Stab;46;Fläche;24;1pnHUanNPAueqWfsp27bCn;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+66;Knotenkopplung;303;321;Stab;46;Fläche;36;1pnHUanNPAueqWfsp27bCn;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+75;Knotenkopplung;402;418;Stab;67;Fläche;47;1pnHUanNPAueqWfsp27bEF;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+76;Knotenkopplung;403;308;Stab;67;Fläche;36;1pnHUanNPAueqWfsp27bEF;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+77;Knotenkopplung;404;419;Stab;68;Fläche;47;1pnHUanNPAueqWfsp27bE0;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+78;Knotenkopplung;405;305;Stab;68;Fläche;36;1pnHUanNPAueqWfsp27bE0;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+79;Knotenkopplung;406;420;Stab;69;Fläche;47;1pnHUanNPAueqWfsp27bEE;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+80;Knotenkopplung;407;306;Stab;69;Fläche;36;1pnHUanNPAueqWfsp27bEE;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+81;Knotenkopplung;408;314;Stab;70;Fläche;36;1pnHUanNPAueqWfsp27bED;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+82;Knotenkopplung;409;421;Stab;70;Fläche;47;1pnHUanNPAueqWfsp27bED;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+83;Knotenkopplung;410;422;Stab;71;Fläche;47;1pnHUanNPAueqWfsp27bEA;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+84;Knotenkopplung;411;311;Stab;71;Fläche;36;1pnHUanNPAueqWfsp27bEA;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+85;Knotenkopplung;412;423;Stab;72;Fläche;47;1pnHUanNPAueqWfsp27bE8;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+86;Knotenkopplung;413;312;Stab;72;Fläche;36;1pnHUanNPAueqWfsp27bE8;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+87;Knotenkopplung;414;424;Stab;73;Fläche;47;1pnHUanNPAueqWfsp27bE9;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+88;Knotenkopplung;415;316;Stab;73;Fläche;36;1pnHUanNPAueqWfsp27bE9;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+89;Knotenkopplung;416;425;Stab;74;Fläche;47;1pnHUanNPAueqWfsp27bEt;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+90;Knotenkopplung;417;320;Stab;74;Fläche;36;1pnHUanNPAueqWfsp27bEt;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+1;Linienkopplung;23;64;Fläche;9;Fläche;7;0wvQwH4mn9TPt_aRnld6_$;0wvQwH4mn9TPt_aRvld5WO;Rule;FP;
+2;Linienkopplung;29;65;Fläche;10;Fläche;6;0wvQwH4mn9TPt_aRnld69A;0wvQwH4mn9TPt_aRXld5WO;Rule;FP;
+3;Linienkopplung;33;66;Fläche;11;Fläche;8;0wvQwH4mn9TPt_aRnld64z;0wvQwH4mn9TPt_aRzld5WO;Rule;FP;
+4;Linienkopplung;38;67;Fläche;12;Fläche;2;0wvQwH4mn9TPt_aRnld6OF;0wvQwH4mn9TPt_aRXld5pX;Rule;FP;
+5;Linienkopplung;43;68;Fläche;13;Fläche;3;0wvQwH4mn9TPt_aRnld6S2;0wvQwH4mn9TPt_aRzld5pX;Rule;FP;
+6;Linienkopplung;52;69;Fläche;14;Fläche;5;0wvQwH4mn9TPt_aRnld6N2;0wvQwH4mn9TPt_aRbld5pX;Rule;FP;
+7;Linienkopplung;57;70;Fläche;15;Fläche;4;0wvQwH4mn9TPt_aRnld6D7;0wvQwH4mn9TPt_aRbld5WO;Rule;FP;
+8;Linienkopplung;62;71;Fläche;16;Fläche;1;0wvQwH4mn9TPt_aRnld5X1;0wvQwH4mn9TPt_aRvld5pX;Rule;FP;
+9;Linienkopplung;28;72;Fläche;10;Fläche;11;0wvQwH4mn9TPt_aRnld69A;0wvQwH4mn9TPt_aRnld64z;Rule;FP;
+10;Linienkopplung;32;73;Fläche;11;Fläche;9;0wvQwH4mn9TPt_aRnld64z;0wvQwH4mn9TPt_aRnld6_$;Rule;FP;
+11;Linienkopplung;36;74;Fläche;12;Fläche;13;0wvQwH4mn9TPt_aRnld6OF;0wvQwH4mn9TPt_aRnld6S2;Rule;FP;
+12;Linienkopplung;40;75;Fläche;12;Fläche;14;0wvQwH4mn9TPt_aRnld6OF;0wvQwH4mn9TPt_aRnld6N2;Rule;FP;
+13;Linienkopplung;42;76;Fläche;13;Fläche;16;0wvQwH4mn9TPt_aRnld6S2;0wvQwH4mn9TPt_aRnld5X1;Rule;FP;
+14;Linienkopplung;46;77;Fläche;13;Fläche;12;0wvQwH4mn9TPt_aRnld6S2;0wvQwH4mn9TPt_aRnld6OF;Rule;FP;
+15;Linienkopplung;47;78;Fläche;14;Fläche;16;0wvQwH4mn9TPt_aRnld6N2;0wvQwH4mn9TPt_aRnld5X1;Rule;FP;
+16;Linienkopplung;49;79;Fläche;14;Fläche;12;0wvQwH4mn9TPt_aRnld6N2;0wvQwH4mn9TPt_aRnld6OF;Rule;FP;
+17;Linienkopplung;54;80;Fläche;15;Fläche;9;0wvQwH4mn9TPt_aRnld6D7;0wvQwH4mn9TPt_aRnld6_$;Rule;FP;
+18;Linienkopplung;56;81;Fläche;15;Fläche;10;0wvQwH4mn9TPt_aRnld6D7;0wvQwH4mn9TPt_aRnld69A;Rule;FP;
+19;Linienkopplung;60;82;Fläche;16;Fläche;14;0wvQwH4mn9TPt_aRnld5X1;0wvQwH4mn9TPt_aRnld6N2;Rule;FP;
+20;Linienkopplung;20;99;Fläche;9;Fläche;18;0wvQwH4mn9TPt_aRnld6_$;1pnHUanNPAueqWfsp27btN;Rule;FP;
+21;Linienkopplung;27;100;Fläche;10;Fläche;18;0wvQwH4mn9TPt_aRnld69A;1pnHUanNPAueqWfsp27btN;Rule;FP;
+22;Linienkopplung;31;101;Fläche;11;Fläche;18;0wvQwH4mn9TPt_aRnld64z;1pnHUanNPAueqWfsp27btN;Rule;FP;
+23;Linienkopplung;35;102;Fläche;12;Fläche;19;0wvQwH4mn9TPt_aRnld6OF;1pnHUanNPAueqWfsp27bnw;Rule;FP;
+24;Linienkopplung;41;103;Fläche;13;Fläche;19;0wvQwH4mn9TPt_aRnld6S2;1pnHUanNPAueqWfsp27bnw;Rule;FP;
+25;Linienkopplung;48;104;Fläche;14;Fläche;19;0wvQwH4mn9TPt_aRnld6N2;1pnHUanNPAueqWfsp27bnw;Rule;FP;
+26;Linienkopplung;55;105;Fläche;15;Fläche;18;0wvQwH4mn9TPt_aRnld6D7;1pnHUanNPAueqWfsp27btN;Rule;FP;
+27;Linienkopplung;59;106;Fläche;16;Fläche;19;0wvQwH4mn9TPt_aRnld5X1;1pnHUanNPAueqWfsp27bnw;Rule;FP;
+28;Linienkopplung;107;115;Fläche;16;Fläche;19;0wvQwH4mn9TPt_aRnld5X1;1pnHUanNPAueqWfsp27bnw;Rule;FP;
+28;Linienkopplung;107;115;Fläche;16;Fläche;21;0wvQwH4mn9TPt_aRnld5X1;1pnHUanNPAueqWfsp27bu_;Rule;FP;
+28;Linienkopplung;107;115;Fläche;21;Fläche;19;1pnHUanNPAueqWfsp27bu_;1pnHUanNPAueqWfsp27bnw;Rule;FP;
+29;Linienkopplung;111;116;Fläche;9;Fläche;18;0wvQwH4mn9TPt_aRnld6_$;1pnHUanNPAueqWfsp27btN;Rule;FP;
+29;Linienkopplung;111;116;Fläche;9;Fläche;22;0wvQwH4mn9TPt_aRnld6_$;1pnHUanNPAueqWfsp27bwu;Rule;FP;
+29;Linienkopplung;111;116;Fläche;22;Fläche;18;1pnHUanNPAueqWfsp27bwu;1pnHUanNPAueqWfsp27btN;Rule;FP;
+30;Linienkopplung;109;133;Fläche;21;Fläche;24;1pnHUanNPAueqWfsp27bu_;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+31;Linienkopplung;113;134;Fläche;22;Fläche;24;1pnHUanNPAueqWfsp27bwu;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+32;Linienkopplung;171;207;Fläche;26;Fläche;24;1pnHUanNPAueqWfsp27bCT;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+33;Linienkopplung;185;208;Fläche;29;Fläche;24;1pnHUanNPAueqWfsp27bCQ;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+34;Linienkopplung;189;209;Fläche;30;Fläche;24;1pnHUanNPAueqWfsp27bCR;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+35;Linienkopplung;193;210;Fläche;31;Fläche;24;1pnHUanNPAueqWfsp27bCP;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+36;Linienkopplung;197;211;Fläche;32;Fläche;24;1pnHUanNPAueqWfsp27bCr;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+37;Linienkopplung;203;212;Fläche;34;Fläche;24;1pnHUanNPAueqWfsp27bCs;1pnHUanNPAueqWfsp27bAI;Rule;FP;
+38;Linienkopplung;177;213;Fläche;27;Fläche;26;1KG18aleCv4KCbEDOyc9nw;1pnHUanNPAueqWfsp27bCT;Rule;FP;
+39;Linienkopplung;181;214;Fläche;28;Fläche;26;0gLMuSRNZSzz36_HJMh4VS;1pnHUanNPAueqWfsp27bCT;Rule;FP;
+40;Linienkopplung;184;215;Fläche;29;Fläche;26;1pnHUanNPAueqWfsp27bCQ;1pnHUanNPAueqWfsp27bCT;Rule;FP;
+41;Linienkopplung;192;216;Fläche;31;Fläche;29;1pnHUanNPAueqWfsp27bCP;1pnHUanNPAueqWfsp27bCQ;Rule;FP;
+42;Linienkopplung;196;217;Fläche;32;Fläche;34;1pnHUanNPAueqWfsp27bCr;1pnHUanNPAueqWfsp27bCs;Rule;FP;
+43;Linienkopplung;201;218;Fläche;33;Fläche;34;2M563$CAdlwoPVUXn7d00w;1pnHUanNPAueqWfsp27bCs;Rule;FP;
+44;Linienkopplung;173;235;Fläche;26;Fläche;36;1pnHUanNPAueqWfsp27bCT;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+45;Linienkopplung;176;236;Fläche;27;Fläche;36;1KG18aleCv4KCbEDOyc9nw;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+46;Linienkopplung;180;237;Fläche;28;Fläche;36;0gLMuSRNZSzz36_HJMh4VS;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+47;Linienkopplung;183;238;Fläche;29;Fläche;36;1pnHUanNPAueqWfsp27bCQ;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+48;Linienkopplung;187;239;Fläche;30;Fläche;36;1pnHUanNPAueqWfsp27bCR;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+49;Linienkopplung;191;240;Fläche;31;Fläche;36;1pnHUanNPAueqWfsp27bCP;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+50;Linienkopplung;195;241;Fläche;32;Fläche;36;1pnHUanNPAueqWfsp27bCr;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+51;Linienkopplung;200;242;Fläche;33;Fläche;36;2M563$CAdlwoPVUXn7d00w;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+52;Linienkopplung;205;243;Fläche;34;Fläche;36;1pnHUanNPAueqWfsp27bCs;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+53;Linienkopplung;276;309;Fläche;38;Fläche;36;1pnHUanNPAueqWfsp27bE4;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+54;Linienkopplung;282;310;Fläche;40;Fläche;36;1pnHUanNPAueqWfsp27bE6;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+55;Linienkopplung;292;311;Fläche;42;Fläche;36;1pnHUanNPAueqWfsp27bE2;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+56;Linienkopplung;296;312;Fläche;43;Fläche;36;1pnHUanNPAueqWfsp27bE3;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+57;Linienkopplung;298;313;Fläche;44;Fläche;36;1pnHUanNPAueqWfsp27bEV;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+58;Linienkopplung;304;314;Fläche;45;Fläche;36;1pnHUanNPAueqWfsp27bEU;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+59;Linienkopplung;308;315;Fläche;46;Fläche;36;1pnHUanNPAueqWfsp27bET;1pnHUanNPAueqWfsp27bDx;Rule;FP;
+60;Linienkopplung;280;316;Fläche;39;Fläche;40;1xMd6_Hkl_FP76A5NoAXqh;1pnHUanNPAueqWfsp27bE6;Rule;FP;
+61;Linienkopplung;288;317;Fläche;41;Fläche;40;27K$wOeDDAKXBUSXuWjyJa;1pnHUanNPAueqWfsp27bE6;Rule;FP;
+62;Linienkopplung;291;318;Fläche;42;Fläche;43;1pnHUanNPAueqWfsp27bE2;1pnHUanNPAueqWfsp27bE3;Rule;FP;
+63;Linienkopplung;295;319;Fläche;43;Fläche;40;1pnHUanNPAueqWfsp27bE3;1pnHUanNPAueqWfsp27bE6;Rule;FP;
+64;Linienkopplung;303;320;Fläche;45;Fläche;44;1pnHUanNPAueqWfsp27bEU;1pnHUanNPAueqWfsp27bEV;Rule;FP;
+65;Linienkopplung;307;321;Fläche;46;Fläche;45;1pnHUanNPAueqWfsp27bET;1pnHUanNPAueqWfsp27bEU;Rule;FP;
+66;Linienkopplung;274;338;Fläche;38;Fläche;47;1pnHUanNPAueqWfsp27bE4;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+67;Linienkopplung;279;339;Fläche;39;Fläche;47;1xMd6_Hkl_FP76A5NoAXqh;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+68;Linienkopplung;284;340;Fläche;40;Fläche;47;1pnHUanNPAueqWfsp27bE6;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+69;Linienkopplung;287;341;Fläche;41;Fläche;47;27K$wOeDDAKXBUSXuWjyJa;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+70;Linienkopplung;290;342;Fläche;42;Fläche;47;1pnHUanNPAueqWfsp27bE2;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+71;Linienkopplung;294;343;Fläche;43;Fläche;47;1pnHUanNPAueqWfsp27bE3;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+72;Linienkopplung;300;344;Fläche;44;Fläche;47;1pnHUanNPAueqWfsp27bEV;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+73;Linienkopplung;302;345;Fläche;45;Fläche;47;1pnHUanNPAueqWfsp27bEU;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+74;Linienkopplung;306;346;Fläche;46;Fläche;47;1pnHUanNPAueqWfsp27bET;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+75;Linienkopplung;373;447;Fläche;50;Fläche;47;1j9MRkXyjFDutwdWyjJKw9;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+76;Linienkopplung;417;448;Fläche;56;Fläche;47;24RD9DDvr8xuDgQbCpe0jO;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+77;Linienkopplung;421;449;Fläche;57;Fläche;47;24RD9DDvr8xuDgQbCpe0kV;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+78;Linienkopplung;423;450;Fläche;58;Fläche;47;24RD9DDvr8xuDgQbCpe0l2;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+79;Linienkopplung;429;451;Fläche;59;Fläche;47;3PcPWHAnHClxTvsIqbWNmY;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+80;Linienkopplung;431;452;Fläche;60;Fläche;47;24RD9DDvr8xuDgQbCpe0tQ;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+81;Linienkopplung;435;453;Fläche;61;Fläche;47;3PcPWHAnHClxTvsIqbWNmZ;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+82;Linienkopplung;441;454;Fläche;62;Fläche;47;24RD9DDvr8xuDgQbCpe0sq;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+83;Linienkopplung;443;455;Fläche;63;Fläche;47;3PcPWHAnHClxTvsIqbWNmb;2HuL5GFRr3p8gzj7BPE9s$;Rule;FP;
+84;Linienkopplung;418;456;Fläche;56;Fläche;57;24RD9DDvr8xuDgQbCpe0jO;24RD9DDvr8xuDgQbCpe0kV;Rule;FP;
+85;Linienkopplung;424;457;Fläche;58;Fläche;57;24RD9DDvr8xuDgQbCpe0l2;24RD9DDvr8xuDgQbCpe0kV;Rule;FP;
+86;Linienkopplung;428;458;Fläche;59;Fläche;61;3PcPWHAnHClxTvsIqbWNmY;3PcPWHAnHClxTvsIqbWNmZ;Rule;FP;
+87;Linienkopplung;432;459;Fläche;60;Fläche;50;24RD9DDvr8xuDgQbCpe0tQ;1j9MRkXyjFDutwdWyjJKw9;Rule;FP;
+88;Linienkopplung;434;460;Fläche;60;Fläche;62;24RD9DDvr8xuDgQbCpe0tQ;24RD9DDvr8xuDgQbCpe0sq;Rule;FP;
+89;Linienkopplung;440;461;Fläche;62;Fläche;58;24RD9DDvr8xuDgQbCpe0sq;24RD9DDvr8xuDgQbCpe0l2;Rule;FP;
+90;Linienkopplung;446;462;Fläche;63;Fläche;59;3PcPWHAnHClxTvsIqbWNmb;3PcPWHAnHClxTvsIqbWNmY;Rule;FP;
+91;Linienkopplung;371;467;Fläche;50;Fläche;64;1j9MRkXyjFDutwdWyjJKw9;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+92;Linienkopplung;375;468;Fläche;50;Fläche;64;1j9MRkXyjFDutwdWyjJKw9;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+93;Linienkopplung;400;469;Fläche;52;Fläche;64;3C_RLFddah8$eKO01p4hSE;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+94;Linienkopplung;415;470;Fläche;56;Fläche;64;24RD9DDvr8xuDgQbCpe0jO;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+95;Linienkopplung;419;471;Fläche;57;Fläche;64;24RD9DDvr8xuDgQbCpe0kV;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+96;Linienkopplung;425;472;Fläche;58;Fläche;64;24RD9DDvr8xuDgQbCpe0l2;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+97;Linienkopplung;427;473;Fläche;59;Fläche;64;3PcPWHAnHClxTvsIqbWNmY;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+98;Linienkopplung;433;474;Fläche;60;Fläche;64;24RD9DDvr8xuDgQbCpe0tQ;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+99;Linienkopplung;437;475;Fläche;61;Fläche;64;3PcPWHAnHClxTvsIqbWNmZ;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+100;Linienkopplung;439;476;Fläche;62;Fläche;64;24RD9DDvr8xuDgQbCpe0sq;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+101;Linienkopplung;445;477;Fläche;63;Fläche;64;3PcPWHAnHClxTvsIqbWNmb;3Tt69ndVvBkv7If$RWPIQP;Rule;FP;
+1;Geometriekopplung;162;298;Stab;7;Stab;44;1pnHUanNPAueqWfsp27b9A;1pnHUanNPAueqWfsp27bCp;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+2;Geometriekopplung;166;302;Stab;9;Stab;46;1pnHUanNPAueqWfsp27b98;1pnHUanNPAueqWfsp27bCn;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+3;Geometriekopplung;285;405;Stab;37;Stab;68;1pnHUanNPAueqWfsp27bCd;1pnHUanNPAueqWfsp27bE0;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+4;Geometriekopplung;286;407;Stab;38;Stab;69;1pnHUanNPAueqWfsp27bCb;1pnHUanNPAueqWfsp27bEE;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+5;Geometriekopplung;288;403;Stab;39;Stab;67;1pnHUanNPAueqWfsp27bCc;1pnHUanNPAueqWfsp27bEF;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+6;Geometriekopplung;291;411;Stab;40;Stab;71;1pnHUanNPAueqWfsp27bCX;1pnHUanNPAueqWfsp27bEA;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+7;Geometriekopplung;292;413;Stab;41;Stab;72;1pnHUanNPAueqWfsp27bCl;1pnHUanNPAueqWfsp27bE8;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+8;Geometriekopplung;294;408;Stab;42;Stab;70;1pnHUanNPAueqWfsp27bCa;1pnHUanNPAueqWfsp27bED;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+9;Geometriekopplung;296;415;Stab;43;Stab;73;1pnHUanNPAueqWfsp27bCW;1pnHUanNPAueqWfsp27bE9;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+10;Geometriekopplung;301;417;Stab;45;Stab;74;1pnHUanNPAueqWfsp27bBE;1pnHUanNPAueqWfsp27bEt;Topology;FP;Knoten-Duplikat (gleiche Koordinate)
+11;Geometriekopplung;150;35;Stab;1;Fläche;12;1pnHUanNPAueqWfsp27b92;0wvQwH4mn9TPt_aRnld6OF;Topology;FP;Knoten auf Flächenebene
+12;Geometriekopplung;150;41;Stab;1;Fläche;13;1pnHUanNPAueqWfsp27b92;0wvQwH4mn9TPt_aRnld6S2;Topology;FP;Knoten auf Flächenebene
+13;Geometriekopplung;149;91;Stab;1;Fläche;19;1pnHUanNPAueqWfsp27b92;1pnHUanNPAueqWfsp27bnw;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+14;Geometriekopplung;151;91;Stab;2;Fläche;19;1pnHUanNPAueqWfsp27b90;1pnHUanNPAueqWfsp27bnw;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+15;Geometriekopplung;153;91;Stab;3;Fläche;19;1pnHUanNPAueqWfsp27b91;1pnHUanNPAueqWfsp27bnw;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+16;Geometriekopplung;156;35;Stab;4;Fläche;12;1pnHUanNPAueqWfsp27b93;0wvQwH4mn9TPt_aRnld6OF;Topology;FP;Knoten auf Flächenebene
+17;Geometriekopplung;156;47;Stab;4;Fläche;14;1pnHUanNPAueqWfsp27b93;0wvQwH4mn9TPt_aRnld6N2;Topology;FP;Knoten auf Flächenebene
+18;Geometriekopplung;155;91;Stab;4;Fläche;19;1pnHUanNPAueqWfsp27b93;1pnHUanNPAueqWfsp27bnw;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+19;Geometriekopplung;157;91;Stab;5;Fläche;19;1pnHUanNPAueqWfsp27b9F;1pnHUanNPAueqWfsp27bnw;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+20;Geometriekopplung;159;91;Stab;6;Fläche;19;1pnHUanNPAueqWfsp27b9E;1pnHUanNPAueqWfsp27bnw;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+21;Geometriekopplung;161;25;Stab;7;Fläche;10;1pnHUanNPAueqWfsp27b9A;0wvQwH4mn9TPt_aRnld69A;Topology;FP;Knoten auf Flächenebene
+22;Geometriekopplung;161;87;Stab;7;Fläche;18;1pnHUanNPAueqWfsp27b9A;1pnHUanNPAueqWfsp27btN;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+23;Geometriekopplung;163;30;Stab;8;Fläche;11;1pnHUanNPAueqWfsp27b99;0wvQwH4mn9TPt_aRnld64z;Topology;FP;Knoten auf Flächenebene
+24;Geometriekopplung;163;87;Stab;8;Fläche;18;1pnHUanNPAueqWfsp27b99;1pnHUanNPAueqWfsp27btN;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+25;Geometriekopplung;165;87;Stab;9;Fläche;18;1pnHUanNPAueqWfsp27b98;1pnHUanNPAueqWfsp27btN;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+26;Geometriekopplung;167;87;Stab;10;Fläche;18;1pnHUanNPAueqWfsp27b9Z;1pnHUanNPAueqWfsp27btN;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+27;Geometriekopplung;169;87;Stab;11;Fläche;18;1pnHUanNPAueqWfsp27b9M;1pnHUanNPAueqWfsp27btN;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+28;Geometriekopplung;171;87;Stab;12;Fläche;18;1pnHUanNPAueqWfsp27b9N;1pnHUanNPAueqWfsp27btN;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+29;Geometriekopplung;284;121;Stab;37;Fläche;24;1pnHUanNPAueqWfsp27bCd;1pnHUanNPAueqWfsp27bAI;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+30;Geometriekopplung;286;121;Stab;38;Fläche;24;1pnHUanNPAueqWfsp27bCb;1pnHUanNPAueqWfsp27bAI;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+31;Geometriekopplung;288;121;Stab;39;Fläche;24;1pnHUanNPAueqWfsp27bCc;1pnHUanNPAueqWfsp27bAI;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+32;Geometriekopplung;290;121;Stab;40;Fläche;24;1pnHUanNPAueqWfsp27bCX;1pnHUanNPAueqWfsp27bAI;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+33;Geometriekopplung;292;121;Stab;41;Fläche;24;1pnHUanNPAueqWfsp27bCl;1pnHUanNPAueqWfsp27bAI;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+34;Geometriekopplung;294;121;Stab;42;Fläche;24;1pnHUanNPAueqWfsp27bCa;1pnHUanNPAueqWfsp27bAI;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+35;Geometriekopplung;296;121;Stab;43;Fläche;24;1pnHUanNPAueqWfsp27bCW;1pnHUanNPAueqWfsp27bAI;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+36;Geometriekopplung;298;121;Stab;44;Fläche;24;1pnHUanNPAueqWfsp27bCp;1pnHUanNPAueqWfsp27bAI;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+37;Geometriekopplung;300;121;Stab;45;Fläche;24;1pnHUanNPAueqWfsp27bBE;1pnHUanNPAueqWfsp27bAI;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+38;Geometriekopplung;302;121;Stab;46;Fläche;24;1pnHUanNPAueqWfsp27bCn;1pnHUanNPAueqWfsp27bAI;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+39;Geometriekopplung;402;223;Stab;67;Fläche;36;1pnHUanNPAueqWfsp27bEF;1pnHUanNPAueqWfsp27bDx;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+40;Geometriekopplung;404;223;Stab;68;Fläche;36;1pnHUanNPAueqWfsp27bE0;1pnHUanNPAueqWfsp27bDx;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+41;Geometriekopplung;406;223;Stab;69;Fläche;36;1pnHUanNPAueqWfsp27bEE;1pnHUanNPAueqWfsp27bDx;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+42;Geometriekopplung;408;223;Stab;70;Fläche;36;1pnHUanNPAueqWfsp27bED;1pnHUanNPAueqWfsp27bDx;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+43;Geometriekopplung;410;223;Stab;71;Fläche;36;1pnHUanNPAueqWfsp27bEA;1pnHUanNPAueqWfsp27bDx;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+44;Geometriekopplung;412;223;Stab;72;Fläche;36;1pnHUanNPAueqWfsp27bE8;1pnHUanNPAueqWfsp27bDx;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+45;Geometriekopplung;414;223;Stab;73;Fläche;36;1pnHUanNPAueqWfsp27bE9;1pnHUanNPAueqWfsp27bDx;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+46;Geometriekopplung;416;223;Stab;74;Fläche;36;1pnHUanNPAueqWfsp27bEt;1pnHUanNPAueqWfsp27bDx;Topology;FP;Linien-Kreuzung (Schnittpunkt)
+47;Geometriekopplung;2;6;Fläche;1;Fläche;5;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRbld5pX;Topology;FP;Flächen-Kreuzung (Durchdringung)
+48;Geometriekopplung;5;4;Fläche;2;Fläche;3;0wvQwH4mn9TPt_aRXld5pX;0wvQwH4mn9TPt_aRzld5pX;Topology;FP;Flächen-Kreuzung (Durchdringung)
+49;Geometriekopplung;6;4;Fläche;5;Fläche;2;0wvQwH4mn9TPt_aRbld5pX;0wvQwH4mn9TPt_aRXld5pX;Topology;FP;Randlinie auf Flächenebene
+50;Geometriekopplung;7;6;Fläche;3;Fläche;5;0wvQwH4mn9TPt_aRzld5pX;0wvQwH4mn9TPt_aRbld5pX;Topology;FP;Flächen-Kreuzung (Durchdringung)
+51;Geometriekopplung;9;14;Fläche;4;Fläche;6;0wvQwH4mn9TPt_aRbld5WO;0wvQwH4mn9TPt_aRXld5WO;Topology;FP;Randlinie auf Flächenebene
+52;Geometriekopplung;11;9;Fläche;7;Fläche;4;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRbld5WO;Topology;FP;Randlinie auf Flächenebene
+53;Geometriekopplung;11;14;Fläche;4;Fläche;8;0wvQwH4mn9TPt_aRbld5WO;0wvQwH4mn9TPt_aRzld5WO;Topology;FP;Flächen-Kreuzung (Durchdringung)
+54;Geometriekopplung;14;14;Fläche;8;Fläche;6;0wvQwH4mn9TPt_aRzld5WO;0wvQwH4mn9TPt_aRXld5WO;Topology;FP;Randlinie auf Flächenebene
+55;Geometriekopplung;11;14;Fläche;7;Fläche;8;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRzld5WO;Topology;FP;Flächen-Kreuzung (Durchdringung)
+56;Geometriekopplung;111;19;Fläche;22;Fläche;9;1pnHUanNPAueqWfsp27bwu;0wvQwH4mn9TPt_aRnld6_$;Topology;FP;Randlinie auf Flächenebene
+57;Geometriekopplung;35;41;Fläche;12;Fläche;13;0wvQwH4mn9TPt_aRnld6OF;0wvQwH4mn9TPt_aRnld6S2;Topology;FP;Flächen-Kreuzung (Durchdringung)
+58;Geometriekopplung;35;47;Fläche;12;Fläche;14;0wvQwH4mn9TPt_aRnld6OF;0wvQwH4mn9TPt_aRnld6N2;Topology;FP;Flächen-Kreuzung (Durchdringung)
+59;Geometriekopplung;48;58;Fläche;14;Fläche;16;0wvQwH4mn9TPt_aRnld6N2;0wvQwH4mn9TPt_aRnld5X1;Topology;FP;Flächen-Kreuzung (Durchdringung)
+60;Geometriekopplung;107;58;Fläche;21;Fläche;16;1pnHUanNPAueqWfsp27bu_;0wvQwH4mn9TPt_aRnld5X1;Topology;FP;Randlinie auf Flächenebene
+61;Geometriekopplung;83;87;Fläche;17;Fläche;18;0_VYOdhjRxKlYyBRV024D4;1pnHUanNPAueqWfsp27btN;Topology;FP;Randlinie auf Flächenebene
+62;Geometriekopplung;112;87;Fläche;22;Fläche;18;1pnHUanNPAueqWfsp27bwu;1pnHUanNPAueqWfsp27btN;Topology;FP;Flächen-Kreuzung (Durchdringung)
+63;Geometriekopplung;98;91;Fläche;20;Fläche;19;0akr1APcejpvQgXkYR70H4;1pnHUanNPAueqWfsp27bnw;Topology;FP;Randlinie auf Flächenebene
+64;Geometriekopplung;108;91;Fläche;21;Fläche;19;1pnHUanNPAueqWfsp27bu_;1pnHUanNPAueqWfsp27bnw;Topology;FP;Flächen-Kreuzung (Durchdringung)
+65;Geometriekopplung;117;121;Fläche;23;Fläche;24;2fSWK3qE$$as4rYrZXeDb9;1pnHUanNPAueqWfsp27bAI;Topology;FP;Randlinie auf Flächenebene
+66;Geometriekopplung;131;121;Fläche;25;Fläche;24;2zz2HXbqp$_WIDJD1WiptP;1pnHUanNPAueqWfsp27bAI;Topology;FP;Randlinie auf Flächenebene
+67;Geometriekopplung;219;223;Fläche;35;Fläche;36;3fYy3zoVqPdO0nF$gA49gK;1pnHUanNPAueqWfsp27bDx;Topology;FP;Randlinie auf Flächenebene
+68;Geometriekopplung;233;223;Fläche;37;Fläche;36;16TPg5Ywzz1y9IeI5$c2ri;1pnHUanNPAueqWfsp27bDx;Topology;FP;Randlinie auf Flächenebene
+69;Geometriekopplung;275;274;Fläche;46;Fläche;38;1pnHUanNPAueqWfsp27bET;1pnHUanNPAueqWfsp27bE4;Topology;FP;Randlinie auf Flächenebene
+70;Geometriekopplung;332;322;Fläche;48;Fläche;47;0szelyN4V6RfNhIf5tDSLd;2HuL5GFRr3p8gzj7BPE9s$;Topology;FP;Randlinie auf Flächenebene
+71;Geometriekopplung;336;322;Fläche;49;Fläche;47;3dv0hOSdrBUglMED33h2oe;2HuL5GFRr3p8gzj7BPE9s$;Topology;FP;Randlinie auf Flächenebene
+72;Geometriekopplung;404;371;Fläche;53;Fläche;50;3KwpZgAWTWRqTKHsLSQgF5;1j9MRkXyjFDutwdWyjJKw9;Topology;FP;Flächen-Kreuzung (Durchdringung)
+73;Geometriekopplung;408;371;Fläche;54;Fläche;50;2FxiMSI4PHei$1qSRS$dEG;1j9MRkXyjFDutwdWyjJKw9;Topology;FP;Flächen-Kreuzung (Durchdringung)
+74;Geometriekopplung;412;371;Fläche;55;Fläche;50;1DGLE2$zdTsCsrWMB54$Pt;1j9MRkXyjFDutwdWyjJKw9;Topology;FP;Flächen-Kreuzung (Durchdringung)
+102;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:368048;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+103;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:352321;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+104;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:352497;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+105;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+106;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:352474;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+107;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+108;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:314653;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+109;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:366927;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+110;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:314219;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+111;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:314166;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+112;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:367413;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+113;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;IfcSlab;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+114;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:367160;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+115;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+116;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+117;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:368253;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+118;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+119;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:368496;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+120;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+121;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+122;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:352324;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+123;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:322642;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+124;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:352323;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+125;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+126;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 3:352444;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+127;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;IfcSlab;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+128;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:368048;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+129;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:368253;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+130;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 2:350927;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+131;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:352344;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+132;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:352345;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+133;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:314739;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+134;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:368691;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+135;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 5:356285;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+136;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:366927;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+137;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:322643;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+138;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:366541;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+139;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:367160;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+140;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:352477;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+141;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:wall 1:314353;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+142;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 4:355856;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+143;Missing (GT);;;Unbekannt;;Unbekannt;;Basic Wall:load bearing:368496;IfcWall;GroundTruth;FN;In RFEM-Analyse nicht identifiziert
+144;Missing (GT);;;Unbekannt;;Unbekannt;;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC 6:352597;IfcColumn;GroundTruth;FN;In RFEM-Analyse nicht identifiziert

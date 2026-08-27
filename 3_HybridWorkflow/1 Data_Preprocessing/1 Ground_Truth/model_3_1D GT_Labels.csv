@@ -1,0 +1,976 @@
+Status;Type_A;Type_B;GUID_A;GUID_B;Name_A;Name_B
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9G;1pnHUanNPAueqWfsp27b9S;UB-Universal Beams:BEAM1:352663;UB-Universal Beams:BEAM1:352667
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9G;1pnHUanNPAueqWfsp27b9c;UB-Universal Beams:BEAM1:352663;UB-Universal Beams:BEAM1:352673
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9G;1pnHUanNPAueqWfsp27b95;UB-Universal Beams:BEAM1:352663;UC-Universal Columns-Column:UC305x305x97:352642
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9G;1pnHUanNPAueqWfsp27b94;UB-Universal Beams:BEAM1:352663;UC-Universal Columns-Column:UC305x305x97:352643
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9S;1pnHUanNPAueqWfsp27b9R;UB-Universal Beams:BEAM1:352667;UB-Universal Beams:BEAM1:352668
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9S;1pnHUanNPAueqWfsp27b8F;UB-Universal Beams:BEAM1:352667;UB-Universal Beams:BEAM1:352712
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9S;1pnHUanNPAueqWfsp27b9G;UB-Universal Beams:BEAM1:352667;UB-Universal Beams:BEAM1:352663
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9S;1pnHUanNPAueqWfsp27b94;UB-Universal Beams:BEAM1:352667;UC-Universal Columns-Column:UC305x305x97:352643
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9S;1pnHUanNPAueqWfsp27b92;UB-Universal Beams:BEAM1:352667;UC-Universal Columns-Column:UC305x305x97:352645
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9R;1pnHUanNPAueqWfsp27b9Q;UB-Universal Beams:BEAM1:352668;UB-Universal Beams:BEAM1:352669
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9R;1pnHUanNPAueqWfsp27b80;UB-Universal Beams:BEAM1:352668;UB-Universal Beams:BEAM1:352711
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9R;1pnHUanNPAueqWfsp27b8F;UB-Universal Beams:BEAM1:352668;UB-Universal Beams:BEAM1:352712
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9R;1pnHUanNPAueqWfsp27b92;UB-Universal Beams:BEAM1:352668;UC-Universal Columns-Column:UC305x305x97:352645
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9R;1pnHUanNPAueqWfsp27b90;UB-Universal Beams:BEAM1:352668;UC-Universal Columns-Column:UC305x305x97:352647
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9Q;1pnHUanNPAueqWfsp27b9P;UB-Universal Beams:BEAM1:352669;UB-Universal Beams:BEAM1:352670
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9Q;1pnHUanNPAueqWfsp27b80;UB-Universal Beams:BEAM1:352669;UB-Universal Beams:BEAM1:352711
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9Q;1pnHUanNPAueqWfsp27b90;UB-Universal Beams:BEAM1:352669;UC-Universal Columns-Column:UC305x305x97:352647
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9Q;1pnHUanNPAueqWfsp27b9E;UB-Universal Beams:BEAM1:352669;UC-Universal Columns-Column:UC305x305x97:352649
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9P;1pnHUanNPAueqWfsp27b9O;UB-Universal Beams:BEAM1:352670;UB-Universal Beams:BEAM1:352671
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9P;1pnHUanNPAueqWfsp27b9F;UB-Universal Beams:BEAM1:352670;UC-Universal Columns-Column:UC305x305x97:352648
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9P;1pnHUanNPAueqWfsp27b9E;UB-Universal Beams:BEAM1:352670;UC-Universal Columns-Column:UC305x305x97:352649
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9O;1pnHUanNPAueqWfsp27b9d;UB-Universal Beams:BEAM1:352671;UB-Universal Beams:BEAM1:352672
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9O;1pnHUanNPAueqWfsp27b80;UB-Universal Beams:BEAM1:352671;UB-Universal Beams:BEAM1:352711
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9O;1pnHUanNPAueqWfsp27b91;UB-Universal Beams:BEAM1:352671;UC-Universal Columns-Column:UC305x305x97:352646
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9O;1pnHUanNPAueqWfsp27b9F;UB-Universal Beams:BEAM1:352671;UC-Universal Columns-Column:UC305x305x97:352648
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9d;1pnHUanNPAueqWfsp27b9c;UB-Universal Beams:BEAM1:352672;UB-Universal Beams:BEAM1:352673
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9d;1pnHUanNPAueqWfsp27b80;UB-Universal Beams:BEAM1:352672;UB-Universal Beams:BEAM1:352711
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9d;1pnHUanNPAueqWfsp27b8F;UB-Universal Beams:BEAM1:352672;UB-Universal Beams:BEAM1:352712
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9d;1pnHUanNPAueqWfsp27b93;UB-Universal Beams:BEAM1:352672;UC-Universal Columns-Column:UC305x305x97:352644
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9d;1pnHUanNPAueqWfsp27b91;UB-Universal Beams:BEAM1:352672;UC-Universal Columns-Column:UC305x305x97:352646
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9c;1pnHUanNPAueqWfsp27b8F;UB-Universal Beams:BEAM1:352673;UB-Universal Beams:BEAM1:352712
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9c;1pnHUanNPAueqWfsp27b9G;UB-Universal Beams:BEAM1:352673;UB-Universal Beams:BEAM1:352663
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9c;1pnHUanNPAueqWfsp27b95;UB-Universal Beams:BEAM1:352673;UC-Universal Columns-Column:UC305x305x97:352642
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9c;1pnHUanNPAueqWfsp27b93;UB-Universal Beams:BEAM1:352673;UC-Universal Columns-Column:UC305x305x97:352644
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9X;1pnHUanNPAueqWfsp27b9W;UB-Universal Beams:BEAM1:352678;UB-Universal Beams:BEAM1:352679
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9X;1pnHUanNPAueqWfsp27b9j;UB-Universal Beams:BEAM1:352678;UB-Universal Beams:BEAM1:352682
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9X;1pnHUanNPAueqWfsp27b82;UB-Universal Beams:BEAM1:352678;UB-Universal Beams:BEAM1:352709
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9X;1pnHUanNPAueqWfsp27bAv;UB-Universal Beams:BEAM1:352678;UC-Universal Columns-Column:UC305x305x97:352638
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9X;1pnHUanNPAueqWfsp27b9A;UB-Universal Beams:BEAM1:352678;UC-Universal Columns-Column:UC305x305x97:352653
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9W;1pnHUanNPAueqWfsp27b9l;UB-Universal Beams:BEAM1:352679;UB-Universal Beams:BEAM1:352680
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9W;1pnHUanNPAueqWfsp27bAv;UB-Universal Beams:BEAM1:352679;UC-Universal Columns-Column:UC305x305x97:352638
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9W;1pnHUanNPAueqWfsp27b9a;UB-Universal Beams:BEAM1:352679;UC-Universal Columns-Column:UC305x305x97:352675
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9l;1pnHUanNPAueqWfsp27b9k;UB-Universal Beams:BEAM1:352680;UB-Universal Beams:BEAM1:352681
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9l;1pnHUanNPAueqWfsp27b82;UB-Universal Beams:BEAM1:352680;UB-Universal Beams:BEAM1:352709
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9l;1pnHUanNPAueqWfsp27b99;UB-Universal Beams:BEAM1:352680;UC-Universal Columns-Column:UC305x305x97:352654
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9l;1pnHUanNPAueqWfsp27b9a;UB-Universal Beams:BEAM1:352680;UC-Universal Columns-Column:UC305x305x97:352675
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9k;1pnHUanNPAueqWfsp27b9i;UB-Universal Beams:BEAM1:352681;UB-Universal Beams:BEAM1:352683
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9k;1pnHUanNPAueqWfsp27b82;UB-Universal Beams:BEAM1:352681;UB-Universal Beams:BEAM1:352709
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9k;1pnHUanNPAueqWfsp27b81;UB-Universal Beams:BEAM1:352681;UB-Universal Beams:BEAM1:352710
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9k;1pnHUanNPAueqWfsp27b99;UB-Universal Beams:BEAM1:352681;UC-Universal Columns-Column:UC305x305x97:352654
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9k;1pnHUanNPAueqWfsp27b9N;UB-Universal Beams:BEAM1:352681;UC-Universal Columns-Column:UC305x305x97:352656
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9j;1pnHUanNPAueqWfsp27b9h;UB-Universal Beams:BEAM1:352682;UB-Universal Beams:BEAM1:352684
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9j;1pnHUanNPAueqWfsp27b82;UB-Universal Beams:BEAM1:352682;UB-Universal Beams:BEAM1:352709
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9j;1pnHUanNPAueqWfsp27b81;UB-Universal Beams:BEAM1:352682;UB-Universal Beams:BEAM1:352710
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9j;1pnHUanNPAueqWfsp27b9A;UB-Universal Beams:BEAM1:352682;UC-Universal Columns-Column:UC305x305x97:352653
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9j;1pnHUanNPAueqWfsp27b98;UB-Universal Beams:BEAM1:352682;UC-Universal Columns-Column:UC305x305x97:352655
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9i;1pnHUanNPAueqWfsp27b9g;UB-Universal Beams:BEAM1:352683;UB-Universal Beams:BEAM1:352685
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9i;1pnHUanNPAueqWfsp27b81;UB-Universal Beams:BEAM1:352683;UB-Universal Beams:BEAM1:352710
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9i;1pnHUanNPAueqWfsp27b9N;UB-Universal Beams:BEAM1:352683;UC-Universal Columns-Column:UC305x305x97:352656
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9i;1pnHUanNPAueqWfsp27b9Z;UB-Universal Beams:BEAM1:352683;UC-Universal Columns-Column:UC305x305x97:352676
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9h;1pnHUanNPAueqWfsp27b9g;UB-Universal Beams:BEAM1:352684;UB-Universal Beams:BEAM1:352685
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27b9h;1pnHUanNPAueqWfsp27b81;UB-Universal Beams:BEAM1:352684;UB-Universal Beams:BEAM1:352710
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9h;1pnHUanNPAueqWfsp27b98;UB-Universal Beams:BEAM1:352684;UC-Universal Columns-Column:UC305x305x97:352655
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9h;1pnHUanNPAueqWfsp27b9M;UB-Universal Beams:BEAM1:352684;UC-Universal Columns-Column:UC305x305x97:352657
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9g;1pnHUanNPAueqWfsp27b9M;UB-Universal Beams:BEAM1:352685;UC-Universal Columns-Column:UC305x305x97:352657
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b9g;1pnHUanNPAueqWfsp27b9Z;UB-Universal Beams:BEAM1:352685;UC-Universal Columns-Column:UC305x305x97:352676
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b82;1pnHUanNPAueqWfsp27b9A;UB-Universal Beams:BEAM1:352709;UC-Universal Columns-Column:UC305x305x97:352653
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b82;1pnHUanNPAueqWfsp27b99;UB-Universal Beams:BEAM1:352709;UC-Universal Columns-Column:UC305x305x97:352654
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b81;1pnHUanNPAueqWfsp27b98;UB-Universal Beams:BEAM1:352710;UC-Universal Columns-Column:UC305x305x97:352655
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b81;1pnHUanNPAueqWfsp27b9N;UB-Universal Beams:BEAM1:352710;UC-Universal Columns-Column:UC305x305x97:352656
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b80;1pnHUanNPAueqWfsp27b91;UB-Universal Beams:BEAM1:352711;UC-Universal Columns-Column:UC305x305x97:352646
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b80;1pnHUanNPAueqWfsp27b90;UB-Universal Beams:BEAM1:352711;UC-Universal Columns-Column:UC305x305x97:352647
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b8F;1pnHUanNPAueqWfsp27b93;UB-Universal Beams:BEAM1:352712;UC-Universal Columns-Column:UC305x305x97:352644
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27b8F;1pnHUanNPAueqWfsp27b92;UB-Universal Beams:BEAM1:352712;UC-Universal Columns-Column:UC305x305x97:352645
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bC_;1pnHUanNPAueqWfsp27bCz;UB-Universal Beams:BEAM1:352505;UB-Universal Beams:BEAM1:352506
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bC_;1pnHUanNPAueqWfsp27bBH;UB-Universal Beams:BEAM1:352505;UB-Universal Beams:BEAM1:352534
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bC_;1pnHUanNPAueqWfsp27bBk;UB-Universal Beams:BEAM1:352505;UB-Universal Beams:BEAM1:352553
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bC_;1pnHUanNPAueqWfsp27bCd;UB-Universal Beams:BEAM1:352505;UC-Universal Columns-Column:UC305x305x97:352480
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bC_;1pnHUanNPAueqWfsp27bCc;UB-Universal Beams:BEAM1:352505;UC-Universal Columns-Column:UC305x305x97:352481
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCz;1pnHUanNPAueqWfsp27bCy;UB-Universal Beams:BEAM1:352506;UB-Universal Beams:BEAM1:352507
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCz;1pnHUanNPAueqWfsp27bBj;UB-Universal Beams:BEAM1:352506;UB-Universal Beams:BEAM1:352554
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCz;1pnHUanNPAueqWfsp27bCc;UB-Universal Beams:BEAM1:352506;UC-Universal Columns-Column:UC305x305x97:352481
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCz;1pnHUanNPAueqWfsp27bCb;UB-Universal Beams:BEAM1:352506;UC-Universal Columns-Column:UC305x305x97:352482
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCy;1pnHUanNPAueqWfsp27bCx;UB-Universal Beams:BEAM1:352507;UB-Universal Beams:BEAM1:352508
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCy;1pnHUanNPAueqWfsp27bBj;UB-Universal Beams:BEAM1:352507;UB-Universal Beams:BEAM1:352554
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCy;1pnHUanNPAueqWfsp27bBi;UB-Universal Beams:BEAM1:352507;UB-Universal Beams:BEAM1:352555
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCy;1pnHUanNPAueqWfsp27bCb;UB-Universal Beams:BEAM1:352507;UC-Universal Columns-Column:UC305x305x97:352482
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCy;1pnHUanNPAueqWfsp27bCa;UB-Universal Beams:BEAM1:352507;UC-Universal Columns-Column:UC305x305x97:352483
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCx;1pnHUanNPAueqWfsp27bCw;UB-Universal Beams:BEAM1:352508;UB-Universal Beams:BEAM1:352509
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCx;1pnHUanNPAueqWfsp27bBi;UB-Universal Beams:BEAM1:352508;UB-Universal Beams:BEAM1:352555
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCx;1pnHUanNPAueqWfsp27bCa;UB-Universal Beams:BEAM1:352508;UC-Universal Columns-Column:UC305x305x97:352483
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCx;1pnHUanNPAueqWfsp27bCZ;UB-Universal Beams:BEAM1:352508;UC-Universal Columns-Column:UC305x305x97:352484
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCw;1pnHUanNPAueqWfsp27bCv;UB-Universal Beams:BEAM1:352509;UB-Universal Beams:BEAM1:352510
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCw;1pnHUanNPAueqWfsp27bB5;UB-Universal Beams:BEAM1:352509;UB-Universal Beams:BEAM1:352514
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCw;1pnHUanNPAueqWfsp27bCZ;UB-Universal Beams:BEAM1:352509;UC-Universal Columns-Column:UC305x305x97:352484
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCw;1pnHUanNPAueqWfsp27bCj;UB-Universal Beams:BEAM1:352509;UC-Universal Columns-Column:UC305x305x97:352490
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCw;1pnHUanNPAueqWfsp27b94;UB-Universal Beams:BEAM1:352509;UC-Universal Columns-Column:UC305x305x97:352643
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCv;1pnHUanNPAueqWfsp27bCu;UB-Universal Beams:BEAM1:352510;UB-Universal Beams:BEAM1:352511
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCv;1pnHUanNPAueqWfsp27bB5;UB-Universal Beams:BEAM1:352510;UB-Universal Beams:BEAM1:352514
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCv;1pnHUanNPAueqWfsp27bBF;UB-Universal Beams:BEAM1:352510;UB-Universal Beams:BEAM1:352520
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCv;1pnHUanNPAueqWfsp27bBi;UB-Universal Beams:BEAM1:352510;UB-Universal Beams:BEAM1:352555
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCv;1pnHUanNPAueqWfsp27bCk;UB-Universal Beams:BEAM1:352510;UC-Universal Columns-Column:UC305x305x97:352489
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCv;1pnHUanNPAueqWfsp27bCj;UB-Universal Beams:BEAM1:352510;UC-Universal Columns-Column:UC305x305x97:352490
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCv;1pnHUanNPAueqWfsp27b95;UB-Universal Beams:BEAM1:352510;UC-Universal Columns-Column:UC305x305x97:352642
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCv;1pnHUanNPAueqWfsp27b94;UB-Universal Beams:BEAM1:352510;UC-Universal Columns-Column:UC305x305x97:352643
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCu;1pnHUanNPAueqWfsp27bB7;UB-Universal Beams:BEAM1:352511;UB-Universal Beams:BEAM1:352512
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCu;1pnHUanNPAueqWfsp27bBF;UB-Universal Beams:BEAM1:352511;UB-Universal Beams:BEAM1:352520
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCu;1pnHUanNPAueqWfsp27bBj;UB-Universal Beams:BEAM1:352511;UB-Universal Beams:BEAM1:352554
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bCu;1pnHUanNPAueqWfsp27bBi;UB-Universal Beams:BEAM1:352511;UB-Universal Beams:BEAM1:352555
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCu;1pnHUanNPAueqWfsp27bCl;UB-Universal Beams:BEAM1:352511;UC-Universal Columns-Column:UC305x305x97:352488
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCu;1pnHUanNPAueqWfsp27bCk;UB-Universal Beams:BEAM1:352511;UC-Universal Columns-Column:UC305x305x97:352489
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bCu;1pnHUanNPAueqWfsp27b95;UB-Universal Beams:BEAM1:352511;UC-Universal Columns-Column:UC305x305x97:352642
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB7;1pnHUanNPAueqWfsp27bB6;UB-Universal Beams:BEAM1:352512;UB-Universal Beams:BEAM1:352513
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB7;1pnHUanNPAueqWfsp27bBj;UB-Universal Beams:BEAM1:352512;UB-Universal Beams:BEAM1:352554
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB7;1pnHUanNPAueqWfsp27bCW;UB-Universal Beams:BEAM1:352512;UC-Universal Columns-Column:UC305x305x97:352487
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB7;1pnHUanNPAueqWfsp27bCl;UB-Universal Beams:BEAM1:352512;UC-Universal Columns-Column:UC305x305x97:352488
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB6;1pnHUanNPAueqWfsp27bBG;UB-Universal Beams:BEAM1:352513;UB-Universal Beams:BEAM1:352535
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB6;1pnHUanNPAueqWfsp27bBk;UB-Universal Beams:BEAM1:352513;UB-Universal Beams:BEAM1:352553
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB6;1pnHUanNPAueqWfsp27bCX;UB-Universal Beams:BEAM1:352513;UC-Universal Columns-Column:UC305x305x97:352486
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB6;1pnHUanNPAueqWfsp27bCW;UB-Universal Beams:BEAM1:352513;UC-Universal Columns-Column:UC305x305x97:352487
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB5;1pnHUanNPAueqWfsp27bB4;UB-Universal Beams:BEAM1:352514;UB-Universal Beams:BEAM1:352515
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB5;1pnHUanNPAueqWfsp27bBe;UB-Universal Beams:BEAM1:352514;UB-Universal Beams:BEAM1:352559
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB5;1pnHUanNPAueqWfsp27bCj;UB-Universal Beams:BEAM1:352514;UC-Universal Columns-Column:UC305x305x97:352490
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB5;1pnHUanNPAueqWfsp27bCh;UB-Universal Beams:BEAM1:352514;UC-Universal Columns-Column:UC305x305x97:352492
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB5;1pnHUanNPAueqWfsp27b94;UB-Universal Beams:BEAM1:352514;UC-Universal Columns-Column:UC305x305x97:352643
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB5;1pnHUanNPAueqWfsp27b92;UB-Universal Beams:BEAM1:352514;UC-Universal Columns-Column:UC305x305x97:352645
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB4;1pnHUanNPAueqWfsp27bB3;UB-Universal Beams:BEAM1:352515;UB-Universal Beams:BEAM1:352516
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB4;1pnHUanNPAueqWfsp27bBf;UB-Universal Beams:BEAM1:352515;UB-Universal Beams:BEAM1:352558
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB4;1pnHUanNPAueqWfsp27bBe;UB-Universal Beams:BEAM1:352515;UB-Universal Beams:BEAM1:352559
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB4;1pnHUanNPAueqWfsp27bCh;UB-Universal Beams:BEAM1:352515;UC-Universal Columns-Column:UC305x305x97:352492
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB4;1pnHUanNPAueqWfsp27bCf;UB-Universal Beams:BEAM1:352515;UC-Universal Columns-Column:UC305x305x97:352494
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB4;1pnHUanNPAueqWfsp27b92;UB-Universal Beams:BEAM1:352515;UC-Universal Columns-Column:UC305x305x97:352645
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB4;1pnHUanNPAueqWfsp27b90;UB-Universal Beams:BEAM1:352515;UC-Universal Columns-Column:UC305x305x97:352647
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB3;1pnHUanNPAueqWfsp27bB2;UB-Universal Beams:BEAM1:352516;UB-Universal Beams:BEAM1:352517
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB3;1pnHUanNPAueqWfsp27bBf;UB-Universal Beams:BEAM1:352516;UB-Universal Beams:BEAM1:352558
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB3;1pnHUanNPAueqWfsp27bCf;UB-Universal Beams:BEAM1:352516;UC-Universal Columns-Column:UC305x305x97:352494
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB3;1pnHUanNPAueqWfsp27bCt;UB-Universal Beams:BEAM1:352516;UC-Universal Columns-Column:UC305x305x97:352496
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB3;1pnHUanNPAueqWfsp27b90;UB-Universal Beams:BEAM1:352516;UC-Universal Columns-Column:UC305x305x97:352647
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB3;1pnHUanNPAueqWfsp27b9E;UB-Universal Beams:BEAM1:352516;UC-Universal Columns-Column:UC305x305x97:352649
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB2;1pnHUanNPAueqWfsp27bB1;UB-Universal Beams:BEAM1:352517;UB-Universal Beams:BEAM1:352518
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB2;1pnHUanNPAueqWfsp27bCe;UB-Universal Beams:BEAM1:352517;UC-Universal Columns-Column:UC305x305x97:352495
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB2;1pnHUanNPAueqWfsp27bCt;UB-Universal Beams:BEAM1:352517;UC-Universal Columns-Column:UC305x305x97:352496
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB2;1pnHUanNPAueqWfsp27b9F;UB-Universal Beams:BEAM1:352517;UC-Universal Columns-Column:UC305x305x97:352648
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB2;1pnHUanNPAueqWfsp27b9E;UB-Universal Beams:BEAM1:352517;UC-Universal Columns-Column:UC305x305x97:352649
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB1;1pnHUanNPAueqWfsp27bB0;UB-Universal Beams:BEAM1:352518;UB-Universal Beams:BEAM1:352519
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB1;1pnHUanNPAueqWfsp27bBf;UB-Universal Beams:BEAM1:352518;UB-Universal Beams:BEAM1:352558
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB1;1pnHUanNPAueqWfsp27bCg;UB-Universal Beams:BEAM1:352518;UC-Universal Columns-Column:UC305x305x97:352493
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB1;1pnHUanNPAueqWfsp27bCe;UB-Universal Beams:BEAM1:352518;UC-Universal Columns-Column:UC305x305x97:352495
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB1;1pnHUanNPAueqWfsp27b91;UB-Universal Beams:BEAM1:352518;UC-Universal Columns-Column:UC305x305x97:352646
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB1;1pnHUanNPAueqWfsp27b9F;UB-Universal Beams:BEAM1:352518;UC-Universal Columns-Column:UC305x305x97:352648
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB0;1pnHUanNPAueqWfsp27bBF;UB-Universal Beams:BEAM1:352519;UB-Universal Beams:BEAM1:352520
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB0;1pnHUanNPAueqWfsp27bBf;UB-Universal Beams:BEAM1:352519;UB-Universal Beams:BEAM1:352558
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB0;1pnHUanNPAueqWfsp27bBe;UB-Universal Beams:BEAM1:352519;UB-Universal Beams:BEAM1:352559
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB0;1pnHUanNPAueqWfsp27bCi;UB-Universal Beams:BEAM1:352519;UC-Universal Columns-Column:UC305x305x97:352491
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB0;1pnHUanNPAueqWfsp27bCg;UB-Universal Beams:BEAM1:352519;UC-Universal Columns-Column:UC305x305x97:352493
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB0;1pnHUanNPAueqWfsp27b93;UB-Universal Beams:BEAM1:352519;UC-Universal Columns-Column:UC305x305x97:352644
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB0;1pnHUanNPAueqWfsp27b91;UB-Universal Beams:BEAM1:352519;UC-Universal Columns-Column:UC305x305x97:352646
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBF;1pnHUanNPAueqWfsp27bBi;UB-Universal Beams:BEAM1:352520;UB-Universal Beams:BEAM1:352555
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBF;1pnHUanNPAueqWfsp27bBe;UB-Universal Beams:BEAM1:352520;UB-Universal Beams:BEAM1:352559
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBF;1pnHUanNPAueqWfsp27bCk;UB-Universal Beams:BEAM1:352520;UC-Universal Columns-Column:UC305x305x97:352489
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBF;1pnHUanNPAueqWfsp27bCi;UB-Universal Beams:BEAM1:352520;UC-Universal Columns-Column:UC305x305x97:352491
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBF;1pnHUanNPAueqWfsp27b95;UB-Universal Beams:BEAM1:352520;UC-Universal Columns-Column:UC305x305x97:352642
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBF;1pnHUanNPAueqWfsp27b93;UB-Universal Beams:BEAM1:352520;UC-Universal Columns-Column:UC305x305x97:352644
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBB;1pnHUanNPAueqWfsp27bBA;UB-Universal Beams:BEAM1:352524;UB-Universal Beams:BEAM1:352525
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBB;1pnHUanNPAueqWfsp27bB9;UB-Universal Beams:BEAM1:352524;UB-Universal Beams:BEAM1:352526
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBB;1pnHUanNPAueqWfsp27bBI;UB-Universal Beams:BEAM1:352524;UB-Universal Beams:BEAM1:352533
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBB;1pnHUanNPAueqWfsp27bCO;UB-Universal Beams:BEAM1:352524;UC-Universal Columns-Column:UC305x305x97:352479
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBB;1pnHUanNPAueqWfsp27bCY;UB-Universal Beams:BEAM1:352524;UC-Universal Columns-Column:UC305x305x97:352485
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBB;1pnHUanNPAueqWfsp27bAv;UB-Universal Beams:BEAM1:352524;UC-Universal Columns-Column:UC305x305x97:352638
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBA;1pnHUanNPAueqWfsp27bB9;UB-Universal Beams:BEAM1:352525;UB-Universal Beams:BEAM1:352526
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBA;1pnHUanNPAueqWfsp27bBM;UB-Universal Beams:BEAM1:352525;UB-Universal Beams:BEAM1:352529
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBA;1pnHUanNPAueqWfsp27bBh;UB-Universal Beams:BEAM1:352525;UB-Universal Beams:BEAM1:352556
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBA;1pnHUanNPAueqWfsp27bCY;UB-Universal Beams:BEAM1:352525;UC-Universal Columns-Column:UC305x305x97:352485
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBA;1pnHUanNPAueqWfsp27bCp;UB-Universal Beams:BEAM1:352525;UC-Universal Columns-Column:UC305x305x97:352500
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBA;1pnHUanNPAueqWfsp27bAv;UB-Universal Beams:BEAM1:352525;UC-Universal Columns-Column:UC305x305x97:352638
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBA;1pnHUanNPAueqWfsp27b9A;UB-Universal Beams:BEAM1:352525;UC-Universal Columns-Column:UC305x305x97:352653
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB9;1pnHUanNPAueqWfsp27bB8;UB-Universal Beams:BEAM1:352526;UB-Universal Beams:BEAM1:352527
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB9;1pnHUanNPAueqWfsp27bBG;UB-Universal Beams:BEAM1:352526;UB-Universal Beams:BEAM1:352535
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB9;1pnHUanNPAueqWfsp27bBl;UB-Universal Beams:BEAM1:352526;UB-Universal Beams:BEAM1:352552
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB9;1pnHUanNPAueqWfsp27bCY;UB-Universal Beams:BEAM1:352526;UC-Universal Columns-Column:UC305x305x97:352485
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB9;1pnHUanNPAueqWfsp27bBD;UB-Universal Beams:BEAM1:352526;UC-Universal Columns-Column:UC305x305x97:352522
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB9;1pnHUanNPAueqWfsp27bAv;UB-Universal Beams:BEAM1:352526;UC-Universal Columns-Column:UC305x305x97:352638
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB9;1pnHUanNPAueqWfsp27b9a;UB-Universal Beams:BEAM1:352526;UC-Universal Columns-Column:UC305x305x97:352675
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB8;1pnHUanNPAueqWfsp27bBN;UB-Universal Beams:BEAM1:352527;UB-Universal Beams:BEAM1:352528
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB8;1pnHUanNPAueqWfsp27bBG;UB-Universal Beams:BEAM1:352527;UB-Universal Beams:BEAM1:352535
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB8;1pnHUanNPAueqWfsp27bBl;UB-Universal Beams:BEAM1:352527;UB-Universal Beams:BEAM1:352552
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bB8;1pnHUanNPAueqWfsp27bBh;UB-Universal Beams:BEAM1:352527;UB-Universal Beams:BEAM1:352556
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB8;1pnHUanNPAueqWfsp27bCo;UB-Universal Beams:BEAM1:352527;UC-Universal Columns-Column:UC305x305x97:352501
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB8;1pnHUanNPAueqWfsp27bBD;UB-Universal Beams:BEAM1:352527;UC-Universal Columns-Column:UC305x305x97:352522
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB8;1pnHUanNPAueqWfsp27b99;UB-Universal Beams:BEAM1:352527;UC-Universal Columns-Column:UC305x305x97:352654
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bB8;1pnHUanNPAueqWfsp27b9a;UB-Universal Beams:BEAM1:352527;UC-Universal Columns-Column:UC305x305x97:352675
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBN;1pnHUanNPAueqWfsp27bBL;UB-Universal Beams:BEAM1:352528;UB-Universal Beams:BEAM1:352530
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBN;1pnHUanNPAueqWfsp27bBh;UB-Universal Beams:BEAM1:352528;UB-Universal Beams:BEAM1:352556
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBN;1pnHUanNPAueqWfsp27bBg;UB-Universal Beams:BEAM1:352528;UB-Universal Beams:BEAM1:352557
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBN;1pnHUanNPAueqWfsp27bCo;UB-Universal Beams:BEAM1:352528;UC-Universal Columns-Column:UC305x305x97:352501
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBN;1pnHUanNPAueqWfsp27bCm;UB-Universal Beams:BEAM1:352528;UC-Universal Columns-Column:UC305x305x97:352503
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBN;1pnHUanNPAueqWfsp27b99;UB-Universal Beams:BEAM1:352528;UC-Universal Columns-Column:UC305x305x97:352654
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBN;1pnHUanNPAueqWfsp27b9N;UB-Universal Beams:BEAM1:352528;UC-Universal Columns-Column:UC305x305x97:352656
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBM;1pnHUanNPAueqWfsp27bBK;UB-Universal Beams:BEAM1:352529;UB-Universal Beams:BEAM1:352531
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBM;1pnHUanNPAueqWfsp27bBh;UB-Universal Beams:BEAM1:352529;UB-Universal Beams:BEAM1:352556
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBM;1pnHUanNPAueqWfsp27bBg;UB-Universal Beams:BEAM1:352529;UB-Universal Beams:BEAM1:352557
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBM;1pnHUanNPAueqWfsp27bCp;UB-Universal Beams:BEAM1:352529;UC-Universal Columns-Column:UC305x305x97:352500
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBM;1pnHUanNPAueqWfsp27bCn;UB-Universal Beams:BEAM1:352529;UC-Universal Columns-Column:UC305x305x97:352502
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBM;1pnHUanNPAueqWfsp27b9A;UB-Universal Beams:BEAM1:352529;UC-Universal Columns-Column:UC305x305x97:352653
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBM;1pnHUanNPAueqWfsp27b98;UB-Universal Beams:BEAM1:352529;UC-Universal Columns-Column:UC305x305x97:352655
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBL;1pnHUanNPAueqWfsp27bBJ;UB-Universal Beams:BEAM1:352530;UB-Universal Beams:BEAM1:352532
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBL;1pnHUanNPAueqWfsp27bBg;UB-Universal Beams:BEAM1:352530;UB-Universal Beams:BEAM1:352557
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBL;1pnHUanNPAueqWfsp27bCm;UB-Universal Beams:BEAM1:352530;UC-Universal Columns-Column:UC305x305x97:352503
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBL;1pnHUanNPAueqWfsp27bBC;UB-Universal Beams:BEAM1:352530;UC-Universal Columns-Column:UC305x305x97:352523
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBL;1pnHUanNPAueqWfsp27b9N;UB-Universal Beams:BEAM1:352530;UC-Universal Columns-Column:UC305x305x97:352656
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBL;1pnHUanNPAueqWfsp27b9Z;UB-Universal Beams:BEAM1:352530;UC-Universal Columns-Column:UC305x305x97:352676
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBK;1pnHUanNPAueqWfsp27bBJ;UB-Universal Beams:BEAM1:352531;UB-Universal Beams:BEAM1:352532
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBK;1pnHUanNPAueqWfsp27bBg;UB-Universal Beams:BEAM1:352531;UB-Universal Beams:BEAM1:352557
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBK;1pnHUanNPAueqWfsp27bCn;UB-Universal Beams:BEAM1:352531;UC-Universal Columns-Column:UC305x305x97:352502
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBK;1pnHUanNPAueqWfsp27bC$;UB-Universal Beams:BEAM1:352531;UC-Universal Columns-Column:UC305x305x97:352504
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBK;1pnHUanNPAueqWfsp27b98;UB-Universal Beams:BEAM1:352531;UC-Universal Columns-Column:UC305x305x97:352655
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBK;1pnHUanNPAueqWfsp27b9M;UB-Universal Beams:BEAM1:352531;UC-Universal Columns-Column:UC305x305x97:352657
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBJ;1pnHUanNPAueqWfsp27bC$;UB-Universal Beams:BEAM1:352532;UC-Universal Columns-Column:UC305x305x97:352504
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBJ;1pnHUanNPAueqWfsp27bBC;UB-Universal Beams:BEAM1:352532;UC-Universal Columns-Column:UC305x305x97:352523
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBJ;1pnHUanNPAueqWfsp27b9M;UB-Universal Beams:BEAM1:352532;UC-Universal Columns-Column:UC305x305x97:352657
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBJ;1pnHUanNPAueqWfsp27b9Z;UB-Universal Beams:BEAM1:352532;UC-Universal Columns-Column:UC305x305x97:352676
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBI;1pnHUanNPAueqWfsp27bBH;UB-Universal Beams:BEAM1:352533;UB-Universal Beams:BEAM1:352534
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBI;1pnHUanNPAueqWfsp27bBl;UB-Universal Beams:BEAM1:352533;UB-Universal Beams:BEAM1:352552
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBI;1pnHUanNPAueqWfsp27bCO;UB-Universal Beams:BEAM1:352533;UC-Universal Columns-Column:UC305x305x97:352479
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBI;1pnHUanNPAueqWfsp27bBE;UB-Universal Beams:BEAM1:352533;UC-Universal Columns-Column:UC305x305x97:352521
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBH;1pnHUanNPAueqWfsp27bBI;UB-Universal Beams:BEAM1:352534;UB-Universal Beams:BEAM1:352533
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBH;1pnHUanNPAueqWfsp27bBk;UB-Universal Beams:BEAM1:352534;UB-Universal Beams:BEAM1:352553
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBH;1pnHUanNPAueqWfsp27bBl;UB-Universal Beams:BEAM1:352534;UB-Universal Beams:BEAM1:352552
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBH;1pnHUanNPAueqWfsp27bCd;UB-Universal Beams:BEAM1:352534;UC-Universal Columns-Column:UC305x305x97:352480
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBH;1pnHUanNPAueqWfsp27bBE;UB-Universal Beams:BEAM1:352534;UC-Universal Columns-Column:UC305x305x97:352521
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBG;1pnHUanNPAueqWfsp27bBl;UB-Universal Beams:BEAM1:352535;UB-Universal Beams:BEAM1:352552
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBG;1pnHUanNPAueqWfsp27bBk;UB-Universal Beams:BEAM1:352535;UB-Universal Beams:BEAM1:352553
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBG;1pnHUanNPAueqWfsp27bCX;UB-Universal Beams:BEAM1:352535;UC-Universal Columns-Column:UC305x305x97:352486
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBG;1pnHUanNPAueqWfsp27bBD;UB-Universal Beams:BEAM1:352535;UC-Universal Columns-Column:UC305x305x97:352522
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBG;1pnHUanNPAueqWfsp27b9a;UB-Universal Beams:BEAM1:352535;UC-Universal Columns-Column:UC305x305x97:352675
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bBl;1pnHUanNPAueqWfsp27bBI;UB-Universal Beams:BEAM1:352552;UB-Universal Beams:BEAM1:352533
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBl;1pnHUanNPAueqWfsp27bBE;UB-Universal Beams:BEAM1:352552;UC-Universal Columns-Column:UC305x305x97:352521
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBl;1pnHUanNPAueqWfsp27bBD;UB-Universal Beams:BEAM1:352552;UC-Universal Columns-Column:UC305x305x97:352522
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBl;1pnHUanNPAueqWfsp27b9a;UB-Universal Beams:BEAM1:352552;UC-Universal Columns-Column:UC305x305x97:352675
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBk;1pnHUanNPAueqWfsp27bCd;UB-Universal Beams:BEAM1:352553;UC-Universal Columns-Column:UC305x305x97:352480
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBk;1pnHUanNPAueqWfsp27bCX;UB-Universal Beams:BEAM1:352553;UC-Universal Columns-Column:UC305x305x97:352486
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBj;1pnHUanNPAueqWfsp27bCb;UB-Universal Beams:BEAM1:352554;UC-Universal Columns-Column:UC305x305x97:352482
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBj;1pnHUanNPAueqWfsp27bCl;UB-Universal Beams:BEAM1:352554;UC-Universal Columns-Column:UC305x305x97:352488
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBi;1pnHUanNPAueqWfsp27bCa;UB-Universal Beams:BEAM1:352555;UC-Universal Columns-Column:UC305x305x97:352483
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBi;1pnHUanNPAueqWfsp27bCk;UB-Universal Beams:BEAM1:352555;UC-Universal Columns-Column:UC305x305x97:352489
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBi;1pnHUanNPAueqWfsp27b95;UB-Universal Beams:BEAM1:352555;UC-Universal Columns-Column:UC305x305x97:352642
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBh;1pnHUanNPAueqWfsp27bCp;UB-Universal Beams:BEAM1:352556;UC-Universal Columns-Column:UC305x305x97:352500
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBh;1pnHUanNPAueqWfsp27bCo;UB-Universal Beams:BEAM1:352556;UC-Universal Columns-Column:UC305x305x97:352501
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBh;1pnHUanNPAueqWfsp27b9A;UB-Universal Beams:BEAM1:352556;UC-Universal Columns-Column:UC305x305x97:352653
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBh;1pnHUanNPAueqWfsp27b99;UB-Universal Beams:BEAM1:352556;UC-Universal Columns-Column:UC305x305x97:352654
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBg;1pnHUanNPAueqWfsp27bCn;UB-Universal Beams:BEAM1:352557;UC-Universal Columns-Column:UC305x305x97:352502
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBg;1pnHUanNPAueqWfsp27bCm;UB-Universal Beams:BEAM1:352557;UC-Universal Columns-Column:UC305x305x97:352503
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBg;1pnHUanNPAueqWfsp27b98;UB-Universal Beams:BEAM1:352557;UC-Universal Columns-Column:UC305x305x97:352655
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBg;1pnHUanNPAueqWfsp27b9N;UB-Universal Beams:BEAM1:352557;UC-Universal Columns-Column:UC305x305x97:352656
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBf;1pnHUanNPAueqWfsp27bCg;UB-Universal Beams:BEAM1:352558;UC-Universal Columns-Column:UC305x305x97:352493
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBf;1pnHUanNPAueqWfsp27bCf;UB-Universal Beams:BEAM1:352558;UC-Universal Columns-Column:UC305x305x97:352494
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBf;1pnHUanNPAueqWfsp27b91;UB-Universal Beams:BEAM1:352558;UC-Universal Columns-Column:UC305x305x97:352646
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBf;1pnHUanNPAueqWfsp27b90;UB-Universal Beams:BEAM1:352558;UC-Universal Columns-Column:UC305x305x97:352647
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBe;1pnHUanNPAueqWfsp27bCi;UB-Universal Beams:BEAM1:352559;UC-Universal Columns-Column:UC305x305x97:352491
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBe;1pnHUanNPAueqWfsp27bCh;UB-Universal Beams:BEAM1:352559;UC-Universal Columns-Column:UC305x305x97:352492
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBe;1pnHUanNPAueqWfsp27b93;UB-Universal Beams:BEAM1:352559;UC-Universal Columns-Column:UC305x305x97:352644
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bBe;1pnHUanNPAueqWfsp27b92;UB-Universal Beams:BEAM1:352559;UC-Universal Columns-Column:UC305x305x97:352645
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEd;1pnHUanNPAueqWfsp27bEc;UB-Universal Beams:BEAM1:352352;UB-Universal Beams:BEAM1:352353
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEd;1pnHUanNPAueqWfsp27bEw;UB-Universal Beams:BEAM1:352352;UB-Universal Beams:BEAM1:352381
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEd;1pnHUanNPAueqWfsp27bDN;UB-Universal Beams:BEAM1:352352;UB-Universal Beams:BEAM1:352400
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEd;1pnHUanNPAueqWfsp27bE0;UB-Universal Beams:BEAM1:352352;UC-Universal Columns-Column:UC305x305x97:352327
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEd;1pnHUanNPAueqWfsp27bEF;UB-Universal Beams:BEAM1:352352;UC-Universal Columns-Column:UC305x305x97:352328
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEd;1pnHUanNPAueqWfsp27bCd;UB-Universal Beams:BEAM1:352352;UC-Universal Columns-Column:UC305x305x97:352480
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEd;1pnHUanNPAueqWfsp27bCc;UB-Universal Beams:BEAM1:352352;UC-Universal Columns-Column:UC305x305x97:352481
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEc;1pnHUanNPAueqWfsp27bEb;UB-Universal Beams:BEAM1:352353;UB-Universal Beams:BEAM1:352354
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEc;1pnHUanNPAueqWfsp27bDM;UB-Universal Beams:BEAM1:352353;UB-Universal Beams:BEAM1:352401
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEc;1pnHUanNPAueqWfsp27bEF;UB-Universal Beams:BEAM1:352353;UC-Universal Columns-Column:UC305x305x97:352328
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEc;1pnHUanNPAueqWfsp27bEE;UB-Universal Beams:BEAM1:352353;UC-Universal Columns-Column:UC305x305x97:352329
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEc;1pnHUanNPAueqWfsp27bCc;UB-Universal Beams:BEAM1:352353;UC-Universal Columns-Column:UC305x305x97:352481
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEc;1pnHUanNPAueqWfsp27bCb;UB-Universal Beams:BEAM1:352353;UC-Universal Columns-Column:UC305x305x97:352482
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEb;1pnHUanNPAueqWfsp27bEa;UB-Universal Beams:BEAM1:352354;UB-Universal Beams:BEAM1:352355
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEb;1pnHUanNPAueqWfsp27bDM;UB-Universal Beams:BEAM1:352354;UB-Universal Beams:BEAM1:352401
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEb;1pnHUanNPAueqWfsp27bDL;UB-Universal Beams:BEAM1:352354;UB-Universal Beams:BEAM1:352402
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEb;1pnHUanNPAueqWfsp27bEE;UB-Universal Beams:BEAM1:352354;UC-Universal Columns-Column:UC305x305x97:352329
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEb;1pnHUanNPAueqWfsp27bED;UB-Universal Beams:BEAM1:352354;UC-Universal Columns-Column:UC305x305x97:352330
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEb;1pnHUanNPAueqWfsp27bCb;UB-Universal Beams:BEAM1:352354;UC-Universal Columns-Column:UC305x305x97:352482
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEb;1pnHUanNPAueqWfsp27bCa;UB-Universal Beams:BEAM1:352354;UC-Universal Columns-Column:UC305x305x97:352483
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEa;1pnHUanNPAueqWfsp27bEZ;UB-Universal Beams:BEAM1:352355;UB-Universal Beams:BEAM1:352356
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEa;1pnHUanNPAueqWfsp27bDL;UB-Universal Beams:BEAM1:352355;UB-Universal Beams:BEAM1:352402
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEa;1pnHUanNPAueqWfsp27bED;UB-Universal Beams:BEAM1:352355;UC-Universal Columns-Column:UC305x305x97:352330
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEa;1pnHUanNPAueqWfsp27bEC;UB-Universal Beams:BEAM1:352355;UC-Universal Columns-Column:UC305x305x97:352331
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEa;1pnHUanNPAueqWfsp27bCa;UB-Universal Beams:BEAM1:352355;UC-Universal Columns-Column:UC305x305x97:352483
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEa;1pnHUanNPAueqWfsp27bCZ;UB-Universal Beams:BEAM1:352355;UC-Universal Columns-Column:UC305x305x97:352484
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEZ;1pnHUanNPAueqWfsp27bEY;UB-Universal Beams:BEAM1:352356;UB-Universal Beams:BEAM1:352357
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEZ;1pnHUanNPAueqWfsp27bEk;UB-Universal Beams:BEAM1:352356;UB-Universal Beams:BEAM1:352361
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEZ;1pnHUanNPAueqWfsp27bEC;UB-Universal Beams:BEAM1:352356;UC-Universal Columns-Column:UC305x305x97:352331
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEZ;1pnHUanNPAueqWfsp27bEM;UB-Universal Beams:BEAM1:352356;UC-Universal Columns-Column:UC305x305x97:352337
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEZ;1pnHUanNPAueqWfsp27bCZ;UB-Universal Beams:BEAM1:352356;UC-Universal Columns-Column:UC305x305x97:352484
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEZ;1pnHUanNPAueqWfsp27bCj;UB-Universal Beams:BEAM1:352356;UC-Universal Columns-Column:UC305x305x97:352490
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEY;1pnHUanNPAueqWfsp27bEX;UB-Universal Beams:BEAM1:352357;UB-Universal Beams:BEAM1:352358
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEY;1pnHUanNPAueqWfsp27bEk;UB-Universal Beams:BEAM1:352357;UB-Universal Beams:BEAM1:352361
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEY;1pnHUanNPAueqWfsp27bEe;UB-Universal Beams:BEAM1:352357;UB-Universal Beams:BEAM1:352367
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEY;1pnHUanNPAueqWfsp27bDL;UB-Universal Beams:BEAM1:352357;UB-Universal Beams:BEAM1:352402
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEY;1pnHUanNPAueqWfsp27bEN;UB-Universal Beams:BEAM1:352357;UC-Universal Columns-Column:UC305x305x97:352336
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEY;1pnHUanNPAueqWfsp27bEM;UB-Universal Beams:BEAM1:352357;UC-Universal Columns-Column:UC305x305x97:352337
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEY;1pnHUanNPAueqWfsp27bCk;UB-Universal Beams:BEAM1:352357;UC-Universal Columns-Column:UC305x305x97:352489
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEY;1pnHUanNPAueqWfsp27bCj;UB-Universal Beams:BEAM1:352357;UC-Universal Columns-Column:UC305x305x97:352490
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEX;1pnHUanNPAueqWfsp27bEW;UB-Universal Beams:BEAM1:352358;UB-Universal Beams:BEAM1:352359
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEX;1pnHUanNPAueqWfsp27bEe;UB-Universal Beams:BEAM1:352358;UB-Universal Beams:BEAM1:352367
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEX;1pnHUanNPAueqWfsp27bDM;UB-Universal Beams:BEAM1:352358;UB-Universal Beams:BEAM1:352401
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEX;1pnHUanNPAueqWfsp27bDL;UB-Universal Beams:BEAM1:352358;UB-Universal Beams:BEAM1:352402
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEX;1pnHUanNPAueqWfsp27bE8;UB-Universal Beams:BEAM1:352358;UC-Universal Columns-Column:UC305x305x97:352335
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEX;1pnHUanNPAueqWfsp27bEN;UB-Universal Beams:BEAM1:352358;UC-Universal Columns-Column:UC305x305x97:352336
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEX;1pnHUanNPAueqWfsp27bCl;UB-Universal Beams:BEAM1:352358;UC-Universal Columns-Column:UC305x305x97:352488
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEX;1pnHUanNPAueqWfsp27bCk;UB-Universal Beams:BEAM1:352358;UC-Universal Columns-Column:UC305x305x97:352489
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEW;1pnHUanNPAueqWfsp27bEl;UB-Universal Beams:BEAM1:352359;UB-Universal Beams:BEAM1:352360
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEW;1pnHUanNPAueqWfsp27bDM;UB-Universal Beams:BEAM1:352359;UB-Universal Beams:BEAM1:352401
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEW;1pnHUanNPAueqWfsp27bE9;UB-Universal Beams:BEAM1:352359;UC-Universal Columns-Column:UC305x305x97:352334
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEW;1pnHUanNPAueqWfsp27bE8;UB-Universal Beams:BEAM1:352359;UC-Universal Columns-Column:UC305x305x97:352335
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEW;1pnHUanNPAueqWfsp27bCW;UB-Universal Beams:BEAM1:352359;UC-Universal Columns-Column:UC305x305x97:352487
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEW;1pnHUanNPAueqWfsp27bCl;UB-Universal Beams:BEAM1:352359;UC-Universal Columns-Column:UC305x305x97:352488
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEl;1pnHUanNPAueqWfsp27bEv;UB-Universal Beams:BEAM1:352360;UB-Universal Beams:BEAM1:352382
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEl;1pnHUanNPAueqWfsp27bDN;UB-Universal Beams:BEAM1:352360;UB-Universal Beams:BEAM1:352400
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEl;1pnHUanNPAueqWfsp27bEA;UB-Universal Beams:BEAM1:352360;UC-Universal Columns-Column:UC305x305x97:352333
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEl;1pnHUanNPAueqWfsp27bE9;UB-Universal Beams:BEAM1:352360;UC-Universal Columns-Column:UC305x305x97:352334
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEl;1pnHUanNPAueqWfsp27bCX;UB-Universal Beams:BEAM1:352360;UC-Universal Columns-Column:UC305x305x97:352486
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEl;1pnHUanNPAueqWfsp27bCW;UB-Universal Beams:BEAM1:352360;UC-Universal Columns-Column:UC305x305x97:352487
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEk;1pnHUanNPAueqWfsp27bEj;UB-Universal Beams:BEAM1:352361;UB-Universal Beams:BEAM1:352362
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEk;1pnHUanNPAueqWfsp27bDH;UB-Universal Beams:BEAM1:352361;UB-Universal Beams:BEAM1:352406
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEk;1pnHUanNPAueqWfsp27bEM;UB-Universal Beams:BEAM1:352361;UC-Universal Columns-Column:UC305x305x97:352337
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEk;1pnHUanNPAueqWfsp27bEK;UB-Universal Beams:BEAM1:352361;UC-Universal Columns-Column:UC305x305x97:352339
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEk;1pnHUanNPAueqWfsp27bCj;UB-Universal Beams:BEAM1:352361;UC-Universal Columns-Column:UC305x305x97:352490
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEk;1pnHUanNPAueqWfsp27bCh;UB-Universal Beams:BEAM1:352361;UC-Universal Columns-Column:UC305x305x97:352492
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEj;1pnHUanNPAueqWfsp27bEi;UB-Universal Beams:BEAM1:352362;UB-Universal Beams:BEAM1:352363
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEj;1pnHUanNPAueqWfsp27bDI;UB-Universal Beams:BEAM1:352362;UB-Universal Beams:BEAM1:352405
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEj;1pnHUanNPAueqWfsp27bDH;UB-Universal Beams:BEAM1:352362;UB-Universal Beams:BEAM1:352406
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEj;1pnHUanNPAueqWfsp27bEK;UB-Universal Beams:BEAM1:352362;UC-Universal Columns-Column:UC305x305x97:352339
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEj;1pnHUanNPAueqWfsp27bEI;UB-Universal Beams:BEAM1:352362;UC-Universal Columns-Column:UC305x305x97:352341
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEj;1pnHUanNPAueqWfsp27bCh;UB-Universal Beams:BEAM1:352362;UC-Universal Columns-Column:UC305x305x97:352492
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEj;1pnHUanNPAueqWfsp27bCf;UB-Universal Beams:BEAM1:352362;UC-Universal Columns-Column:UC305x305x97:352494
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEi;1pnHUanNPAueqWfsp27bEh;UB-Universal Beams:BEAM1:352363;UB-Universal Beams:BEAM1:352364
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEi;1pnHUanNPAueqWfsp27bDI;UB-Universal Beams:BEAM1:352363;UB-Universal Beams:BEAM1:352405
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEi;1pnHUanNPAueqWfsp27bEI;UB-Universal Beams:BEAM1:352363;UC-Universal Columns-Column:UC305x305x97:352341
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEi;1pnHUanNPAueqWfsp27bEG;UB-Universal Beams:BEAM1:352363;UC-Universal Columns-Column:UC305x305x97:352343
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEi;1pnHUanNPAueqWfsp27bCf;UB-Universal Beams:BEAM1:352363;UC-Universal Columns-Column:UC305x305x97:352494
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEi;1pnHUanNPAueqWfsp27bCt;UB-Universal Beams:BEAM1:352363;UC-Universal Columns-Column:UC305x305x97:352496
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEh;1pnHUanNPAueqWfsp27bEg;UB-Universal Beams:BEAM1:352364;UB-Universal Beams:BEAM1:352365
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEh;1pnHUanNPAueqWfsp27bEH;UB-Universal Beams:BEAM1:352364;UC-Universal Columns-Column:UC305x305x97:352342
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEh;1pnHUanNPAueqWfsp27bEG;UB-Universal Beams:BEAM1:352364;UC-Universal Columns-Column:UC305x305x97:352343
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEh;1pnHUanNPAueqWfsp27bCe;UB-Universal Beams:BEAM1:352364;UC-Universal Columns-Column:UC305x305x97:352495
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEh;1pnHUanNPAueqWfsp27bCt;UB-Universal Beams:BEAM1:352364;UC-Universal Columns-Column:UC305x305x97:352496
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEg;1pnHUanNPAueqWfsp27bEf;UB-Universal Beams:BEAM1:352365;UB-Universal Beams:BEAM1:352366
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEg;1pnHUanNPAueqWfsp27bDI;UB-Universal Beams:BEAM1:352365;UB-Universal Beams:BEAM1:352405
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEg;1pnHUanNPAueqWfsp27bEJ;UB-Universal Beams:BEAM1:352365;UC-Universal Columns-Column:UC305x305x97:352340
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEg;1pnHUanNPAueqWfsp27bEH;UB-Universal Beams:BEAM1:352365;UC-Universal Columns-Column:UC305x305x97:352342
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEg;1pnHUanNPAueqWfsp27bCg;UB-Universal Beams:BEAM1:352365;UC-Universal Columns-Column:UC305x305x97:352493
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEg;1pnHUanNPAueqWfsp27bCe;UB-Universal Beams:BEAM1:352365;UC-Universal Columns-Column:UC305x305x97:352495
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEf;1pnHUanNPAueqWfsp27bEe;UB-Universal Beams:BEAM1:352366;UB-Universal Beams:BEAM1:352367
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEf;1pnHUanNPAueqWfsp27bDI;UB-Universal Beams:BEAM1:352366;UB-Universal Beams:BEAM1:352405
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEf;1pnHUanNPAueqWfsp27bDH;UB-Universal Beams:BEAM1:352366;UB-Universal Beams:BEAM1:352406
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEf;1pnHUanNPAueqWfsp27bEL;UB-Universal Beams:BEAM1:352366;UC-Universal Columns-Column:UC305x305x97:352338
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEf;1pnHUanNPAueqWfsp27bEJ;UB-Universal Beams:BEAM1:352366;UC-Universal Columns-Column:UC305x305x97:352340
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEf;1pnHUanNPAueqWfsp27bCi;UB-Universal Beams:BEAM1:352366;UC-Universal Columns-Column:UC305x305x97:352491
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEf;1pnHUanNPAueqWfsp27bCg;UB-Universal Beams:BEAM1:352366;UC-Universal Columns-Column:UC305x305x97:352493
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEe;1pnHUanNPAueqWfsp27bDL;UB-Universal Beams:BEAM1:352367;UB-Universal Beams:BEAM1:352402
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEe;1pnHUanNPAueqWfsp27bDH;UB-Universal Beams:BEAM1:352367;UB-Universal Beams:BEAM1:352406
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEe;1pnHUanNPAueqWfsp27bEN;UB-Universal Beams:BEAM1:352367;UC-Universal Columns-Column:UC305x305x97:352336
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEe;1pnHUanNPAueqWfsp27bEL;UB-Universal Beams:BEAM1:352367;UC-Universal Columns-Column:UC305x305x97:352338
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEe;1pnHUanNPAueqWfsp27bCk;UB-Universal Beams:BEAM1:352367;UC-Universal Columns-Column:UC305x305x97:352489
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEe;1pnHUanNPAueqWfsp27bCi;UB-Universal Beams:BEAM1:352367;UC-Universal Columns-Column:UC305x305x97:352491
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEq;1pnHUanNPAueqWfsp27bEp;UB-Universal Beams:BEAM1:352371;UB-Universal Beams:BEAM1:352372
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEq;1pnHUanNPAueqWfsp27bEo;UB-Universal Beams:BEAM1:352371;UB-Universal Beams:BEAM1:352373
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEq;1pnHUanNPAueqWfsp27bEx;UB-Universal Beams:BEAM1:352371;UB-Universal Beams:BEAM1:352380
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEq;1pnHUanNPAueqWfsp27bE1;UB-Universal Beams:BEAM1:352371;UC-Universal Columns-Column:UC305x305x97:352326
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEq;1pnHUanNPAueqWfsp27bEB;UB-Universal Beams:BEAM1:352371;UC-Universal Columns-Column:UC305x305x97:352332
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEq;1pnHUanNPAueqWfsp27bCO;UB-Universal Beams:BEAM1:352371;UC-Universal Columns-Column:UC305x305x97:352479
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEq;1pnHUanNPAueqWfsp27bCY;UB-Universal Beams:BEAM1:352371;UC-Universal Columns-Column:UC305x305x97:352485
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEp;1pnHUanNPAueqWfsp27bEo;UB-Universal Beams:BEAM1:352372;UB-Universal Beams:BEAM1:352373
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEp;1pnHUanNPAueqWfsp27bE$;UB-Universal Beams:BEAM1:352372;UB-Universal Beams:BEAM1:352376
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEp;1pnHUanNPAueqWfsp27bDK;UB-Universal Beams:BEAM1:352372;UB-Universal Beams:BEAM1:352403
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEp;1pnHUanNPAueqWfsp27bEB;UB-Universal Beams:BEAM1:352372;UC-Universal Columns-Column:UC305x305x97:352332
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEp;1pnHUanNPAueqWfsp27bES;UB-Universal Beams:BEAM1:352372;UC-Universal Columns-Column:UC305x305x97:352347
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEp;1pnHUanNPAueqWfsp27bCY;UB-Universal Beams:BEAM1:352372;UC-Universal Columns-Column:UC305x305x97:352485
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEp;1pnHUanNPAueqWfsp27bCp;UB-Universal Beams:BEAM1:352372;UC-Universal Columns-Column:UC305x305x97:352500
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEo;1pnHUanNPAueqWfsp27bEn;UB-Universal Beams:BEAM1:352373;UB-Universal Beams:BEAM1:352374
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEo;1pnHUanNPAueqWfsp27bEv;UB-Universal Beams:BEAM1:352373;UB-Universal Beams:BEAM1:352382
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEo;1pnHUanNPAueqWfsp27bD8;UB-Universal Beams:BEAM1:352373;UB-Universal Beams:BEAM1:352399
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEo;1pnHUanNPAueqWfsp27bEB;UB-Universal Beams:BEAM1:352373;UC-Universal Columns-Column:UC305x305x97:352332
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEo;1pnHUanNPAueqWfsp27bEs;UB-Universal Beams:BEAM1:352373;UC-Universal Columns-Column:UC305x305x97:352369
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEo;1pnHUanNPAueqWfsp27bCY;UB-Universal Beams:BEAM1:352373;UC-Universal Columns-Column:UC305x305x97:352485
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEo;1pnHUanNPAueqWfsp27bBD;UB-Universal Beams:BEAM1:352373;UC-Universal Columns-Column:UC305x305x97:352522
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEn;1pnHUanNPAueqWfsp27bEm;UB-Universal Beams:BEAM1:352374;UB-Universal Beams:BEAM1:352375
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEn;1pnHUanNPAueqWfsp27bEv;UB-Universal Beams:BEAM1:352374;UB-Universal Beams:BEAM1:352382
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEn;1pnHUanNPAueqWfsp27bD8;UB-Universal Beams:BEAM1:352374;UB-Universal Beams:BEAM1:352399
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEn;1pnHUanNPAueqWfsp27bDK;UB-Universal Beams:BEAM1:352374;UB-Universal Beams:BEAM1:352403
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEn;1pnHUanNPAueqWfsp27bER;UB-Universal Beams:BEAM1:352374;UC-Universal Columns-Column:UC305x305x97:352348
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEn;1pnHUanNPAueqWfsp27bEs;UB-Universal Beams:BEAM1:352374;UC-Universal Columns-Column:UC305x305x97:352369
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEn;1pnHUanNPAueqWfsp27bCo;UB-Universal Beams:BEAM1:352374;UC-Universal Columns-Column:UC305x305x97:352501
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEn;1pnHUanNPAueqWfsp27bBD;UB-Universal Beams:BEAM1:352374;UC-Universal Columns-Column:UC305x305x97:352522
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEm;1pnHUanNPAueqWfsp27bE_;UB-Universal Beams:BEAM1:352375;UB-Universal Beams:BEAM1:352377
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEm;1pnHUanNPAueqWfsp27bDK;UB-Universal Beams:BEAM1:352375;UB-Universal Beams:BEAM1:352403
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEm;1pnHUanNPAueqWfsp27bDJ;UB-Universal Beams:BEAM1:352375;UB-Universal Beams:BEAM1:352404
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEm;1pnHUanNPAueqWfsp27bER;UB-Universal Beams:BEAM1:352375;UC-Universal Columns-Column:UC305x305x97:352348
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEm;1pnHUanNPAueqWfsp27bEP;UB-Universal Beams:BEAM1:352375;UC-Universal Columns-Column:UC305x305x97:352350
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEm;1pnHUanNPAueqWfsp27bCo;UB-Universal Beams:BEAM1:352375;UC-Universal Columns-Column:UC305x305x97:352501
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEm;1pnHUanNPAueqWfsp27bCm;UB-Universal Beams:BEAM1:352375;UC-Universal Columns-Column:UC305x305x97:352503
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bE$;1pnHUanNPAueqWfsp27bEz;UB-Universal Beams:BEAM1:352376;UB-Universal Beams:BEAM1:352378
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bE$;1pnHUanNPAueqWfsp27bDK;UB-Universal Beams:BEAM1:352376;UB-Universal Beams:BEAM1:352403
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bE$;1pnHUanNPAueqWfsp27bDJ;UB-Universal Beams:BEAM1:352376;UB-Universal Beams:BEAM1:352404
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bE$;1pnHUanNPAueqWfsp27bES;UB-Universal Beams:BEAM1:352376;UC-Universal Columns-Column:UC305x305x97:352347
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bE$;1pnHUanNPAueqWfsp27bEQ;UB-Universal Beams:BEAM1:352376;UC-Universal Columns-Column:UC305x305x97:352349
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bE$;1pnHUanNPAueqWfsp27bCp;UB-Universal Beams:BEAM1:352376;UC-Universal Columns-Column:UC305x305x97:352500
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bE$;1pnHUanNPAueqWfsp27bCn;UB-Universal Beams:BEAM1:352376;UC-Universal Columns-Column:UC305x305x97:352502
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bE_;1pnHUanNPAueqWfsp27bEy;UB-Universal Beams:BEAM1:352377;UB-Universal Beams:BEAM1:352379
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bE_;1pnHUanNPAueqWfsp27bDJ;UB-Universal Beams:BEAM1:352377;UB-Universal Beams:BEAM1:352404
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bE_;1pnHUanNPAueqWfsp27bEP;UB-Universal Beams:BEAM1:352377;UC-Universal Columns-Column:UC305x305x97:352350
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bE_;1pnHUanNPAueqWfsp27bEr;UB-Universal Beams:BEAM1:352377;UC-Universal Columns-Column:UC305x305x97:352370
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bE_;1pnHUanNPAueqWfsp27bCm;UB-Universal Beams:BEAM1:352377;UC-Universal Columns-Column:UC305x305x97:352503
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bE_;1pnHUanNPAueqWfsp27bBC;UB-Universal Beams:BEAM1:352377;UC-Universal Columns-Column:UC305x305x97:352523
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEz;1pnHUanNPAueqWfsp27bEy;UB-Universal Beams:BEAM1:352378;UB-Universal Beams:BEAM1:352379
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEz;1pnHUanNPAueqWfsp27bDJ;UB-Universal Beams:BEAM1:352378;UB-Universal Beams:BEAM1:352404
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEz;1pnHUanNPAueqWfsp27bEQ;UB-Universal Beams:BEAM1:352378;UC-Universal Columns-Column:UC305x305x97:352349
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEz;1pnHUanNPAueqWfsp27bEO;UB-Universal Beams:BEAM1:352378;UC-Universal Columns-Column:UC305x305x97:352351
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEz;1pnHUanNPAueqWfsp27bCn;UB-Universal Beams:BEAM1:352378;UC-Universal Columns-Column:UC305x305x97:352502
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEz;1pnHUanNPAueqWfsp27bC$;UB-Universal Beams:BEAM1:352378;UC-Universal Columns-Column:UC305x305x97:352504
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEy;1pnHUanNPAueqWfsp27bEO;UB-Universal Beams:BEAM1:352379;UC-Universal Columns-Column:UC305x305x97:352351
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEy;1pnHUanNPAueqWfsp27bEr;UB-Universal Beams:BEAM1:352379;UC-Universal Columns-Column:UC305x305x97:352370
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEy;1pnHUanNPAueqWfsp27bC$;UB-Universal Beams:BEAM1:352379;UC-Universal Columns-Column:UC305x305x97:352504
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEy;1pnHUanNPAueqWfsp27bBC;UB-Universal Beams:BEAM1:352379;UC-Universal Columns-Column:UC305x305x97:352523
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEx;1pnHUanNPAueqWfsp27bEw;UB-Universal Beams:BEAM1:352380;UB-Universal Beams:BEAM1:352381
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEx;1pnHUanNPAueqWfsp27bD8;UB-Universal Beams:BEAM1:352380;UB-Universal Beams:BEAM1:352399
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEx;1pnHUanNPAueqWfsp27bE1;UB-Universal Beams:BEAM1:352380;UC-Universal Columns-Column:UC305x305x97:352326
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEx;1pnHUanNPAueqWfsp27bEt;UB-Universal Beams:BEAM1:352380;UC-Universal Columns-Column:UC305x305x97:352368
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEx;1pnHUanNPAueqWfsp27bCO;UB-Universal Beams:BEAM1:352380;UC-Universal Columns-Column:UC305x305x97:352479
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEx;1pnHUanNPAueqWfsp27bBE;UB-Universal Beams:BEAM1:352380;UC-Universal Columns-Column:UC305x305x97:352521
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEw;1pnHUanNPAueqWfsp27bD8;UB-Universal Beams:BEAM1:352381;UB-Universal Beams:BEAM1:352399
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEw;1pnHUanNPAueqWfsp27bDN;UB-Universal Beams:BEAM1:352381;UB-Universal Beams:BEAM1:352400
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEw;1pnHUanNPAueqWfsp27bE0;UB-Universal Beams:BEAM1:352381;UC-Universal Columns-Column:UC305x305x97:352327
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEw;1pnHUanNPAueqWfsp27bEt;UB-Universal Beams:BEAM1:352381;UC-Universal Columns-Column:UC305x305x97:352368
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEw;1pnHUanNPAueqWfsp27bCd;UB-Universal Beams:BEAM1:352381;UC-Universal Columns-Column:UC305x305x97:352480
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEw;1pnHUanNPAueqWfsp27bBE;UB-Universal Beams:BEAM1:352381;UC-Universal Columns-Column:UC305x305x97:352521
+;;;;;;
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEv;1pnHUanNPAueqWfsp27bD8;UB-Universal Beams:BEAM1:352382;UB-Universal Beams:BEAM1:352399
+o;IfcBeam;IfcBeam;1pnHUanNPAueqWfsp27bEv;1pnHUanNPAueqWfsp27bDN;UB-Universal Beams:BEAM1:352382;UB-Universal Beams:BEAM1:352400
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEv;1pnHUanNPAueqWfsp27bEA;UB-Universal Beams:BEAM1:352382;UC-Universal Columns-Column:UC305x305x97:352333
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEv;1pnHUanNPAueqWfsp27bEs;UB-Universal Beams:BEAM1:352382;UC-Universal Columns-Column:UC305x305x97:352369
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEv;1pnHUanNPAueqWfsp27bCX;UB-Universal Beams:BEAM1:352382;UC-Universal Columns-Column:UC305x305x97:352486
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bEv;1pnHUanNPAueqWfsp27bBD;UB-Universal Beams:BEAM1:352382;UC-Universal Columns-Column:UC305x305x97:352522
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bD8;1pnHUanNPAueqWfsp27bEt;UB-Universal Beams:BEAM1:352399;UC-Universal Columns-Column:UC305x305x97:352368
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bD8;1pnHUanNPAueqWfsp27bEs;UB-Universal Beams:BEAM1:352399;UC-Universal Columns-Column:UC305x305x97:352369
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bD8;1pnHUanNPAueqWfsp27bBE;UB-Universal Beams:BEAM1:352399;UC-Universal Columns-Column:UC305x305x97:352521
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bD8;1pnHUanNPAueqWfsp27bBD;UB-Universal Beams:BEAM1:352399;UC-Universal Columns-Column:UC305x305x97:352522
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDN;1pnHUanNPAueqWfsp27bE0;UB-Universal Beams:BEAM1:352400;UC-Universal Columns-Column:UC305x305x97:352327
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDN;1pnHUanNPAueqWfsp27bEA;UB-Universal Beams:BEAM1:352400;UC-Universal Columns-Column:UC305x305x97:352333
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDN;1pnHUanNPAueqWfsp27bCd;UB-Universal Beams:BEAM1:352400;UC-Universal Columns-Column:UC305x305x97:352480
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDN;1pnHUanNPAueqWfsp27bCX;UB-Universal Beams:BEAM1:352400;UC-Universal Columns-Column:UC305x305x97:352486
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDM;1pnHUanNPAueqWfsp27bEE;UB-Universal Beams:BEAM1:352401;UC-Universal Columns-Column:UC305x305x97:352329
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDM;1pnHUanNPAueqWfsp27bE8;UB-Universal Beams:BEAM1:352401;UC-Universal Columns-Column:UC305x305x97:352335
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDM;1pnHUanNPAueqWfsp27bCb;UB-Universal Beams:BEAM1:352401;UC-Universal Columns-Column:UC305x305x97:352482
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDM;1pnHUanNPAueqWfsp27bCl;UB-Universal Beams:BEAM1:352401;UC-Universal Columns-Column:UC305x305x97:352488
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDL;1pnHUanNPAueqWfsp27bED;UB-Universal Beams:BEAM1:352402;UC-Universal Columns-Column:UC305x305x97:352330
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDL;1pnHUanNPAueqWfsp27bEN;UB-Universal Beams:BEAM1:352402;UC-Universal Columns-Column:UC305x305x97:352336
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDL;1pnHUanNPAueqWfsp27bCa;UB-Universal Beams:BEAM1:352402;UC-Universal Columns-Column:UC305x305x97:352483
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDL;1pnHUanNPAueqWfsp27bCk;UB-Universal Beams:BEAM1:352402;UC-Universal Columns-Column:UC305x305x97:352489
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDK;1pnHUanNPAueqWfsp27bES;UB-Universal Beams:BEAM1:352403;UC-Universal Columns-Column:UC305x305x97:352347
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDK;1pnHUanNPAueqWfsp27bER;UB-Universal Beams:BEAM1:352403;UC-Universal Columns-Column:UC305x305x97:352348
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDK;1pnHUanNPAueqWfsp27bCp;UB-Universal Beams:BEAM1:352403;UC-Universal Columns-Column:UC305x305x97:352500
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDK;1pnHUanNPAueqWfsp27bCo;UB-Universal Beams:BEAM1:352403;UC-Universal Columns-Column:UC305x305x97:352501
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDJ;1pnHUanNPAueqWfsp27bEQ;UB-Universal Beams:BEAM1:352404;UC-Universal Columns-Column:UC305x305x97:352349
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDJ;1pnHUanNPAueqWfsp27bEP;UB-Universal Beams:BEAM1:352404;UC-Universal Columns-Column:UC305x305x97:352350
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDJ;1pnHUanNPAueqWfsp27bCn;UB-Universal Beams:BEAM1:352404;UC-Universal Columns-Column:UC305x305x97:352502
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDJ;1pnHUanNPAueqWfsp27bCm;UB-Universal Beams:BEAM1:352404;UC-Universal Columns-Column:UC305x305x97:352503
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDI;1pnHUanNPAueqWfsp27bEJ;UB-Universal Beams:BEAM1:352405;UC-Universal Columns-Column:UC305x305x97:352340
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDI;1pnHUanNPAueqWfsp27bEI;UB-Universal Beams:BEAM1:352405;UC-Universal Columns-Column:UC305x305x97:352341
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDI;1pnHUanNPAueqWfsp27bCg;UB-Universal Beams:BEAM1:352405;UC-Universal Columns-Column:UC305x305x97:352493
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDI;1pnHUanNPAueqWfsp27bCf;UB-Universal Beams:BEAM1:352405;UC-Universal Columns-Column:UC305x305x97:352494
+;;;;;;
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDH;1pnHUanNPAueqWfsp27bEL;UB-Universal Beams:BEAM1:352406;UC-Universal Columns-Column:UC305x305x97:352338
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDH;1pnHUanNPAueqWfsp27bEK;UB-Universal Beams:BEAM1:352406;UC-Universal Columns-Column:UC305x305x97:352339
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDH;1pnHUanNPAueqWfsp27bCi;UB-Universal Beams:BEAM1:352406;UC-Universal Columns-Column:UC305x305x97:352491
+o;IfcBeam;IfcColumn;1pnHUanNPAueqWfsp27bDH;1pnHUanNPAueqWfsp27bCh;UB-Universal Beams:BEAM1:352406;UC-Universal Columns-Column:UC305x305x97:352492
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESTa;0G2Fg3$En0ZAkMe$WoESTV;UB-Universal Beams:BEAM1:330701;UB-Universal Beams:BEAM1:330742
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESTa;0G2Fg3$En0ZAkMe$WoETDy;UB-Universal Beams:BEAM1:330701;UB-Universal Beams:BEAM1:335829
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESTa;1eUxMLrF1C5BtgpYmswnCB;UB-Universal Beams:BEAM1:330701;UB-Universal Beams:BEAM1:338181
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESTa;3PcPWHAnHClxTvsIqbWKct;UB-Universal Beams:BEAM1:330701;UC-Universal Columns-Column:UC305x305x97:317894
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESTa;3PcPWHAnHClxTvsIqbWKhy;UB-Universal Beams:BEAM1:330701;UC-Universal Columns-Column:UC305x305x97:318093
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESTa;1pnHUanNPAueqWfsp27bE0;UB-Universal Beams:BEAM1:330701;UC-Universal Columns-Column:UC305x305x97:352327
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESTa;1pnHUanNPAueqWfsp27bEF;UB-Universal Beams:BEAM1:330701;UC-Universal Columns-Column:UC305x305x97:352328
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESTV;0G2Fg3$En0ZAkMe$WoES3s;UB-Universal Beams:BEAM1:330742;UB-Universal Beams:BEAM1:330847
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESTV;1eUxMLrF1C5BtgpYmswnCW;UB-Universal Beams:BEAM1:330742;UB-Universal Beams:BEAM1:338222
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESTV;3PcPWHAnHClxTvsIqbWKhy;UB-Universal Beams:BEAM1:330742;UC-Universal Columns-Column:UC305x305x97:318093
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESTV;3PcPWHAnHClxTvsIqbWKjf;UB-Universal Beams:BEAM1:330742;UC-Universal Columns-Column:UC305x305x97:318232
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESTV;1pnHUanNPAueqWfsp27bEF;UB-Universal Beams:BEAM1:330742;UC-Universal Columns-Column:UC305x305x97:352328
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESTV;1pnHUanNPAueqWfsp27bEE;UB-Universal Beams:BEAM1:330742;UC-Universal Columns-Column:UC305x305x97:352329
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES3s;0G2Fg3$En0ZAkMe$WoES0$;UB-Universal Beams:BEAM1:330847;UB-Universal Beams:BEAM1:330902
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES3s;1eUxMLrF1C5BtgpYmswnCW;UB-Universal Beams:BEAM1:330847;UB-Universal Beams:BEAM1:338222
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES3s;1eUxMLrF1C5BtgpYmswnDU;UB-Universal Beams:BEAM1:330847;UB-Universal Beams:BEAM1:338256
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES3s;3PcPWHAnHClxTvsIqbWKjf;UB-Universal Beams:BEAM1:330847;UC-Universal Columns-Column:UC305x305x97:318232
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES3s;3PcPWHAnHClxTvsIqbWKlQ;UB-Universal Beams:BEAM1:330847;UC-Universal Columns-Column:UC305x305x97:318379
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES3s;1pnHUanNPAueqWfsp27bEE;UB-Universal Beams:BEAM1:330847;UC-Universal Columns-Column:UC305x305x97:352329
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES3s;1pnHUanNPAueqWfsp27bED;UB-Universal Beams:BEAM1:330847;UC-Universal Columns-Column:UC305x305x97:352330
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES0$;0G2Fg3$En0ZAkMe$WoES1C;UB-Universal Beams:BEAM1:330902;UB-Universal Beams:BEAM1:330981
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES0$;1eUxMLrF1C5BtgpYmswnDU;UB-Universal Beams:BEAM1:330902;UB-Universal Beams:BEAM1:338256
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES0$;3PcPWHAnHClxTvsIqbWKlQ;UB-Universal Beams:BEAM1:330902;UC-Universal Columns-Column:UC305x305x97:318379
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES0$;3PcPWHAnHClxTvsIqbWKpd;UB-Universal Beams:BEAM1:330902;UC-Universal Columns-Column:UC305x305x97:318614
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES0$;1pnHUanNPAueqWfsp27bED;UB-Universal Beams:BEAM1:330902;UC-Universal Columns-Column:UC305x305x97:352330
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES0$;1pnHUanNPAueqWfsp27bEC;UB-Universal Beams:BEAM1:330902;UC-Universal Columns-Column:UC305x305x97:352331
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES1C;0G2Fg3$En0ZAkMe$WoES6_;UB-Universal Beams:BEAM1:330981;UB-Universal Beams:BEAM1:331031
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES1C;0G2Fg3$En0ZAkMe$WoES96;UB-Universal Beams:BEAM1:330981;UB-Universal Beams:BEAM1:331503
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES1C;3PcPWHAnHClxTvsIqbWKpd;UB-Universal Beams:BEAM1:330981;UC-Universal Columns-Column:UC305x305x97:318614
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES1C;3PcPWHAnHClxTvsIqbWN0o;UB-Universal Beams:BEAM1:330981;UC-Universal Columns-Column:UC305x305x97:319555
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES1C;1pnHUanNPAueqWfsp27bEC;UB-Universal Beams:BEAM1:330981;UC-Universal Columns-Column:UC305x305x97:352331
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES1C;1pnHUanNPAueqWfsp27bEM;UB-Universal Beams:BEAM1:330981;UC-Universal Columns-Column:UC305x305x97:352337
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES6_;0G2Fg3$En0ZAkMe$WoES7Z;UB-Universal Beams:BEAM1:331031;UB-Universal Beams:BEAM1:331082
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES6_;0G2Fg3$En0ZAkMe$WoES96;UB-Universal Beams:BEAM1:331031;UB-Universal Beams:BEAM1:331503
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES6_;0G2Fg3$En0ZAkMe$WoEToB;UB-Universal Beams:BEAM1:331031;UB-Universal Beams:BEAM1:331810
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES6_;1eUxMLrF1C5BtgpYmswnDU;UB-Universal Beams:BEAM1:331031;UB-Universal Beams:BEAM1:338256
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES6_;3PcPWHAnHClxTvsIqbWK$5;UB-Universal Beams:BEAM1:331031;UC-Universal Columns-Column:UC305x305x97:319412
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES6_;3PcPWHAnHClxTvsIqbWN0o;UB-Universal Beams:BEAM1:331031;UC-Universal Columns-Column:UC305x305x97:319555
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES6_;1pnHUanNPAueqWfsp27bEN;UB-Universal Beams:BEAM1:331031;UC-Universal Columns-Column:UC305x305x97:352336
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES6_;1pnHUanNPAueqWfsp27bEM;UB-Universal Beams:BEAM1:331031;UC-Universal Columns-Column:UC305x305x97:352337
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES7Z;0G2Fg3$En0ZAkMe$WoES7P;UB-Universal Beams:BEAM1:331082;UB-Universal Beams:BEAM1:331120
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES7Z;0G2Fg3$En0ZAkMe$WoEToB;UB-Universal Beams:BEAM1:331082;UB-Universal Beams:BEAM1:331810
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES7Z;1eUxMLrF1C5BtgpYmswnCW;UB-Universal Beams:BEAM1:331082;UB-Universal Beams:BEAM1:338222
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES7Z;1eUxMLrF1C5BtgpYmswnDU;UB-Universal Beams:BEAM1:331082;UB-Universal Beams:BEAM1:338256
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES7Z;3PcPWHAnHClxTvsIqbWKyi;UB-Universal Beams:BEAM1:331082;UC-Universal Columns-Column:UC305x305x97:319325
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES7Z;3PcPWHAnHClxTvsIqbWK$5;UB-Universal Beams:BEAM1:331082;UC-Universal Columns-Column:UC305x305x97:319412
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES7Z;1pnHUanNPAueqWfsp27bE8;UB-Universal Beams:BEAM1:331082;UC-Universal Columns-Column:UC305x305x97:352335
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES7Z;1pnHUanNPAueqWfsp27bEN;UB-Universal Beams:BEAM1:331082;UC-Universal Columns-Column:UC305x305x97:352336
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES7P;0G2Fg3$En0ZAkMe$WoES4r;UB-Universal Beams:BEAM1:331120;UB-Universal Beams:BEAM1:331164
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES7P;1eUxMLrF1C5BtgpYmswnCW;UB-Universal Beams:BEAM1:331120;UB-Universal Beams:BEAM1:338222
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES7P;3PcPWHAnHClxTvsIqbWKwp;UB-Universal Beams:BEAM1:331120;UC-Universal Columns-Column:UC305x305x97:319170
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES7P;3PcPWHAnHClxTvsIqbWKyi;UB-Universal Beams:BEAM1:331120;UC-Universal Columns-Column:UC305x305x97:319325
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES7P;1pnHUanNPAueqWfsp27bE9;UB-Universal Beams:BEAM1:331120;UC-Universal Columns-Column:UC305x305x97:352334
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES7P;1pnHUanNPAueqWfsp27bE8;UB-Universal Beams:BEAM1:331120;UC-Universal Columns-Column:UC305x305x97:352335
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES4r;0G2Fg3$En0ZAkMe$WoEUoi;UB-Universal Beams:BEAM1:331164;UB-Universal Beams:BEAM1:335877
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES4r;1eUxMLrF1C5BtgpYmswnCB;UB-Universal Beams:BEAM1:331164;UB-Universal Beams:BEAM1:338181
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES4r;3PcPWHAnHClxTvsIqbWKuY;UB-Universal Beams:BEAM1:331164;UC-Universal Columns-Column:UC305x305x97:319059
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES4r;3PcPWHAnHClxTvsIqbWKwp;UB-Universal Beams:BEAM1:331164;UC-Universal Columns-Column:UC305x305x97:319170
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES4r;1pnHUanNPAueqWfsp27bEA;UB-Universal Beams:BEAM1:331164;UC-Universal Columns-Column:UC305x305x97:352333
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES4r;1pnHUanNPAueqWfsp27bE9;UB-Universal Beams:BEAM1:331164;UC-Universal Columns-Column:UC305x305x97:352334
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES96;0G2Fg3$En0ZAkMe$WoESEr;UB-Universal Beams:BEAM1:331503;UB-Universal Beams:BEAM1:331548
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoES96;1eUxMLrF1C5BtgpYmswn0q;UB-Universal Beams:BEAM1:331503;UB-Universal Beams:BEAM1:338490
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES96;3PcPWHAnHClxTvsIqbWN0o;UB-Universal Beams:BEAM1:331503;UC-Universal Columns-Column:UC305x305x97:319555
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES96;3PcPWHAnHClxTvsIqbWN4e;UB-Universal Beams:BEAM1:331503;UC-Universal Columns-Column:UC305x305x97:319833
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES96;1pnHUanNPAueqWfsp27bEM;UB-Universal Beams:BEAM1:331503;UC-Universal Columns-Column:UC305x305x97:352337
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoES96;1pnHUanNPAueqWfsp27bEK;UB-Universal Beams:BEAM1:331503;UC-Universal Columns-Column:UC305x305x97:352339
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESEr;0G2Fg3$En0ZAkMe$WoESFh;UB-Universal Beams:BEAM1:331548;UB-Universal Beams:BEAM1:331586
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESEr;1eUxMLrF1C5BtgpYmswn0I;UB-Universal Beams:BEAM1:331548;UB-Universal Beams:BEAM1:338460
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESEr;1eUxMLrF1C5BtgpYmswn0q;UB-Universal Beams:BEAM1:331548;UB-Universal Beams:BEAM1:338490
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESEr;3PcPWHAnHClxTvsIqbWN4e;UB-Universal Beams:BEAM1:331548;UC-Universal Columns-Column:UC305x305x97:319833
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESEr;3PcPWHAnHClxTvsIqbWN9M;UB-Universal Beams:BEAM1:331548;UC-Universal Columns-Column:UC305x305x97:320039
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESEr;1pnHUanNPAueqWfsp27bEK;UB-Universal Beams:BEAM1:331548;UC-Universal Columns-Column:UC305x305x97:352339
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESEr;1pnHUanNPAueqWfsp27bEI;UB-Universal Beams:BEAM1:331548;UC-Universal Columns-Column:UC305x305x97:352341
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESFh;0G2Fg3$En0ZAkMe$WoESFp;UB-Universal Beams:BEAM1:331586;UB-Universal Beams:BEAM1:331610
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESFh;1eUxMLrF1C5BtgpYmswn0I;UB-Universal Beams:BEAM1:331586;UB-Universal Beams:BEAM1:338460
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESFh;3PcPWHAnHClxTvsIqbWN9M;UB-Universal Beams:BEAM1:331586;UC-Universal Columns-Column:UC305x305x97:320039
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESFh;3PcPWHAnHClxTvsIqbWNDm;UB-Universal Beams:BEAM1:331586;UC-Universal Columns-Column:UC305x305x97:320257
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESFh;1pnHUanNPAueqWfsp27bEI;UB-Universal Beams:BEAM1:331586;UC-Universal Columns-Column:UC305x305x97:352341
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESFh;1pnHUanNPAueqWfsp27bEG;UB-Universal Beams:BEAM1:331586;UC-Universal Columns-Column:UC305x305x97:352343
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESFp;0G2Fg3$En0ZAkMe$WoESCg;UB-Universal Beams:BEAM1:331610;UB-Universal Beams:BEAM1:331651
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESFp;3PcPWHAnHClxTvsIqbWN83;UB-Universal Beams:BEAM1:331610;UC-Universal Columns-Column:UC305x305x97:320114
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESFp;3PcPWHAnHClxTvsIqbWNDm;UB-Universal Beams:BEAM1:331610;UC-Universal Columns-Column:UC305x305x97:320257
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESFp;1pnHUanNPAueqWfsp27bEH;UB-Universal Beams:BEAM1:331610;UC-Universal Columns-Column:UC305x305x97:352342
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESFp;1pnHUanNPAueqWfsp27bEG;UB-Universal Beams:BEAM1:331610;UC-Universal Columns-Column:UC305x305x97:352343
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESCg;0G2Fg3$En0ZAkMe$WoESDz;UB-Universal Beams:BEAM1:331651;UB-Universal Beams:BEAM1:331732
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESCg;1eUxMLrF1C5BtgpYmswn0I;UB-Universal Beams:BEAM1:331651;UB-Universal Beams:BEAM1:338460
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESCg;3PcPWHAnHClxTvsIqbWN7T;UB-Universal Beams:BEAM1:331651;UC-Universal Columns-Column:UC305x305x97:319916
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESCg;3PcPWHAnHClxTvsIqbWN83;UB-Universal Beams:BEAM1:331651;UC-Universal Columns-Column:UC305x305x97:320114
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESCg;1pnHUanNPAueqWfsp27bEJ;UB-Universal Beams:BEAM1:331651;UC-Universal Columns-Column:UC305x305x97:352340
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESCg;1pnHUanNPAueqWfsp27bEH;UB-Universal Beams:BEAM1:331651;UC-Universal Columns-Column:UC305x305x97:352342
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESDz;0G2Fg3$En0ZAkMe$WoEToB;UB-Universal Beams:BEAM1:331732;UB-Universal Beams:BEAM1:331810
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESDz;1eUxMLrF1C5BtgpYmswn0I;UB-Universal Beams:BEAM1:331732;UB-Universal Beams:BEAM1:338460
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoESDz;1eUxMLrF1C5BtgpYmswn0q;UB-Universal Beams:BEAM1:331732;UB-Universal Beams:BEAM1:338490
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESDz;3PcPWHAnHClxTvsIqbWN39;UB-Universal Beams:BEAM1:331732;UC-Universal Columns-Column:UC305x305x97:319672
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESDz;3PcPWHAnHClxTvsIqbWN7T;UB-Universal Beams:BEAM1:331732;UC-Universal Columns-Column:UC305x305x97:319916
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESDz;1pnHUanNPAueqWfsp27bEL;UB-Universal Beams:BEAM1:331732;UC-Universal Columns-Column:UC305x305x97:352338
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoESDz;1pnHUanNPAueqWfsp27bEJ;UB-Universal Beams:BEAM1:331732;UC-Universal Columns-Column:UC305x305x97:352340
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoEToB;1eUxMLrF1C5BtgpYmswnDU;UB-Universal Beams:BEAM1:331810;UB-Universal Beams:BEAM1:338256
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoEToB;1eUxMLrF1C5BtgpYmswn0q;UB-Universal Beams:BEAM1:331810;UB-Universal Beams:BEAM1:338490
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoEToB;3PcPWHAnHClxTvsIqbWK$5;UB-Universal Beams:BEAM1:331810;UC-Universal Columns-Column:UC305x305x97:319412
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoEToB;3PcPWHAnHClxTvsIqbWN39;UB-Universal Beams:BEAM1:331810;UC-Universal Columns-Column:UC305x305x97:319672
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoEToB;1pnHUanNPAueqWfsp27bEN;UB-Universal Beams:BEAM1:331810;UC-Universal Columns-Column:UC305x305x97:352336
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoEToB;1pnHUanNPAueqWfsp27bEL;UB-Universal Beams:BEAM1:331810;UC-Universal Columns-Column:UC305x305x97:352338
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETPm;0G2Fg3$En0ZAkMe$WoETUK;UB-Universal Beams:BEAM1:334553;UB-Universal Beams:BEAM1:334653
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETPm;0G2Fg3$En0ZAkMe$WoETTY;UB-Universal Beams:BEAM1:334553;UB-Universal Beams:BEAM1:334795
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETPm;0G2Fg3$En0ZAkMe$WoETFU;UB-Universal Beams:BEAM1:334553;UB-Universal Beams:BEAM1:335735
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETPm;3PcPWHAnHClxTvsIqbWKW_;UB-Universal Beams:BEAM1:334553;UC-Universal Columns-Column:UC305x305x97:317519
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETPm;3PcPWHAnHClxTvsIqbWKrY;UB-Universal Beams:BEAM1:334553;UC-Universal Columns-Column:UC305x305x97:318739
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETPm;1pnHUanNPAueqWfsp27bE1;UB-Universal Beams:BEAM1:334553;UC-Universal Columns-Column:UC305x305x97:352326
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETPm;1pnHUanNPAueqWfsp27bEB;UB-Universal Beams:BEAM1:334553;UC-Universal Columns-Column:UC305x305x97:352332
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETUK;0G2Fg3$En0ZAkMe$WoETTY;UB-Universal Beams:BEAM1:334653;UB-Universal Beams:BEAM1:334795
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETUK;0G2Fg3$En0ZAkMe$WoET4f;UB-Universal Beams:BEAM1:334653;UB-Universal Beams:BEAM1:335232
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETUK;1eUxMLrF1C5BtgpYmswnE2;UB-Universal Beams:BEAM1:334653;UB-Universal Beams:BEAM1:338316
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETUK;3PcPWHAnHClxTvsIqbWKrY;UB-Universal Beams:BEAM1:334653;UC-Universal Columns-Column:UC305x305x97:318739
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETUK;3PcPWHAnHClxTvsIqbWMwx;UB-Universal Beams:BEAM1:334653;UC-Universal Columns-Column:UC305x305x97:327370
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETUK;1pnHUanNPAueqWfsp27bEB;UB-Universal Beams:BEAM1:334653;UC-Universal Columns-Column:UC305x305x97:352332
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETUK;1pnHUanNPAueqWfsp27bES;UB-Universal Beams:BEAM1:334653;UC-Universal Columns-Column:UC305x305x97:352347
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETTY;0G2Fg3$En0ZAkMe$WoET6u;UB-Universal Beams:BEAM1:334795;UB-Universal Beams:BEAM1:335121
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETTY;0G2Fg3$En0ZAkMe$WoEUoi;UB-Universal Beams:BEAM1:334795;UB-Universal Beams:BEAM1:335877
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETTY;1eUxMLrF1C5BtgpYmswnBF;UB-Universal Beams:BEAM1:334795;UB-Universal Beams:BEAM1:338113
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETTY;3PcPWHAnHClxTvsIqbWKrY;UB-Universal Beams:BEAM1:334795;UC-Universal Columns-Column:UC305x305x97:318739
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETTY;0G2Fg3$En0ZAkMe$WoETI1;UB-Universal Beams:BEAM1:334795;UC-Universal Columns-Column:UC305x305x97:333864
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETTY;1pnHUanNPAueqWfsp27bEB;UB-Universal Beams:BEAM1:334795;UC-Universal Columns-Column:UC305x305x97:352332
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETTY;1pnHUanNPAueqWfsp27bEs;UB-Universal Beams:BEAM1:334795;UC-Universal Columns-Column:UC305x305x97:352369
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET6u;0G2Fg3$En0ZAkMe$WoET7Y;UB-Universal Beams:BEAM1:335121;UB-Universal Beams:BEAM1:335179
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET6u;0G2Fg3$En0ZAkMe$WoEUoi;UB-Universal Beams:BEAM1:335121;UB-Universal Beams:BEAM1:335877
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET6u;1eUxMLrF1C5BtgpYmswnBF;UB-Universal Beams:BEAM1:335121;UB-Universal Beams:BEAM1:338113
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET6u;1eUxMLrF1C5BtgpYmswnE2;UB-Universal Beams:BEAM1:335121;UB-Universal Beams:BEAM1:338316
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET6u;3PcPWHAnHClxTvsIqbWMz6;UB-Universal Beams:BEAM1:335121;UC-Universal Columns-Column:UC305x305x97:327479
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET6u;0G2Fg3$En0ZAkMe$WoETI1;UB-Universal Beams:BEAM1:335121;UC-Universal Columns-Column:UC305x305x97:333864
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET6u;1pnHUanNPAueqWfsp27bER;UB-Universal Beams:BEAM1:335121;UC-Universal Columns-Column:UC305x305x97:352348
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET6u;1pnHUanNPAueqWfsp27bEs;UB-Universal Beams:BEAM1:335121;UC-Universal Columns-Column:UC305x305x97:352369
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET7Y;0G2Fg3$En0ZAkMe$WoET5x;UB-Universal Beams:BEAM1:335179;UB-Universal Beams:BEAM1:335314
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET7Y;1eUxMLrF1C5BtgpYmswnE2;UB-Universal Beams:BEAM1:335179;UB-Universal Beams:BEAM1:338316
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET7Y;1eUxMLrF1C5BtgpYmswnF6;UB-Universal Beams:BEAM1:335179;UB-Universal Beams:BEAM1:338376
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET7Y;3PcPWHAnHClxTvsIqbWMz6;UB-Universal Beams:BEAM1:335179;UC-Universal Columns-Column:UC305x305x97:327479
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET7Y;3PcPWHAnHClxTvsIqbW91U;UB-Universal Beams:BEAM1:335179;UC-Universal Columns-Column:UC305x305x97:327727
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET7Y;1pnHUanNPAueqWfsp27bER;UB-Universal Beams:BEAM1:335179;UC-Universal Columns-Column:UC305x305x97:352348
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET7Y;1pnHUanNPAueqWfsp27bEP;UB-Universal Beams:BEAM1:335179;UC-Universal Columns-Column:UC305x305x97:352350
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET4f;0G2Fg3$En0ZAkMe$WoETAf;UB-Universal Beams:BEAM1:335232;UB-Universal Beams:BEAM1:335360
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET4f;1eUxMLrF1C5BtgpYmswnE2;UB-Universal Beams:BEAM1:335232;UB-Universal Beams:BEAM1:338316
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET4f;1eUxMLrF1C5BtgpYmswnF6;UB-Universal Beams:BEAM1:335232;UB-Universal Beams:BEAM1:338376
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET4f;3PcPWHAnHClxTvsIqbWMwx;UB-Universal Beams:BEAM1:335232;UC-Universal Columns-Column:UC305x305x97:327370
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET4f;3PcPWHAnHClxTvsIqbWM$l;UB-Universal Beams:BEAM1:335232;UC-Universal Columns-Column:UC305x305x97:327582
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET4f;1pnHUanNPAueqWfsp27bES;UB-Universal Beams:BEAM1:335232;UC-Universal Columns-Column:UC305x305x97:352347
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET4f;1pnHUanNPAueqWfsp27bEQ;UB-Universal Beams:BEAM1:335232;UC-Universal Columns-Column:UC305x305x97:352349
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET5x;0G2Fg3$En0ZAkMe$WoETAH;UB-Universal Beams:BEAM1:335314;UB-Universal Beams:BEAM1:335416
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoET5x;1eUxMLrF1C5BtgpYmswnF6;UB-Universal Beams:BEAM1:335314;UB-Universal Beams:BEAM1:338376
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET5x;3PcPWHAnHClxTvsIqbW91U;UB-Universal Beams:BEAM1:335314;UC-Universal Columns-Column:UC305x305x97:327727
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET5x;0G2Fg3$En0ZAkMe$WoETH0;UB-Universal Beams:BEAM1:335314;UC-Universal Columns-Column:UC305x305x97:334057
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET5x;1pnHUanNPAueqWfsp27bEP;UB-Universal Beams:BEAM1:335314;UC-Universal Columns-Column:UC305x305x97:352350
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoET5x;1pnHUanNPAueqWfsp27bEr;UB-Universal Beams:BEAM1:335314;UC-Universal Columns-Column:UC305x305x97:352370
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETAf;0G2Fg3$En0ZAkMe$WoETAH;UB-Universal Beams:BEAM1:335360;UB-Universal Beams:BEAM1:335416
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETAf;1eUxMLrF1C5BtgpYmswnF6;UB-Universal Beams:BEAM1:335360;UB-Universal Beams:BEAM1:338376
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETAf;3PcPWHAnHClxTvsIqbWM$l;UB-Universal Beams:BEAM1:335360;UC-Universal Columns-Column:UC305x305x97:327582
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETAf;3PcPWHAnHClxTvsIqbW93t;UB-Universal Beams:BEAM1:335360;UC-Universal Columns-Column:UC305x305x97:327814
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETAf;1pnHUanNPAueqWfsp27bEQ;UB-Universal Beams:BEAM1:335360;UC-Universal Columns-Column:UC305x305x97:352349
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETAf;1pnHUanNPAueqWfsp27bEO;UB-Universal Beams:BEAM1:335360;UC-Universal Columns-Column:UC305x305x97:352351
+;;;;;;
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETAH;3PcPWHAnHClxTvsIqbW93t;UB-Universal Beams:BEAM1:335416;UC-Universal Columns-Column:UC305x305x97:327814
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETAH;0G2Fg3$En0ZAkMe$WoETH0;UB-Universal Beams:BEAM1:335416;UC-Universal Columns-Column:UC305x305x97:334057
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETAH;1pnHUanNPAueqWfsp27bEO;UB-Universal Beams:BEAM1:335416;UC-Universal Columns-Column:UC305x305x97:352351
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETAH;1pnHUanNPAueqWfsp27bEr;UB-Universal Beams:BEAM1:335416;UC-Universal Columns-Column:UC305x305x97:352370
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETFU;0G2Fg3$En0ZAkMe$WoETDy;UB-Universal Beams:BEAM1:335735;UB-Universal Beams:BEAM1:335829
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETFU;1eUxMLrF1C5BtgpYmswnBF;UB-Universal Beams:BEAM1:335735;UB-Universal Beams:BEAM1:338113
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETFU;3PcPWHAnHClxTvsIqbWKW_;UB-Universal Beams:BEAM1:335735;UC-Universal Columns-Column:UC305x305x97:317519
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETFU;0G2Fg3$En0ZAkMe$WoETkI;UB-Universal Beams:BEAM1:335735;UC-Universal Columns-Column:UC305x305x97:333627
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETFU;1pnHUanNPAueqWfsp27bE1;UB-Universal Beams:BEAM1:335735;UC-Universal Columns-Column:UC305x305x97:352326
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETFU;1pnHUanNPAueqWfsp27bEt;UB-Universal Beams:BEAM1:335735;UC-Universal Columns-Column:UC305x305x97:352368
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETDy;1eUxMLrF1C5BtgpYmswnBF;UB-Universal Beams:BEAM1:335829;UB-Universal Beams:BEAM1:338113
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoETDy;1eUxMLrF1C5BtgpYmswnCB;UB-Universal Beams:BEAM1:335829;UB-Universal Beams:BEAM1:338181
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETDy;3PcPWHAnHClxTvsIqbWKct;UB-Universal Beams:BEAM1:335829;UC-Universal Columns-Column:UC305x305x97:317894
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETDy;0G2Fg3$En0ZAkMe$WoETkI;UB-Universal Beams:BEAM1:335829;UC-Universal Columns-Column:UC305x305x97:333627
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETDy;1pnHUanNPAueqWfsp27bE0;UB-Universal Beams:BEAM1:335829;UC-Universal Columns-Column:UC305x305x97:352327
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoETDy;1pnHUanNPAueqWfsp27bEt;UB-Universal Beams:BEAM1:335829;UC-Universal Columns-Column:UC305x305x97:352368
+;;;;;;
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoEUoi;1eUxMLrF1C5BtgpYmswnBF;UB-Universal Beams:BEAM1:335877;UB-Universal Beams:BEAM1:338113
+o;IfcBeam;IfcBeam;0G2Fg3$En0ZAkMe$WoEUoi;1eUxMLrF1C5BtgpYmswnCB;UB-Universal Beams:BEAM1:335877;UB-Universal Beams:BEAM1:338181
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoEUoi;3PcPWHAnHClxTvsIqbWKuY;UB-Universal Beams:BEAM1:335877;UC-Universal Columns-Column:UC305x305x97:319059
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoEUoi;0G2Fg3$En0ZAkMe$WoETI1;UB-Universal Beams:BEAM1:335877;UC-Universal Columns-Column:UC305x305x97:333864
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoEUoi;1pnHUanNPAueqWfsp27bEA;UB-Universal Beams:BEAM1:335877;UC-Universal Columns-Column:UC305x305x97:352333
+o;IfcBeam;IfcColumn;0G2Fg3$En0ZAkMe$WoEUoi;1pnHUanNPAueqWfsp27bEs;UB-Universal Beams:BEAM1:335877;UC-Universal Columns-Column:UC305x305x97:352369
+;;;;;;
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnBF;0G2Fg3$En0ZAkMe$WoETkI;UB-Universal Beams:BEAM1:338113;UC-Universal Columns-Column:UC305x305x97:333627
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnBF;0G2Fg3$En0ZAkMe$WoETI1;UB-Universal Beams:BEAM1:338113;UC-Universal Columns-Column:UC305x305x97:333864
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnBF;1pnHUanNPAueqWfsp27bEt;UB-Universal Beams:BEAM1:338113;UC-Universal Columns-Column:UC305x305x97:352368
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnBF;1pnHUanNPAueqWfsp27bEs;UB-Universal Beams:BEAM1:338113;UC-Universal Columns-Column:UC305x305x97:352369
+;;;;;;
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnCB;3PcPWHAnHClxTvsIqbWKct;UB-Universal Beams:BEAM1:338181;UC-Universal Columns-Column:UC305x305x97:317894
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnCB;3PcPWHAnHClxTvsIqbWKuY;UB-Universal Beams:BEAM1:338181;UC-Universal Columns-Column:UC305x305x97:319059
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnCB;1pnHUanNPAueqWfsp27bE0;UB-Universal Beams:BEAM1:338181;UC-Universal Columns-Column:UC305x305x97:352327
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnCB;1pnHUanNPAueqWfsp27bEA;UB-Universal Beams:BEAM1:338181;UC-Universal Columns-Column:UC305x305x97:352333
+;;;;;;
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnCW;3PcPWHAnHClxTvsIqbWKjf;UB-Universal Beams:BEAM1:338222;UC-Universal Columns-Column:UC305x305x97:318232
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnCW;3PcPWHAnHClxTvsIqbWKyi;UB-Universal Beams:BEAM1:338222;UC-Universal Columns-Column:UC305x305x97:319325
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnCW;1pnHUanNPAueqWfsp27bEE;UB-Universal Beams:BEAM1:338222;UC-Universal Columns-Column:UC305x305x97:352329
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnCW;1pnHUanNPAueqWfsp27bE8;UB-Universal Beams:BEAM1:338222;UC-Universal Columns-Column:UC305x305x97:352335
+;;;;;;
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnDU;3PcPWHAnHClxTvsIqbWKlQ;UB-Universal Beams:BEAM1:338256;UC-Universal Columns-Column:UC305x305x97:318379
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnDU;3PcPWHAnHClxTvsIqbWK$5;UB-Universal Beams:BEAM1:338256;UC-Universal Columns-Column:UC305x305x97:319412
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnDU;1pnHUanNPAueqWfsp27bED;UB-Universal Beams:BEAM1:338256;UC-Universal Columns-Column:UC305x305x97:352330
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnDU;1pnHUanNPAueqWfsp27bEN;UB-Universal Beams:BEAM1:338256;UC-Universal Columns-Column:UC305x305x97:352336
+;;;;;;
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnE2;3PcPWHAnHClxTvsIqbWMwx;UB-Universal Beams:BEAM1:338316;UC-Universal Columns-Column:UC305x305x97:327370
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnE2;3PcPWHAnHClxTvsIqbWMz6;UB-Universal Beams:BEAM1:338316;UC-Universal Columns-Column:UC305x305x97:327479
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnE2;1pnHUanNPAueqWfsp27bES;UB-Universal Beams:BEAM1:338316;UC-Universal Columns-Column:UC305x305x97:352347
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnE2;1pnHUanNPAueqWfsp27bER;UB-Universal Beams:BEAM1:338316;UC-Universal Columns-Column:UC305x305x97:352348
+;;;;;;
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnF6;3PcPWHAnHClxTvsIqbWM$l;UB-Universal Beams:BEAM1:338376;UC-Universal Columns-Column:UC305x305x97:327582
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnF6;3PcPWHAnHClxTvsIqbW91U;UB-Universal Beams:BEAM1:338376;UC-Universal Columns-Column:UC305x305x97:327727
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnF6;1pnHUanNPAueqWfsp27bEQ;UB-Universal Beams:BEAM1:338376;UC-Universal Columns-Column:UC305x305x97:352349
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswnF6;1pnHUanNPAueqWfsp27bEP;UB-Universal Beams:BEAM1:338376;UC-Universal Columns-Column:UC305x305x97:352350
+;;;;;;
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswn0I;3PcPWHAnHClxTvsIqbWN7T;UB-Universal Beams:BEAM1:338460;UC-Universal Columns-Column:UC305x305x97:319916
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswn0I;3PcPWHAnHClxTvsIqbWN9M;UB-Universal Beams:BEAM1:338460;UC-Universal Columns-Column:UC305x305x97:320039
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswn0I;1pnHUanNPAueqWfsp27bEJ;UB-Universal Beams:BEAM1:338460;UC-Universal Columns-Column:UC305x305x97:352340
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswn0I;1pnHUanNPAueqWfsp27bEI;UB-Universal Beams:BEAM1:338460;UC-Universal Columns-Column:UC305x305x97:352341
+;;;;;;
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswn0q;3PcPWHAnHClxTvsIqbWN39;UB-Universal Beams:BEAM1:338490;UC-Universal Columns-Column:UC305x305x97:319672
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswn0q;3PcPWHAnHClxTvsIqbWN4e;UB-Universal Beams:BEAM1:338490;UC-Universal Columns-Column:UC305x305x97:319833
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswn0q;1pnHUanNPAueqWfsp27bEL;UB-Universal Beams:BEAM1:338490;UC-Universal Columns-Column:UC305x305x97:352338
+o;IfcBeam;IfcColumn;1eUxMLrF1C5BtgpYmswn0q;1pnHUanNPAueqWfsp27bEK;UB-Universal Beams:BEAM1:338490;UC-Universal Columns-Column:UC305x305x97:352339
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWKW_;1pnHUanNPAueqWfsp27bE1;UC-Universal Columns-Column:UC305x305x97:317519;UC-Universal Columns-Column:UC305x305x97:352326
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWKW_;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:317519;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWKct;1pnHUanNPAueqWfsp27bE0;UC-Universal Columns-Column:UC305x305x97:317894;UC-Universal Columns-Column:UC305x305x97:352327
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWKct;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:317894;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWKhy;1pnHUanNPAueqWfsp27bEF;UC-Universal Columns-Column:UC305x305x97:318093;UC-Universal Columns-Column:UC305x305x97:352328
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWKhy;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:318093;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWKjf;1pnHUanNPAueqWfsp27bEE;UC-Universal Columns-Column:UC305x305x97:318232;UC-Universal Columns-Column:UC305x305x97:352329
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWKjf;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:318232;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWKlQ;1pnHUanNPAueqWfsp27bED;UC-Universal Columns-Column:UC305x305x97:318379;UC-Universal Columns-Column:UC305x305x97:352330
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWKlQ;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:318379;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWKpd;1pnHUanNPAueqWfsp27bEC;UC-Universal Columns-Column:UC305x305x97:318614;UC-Universal Columns-Column:UC305x305x97:352331
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWKpd;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:318614;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWKrY;1pnHUanNPAueqWfsp27bEB;UC-Universal Columns-Column:UC305x305x97:318739;UC-Universal Columns-Column:UC305x305x97:352332
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWKrY;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:318739;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWKuY;1pnHUanNPAueqWfsp27bEA;UC-Universal Columns-Column:UC305x305x97:319059;UC-Universal Columns-Column:UC305x305x97:352333
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWKuY;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:319059;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWKwp;1pnHUanNPAueqWfsp27bE9;UC-Universal Columns-Column:UC305x305x97:319170;UC-Universal Columns-Column:UC305x305x97:352334
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWKwp;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:319170;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWKyi;1pnHUanNPAueqWfsp27bE8;UC-Universal Columns-Column:UC305x305x97:319325;UC-Universal Columns-Column:UC305x305x97:352335
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWKyi;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:319325;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWK$5;1pnHUanNPAueqWfsp27bEN;UC-Universal Columns-Column:UC305x305x97:319412;UC-Universal Columns-Column:UC305x305x97:352336
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWK$5;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:319412;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWN0o;1pnHUanNPAueqWfsp27bEM;UC-Universal Columns-Column:UC305x305x97:319555;UC-Universal Columns-Column:UC305x305x97:352337
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWN0o;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:319555;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWN39;1pnHUanNPAueqWfsp27bEL;UC-Universal Columns-Column:UC305x305x97:319672;UC-Universal Columns-Column:UC305x305x97:352338
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWN39;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:319672;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWN4e;1pnHUanNPAueqWfsp27bEK;UC-Universal Columns-Column:UC305x305x97:319833;UC-Universal Columns-Column:UC305x305x97:352339
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWN4e;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:319833;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWN7T;1pnHUanNPAueqWfsp27bEJ;UC-Universal Columns-Column:UC305x305x97:319916;UC-Universal Columns-Column:UC305x305x97:352340
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWN7T;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:319916;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWN9M;1pnHUanNPAueqWfsp27bEI;UC-Universal Columns-Column:UC305x305x97:320039;UC-Universal Columns-Column:UC305x305x97:352341
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWN9M;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:320039;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWN83;1pnHUanNPAueqWfsp27bEH;UC-Universal Columns-Column:UC305x305x97:320114;UC-Universal Columns-Column:UC305x305x97:352342
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWN83;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:320114;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWNDm;1pnHUanNPAueqWfsp27bEG;UC-Universal Columns-Column:UC305x305x97:320257;UC-Universal Columns-Column:UC305x305x97:352343
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWNDm;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:320257;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWMwx;1pnHUanNPAueqWfsp27bES;UC-Universal Columns-Column:UC305x305x97:327370;UC-Universal Columns-Column:UC305x305x97:352347
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWMwx;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:327370;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWMz6;1pnHUanNPAueqWfsp27bER;UC-Universal Columns-Column:UC305x305x97:327479;UC-Universal Columns-Column:UC305x305x97:352348
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWMz6;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:327479;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbWM$l;1pnHUanNPAueqWfsp27bEQ;UC-Universal Columns-Column:UC305x305x97:327582;UC-Universal Columns-Column:UC305x305x97:352349
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbWM$l;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:327582;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbW91U;1pnHUanNPAueqWfsp27bEP;UC-Universal Columns-Column:UC305x305x97:327727;UC-Universal Columns-Column:UC305x305x97:352350
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbW91U;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:327727;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;3PcPWHAnHClxTvsIqbW93t;1pnHUanNPAueqWfsp27bEO;UC-Universal Columns-Column:UC305x305x97:327814;UC-Universal Columns-Column:UC305x305x97:352351
+o;IfcColumn;IfcSlab;3PcPWHAnHClxTvsIqbW93t;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:327814;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;0G2Fg3$En0ZAkMe$WoETkI;1pnHUanNPAueqWfsp27bEt;UC-Universal Columns-Column:UC305x305x97:333627;UC-Universal Columns-Column:UC305x305x97:352368
+o;IfcColumn;IfcSlab;0G2Fg3$En0ZAkMe$WoETkI;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:333627;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;0G2Fg3$En0ZAkMe$WoETI1;1pnHUanNPAueqWfsp27bEs;UC-Universal Columns-Column:UC305x305x97:333864;UC-Universal Columns-Column:UC305x305x97:352369
+o;IfcColumn;IfcSlab;0G2Fg3$En0ZAkMe$WoETI1;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:333864;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;0G2Fg3$En0ZAkMe$WoETH0;1pnHUanNPAueqWfsp27bEr;UC-Universal Columns-Column:UC305x305x97:334057;UC-Universal Columns-Column:UC305x305x97:352370
+o;IfcColumn;IfcSlab;0G2Fg3$En0ZAkMe$WoETH0;3Tt69ndVvBkv7If$RWPIQP;UC-Universal Columns-Column:UC305x305x97:334057;Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:372841
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bE1;1pnHUanNPAueqWfsp27bCO;UC-Universal Columns-Column:UC305x305x97:352326;UC-Universal Columns-Column:UC305x305x97:352479
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bE0;1pnHUanNPAueqWfsp27bCd;UC-Universal Columns-Column:UC305x305x97:352327;UC-Universal Columns-Column:UC305x305x97:352480
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEF;1pnHUanNPAueqWfsp27bCc;UC-Universal Columns-Column:UC305x305x97:352328;UC-Universal Columns-Column:UC305x305x97:352481
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEE;1pnHUanNPAueqWfsp27bCb;UC-Universal Columns-Column:UC305x305x97:352329;UC-Universal Columns-Column:UC305x305x97:352482
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bED;1pnHUanNPAueqWfsp27bCa;UC-Universal Columns-Column:UC305x305x97:352330;UC-Universal Columns-Column:UC305x305x97:352483
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEC;1pnHUanNPAueqWfsp27bCZ;UC-Universal Columns-Column:UC305x305x97:352331;UC-Universal Columns-Column:UC305x305x97:352484
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEB;1pnHUanNPAueqWfsp27bCY;UC-Universal Columns-Column:UC305x305x97:352332;UC-Universal Columns-Column:UC305x305x97:352485
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEA;1pnHUanNPAueqWfsp27bCX;UC-Universal Columns-Column:UC305x305x97:352333;UC-Universal Columns-Column:UC305x305x97:352486
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bE9;1pnHUanNPAueqWfsp27bCW;UC-Universal Columns-Column:UC305x305x97:352334;UC-Universal Columns-Column:UC305x305x97:352487
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bE8;1pnHUanNPAueqWfsp27bCl;UC-Universal Columns-Column:UC305x305x97:352335;UC-Universal Columns-Column:UC305x305x97:352488
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEN;1pnHUanNPAueqWfsp27bCk;UC-Universal Columns-Column:UC305x305x97:352336;UC-Universal Columns-Column:UC305x305x97:352489
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEM;1pnHUanNPAueqWfsp27bCj;UC-Universal Columns-Column:UC305x305x97:352337;UC-Universal Columns-Column:UC305x305x97:352490
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEL;1pnHUanNPAueqWfsp27bCi;UC-Universal Columns-Column:UC305x305x97:352338;UC-Universal Columns-Column:UC305x305x97:352491
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEK;1pnHUanNPAueqWfsp27bCh;UC-Universal Columns-Column:UC305x305x97:352339;UC-Universal Columns-Column:UC305x305x97:352492
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEJ;1pnHUanNPAueqWfsp27bCg;UC-Universal Columns-Column:UC305x305x97:352340;UC-Universal Columns-Column:UC305x305x97:352493
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEI;1pnHUanNPAueqWfsp27bCf;UC-Universal Columns-Column:UC305x305x97:352341;UC-Universal Columns-Column:UC305x305x97:352494
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEH;1pnHUanNPAueqWfsp27bCe;UC-Universal Columns-Column:UC305x305x97:352342;UC-Universal Columns-Column:UC305x305x97:352495
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEG;1pnHUanNPAueqWfsp27bCt;UC-Universal Columns-Column:UC305x305x97:352343;UC-Universal Columns-Column:UC305x305x97:352496
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bES;1pnHUanNPAueqWfsp27bCp;UC-Universal Columns-Column:UC305x305x97:352347;UC-Universal Columns-Column:UC305x305x97:352500
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bER;1pnHUanNPAueqWfsp27bCo;UC-Universal Columns-Column:UC305x305x97:352348;UC-Universal Columns-Column:UC305x305x97:352501
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEQ;1pnHUanNPAueqWfsp27bCn;UC-Universal Columns-Column:UC305x305x97:352349;UC-Universal Columns-Column:UC305x305x97:352502
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEP;1pnHUanNPAueqWfsp27bCm;UC-Universal Columns-Column:UC305x305x97:352350;UC-Universal Columns-Column:UC305x305x97:352503
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEO;1pnHUanNPAueqWfsp27bC$;UC-Universal Columns-Column:UC305x305x97:352351;UC-Universal Columns-Column:UC305x305x97:352504
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEt;1pnHUanNPAueqWfsp27bBE;UC-Universal Columns-Column:UC305x305x97:352368;UC-Universal Columns-Column:UC305x305x97:352521
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEs;1pnHUanNPAueqWfsp27bBD;UC-Universal Columns-Column:UC305x305x97:352369;UC-Universal Columns-Column:UC305x305x97:352522
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bEr;1pnHUanNPAueqWfsp27bBC;UC-Universal Columns-Column:UC305x305x97:352370;UC-Universal Columns-Column:UC305x305x97:352523
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCY;1pnHUanNPAueqWfsp27bAv;UC-Universal Columns-Column:UC305x305x97:352485;UC-Universal Columns-Column:UC305x305x97:352638
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCk;1pnHUanNPAueqWfsp27b95;UC-Universal Columns-Column:UC305x305x97:352489;UC-Universal Columns-Column:UC305x305x97:352642
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCj;1pnHUanNPAueqWfsp27b94;UC-Universal Columns-Column:UC305x305x97:352490;UC-Universal Columns-Column:UC305x305x97:352643
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCi;1pnHUanNPAueqWfsp27b93;UC-Universal Columns-Column:UC305x305x97:352491;UC-Universal Columns-Column:UC305x305x97:352644
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCh;1pnHUanNPAueqWfsp27b92;UC-Universal Columns-Column:UC305x305x97:352492;UC-Universal Columns-Column:UC305x305x97:352645
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCg;1pnHUanNPAueqWfsp27b91;UC-Universal Columns-Column:UC305x305x97:352493;UC-Universal Columns-Column:UC305x305x97:352646
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCf;1pnHUanNPAueqWfsp27b90;UC-Universal Columns-Column:UC305x305x97:352494;UC-Universal Columns-Column:UC305x305x97:352647
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCe;1pnHUanNPAueqWfsp27b9F;UC-Universal Columns-Column:UC305x305x97:352495;UC-Universal Columns-Column:UC305x305x97:352648
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCt;1pnHUanNPAueqWfsp27b9E;UC-Universal Columns-Column:UC305x305x97:352496;UC-Universal Columns-Column:UC305x305x97:352649
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCp;1pnHUanNPAueqWfsp27b9A;UC-Universal Columns-Column:UC305x305x97:352500;UC-Universal Columns-Column:UC305x305x97:352653
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCo;1pnHUanNPAueqWfsp27b99;UC-Universal Columns-Column:UC305x305x97:352501;UC-Universal Columns-Column:UC305x305x97:352654
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCn;1pnHUanNPAueqWfsp27b98;UC-Universal Columns-Column:UC305x305x97:352502;UC-Universal Columns-Column:UC305x305x97:352655
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bCm;1pnHUanNPAueqWfsp27b9N;UC-Universal Columns-Column:UC305x305x97:352503;UC-Universal Columns-Column:UC305x305x97:352656
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bC$;1pnHUanNPAueqWfsp27b9M;UC-Universal Columns-Column:UC305x305x97:352504;UC-Universal Columns-Column:UC305x305x97:352657
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bBD;1pnHUanNPAueqWfsp27b9a;UC-Universal Columns-Column:UC305x305x97:352522;UC-Universal Columns-Column:UC305x305x97:352675
+;;;;;;
+o;IfcColumn;IfcColumn;1pnHUanNPAueqWfsp27bBC;1pnHUanNPAueqWfsp27b9Z;UC-Universal Columns-Column:UC305x305x97:352523;UC-Universal Columns-Column:UC305x305x97:352676

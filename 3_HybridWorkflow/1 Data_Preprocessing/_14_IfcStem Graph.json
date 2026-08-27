@@ -1,0 +1,109 @@
+{
+    "graph_info": {
+        "model_stem": "21_22 L_TWP_Tragwerksmodell",
+        "stats_IFC_extraction": {
+            "count_all_ifc_products": 159,
+            "count_load_bearing": 79,
+            "count_with_geometry": 79,
+            "entites": {
+                "IfcBeam": 14,
+                "IfcColumn": 22,
+                "IfcSlab": 4,
+                "IfcWall": 39
+            }
+        },
+        "stats_Rule_conversion": {
+                "IFC elements": 79,
+                "total_edges": 3081,
+                "count_GT_labels": 340,
+                "count_Rule_labels": 320,
+                "TP": 320,
+                "TN": 2741,
+                "FP": 0,
+                "FN": 20,
+                "Accuracy": 0.9935,
+                "Precision": 1.0,
+                "Recall": 0.9412,
+                "F1_Score": 0.9697
+            },
+            "stats_GNN_preprocessing": {
+                "nodes": 79,
+                "edges": 511,
+                "gt_edges": 340,
+                "gt_percentage": 66.54
+            },
+            "preprocessing_config": {
+                "rbf_gamma": 0.0001,
+                "allowed_entites": [
+                    "IfcFooting",
+                    "IfcBeam",
+                    "IfcColumn",
+                    "IfcMember",
+                    "IfcSlab",
+                    "IfcWallStandardCase",
+                    "IfcWall",
+                    "IfcPlate",
+                    "IfcPile",
+                    "IfcBuildingElementProxy"
+                ]
+            }
+        },
+        "nodes": [
+            {
+                "node_id": 0,
+                "guid": "0AWeagGxn4K8SQhuSKHnA$",
+                "name": "Unterzug_001",
+                "entity": "IfcBeam",
+                "features": {
+                    "origin": [
+                        28.851,
+                        17.18,
+                        2.715
+                    ],
+                    "origin_x": 28.851,
+                    "origin_y": 17.18,
+                    "origin_z": 2.715,
+                    "centroid": [
+                        36.719,
+                        17.33,
+                        2.915
+                    ],
+                    "centroid_x": 36.719,
+                    "centroid_y": 17.33,
+                    "centroid_z": 2.915,
+                    "dimensions": [
+                        15.736,
+                        0.3,
+                        0.4
+                    ],
+                    "norm_dimensions": [
+                        1.0,
+                        0.019,
+                        0.025
+                    ],
+                    "area": 22.2701,
+                    "volume": 1.8883,
+                    "ratio_av": 11.7937
+                }
+            }
+    ],
+    "edges": [
+        {
+            "source": 75,
+            "target": 39,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true
+            },
+            "meta": {
+                "guid_a": "3zNK4ljcH0xeJ0C6VAJdTa",
+                "guid_b": "20Kp$Io2zDy9xUuhHJ8Q63",
+                "name_a": "Attika",
+                "name_b": "Dach",
+                "entity_a": "IfcWall",
+                "entity_b": "IfcSlab"
+            }
+        }
+    ]
+}

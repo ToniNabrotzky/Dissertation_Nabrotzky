@@ -1,0 +1,115 @@
+Status;Type_A;Type_B;GUID_A;GUID_B;Name_A;Name_B
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDMGD;2q2CBrfQTCKPY0zxCdZyuE;Floor:STB 20.0:488540;STB Stütze - rechteckig:BETON 30X30:474481
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDMGD;2q2CBrfQTCKPY0zxCdZx69;Floor:STB 20.0:488540;STB Stütze - rechteckig:BETON 30X60:475894
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDMGD;2q2CBrfQTCKPY0zxCdZx0a;Floor:STB 20.0:488540;STB Stütze - rechteckig:BETON 30X30:475995
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDMGD;2q2CBrfQTCKPY0zxCdZxSj;Floor:STB 20.0:488540;STB Stütze - rechteckig:BETON 30X30:476242
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDMGD;2q2CBrfQTCKPY0zxCdZxRJ;Floor:STB 20.0:488540;STB Stütze - rechteckig:BETON 30X30:476588
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDMGD;2q2CBrfQTCKPY0zxCdZxLU;Floor:STB 20.0:488540;STB Stütze - rechteckig:BETON 30X30:476705
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDMGD;2q2CBrfQTCKPY0zxCdZxLC;Floor:STB 20.0:488540;STB Stütze - rechteckig:BETON 30X30:476723
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDMGD;2q2CBrfQTCKPY0zxCdZxL2;Floor:STB 20.0:488540;STB Stütze - rechteckig:BETON 30X30:476733
+o;IfcSlab;IfcColumn;3HTqbtkjL0z8u5TicZt0ZR;2q2CBrfQTCKPY0zxCdZyWE;Floor:STB 20.0:488540:2;STB Stütze - rechteckig:BETON 30X30:473969
+o;IfcSlab;IfcColumn;3HTqbtkjL0z8u5TicZt0ZR;2q2CBrfQTCKPY0zxCdZynE;Floor:STB 20.0:488540:2;STB Stütze - rechteckig:BETON 30X60:474929
+o;IfcSlab;IfcColumn;3HTqbtkjL0z8u5TicZt0ZR;2q2CBrfQTCKPY0zxCdZxKq;Floor:STB 20.0:488540:2;STB Stütze - rechteckig:BETON 30X30:476747
+o;IfcSlab;IfcColumn;3HTqbtkjL0z8u5TicZt0ZR;2q2CBrfQTCKPY0zxCdZxKg;Floor:STB 20.0:488540:2;STB Stütze - rechteckig:BETON 30X30:476757
+o;IfcSlab;IfcColumn;3HTqbtkjL0z8u5TicZt0ZR;2q2CBrfQTCKPY0zxCdZxKQ;Floor:STB 20.0:488540:2;STB Stütze - rechteckig:BETON 30X30:476773
+o;IfcSlab;IfcColumn;3HTqbtkjL0z8u5TicZt0ZR;2q2CBrfQTCKPY0zxCdZxNl;Floor:STB 20.0:488540:2;STB Stütze - rechteckig:BETON 30X30:476816
+o;IfcSlab;IfcColumn;3HTqbtkjL0z8u5TicZt0ZR;2q2CBrfQTCKPY0zxCdZxNZ;Floor:STB 20.0:488540:2;STB Stütze - rechteckig:BETON 30X30:476828
+o;IfcSlab;IfcColumn;3HTqbtkjL0z8u5TicZt0ZR;2q2CBrfQTCKPY0zxCdZxNL;Floor:STB 20.0:488540:2;STB Stütze - rechteckig:BETON 30X30:476842
+;;;;;;
+x;IfcSlab;IfcSlab;04sjR4dpb6DOsPr6RR1X5f;04sjR4dpb6DOsPr6RR1X6i;Floor:STB 20.0:496723;Floor:STB 20.0:496790
+;;;;;;
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5f;2q2CBrfQTCKPY0zxCdZyuE;Floor:STB 20.0:496723;STB Stütze - rechteckig:BETON 30X30:474481
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5f;2q2CBrfQTCKPY0zxCdZx69;Floor:STB 20.0:496723;STB Stütze - rechteckig:BETON 30X60:475894
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5f;2q2CBrfQTCKPY0zxCdZx0a;Floor:STB 20.0:496723;STB Stütze - rechteckig:BETON 30X30:475995
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5f;2q2CBrfQTCKPY0zxCdZxSj;Floor:STB 20.0:496723;STB Stütze - rechteckig:BETON 30X30:476242
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5f;2q2CBrfQTCKPY0zxCdZxRJ;Floor:STB 20.0:496723;STB Stütze - rechteckig:BETON 30X30:476588
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5f;2q2CBrfQTCKPY0zxCdZxLU;Floor:STB 20.0:496723;STB Stütze - rechteckig:BETON 30X30:476705
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5f;2q2CBrfQTCKPY0zxCdZxLC;Floor:STB 20.0:496723;STB Stütze - rechteckig:BETON 30X30:476723
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5f;2q2CBrfQTCKPY0zxCdZxL2;Floor:STB 20.0:496723;STB Stütze - rechteckig:BETON 30X30:476733
+;;;;;;
+x;IfcSlab;IfcSlab;04sjR4dpb6DOsPr6RR1X5P;04sjR4dpb6DOsPr6RR1X6i;Floor:STB 20.0:496739;Floor:STB 20.0:496790
+;;;;;;
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5P;2q2CBrfQTCKPY0zxCdZyWE;Floor:STB 20.0:496739;STB Stütze - rechteckig:BETON 30X30:473969
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5P;2q2CBrfQTCKPY0zxCdZynE;Floor:STB 20.0:496739;STB Stütze - rechteckig:BETON 30X60:474929
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5P;2q2CBrfQTCKPY0zxCdZxKq;Floor:STB 20.0:496739;STB Stütze - rechteckig:BETON 30X30:476747
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5P;2q2CBrfQTCKPY0zxCdZxKg;Floor:STB 20.0:496739;STB Stütze - rechteckig:BETON 30X30:476757
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5P;2q2CBrfQTCKPY0zxCdZxKQ;Floor:STB 20.0:496739;STB Stütze - rechteckig:BETON 30X30:476773
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5P;2q2CBrfQTCKPY0zxCdZxNl;Floor:STB 20.0:496739;STB Stütze - rechteckig:BETON 30X30:476816
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5P;2q2CBrfQTCKPY0zxCdZxNZ;Floor:STB 20.0:496739;STB Stütze - rechteckig:BETON 30X30:476828
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X5P;2q2CBrfQTCKPY0zxCdZxNL;Floor:STB 20.0:496739;STB Stütze - rechteckig:BETON 30X30:476842
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZyrD;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:474674
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZysk;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:474833
+;;;;;;
+x;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZynE;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:474929
+;;;;;;
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZxDw;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:475141
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZxEL;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:475370
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZx97;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:475448
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZx6h;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:475860
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZx6V;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:475872
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZx6U;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:475873
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZx6K;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:475883
+o;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZx6J;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:475884
+;;;;;;
+x;IfcSlab;IfcColumn;04sjR4dpb6DOsPr6RR1X6i;2q2CBrfQTCKPY0zxCdZx69;Floor:STB 20.0:496790;STB Stütze - rechteckig:BETON 30X60:475894
+;;;;;;
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPj2;2q2CBrfQTCKPY0zxCdZyuE;Floor:STB 20.0:494355;STB Stütze - rechteckig:BETON 30X30:474481
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPj2;2q2CBrfQTCKPY0zxCdZx69;Floor:STB 20.0:494355;STB Stütze - rechteckig:BETON 30X60:475894
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPj2;2q2CBrfQTCKPY0zxCdZx0a;Floor:STB 20.0:494355;STB Stütze - rechteckig:BETON 30X30:475995
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPj2;2q2CBrfQTCKPY0zxCdZxSj;Floor:STB 20.0:494355;STB Stütze - rechteckig:BETON 30X30:476242
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPj2;2q2CBrfQTCKPY0zxCdZxRJ;Floor:STB 20.0:494355;STB Stütze - rechteckig:BETON 30X30:476588
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPj2;2q2CBrfQTCKPY0zxCdZxLU;Floor:STB 20.0:494355;STB Stütze - rechteckig:BETON 30X30:476705
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPj2;2q2CBrfQTCKPY0zxCdZxLC;Floor:STB 20.0:494355;STB Stütze - rechteckig:BETON 30X30:476723
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPj2;2q2CBrfQTCKPY0zxCdZxL2;Floor:STB 20.0:494355;STB Stütze - rechteckig:BETON 30X30:476733
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPrl;2q2CBrfQTCKPY0zxCdZyWE;Floor:STB 20.0:494910;STB Stütze - rechteckig:BETON 30X30:473969
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPrl;2q2CBrfQTCKPY0zxCdZynE;Floor:STB 20.0:494910;STB Stütze - rechteckig:BETON 30X60:474929
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPrl;2q2CBrfQTCKPY0zxCdZxKq;Floor:STB 20.0:494910;STB Stütze - rechteckig:BETON 30X30:476747
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPrl;2q2CBrfQTCKPY0zxCdZxKg;Floor:STB 20.0:494910;STB Stütze - rechteckig:BETON 30X30:476757
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPrl;2q2CBrfQTCKPY0zxCdZxKQ;Floor:STB 20.0:494910;STB Stütze - rechteckig:BETON 30X30:476773
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPrl;2q2CBrfQTCKPY0zxCdZxNl;Floor:STB 20.0:494910;STB Stütze - rechteckig:BETON 30X30:476816
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPrl;2q2CBrfQTCKPY0zxCdZxNZ;Floor:STB 20.0:494910;STB Stütze - rechteckig:BETON 30X30:476828
+o;IfcSlab;IfcColumn;3WTFZLIDfCSgicLndgDPrl;2q2CBrfQTCKPY0zxCdZxNL;Floor:STB 20.0:494910;STB Stütze - rechteckig:BETON 30X30:476842
+o;IfcSlab;IfcColumn;20LeAmtxjFagTYkRE7cuv0;2q2CBrfQTCKPY0zxCdZyrD;Floor:STB 20.0:499864;STB Stütze - rechteckig:BETON 30X60:474674
+o;IfcSlab;IfcColumn;20LeAmtxjFagTYkRE7cuv0;2q2CBrfQTCKPY0zxCdZxDw;Floor:STB 20.0:499864;STB Stütze - rechteckig:BETON 30X60:475141
+o;IfcSlab;IfcColumn;20LeAmtxjFagTYkRE7cuv0;2q2CBrfQTCKPY0zxCdZxEL;Floor:STB 20.0:499864;STB Stütze - rechteckig:BETON 30X60:475370
+o;IfcSlab;IfcColumn;20LeAmtxjFagTYkRE7cuv0;2q2CBrfQTCKPY0zxCdZx97;Floor:STB 20.0:499864;STB Stütze - rechteckig:BETON 30X60:475448
+o;IfcSlab;IfcColumn;20LeAmtxjFagTYkRE7cuv0;2q2CBrfQTCKPY0zxCdZx6h;Floor:STB 20.0:499864;STB Stütze - rechteckig:BETON 30X60:475860
+o;IfcSlab;IfcColumn;20LeAmtxjFagTYkRE7cuv0;2q2CBrfQTCKPY0zxCdZx6V;Floor:STB 20.0:499864;STB Stütze - rechteckig:BETON 30X60:475872
+o;IfcSlab;IfcColumn;20LeAmtxjFagTYkRE7cuv0;2q2CBrfQTCKPY0zxCdZx6U;Floor:STB 20.0:499864;STB Stütze - rechteckig:BETON 30X60:475873
+o;IfcSlab;IfcColumn;20LeAmtxjFagTYkRE7cuv0;2q2CBrfQTCKPY0zxCdZx6K;Floor:STB 20.0:499864;STB Stütze - rechteckig:BETON 30X60:475883
+o;IfcSlab;IfcColumn;20LeAmtxjFagTYkRE7cuv0;2q2CBrfQTCKPY0zxCdZx6J;Floor:STB 20.0:499864;STB Stütze - rechteckig:BETON 30X60:475884
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZygb;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X30:473562;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZyWE;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X30:473969;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZyWE;0KRl17GSJHmnKkLTFQXJl7;STB Stütze - rechteckig:BETON 30X30:473969;Floor:STB 20.0:486500:2
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZyuE;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X30:474481;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZyuE;1soz90sYzCp8a2Do0djRBF;STB Stütze - rechteckig:BETON 30X30:474481;Floor:STB 20.0:486500
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZyxq;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X30:474507;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZyrD;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:474674;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZysk;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:474833;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZynE;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:474929;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZynE;0KRl17GSJHmnKkLTFQXJl7;STB Stütze - rechteckig:BETON 30X60:474929;Floor:STB 20.0:486500:2
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxDw;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:475141;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxEL;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:475370;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZx97;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:475448;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZx6h;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:475860;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZx6V;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:475872;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZx6U;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:475873;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZx6K;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:475883;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZx6J;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:475884;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZx69;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:475894;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZx69;1soz90sYzCp8a2Do0djRBF;STB Stütze - rechteckig:BETON 30X60:475894;Floor:STB 20.0:486500
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZx68;1soz90sYzCp8a2Do0djR8J;STB Stütze - rechteckig:BETON 30X60:475895;Floor:STB 20.0:486584
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZx0a;1soz90sYzCp8a2Do0djRBF;STB Stütze - rechteckig:BETON 30X30:475995;Floor:STB 20.0:486500
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxSj;1soz90sYzCp8a2Do0djRBF;STB Stütze - rechteckig:BETON 30X30:476242;Floor:STB 20.0:486500
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxRJ;1soz90sYzCp8a2Do0djRBF;STB Stütze - rechteckig:BETON 30X30:476588;Floor:STB 20.0:486500
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxLU;1soz90sYzCp8a2Do0djRBF;STB Stütze - rechteckig:BETON 30X30:476705;Floor:STB 20.0:486500
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxLC;1soz90sYzCp8a2Do0djRBF;STB Stütze - rechteckig:BETON 30X30:476723;Floor:STB 20.0:486500
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxL2;1soz90sYzCp8a2Do0djRBF;STB Stütze - rechteckig:BETON 30X30:476733;Floor:STB 20.0:486500
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxKq;0KRl17GSJHmnKkLTFQXJl7;STB Stütze - rechteckig:BETON 30X30:476747;Floor:STB 20.0:486500:2
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxKg;0KRl17GSJHmnKkLTFQXJl7;STB Stütze - rechteckig:BETON 30X30:476757;Floor:STB 20.0:486500:2
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxKQ;0KRl17GSJHmnKkLTFQXJl7;STB Stütze - rechteckig:BETON 30X30:476773;Floor:STB 20.0:486500:2
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxNl;0KRl17GSJHmnKkLTFQXJl7;STB Stütze - rechteckig:BETON 30X30:476816;Floor:STB 20.0:486500:2
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxNZ;0KRl17GSJHmnKkLTFQXJl7;STB Stütze - rechteckig:BETON 30X30:476828;Floor:STB 20.0:486500:2
+o;IfcColumn;IfcSlab;2q2CBrfQTCKPY0zxCdZxNL;0KRl17GSJHmnKkLTFQXJl7;STB Stütze - rechteckig:BETON 30X30:476842;Floor:STB 20.0:486500:2
+o;IfcSlab;IfcSlab;1soz90sYzCp8a2Do0djR8J;1soz90sYzCp8a2Do0djRBF;Floor:STB 20.0:486584;Floor:STB 20.0:486500
+o;IfcSlab;IfcSlab;1soz90sYzCp8a2Do0djR8J;0KRl17GSJHmnKkLTFQXJl7;Floor:STB 20.0:486584;Floor:STB 20.0:486500:2

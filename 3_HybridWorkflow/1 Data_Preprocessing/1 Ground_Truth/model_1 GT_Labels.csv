@@ -1,0 +1,1304 @@
+Status;Type_A;Type_B;GUID_A;GUID_B;Name_A;Name_B
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDEBu;2VDK9aCTP1FfMIO3jtD9wz;Floor:Concrete 150mm:1687981;Basic Wall:Generic - 150mm Masonry 2:1687016
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDEBu;2VDK9aCTP1FfMIO3jtD9wy;Floor:Concrete 150mm:1687981;Basic Wall:Generic - 150mm Masonry 2:1687017
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDEBu;2VDK9aCTP1FfMIO3jtD9w$;Floor:Concrete 150mm:1687981;Basic Wall:Generic - 150mm Masonry 2:1687018
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDEBu;2VDK9aCTP1FfMIO3jtD9w_;Floor:Concrete 150mm:1687981;Basic Wall:Generic - 150mm Masonry 2:1687019
+;;;;;;
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE3M;2VDK9aCTP1FfMIO3jtDE4R;Floor:Concrete 150mm:1688451;Basic Wall:Generic - 150mm Masonry 2:1688142
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE3M;2VDK9aCTP1FfMIO3jtDE4Q;Floor:Concrete 150mm:1688451;Basic Wall:Generic - 150mm Masonry 2:1688143
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE3M;2VDK9aCTP1FfMIO3jtDE45;Floor:Concrete 150mm:1688451;Basic Wall:Generic - 150mm Masonry 2:1688144
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE3M;2VDK9aCTP1FfMIO3jtDE44;Floor:Concrete 150mm:1688451;Basic Wall:Generic - 150mm Masonry 2:1688145
+;;;;;;
+o;IfcSlab;IfcSlab;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtD9tM;Floor:Concrete 150mm:1674732;Floor:Wood Joist 235mm - Wood Finish:1687171
+o;IfcSlab;IfcSlab;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtDE0Q;Floor:Concrete 150mm:1674732;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtD9wz;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1687016
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtD9wy;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1687017
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtD9w$;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1687018
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtDE4R;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1688142
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtDE4Q;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1688143
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtDE45;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1688144
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwo4M;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1672180
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwo4N;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1672181
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwo4K;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1672182
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwo4L;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1672183
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwo4U;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1672188
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwo4V;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1672189
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtD9wJ;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1686982
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtD9wI;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1686983
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtD9wT;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1686984
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtDE5D;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1688088
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtDE5C;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1688089
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwoyE;2VDK9aCTP1FfMIO3jtDE5F;Floor:Concrete 150mm:1674732;Basic Wall:Generic - 150mm Masonry 2:1688090
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNz;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1672991
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoN2;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1672992
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoN3;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1672993
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoN1;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1672995
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoN6;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1672996
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoN7;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1672997
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNA;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673000
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNB;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673001
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoN8;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673002
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoN9;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673003
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNE;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673004
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNF;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673005
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNJ;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673009
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNG;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673010
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNH;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673011
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNN;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673013
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNK;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673014
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNL;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673015
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoNR;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular Beam:400 x 800mm:1673017
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoRm;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular-Column:300 x 300mm 2:1672210
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoRn;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular-Column:300 x 300mm 2:1672211
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoRs;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoRt;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular-Column:300 x 300mm 2:1672213
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoRq;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular-Column:300 x 300mm 2:1672214
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwoyE;15uChHxonFlQBEfFBqwoRr;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular-Column:300 x 300mm 2:1672215
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwoyE;1XvHurW7r6L9u7cRzYZEYo;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular-Column:300 x 300mm 2:1702731
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwoyE;1XvHurW7r6L9u7cRzYZE_m;Floor:Concrete 150mm:1674732;M_Concrete-Rectangular-Column:300 x 300mm 2:1702985
+;;;;;;
+o;IfcSlab;IfcSlab;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtD9tM;Floor:Concrete 150mm:1674781;Floor:Wood Joist 235mm - Wood Finish:1687171
+o;IfcSlab;IfcSlab;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtDE0Q;Floor:Concrete 150mm:1674781;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtD9wz;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1687016
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtD9w$;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1687018
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtD9w_;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1687019
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtDE4R;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1688142
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtDE45;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1688144
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtDE44;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1688145
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoQN;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1672309
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoQK;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1672310
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoQL;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1672311
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoQQ;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1672312
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoQV;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1672317
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoO6;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1672420
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtD9wJ;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1686982
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtD9wT;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1686984
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtD9wS;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1686985
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtDE5D;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1688088
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtDE5F;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1688090
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwop$;2VDK9aCTP1FfMIO3jtDE5E;Floor:Concrete 150mm:1674781;Basic Wall:Generic - 150mm Masonry 2:1688091
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoNT;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673023
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMY;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673024
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMZ;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673025
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMX;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673027
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMc;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673028
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMd;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673029
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMg;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673032
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMh;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673033
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMe;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673034
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMf;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673035
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMk;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673036
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMl;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673037
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMp;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673041
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMm;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673042
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMn;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673043
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMt;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673045
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMq;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673046
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMr;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673047
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoMx;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular Beam:400 x 800mm:1673049
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoPZ;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular-Column:300 x 300mm 2:1672321
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoPW;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular-Column:300 x 300mm 2:1672322
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoPX;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoPc;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular-Column:300 x 300mm 2:1672324
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoPd;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular-Column:300 x 300mm 2:1672325
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwop$;15uChHxonFlQBEfFBqwoPa;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular-Column:300 x 300mm 2:1672326
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwop$;1XvHurW7r6L9u7cRzYZEaq;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular-Column:300 x 300mm 2:1702605
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwop$;1XvHurW7r6L9u7cRzYZEXJ;Floor:Concrete 150mm:1674781;M_Concrete-Rectangular-Column:300 x 300mm 2:1702826
+;;;;;;
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9tM;2VDK9aCTP1FfMIO3jtD9wz;Floor:Wood Joist 235mm - Wood Finish:1687171;Basic Wall:Generic - 150mm Masonry 2:1687016
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9tM;2VDK9aCTP1FfMIO3jtD9wy;Floor:Wood Joist 235mm - Wood Finish:1687171;Basic Wall:Generic - 150mm Masonry 2:1687017
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9tM;2VDK9aCTP1FfMIO3jtD9w$;Floor:Wood Joist 235mm - Wood Finish:1687171;Basic Wall:Generic - 150mm Masonry 2:1687018
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9tM;2VDK9aCTP1FfMIO3jtD9w_;Floor:Wood Joist 235mm - Wood Finish:1687171;Basic Wall:Generic - 150mm Masonry 2:1687019
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9tM;15uChHxonFlQBEfFBqwo4U;Floor:Wood Joist 235mm - Wood Finish:1687171;Basic Wall:Generic - 150mm Masonry 2:1672188
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9tM;15uChHxonFlQBEfFBqwoO6;Floor:Wood Joist 235mm - Wood Finish:1687171;Basic Wall:Generic - 150mm Masonry 2:1672420
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9tM;2VDK9aCTP1FfMIO3jtD9wJ;Floor:Wood Joist 235mm - Wood Finish:1687171;Basic Wall:Generic - 150mm Masonry 2:1686982
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9tM;2VDK9aCTP1FfMIO3jtD9wI;Floor:Wood Joist 235mm - Wood Finish:1687171;Basic Wall:Generic - 150mm Masonry 2:1686983
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9tM;2VDK9aCTP1FfMIO3jtD9wT;Floor:Wood Joist 235mm - Wood Finish:1687171;Basic Wall:Generic - 150mm Masonry 2:1686984
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9tM;2VDK9aCTP1FfMIO3jtD9wS;Floor:Wood Joist 235mm - Wood Finish:1687171;Basic Wall:Generic - 150mm Masonry 2:1686985
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtD9tM;15uChHxonFlQBEfFBqwoNz;Floor:Wood Joist 235mm - Wood Finish:1687171;M_Concrete-Rectangular Beam:400 x 800mm:1672991
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtD9tM;15uChHxonFlQBEfFBqwoNT;Floor:Wood Joist 235mm - Wood Finish:1687171;M_Concrete-Rectangular Beam:400 x 800mm:1673023
+;;;;;;
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0Q;2VDK9aCTP1FfMIO3jtDE4R;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;Basic Wall:Generic - 150mm Masonry 2:1688142
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0Q;2VDK9aCTP1FfMIO3jtDE4Q;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;Basic Wall:Generic - 150mm Masonry 2:1688143
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0Q;2VDK9aCTP1FfMIO3jtDE45;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;Basic Wall:Generic - 150mm Masonry 2:1688144
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0Q;2VDK9aCTP1FfMIO3jtDE44;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;Basic Wall:Generic - 150mm Masonry 2:1688145
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0Q;2VDK9aCTP1FfMIO3jtDE5D;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;Basic Wall:Generic - 150mm Masonry 2:1688088
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0Q;2VDK9aCTP1FfMIO3jtDE5C;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;Basic Wall:Generic - 150mm Masonry 2:1688089
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0Q;2VDK9aCTP1FfMIO3jtDE5F;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;Basic Wall:Generic - 150mm Masonry 2:1688090
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0Q;2VDK9aCTP1FfMIO3jtDE5E;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;Basic Wall:Generic - 150mm Masonry 2:1688091
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0Q;15uChHxonFlQBEfFBqwoN8;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;M_Concrete-Rectangular Beam:400 x 800mm:1673002
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0Q;15uChHxonFlQBEfFBqwoN9;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;M_Concrete-Rectangular Beam:400 x 800mm:1673003
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0Q;15uChHxonFlQBEfFBqwoNB;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;M_Concrete-Rectangular Beam:400 x 800mm:1673001
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0Q;15uChHxonFlQBEfFBqwoMe;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;M_Concrete-Rectangular Beam:400 x 800mm:1673034
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0Q;15uChHxonFlQBEfFBqwoMf;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;M_Concrete-Rectangular Beam:400 x 800mm:1673035
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0Q;15uChHxonFlQBEfFBqwoMh;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;M_Concrete-Rectangular Beam:400 x 800mm:1673033
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0Q;15uChHxonFlQBEfFBqwoRs;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0Q;15uChHxonFlQBEfFBqwoPX;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+o;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0Q;2VDK9aCTP1FfMIO3jtDE42;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;M_Concrete-Rectangular-Column:300 x 300mm 2:1688151
+o;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0Q;2VDK9aCTP1FfMIO3jtDE4F;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688399;M_Concrete-Rectangular-Column:300 x 300mm 2:1688154
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wz;2VDK9aCTP1FfMIO3jtD9wy;Basic Wall:Generic - 150mm Masonry 2:1687016;Basic Wall:Generic - 150mm Masonry 2:1687017
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wz;2VDK9aCTP1FfMIO3jtD9w_;Basic Wall:Generic - 150mm Masonry 2:1687016;Basic Wall:Generic - 150mm Masonry 2:1687019
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wz;2VDK9aCTP1FfMIO3jtD9wJ;Basic Wall:Generic - 150mm Masonry 2:1687016;Basic Wall:Generic - 150mm Masonry 2:1686982
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wz;2VDK9aCTP1FfMIO3jtD9wI;Basic Wall:Generic - 150mm Masonry 2:1687016;Basic Wall:Generic - 150mm Masonry 2:1686983
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wz;2VDK9aCTP1FfMIO3jtD9wS;Basic Wall:Generic - 150mm Masonry 2:1687016;Basic Wall:Generic - 150mm Masonry 2:1686985
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wz;15uChHxonFlQBEfFBqwo4U;Basic Wall:Generic - 150mm Masonry 2:1687016;Basic Wall:Generic - 150mm Masonry 2:1672188
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wz;15uChHxonFlQBEfFBqwoO6;Basic Wall:Generic - 150mm Masonry 2:1687016;Basic Wall:Generic - 150mm Masonry 2:1672420
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9wz;15uChHxonFlQBEfFBqwoNz;Basic Wall:Generic - 150mm Masonry 2:1687016;M_Concrete-Rectangular Beam:400 x 800mm:1672991
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9wz;15uChHxonFlQBEfFBqwoNT;Basic Wall:Generic - 150mm Masonry 2:1687016;M_Concrete-Rectangular Beam:400 x 800mm:1673023
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wy;2VDK9aCTP1FfMIO3jtD9w$;Basic Wall:Generic - 150mm Masonry 2:1687017;Basic Wall:Generic - 150mm Masonry 2:1687018
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wy;2VDK9aCTP1FfMIO3jtD9wJ;Basic Wall:Generic - 150mm Masonry 2:1687017;Basic Wall:Generic - 150mm Masonry 2:1686982
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wy;2VDK9aCTP1FfMIO3jtD9wI;Basic Wall:Generic - 150mm Masonry 2:1687017;Basic Wall:Generic - 150mm Masonry 2:1686983
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wy;2VDK9aCTP1FfMIO3jtD9wT;Basic Wall:Generic - 150mm Masonry 2:1687017;Basic Wall:Generic - 150mm Masonry 2:1686984
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wy;15uChHxonFlQBEfFBqwo4U;Basic Wall:Generic - 150mm Masonry 2:1687017;Basic Wall:Generic - 150mm Masonry 2:1672188
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9wy;15uChHxonFlQBEfFBqwoNz;Basic Wall:Generic - 150mm Masonry 2:1687017;M_Concrete-Rectangular Beam:400 x 800mm:1672991
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9w$;2VDK9aCTP1FfMIO3jtD9w_;Basic Wall:Generic - 150mm Masonry 2:1687018;Basic Wall:Generic - 150mm Masonry 2:1687019
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9w$;2VDK9aCTP1FfMIO3jtD9wI;Basic Wall:Generic - 150mm Masonry 2:1687018;Basic Wall:Generic - 150mm Masonry 2:1686983
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9w$;2VDK9aCTP1FfMIO3jtD9wT;Basic Wall:Generic - 150mm Masonry 2:1687018;Basic Wall:Generic - 150mm Masonry 2:1686984
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9w$;2VDK9aCTP1FfMIO3jtD9wS;Basic Wall:Generic - 150mm Masonry 2:1687018;Basic Wall:Generic - 150mm Masonry 2:1686985
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9w$;15uChHxonFlQBEfFBqwoNz;Basic Wall:Generic - 150mm Masonry 2:1687018;M_Concrete-Rectangular Beam:400 x 800mm:1672991
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9w$;15uChHxonFlQBEfFBqwoNT;Basic Wall:Generic - 150mm Masonry 2:1687018;M_Concrete-Rectangular Beam:400 x 800mm:1673023
+;;;;;;
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9w_;2VDK9aCTP1FfMIO3jtD9wJ;Basic Wall:Generic - 150mm Masonry 2:1687019;Basic Wall:Generic - 150mm Masonry 2:1686982
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9w_;2VDK9aCTP1FfMIO3jtD9wT;Basic Wall:Generic - 150mm Masonry 2:1687019;Basic Wall:Generic - 150mm Masonry 2:1686984
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9w_;2VDK9aCTP1FfMIO3jtD9wS;Basic Wall:Generic - 150mm Masonry 2:1687019;Basic Wall:Generic - 150mm Masonry 2:1686985
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9w_;15uChHxonFlQBEfFBqwoO6;Basic Wall:Generic - 150mm Masonry 2:1687019;Basic Wall:Generic - 150mm Masonry 2:1672420
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9w_;15uChHxonFlQBEfFBqwoNT;Basic Wall:Generic - 150mm Masonry 2:1687019;M_Concrete-Rectangular Beam:400 x 800mm:1673023
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE4R;2VDK9aCTP1FfMIO3jtDE4Q;Basic Wall:Generic - 150mm Masonry 2:1688142;Basic Wall:Generic - 150mm Masonry 2:1688143
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE4R;2VDK9aCTP1FfMIO3jtDE44;Basic Wall:Generic - 150mm Masonry 2:1688142;Basic Wall:Generic - 150mm Masonry 2:1688145
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE4R;2VDK9aCTP1FfMIO3jtDE5D;Basic Wall:Generic - 150mm Masonry 2:1688142;Basic Wall:Generic - 150mm Masonry 2:1688088
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE4R;2VDK9aCTP1FfMIO3jtDE5C;Basic Wall:Generic - 150mm Masonry 2:1688142;Basic Wall:Generic - 150mm Masonry 2:1688089
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE4R;2VDK9aCTP1FfMIO3jtDE5E;Basic Wall:Generic - 150mm Masonry 2:1688142;Basic Wall:Generic - 150mm Masonry 2:1688091
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE4R;2VDK9aCTP1FfMIO3jtDE42;Basic Wall:Generic - 150mm Masonry 2:1688142;M_Concrete-Rectangular-Column:300 x 300mm 2:1688151
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE4R;15uChHxonFlQBEfFBqwoMe;Basic Wall:Generic - 150mm Masonry 2:1688142;M_Concrete-Rectangular Beam:400 x 800mm:1673034
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE4R;15uChHxonFlQBEfFBqwoMf;Basic Wall:Generic - 150mm Masonry 2:1688142;M_Concrete-Rectangular Beam:400 x 800mm:1673035
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE4R;15uChHxonFlQBEfFBqwoMh;Basic Wall:Generic - 150mm Masonry 2:1688142;M_Concrete-Rectangular Beam:400 x 800mm:1673033
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE4R;15uChHxonFlQBEfFBqwoN8;Basic Wall:Generic - 150mm Masonry 2:1688142;M_Concrete-Rectangular Beam:400 x 800mm:1673002
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE4R;15uChHxonFlQBEfFBqwoN9;Basic Wall:Generic - 150mm Masonry 2:1688142;M_Concrete-Rectangular Beam:400 x 800mm:1673003
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE4R;15uChHxonFlQBEfFBqwoNB;Basic Wall:Generic - 150mm Masonry 2:1688142;M_Concrete-Rectangular Beam:400 x 800mm:1673001
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE4R;15uChHxonFlQBEfFBqwoPX;Basic Wall:Generic - 150mm Masonry 2:1688142;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE4R;15uChHxonFlQBEfFBqwoRs;Basic Wall:Generic - 150mm Masonry 2:1688142;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE4Q;2VDK9aCTP1FfMIO3jtDE45;Basic Wall:Generic - 150mm Masonry 2:1688143;Basic Wall:Generic - 150mm Masonry 2:1688144
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE4Q;2VDK9aCTP1FfMIO3jtDE5D;Basic Wall:Generic - 150mm Masonry 2:1688143;Basic Wall:Generic - 150mm Masonry 2:1688088
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE4Q;2VDK9aCTP1FfMIO3jtDE5C;Basic Wall:Generic - 150mm Masonry 2:1688143;Basic Wall:Generic - 150mm Masonry 2:1688089
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE4Q;2VDK9aCTP1FfMIO3jtDE5F;Basic Wall:Generic - 150mm Masonry 2:1688143;Basic Wall:Generic - 150mm Masonry 2:1688090
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE4Q;15uChHxonFlQBEfFBqwoN8;Basic Wall:Generic - 150mm Masonry 2:1688143;M_Concrete-Rectangular Beam:400 x 800mm:1673002
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE4Q;15uChHxonFlQBEfFBqwoN9;Basic Wall:Generic - 150mm Masonry 2:1688143;M_Concrete-Rectangular Beam:400 x 800mm:1673003
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE4Q;15uChHxonFlQBEfFBqwoNB;Basic Wall:Generic - 150mm Masonry 2:1688143;M_Concrete-Rectangular Beam:400 x 800mm:1673001
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE4Q;15uChHxonFlQBEfFBqwoRs;Basic Wall:Generic - 150mm Masonry 2:1688143;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE45;2VDK9aCTP1FfMIO3jtDE44;Basic Wall:Generic - 150mm Masonry 2:1688144;Basic Wall:Generic - 150mm Masonry 2:1688145
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE45;2VDK9aCTP1FfMIO3jtDE5C;Basic Wall:Generic - 150mm Masonry 2:1688144;Basic Wall:Generic - 150mm Masonry 2:1688089
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE45;2VDK9aCTP1FfMIO3jtDE5F;Basic Wall:Generic - 150mm Masonry 2:1688144;Basic Wall:Generic - 150mm Masonry 2:1688090
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE45;2VDK9aCTP1FfMIO3jtDE5E;Basic Wall:Generic - 150mm Masonry 2:1688144;Basic Wall:Generic - 150mm Masonry 2:1688091
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE45;2VDK9aCTP1FfMIO3jtDE4F;Basic Wall:Generic - 150mm Masonry 2:1688144;M_Concrete-Rectangular-Column:300 x 300mm 2:1688154
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE45;15uChHxonFlQBEfFBqwoMf;Basic Wall:Generic - 150mm Masonry 2:1688144;M_Concrete-Rectangular Beam:400 x 800mm:1673035
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE45;15uChHxonFlQBEfFBqwoN9;Basic Wall:Generic - 150mm Masonry 2:1688144;M_Concrete-Rectangular Beam:400 x 800mm:1673003
+;;;;;;
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE44;2VDK9aCTP1FfMIO3jtDE5D;Basic Wall:Generic - 150mm Masonry 2:1688145;Basic Wall:Generic - 150mm Masonry 2:1688088
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE44;2VDK9aCTP1FfMIO3jtDE5F;Basic Wall:Generic - 150mm Masonry 2:1688145;Basic Wall:Generic - 150mm Masonry 2:1688090
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE44;2VDK9aCTP1FfMIO3jtDE5E;Basic Wall:Generic - 150mm Masonry 2:1688145;Basic Wall:Generic - 150mm Masonry 2:1688091
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE44;15uChHxonFlQBEfFBqwoMe;Basic Wall:Generic - 150mm Masonry 2:1688145;M_Concrete-Rectangular Beam:400 x 800mm:1673034
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE44;15uChHxonFlQBEfFBqwoMf;Basic Wall:Generic - 150mm Masonry 2:1688145;M_Concrete-Rectangular Beam:400 x 800mm:1673035
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE44;15uChHxonFlQBEfFBqwoMh;Basic Wall:Generic - 150mm Masonry 2:1688145;M_Concrete-Rectangular Beam:400 x 800mm:1673033
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE44;15uChHxonFlQBEfFBqwoPX;Basic Wall:Generic - 150mm Masonry 2:1688145;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+;;;;;;
+o;IfcSlab;IfcSlab;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtD9qX;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Floor:Wood Joist 235mm - Wood Finish:1687156
+o;IfcSlab;IfcSlab;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtDE0L;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo4M;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1672180
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo4N;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1672181
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo4K;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1672182
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo4L;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1672183
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo4U;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1672188
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo4V;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1672189
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtD9wJ;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1686982
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtD9wI;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1686983
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtD9wT;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1686984
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtDE5D;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1688088
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtDE5C;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1688089
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtDE5F;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1688090
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHKW;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1670138
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHKX;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1670139
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHKc;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1670140
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHKd;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1670141
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHBO;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1670146
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHBP;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1670147
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtD9rU;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1687051
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtD9rP;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1687052
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtD9rO;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1687053
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtDE7k;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1688251
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtDE7f;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1688252
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo5T;2VDK9aCTP1FfMIO3jtDE7e;Floor:Wood Joist 235mm - Ceramic Tile:1672127;Basic Wall:Generic - 150mm Masonry 2:1688253
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7C;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671982
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7D;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671983
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7I;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671984
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7G;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671986
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7H;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671987
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7M;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671988
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7L;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671991
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7Q;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671992
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7R;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671993
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7O;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671994
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7P;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671995
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo7U;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1671996
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo6Y;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1672000
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo6Z;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1672001
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo6W;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1672002
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo6c;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1672004
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo6d;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1672005
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo6a;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1672006
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwo6g;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular Beam:400 x 800mm:1672008
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHB2;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1670168
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHB3;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1670169
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHB0;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHB1;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1670171
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHB6;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1670172
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;2UN38zMIjBjx_foyPshHB7;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1670173
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwoRm;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1672210
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwoRn;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1672211
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwoRs;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwoRt;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1672213
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwoRq;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1672214
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo5T;15uChHxonFlQBEfFBqwoRr;Floor:Wood Joist 235mm - Ceramic Tile:1672127;M_Concrete-Rectangular-Column:300 x 300mm 2:1672215
+;;;;;;
+o;IfcSlab;IfcSlab;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtD9qX;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Floor:Wood Joist 235mm - Wood Finish:1687156
+o;IfcSlab;IfcSlab;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtDE0L;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoQN;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1672309
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoQK;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1672310
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoQL;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1672311
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoQQ;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1672312
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoQV;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1672317
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoO6;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1672420
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtD9wJ;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1686982
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtD9wT;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1686984
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtD9wS;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1686985
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtDE5D;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1688088
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtDE5F;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1688090
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtDE5E;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1688091
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH9V;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1670277
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH9S;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1670278
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH9T;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1670279
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH9I;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1670280
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH9N;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1670285
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH2f;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1670771
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtD9rU;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1687051
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtD9rO;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1687053
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtD9rR;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1687054
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtDE7k;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1688251
+x;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtDE7e;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1688253
+o;IfcSlab;IfcWall;15uChHxonFlQBEfFBqwo4i;2VDK9aCTP1FfMIO3jtDE7h;Floor:Wood Joist 235mm - Ceramic Tile:1672142;Basic Wall:Generic - 150mm Masonry 2:1688254
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6i;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672014
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6j;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672015
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6o;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672016
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6m;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672018
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6n;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672019
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6s;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672020
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6r;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672023
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6w;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672024
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6x;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672025
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6u;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672026
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6v;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672027
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6_;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672028
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo62;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672032
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo63;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672033
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo60;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672034
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo66;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672036
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo67;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672037
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo64;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672038
+o;IfcSlab;IfcBeam;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwo6A;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular Beam:400 x 800mm:1672040
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH9B;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1670289
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH98;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1670290
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH99;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1670291
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH9E;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1670292
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH9F;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1670293
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;2UN38zMIjBjx_foyPshH9C;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1670294
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoPZ;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1672321
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoPW;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1672322
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoPX;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoPc;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1672324
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoPd;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1672325
+o;IfcSlab;IfcColumn;15uChHxonFlQBEfFBqwo4i;15uChHxonFlQBEfFBqwoPa;Floor:Wood Joist 235mm - Ceramic Tile:1672142;M_Concrete-Rectangular-Column:300 x 300mm 2:1672326
+;;;;;;
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;15uChHxonFlQBEfFBqwo4U;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1672188
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;15uChHxonFlQBEfFBqwoO6;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1672420
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;2VDK9aCTP1FfMIO3jtD9wJ;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1686982
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;2VDK9aCTP1FfMIO3jtD9wI;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1686983
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;2VDK9aCTP1FfMIO3jtD9wT;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1686984
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;2VDK9aCTP1FfMIO3jtD9wS;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1686985
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;2UN38zMIjBjx_foyPshHBO;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1670146
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;2UN38zMIjBjx_foyPshH2f;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1670771
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;2VDK9aCTP1FfMIO3jtD9rU;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1687051
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;2VDK9aCTP1FfMIO3jtD9rP;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1687052
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;2VDK9aCTP1FfMIO3jtD9rO;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1687053
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qX;2VDK9aCTP1FfMIO3jtD9rR;Floor:Wood Joist 235mm - Wood Finish:1687156;Basic Wall:Generic - 150mm Masonry 2:1687054
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtD9qX;15uChHxonFlQBEfFBqwo7C;Floor:Wood Joist 235mm - Wood Finish:1687156;M_Concrete-Rectangular Beam:400 x 800mm:1671982
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtD9qX;15uChHxonFlQBEfFBqwo6i;Floor:Wood Joist 235mm - Wood Finish:1687156;M_Concrete-Rectangular Beam:400 x 800mm:1672014
+;;;;;;
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0L;2VDK9aCTP1FfMIO3jtDE5D;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;Basic Wall:Generic - 150mm Masonry 2:1688088
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0L;2VDK9aCTP1FfMIO3jtDE5C;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;Basic Wall:Generic - 150mm Masonry 2:1688089
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0L;2VDK9aCTP1FfMIO3jtDE5F;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;Basic Wall:Generic - 150mm Masonry 2:1688090
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0L;2VDK9aCTP1FfMIO3jtDE5E;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;Basic Wall:Generic - 150mm Masonry 2:1688091
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0L;2VDK9aCTP1FfMIO3jtDE7k;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;Basic Wall:Generic - 150mm Masonry 2:1688251
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0L;2VDK9aCTP1FfMIO3jtDE7f;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;Basic Wall:Generic - 150mm Masonry 2:1688252
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0L;2VDK9aCTP1FfMIO3jtDE7e;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;Basic Wall:Generic - 150mm Masonry 2:1688253
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0L;2VDK9aCTP1FfMIO3jtDE7h;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;Basic Wall:Generic - 150mm Masonry 2:1688254
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0L;15uChHxonFlQBEfFBqwo7R;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular Beam:400 x 800mm:1671993
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0L;15uChHxonFlQBEfFBqwo7O;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular Beam:400 x 800mm:1671994
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0L;15uChHxonFlQBEfFBqwo7Q;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular Beam:400 x 800mm:1671992
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0L;15uChHxonFlQBEfFBqwo6x;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular Beam:400 x 800mm:1672025
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0L;15uChHxonFlQBEfFBqwo6u;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular Beam:400 x 800mm:1672026
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0L;15uChHxonFlQBEfFBqwo6w;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular Beam:400 x 800mm:1672024
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0L;2UN38zMIjBjx_foyPshHB0;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0L;2UN38zMIjBjx_foyPshH99;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular-Column:300 x 300mm 2:1670291
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0L;15uChHxonFlQBEfFBqwoRs;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0L;15uChHxonFlQBEfFBqwoPX;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+o;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0L;2VDK9aCTP1FfMIO3jtDE5q;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular-Column:300 x 300mm 2:1688097
+o;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0L;2VDK9aCTP1FfMIO3jtDE5n;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688384;M_Concrete-Rectangular-Column:300 x 300mm 2:1688100
+;;;;;;
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwo4M;15uChHxonFlQBEfFBqwo4N;Basic Wall:Generic - 150mm Masonry 2:1672180;Basic Wall:Generic - 150mm Masonry 2:1672181
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwo4M;15uChHxonFlQBEfFBqwo4L;Basic Wall:Generic - 150mm Masonry 2:1672180;Basic Wall:Generic - 150mm Masonry 2:1672183
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwo4M;15uChHxonFlQBEfFBqwo4U;Basic Wall:Generic - 150mm Masonry 2:1672180;Basic Wall:Generic - 150mm Masonry 2:1672188
+;;;;;;
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwo4K;Basic Wall:Generic - 150mm Masonry 2:1672181;Basic Wall:Generic - 150mm Masonry 2:1672182
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwo4U;Basic Wall:Generic - 150mm Masonry 2:1672181;Basic Wall:Generic - 150mm Masonry 2:1672188
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwo4V;Basic Wall:Generic - 150mm Masonry 2:1672181;Basic Wall:Generic - 150mm Masonry 2:1672189
+x;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwo7H;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1671987
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoN2;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1672992
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoN3;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1672993
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoN6;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1672996
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoN7;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1672997
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoNA;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1673000
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoNB;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1673001
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoNE;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1673004
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoNF;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1673005
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoNG;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1673010
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoNH;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1673011
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoNK;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1673014
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4N;15uChHxonFlQBEfFBqwoNL;Basic Wall:Generic - 150mm Masonry 2:1672181;M_Concrete-Rectangular Beam:400 x 800mm:1673015
+;;;;;;
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwo4K;15uChHxonFlQBEfFBqwo4V;Basic Wall:Generic - 150mm Masonry 2:1672182;Basic Wall:Generic - 150mm Masonry 2:1672189
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4K;15uChHxonFlQBEfFBqwoNR;Basic Wall:Generic - 150mm Masonry 2:1672182;M_Concrete-Rectangular Beam:400 x 800mm:1673017
+;;;;;;
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwo4L;15uChHxonFlQBEfFBqwo4V;Basic Wall:Generic - 150mm Masonry 2:1672183;Basic Wall:Generic - 150mm Masonry 2:1672189
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4L;15uChHxonFlQBEfFBqwoN3;Basic Wall:Generic - 150mm Masonry 2:1672183;M_Concrete-Rectangular Beam:400 x 800mm:1672993
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4L;15uChHxonFlQBEfFBqwoN7;Basic Wall:Generic - 150mm Masonry 2:1672183;M_Concrete-Rectangular Beam:400 x 800mm:1672997
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4L;15uChHxonFlQBEfFBqwoNA;Basic Wall:Generic - 150mm Masonry 2:1672183;M_Concrete-Rectangular Beam:400 x 800mm:1673000
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4L;15uChHxonFlQBEfFBqwoNF;Basic Wall:Generic - 150mm Masonry 2:1672183;M_Concrete-Rectangular Beam:400 x 800mm:1673005
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4L;15uChHxonFlQBEfFBqwoNH;Basic Wall:Generic - 150mm Masonry 2:1672183;M_Concrete-Rectangular Beam:400 x 800mm:1673011
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4L;15uChHxonFlQBEfFBqwoNL;Basic Wall:Generic - 150mm Masonry 2:1672183;M_Concrete-Rectangular Beam:400 x 800mm:1673015
+;;;;;;
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwo4U;2VDK9aCTP1FfMIO3jtD9wJ;Basic Wall:Generic - 150mm Masonry 2:1672188;Basic Wall:Generic - 150mm Masonry 2:1686982
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwo4U;2VDK9aCTP1FfMIO3jtD9wI;Basic Wall:Generic - 150mm Masonry 2:1672188;Basic Wall:Generic - 150mm Masonry 2:1686983
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwo4U;15uChHxonFlQBEfFBqwoNz;Basic Wall:Generic - 150mm Masonry 2:1672188;M_Concrete-Rectangular Beam:400 x 800mm:1672991
+;;;;;;
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoQN;15uChHxonFlQBEfFBqwoQK;Basic Wall:Generic - 150mm Masonry 2:1672309;Basic Wall:Generic - 150mm Masonry 2:1672310
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoQN;15uChHxonFlQBEfFBqwoQQ;Basic Wall:Generic - 150mm Masonry 2:1672309;Basic Wall:Generic - 150mm Masonry 2:1672312
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoQN;15uChHxonFlQBEfFBqwoO6;Basic Wall:Generic - 150mm Masonry 2:1672309;Basic Wall:Generic - 150mm Masonry 2:1672420
+;;;;;;
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoQL;Basic Wall:Generic - 150mm Masonry 2:1672310;Basic Wall:Generic - 150mm Masonry 2:1672311
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoQV;Basic Wall:Generic - 150mm Masonry 2:1672310;Basic Wall:Generic - 150mm Masonry 2:1672317
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoO6;Basic Wall:Generic - 150mm Masonry 2:1672310;Basic Wall:Generic - 150mm Masonry 2:1672420
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMY;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673024
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMZ;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673025
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMc;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673028
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMd;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673029
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMg;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673032
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMh;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673033
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMk;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673036
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMl;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673037
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMm;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673042
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMn;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673043
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMq;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673046
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQK;15uChHxonFlQBEfFBqwoMr;Basic Wall:Generic - 150mm Masonry 2:1672310;M_Concrete-Rectangular Beam:400 x 800mm:1673047
+;;;;;;
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoQL;15uChHxonFlQBEfFBqwoQV;Basic Wall:Generic - 150mm Masonry 2:1672311;Basic Wall:Generic - 150mm Masonry 2:1672317
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQL;15uChHxonFlQBEfFBqwoMx;Basic Wall:Generic - 150mm Masonry 2:1672311;M_Concrete-Rectangular Beam:400 x 800mm:1673049
+;;;;;;
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoQQ;15uChHxonFlQBEfFBqwoQV;Basic Wall:Generic - 150mm Masonry 2:1672312;Basic Wall:Generic - 150mm Masonry 2:1672317
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQQ;15uChHxonFlQBEfFBqwoMZ;Basic Wall:Generic - 150mm Masonry 2:1672312;M_Concrete-Rectangular Beam:400 x 800mm:1673025
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQQ;15uChHxonFlQBEfFBqwoMd;Basic Wall:Generic - 150mm Masonry 2:1672312;M_Concrete-Rectangular Beam:400 x 800mm:1673029
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQQ;15uChHxonFlQBEfFBqwoMg;Basic Wall:Generic - 150mm Masonry 2:1672312;M_Concrete-Rectangular Beam:400 x 800mm:1673032
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQQ;15uChHxonFlQBEfFBqwoMl;Basic Wall:Generic - 150mm Masonry 2:1672312;M_Concrete-Rectangular Beam:400 x 800mm:1673037
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQQ;15uChHxonFlQBEfFBqwoMn;Basic Wall:Generic - 150mm Masonry 2:1672312;M_Concrete-Rectangular Beam:400 x 800mm:1673043
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoQQ;15uChHxonFlQBEfFBqwoMr;Basic Wall:Generic - 150mm Masonry 2:1672312;M_Concrete-Rectangular Beam:400 x 800mm:1673047
+;;;;;;
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoO6;2VDK9aCTP1FfMIO3jtD9wJ;Basic Wall:Generic - 150mm Masonry 2:1672420;Basic Wall:Generic - 150mm Masonry 2:1686982
+o;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoO6;2VDK9aCTP1FfMIO3jtD9wS;Basic Wall:Generic - 150mm Masonry 2:1672420;Basic Wall:Generic - 150mm Masonry 2:1686985
+x;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoO6;2VDK9aCTP1FfMIO3jtD9rU;Basic Wall:Generic - 150mm Masonry 2:1672420;Basic Wall:Generic - 150mm Masonry 2:1687051
+x;IfcWall;IfcWall;15uChHxonFlQBEfFBqwoO6;2VDK9aCTP1FfMIO3jtD9rR;Basic Wall:Generic - 150mm Masonry 2:1672420;Basic Wall:Generic - 150mm Masonry 2:1687054
+o;IfcWall;IfcBeam;15uChHxonFlQBEfFBqwoO6;15uChHxonFlQBEfFBqwoNT;Basic Wall:Generic - 150mm Masonry 2:1672420;M_Concrete-Rectangular Beam:400 x 800mm:1673023
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wJ;2VDK9aCTP1FfMIO3jtD9wI;Basic Wall:Generic - 150mm Masonry 2:1686982;Basic Wall:Generic - 150mm Masonry 2:1686983
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wJ;2VDK9aCTP1FfMIO3jtD9wS;Basic Wall:Generic - 150mm Masonry 2:1686982;Basic Wall:Generic - 150mm Masonry 2:1686985
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wJ;2VDK9aCTP1FfMIO3jtD9rU;Basic Wall:Generic - 150mm Masonry 2:1686982;Basic Wall:Generic - 150mm Masonry 2:1687051
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wJ;2VDK9aCTP1FfMIO3jtD9rP;Basic Wall:Generic - 150mm Masonry 2:1686982;Basic Wall:Generic - 150mm Masonry 2:1687052
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wJ;2VDK9aCTP1FfMIO3jtD9rR;Basic Wall:Generic - 150mm Masonry 2:1686982;Basic Wall:Generic - 150mm Masonry 2:1687054
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9wJ;15uChHxonFlQBEfFBqwoNz;Basic Wall:Generic - 150mm Masonry 2:1686982;M_Concrete-Rectangular Beam:400 x 800mm:1672991
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9wJ;15uChHxonFlQBEfFBqwoNT;Basic Wall:Generic - 150mm Masonry 2:1686982;M_Concrete-Rectangular Beam:400 x 800mm:1673023
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wI;2VDK9aCTP1FfMIO3jtD9wT;Basic Wall:Generic - 150mm Masonry 2:1686983;Basic Wall:Generic - 150mm Masonry 2:1686984
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wI;2VDK9aCTP1FfMIO3jtD9rU;Basic Wall:Generic - 150mm Masonry 2:1686983;Basic Wall:Generic - 150mm Masonry 2:1687051
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wI;2VDK9aCTP1FfMIO3jtD9rP;Basic Wall:Generic - 150mm Masonry 2:1686983;Basic Wall:Generic - 150mm Masonry 2:1687052
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wI;2VDK9aCTP1FfMIO3jtD9rO;Basic Wall:Generic - 150mm Masonry 2:1686983;Basic Wall:Generic - 150mm Masonry 2:1687053
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9wI;15uChHxonFlQBEfFBqwoNz;Basic Wall:Generic - 150mm Masonry 2:1686983;M_Concrete-Rectangular Beam:400 x 800mm:1672991
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wT;2VDK9aCTP1FfMIO3jtD9wS;Basic Wall:Generic - 150mm Masonry 2:1686984;Basic Wall:Generic - 150mm Masonry 2:1686985
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wT;2VDK9aCTP1FfMIO3jtD9rP;Basic Wall:Generic - 150mm Masonry 2:1686984;Basic Wall:Generic - 150mm Masonry 2:1687052
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wT;2VDK9aCTP1FfMIO3jtD9rO;Basic Wall:Generic - 150mm Masonry 2:1686984;Basic Wall:Generic - 150mm Masonry 2:1687053
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wT;2VDK9aCTP1FfMIO3jtD9rR;Basic Wall:Generic - 150mm Masonry 2:1686984;Basic Wall:Generic - 150mm Masonry 2:1687054
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9wT;15uChHxonFlQBEfFBqwoNz;Basic Wall:Generic - 150mm Masonry 2:1686984;M_Concrete-Rectangular Beam:400 x 800mm:1672991
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9wT;15uChHxonFlQBEfFBqwoNT;Basic Wall:Generic - 150mm Masonry 2:1686984;M_Concrete-Rectangular Beam:400 x 800mm:1673023
+;;;;;;
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wS;2VDK9aCTP1FfMIO3jtD9rU;Basic Wall:Generic - 150mm Masonry 2:1686985;Basic Wall:Generic - 150mm Masonry 2:1687051
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wS;2VDK9aCTP1FfMIO3jtD9rO;Basic Wall:Generic - 150mm Masonry 2:1686985;Basic Wall:Generic - 150mm Masonry 2:1687053
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9wS;2VDK9aCTP1FfMIO3jtD9rR;Basic Wall:Generic - 150mm Masonry 2:1686985;Basic Wall:Generic - 150mm Masonry 2:1687054
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9wS;15uChHxonFlQBEfFBqwoNT;Basic Wall:Generic - 150mm Masonry 2:1686985;M_Concrete-Rectangular Beam:400 x 800mm:1673023
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5D;2VDK9aCTP1FfMIO3jtDE5C;Basic Wall:Generic - 150mm Masonry 2:1688088;Basic Wall:Generic - 150mm Masonry 2:1688089
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5D;2VDK9aCTP1FfMIO3jtDE5E;Basic Wall:Generic - 150mm Masonry 2:1688088;Basic Wall:Generic - 150mm Masonry 2:1688091
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5D;2VDK9aCTP1FfMIO3jtDE7k;Basic Wall:Generic - 150mm Masonry 2:1688088;Basic Wall:Generic - 150mm Masonry 2:1688251
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5D;2VDK9aCTP1FfMIO3jtDE7f;Basic Wall:Generic - 150mm Masonry 2:1688088;Basic Wall:Generic - 150mm Masonry 2:1688252
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5D;2VDK9aCTP1FfMIO3jtDE7h;Basic Wall:Generic - 150mm Masonry 2:1688088;Basic Wall:Generic - 150mm Masonry 2:1688254
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE5D;15uChHxonFlQBEfFBqwoN8;Basic Wall:Generic - 150mm Masonry 2:1688088;M_Concrete-Rectangular Beam:400 x 800mm:1673002
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE5D;15uChHxonFlQBEfFBqwoN9;Basic Wall:Generic - 150mm Masonry 2:1688088;M_Concrete-Rectangular Beam:400 x 800mm:1673003
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE5D;15uChHxonFlQBEfFBqwoMe;Basic Wall:Generic - 150mm Masonry 2:1688088;M_Concrete-Rectangular Beam:400 x 800mm:1673034
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE5D;15uChHxonFlQBEfFBqwoMf;Basic Wall:Generic - 150mm Masonry 2:1688088;M_Concrete-Rectangular Beam:400 x 800mm:1673035
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE5D;15uChHxonFlQBEfFBqwoRs;Basic Wall:Generic - 150mm Masonry 2:1688088;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE5D;15uChHxonFlQBEfFBqwoPX;Basic Wall:Generic - 150mm Masonry 2:1688088;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE5D;2VDK9aCTP1FfMIO3jtDE5q;Basic Wall:Generic - 150mm Masonry 2:1688088;M_Concrete-Rectangular-Column:300 x 300mm 2:1688097
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE5D;2VDK9aCTP1FfMIO3jtDE42;Basic Wall:Generic - 150mm Masonry 2:1688088;M_Concrete-Rectangular-Column:300 x 300mm 2:1688151
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5C;2VDK9aCTP1FfMIO3jtDE5F;Basic Wall:Generic - 150mm Masonry 2:1688089;Basic Wall:Generic - 150mm Masonry 2:1688090
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5C;2VDK9aCTP1FfMIO3jtDE7k;Basic Wall:Generic - 150mm Masonry 2:1688089;Basic Wall:Generic - 150mm Masonry 2:1688251
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5C;2VDK9aCTP1FfMIO3jtDE7f;Basic Wall:Generic - 150mm Masonry 2:1688089;Basic Wall:Generic - 150mm Masonry 2:1688252
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5C;2VDK9aCTP1FfMIO3jtDE7e;Basic Wall:Generic - 150mm Masonry 2:1688089;Basic Wall:Generic - 150mm Masonry 2:1688253
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE5C;15uChHxonFlQBEfFBqwoN9;Basic Wall:Generic - 150mm Masonry 2:1688089;M_Concrete-Rectangular Beam:400 x 800mm:1673003
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE5C;15uChHxonFlQBEfFBqwoRs;Basic Wall:Generic - 150mm Masonry 2:1688089;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5F;2VDK9aCTP1FfMIO3jtDE5E;Basic Wall:Generic - 150mm Masonry 2:1688090;Basic Wall:Generic - 150mm Masonry 2:1688091
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5F;2VDK9aCTP1FfMIO3jtDE7f;Basic Wall:Generic - 150mm Masonry 2:1688090;Basic Wall:Generic - 150mm Masonry 2:1688252
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5F;2VDK9aCTP1FfMIO3jtDE7e;Basic Wall:Generic - 150mm Masonry 2:1688090;Basic Wall:Generic - 150mm Masonry 2:1688253
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5F;2VDK9aCTP1FfMIO3jtDE7h;Basic Wall:Generic - 150mm Masonry 2:1688090;Basic Wall:Generic - 150mm Masonry 2:1688254
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE5F;15uChHxonFlQBEfFBqwoN9;Basic Wall:Generic - 150mm Masonry 2:1688090;M_Concrete-Rectangular Beam:400 x 800mm:1673003
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE5F;15uChHxonFlQBEfFBqwoMf;Basic Wall:Generic - 150mm Masonry 2:1688090;M_Concrete-Rectangular Beam:400 x 800mm:1673035
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE5F;2VDK9aCTP1FfMIO3jtDE5n;Basic Wall:Generic - 150mm Masonry 2:1688090;M_Concrete-Rectangular-Column:300 x 300mm 2:1688100
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE5F;2VDK9aCTP1FfMIO3jtDE4F;Basic Wall:Generic - 150mm Masonry 2:1688090;M_Concrete-Rectangular-Column:300 x 300mm 2:1688154
+;;;;;;
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5E;2VDK9aCTP1FfMIO3jtDE7k;Basic Wall:Generic - 150mm Masonry 2:1688091;Basic Wall:Generic - 150mm Masonry 2:1688251
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5E;2VDK9aCTP1FfMIO3jtDE7e;Basic Wall:Generic - 150mm Masonry 2:1688091;Basic Wall:Generic - 150mm Masonry 2:1688253
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE5E;2VDK9aCTP1FfMIO3jtDE7h;Basic Wall:Generic - 150mm Masonry 2:1688091;Basic Wall:Generic - 150mm Masonry 2:1688254
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE5E;15uChHxonFlQBEfFBqwoMf;Basic Wall:Generic - 150mm Masonry 2:1688091;M_Concrete-Rectangular Beam:400 x 800mm:1673035
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE5E;15uChHxonFlQBEfFBqwoPX;Basic Wall:Generic - 150mm Masonry 2:1688091;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+;;;;;;
+o;IfcSlab;IfcSlab;2UN38zMIjBjx_foyPshHAB;2VDK9aCTP1FfMIO3jtD9qQ;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Floor:Wood Joist 235mm - Wood Finish:1687119
+o;IfcSlab;IfcSlab;2UN38zMIjBjx_foyPshHAB;2VDK9aCTP1FfMIO3jtDE0u;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHKW;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1670138
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHKX;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1670139
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHKc;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1670140
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHKd;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1670141
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHBO;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1670146
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHBP;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1670147
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2VDK9aCTP1FfMIO3jtD9rU;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1687051
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2VDK9aCTP1FfMIO3jtD9rP;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1687052
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2VDK9aCTP1FfMIO3jtD9rO;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1687053
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2VDK9aCTP1FfMIO3jtDE7k;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1688251
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2VDK9aCTP1FfMIO3jtDE7f;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1688252
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2VDK9aCTP1FfMIO3jtDE7e;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1688253
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSEj;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651643
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSFU;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651656
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSF3;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651669
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSGI;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651716
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSG7;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651729
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSGB;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651741
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSH4;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651794
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSH8;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651806
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSH$;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651817
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSJR;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651917
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSJF;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651929
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSJr;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1651939
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSKY;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1652020
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSKf;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1652031
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSLS;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1652042
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSLo;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1652068
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSLc;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1652080
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSLj;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1652091
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshHAB;0E1S5iuafB2fvzLlsPnSMC;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular Beam:400 x 800mm:1652122
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;0l6IX565P6i8Len4NegeSr;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1600321
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;0l6IX565P6i8Len4NegeU6;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1600498
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;0l6IX565P6i8Len4Nege3X;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1600661
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;0l6IX565P6i8Len4Nege2e;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1600732
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;0l6IX565P6i8Len4Nege5D;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1600825
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;0l6IX565P6i8Len4Nege7e;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1600924
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHB2;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1670168
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHB3;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1670169
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHB0;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHB1;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1670171
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHB6;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1670172
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;2UN38zMIjBjx_foyPshHB7;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1670173
+x;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshHAB;2_WQ3_2yn5Q9KT9M_$1EA4;Floor:Wood Joist 235mm - Ceramic Tile:1670225;M_Concrete-Rectangular-Column:300 x 300mm 2:1683432
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;03eNWevH14SuGAN$kybhui;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1594907
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;03eNWevH14SuGAN$kybhuh;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1594908
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;03eNWevH14SuGAN$kybhug;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1594909
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;03eNWevH14SuGAN$kybhuf;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1594910
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;03eNWevH14SuGAN$kybhyc;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1595153
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;03eNWevH14SuGAN$kybh$h;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1595356
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2_WQ3_2yn5Q9KT9M_$1EhQ;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1681334
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2_WQ3_2yn5Q9KT9M_$1EgR;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1681399
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2_WQ3_2yn5Q9KT9M_$1EMD;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1681633
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshHAB;2_WQ3_2yn5Q9KT9M_$1EME;Floor:Wood Joist 235mm - Ceramic Tile:1670225;Basic Wall:Generic - 150mm Masonry 2:1681634
+;;;;;;
+o;IfcSlab;IfcSlab;2UN38zMIjBjx_foyPshH8G;2VDK9aCTP1FfMIO3jtD9qQ;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Floor:Wood Joist 235mm - Wood Finish:1687119
+o;IfcSlab;IfcSlab;2UN38zMIjBjx_foyPshH8G;2VDK9aCTP1FfMIO3jtDE0u;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH9V;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1670277
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH9S;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1670278
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH9T;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1670279
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH9I;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1670280
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH9N;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1670285
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH2f;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1670771
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2VDK9aCTP1FfMIO3jtD9rU;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1687051
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2VDK9aCTP1FfMIO3jtD9rO;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1687053
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2VDK9aCTP1FfMIO3jtD9rR;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1687054
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2VDK9aCTP1FfMIO3jtDE7k;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1688251
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2VDK9aCTP1FfMIO3jtDE7e;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1688253
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2VDK9aCTP1FfMIO3jtDE7h;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1688254
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfoV;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658552
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfoU;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658553
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfoT;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658554
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfoR;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658556
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfoQ;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658557
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfoP;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658558
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpc;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658561
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpb;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658562
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpa;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658563
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpZ;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658564
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpY;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658565
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpX;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658566
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpj;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658570
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpi;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658571
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfph;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658572
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpf;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658574
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpe;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658575
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpt;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658576
+o;IfcSlab;IfcBeam;2UN38zMIjBjx_foyPshH8G;2TfLLlhbn8ZwBVGjXrVfpr;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular Beam:400 x 800mm:1658578
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnROB;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1656349
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnRO8;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1656350
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnRO9;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1656351
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnROs;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1656352
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnROt;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1656353
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnROq;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1656354
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH9B;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1670289
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH98;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1670290
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH99;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1670291
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH9E;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1670292
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH9F;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1670293
+o;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshH9C;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1670294
+x;IfcSlab;IfcColumn;2UN38zMIjBjx_foyPshH8G;2VDK9aCTP1FfMIO3jtD99_;Floor:Wood Joist 235mm - Ceramic Tile:1670346;M_Concrete-Rectangular-Column:300 x 300mm 2:1683755
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnROM;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1656320
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnRON;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1656321
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnROK;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1656322
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnROL;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1656323
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;0E1S5iuafB2fvzLlsPnROU;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1656328
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2UN38zMIjBjx_foyPshHK3;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1670105
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2_WQ3_2yn5Q9KT9M_$1EgR;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1681399
+o;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2_WQ3_2yn5Q9KT9M_$1EL9;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1681445
+x;IfcSlab;IfcWall;2UN38zMIjBjx_foyPshH8G;2_WQ3_2yn5Q9KT9M_$1EME;Floor:Wood Joist 235mm - Ceramic Tile:1670346;Basic Wall:Generic - 150mm Masonry 2:1681634
+;;;;;;
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2UN38zMIjBjx_foyPshHBO;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1670146
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2UN38zMIjBjx_foyPshH2f;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1670771
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2VDK9aCTP1FfMIO3jtD9rU;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1687051
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2VDK9aCTP1FfMIO3jtD9rP;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1687052
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2VDK9aCTP1FfMIO3jtD9rO;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1687053
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2VDK9aCTP1FfMIO3jtD9rR;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1687054
+o;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtD9qQ;0E1S5iuafB2fvzLlsPnSEj;Floor:Wood Joist 235mm - Wood Finish:1687119;M_Concrete-Rectangular Beam:400 x 800mm:1651643
+o;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtD9qQ;2TfLLlhbn8ZwBVGjXrVfoV;Floor:Wood Joist 235mm - Wood Finish:1687119;M_Concrete-Rectangular Beam:400 x 800mm:1658552
+o;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtD9qQ;2VDK9aCTP1FfMIO3jtD9YS;Floor:Wood Joist 235mm - Wood Finish:1687119;M_Concrete-Rectangular Beam:400 x 800mm:1686473
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;03eNWevH14SuGAN$kybhyc;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1595153
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2UN38zMIjBjx_foyPshHK3;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1670105
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2_WQ3_2yn5Q9KT9M_$1EiH;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1681021
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2_WQ3_2yn5Q9KT9M_$1EhQ;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1681334
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2_WQ3_2yn5Q9KT9M_$1EgR;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1681399
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9qQ;2_WQ3_2yn5Q9KT9M_$1EL9;Floor:Wood Joist 235mm - Wood Finish:1687119;Basic Wall:Generic - 150mm Masonry 2:1681445
+;;;;;;
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0u;2VDK9aCTP1FfMIO3jtDE7k;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;Basic Wall:Generic - 150mm Masonry 2:1688251
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0u;2VDK9aCTP1FfMIO3jtDE7f;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;Basic Wall:Generic - 150mm Masonry 2:1688252
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0u;2VDK9aCTP1FfMIO3jtDE7e;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;Basic Wall:Generic - 150mm Masonry 2:1688253
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0u;2VDK9aCTP1FfMIO3jtDE7h;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;Basic Wall:Generic - 150mm Masonry 2:1688254
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0u;0E1S5iuafB2fvzLlsPnSH$;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular Beam:400 x 800mm:1651817
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0u;0E1S5iuafB2fvzLlsPnSJR;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular Beam:400 x 800mm:1651917
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0u;2TfLLlhbn8ZwBVGjXrVfpa;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular Beam:400 x 800mm:1658563
+x;IfcSlab;IfcBeam;2VDK9aCTP1FfMIO3jtDE0u;2TfLLlhbn8ZwBVGjXrVfpZ;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular Beam:400 x 800mm:1658564
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0u;0l6IX565P6i8Len4Nege3X;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular-Column:300 x 300mm 2:1600661
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0u;0E1S5iuafB2fvzLlsPnRO9;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular-Column:300 x 300mm 2:1656351
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0u;2UN38zMIjBjx_foyPshHB0;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0u;2UN38zMIjBjx_foyPshH99;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular-Column:300 x 300mm 2:1670291
+o;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0u;2_WQ3_2yn5Q9KT9M_$1EA4;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular-Column:300 x 300mm 2:1683432
+o;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0u;2VDK9aCTP1FfMIO3jtD9E1;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular-Column:300 x 300mm 2:1683668
+o;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0u;2VDK9aCTP1FfMIO3jtD99_;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular-Column:300 x 300mm 2:1683755
+x;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0u;2VDK9aCTP1FfMIO3jtD970;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular-Column:300 x 300mm 2:1684117
+o;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0u;2VDK9aCTP1FfMIO3jtDE6H;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular-Column:300 x 300mm 2:1688260
+o;IfcSlab;IfcColumn;2VDK9aCTP1FfMIO3jtDE0u;2VDK9aCTP1FfMIO3jtDE6I;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;M_Concrete-Rectangular-Column:300 x 300mm 2:1688263
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0u;2_WQ3_2yn5Q9KT9M_$1EMD;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;Basic Wall:Generic - 150mm Masonry 2:1681633
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE0u;2_WQ3_2yn5Q9KT9M_$1EME;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688429;Basic Wall:Generic - 150mm Masonry 2:1681634
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKW;2UN38zMIjBjx_foyPshHKX;Basic Wall:Generic - 150mm Masonry 2:1670138;Basic Wall:Generic - 150mm Masonry 2:1670139
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKW;2UN38zMIjBjx_foyPshHKd;Basic Wall:Generic - 150mm Masonry 2:1670138;Basic Wall:Generic - 150mm Masonry 2:1670141
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKW;2UN38zMIjBjx_foyPshHBO;Basic Wall:Generic - 150mm Masonry 2:1670138;Basic Wall:Generic - 150mm Masonry 2:1670146
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKW;03eNWevH14SuGAN$kybhui;Basic Wall:Generic - 150mm Masonry 2:1670138;Basic Wall:Generic - 150mm Masonry 2:1594907
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKW;03eNWevH14SuGAN$kybhuf;Basic Wall:Generic - 150mm Masonry 2:1670138;Basic Wall:Generic - 150mm Masonry 2:1594910
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKW;03eNWevH14SuGAN$kybhyc;Basic Wall:Generic - 150mm Masonry 2:1670138;Basic Wall:Generic - 150mm Masonry 2:1595153
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKX;2UN38zMIjBjx_foyPshHKc;Basic Wall:Generic - 150mm Masonry 2:1670139;Basic Wall:Generic - 150mm Masonry 2:1670140
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKX;2UN38zMIjBjx_foyPshHBO;Basic Wall:Generic - 150mm Masonry 2:1670139;Basic Wall:Generic - 150mm Masonry 2:1670146
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKX;2UN38zMIjBjx_foyPshHBP;Basic Wall:Generic - 150mm Masonry 2:1670139;Basic Wall:Generic - 150mm Masonry 2:1670147
+;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;0E1S5iuafB2fvzLlsPnSG7;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1651729
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo7D;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1671983
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo7I;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1671984
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo7H;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1671987
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo7M;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1671988
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo7L;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1671991
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo7Q;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1671992
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo7P;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1671995
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo7U;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1671996
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo6Z;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1672001
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo6W;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1672002
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo6d;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1672005
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKX;15uChHxonFlQBEfFBqwo6a;Basic Wall:Generic - 150mm Masonry 2:1670139;M_Concrete-Rectangular Beam:400 x 800mm:1672006
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKX;03eNWevH14SuGAN$kybhui;Basic Wall:Generic - 150mm Masonry 2:1670139;Basic Wall:Generic - 150mm Masonry 2:1594907
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKX;03eNWevH14SuGAN$kybhyc;Basic Wall:Generic - 150mm Masonry 2:1670139;Basic Wall:Generic - 150mm Masonry 2:1595153
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKc;2UN38zMIjBjx_foyPshHBP;Basic Wall:Generic - 150mm Masonry 2:1670140;Basic Wall:Generic - 150mm Masonry 2:1670147
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKc;15uChHxonFlQBEfFBqwo6g;Basic Wall:Generic - 150mm Masonry 2:1670140;M_Concrete-Rectangular Beam:400 x 800mm:1672008
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKd;2UN38zMIjBjx_foyPshHBP;Basic Wall:Generic - 150mm Masonry 2:1670141;Basic Wall:Generic - 150mm Masonry 2:1670147
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKd;15uChHxonFlQBEfFBqwo7I;Basic Wall:Generic - 150mm Masonry 2:1670141;M_Concrete-Rectangular Beam:400 x 800mm:1671984
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKd;15uChHxonFlQBEfFBqwo7M;Basic Wall:Generic - 150mm Masonry 2:1670141;M_Concrete-Rectangular Beam:400 x 800mm:1671988
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKd;15uChHxonFlQBEfFBqwo7L;Basic Wall:Generic - 150mm Masonry 2:1670141;M_Concrete-Rectangular Beam:400 x 800mm:1671991
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKd;15uChHxonFlQBEfFBqwo7U;Basic Wall:Generic - 150mm Masonry 2:1670141;M_Concrete-Rectangular Beam:400 x 800mm:1671996
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKd;15uChHxonFlQBEfFBqwo6W;Basic Wall:Generic - 150mm Masonry 2:1670141;M_Concrete-Rectangular Beam:400 x 800mm:1672002
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHKd;15uChHxonFlQBEfFBqwo6a;Basic Wall:Generic - 150mm Masonry 2:1670141;M_Concrete-Rectangular Beam:400 x 800mm:1672006
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKd;03eNWevH14SuGAN$kybhui;Basic Wall:Generic - 150mm Masonry 2:1670141;Basic Wall:Generic - 150mm Masonry 2:1594907
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHKd;03eNWevH14SuGAN$kybhuf;Basic Wall:Generic - 150mm Masonry 2:1670141;Basic Wall:Generic - 150mm Masonry 2:1594910
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHBO;2VDK9aCTP1FfMIO3jtD9rU;Basic Wall:Generic - 150mm Masonry 2:1670146;Basic Wall:Generic - 150mm Masonry 2:1687051
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHBO;2VDK9aCTP1FfMIO3jtD9rP;Basic Wall:Generic - 150mm Masonry 2:1670146;Basic Wall:Generic - 150mm Masonry 2:1687052
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshHBO;15uChHxonFlQBEfFBqwo7C;Basic Wall:Generic - 150mm Masonry 2:1670146;M_Concrete-Rectangular Beam:400 x 800mm:1671982
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHBO;03eNWevH14SuGAN$kybhui;Basic Wall:Generic - 150mm Masonry 2:1670146;Basic Wall:Generic - 150mm Masonry 2:1594907
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHBO;03eNWevH14SuGAN$kybhyc;Basic Wall:Generic - 150mm Masonry 2:1670146;Basic Wall:Generic - 150mm Masonry 2:1595153
+;;;;;;
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHBP;03eNWevH14SuGAN$kybhuf;Basic Wall:Generic - 150mm Masonry 2:1670147;Basic Wall:Generic - 150mm Masonry 2:1594910
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9V;2UN38zMIjBjx_foyPshH9S;Basic Wall:Generic - 150mm Masonry 2:1670277;Basic Wall:Generic - 150mm Masonry 2:1670278
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9V;2UN38zMIjBjx_foyPshH9I;Basic Wall:Generic - 150mm Masonry 2:1670277;Basic Wall:Generic - 150mm Masonry 2:1670280
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9V;2UN38zMIjBjx_foyPshH2f;Basic Wall:Generic - 150mm Masonry 2:1670277;Basic Wall:Generic - 150mm Masonry 2:1670771
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9V;0E1S5iuafB2fvzLlsPnROM;Basic Wall:Generic - 150mm Masonry 2:1670277;Basic Wall:Generic - 150mm Masonry 2:1656320
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9V;0E1S5iuafB2fvzLlsPnRON;Basic Wall:Generic - 150mm Masonry 2:1670277;Basic Wall:Generic - 150mm Masonry 2:1656321
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9V;0E1S5iuafB2fvzLlsPnROL;Basic Wall:Generic - 150mm Masonry 2:1670277;Basic Wall:Generic - 150mm Masonry 2:1656323
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9V;2UN38zMIjBjx_foyPshHK3;Basic Wall:Generic - 150mm Masonry 2:1670277;Basic Wall:Generic - 150mm Masonry 2:1670105
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9S;2UN38zMIjBjx_foyPshH9T;Basic Wall:Generic - 150mm Masonry 2:1670278;Basic Wall:Generic - 150mm Masonry 2:1670279
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9S;2UN38zMIjBjx_foyPshH9N;Basic Wall:Generic - 150mm Masonry 2:1670278;Basic Wall:Generic - 150mm Masonry 2:1670285
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9S;2UN38zMIjBjx_foyPshH2f;Basic Wall:Generic - 150mm Masonry 2:1670278;Basic Wall:Generic - 150mm Masonry 2:1670771
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo6j;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672015
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo6o;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672016
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo6n;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672019
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo6s;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672020
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo6r;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672023
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo6w;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672024
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo6v;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672027
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo6_;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672028
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo63;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672033
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo60;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672034
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo67;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672037
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9S;15uChHxonFlQBEfFBqwo64;Basic Wall:Generic - 150mm Masonry 2:1670278;M_Concrete-Rectangular Beam:400 x 800mm:1672038
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9S;0E1S5iuafB2fvzLlsPnROM;Basic Wall:Generic - 150mm Masonry 2:1670278;Basic Wall:Generic - 150mm Masonry 2:1656320
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9S;0E1S5iuafB2fvzLlsPnRON;Basic Wall:Generic - 150mm Masonry 2:1670278;Basic Wall:Generic - 150mm Masonry 2:1656321
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9S;0E1S5iuafB2fvzLlsPnROK;Basic Wall:Generic - 150mm Masonry 2:1670278;Basic Wall:Generic - 150mm Masonry 2:1656322
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9S;0E1S5iuafB2fvzLlsPnROU;Basic Wall:Generic - 150mm Masonry 2:1670278;Basic Wall:Generic - 150mm Masonry 2:1656328
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9S;2UN38zMIjBjx_foyPshHK3;Basic Wall:Generic - 150mm Masonry 2:1670278;Basic Wall:Generic - 150mm Masonry 2:1670105
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9T;2UN38zMIjBjx_foyPshH9N;Basic Wall:Generic - 150mm Masonry 2:1670279;Basic Wall:Generic - 150mm Masonry 2:1670285
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9T;15uChHxonFlQBEfFBqwo6A;Basic Wall:Generic - 150mm Masonry 2:1670279;M_Concrete-Rectangular Beam:400 x 800mm:1672040
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9T;0E1S5iuafB2fvzLlsPnRON;Basic Wall:Generic - 150mm Masonry 2:1670279;Basic Wall:Generic - 150mm Masonry 2:1656321
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9T;0E1S5iuafB2fvzLlsPnROK;Basic Wall:Generic - 150mm Masonry 2:1670279;Basic Wall:Generic - 150mm Masonry 2:1656322
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9T;0E1S5iuafB2fvzLlsPnROU;Basic Wall:Generic - 150mm Masonry 2:1670279;Basic Wall:Generic - 150mm Masonry 2:1656328
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9I;2UN38zMIjBjx_foyPshH9N;Basic Wall:Generic - 150mm Masonry 2:1670280;Basic Wall:Generic - 150mm Masonry 2:1670285
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9I;15uChHxonFlQBEfFBqwo6o;Basic Wall:Generic - 150mm Masonry 2:1670280;M_Concrete-Rectangular Beam:400 x 800mm:1672016
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9I;15uChHxonFlQBEfFBqwo6s;Basic Wall:Generic - 150mm Masonry 2:1670280;M_Concrete-Rectangular Beam:400 x 800mm:1672020
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9I;15uChHxonFlQBEfFBqwo6r;Basic Wall:Generic - 150mm Masonry 2:1670280;M_Concrete-Rectangular Beam:400 x 800mm:1672023
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9I;15uChHxonFlQBEfFBqwo6_;Basic Wall:Generic - 150mm Masonry 2:1670280;M_Concrete-Rectangular Beam:400 x 800mm:1672028
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9I;15uChHxonFlQBEfFBqwo60;Basic Wall:Generic - 150mm Masonry 2:1670280;M_Concrete-Rectangular Beam:400 x 800mm:1672034
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH9I;15uChHxonFlQBEfFBqwo64;Basic Wall:Generic - 150mm Masonry 2:1670280;M_Concrete-Rectangular Beam:400 x 800mm:1672038
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9I;0E1S5iuafB2fvzLlsPnROM;Basic Wall:Generic - 150mm Masonry 2:1670280;Basic Wall:Generic - 150mm Masonry 2:1656320
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9I;0E1S5iuafB2fvzLlsPnROL;Basic Wall:Generic - 150mm Masonry 2:1670280;Basic Wall:Generic - 150mm Masonry 2:1656323
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9I;0E1S5iuafB2fvzLlsPnROU;Basic Wall:Generic - 150mm Masonry 2:1670280;Basic Wall:Generic - 150mm Masonry 2:1656328
+;;;;;;
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9N;0E1S5iuafB2fvzLlsPnRON;Basic Wall:Generic - 150mm Masonry 2:1670285;Basic Wall:Generic - 150mm Masonry 2:1656321
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9N;0E1S5iuafB2fvzLlsPnROK;Basic Wall:Generic - 150mm Masonry 2:1670285;Basic Wall:Generic - 150mm Masonry 2:1656322
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9N;0E1S5iuafB2fvzLlsPnROL;Basic Wall:Generic - 150mm Masonry 2:1670285;Basic Wall:Generic - 150mm Masonry 2:1656323
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH9N;0E1S5iuafB2fvzLlsPnROU;Basic Wall:Generic - 150mm Masonry 2:1670285;Basic Wall:Generic - 150mm Masonry 2:1656328
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH2f;2VDK9aCTP1FfMIO3jtD9rU;Basic Wall:Generic - 150mm Masonry 2:1670771;Basic Wall:Generic - 150mm Masonry 2:1687051
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH2f;2VDK9aCTP1FfMIO3jtD9rR;Basic Wall:Generic - 150mm Masonry 2:1670771;Basic Wall:Generic - 150mm Masonry 2:1687054
+o;IfcWall;IfcBeam;2UN38zMIjBjx_foyPshH2f;15uChHxonFlQBEfFBqwo6i;Basic Wall:Generic - 150mm Masonry 2:1670771;M_Concrete-Rectangular Beam:400 x 800mm:1672014
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH2f;0E1S5iuafB2fvzLlsPnROM;Basic Wall:Generic - 150mm Masonry 2:1670771;Basic Wall:Generic - 150mm Masonry 2:1656320
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH2f;0E1S5iuafB2fvzLlsPnRON;Basic Wall:Generic - 150mm Masonry 2:1670771;Basic Wall:Generic - 150mm Masonry 2:1656321
+x;IfcWall;IfcWall;2UN38zMIjBjx_foyPshH2f;2UN38zMIjBjx_foyPshHK3;Basic Wall:Generic - 150mm Masonry 2:1670771;Basic Wall:Generic - 150mm Masonry 2:1670105
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rU;2VDK9aCTP1FfMIO3jtD9rP;Basic Wall:Generic - 150mm Masonry 2:1687051;Basic Wall:Generic - 150mm Masonry 2:1687052
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rU;2VDK9aCTP1FfMIO3jtD9rR;Basic Wall:Generic - 150mm Masonry 2:1687051;Basic Wall:Generic - 150mm Masonry 2:1687054
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9rU;15uChHxonFlQBEfFBqwo7C;Basic Wall:Generic - 150mm Masonry 2:1687051;M_Concrete-Rectangular Beam:400 x 800mm:1671982
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9rU;15uChHxonFlQBEfFBqwo6i;Basic Wall:Generic - 150mm Masonry 2:1687051;M_Concrete-Rectangular Beam:400 x 800mm:1672014
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rU;03eNWevH14SuGAN$kybhyc;Basic Wall:Generic - 150mm Masonry 2:1687051;Basic Wall:Generic - 150mm Masonry 2:1595153
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rU;2UN38zMIjBjx_foyPshHK3;Basic Wall:Generic - 150mm Masonry 2:1687051;Basic Wall:Generic - 150mm Masonry 2:1670105
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rU;2_WQ3_2yn5Q9KT9M_$1EiH;Basic Wall:Generic - 150mm Masonry 2:1687051;Basic Wall:Generic - 150mm Masonry 2:1681021
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rP;2VDK9aCTP1FfMIO3jtD9rO;Basic Wall:Generic - 150mm Masonry 2:1687052;Basic Wall:Generic - 150mm Masonry 2:1687053
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9rP;15uChHxonFlQBEfFBqwo7C;Basic Wall:Generic - 150mm Masonry 2:1687052;M_Concrete-Rectangular Beam:400 x 800mm:1671982
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rP;03eNWevH14SuGAN$kybhyc;Basic Wall:Generic - 150mm Masonry 2:1687052;Basic Wall:Generic - 150mm Masonry 2:1595153
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rP;2_WQ3_2yn5Q9KT9M_$1EiH;Basic Wall:Generic - 150mm Masonry 2:1687052;Basic Wall:Generic - 150mm Masonry 2:1681021
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rO;2VDK9aCTP1FfMIO3jtD9rR;Basic Wall:Generic - 150mm Masonry 2:1687053;Basic Wall:Generic - 150mm Masonry 2:1687054
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9rO;15uChHxonFlQBEfFBqwo7C;Basic Wall:Generic - 150mm Masonry 2:1687053;M_Concrete-Rectangular Beam:400 x 800mm:1671982
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9rO;15uChHxonFlQBEfFBqwo6i;Basic Wall:Generic - 150mm Masonry 2:1687053;M_Concrete-Rectangular Beam:400 x 800mm:1672014
+;;;;;;
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtD9rR;15uChHxonFlQBEfFBqwo6i;Basic Wall:Generic - 150mm Masonry 2:1687054;M_Concrete-Rectangular Beam:400 x 800mm:1672014
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rR;2UN38zMIjBjx_foyPshHK3;Basic Wall:Generic - 150mm Masonry 2:1687054;Basic Wall:Generic - 150mm Masonry 2:1670105
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtD9rR;2_WQ3_2yn5Q9KT9M_$1EiH;Basic Wall:Generic - 150mm Masonry 2:1687054;Basic Wall:Generic - 150mm Masonry 2:1681021
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE7k;2VDK9aCTP1FfMIO3jtDE7f;Basic Wall:Generic - 150mm Masonry 2:1688251;Basic Wall:Generic - 150mm Masonry 2:1688252
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE7k;2VDK9aCTP1FfMIO3jtDE7h;Basic Wall:Generic - 150mm Masonry 2:1688251;Basic Wall:Generic - 150mm Masonry 2:1688254
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE7k;15uChHxonFlQBEfFBqwo7R;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular Beam:400 x 800mm:1671993
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE7k;15uChHxonFlQBEfFBqwo7O;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular Beam:400 x 800mm:1671994
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE7k;15uChHxonFlQBEfFBqwo6x;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular Beam:400 x 800mm:1672025
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE7k;15uChHxonFlQBEfFBqwo6u;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular Beam:400 x 800mm:1672026
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7k;2UN38zMIjBjx_foyPshHB0;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7k;2UN38zMIjBjx_foyPshH99;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular-Column:300 x 300mm 2:1670291
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7k;15uChHxonFlQBEfFBqwoRs;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7k;15uChHxonFlQBEfFBqwoPX;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7k;2_WQ3_2yn5Q9KT9M_$1EA4;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular-Column:300 x 300mm 2:1683432
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7k;2VDK9aCTP1FfMIO3jtD9E1;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular-Column:300 x 300mm 2:1683668
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7k;2VDK9aCTP1FfMIO3jtD99_;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular-Column:300 x 300mm 2:1683755
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7k;2VDK9aCTP1FfMIO3jtDE5q;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular-Column:300 x 300mm 2:1688097
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7k;2VDK9aCTP1FfMIO3jtDE6H;Basic Wall:Generic - 150mm Masonry 2:1688251;M_Concrete-Rectangular-Column:300 x 300mm 2:1688260
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE7k;2_WQ3_2yn5Q9KT9M_$1EMD;Basic Wall:Generic - 150mm Masonry 2:1688251;Basic Wall:Generic - 150mm Masonry 2:1681633
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE7f;2VDK9aCTP1FfMIO3jtDE7e;Basic Wall:Generic - 150mm Masonry 2:1688252;Basic Wall:Generic - 150mm Masonry 2:1688253
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE7f;15uChHxonFlQBEfFBqwo7O;Basic Wall:Generic - 150mm Masonry 2:1688252;M_Concrete-Rectangular Beam:400 x 800mm:1671994
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7f;2UN38zMIjBjx_foyPshHB0;Basic Wall:Generic - 150mm Masonry 2:1688252;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7f;15uChHxonFlQBEfFBqwoRs;Basic Wall:Generic - 150mm Masonry 2:1688252;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7f;2_WQ3_2yn5Q9KT9M_$1EA4;Basic Wall:Generic - 150mm Masonry 2:1688252;M_Concrete-Rectangular-Column:300 x 300mm 2:1683432
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE7f;2_WQ3_2yn5Q9KT9M_$1EMD;Basic Wall:Generic - 150mm Masonry 2:1688252;Basic Wall:Generic - 150mm Masonry 2:1681633
+;;;;;;
+o;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE7e;2VDK9aCTP1FfMIO3jtDE7h;Basic Wall:Generic - 150mm Masonry 2:1688253;Basic Wall:Generic - 150mm Masonry 2:1688254
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE7e;15uChHxonFlQBEfFBqwo7O;Basic Wall:Generic - 150mm Masonry 2:1688253;M_Concrete-Rectangular Beam:400 x 800mm:1671994
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE7e;15uChHxonFlQBEfFBqwo6u;Basic Wall:Generic - 150mm Masonry 2:1688253;M_Concrete-Rectangular Beam:400 x 800mm:1672026
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7e;2VDK9aCTP1FfMIO3jtD970;Basic Wall:Generic - 150mm Masonry 2:1688253;M_Concrete-Rectangular-Column:300 x 300mm 2:1684117
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7e;2VDK9aCTP1FfMIO3jtDE5n;Basic Wall:Generic - 150mm Masonry 2:1688253;M_Concrete-Rectangular-Column:300 x 300mm 2:1688100
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7e;2VDK9aCTP1FfMIO3jtDE6I;Basic Wall:Generic - 150mm Masonry 2:1688253;M_Concrete-Rectangular-Column:300 x 300mm 2:1688263
+x;IfcWall;IfcWall;2VDK9aCTP1FfMIO3jtDE7e;2_WQ3_2yn5Q9KT9M_$1EMD;Basic Wall:Generic - 150mm Masonry 2:1688253;Basic Wall:Generic - 150mm Masonry 2:1681633
+;;;;;;
+x;IfcWall;IfcBeam;2VDK9aCTP1FfMIO3jtDE7h;15uChHxonFlQBEfFBqwo6u;Basic Wall:Generic - 150mm Masonry 2:1688254;M_Concrete-Rectangular Beam:400 x 800mm:1672026
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7h;2UN38zMIjBjx_foyPshH99;Basic Wall:Generic - 150mm Masonry 2:1688254;M_Concrete-Rectangular-Column:300 x 300mm 2:1670291
+x;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7h;15uChHxonFlQBEfFBqwoPX;Basic Wall:Generic - 150mm Masonry 2:1688254;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+o;IfcWall;IfcColumn;2VDK9aCTP1FfMIO3jtDE7h;2VDK9aCTP1FfMIO3jtD99_;Basic Wall:Generic - 150mm Masonry 2:1688254;M_Concrete-Rectangular-Column:300 x 300mm 2:1683755
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSEj;0E1S5iuafB2fvzLlsPnSFU;M_Concrete-Rectangular Beam:400 x 800mm:1651643;M_Concrete-Rectangular Beam:400 x 800mm:1651656
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSEj;0E1S5iuafB2fvzLlsPnSGI;M_Concrete-Rectangular Beam:400 x 800mm:1651643;M_Concrete-Rectangular Beam:400 x 800mm:1651716
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSEj;0l6IX565P6i8Len4NegeSr;M_Concrete-Rectangular Beam:400 x 800mm:1651643;M_Concrete-Rectangular-Column:300 x 300mm 2:1600321
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSEj;03eNWevH14SuGAN$kybhyc;M_Concrete-Rectangular Beam:400 x 800mm:1651643;Basic Wall:Generic - 150mm Masonry 2:1595153
+x;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSEj;2_WQ3_2yn5Q9KT9M_$1EhQ;M_Concrete-Rectangular Beam:400 x 800mm:1651643;Basic Wall:Generic - 150mm Masonry 2:1681334
+x;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSEj;2_WQ3_2yn5Q9KT9M_$1EgR;M_Concrete-Rectangular Beam:400 x 800mm:1651643;Basic Wall:Generic - 150mm Masonry 2:1681399
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSFU;0E1S5iuafB2fvzLlsPnSGI;M_Concrete-Rectangular Beam:400 x 800mm:1651656;M_Concrete-Rectangular Beam:400 x 800mm:1651716
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSFU;0l6IX565P6i8Len4NegeSr;M_Concrete-Rectangular Beam:400 x 800mm:1651656;M_Concrete-Rectangular-Column:300 x 300mm 2:1600321
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSFU;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1651656;Basic Wall:Generic - 150mm Masonry 2:1594908
+;;;;;;
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSF3;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1651669;Basic Wall:Generic - 150mm Masonry 2:1594908
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSF3;03eNWevH14SuGAN$kybhuf;M_Concrete-Rectangular Beam:400 x 800mm:1651669;Basic Wall:Generic - 150mm Masonry 2:1594910
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSGI;0E1S5iuafB2fvzLlsPnSG7;M_Concrete-Rectangular Beam:400 x 800mm:1651716;M_Concrete-Rectangular Beam:400 x 800mm:1651729
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSGI;0l6IX565P6i8Len4NegeSr;M_Concrete-Rectangular Beam:400 x 800mm:1651716;M_Concrete-Rectangular-Column:300 x 300mm 2:1600321
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSGI;0l6IX565P6i8Len4NegeU6;M_Concrete-Rectangular Beam:400 x 800mm:1651716;M_Concrete-Rectangular-Column:300 x 300mm 2:1600498
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSG7;0E1S5iuafB2fvzLlsPnSH$;M_Concrete-Rectangular Beam:400 x 800mm:1651729;M_Concrete-Rectangular Beam:400 x 800mm:1651817
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSG7;0l6IX565P6i8Len4NegeU6;M_Concrete-Rectangular Beam:400 x 800mm:1651729;M_Concrete-Rectangular-Column:300 x 300mm 2:1600498
+x;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSG7;2UN38zMIjBjx_foyPshHB3;M_Concrete-Rectangular Beam:400 x 800mm:1651729;M_Concrete-Rectangular-Column:300 x 300mm 2:1670169
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSG7;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1651729;Basic Wall:Generic - 150mm Masonry 2:1594908
+;;;;;;
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSGB;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1651741;Basic Wall:Generic - 150mm Masonry 2:1594908
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSGB;03eNWevH14SuGAN$kybhuf;M_Concrete-Rectangular Beam:400 x 800mm:1651741;Basic Wall:Generic - 150mm Masonry 2:1594910
+;;;;;;
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSH4;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1651794;Basic Wall:Generic - 150mm Masonry 2:1594908
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSH4;03eNWevH14SuGAN$kybhuf;M_Concrete-Rectangular Beam:400 x 800mm:1651794;Basic Wall:Generic - 150mm Masonry 2:1594910
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSH8;0E1S5iuafB2fvzLlsPnSH$;M_Concrete-Rectangular Beam:400 x 800mm:1651806;M_Concrete-Rectangular Beam:400 x 800mm:1651817
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSH8;0E1S5iuafB2fvzLlsPnSJR;M_Concrete-Rectangular Beam:400 x 800mm:1651806;M_Concrete-Rectangular Beam:400 x 800mm:1651917
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSH8;0l6IX565P6i8Len4Nege3X;M_Concrete-Rectangular Beam:400 x 800mm:1651806;M_Concrete-Rectangular-Column:300 x 300mm 2:1600661
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSH8;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1651806;Basic Wall:Generic - 150mm Masonry 2:1594908
+;;;;;;
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSH$;0l6IX565P6i8Len4NegeU6;M_Concrete-Rectangular Beam:400 x 800mm:1651817;M_Concrete-Rectangular-Column:300 x 300mm 2:1600498
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSH$;0l6IX565P6i8Len4Nege3X;M_Concrete-Rectangular Beam:400 x 800mm:1651817;M_Concrete-Rectangular-Column:300 x 300mm 2:1600661
+x;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSH$;2_WQ3_2yn5Q9KT9M_$1EA4;M_Concrete-Rectangular Beam:400 x 800mm:1651817;M_Concrete-Rectangular-Column:300 x 300mm 2:1683432
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSJR;0E1S5iuafB2fvzLlsPnSJF;M_Concrete-Rectangular Beam:400 x 800mm:1651917;M_Concrete-Rectangular Beam:400 x 800mm:1651929
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSJR;0E1S5iuafB2fvzLlsPnSKY;M_Concrete-Rectangular Beam:400 x 800mm:1651917;M_Concrete-Rectangular Beam:400 x 800mm:1652020
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSJR;0l6IX565P6i8Len4Nege3X;M_Concrete-Rectangular Beam:400 x 800mm:1651917;M_Concrete-Rectangular-Column:300 x 300mm 2:1600661
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSJR;0l6IX565P6i8Len4Nege2e;M_Concrete-Rectangular Beam:400 x 800mm:1651917;M_Concrete-Rectangular-Column:300 x 300mm 2:1600732
+x;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSJR;2_WQ3_2yn5Q9KT9M_$1EA4;M_Concrete-Rectangular Beam:400 x 800mm:1651917;M_Concrete-Rectangular-Column:300 x 300mm 2:1683432
+x;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSJR;2_WQ3_2yn5Q9KT9M_$1EMD;M_Concrete-Rectangular Beam:400 x 800mm:1651917;Basic Wall:Generic - 150mm Masonry 2:1681633
+x;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSJR;2_WQ3_2yn5Q9KT9M_$1EME;M_Concrete-Rectangular Beam:400 x 800mm:1651917;Basic Wall:Generic - 150mm Masonry 2:1681634
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSJF;0E1S5iuafB2fvzLlsPnSKY;M_Concrete-Rectangular Beam:400 x 800mm:1651929;M_Concrete-Rectangular Beam:400 x 800mm:1652020
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSJF;0l6IX565P6i8Len4Nege2e;M_Concrete-Rectangular Beam:400 x 800mm:1651929;M_Concrete-Rectangular-Column:300 x 300mm 2:1600732
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSJF;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1651929;Basic Wall:Generic - 150mm Masonry 2:1594908
+;;;;;;
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSJr;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1651939;Basic Wall:Generic - 150mm Masonry 2:1594908
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSJr;03eNWevH14SuGAN$kybhuf;M_Concrete-Rectangular Beam:400 x 800mm:1651939;Basic Wall:Generic - 150mm Masonry 2:1594910
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSKY;0E1S5iuafB2fvzLlsPnSKf;M_Concrete-Rectangular Beam:400 x 800mm:1652020;M_Concrete-Rectangular Beam:400 x 800mm:1652031
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSKY;0E1S5iuafB2fvzLlsPnSLo;M_Concrete-Rectangular Beam:400 x 800mm:1652020;M_Concrete-Rectangular Beam:400 x 800mm:1652068
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSKY;0l6IX565P6i8Len4Nege2e;M_Concrete-Rectangular Beam:400 x 800mm:1652020;M_Concrete-Rectangular-Column:300 x 300mm 2:1600732
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSKY;0l6IX565P6i8Len4Nege5D;M_Concrete-Rectangular Beam:400 x 800mm:1652020;M_Concrete-Rectangular-Column:300 x 300mm 2:1600825
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSKf;0E1S5iuafB2fvzLlsPnSLo;M_Concrete-Rectangular Beam:400 x 800mm:1652031;M_Concrete-Rectangular Beam:400 x 800mm:1652068
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSKf;0l6IX565P6i8Len4Nege5D;M_Concrete-Rectangular Beam:400 x 800mm:1652031;M_Concrete-Rectangular-Column:300 x 300mm 2:1600825
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSKf;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1652031;Basic Wall:Generic - 150mm Masonry 2:1594908
+;;;;;;
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSLS;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1652042;Basic Wall:Generic - 150mm Masonry 2:1594908
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSLS;03eNWevH14SuGAN$kybhuf;M_Concrete-Rectangular Beam:400 x 800mm:1652042;Basic Wall:Generic - 150mm Masonry 2:1594910
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSLo;0E1S5iuafB2fvzLlsPnSLc;M_Concrete-Rectangular Beam:400 x 800mm:1652068;M_Concrete-Rectangular Beam:400 x 800mm:1652080
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSLo;0E1S5iuafB2fvzLlsPnSMC;M_Concrete-Rectangular Beam:400 x 800mm:1652068;M_Concrete-Rectangular Beam:400 x 800mm:1652122
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSLo;0l6IX565P6i8Len4Nege5D;M_Concrete-Rectangular Beam:400 x 800mm:1652068;M_Concrete-Rectangular-Column:300 x 300mm 2:1600825
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSLo;0l6IX565P6i8Len4Nege7e;M_Concrete-Rectangular Beam:400 x 800mm:1652068;M_Concrete-Rectangular-Column:300 x 300mm 2:1600924
+;;;;;;
+o;IfcBeam;IfcBeam;0E1S5iuafB2fvzLlsPnSLc;0E1S5iuafB2fvzLlsPnSMC;M_Concrete-Rectangular Beam:400 x 800mm:1652080;M_Concrete-Rectangular Beam:400 x 800mm:1652122
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSLc;0l6IX565P6i8Len4Nege7e;M_Concrete-Rectangular Beam:400 x 800mm:1652080;M_Concrete-Rectangular-Column:300 x 300mm 2:1600924
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSLc;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1652080;Basic Wall:Generic - 150mm Masonry 2:1594908
+;;;;;;
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSLj;03eNWevH14SuGAN$kybhuh;M_Concrete-Rectangular Beam:400 x 800mm:1652091;Basic Wall:Generic - 150mm Masonry 2:1594908
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSLj;03eNWevH14SuGAN$kybhuf;M_Concrete-Rectangular Beam:400 x 800mm:1652091;Basic Wall:Generic - 150mm Masonry 2:1594910
+;;;;;;
+o;IfcBeam;IfcColumn;0E1S5iuafB2fvzLlsPnSMC;0l6IX565P6i8Len4Nege7e;M_Concrete-Rectangular Beam:400 x 800mm:1652122;M_Concrete-Rectangular-Column:300 x 300mm 2:1600924
+o;IfcBeam;IfcWall;0E1S5iuafB2fvzLlsPnSMC;03eNWevH14SuGAN$kybhug;M_Concrete-Rectangular Beam:400 x 800mm:1652122;Basic Wall:Generic - 150mm Masonry 2:1594909
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfoV;2TfLLlhbn8ZwBVGjXrVfoU;M_Concrete-Rectangular Beam:400 x 800mm:1658552;M_Concrete-Rectangular Beam:400 x 800mm:1658553
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfoV;2TfLLlhbn8ZwBVGjXrVfoR;M_Concrete-Rectangular Beam:400 x 800mm:1658552;M_Concrete-Rectangular Beam:400 x 800mm:1658556
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfoV;0E1S5iuafB2fvzLlsPnROB;M_Concrete-Rectangular Beam:400 x 800mm:1658552;M_Concrete-Rectangular-Column:300 x 300mm 2:1656349
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfoV;2UN38zMIjBjx_foyPshHK3;M_Concrete-Rectangular Beam:400 x 800mm:1658552;Basic Wall:Generic - 150mm Masonry 2:1670105
+x;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfoV;2_WQ3_2yn5Q9KT9M_$1EgR;M_Concrete-Rectangular Beam:400 x 800mm:1658552;Basic Wall:Generic - 150mm Masonry 2:1681399
+x;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfoV;2_WQ3_2yn5Q9KT9M_$1EL9;M_Concrete-Rectangular Beam:400 x 800mm:1658552;Basic Wall:Generic - 150mm Masonry 2:1681445
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfoU;2TfLLlhbn8ZwBVGjXrVfoR;M_Concrete-Rectangular Beam:400 x 800mm:1658553;M_Concrete-Rectangular Beam:400 x 800mm:1658556
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfoU;0E1S5iuafB2fvzLlsPnROB;M_Concrete-Rectangular Beam:400 x 800mm:1658553;M_Concrete-Rectangular-Column:300 x 300mm 2:1656349
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfoU;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658553;Basic Wall:Generic - 150mm Masonry 2:1656321
+;;;;;;
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfoT;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658554;Basic Wall:Generic - 150mm Masonry 2:1656321
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfoT;0E1S5iuafB2fvzLlsPnROL;M_Concrete-Rectangular Beam:400 x 800mm:1658554;Basic Wall:Generic - 150mm Masonry 2:1656323
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfoR;2TfLLlhbn8ZwBVGjXrVfoQ;M_Concrete-Rectangular Beam:400 x 800mm:1658556;M_Concrete-Rectangular Beam:400 x 800mm:1658557
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfoR;2TfLLlhbn8ZwBVGjXrVfpa;M_Concrete-Rectangular Beam:400 x 800mm:1658556;M_Concrete-Rectangular Beam:400 x 800mm:1658563
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfoR;0E1S5iuafB2fvzLlsPnROB;M_Concrete-Rectangular Beam:400 x 800mm:1658556;M_Concrete-Rectangular-Column:300 x 300mm 2:1656349
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfoR;0E1S5iuafB2fvzLlsPnRO8;M_Concrete-Rectangular Beam:400 x 800mm:1658556;M_Concrete-Rectangular-Column:300 x 300mm 2:1656350
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfoQ;2TfLLlhbn8ZwBVGjXrVfpa;M_Concrete-Rectangular Beam:400 x 800mm:1658557;M_Concrete-Rectangular Beam:400 x 800mm:1658563
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfoQ;0E1S5iuafB2fvzLlsPnRO8;M_Concrete-Rectangular Beam:400 x 800mm:1658557;M_Concrete-Rectangular-Column:300 x 300mm 2:1656350
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfoQ;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658557;Basic Wall:Generic - 150mm Masonry 2:1656321
+;;;;;;
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfoP;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658558;Basic Wall:Generic - 150mm Masonry 2:1656321
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfoP;0E1S5iuafB2fvzLlsPnROL;M_Concrete-Rectangular Beam:400 x 800mm:1658558;Basic Wall:Generic - 150mm Masonry 2:1656323
+;;;;;;
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpc;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658561;Basic Wall:Generic - 150mm Masonry 2:1656321
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpc;0E1S5iuafB2fvzLlsPnROL;M_Concrete-Rectangular Beam:400 x 800mm:1658561;Basic Wall:Generic - 150mm Masonry 2:1656323
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpb;2TfLLlhbn8ZwBVGjXrVfpa;M_Concrete-Rectangular Beam:400 x 800mm:1658562;M_Concrete-Rectangular Beam:400 x 800mm:1658563
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpb;2TfLLlhbn8ZwBVGjXrVfpZ;M_Concrete-Rectangular Beam:400 x 800mm:1658562;M_Concrete-Rectangular Beam:400 x 800mm:1658564
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpb;0E1S5iuafB2fvzLlsPnRO9;M_Concrete-Rectangular Beam:400 x 800mm:1658562;M_Concrete-Rectangular-Column:300 x 300mm 2:1656351
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpb;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658562;Basic Wall:Generic - 150mm Masonry 2:1656321
+;;;;;;
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpa;0E1S5iuafB2fvzLlsPnRO8;M_Concrete-Rectangular Beam:400 x 800mm:1658563;M_Concrete-Rectangular-Column:300 x 300mm 2:1656350
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpa;0E1S5iuafB2fvzLlsPnRO9;M_Concrete-Rectangular Beam:400 x 800mm:1658563;M_Concrete-Rectangular-Column:300 x 300mm 2:1656351
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpa;2TfLLlhbn8ZwBVGjXrVfpZ;M_Concrete-Rectangular Beam:400 x 800mm:1658563;M_Concrete-Rectangular Beam:400 x 800mm:1658564
+x;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpa;2VDK9aCTP1FfMIO3jtD99_;M_Concrete-Rectangular Beam:400 x 800mm:1658563;M_Concrete-Rectangular-Column:300 x 300mm 2:1683755
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpZ;2TfLLlhbn8ZwBVGjXrVfpY;M_Concrete-Rectangular Beam:400 x 800mm:1658564;M_Concrete-Rectangular Beam:400 x 800mm:1658565
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpZ;2TfLLlhbn8ZwBVGjXrVfpj;M_Concrete-Rectangular Beam:400 x 800mm:1658564;M_Concrete-Rectangular Beam:400 x 800mm:1658570
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpZ;0E1S5iuafB2fvzLlsPnRO9;M_Concrete-Rectangular Beam:400 x 800mm:1658564;M_Concrete-Rectangular-Column:300 x 300mm 2:1656351
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpZ;0E1S5iuafB2fvzLlsPnROs;M_Concrete-Rectangular Beam:400 x 800mm:1658564;M_Concrete-Rectangular-Column:300 x 300mm 2:1656352
+x;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpZ;2VDK9aCTP1FfMIO3jtD99_;M_Concrete-Rectangular Beam:400 x 800mm:1658564;M_Concrete-Rectangular-Column:300 x 300mm 2:1683755
+x;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpZ;2_WQ3_2yn5Q9KT9M_$1EME;M_Concrete-Rectangular Beam:400 x 800mm:1658564;Basic Wall:Generic - 150mm Masonry 2:1681634
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpY;2TfLLlhbn8ZwBVGjXrVfpj;M_Concrete-Rectangular Beam:400 x 800mm:1658565;M_Concrete-Rectangular Beam:400 x 800mm:1658570
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpY;0E1S5iuafB2fvzLlsPnROs;M_Concrete-Rectangular Beam:400 x 800mm:1658565;M_Concrete-Rectangular-Column:300 x 300mm 2:1656352
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpY;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658565;Basic Wall:Generic - 150mm Masonry 2:1656321
+;;;;;;
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpX;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658566;Basic Wall:Generic - 150mm Masonry 2:1656321
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpX;0E1S5iuafB2fvzLlsPnROL;M_Concrete-Rectangular Beam:400 x 800mm:1658566;Basic Wall:Generic - 150mm Masonry 2:1656323
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpj;2TfLLlhbn8ZwBVGjXrVfpi;M_Concrete-Rectangular Beam:400 x 800mm:1658570;M_Concrete-Rectangular Beam:400 x 800mm:1658571
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpj;2TfLLlhbn8ZwBVGjXrVfpf;M_Concrete-Rectangular Beam:400 x 800mm:1658570;M_Concrete-Rectangular Beam:400 x 800mm:1658574
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpj;0E1S5iuafB2fvzLlsPnROs;M_Concrete-Rectangular Beam:400 x 800mm:1658570;M_Concrete-Rectangular-Column:300 x 300mm 2:1656352
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpj;0E1S5iuafB2fvzLlsPnROt;M_Concrete-Rectangular Beam:400 x 800mm:1658570;M_Concrete-Rectangular-Column:300 x 300mm 2:1656353
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpi;2TfLLlhbn8ZwBVGjXrVfpf;M_Concrete-Rectangular Beam:400 x 800mm:1658571;M_Concrete-Rectangular Beam:400 x 800mm:1658574
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpi;0E1S5iuafB2fvzLlsPnROt;M_Concrete-Rectangular Beam:400 x 800mm:1658571;M_Concrete-Rectangular-Column:300 x 300mm 2:1656353
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpi;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658571;Basic Wall:Generic - 150mm Masonry 2:1656321
+;;;;;;
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfph;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658572;Basic Wall:Generic - 150mm Masonry 2:1656321
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfph;0E1S5iuafB2fvzLlsPnROL;M_Concrete-Rectangular Beam:400 x 800mm:1658572;Basic Wall:Generic - 150mm Masonry 2:1656323
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpf;2TfLLlhbn8ZwBVGjXrVfpe;M_Concrete-Rectangular Beam:400 x 800mm:1658574;M_Concrete-Rectangular Beam:400 x 800mm:1658575
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpf;2TfLLlhbn8ZwBVGjXrVfpr;M_Concrete-Rectangular Beam:400 x 800mm:1658574;M_Concrete-Rectangular Beam:400 x 800mm:1658578
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpf;0E1S5iuafB2fvzLlsPnROt;M_Concrete-Rectangular Beam:400 x 800mm:1658574;M_Concrete-Rectangular-Column:300 x 300mm 2:1656353
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpf;0E1S5iuafB2fvzLlsPnROq;M_Concrete-Rectangular Beam:400 x 800mm:1658574;M_Concrete-Rectangular-Column:300 x 300mm 2:1656354
+;;;;;;
+o;IfcBeam;IfcBeam;2TfLLlhbn8ZwBVGjXrVfpe;2TfLLlhbn8ZwBVGjXrVfpr;M_Concrete-Rectangular Beam:400 x 800mm:1658575;M_Concrete-Rectangular Beam:400 x 800mm:1658578
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpe;0E1S5iuafB2fvzLlsPnROq;M_Concrete-Rectangular Beam:400 x 800mm:1658575;M_Concrete-Rectangular-Column:300 x 300mm 2:1656354
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpe;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658575;Basic Wall:Generic - 150mm Masonry 2:1656321
+;;;;;;
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpt;0E1S5iuafB2fvzLlsPnRON;M_Concrete-Rectangular Beam:400 x 800mm:1658576;Basic Wall:Generic - 150mm Masonry 2:1656321
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpt;0E1S5iuafB2fvzLlsPnROL;M_Concrete-Rectangular Beam:400 x 800mm:1658576;Basic Wall:Generic - 150mm Masonry 2:1656323
+;;;;;;
+o;IfcBeam;IfcColumn;2TfLLlhbn8ZwBVGjXrVfpr;0E1S5iuafB2fvzLlsPnROq;M_Concrete-Rectangular Beam:400 x 800mm:1658578;M_Concrete-Rectangular-Column:300 x 300mm 2:1656354
+o;IfcBeam;IfcWall;2TfLLlhbn8ZwBVGjXrVfpr;0E1S5iuafB2fvzLlsPnROK;M_Concrete-Rectangular Beam:400 x 800mm:1658578;Basic Wall:Generic - 150mm Masonry 2:1656322
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7C;15uChHxonFlQBEfFBqwo7D;M_Concrete-Rectangular Beam:400 x 800mm:1671982;M_Concrete-Rectangular Beam:400 x 800mm:1671983
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7C;15uChHxonFlQBEfFBqwo7G;M_Concrete-Rectangular Beam:400 x 800mm:1671982;M_Concrete-Rectangular Beam:400 x 800mm:1671986
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7C;2UN38zMIjBjx_foyPshHB2;M_Concrete-Rectangular Beam:400 x 800mm:1671982;M_Concrete-Rectangular-Column:300 x 300mm 2:1670168
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7D;15uChHxonFlQBEfFBqwo7G;M_Concrete-Rectangular Beam:400 x 800mm:1671983;M_Concrete-Rectangular Beam:400 x 800mm:1671986
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7D;2UN38zMIjBjx_foyPshHB2;M_Concrete-Rectangular Beam:400 x 800mm:1671983;M_Concrete-Rectangular-Column:300 x 300mm 2:1670168
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7G;15uChHxonFlQBEfFBqwo7H;M_Concrete-Rectangular Beam:400 x 800mm:1671986;M_Concrete-Rectangular Beam:400 x 800mm:1671987
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7G;15uChHxonFlQBEfFBqwo7R;M_Concrete-Rectangular Beam:400 x 800mm:1671986;M_Concrete-Rectangular Beam:400 x 800mm:1671993
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7G;2UN38zMIjBjx_foyPshHB2;M_Concrete-Rectangular Beam:400 x 800mm:1671986;M_Concrete-Rectangular-Column:300 x 300mm 2:1670168
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7G;2UN38zMIjBjx_foyPshHB3;M_Concrete-Rectangular Beam:400 x 800mm:1671986;M_Concrete-Rectangular-Column:300 x 300mm 2:1670169
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7H;15uChHxonFlQBEfFBqwo7R;M_Concrete-Rectangular Beam:400 x 800mm:1671987;M_Concrete-Rectangular Beam:400 x 800mm:1671993
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7H;2UN38zMIjBjx_foyPshHB3;M_Concrete-Rectangular Beam:400 x 800mm:1671987;M_Concrete-Rectangular-Column:300 x 300mm 2:1670169
+x;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7H;15uChHxonFlQBEfFBqwoRn;M_Concrete-Rectangular Beam:400 x 800mm:1671987;M_Concrete-Rectangular-Column:300 x 300mm 2:1672211
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7Q;15uChHxonFlQBEfFBqwo7R;M_Concrete-Rectangular Beam:400 x 800mm:1671992;M_Concrete-Rectangular Beam:400 x 800mm:1671993
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7Q;15uChHxonFlQBEfFBqwo7O;M_Concrete-Rectangular Beam:400 x 800mm:1671992;M_Concrete-Rectangular Beam:400 x 800mm:1671994
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7Q;2UN38zMIjBjx_foyPshHB0;M_Concrete-Rectangular Beam:400 x 800mm:1671992;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7R;15uChHxonFlQBEfFBqwo7O;M_Concrete-Rectangular Beam:400 x 800mm:1671993;M_Concrete-Rectangular Beam:400 x 800mm:1671994
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7R;2UN38zMIjBjx_foyPshHB3;M_Concrete-Rectangular Beam:400 x 800mm:1671993;M_Concrete-Rectangular-Column:300 x 300mm 2:1670169
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7R;2UN38zMIjBjx_foyPshHB0;M_Concrete-Rectangular Beam:400 x 800mm:1671993;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7O;15uChHxonFlQBEfFBqwo7P;M_Concrete-Rectangular Beam:400 x 800mm:1671994;M_Concrete-Rectangular Beam:400 x 800mm:1671995
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7O;15uChHxonFlQBEfFBqwo6Y;M_Concrete-Rectangular Beam:400 x 800mm:1671994;M_Concrete-Rectangular Beam:400 x 800mm:1672000
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7O;2UN38zMIjBjx_foyPshHB0;M_Concrete-Rectangular Beam:400 x 800mm:1671994;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7O;2UN38zMIjBjx_foyPshHB1;M_Concrete-Rectangular Beam:400 x 800mm:1671994;M_Concrete-Rectangular-Column:300 x 300mm 2:1670171
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo7P;15uChHxonFlQBEfFBqwo6Y;M_Concrete-Rectangular Beam:400 x 800mm:1671995;M_Concrete-Rectangular Beam:400 x 800mm:1672000
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo7P;2UN38zMIjBjx_foyPshHB1;M_Concrete-Rectangular Beam:400 x 800mm:1671995;M_Concrete-Rectangular-Column:300 x 300mm 2:1670171
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6Y;15uChHxonFlQBEfFBqwo6Z;M_Concrete-Rectangular Beam:400 x 800mm:1672000;M_Concrete-Rectangular Beam:400 x 800mm:1672001
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6Y;15uChHxonFlQBEfFBqwo6c;M_Concrete-Rectangular Beam:400 x 800mm:1672000;M_Concrete-Rectangular Beam:400 x 800mm:1672004
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6Y;2UN38zMIjBjx_foyPshHB1;M_Concrete-Rectangular Beam:400 x 800mm:1672000;M_Concrete-Rectangular-Column:300 x 300mm 2:1670171
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6Y;2UN38zMIjBjx_foyPshHB6;M_Concrete-Rectangular Beam:400 x 800mm:1672000;M_Concrete-Rectangular-Column:300 x 300mm 2:1670172
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6Z;15uChHxonFlQBEfFBqwo6c;M_Concrete-Rectangular Beam:400 x 800mm:1672001;M_Concrete-Rectangular Beam:400 x 800mm:1672004
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6Z;2UN38zMIjBjx_foyPshHB6;M_Concrete-Rectangular Beam:400 x 800mm:1672001;M_Concrete-Rectangular-Column:300 x 300mm 2:1670172
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6c;15uChHxonFlQBEfFBqwo6d;M_Concrete-Rectangular Beam:400 x 800mm:1672004;M_Concrete-Rectangular Beam:400 x 800mm:1672005
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6c;15uChHxonFlQBEfFBqwo6g;M_Concrete-Rectangular Beam:400 x 800mm:1672004;M_Concrete-Rectangular Beam:400 x 800mm:1672008
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6c;2UN38zMIjBjx_foyPshHB6;M_Concrete-Rectangular Beam:400 x 800mm:1672004;M_Concrete-Rectangular-Column:300 x 300mm 2:1670172
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6c;2UN38zMIjBjx_foyPshHB7;M_Concrete-Rectangular Beam:400 x 800mm:1672004;M_Concrete-Rectangular-Column:300 x 300mm 2:1670173
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6d;15uChHxonFlQBEfFBqwo6g;M_Concrete-Rectangular Beam:400 x 800mm:1672005;M_Concrete-Rectangular Beam:400 x 800mm:1672008
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6d;2UN38zMIjBjx_foyPshHB7;M_Concrete-Rectangular Beam:400 x 800mm:1672005;M_Concrete-Rectangular-Column:300 x 300mm 2:1670173
+;;;;;;
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6g;2UN38zMIjBjx_foyPshHB7;M_Concrete-Rectangular Beam:400 x 800mm:1672008;M_Concrete-Rectangular-Column:300 x 300mm 2:1670173
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6i;15uChHxonFlQBEfFBqwo6j;M_Concrete-Rectangular Beam:400 x 800mm:1672014;M_Concrete-Rectangular Beam:400 x 800mm:1672015
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6i;15uChHxonFlQBEfFBqwo6m;M_Concrete-Rectangular Beam:400 x 800mm:1672014;M_Concrete-Rectangular Beam:400 x 800mm:1672018
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6i;2UN38zMIjBjx_foyPshH9B;M_Concrete-Rectangular Beam:400 x 800mm:1672014;M_Concrete-Rectangular-Column:300 x 300mm 2:1670289
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6j;15uChHxonFlQBEfFBqwo6m;M_Concrete-Rectangular Beam:400 x 800mm:1672015;M_Concrete-Rectangular Beam:400 x 800mm:1672018
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6j;2UN38zMIjBjx_foyPshH9B;M_Concrete-Rectangular Beam:400 x 800mm:1672015;M_Concrete-Rectangular-Column:300 x 300mm 2:1670289
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6m;15uChHxonFlQBEfFBqwo6n;M_Concrete-Rectangular Beam:400 x 800mm:1672018;M_Concrete-Rectangular Beam:400 x 800mm:1672019
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6m;15uChHxonFlQBEfFBqwo6x;M_Concrete-Rectangular Beam:400 x 800mm:1672018;M_Concrete-Rectangular Beam:400 x 800mm:1672025
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6m;2UN38zMIjBjx_foyPshH9B;M_Concrete-Rectangular Beam:400 x 800mm:1672018;M_Concrete-Rectangular-Column:300 x 300mm 2:1670289
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6m;2UN38zMIjBjx_foyPshH98;M_Concrete-Rectangular Beam:400 x 800mm:1672018;M_Concrete-Rectangular-Column:300 x 300mm 2:1670290
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6n;15uChHxonFlQBEfFBqwo6x;M_Concrete-Rectangular Beam:400 x 800mm:1672019;M_Concrete-Rectangular Beam:400 x 800mm:1672025
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6n;2UN38zMIjBjx_foyPshH98;M_Concrete-Rectangular Beam:400 x 800mm:1672019;M_Concrete-Rectangular-Column:300 x 300mm 2:1670290
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6w;15uChHxonFlQBEfFBqwo6x;M_Concrete-Rectangular Beam:400 x 800mm:1672024;M_Concrete-Rectangular Beam:400 x 800mm:1672025
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6w;15uChHxonFlQBEfFBqwo6u;M_Concrete-Rectangular Beam:400 x 800mm:1672024;M_Concrete-Rectangular Beam:400 x 800mm:1672026
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6w;2UN38zMIjBjx_foyPshH99;M_Concrete-Rectangular Beam:400 x 800mm:1672024;M_Concrete-Rectangular-Column:300 x 300mm 2:1670291
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6x;15uChHxonFlQBEfFBqwo6u;M_Concrete-Rectangular Beam:400 x 800mm:1672025;M_Concrete-Rectangular Beam:400 x 800mm:1672026
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6x;2UN38zMIjBjx_foyPshH98;M_Concrete-Rectangular Beam:400 x 800mm:1672025;M_Concrete-Rectangular-Column:300 x 300mm 2:1670290
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6x;2UN38zMIjBjx_foyPshH99;M_Concrete-Rectangular Beam:400 x 800mm:1672025;M_Concrete-Rectangular-Column:300 x 300mm 2:1670291
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6u;15uChHxonFlQBEfFBqwo6v;M_Concrete-Rectangular Beam:400 x 800mm:1672026;M_Concrete-Rectangular Beam:400 x 800mm:1672027
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6u;15uChHxonFlQBEfFBqwo62;M_Concrete-Rectangular Beam:400 x 800mm:1672026;M_Concrete-Rectangular Beam:400 x 800mm:1672032
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6u;2UN38zMIjBjx_foyPshH99;M_Concrete-Rectangular Beam:400 x 800mm:1672026;M_Concrete-Rectangular-Column:300 x 300mm 2:1670291
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6u;2UN38zMIjBjx_foyPshH9E;M_Concrete-Rectangular Beam:400 x 800mm:1672026;M_Concrete-Rectangular-Column:300 x 300mm 2:1670292
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo6v;15uChHxonFlQBEfFBqwo62;M_Concrete-Rectangular Beam:400 x 800mm:1672027;M_Concrete-Rectangular Beam:400 x 800mm:1672032
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6v;2UN38zMIjBjx_foyPshH9E;M_Concrete-Rectangular Beam:400 x 800mm:1672027;M_Concrete-Rectangular-Column:300 x 300mm 2:1670292
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo62;15uChHxonFlQBEfFBqwo63;M_Concrete-Rectangular Beam:400 x 800mm:1672032;M_Concrete-Rectangular Beam:400 x 800mm:1672033
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo62;15uChHxonFlQBEfFBqwo66;M_Concrete-Rectangular Beam:400 x 800mm:1672032;M_Concrete-Rectangular Beam:400 x 800mm:1672036
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo62;2UN38zMIjBjx_foyPshH9E;M_Concrete-Rectangular Beam:400 x 800mm:1672032;M_Concrete-Rectangular-Column:300 x 300mm 2:1670292
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo62;2UN38zMIjBjx_foyPshH9F;M_Concrete-Rectangular Beam:400 x 800mm:1672032;M_Concrete-Rectangular-Column:300 x 300mm 2:1670293
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo63;15uChHxonFlQBEfFBqwo66;M_Concrete-Rectangular Beam:400 x 800mm:1672033;M_Concrete-Rectangular Beam:400 x 800mm:1672036
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo63;2UN38zMIjBjx_foyPshH9F;M_Concrete-Rectangular Beam:400 x 800mm:1672033;M_Concrete-Rectangular-Column:300 x 300mm 2:1670293
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo66;15uChHxonFlQBEfFBqwo67;M_Concrete-Rectangular Beam:400 x 800mm:1672036;M_Concrete-Rectangular Beam:400 x 800mm:1672037
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo66;15uChHxonFlQBEfFBqwo6A;M_Concrete-Rectangular Beam:400 x 800mm:1672036;M_Concrete-Rectangular Beam:400 x 800mm:1672040
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo66;2UN38zMIjBjx_foyPshH9F;M_Concrete-Rectangular Beam:400 x 800mm:1672036;M_Concrete-Rectangular-Column:300 x 300mm 2:1670293
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo66;2UN38zMIjBjx_foyPshH9C;M_Concrete-Rectangular Beam:400 x 800mm:1672036;M_Concrete-Rectangular-Column:300 x 300mm 2:1670294
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwo67;15uChHxonFlQBEfFBqwo6A;M_Concrete-Rectangular Beam:400 x 800mm:1672037;M_Concrete-Rectangular Beam:400 x 800mm:1672040
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo67;2UN38zMIjBjx_foyPshH9C;M_Concrete-Rectangular Beam:400 x 800mm:1672037;M_Concrete-Rectangular-Column:300 x 300mm 2:1670294
+;;;;;;
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6A;2UN38zMIjBjx_foyPshH9C;M_Concrete-Rectangular Beam:400 x 800mm:1672040;M_Concrete-Rectangular-Column:300 x 300mm 2:1670294
+x;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwo6A;15uChHxonFlQBEfFBqwoPa;M_Concrete-Rectangular Beam:400 x 800mm:1672040;M_Concrete-Rectangular-Column:300 x 300mm 2:1672326
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNz;15uChHxonFlQBEfFBqwoN2;M_Concrete-Rectangular Beam:400 x 800mm:1672991;M_Concrete-Rectangular Beam:400 x 800mm:1672992
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNz;15uChHxonFlQBEfFBqwoN1;M_Concrete-Rectangular Beam:400 x 800mm:1672991;M_Concrete-Rectangular Beam:400 x 800mm:1672995
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNz;15uChHxonFlQBEfFBqwoRm;M_Concrete-Rectangular Beam:400 x 800mm:1672991;M_Concrete-Rectangular-Column:300 x 300mm 2:1672210
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoN2;15uChHxonFlQBEfFBqwoN1;M_Concrete-Rectangular Beam:400 x 800mm:1672992;M_Concrete-Rectangular Beam:400 x 800mm:1672995
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoN2;15uChHxonFlQBEfFBqwoRm;M_Concrete-Rectangular Beam:400 x 800mm:1672992;M_Concrete-Rectangular-Column:300 x 300mm 2:1672210
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoN1;15uChHxonFlQBEfFBqwoN6;M_Concrete-Rectangular Beam:400 x 800mm:1672995;M_Concrete-Rectangular Beam:400 x 800mm:1672996
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoN1;15uChHxonFlQBEfFBqwoN8;M_Concrete-Rectangular Beam:400 x 800mm:1672995;M_Concrete-Rectangular Beam:400 x 800mm:1673002
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoN1;15uChHxonFlQBEfFBqwoRm;M_Concrete-Rectangular Beam:400 x 800mm:1672995;M_Concrete-Rectangular-Column:300 x 300mm 2:1672210
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoN1;15uChHxonFlQBEfFBqwoRn;M_Concrete-Rectangular Beam:400 x 800mm:1672995;M_Concrete-Rectangular-Column:300 x 300mm 2:1672211
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoN6;15uChHxonFlQBEfFBqwoN8;M_Concrete-Rectangular Beam:400 x 800mm:1672996;M_Concrete-Rectangular Beam:400 x 800mm:1673002
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoN6;15uChHxonFlQBEfFBqwoRn;M_Concrete-Rectangular Beam:400 x 800mm:1672996;M_Concrete-Rectangular-Column:300 x 300mm 2:1672211
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNB;15uChHxonFlQBEfFBqwoN8;M_Concrete-Rectangular Beam:400 x 800mm:1673001;M_Concrete-Rectangular Beam:400 x 800mm:1673002
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNB;15uChHxonFlQBEfFBqwoN9;M_Concrete-Rectangular Beam:400 x 800mm:1673001;M_Concrete-Rectangular Beam:400 x 800mm:1673003
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNB;15uChHxonFlQBEfFBqwoRs;M_Concrete-Rectangular Beam:400 x 800mm:1673001;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoN8;15uChHxonFlQBEfFBqwoN9;M_Concrete-Rectangular Beam:400 x 800mm:1673002;M_Concrete-Rectangular Beam:400 x 800mm:1673003
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoN8;15uChHxonFlQBEfFBqwoRn;M_Concrete-Rectangular Beam:400 x 800mm:1673002;M_Concrete-Rectangular-Column:300 x 300mm 2:1672211
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoN8;15uChHxonFlQBEfFBqwoRs;M_Concrete-Rectangular Beam:400 x 800mm:1673002;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoN9;15uChHxonFlQBEfFBqwoNE;M_Concrete-Rectangular Beam:400 x 800mm:1673003;M_Concrete-Rectangular Beam:400 x 800mm:1673004
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoN9;15uChHxonFlQBEfFBqwoNJ;M_Concrete-Rectangular Beam:400 x 800mm:1673003;M_Concrete-Rectangular Beam:400 x 800mm:1673009
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoN9;15uChHxonFlQBEfFBqwoRs;M_Concrete-Rectangular Beam:400 x 800mm:1673003;M_Concrete-Rectangular-Column:300 x 300mm 2:1672212
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoN9;15uChHxonFlQBEfFBqwoRt;M_Concrete-Rectangular Beam:400 x 800mm:1673003;M_Concrete-Rectangular-Column:300 x 300mm 2:1672213
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNE;15uChHxonFlQBEfFBqwoNJ;M_Concrete-Rectangular Beam:400 x 800mm:1673004;M_Concrete-Rectangular Beam:400 x 800mm:1673009
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNE;15uChHxonFlQBEfFBqwoRt;M_Concrete-Rectangular Beam:400 x 800mm:1673004;M_Concrete-Rectangular-Column:300 x 300mm 2:1672213
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNJ;15uChHxonFlQBEfFBqwoNG;M_Concrete-Rectangular Beam:400 x 800mm:1673009;M_Concrete-Rectangular Beam:400 x 800mm:1673010
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNJ;15uChHxonFlQBEfFBqwoNN;M_Concrete-Rectangular Beam:400 x 800mm:1673009;M_Concrete-Rectangular Beam:400 x 800mm:1673013
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNJ;15uChHxonFlQBEfFBqwoRt;M_Concrete-Rectangular Beam:400 x 800mm:1673009;M_Concrete-Rectangular-Column:300 x 300mm 2:1672213
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNJ;15uChHxonFlQBEfFBqwoRq;M_Concrete-Rectangular Beam:400 x 800mm:1673009;M_Concrete-Rectangular-Column:300 x 300mm 2:1672214
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNG;15uChHxonFlQBEfFBqwoNN;M_Concrete-Rectangular Beam:400 x 800mm:1673010;M_Concrete-Rectangular Beam:400 x 800mm:1673013
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNG;15uChHxonFlQBEfFBqwoRq;M_Concrete-Rectangular Beam:400 x 800mm:1673010;M_Concrete-Rectangular-Column:300 x 300mm 2:1672214
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNN;15uChHxonFlQBEfFBqwoNK;M_Concrete-Rectangular Beam:400 x 800mm:1673013;M_Concrete-Rectangular Beam:400 x 800mm:1673014
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNN;15uChHxonFlQBEfFBqwoNR;M_Concrete-Rectangular Beam:400 x 800mm:1673013;M_Concrete-Rectangular Beam:400 x 800mm:1673017
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNN;15uChHxonFlQBEfFBqwoRq;M_Concrete-Rectangular Beam:400 x 800mm:1673013;M_Concrete-Rectangular-Column:300 x 300mm 2:1672214
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNN;15uChHxonFlQBEfFBqwoRr;M_Concrete-Rectangular Beam:400 x 800mm:1673013;M_Concrete-Rectangular-Column:300 x 300mm 2:1672215
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNK;15uChHxonFlQBEfFBqwoNR;M_Concrete-Rectangular Beam:400 x 800mm:1673014;M_Concrete-Rectangular Beam:400 x 800mm:1673017
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNK;15uChHxonFlQBEfFBqwoRr;M_Concrete-Rectangular Beam:400 x 800mm:1673014;M_Concrete-Rectangular-Column:300 x 300mm 2:1672215
+;;;;;;
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNR;15uChHxonFlQBEfFBqwoRr;M_Concrete-Rectangular Beam:400 x 800mm:1673017;M_Concrete-Rectangular-Column:300 x 300mm 2:1672215
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNT;15uChHxonFlQBEfFBqwoMY;M_Concrete-Rectangular Beam:400 x 800mm:1673023;M_Concrete-Rectangular Beam:400 x 800mm:1673024
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoNT;15uChHxonFlQBEfFBqwoMX;M_Concrete-Rectangular Beam:400 x 800mm:1673023;M_Concrete-Rectangular Beam:400 x 800mm:1673027
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoNT;15uChHxonFlQBEfFBqwoPZ;M_Concrete-Rectangular Beam:400 x 800mm:1673023;M_Concrete-Rectangular-Column:300 x 300mm 2:1672321
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMY;15uChHxonFlQBEfFBqwoMX;M_Concrete-Rectangular Beam:400 x 800mm:1673024;M_Concrete-Rectangular Beam:400 x 800mm:1673027
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMY;15uChHxonFlQBEfFBqwoPZ;M_Concrete-Rectangular Beam:400 x 800mm:1673024;M_Concrete-Rectangular-Column:300 x 300mm 2:1672321
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMX;15uChHxonFlQBEfFBqwoMc;M_Concrete-Rectangular Beam:400 x 800mm:1673027;M_Concrete-Rectangular Beam:400 x 800mm:1673028
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMX;15uChHxonFlQBEfFBqwoMe;M_Concrete-Rectangular Beam:400 x 800mm:1673027;M_Concrete-Rectangular Beam:400 x 800mm:1673034
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMX;15uChHxonFlQBEfFBqwoPZ;M_Concrete-Rectangular Beam:400 x 800mm:1673027;M_Concrete-Rectangular-Column:300 x 300mm 2:1672321
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMX;15uChHxonFlQBEfFBqwoPW;M_Concrete-Rectangular Beam:400 x 800mm:1673027;M_Concrete-Rectangular-Column:300 x 300mm 2:1672322
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMc;15uChHxonFlQBEfFBqwoMe;M_Concrete-Rectangular Beam:400 x 800mm:1673028;M_Concrete-Rectangular Beam:400 x 800mm:1673034
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMc;15uChHxonFlQBEfFBqwoPW;M_Concrete-Rectangular Beam:400 x 800mm:1673028;M_Concrete-Rectangular-Column:300 x 300mm 2:1672322
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMh;15uChHxonFlQBEfFBqwoMe;M_Concrete-Rectangular Beam:400 x 800mm:1673033;M_Concrete-Rectangular Beam:400 x 800mm:1673034
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMh;15uChHxonFlQBEfFBqwoMf;M_Concrete-Rectangular Beam:400 x 800mm:1673033;M_Concrete-Rectangular Beam:400 x 800mm:1673035
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMh;15uChHxonFlQBEfFBqwoPX;M_Concrete-Rectangular Beam:400 x 800mm:1673033;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMe;15uChHxonFlQBEfFBqwoMf;M_Concrete-Rectangular Beam:400 x 800mm:1673034;M_Concrete-Rectangular Beam:400 x 800mm:1673035
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMe;15uChHxonFlQBEfFBqwoPW;M_Concrete-Rectangular Beam:400 x 800mm:1673034;M_Concrete-Rectangular-Column:300 x 300mm 2:1672322
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMe;15uChHxonFlQBEfFBqwoPX;M_Concrete-Rectangular Beam:400 x 800mm:1673034;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMf;15uChHxonFlQBEfFBqwoMk;M_Concrete-Rectangular Beam:400 x 800mm:1673035;M_Concrete-Rectangular Beam:400 x 800mm:1673036
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMf;15uChHxonFlQBEfFBqwoMp;M_Concrete-Rectangular Beam:400 x 800mm:1673035;M_Concrete-Rectangular Beam:400 x 800mm:1673041
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMf;15uChHxonFlQBEfFBqwoPX;M_Concrete-Rectangular Beam:400 x 800mm:1673035;M_Concrete-Rectangular-Column:300 x 300mm 2:1672323
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMf;15uChHxonFlQBEfFBqwoPc;M_Concrete-Rectangular Beam:400 x 800mm:1673035;M_Concrete-Rectangular-Column:300 x 300mm 2:1672324
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMk;15uChHxonFlQBEfFBqwoMp;M_Concrete-Rectangular Beam:400 x 800mm:1673036;M_Concrete-Rectangular Beam:400 x 800mm:1673041
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMk;15uChHxonFlQBEfFBqwoPc;M_Concrete-Rectangular Beam:400 x 800mm:1673036;M_Concrete-Rectangular-Column:300 x 300mm 2:1672324
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMp;15uChHxonFlQBEfFBqwoMm;M_Concrete-Rectangular Beam:400 x 800mm:1673041;M_Concrete-Rectangular Beam:400 x 800mm:1673042
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMp;15uChHxonFlQBEfFBqwoMt;M_Concrete-Rectangular Beam:400 x 800mm:1673041;M_Concrete-Rectangular Beam:400 x 800mm:1673045
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMp;15uChHxonFlQBEfFBqwoPc;M_Concrete-Rectangular Beam:400 x 800mm:1673041;M_Concrete-Rectangular-Column:300 x 300mm 2:1672324
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMp;15uChHxonFlQBEfFBqwoPd;M_Concrete-Rectangular Beam:400 x 800mm:1673041;M_Concrete-Rectangular-Column:300 x 300mm 2:1672325
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMm;15uChHxonFlQBEfFBqwoMt;M_Concrete-Rectangular Beam:400 x 800mm:1673042;M_Concrete-Rectangular Beam:400 x 800mm:1673045
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMm;15uChHxonFlQBEfFBqwoPd;M_Concrete-Rectangular Beam:400 x 800mm:1673042;M_Concrete-Rectangular-Column:300 x 300mm 2:1672325
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMt;15uChHxonFlQBEfFBqwoMq;M_Concrete-Rectangular Beam:400 x 800mm:1673045;M_Concrete-Rectangular Beam:400 x 800mm:1673046
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMt;15uChHxonFlQBEfFBqwoMx;M_Concrete-Rectangular Beam:400 x 800mm:1673045;M_Concrete-Rectangular Beam:400 x 800mm:1673049
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMt;15uChHxonFlQBEfFBqwoPd;M_Concrete-Rectangular Beam:400 x 800mm:1673045;M_Concrete-Rectangular-Column:300 x 300mm 2:1672325
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMt;15uChHxonFlQBEfFBqwoPa;M_Concrete-Rectangular Beam:400 x 800mm:1673045;M_Concrete-Rectangular-Column:300 x 300mm 2:1672326
+;;;;;;
+o;IfcBeam;IfcBeam;15uChHxonFlQBEfFBqwoMq;15uChHxonFlQBEfFBqwoMx;M_Concrete-Rectangular Beam:400 x 800mm:1673046;M_Concrete-Rectangular Beam:400 x 800mm:1673049
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMq;15uChHxonFlQBEfFBqwoPa;M_Concrete-Rectangular Beam:400 x 800mm:1673046;M_Concrete-Rectangular-Column:300 x 300mm 2:1672326
+;;;;;;
+o;IfcBeam;IfcColumn;15uChHxonFlQBEfFBqwoMx;15uChHxonFlQBEfFBqwoPa;M_Concrete-Rectangular Beam:400 x 800mm:1673049;M_Concrete-Rectangular-Column:300 x 300mm 2:1672326
+;;;;;;
+o;IfcBeam;IfcWall;2VDK9aCTP1FfMIO3jtD9YS;2_WQ3_2yn5Q9KT9M_$1EiH;M_Concrete-Rectangular Beam:400 x 800mm:1686473;Basic Wall:Generic - 150mm Masonry 2:1681021
+o;IfcBeam;IfcWall;2VDK9aCTP1FfMIO3jtD9YS;2_WQ3_2yn5Q9KT9M_$1EgR;M_Concrete-Rectangular Beam:400 x 800mm:1686473;Basic Wall:Generic - 150mm Masonry 2:1681399
+;;;;;;
+o;IfcColumn;IfcSlab;0l6IX565P6i8Len4NegeSr;0l6IX565P6i8Len4Neg$s2;M_Concrete-Rectangular-Column:300 x 300mm 2:1600321;Floor:Wood Joist 235mm - Ceramic Tile:1642998
+;;;;;;
+o;IfcColumn;IfcSlab;0l6IX565P6i8Len4NegeU6;0l6IX565P6i8Len4Neg$s2;M_Concrete-Rectangular-Column:300 x 300mm 2:1600498;Floor:Wood Joist 235mm - Ceramic Tile:1642998
+;;;;;;
+x;IfcColumn;IfcColumn;0l6IX565P6i8Len4Nege3X;2_WQ3_2yn5Q9KT9M_$1EA4;M_Concrete-Rectangular-Column:300 x 300mm 2:1600661;M_Concrete-Rectangular-Column:300 x 300mm 2:1683432
+o;IfcColumn;IfcSlab;0l6IX565P6i8Len4Nege3X;0l6IX565P6i8Len4Neg$s2;M_Concrete-Rectangular-Column:300 x 300mm 2:1600661;Floor:Wood Joist 235mm - Ceramic Tile:1642998
+x;IfcColumn;IfcSlab;0l6IX565P6i8Len4Nege3X;2VDK9aCTP1FfMIO3jtDE1S;M_Concrete-Rectangular-Column:300 x 300mm 2:1600661;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688329
+x;IfcColumn;IfcWall;0l6IX565P6i8Len4Nege3X;2_WQ3_2yn5Q9KT9M_$1EMC;M_Concrete-Rectangular-Column:300 x 300mm 2:1600661;Basic Wall:Generic - 150mm Masonry 2:1681632
+x;IfcColumn;IfcWall;0l6IX565P6i8Len4Nege3X;2_WQ3_2yn5Q9KT9M_$1EMD;M_Concrete-Rectangular-Column:300 x 300mm 2:1600661;Basic Wall:Generic - 150mm Masonry 2:1681633
+;;;;;;
+o;IfcColumn;IfcSlab;0l6IX565P6i8Len4Nege2e;0l6IX565P6i8Len4Neg$s2;M_Concrete-Rectangular-Column:300 x 300mm 2:1600732;Floor:Wood Joist 235mm - Ceramic Tile:1642998
+;;;;;;
+o;IfcColumn;IfcSlab;0l6IX565P6i8Len4Nege5D;0l6IX565P6i8Len4Neg$s2;M_Concrete-Rectangular-Column:300 x 300mm 2:1600825;Floor:Wood Joist 235mm - Ceramic Tile:1642998
+;;;;;;
+o;IfcColumn;IfcSlab;0l6IX565P6i8Len4Nege7e;0l6IX565P6i8Len4Neg$s2;M_Concrete-Rectangular-Column:300 x 300mm 2:1600924;Floor:Wood Joist 235mm - Ceramic Tile:1642998
+;;;;;;
+o;IfcColumn;IfcSlab;0E1S5iuafB2fvzLlsPnROB;0E1S5iuafB2fvzLlsPnRP0;M_Concrete-Rectangular-Column:300 x 300mm 2:1656349;Floor:Wood Joist 235mm - Ceramic Tile:1656406
+;;;;;;
+o;IfcColumn;IfcSlab;0E1S5iuafB2fvzLlsPnRO8;0E1S5iuafB2fvzLlsPnRP0;M_Concrete-Rectangular-Column:300 x 300mm 2:1656350;Floor:Wood Joist 235mm - Ceramic Tile:1656406
+;;;;;;
+x;IfcColumn;IfcColumn;0E1S5iuafB2fvzLlsPnRO9;2VDK9aCTP1FfMIO3jtD99_;M_Concrete-Rectangular-Column:300 x 300mm 2:1656351;M_Concrete-Rectangular-Column:300 x 300mm 2:1683755
+o;IfcColumn;IfcSlab;0E1S5iuafB2fvzLlsPnRO9;0E1S5iuafB2fvzLlsPnRP0;M_Concrete-Rectangular-Column:300 x 300mm 2:1656351;Floor:Wood Joist 235mm - Ceramic Tile:1656406
+x;IfcColumn;IfcSlab;0E1S5iuafB2fvzLlsPnRO9;2VDK9aCTP1FfMIO3jtDE1S;M_Concrete-Rectangular-Column:300 x 300mm 2:1656351;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688329
+x;IfcColumn;IfcWall;0E1S5iuafB2fvzLlsPnRO9;2_WQ3_2yn5Q9KT9M_$1EMC;M_Concrete-Rectangular-Column:300 x 300mm 2:1656351;Basic Wall:Generic - 150mm Masonry 2:1681632
+x;IfcColumn;IfcWall;0E1S5iuafB2fvzLlsPnRO9;2_WQ3_2yn5Q9KT9M_$1EMF;M_Concrete-Rectangular-Column:300 x 300mm 2:1656351;Basic Wall:Generic - 150mm Masonry 2:1681635
+;;;;;;
+o;IfcColumn;IfcSlab;0E1S5iuafB2fvzLlsPnROs;0E1S5iuafB2fvzLlsPnRP0;M_Concrete-Rectangular-Column:300 x 300mm 2:1656352;Floor:Wood Joist 235mm - Ceramic Tile:1656406
+;;;;;;
+o;IfcColumn;IfcSlab;0E1S5iuafB2fvzLlsPnROt;0E1S5iuafB2fvzLlsPnRP0;M_Concrete-Rectangular-Column:300 x 300mm 2:1656353;Floor:Wood Joist 235mm - Ceramic Tile:1656406
+;;;;;;
+o;IfcColumn;IfcSlab;0E1S5iuafB2fvzLlsPnROq;0E1S5iuafB2fvzLlsPnRP0;M_Concrete-Rectangular-Column:300 x 300mm 2:1656354;Floor:Wood Joist 235mm - Ceramic Tile:1656406
+;;;;;;
+x;IfcColumn;IfcColumn;2UN38zMIjBjx_foyPshHB0;2_WQ3_2yn5Q9KT9M_$1EA4;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170;M_Concrete-Rectangular-Column:300 x 300mm 2:1683432
+x;IfcColumn;IfcWall;2UN38zMIjBjx_foyPshHB0;2_WQ3_2yn5Q9KT9M_$1EMD;M_Concrete-Rectangular-Column:300 x 300mm 2:1670170;Basic Wall:Generic - 150mm Masonry 2:1681633
+;;;;;;
+x;IfcColumn;IfcColumn;2UN38zMIjBjx_foyPshH99;2VDK9aCTP1FfMIO3jtD99_;M_Concrete-Rectangular-Column:300 x 300mm 2:1670291;M_Concrete-Rectangular-Column:300 x 300mm 2:1683755
+;;;;;;
+o;IfcColumn;IfcWall;2_WQ3_2yn5Q9KT9M_$1EA4;2_WQ3_2yn5Q9KT9M_$1EMC;M_Concrete-Rectangular-Column:300 x 300mm 2:1683432;Basic Wall:Generic - 150mm Masonry 2:1681632
+o;IfcColumn;IfcWall;2_WQ3_2yn5Q9KT9M_$1EA4;2_WQ3_2yn5Q9KT9M_$1EMD;M_Concrete-Rectangular-Column:300 x 300mm 2:1683432;Basic Wall:Generic - 150mm Masonry 2:1681633
+;;;;;;
+o;IfcColumn;IfcColumn;2VDK9aCTP1FfMIO3jtD9E1;2VDK9aCTP1FfMIO3jtDE6H;M_Concrete-Rectangular-Column:300 x 300mm 2:1683668;M_Concrete-Rectangular-Column:300 x 300mm 2:1688260
+o;IfcColumn;IfcSlab;2VDK9aCTP1FfMIO3jtD9E1;2VDK9aCTP1FfMIO3jtDE1S;M_Concrete-Rectangular-Column:300 x 300mm 2:1683668;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688329
+o;IfcColumn;IfcWall;2VDK9aCTP1FfMIO3jtD9E1;2_WQ3_2yn5Q9KT9M_$1EMC;M_Concrete-Rectangular-Column:300 x 300mm 2:1683668;Basic Wall:Generic - 150mm Masonry 2:1681632
+;;;;;;
+o;IfcColumn;IfcWall;2VDK9aCTP1FfMIO3jtD99_;2_WQ3_2yn5Q9KT9M_$1EMC;M_Concrete-Rectangular-Column:300 x 300mm 2:1683755;Basic Wall:Generic - 150mm Masonry 2:1681632
+o;IfcColumn;IfcWall;2VDK9aCTP1FfMIO3jtD99_;2_WQ3_2yn5Q9KT9M_$1EMF;M_Concrete-Rectangular-Column:300 x 300mm 2:1683755;Basic Wall:Generic - 150mm Masonry 2:1681635
+;;;;;;
+x;IfcColumn;IfcColumn;2VDK9aCTP1FfMIO3jtD970;2VDK9aCTP1FfMIO3jtDE6I;M_Concrete-Rectangular-Column:300 x 300mm 2:1684117;M_Concrete-Rectangular-Column:300 x 300mm 2:1688263
+o;IfcColumn;IfcSlab;2VDK9aCTP1FfMIO3jtD970;2VDK9aCTP1FfMIO3jtDE1S;M_Concrete-Rectangular-Column:300 x 300mm 2:1684117;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688329
+o;IfcColumn;IfcWall;2VDK9aCTP1FfMIO3jtD970;2_WQ3_2yn5Q9KT9M_$1EME;M_Concrete-Rectangular-Column:300 x 300mm 2:1684117;Basic Wall:Generic - 150mm Masonry 2:1681634
+;;;;;;
+o;IfcSlab;IfcSlab;0l6IX565P6i8Len4Neg$s2;2VDK9aCTP1FfMIO3jtD9t7;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Floor:Wood Joist 235mm - Wood Finish:1687186
+o;IfcSlab;IfcSlab;0l6IX565P6i8Len4Neg$s2;2VDK9aCTP1FfMIO3jtDE1S;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688329
+o;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;03eNWevH14SuGAN$kybhui;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1594907
+o;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;03eNWevH14SuGAN$kybhuh;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1594908
+o;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;03eNWevH14SuGAN$kybhug;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1594909
+o;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;03eNWevH14SuGAN$kybhuf;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1594910
+o;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;03eNWevH14SuGAN$kybhyc;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1595153
+o;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;03eNWevH14SuGAN$kybh$h;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1595356
+o;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;2_WQ3_2yn5Q9KT9M_$1EhQ;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1681334
+x;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;2_WQ3_2yn5Q9KT9M_$1EgR;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1681399
+x;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;2_WQ3_2yn5Q9KT9M_$1EMC;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1681632
+o;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;2_WQ3_2yn5Q9KT9M_$1EMD;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1681633
+x;IfcSlab;IfcWall;0l6IX565P6i8Len4Neg$s2;2_WQ3_2yn5Q9KT9M_$1EME;Floor:Wood Joist 235mm - Ceramic Tile:1642998;Basic Wall:Generic - 150mm Masonry 2:1681634
+;;;;;;
+o;IfcSlab;IfcSlab;0E1S5iuafB2fvzLlsPnRP0;2VDK9aCTP1FfMIO3jtD9t7;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Floor:Wood Joist 235mm - Wood Finish:1687186
+o;IfcSlab;IfcSlab;0E1S5iuafB2fvzLlsPnRP0;2VDK9aCTP1FfMIO3jtDE1S;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688329
+o;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;0E1S5iuafB2fvzLlsPnROM;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1656320
+o;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;0E1S5iuafB2fvzLlsPnRON;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1656321
+o;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;0E1S5iuafB2fvzLlsPnROK;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1656322
+o;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;0E1S5iuafB2fvzLlsPnROL;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1656323
+o;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;0E1S5iuafB2fvzLlsPnROU;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1656328
+o;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;2UN38zMIjBjx_foyPshHK3;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1670105
+x;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;2_WQ3_2yn5Q9KT9M_$1EgR;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1681399
+o;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;2_WQ3_2yn5Q9KT9M_$1EL9;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1681445
+x;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;2_WQ3_2yn5Q9KT9M_$1EMC;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1681632
+x;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;2_WQ3_2yn5Q9KT9M_$1EME;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1681634
+o;IfcSlab;IfcWall;0E1S5iuafB2fvzLlsPnRP0;2_WQ3_2yn5Q9KT9M_$1EMF;Floor:Wood Joist 235mm - Ceramic Tile:1656406;Basic Wall:Generic - 150mm Masonry 2:1681635
+;;;;;;
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9t7;03eNWevH14SuGAN$kybhyc;Floor:Wood Joist 235mm - Wood Finish:1687186;Basic Wall:Generic - 150mm Masonry 2:1595153
+x;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9t7;2UN38zMIjBjx_foyPshHK3;Floor:Wood Joist 235mm - Wood Finish:1687186;Basic Wall:Generic - 150mm Masonry 2:1670105
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9t7;2_WQ3_2yn5Q9KT9M_$1EiH;Floor:Wood Joist 235mm - Wood Finish:1687186;Basic Wall:Generic - 150mm Masonry 2:1681021
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9t7;2_WQ3_2yn5Q9KT9M_$1EhQ;Floor:Wood Joist 235mm - Wood Finish:1687186;Basic Wall:Generic - 150mm Masonry 2:1681334
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9t7;2_WQ3_2yn5Q9KT9M_$1EgR;Floor:Wood Joist 235mm - Wood Finish:1687186;Basic Wall:Generic - 150mm Masonry 2:1681399
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtD9t7;2_WQ3_2yn5Q9KT9M_$1EL9;Floor:Wood Joist 235mm - Wood Finish:1687186;Basic Wall:Generic - 150mm Masonry 2:1681445
+;;;;;;
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE1S;2_WQ3_2yn5Q9KT9M_$1EMC;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688329;Basic Wall:Generic - 150mm Masonry 2:1681632
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE1S;2_WQ3_2yn5Q9KT9M_$1EMD;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688329;Basic Wall:Generic - 150mm Masonry 2:1681633
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE1S;2_WQ3_2yn5Q9KT9M_$1EME;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688329;Basic Wall:Generic - 150mm Masonry 2:1681634
+o;IfcSlab;IfcWall;2VDK9aCTP1FfMIO3jtDE1S;2_WQ3_2yn5Q9KT9M_$1EMF;Floor:Wood Truss  Joist 286mm - Carpet Finish:1688329;Basic Wall:Generic - 150mm Masonry 2:1681635
+;;;;;;
+o;IfcWall;IfcWall;03eNWevH14SuGAN$kybhui;03eNWevH14SuGAN$kybhuh;Basic Wall:Generic - 150mm Masonry 2:1594907;Basic Wall:Generic - 150mm Masonry 2:1594908
+o;IfcWall;IfcWall;03eNWevH14SuGAN$kybhui;03eNWevH14SuGAN$kybhuf;Basic Wall:Generic - 150mm Masonry 2:1594907;Basic Wall:Generic - 150mm Masonry 2:1594910
+o;IfcWall;IfcWall;03eNWevH14SuGAN$kybhui;03eNWevH14SuGAN$kybhyc;Basic Wall:Generic - 150mm Masonry 2:1594907;Basic Wall:Generic - 150mm Masonry 2:1595153
+;;;;;;
+o;IfcWall;IfcWall;03eNWevH14SuGAN$kybhuh;03eNWevH14SuGAN$kybhug;Basic Wall:Generic - 150mm Masonry 2:1594908;Basic Wall:Generic - 150mm Masonry 2:1594909
+o;IfcWall;IfcWall;03eNWevH14SuGAN$kybhuh;03eNWevH14SuGAN$kybhyc;Basic Wall:Generic - 150mm Masonry 2:1594908;Basic Wall:Generic - 150mm Masonry 2:1595153
+o;IfcWall;IfcWall;03eNWevH14SuGAN$kybhuh;03eNWevH14SuGAN$kybh$h;Basic Wall:Generic - 150mm Masonry 2:1594908;Basic Wall:Generic - 150mm Masonry 2:1595356
+;;;;;;
+o;IfcWall;IfcWall;03eNWevH14SuGAN$kybhug;03eNWevH14SuGAN$kybh$h;Basic Wall:Generic - 150mm Masonry 2:1594909;Basic Wall:Generic - 150mm Masonry 2:1595356
+;;;;;;
+o;IfcWall;IfcWall;03eNWevH14SuGAN$kybhuf;03eNWevH14SuGAN$kybh$h;Basic Wall:Generic - 150mm Masonry 2:1594910;Basic Wall:Generic - 150mm Masonry 2:1595356
+;;;;;;
+o;IfcWall;IfcWall;03eNWevH14SuGAN$kybhyc;2_WQ3_2yn5Q9KT9M_$1EiH;Basic Wall:Generic - 150mm Masonry 2:1595153;Basic Wall:Generic - 150mm Masonry 2:1681021
+o;IfcWall;IfcWall;03eNWevH14SuGAN$kybhyc;2_WQ3_2yn5Q9KT9M_$1EhQ;Basic Wall:Generic - 150mm Masonry 2:1595153;Basic Wall:Generic - 150mm Masonry 2:1681334
+;;;;;;
+o;IfcWall;IfcWall;0E1S5iuafB2fvzLlsPnROM;0E1S5iuafB2fvzLlsPnRON;Basic Wall:Generic - 150mm Masonry 2:1656320;Basic Wall:Generic - 150mm Masonry 2:1656321
+o;IfcWall;IfcWall;0E1S5iuafB2fvzLlsPnROM;0E1S5iuafB2fvzLlsPnROL;Basic Wall:Generic - 150mm Masonry 2:1656320;Basic Wall:Generic - 150mm Masonry 2:1656323
+o;IfcWall;IfcWall;0E1S5iuafB2fvzLlsPnROM;2UN38zMIjBjx_foyPshHK3;Basic Wall:Generic - 150mm Masonry 2:1656320;Basic Wall:Generic - 150mm Masonry 2:1670105
+;;;;;;
+o;IfcWall;IfcWall;0E1S5iuafB2fvzLlsPnRON;0E1S5iuafB2fvzLlsPnROK;Basic Wall:Generic - 150mm Masonry 2:1656321;Basic Wall:Generic - 150mm Masonry 2:1656322
+o;IfcWall;IfcWall;0E1S5iuafB2fvzLlsPnRON;0E1S5iuafB2fvzLlsPnROU;Basic Wall:Generic - 150mm Masonry 2:1656321;Basic Wall:Generic - 150mm Masonry 2:1656328
+o;IfcWall;IfcWall;0E1S5iuafB2fvzLlsPnRON;2UN38zMIjBjx_foyPshHK3;Basic Wall:Generic - 150mm Masonry 2:1656321;Basic Wall:Generic - 150mm Masonry 2:1670105
+;;;;;;
+o;IfcWall;IfcWall;0E1S5iuafB2fvzLlsPnROK;0E1S5iuafB2fvzLlsPnROU;Basic Wall:Generic - 150mm Masonry 2:1656322;Basic Wall:Generic - 150mm Masonry 2:1656328
+;;;;;;
+o;IfcWall;IfcWall;0E1S5iuafB2fvzLlsPnROL;0E1S5iuafB2fvzLlsPnROU;Basic Wall:Generic - 150mm Masonry 2:1656323;Basic Wall:Generic - 150mm Masonry 2:1656328
+;;;;;;
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHK3;2_WQ3_2yn5Q9KT9M_$1EiH;Basic Wall:Generic - 150mm Masonry 2:1670105;Basic Wall:Generic - 150mm Masonry 2:1681021
+o;IfcWall;IfcWall;2UN38zMIjBjx_foyPshHK3;2_WQ3_2yn5Q9KT9M_$1EL9;Basic Wall:Generic - 150mm Masonry 2:1670105;Basic Wall:Generic - 150mm Masonry 2:1681445
+;;;;;;
+o;IfcWall;IfcWall;2_WQ3_2yn5Q9KT9M_$1EiH;2_WQ3_2yn5Q9KT9M_$1EhQ;Basic Wall:Generic - 150mm Masonry 2:1681021;Basic Wall:Generic - 150mm Masonry 2:1681334
+o;IfcWall;IfcWall;2_WQ3_2yn5Q9KT9M_$1EiH;2_WQ3_2yn5Q9KT9M_$1EL9;Basic Wall:Generic - 150mm Masonry 2:1681021;Basic Wall:Generic - 150mm Masonry 2:1681445
+;;;;;;
+o;IfcWall;IfcWall;2_WQ3_2yn5Q9KT9M_$1EhQ;2_WQ3_2yn5Q9KT9M_$1EgR;Basic Wall:Generic - 150mm Masonry 2:1681334;Basic Wall:Generic - 150mm Masonry 2:1681399
+;;;;;;
+o;IfcWall;IfcWall;2_WQ3_2yn5Q9KT9M_$1EgR;2_WQ3_2yn5Q9KT9M_$1EL9;Basic Wall:Generic - 150mm Masonry 2:1681399;Basic Wall:Generic - 150mm Masonry 2:1681445
+;;;;;;
+o;IfcWall;IfcWall;2_WQ3_2yn5Q9KT9M_$1EMC;2_WQ3_2yn5Q9KT9M_$1EMD;Basic Wall:Generic - 150mm Masonry 2:1681632;Basic Wall:Generic - 150mm Masonry 2:1681633
+o;IfcWall;IfcWall;2_WQ3_2yn5Q9KT9M_$1EMC;2_WQ3_2yn5Q9KT9M_$1EMF;Basic Wall:Generic - 150mm Masonry 2:1681632;Basic Wall:Generic - 150mm Masonry 2:1681635
+;;;;;;
+o;IfcWall;IfcWall;2_WQ3_2yn5Q9KT9M_$1EMD;2_WQ3_2yn5Q9KT9M_$1EME;Basic Wall:Generic - 150mm Masonry 2:1681633;Basic Wall:Generic - 150mm Masonry 2:1681634
+;;;;;;
+o;IfcWall;IfcWall;2_WQ3_2yn5Q9KT9M_$1EME;2_WQ3_2yn5Q9KT9M_$1EMF;Basic Wall:Generic - 150mm Masonry 2:1681634;Basic Wall:Generic - 150mm Masonry 2:1681635

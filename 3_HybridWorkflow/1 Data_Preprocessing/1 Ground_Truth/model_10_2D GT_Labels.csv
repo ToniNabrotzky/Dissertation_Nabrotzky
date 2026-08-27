@@ -1,0 +1,769 @@
+Status;Type_A;Type_B;GUID_A;GUID_B;Name_A;Name_B
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQ66bby3;Floor:Concrete 150mm:1645068;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQ26bby3;Floor:Concrete 150mm:1645068;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQU6bby3;Floor:Concrete 150mm:1645068;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQQ6bby3;Floor:Concrete 150mm:1645068;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbr_;Floor:Concrete 150mm:1645068;Basic Wall:Concrete 200mm:1644839
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrn;Floor:Concrete 150mm:1645068;Basic Wall:Concrete 200mm:1644840
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrm;Floor:Concrete 150mm:1645068;Basic Wall:Concrete 200mm:1644841
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbvL;1Ze_HzuKn5mB7tAQE6bbrp;Floor:Concrete 150mm:1645068;Basic Wall:Concrete 200mm:1644842
+;;;;;;
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQ26bby3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQQ6bby3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+x;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQE6bbr_;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644839
+x;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQE6bbrm;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644841
+xo;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQ66bby3;1Ze_HzuKn5mB7tAQE6bbrp;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644842
+;;;;;;
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQU6bby3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQQ6bby3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+x;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQE6bbrn;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644840
+xo;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQE6bbrm;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644841
+x;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQ26bby3;1Ze_HzuKn5mB7tAQE6bbrp;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644842
+;;;;;;
+o;IfcSlab;IfcSlab;1Ze_HzuKn5mB7tAQU6bby3;1Ze_HzuKn5mB7tAQQ6bby3;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402
+x;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQU6bby3;1Ze_HzuKn5mB7tAQE6bbr_;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644839
+xo;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQU6bby3;1Ze_HzuKn5mB7tAQE6bbrn;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644840
+x;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQU6bby3;1Ze_HzuKn5mB7tAQE6bbrm;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644841
+;;;;;;
+xo;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQQ6bby3;1Ze_HzuKn5mB7tAQE6bbr_;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644839
+x;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQQ6bby3;1Ze_HzuKn5mB7tAQE6bbrn;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644840
+x;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQQ6bby3;1Ze_HzuKn5mB7tAQE6bbrp;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1645402;Basic Wall:Concrete 200mm:1644842
+;;;;;;
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIuadDaEuM;Floor:Concrete 150mm:1651464;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIuaZDaEuM;Floor:Concrete 150mm:1651464;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIua$DaEuM;Floor:Concrete 150mm:1651464;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIuaxDaEuM;Floor:Concrete 150mm:1651464;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaE$p;Floor:Concrete 150mm:1651464;Basic Wall:Concrete 200mm:1651446
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaE$o;Floor:Concrete 150mm:1651464;Basic Wall:Concrete 200mm:1651447
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaE$z;Floor:Concrete 150mm:1651464;Basic Wall:Concrete 200mm:1651448
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEuD;3zPFHdZZvE6QPIualDaE$y;Floor:Concrete 150mm:1651464;Basic Wall:Concrete 200mm:1651449
+;;;;;;
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIuaZDaEuM;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIuaxDaEuM;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+x;IfcSlab;IfcWall;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIualDaE$p;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651446
+x;IfcSlab;IfcWall;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIualDaE$z;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651448
+xo;IfcSlab;IfcWall;3zPFHdZZvE6QPIuadDaEuM;3zPFHdZZvE6QPIualDaE$y;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651449
+;;;;;;
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIua$DaEuM;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIuaxDaEuM;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+x;IfcSlab;IfcWall;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIualDaE$o;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651447
+xo;IfcSlab;IfcWall;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIualDaE$z;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651448
+x;IfcSlab;IfcWall;3zPFHdZZvE6QPIuaZDaEuM;3zPFHdZZvE6QPIualDaE$y;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651449
+;;;;;;
+o;IfcSlab;IfcSlab;3zPFHdZZvE6QPIua$DaEuM;3zPFHdZZvE6QPIuaxDaEuM;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475
+x;IfcSlab;IfcWall;3zPFHdZZvE6QPIua$DaEuM;3zPFHdZZvE6QPIualDaE$p;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651446
+xo;IfcSlab;IfcWall;3zPFHdZZvE6QPIua$DaEuM;3zPFHdZZvE6QPIualDaE$o;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651447
+x;IfcSlab;IfcWall;3zPFHdZZvE6QPIua$DaEuM;3zPFHdZZvE6QPIualDaE$z;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651448
+;;;;;;
+xo;IfcSlab;IfcWall;3zPFHdZZvE6QPIuaxDaEuM;3zPFHdZZvE6QPIualDaE$p;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651446
+x;IfcSlab;IfcWall;3zPFHdZZvE6QPIuaxDaEuM;3zPFHdZZvE6QPIualDaE$o;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651447
+x;IfcSlab;IfcWall;3zPFHdZZvE6QPIuaxDaEuM;3zPFHdZZvE6QPIualDaE$y;Basic Roof:Wood Rafter 235mm - Asphalt Shingle:1651475;Basic Wall:Concrete 200mm:1651449
+;;;;;;
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbr_;Floor:Concrete 150mm:1644675;Basic Wall:Concrete 200mm:1644839
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbrm;Floor:Concrete 150mm:1644675;Basic Wall:Concrete 200mm:1644841
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbrp;Floor:Concrete 150mm:1644675;Basic Wall:Concrete 200mm:1644842
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbF7;Floor:Concrete 150mm:1644675;Basic Wall:Concrete 200mm:1644446
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbFv;Floor:Concrete 150mm:1644675;Basic Wall:Concrete 200mm:1644448
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbpQ;1Ze_HzuKn5mB7tAQE6bbFu;Floor:Concrete 150mm:1644675;Basic Wall:Concrete 200mm:1644449
+;;;;;;
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaE$p;Floor:Concrete 150mm:1651289;Basic Wall:Concrete 200mm:1651446
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaE$z;Floor:Concrete 150mm:1651289;Basic Wall:Concrete 200mm:1651448
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaE$y;Floor:Concrete 150mm:1651289;Basic Wall:Concrete 200mm:1651449
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEyC;Floor:Concrete 150mm:1651289;Basic Wall:Concrete 200mm:1651209
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEyE;Floor:Concrete 150mm:1651289;Basic Wall:Concrete 200mm:1651211
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEzS;3zPFHdZZvE6QPIualDaEy9;Floor:Concrete 150mm:1651289;Basic Wall:Concrete 200mm:1651212
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbr_;1Ze_HzuKn5mB7tAQE6bbrn;Basic Wall:Concrete 200mm:1644839;Basic Wall:Concrete 200mm:1644840
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbr_;1Ze_HzuKn5mB7tAQE6bbrp;Basic Wall:Concrete 200mm:1644839;Basic Wall:Concrete 200mm:1644842
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbr_;1Ze_HzuKn5mB7tAQE6bbF7;Basic Wall:Concrete 200mm:1644839;Basic Wall:Concrete 200mm:1644446
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbr_;1Ze_HzuKn5mB7tAQE6bbF6;Basic Wall:Concrete 200mm:1644839;Basic Wall:Concrete 200mm:1644447
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbr_;1Ze_HzuKn5mB7tAQE6bbFu;Basic Wall:Concrete 200mm:1644839;Basic Wall:Concrete 200mm:1644449
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrn;1Ze_HzuKn5mB7tAQE6bbrm;Basic Wall:Concrete 200mm:1644840;Basic Wall:Concrete 200mm:1644841
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrn;1Ze_HzuKn5mB7tAQE6bbF7;Basic Wall:Concrete 200mm:1644840;Basic Wall:Concrete 200mm:1644446
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrn;1Ze_HzuKn5mB7tAQE6bbF6;Basic Wall:Concrete 200mm:1644840;Basic Wall:Concrete 200mm:1644447
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrn;1Ze_HzuKn5mB7tAQE6bbFv;Basic Wall:Concrete 200mm:1644840;Basic Wall:Concrete 200mm:1644448
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrm;1Ze_HzuKn5mB7tAQE6bbrp;Basic Wall:Concrete 200mm:1644841;Basic Wall:Concrete 200mm:1644842
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrm;1Ze_HzuKn5mB7tAQE6bbF6;Basic Wall:Concrete 200mm:1644841;Basic Wall:Concrete 200mm:1644447
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrm;1Ze_HzuKn5mB7tAQE6bbFv;Basic Wall:Concrete 200mm:1644841;Basic Wall:Concrete 200mm:1644448
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrm;1Ze_HzuKn5mB7tAQE6bbFu;Basic Wall:Concrete 200mm:1644841;Basic Wall:Concrete 200mm:1644449
+;;;;;;
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrp;1Ze_HzuKn5mB7tAQE6bbF7;Basic Wall:Concrete 200mm:1644842;Basic Wall:Concrete 200mm:1644446
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrp;1Ze_HzuKn5mB7tAQE6bbFv;Basic Wall:Concrete 200mm:1644842;Basic Wall:Concrete 200mm:1644448
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbrp;1Ze_HzuKn5mB7tAQE6bbFu;Basic Wall:Concrete 200mm:1644842;Basic Wall:Concrete 200mm:1644449
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$p;3zPFHdZZvE6QPIualDaE$o;Basic Wall:Concrete 200mm:1651446;Basic Wall:Concrete 200mm:1651447
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$p;3zPFHdZZvE6QPIualDaE$y;Basic Wall:Concrete 200mm:1651446;Basic Wall:Concrete 200mm:1651449
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$p;3zPFHdZZvE6QPIualDaEyC;Basic Wall:Concrete 200mm:1651446;Basic Wall:Concrete 200mm:1651209
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$p;3zPFHdZZvE6QPIualDaEyF;Basic Wall:Concrete 200mm:1651446;Basic Wall:Concrete 200mm:1651210
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$p;3zPFHdZZvE6QPIualDaEy9;Basic Wall:Concrete 200mm:1651446;Basic Wall:Concrete 200mm:1651212
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$o;3zPFHdZZvE6QPIualDaE$z;Basic Wall:Concrete 200mm:1651447;Basic Wall:Concrete 200mm:1651448
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$o;3zPFHdZZvE6QPIualDaEyC;Basic Wall:Concrete 200mm:1651447;Basic Wall:Concrete 200mm:1651209
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$o;3zPFHdZZvE6QPIualDaEyF;Basic Wall:Concrete 200mm:1651447;Basic Wall:Concrete 200mm:1651210
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$o;3zPFHdZZvE6QPIualDaEyE;Basic Wall:Concrete 200mm:1651447;Basic Wall:Concrete 200mm:1651211
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$z;3zPFHdZZvE6QPIualDaE$y;Basic Wall:Concrete 200mm:1651448;Basic Wall:Concrete 200mm:1651449
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$z;3zPFHdZZvE6QPIualDaEyF;Basic Wall:Concrete 200mm:1651448;Basic Wall:Concrete 200mm:1651210
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$z;3zPFHdZZvE6QPIualDaEyE;Basic Wall:Concrete 200mm:1651448;Basic Wall:Concrete 200mm:1651211
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$z;3zPFHdZZvE6QPIualDaEy9;Basic Wall:Concrete 200mm:1651448;Basic Wall:Concrete 200mm:1651212
+;;;;;;
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$y;3zPFHdZZvE6QPIualDaEyC;Basic Wall:Concrete 200mm:1651449;Basic Wall:Concrete 200mm:1651209
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$y;3zPFHdZZvE6QPIualDaEyE;Basic Wall:Concrete 200mm:1651449;Basic Wall:Concrete 200mm:1651211
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaE$y;3zPFHdZZvE6QPIualDaEy9;Basic Wall:Concrete 200mm:1651449;Basic Wall:Concrete 200mm:1651212
+;;;;;;
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bbF7;Floor:Concrete 150mm:1644282;Basic Wall:Concrete 200mm:1644446
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bbFv;Floor:Concrete 150mm:1644282;Basic Wall:Concrete 200mm:1644448
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bbFu;Floor:Concrete 150mm:1644282;Basic Wall:Concrete 200mm:1644449
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb9C;Floor:Concrete 150mm:1644282;Basic Wall:Concrete 200mm:1644053
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb9E;Floor:Concrete 150mm:1644282;Basic Wall:Concrete 200mm:1644055
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bbAZ;1Ze_HzuKn5mB7tAQE6bb91;Floor:Concrete 150mm:1644282;Basic Wall:Concrete 200mm:1644056
+;;;;;;
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEyC;Floor:Concrete 150mm:1651052;Basic Wall:Concrete 200mm:1651209
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEyE;Floor:Concrete 150mm:1651052;Basic Wall:Concrete 200mm:1651211
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEy9;Floor:Concrete 150mm:1651052;Basic Wall:Concrete 200mm:1651212
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmP;Floor:Concrete 150mm:1651052;Basic Wall:Concrete 200mm:1650972
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmR;Floor:Concrete 150mm:1651052;Basic Wall:Concrete 200mm:1650974
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEnf;3zPFHdZZvE6QPIualDaEmQ;Floor:Concrete 150mm:1651052;Basic Wall:Concrete 200mm:1650975
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbF7;1Ze_HzuKn5mB7tAQE6bbF6;Basic Wall:Concrete 200mm:1644446;Basic Wall:Concrete 200mm:1644447
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbF7;1Ze_HzuKn5mB7tAQE6bbFu;Basic Wall:Concrete 200mm:1644446;Basic Wall:Concrete 200mm:1644449
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbF7;1Ze_HzuKn5mB7tAQE6bb9C;Basic Wall:Concrete 200mm:1644446;Basic Wall:Concrete 200mm:1644053
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbF7;1Ze_HzuKn5mB7tAQE6bb9F;Basic Wall:Concrete 200mm:1644446;Basic Wall:Concrete 200mm:1644054
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbF7;1Ze_HzuKn5mB7tAQE6bb91;Basic Wall:Concrete 200mm:1644446;Basic Wall:Concrete 200mm:1644056
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbF6;1Ze_HzuKn5mB7tAQE6bbFv;Basic Wall:Concrete 200mm:1644447;Basic Wall:Concrete 200mm:1644448
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbF6;1Ze_HzuKn5mB7tAQE6bb9C;Basic Wall:Concrete 200mm:1644447;Basic Wall:Concrete 200mm:1644053
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbF6;1Ze_HzuKn5mB7tAQE6bb9F;Basic Wall:Concrete 200mm:1644447;Basic Wall:Concrete 200mm:1644054
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbF6;1Ze_HzuKn5mB7tAQE6bb9E;Basic Wall:Concrete 200mm:1644447;Basic Wall:Concrete 200mm:1644055
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbFv;1Ze_HzuKn5mB7tAQE6bbFu;Basic Wall:Concrete 200mm:1644448;Basic Wall:Concrete 200mm:1644449
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbFv;1Ze_HzuKn5mB7tAQE6bb9F;Basic Wall:Concrete 200mm:1644448;Basic Wall:Concrete 200mm:1644054
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbFv;1Ze_HzuKn5mB7tAQE6bb9E;Basic Wall:Concrete 200mm:1644448;Basic Wall:Concrete 200mm:1644055
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbFv;1Ze_HzuKn5mB7tAQE6bb91;Basic Wall:Concrete 200mm:1644448;Basic Wall:Concrete 200mm:1644056
+;;;;;;
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbFu;1Ze_HzuKn5mB7tAQE6bb9C;Basic Wall:Concrete 200mm:1644449;Basic Wall:Concrete 200mm:1644053
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbFu;1Ze_HzuKn5mB7tAQE6bb9E;Basic Wall:Concrete 200mm:1644449;Basic Wall:Concrete 200mm:1644055
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bbFu;1Ze_HzuKn5mB7tAQE6bb91;Basic Wall:Concrete 200mm:1644449;Basic Wall:Concrete 200mm:1644056
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyC;3zPFHdZZvE6QPIualDaEyF;Basic Wall:Concrete 200mm:1651209;Basic Wall:Concrete 200mm:1651210
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyC;3zPFHdZZvE6QPIualDaEy9;Basic Wall:Concrete 200mm:1651209;Basic Wall:Concrete 200mm:1651212
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyC;3zPFHdZZvE6QPIualDaEmP;Basic Wall:Concrete 200mm:1651209;Basic Wall:Concrete 200mm:1650972
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyC;3zPFHdZZvE6QPIualDaEmO;Basic Wall:Concrete 200mm:1651209;Basic Wall:Concrete 200mm:1650973
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyC;3zPFHdZZvE6QPIualDaEmQ;Basic Wall:Concrete 200mm:1651209;Basic Wall:Concrete 200mm:1650975
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyF;3zPFHdZZvE6QPIualDaEyE;Basic Wall:Concrete 200mm:1651210;Basic Wall:Concrete 200mm:1651211
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyF;3zPFHdZZvE6QPIualDaEmP;Basic Wall:Concrete 200mm:1651210;Basic Wall:Concrete 200mm:1650972
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyF;3zPFHdZZvE6QPIualDaEmO;Basic Wall:Concrete 200mm:1651210;Basic Wall:Concrete 200mm:1650973
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyF;3zPFHdZZvE6QPIualDaEmR;Basic Wall:Concrete 200mm:1651210;Basic Wall:Concrete 200mm:1650974
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyE;3zPFHdZZvE6QPIualDaEy9;Basic Wall:Concrete 200mm:1651211;Basic Wall:Concrete 200mm:1651212
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyE;3zPFHdZZvE6QPIualDaEmO;Basic Wall:Concrete 200mm:1651211;Basic Wall:Concrete 200mm:1650973
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyE;3zPFHdZZvE6QPIualDaEmR;Basic Wall:Concrete 200mm:1651211;Basic Wall:Concrete 200mm:1650974
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEyE;3zPFHdZZvE6QPIualDaEmQ;Basic Wall:Concrete 200mm:1651211;Basic Wall:Concrete 200mm:1650975
+;;;;;;
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEy9;3zPFHdZZvE6QPIualDaEmP;Basic Wall:Concrete 200mm:1651212;Basic Wall:Concrete 200mm:1650972
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEy9;3zPFHdZZvE6QPIualDaEmR;Basic Wall:Concrete 200mm:1651212;Basic Wall:Concrete 200mm:1650974
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEy9;3zPFHdZZvE6QPIualDaEmQ;Basic Wall:Concrete 200mm:1651212;Basic Wall:Concrete 200mm:1650975
+;;;;;;
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;2mpujw6n12d93LqapNBqr9;Floor:Concrete 250mm:1623937;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;2mpujw6n12d93LqatNBqr9;Floor:Concrete 250mm:1623937;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;2mpujw6n12d93LqahNBqr9;Floor:Concrete 250mm:1623937;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;2mpujw6n12d93LqalNBqr9;Floor:Concrete 250mm:1623937;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb4e;Floor:Concrete 250mm:1623937;Floor:Concrete 150mm:1643889
+o;IfcSlab;IfcSlab;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaErw;Floor:Concrete 250mm:1623937;Floor:Concrete 150mm:1650815
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb9C;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1644053
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb9E;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1644055
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb91;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1644056
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEmP;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1650972
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEmR;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1650974
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEmQ;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1650975
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9f;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619101
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9g;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619102
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9h;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619103
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9K;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619104
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9L;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619105
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9M;Floor:Concrete 250mm:1623937;M_W Shapes:W410X53:1619106
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9N;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1619107
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9G;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1619108
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9H;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1619109
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eu9I;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1619110
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eusR;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620847
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus4;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620848
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus5;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620849
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus6;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620850
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus7;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620851
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus0;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620852
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus1;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620853
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eus2;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620854
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7eure;Floor:Concrete 250mm:1623937;M_W Shapes:W760X134:1620892
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb3L;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1643660
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb3N;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1643662
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;1Ze_HzuKn5mB7tAQE6bb3M;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1643663
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEqg;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1650735
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEqq;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1650737
+x;IfcSlab;IfcWall;3AKaO4ufT7ERYrUMp7e$5r;3zPFHdZZvE6QPIualDaEqt;Floor:Concrete 250mm:1623937;Basic Wall:Concrete 200mm:1650738
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3lo8hfPmTDfP813$HDU1DS;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gTv;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gR5;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gR4;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gRq;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gRp;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gRf;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gRe;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gO0;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;1hbkU0pOD8Ug4zX2q86gO$;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evlR;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evl4;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evl5;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evl6;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evl7;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7e$5r;3AKaO4ufT7ERYrUMp7evl0;Floor:Concrete 250mm:1623937;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcSlab;IfcSlab;2mpujw6n12d93LqapNBqr9;2mpujw6n12d93LqatNBqr9;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;2mpujw6n12d93LqapNBqr9;2mpujw6n12d93LqalNBqr9;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+x;IfcSlab;IfcSlab;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb4e;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Floor:Concrete 150mm:1643889
+x;IfcSlab;IfcWall;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb9C;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1644053
+x;IfcSlab;IfcWall;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb9E;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1644055
+x;IfcSlab;IfcWall;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb91;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1644056
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqapNBqr9;3AKaO4ufT7ERYrUMp7eusR;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620847
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqapNBqr9;3AKaO4ufT7ERYrUMp7eus2;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620854
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqapNBqr9;3AKaO4ufT7ERYrUMp7eure;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620892
+x;IfcSlab;IfcWall;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb3L;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1643660
+x;IfcSlab;IfcWall;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb3N;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1643662
+x;IfcSlab;IfcWall;2mpujw6n12d93LqapNBqr9;1Ze_HzuKn5mB7tAQE6bb3M;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1643663
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqapNBqr9;3lo8hfPmTDfP813$HDU1DS;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqapNBqr9;1hbkU0pOD8Ug4zX2q86gTv;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+;;;;;;
+o;IfcSlab;IfcSlab;2mpujw6n12d93LqatNBqr9;2mpujw6n12d93LqahNBqr9;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+o;IfcSlab;IfcSlab;2mpujw6n12d93LqatNBqr9;2mpujw6n12d93LqalNBqr9;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+x;IfcSlab;IfcSlab;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb4e;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Floor:Concrete 150mm:1643889
+x;IfcSlab;IfcSlab;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaErw;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Floor:Concrete 150mm:1650815
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb9C;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1644053
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb9E;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1644055
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb91;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1644056
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEmP;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1650972
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEmR;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1650974
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEmQ;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1650975
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9K;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619104
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9L;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619105
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9M;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619106
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9N;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619107
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9G;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619108
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9H;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619109
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eu9I;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619110
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eus7;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620851
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eus0;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620852
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eus1;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620853
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eus2;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620854
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7eure;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620892
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb3L;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1643660
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb3N;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1643662
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;1Ze_HzuKn5mB7tAQE6bb3M;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1643663
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEqg;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1650735
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEqq;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1650737
+x;IfcSlab;IfcWall;2mpujw6n12d93LqatNBqr9;3zPFHdZZvE6QPIualDaEqt;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Wall:Concrete 200mm:1650738
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1hbkU0pOD8Ug4zX2q86gTv;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1hbkU0pOD8Ug4zX2q86gR4;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1hbkU0pOD8Ug4zX2q86gRp;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1hbkU0pOD8Ug4zX2q86gRe;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;1hbkU0pOD8Ug4zX2q86gO$;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7evl4;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7evl6;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqatNBqr9;3AKaO4ufT7ERYrUMp7evl0;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcSlab;IfcSlab;2mpujw6n12d93LqahNBqr9;2mpujw6n12d93LqalNBqr9;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqahNBqr9;3AKaO4ufT7ERYrUMp7eu9h;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619103
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqahNBqr9;3AKaO4ufT7ERYrUMp7eu9M;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619106
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqahNBqr9;3AKaO4ufT7ERYrUMp7eu9N;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619107
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqahNBqr9;3AKaO4ufT7ERYrUMp7evl7;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqahNBqr9;3AKaO4ufT7ERYrUMp7evl0;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9f;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619101
+o;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9g;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619102
+o;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9h;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W410X53:1619103
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9N;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619107
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9G;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619108
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9H;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619109
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eu9I;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1619110
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eusR;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620847
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eus4;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620848
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eus5;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620849
+xo;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eus6;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620850
+x;IfcSlab;IfcBeam;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7eus2;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_W Shapes:W760X134:1620854
+ox;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;3lo8hfPmTDfP813$HDU1DS;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;1hbkU0pOD8Ug4zX2q86gR5;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;1hbkU0pOD8Ug4zX2q86gRq;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;1hbkU0pOD8Ug4zX2q86gRf;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;1hbkU0pOD8Ug4zX2q86gO0;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7evlR;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7evl5;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+xo;IfcSlab;IfcColumn;2mpujw6n12d93LqalNBqr9;3AKaO4ufT7ERYrUMp7evl7;Basic Roof:M_Steel Truss - Insulation on Metal Deck - EPDM:1624600;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+;;;;;;
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb9C;Floor:Concrete 150mm:1643889;Basic Wall:Concrete 200mm:1644053
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb9E;Floor:Concrete 150mm:1643889;Basic Wall:Concrete 200mm:1644055
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb91;Floor:Concrete 150mm:1643889;Basic Wall:Concrete 200mm:1644056
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6bb4e;3AKaO4ufT7ERYrUMp7eure;Floor:Concrete 150mm:1643889;M_W Shapes:W760X134:1620892
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb3L;Floor:Concrete 150mm:1643889;Basic Wall:Concrete 200mm:1643660
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb3N;Floor:Concrete 150mm:1643889;Basic Wall:Concrete 200mm:1643662
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6bb4e;1Ze_HzuKn5mB7tAQE6bb3M;Floor:Concrete 150mm:1643889;Basic Wall:Concrete 200mm:1643663
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6bb4e;1hbkU0pOD8Ug4zX2q86gTv;Floor:Concrete 150mm:1643889;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+;;;;;;
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEmP;Floor:Concrete 150mm:1650815;Basic Wall:Concrete 200mm:1650972
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEmR;Floor:Concrete 150mm:1650815;Basic Wall:Concrete 200mm:1650974
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEmQ;Floor:Concrete 150mm:1650815;Basic Wall:Concrete 200mm:1650975
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaErw;3AKaO4ufT7ERYrUMp7eus7;Floor:Concrete 150mm:1650815;M_W Shapes:W760X134:1620851
+x;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaErw;3AKaO4ufT7ERYrUMp7eus0;Floor:Concrete 150mm:1650815;M_W Shapes:W760X134:1620852
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEqg;Floor:Concrete 150mm:1650815;Basic Wall:Concrete 200mm:1650735
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEqq;Floor:Concrete 150mm:1650815;Basic Wall:Concrete 200mm:1650737
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaErw;3zPFHdZZvE6QPIualDaEqt;Floor:Concrete 150mm:1650815;Basic Wall:Concrete 200mm:1650738
+x;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaErw;1hbkU0pOD8Ug4zX2q86gRe;Floor:Concrete 150mm:1650815;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9C;1Ze_HzuKn5mB7tAQE6bb9F;Basic Wall:Concrete 200mm:1644053;Basic Wall:Concrete 200mm:1644054
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9C;1Ze_HzuKn5mB7tAQE6bb91;Basic Wall:Concrete 200mm:1644053;Basic Wall:Concrete 200mm:1644056
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9C;1Ze_HzuKn5mB7tAQE6bb3L;Basic Wall:Concrete 200mm:1644053;Basic Wall:Concrete 200mm:1643660
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9C;1Ze_HzuKn5mB7tAQE6bb3K;Basic Wall:Concrete 200mm:1644053;Basic Wall:Concrete 200mm:1643661
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9C;1Ze_HzuKn5mB7tAQE6bb3M;Basic Wall:Concrete 200mm:1644053;Basic Wall:Concrete 200mm:1643663
+x;IfcWall;IfcColumn;1Ze_HzuKn5mB7tAQE6bb9C;1hbkU0pOD8Ug4zX2q86gTv;Basic Wall:Concrete 200mm:1644053;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9F;1Ze_HzuKn5mB7tAQE6bb9E;Basic Wall:Concrete 200mm:1644054;Basic Wall:Concrete 200mm:1644055
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9F;1Ze_HzuKn5mB7tAQE6bb3L;Basic Wall:Concrete 200mm:1644054;Basic Wall:Concrete 200mm:1643660
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9F;1Ze_HzuKn5mB7tAQE6bb3K;Basic Wall:Concrete 200mm:1644054;Basic Wall:Concrete 200mm:1643661
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9F;1Ze_HzuKn5mB7tAQE6bb3N;Basic Wall:Concrete 200mm:1644054;Basic Wall:Concrete 200mm:1643662
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9E;1Ze_HzuKn5mB7tAQE6bb91;Basic Wall:Concrete 200mm:1644055;Basic Wall:Concrete 200mm:1644056
+x;IfcWall;IfcBeam;1Ze_HzuKn5mB7tAQE6bb9E;3AKaO4ufT7ERYrUMp7eure;Basic Wall:Concrete 200mm:1644055;M_W Shapes:W760X134:1620892
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9E;1Ze_HzuKn5mB7tAQE6bb3K;Basic Wall:Concrete 200mm:1644055;Basic Wall:Concrete 200mm:1643661
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9E;1Ze_HzuKn5mB7tAQE6bb3N;Basic Wall:Concrete 200mm:1644055;Basic Wall:Concrete 200mm:1643662
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb9E;1Ze_HzuKn5mB7tAQE6bb3M;Basic Wall:Concrete 200mm:1644055;Basic Wall:Concrete 200mm:1643663
+;;;;;;
+x;IfcWall;IfcBeam;1Ze_HzuKn5mB7tAQE6bb91;3AKaO4ufT7ERYrUMp7eure;Basic Wall:Concrete 200mm:1644056;M_W Shapes:W760X134:1620892
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb91;1Ze_HzuKn5mB7tAQE6bb3L;Basic Wall:Concrete 200mm:1644056;Basic Wall:Concrete 200mm:1643660
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb91;1Ze_HzuKn5mB7tAQE6bb3N;Basic Wall:Concrete 200mm:1644056;Basic Wall:Concrete 200mm:1643662
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb91;1Ze_HzuKn5mB7tAQE6bb3M;Basic Wall:Concrete 200mm:1644056;Basic Wall:Concrete 200mm:1643663
+x;IfcWall;IfcColumn;1Ze_HzuKn5mB7tAQE6bb91;1hbkU0pOD8Ug4zX2q86gTv;Basic Wall:Concrete 200mm:1644056;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmP;3zPFHdZZvE6QPIualDaEmO;Basic Wall:Concrete 200mm:1650972;Basic Wall:Concrete 200mm:1650973
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmP;3zPFHdZZvE6QPIualDaEmQ;Basic Wall:Concrete 200mm:1650972;Basic Wall:Concrete 200mm:1650975
+x;IfcWall;IfcBeam;3zPFHdZZvE6QPIualDaEmP;3AKaO4ufT7ERYrUMp7eus0;Basic Wall:Concrete 200mm:1650972;M_W Shapes:W760X134:1620852
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmP;3zPFHdZZvE6QPIualDaEqg;Basic Wall:Concrete 200mm:1650972;Basic Wall:Concrete 200mm:1650735
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmP;3zPFHdZZvE6QPIualDaEqr;Basic Wall:Concrete 200mm:1650972;Basic Wall:Concrete 200mm:1650736
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmP;3zPFHdZZvE6QPIualDaEqt;Basic Wall:Concrete 200mm:1650972;Basic Wall:Concrete 200mm:1650738
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmO;3zPFHdZZvE6QPIualDaEmR;Basic Wall:Concrete 200mm:1650973;Basic Wall:Concrete 200mm:1650974
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmO;3zPFHdZZvE6QPIualDaEqg;Basic Wall:Concrete 200mm:1650973;Basic Wall:Concrete 200mm:1650735
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmO;3zPFHdZZvE6QPIualDaEqr;Basic Wall:Concrete 200mm:1650973;Basic Wall:Concrete 200mm:1650736
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmO;3zPFHdZZvE6QPIualDaEqq;Basic Wall:Concrete 200mm:1650973;Basic Wall:Concrete 200mm:1650737
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmR;3zPFHdZZvE6QPIualDaEmQ;Basic Wall:Concrete 200mm:1650974;Basic Wall:Concrete 200mm:1650975
+x;IfcWall;IfcBeam;3zPFHdZZvE6QPIualDaEmR;3AKaO4ufT7ERYrUMp7eus7;Basic Wall:Concrete 200mm:1650974;M_W Shapes:W760X134:1620851
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmR;3zPFHdZZvE6QPIualDaEqr;Basic Wall:Concrete 200mm:1650974;Basic Wall:Concrete 200mm:1650736
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmR;3zPFHdZZvE6QPIualDaEqq;Basic Wall:Concrete 200mm:1650974;Basic Wall:Concrete 200mm:1650737
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmR;3zPFHdZZvE6QPIualDaEqt;Basic Wall:Concrete 200mm:1650974;Basic Wall:Concrete 200mm:1650738
+x;IfcWall;IfcColumn;3zPFHdZZvE6QPIualDaEmR;1hbkU0pOD8Ug4zX2q86gRe;Basic Wall:Concrete 200mm:1650974;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+;;;;;;
+x;IfcWall;IfcBeam;3zPFHdZZvE6QPIualDaEmQ;3AKaO4ufT7ERYrUMp7eus7;Basic Wall:Concrete 200mm:1650975;M_W Shapes:W760X134:1620851
+x;IfcWall;IfcBeam;3zPFHdZZvE6QPIualDaEmQ;3AKaO4ufT7ERYrUMp7eus0;Basic Wall:Concrete 200mm:1650975;M_W Shapes:W760X134:1620852
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmQ;3zPFHdZZvE6QPIualDaEqg;Basic Wall:Concrete 200mm:1650975;Basic Wall:Concrete 200mm:1650735
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmQ;3zPFHdZZvE6QPIualDaEqq;Basic Wall:Concrete 200mm:1650975;Basic Wall:Concrete 200mm:1650737
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEmQ;3zPFHdZZvE6QPIualDaEqt;Basic Wall:Concrete 200mm:1650975;Basic Wall:Concrete 200mm:1650738
+x;IfcWall;IfcColumn;3zPFHdZZvE6QPIualDaEmQ;1hbkU0pOD8Ug4zX2q86gRe;Basic Wall:Concrete 200mm:1650975;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9f;3AKaO4ufT7ERYrUMp7eu9H;M_W Shapes:W410X53:1619101;M_W Shapes:W760X134:1619109
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9f;3AKaO4ufT7ERYrUMp7eus6;M_W Shapes:W410X53:1619101;M_W Shapes:W760X134:1620850
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9f;3AKaO4ufT7ERYrUMp7eu9I;M_W Shapes:W410X53:1619101;M_W Shapes:W760X134:1619110
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9f;3AKaO4ufT7ERYrUMp7eu9g;M_W Shapes:W410X53:1619101;M_W Shapes:W410X53:1619102
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9f;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W410X53:1619101;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9f;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W410X53:1619101;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9g;3AKaO4ufT7ERYrUMp7eu9G;M_W Shapes:W410X53:1619102;M_W Shapes:W760X134:1619108
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9g;3AKaO4ufT7ERYrUMp7eu9H;M_W Shapes:W410X53:1619102;M_W Shapes:W760X134:1619109
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9g;3AKaO4ufT7ERYrUMp7eu9h;M_W Shapes:W410X53:1619102;M_W Shapes:W410X53:1619103
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9g;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W410X53:1619102;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9g;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W410X53:1619102;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9h;3AKaO4ufT7ERYrUMp7eu9N;M_W Shapes:W410X53:1619103;M_W Shapes:W760X134:1619107
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9h;3AKaO4ufT7ERYrUMp7eu9G;M_W Shapes:W410X53:1619103;M_W Shapes:W760X134:1619108
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9h;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W410X53:1619103;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9h;3AKaO4ufT7ERYrUMp7evl7;M_W Shapes:W410X53:1619103;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9K;3AKaO4ufT7ERYrUMp7eu9H;M_W Shapes:W410X53:1619104;M_W Shapes:W760X134:1619109
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9K;3AKaO4ufT7ERYrUMp7eu9I;M_W Shapes:W410X53:1619104;M_W Shapes:W760X134:1619110
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9K;3AKaO4ufT7ERYrUMp7eus7;M_W Shapes:W410X53:1619104;M_W Shapes:W760X134:1620851
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9K;3AKaO4ufT7ERYrUMp7eu9L;M_W Shapes:W410X53:1619104;M_W Shapes:W410X53:1619105
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9K;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W410X53:1619104;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9K;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W410X53:1619104;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9L;3AKaO4ufT7ERYrUMp7eu9G;M_W Shapes:W410X53:1619105;M_W Shapes:W760X134:1619108
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9L;3AKaO4ufT7ERYrUMp7eu9H;M_W Shapes:W410X53:1619105;M_W Shapes:W760X134:1619109
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9L;3AKaO4ufT7ERYrUMp7eu9M;M_W Shapes:W410X53:1619105;M_W Shapes:W410X53:1619106
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9L;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W410X53:1619105;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9L;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W410X53:1619105;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9M;3AKaO4ufT7ERYrUMp7eu9N;M_W Shapes:W410X53:1619106;M_W Shapes:W760X134:1619107
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9M;3AKaO4ufT7ERYrUMp7eu9G;M_W Shapes:W410X53:1619106;M_W Shapes:W760X134:1619108
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9M;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W410X53:1619106;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9M;3AKaO4ufT7ERYrUMp7evl0;M_W Shapes:W410X53:1619106;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9N;3AKaO4ufT7ERYrUMp7evl7;M_W Shapes:W760X134:1619107;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9N;3AKaO4ufT7ERYrUMp7evl0;M_W Shapes:W760X134:1619107;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9G;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W760X134:1619108;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9G;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W760X134:1619108;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9H;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W760X134:1619109;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9H;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W760X134:1619109;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9I;3AKaO4ufT7ERYrUMp7eus6;M_W Shapes:W760X134:1619110;M_W Shapes:W760X134:1620850
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu9I;3AKaO4ufT7ERYrUMp7eus7;M_W Shapes:W760X134:1619110;M_W Shapes:W760X134:1620851
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9I;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W760X134:1619110;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu9I;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W760X134:1619110;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eusR;3AKaO4ufT7ERYrUMp7eus4;M_W Shapes:W760X134:1620847;M_W Shapes:W760X134:1620848
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eusR;3AKaO4ufT7ERYrUMp7eus2;M_W Shapes:W760X134:1620847;M_W Shapes:W760X134:1620854
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eusR;3lo8hfPmTDfP813$HDU1DS;M_W Shapes:W760X134:1620847;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eusR;1hbkU0pOD8Ug4zX2q86gR5;M_W Shapes:W760X134:1620847;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus4;3AKaO4ufT7ERYrUMp7eus5;M_W Shapes:W760X134:1620848;M_W Shapes:W760X134:1620849
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus4;1hbkU0pOD8Ug4zX2q86gR5;M_W Shapes:W760X134:1620848;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus4;1hbkU0pOD8Ug4zX2q86gRq;M_W Shapes:W760X134:1620848;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus5;3AKaO4ufT7ERYrUMp7eus6;M_W Shapes:W760X134:1620849;M_W Shapes:W760X134:1620850
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus5;1hbkU0pOD8Ug4zX2q86gRq;M_W Shapes:W760X134:1620849;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus5;1hbkU0pOD8Ug4zX2q86gRf;M_W Shapes:W760X134:1620849;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus6;1hbkU0pOD8Ug4zX2q86gRf;M_W Shapes:W760X134:1620850;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus6;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W760X134:1620850;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+;;;;;;
+x;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7eus7;3zPFHdZZvE6QPIualDaEqq;M_W Shapes:W760X134:1620851;Basic Wall:Concrete 200mm:1650737
+x;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7eus7;3zPFHdZZvE6QPIualDaEqt;M_W Shapes:W760X134:1620851;Basic Wall:Concrete 200mm:1650738
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus7;3AKaO4ufT7ERYrUMp7eus0;M_W Shapes:W760X134:1620851;M_W Shapes:W760X134:1620852
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus7;1hbkU0pOD8Ug4zX2q86gRe;M_W Shapes:W760X134:1620851;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus7;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W760X134:1620851;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+;;;;;;
+o;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7eus0;3zPFHdZZvE6QPIualDaEqg;M_W Shapes:W760X134:1620852;Basic Wall:Concrete 200mm:1650735
+o;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7eus0;3zPFHdZZvE6QPIualDaEqt;M_W Shapes:W760X134:1620852;Basic Wall:Concrete 200mm:1650738
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus0;3AKaO4ufT7ERYrUMp7eus1;M_W Shapes:W760X134:1620852;M_W Shapes:W760X134:1620853
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus0;1hbkU0pOD8Ug4zX2q86gRp;M_W Shapes:W760X134:1620852;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus0;1hbkU0pOD8Ug4zX2q86gRe;M_W Shapes:W760X134:1620852;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus1;3AKaO4ufT7ERYrUMp7eure;M_W Shapes:W760X134:1620853;M_W Shapes:W760X134:1620892
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus1;1hbkU0pOD8Ug4zX2q86gR4;M_W Shapes:W760X134:1620853;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus1;1hbkU0pOD8Ug4zX2q86gRp;M_W Shapes:W760X134:1620853;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eus2;3AKaO4ufT7ERYrUMp7eure;M_W Shapes:W760X134:1620854;M_W Shapes:W760X134:1620892
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus2;3lo8hfPmTDfP813$HDU1DS;M_W Shapes:W760X134:1620854;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eus2;1hbkU0pOD8Ug4zX2q86gTv;M_W Shapes:W760X134:1620854;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+;;;;;;
+x;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7eure;1Ze_HzuKn5mB7tAQE6bb3N;M_W Shapes:W760X134:1620892;Basic Wall:Concrete 200mm:1643662
+x;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7eure;1Ze_HzuKn5mB7tAQE6bb3M;M_W Shapes:W760X134:1620892;Basic Wall:Concrete 200mm:1643663
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eure;1hbkU0pOD8Ug4zX2q86gTv;M_W Shapes:W760X134:1620892;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eure;1hbkU0pOD8Ug4zX2q86gR4;M_W Shapes:W760X134:1620892;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+;;;;;;
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euOx;Floor:Concrete 150mm:1621636;M_W Shapes:W410X53:1618127
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euO6;Floor:Concrete 150mm:1621636;M_W Shapes:W410X53:1618162
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euJo;Floor:Concrete 150mm:1621636;M_W Shapes:W410X53:1618438
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euJp;Floor:Concrete 150mm:1621636;M_W Shapes:W410X53:1618439
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euHo;Floor:Concrete 150mm:1621636;M_W Shapes:W760X134:1618566
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euH1;Floor:Concrete 150mm:1621636;M_W Shapes:W760X134:1618613
+o;IfcSlab;IfcBeam;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7euNw;Floor:Concrete 150mm:1621636;M_W Shapes:W760X134:1618702
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;1hbkU0pOD8Ug4zX2u86gO0;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;1hbkU0pOD8Ug4zX2q86gO0;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;1hbkU0pOD8Ug4zX2u86gO$;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;1hbkU0pOD8Ug4zX2q86gO$;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evue;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1616092
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7ev$C;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1616184
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evyT;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1616361
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evyU;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1616362
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evlR;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evl4;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evl5;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcSlab;IfcColumn;3AKaO4ufT7ERYrUMp7euXm;3AKaO4ufT7ERYrUMp7evl6;Floor:Concrete 150mm:1621636;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+;;;;;;
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6bb3L;Floor:Concrete 150mm:1642013;Basic Wall:Concrete 200mm:1643660
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6bb3N;Floor:Concrete 150mm:1642013;Basic Wall:Concrete 200mm:1643662
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6baf4;1Ze_HzuKn5mB7tAQE6bb3M;Floor:Concrete 150mm:1642013;Basic Wall:Concrete 200mm:1643663
+x;IfcSlab;IfcBeam;1Ze_HzuKn5mB7tAQE6baf4;3AKaO4ufT7ERYrUMp7euxN;Floor:Concrete 150mm:1642013;M_W Shapes:W360X32.9:1620003
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;1hbkU0pOD8Ug4zX2u86gTv;Floor:Concrete 150mm:1642013;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+x;IfcSlab;IfcColumn;1Ze_HzuKn5mB7tAQE6baf4;1hbkU0pOD8Ug4zX2q86gTv;Floor:Concrete 150mm:1642013;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6baf4;2mpujw6n12d93LqaxNBsIH;Floor:Concrete 150mm:1642013;Basic Wall:Concrete 200mm:1631168
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6baf4;2mpujw6n12d93LqaxNBsCz;Floor:Concrete 150mm:1642013;Basic Wall:Concrete 200mm:1631340
+o;IfcSlab;IfcWall;1Ze_HzuKn5mB7tAQE6baf4;2mpujw6n12d93LqaxNBsFu;Floor:Concrete 150mm:1642013;Basic Wall:Concrete 200mm:1631401
+;;;;;;
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaEqg;Floor:Concrete 150mm:1650725;Basic Wall:Concrete 200mm:1650735
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaEqq;Floor:Concrete 150mm:1650725;Basic Wall:Concrete 200mm:1650737
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaEqt;Floor:Concrete 150mm:1650725;Basic Wall:Concrete 200mm:1650738
+h;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEqW;3AKaO4ufT7ERYrUMp7eu6I;Floor:Concrete 150mm:1650725;M_W Shapes:W360X32.9:1619814
+h;IfcSlab;IfcBeam;3zPFHdZZvE6QPIualDaEqW;3AKaO4ufT7ERYrUMp7eu4i;Floor:Concrete 150mm:1650725;M_W Shapes:W360X32.9:1619928
+h;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;1hbkU0pOD8Ug4zX2u86gRe;Floor:Concrete 150mm:1650725;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+h;IfcSlab;IfcColumn;3zPFHdZZvE6QPIualDaEqW;1hbkU0pOD8Ug4zX2q86gRe;Floor:Concrete 150mm:1650725;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF8z;Floor:Concrete 150mm:1650725;Basic Wall:Concrete 200mm:1650488
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF8y;Floor:Concrete 150mm:1650725;Basic Wall:Concrete 200mm:1650489
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaEqW;3zPFHdZZvE6QPIualDaF8$;Floor:Concrete 150mm:1650725;Basic Wall:Concrete 200mm:1650490
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3L;1Ze_HzuKn5mB7tAQE6bb3K;Basic Wall:Concrete 200mm:1643660;Basic Wall:Concrete 200mm:1643661
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3L;1Ze_HzuKn5mB7tAQE6bb3M;Basic Wall:Concrete 200mm:1643660;Basic Wall:Concrete 200mm:1643663
+x;IfcWall;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3L;1hbkU0pOD8Ug4zX2u86gTv;Basic Wall:Concrete 200mm:1643660;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+x;IfcWall;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3L;1hbkU0pOD8Ug4zX2q86gTv;Basic Wall:Concrete 200mm:1643660;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3L;2mpujw6n12d93LqaxNBsIH;Basic Wall:Concrete 200mm:1643660;Basic Wall:Concrete 200mm:1631168
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3L;2mpujw6n12d93LqaxNBsDJ;Basic Wall:Concrete 200mm:1643660;Basic Wall:Concrete 200mm:1631234
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3L;2mpujw6n12d93LqaxNBsFu;Basic Wall:Concrete 200mm:1643660;Basic Wall:Concrete 200mm:1631401
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3K;1Ze_HzuKn5mB7tAQE6bb3N;Basic Wall:Concrete 200mm:1643661;Basic Wall:Concrete 200mm:1643662
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3K;2mpujw6n12d93LqaxNBsIH;Basic Wall:Concrete 200mm:1643661;Basic Wall:Concrete 200mm:1631168
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3K;2mpujw6n12d93LqaxNBsDJ;Basic Wall:Concrete 200mm:1643661;Basic Wall:Concrete 200mm:1631234
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3K;2mpujw6n12d93LqaxNBsCz;Basic Wall:Concrete 200mm:1643661;Basic Wall:Concrete 200mm:1631340
+;;;;;;
+o;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3N;1Ze_HzuKn5mB7tAQE6bb3M;Basic Wall:Concrete 200mm:1643662;Basic Wall:Concrete 200mm:1643663
+x;IfcWall;IfcBeam;1Ze_HzuKn5mB7tAQE6bb3N;3AKaO4ufT7ERYrUMp7euxN;Basic Wall:Concrete 200mm:1643662;M_W Shapes:W360X32.9:1620003
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3N;2mpujw6n12d93LqaxNBsDJ;Basic Wall:Concrete 200mm:1643662;Basic Wall:Concrete 200mm:1631234
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3N;2mpujw6n12d93LqaxNBsCz;Basic Wall:Concrete 200mm:1643662;Basic Wall:Concrete 200mm:1631340
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3N;2mpujw6n12d93LqaxNBsFu;Basic Wall:Concrete 200mm:1643662;Basic Wall:Concrete 200mm:1631401
+;;;;;;
+x;IfcWall;IfcBeam;1Ze_HzuKn5mB7tAQE6bb3M;3AKaO4ufT7ERYrUMp7euxN;Basic Wall:Concrete 200mm:1643663;M_W Shapes:W360X32.9:1620003
+x;IfcWall;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3M;1hbkU0pOD8Ug4zX2u86gTv;Basic Wall:Concrete 200mm:1643663;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+x;IfcWall;IfcColumn;1Ze_HzuKn5mB7tAQE6bb3M;1hbkU0pOD8Ug4zX2q86gTv;Basic Wall:Concrete 200mm:1643663;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3M;2mpujw6n12d93LqaxNBsIH;Basic Wall:Concrete 200mm:1643663;Basic Wall:Concrete 200mm:1631168
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3M;2mpujw6n12d93LqaxNBsCz;Basic Wall:Concrete 200mm:1643663;Basic Wall:Concrete 200mm:1631340
+x;IfcWall;IfcWall;1Ze_HzuKn5mB7tAQE6bb3M;2mpujw6n12d93LqaxNBsFu;Basic Wall:Concrete 200mm:1643663;Basic Wall:Concrete 200mm:1631401
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqg;3zPFHdZZvE6QPIualDaEqr;Basic Wall:Concrete 200mm:1650735;Basic Wall:Concrete 200mm:1650736
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqg;3zPFHdZZvE6QPIualDaEqt;Basic Wall:Concrete 200mm:1650735;Basic Wall:Concrete 200mm:1650738
+x;IfcWall;IfcBeam;3zPFHdZZvE6QPIualDaEqg;3AKaO4ufT7ERYrUMp7eu4i;Basic Wall:Concrete 200mm:1650735;M_W Shapes:W360X32.9:1619928
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqg;3zPFHdZZvE6QPIualDaF8z;Basic Wall:Concrete 200mm:1650735;Basic Wall:Concrete 200mm:1650488
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqg;3zPFHdZZvE6QPIualDaF8$;Basic Wall:Concrete 200mm:1650735;Basic Wall:Concrete 200mm:1650490
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqg;3zPFHdZZvE6QPIualDaEGX;Basic Wall:Concrete 200mm:1650735;Basic Wall:Concrete 200mm:1653028
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqr;3zPFHdZZvE6QPIualDaEqq;Basic Wall:Concrete 200mm:1650736;Basic Wall:Concrete 200mm:1650737
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqr;3zPFHdZZvE6QPIualDaF8z;Basic Wall:Concrete 200mm:1650736;Basic Wall:Concrete 200mm:1650488
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqr;3zPFHdZZvE6QPIualDaF8y;Basic Wall:Concrete 200mm:1650736;Basic Wall:Concrete 200mm:1650489
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqr;3zPFHdZZvE6QPIualDaEGX;Basic Wall:Concrete 200mm:1650736;Basic Wall:Concrete 200mm:1653028
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqq;3zPFHdZZvE6QPIualDaEqt;Basic Wall:Concrete 200mm:1650737;Basic Wall:Concrete 200mm:1650738
+x;IfcWall;IfcBeam;3zPFHdZZvE6QPIualDaEqq;3AKaO4ufT7ERYrUMp7eu6I;Basic Wall:Concrete 200mm:1650737;M_W Shapes:W360X32.9:1619814
+x;IfcWall;IfcColumn;3zPFHdZZvE6QPIualDaEqq;1hbkU0pOD8Ug4zX2u86gRe;Basic Wall:Concrete 200mm:1650737;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+x;IfcWall;IfcColumn;3zPFHdZZvE6QPIualDaEqq;1hbkU0pOD8Ug4zX2q86gRe;Basic Wall:Concrete 200mm:1650737;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqq;3zPFHdZZvE6QPIualDaF8y;Basic Wall:Concrete 200mm:1650737;Basic Wall:Concrete 200mm:1650489
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqq;3zPFHdZZvE6QPIualDaF8$;Basic Wall:Concrete 200mm:1650737;Basic Wall:Concrete 200mm:1650490
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqq;3zPFHdZZvE6QPIualDaEGX;Basic Wall:Concrete 200mm:1650737;Basic Wall:Concrete 200mm:1653028
+;;;;;;
+x;IfcWall;IfcBeam;3zPFHdZZvE6QPIualDaEqt;3AKaO4ufT7ERYrUMp7eu6I;Basic Wall:Concrete 200mm:1650738;M_W Shapes:W360X32.9:1619814
+x;IfcWall;IfcBeam;3zPFHdZZvE6QPIualDaEqt;3AKaO4ufT7ERYrUMp7eu4i;Basic Wall:Concrete 200mm:1650738;M_W Shapes:W360X32.9:1619928
+x;IfcWall;IfcColumn;3zPFHdZZvE6QPIualDaEqt;1hbkU0pOD8Ug4zX2u86gRe;Basic Wall:Concrete 200mm:1650738;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+x;IfcWall;IfcColumn;3zPFHdZZvE6QPIualDaEqt;1hbkU0pOD8Ug4zX2q86gRe;Basic Wall:Concrete 200mm:1650738;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqt;3zPFHdZZvE6QPIualDaF8z;Basic Wall:Concrete 200mm:1650738;Basic Wall:Concrete 200mm:1650488
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqt;3zPFHdZZvE6QPIualDaF8y;Basic Wall:Concrete 200mm:1650738;Basic Wall:Concrete 200mm:1650489
+x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqt;3zPFHdZZvE6QPIualDaF8$;Basic Wall:Concrete 200mm:1650738;Basic Wall:Concrete 200mm:1650490
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu0L;3AKaO4ufT7ERYrUMp7eu7rS;M_W Shapes:W360X32.9:1619681;M_W Shapes:W360X32.9:1619713
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;3lo8hfPmTDfP813$TDU1DS;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;3lo8hfPmTDfP813$HDU1DS;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;1hbkU0pOD8Ug4zX2u86gR5;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;1hbkU0pOD8Ug4zX2q86gR5;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu7r;3AKaO4ufT7ERYrUMp7eu7K;M_W Shapes:W360X32.9:1619713;M_W Shapes:W360X32.9:1619744
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7r;1hbkU0pOD8Ug4zX2u86gR5;M_W Shapes:W360X32.9:1619713;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7r;1hbkU0pOD8Ug4zX2q86gR5;M_W Shapes:W360X32.9:1619713;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7r;1hbkU0pOD8Ug4zX2u86gRq;M_W Shapes:W360X32.9:1619713;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7r;1hbkU0pOD8Ug4zX2q86gRq;M_W Shapes:W360X32.9:1619713;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu7K;3AKaO4ufT7ERYrUMp7eu6q;M_W Shapes:W360X32.9:1619744;M_W Shapes:W360X32.9:1619776
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7K;1hbkU0pOD8Ug4zX2u86gRq;M_W Shapes:W360X32.9:1619744;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7K;1hbkU0pOD8Ug4zX2q86gRq;M_W Shapes:W360X32.9:1619744;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7K;1hbkU0pOD8Ug4zX2u86gRf;M_W Shapes:W360X32.9:1619744;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu7K;1hbkU0pOD8Ug4zX2q86gRf;M_W Shapes:W360X32.9:1619744;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu6q;3AKaO4ufT7ERYrUMp7euOx;M_W Shapes:W360X32.9:1619776;M_W Shapes:W410X53:1618127
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu6q;3AKaO4ufT7ERYrUMp7euNw;M_W Shapes:W360X32.9:1619776;M_W Shapes:W760X134:1618702
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6q;1hbkU0pOD8Ug4zX2u86gRf;M_W Shapes:W360X32.9:1619776;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6q;1hbkU0pOD8Ug4zX2q86gRf;M_W Shapes:W360X32.9:1619776;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6q;1hbkU0pOD8Ug4zX2u86gO0;M_W Shapes:W360X32.9:1619776;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6q;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W360X32.9:1619776;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu6I;3AKaO4ufT7ERYrUMp7euNw;M_W Shapes:W360X32.9:1619814;M_W Shapes:W760X134:1618702
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu6I;3AKaO4ufT7ERYrUMp7euJo;M_W Shapes:W360X32.9:1619814;M_W Shapes:W410X53:1618438
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu6I;3AKaO4ufT7ERYrUMp7eu4i;M_W Shapes:W360X32.9:1619814;M_W Shapes:W360X32.9:1619928
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6I;1hbkU0pOD8Ug4zX2u86gRe;M_W Shapes:W360X32.9:1619814;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6I;1hbkU0pOD8Ug4zX2q86gRe;M_W Shapes:W360X32.9:1619814;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6I;1hbkU0pOD8Ug4zX2u86gO$;M_W Shapes:W360X32.9:1619814;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu6I;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W360X32.9:1619814;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+x;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7eu6I;3zPFHdZZvE6QPIualDaF8y;M_W Shapes:W360X32.9:1619814;Basic Wall:Concrete 200mm:1650489
+x;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7eu6I;3zPFHdZZvE6QPIualDaF8$;M_W Shapes:W360X32.9:1619814;Basic Wall:Concrete 200mm:1650490
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu4i;3AKaO4ufT7ERYrUMp7euxs;M_W Shapes:W360X32.9:1619928;M_W Shapes:W360X32.9:1619970
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu4i;1hbkU0pOD8Ug4zX2u86gRp;M_W Shapes:W360X32.9:1619928;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu4i;1hbkU0pOD8Ug4zX2q86gRp;M_W Shapes:W360X32.9:1619928;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu4i;1hbkU0pOD8Ug4zX2u86gRe;M_W Shapes:W360X32.9:1619928;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu4i;1hbkU0pOD8Ug4zX2q86gRe;M_W Shapes:W360X32.9:1619928;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+x;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7eu4i;3zPFHdZZvE6QPIualDaF8z;M_W Shapes:W360X32.9:1619928;Basic Wall:Concrete 200mm:1650488
+x;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7eu4i;3zPFHdZZvE6QPIualDaF8$;M_W Shapes:W360X32.9:1619928;Basic Wall:Concrete 200mm:1650490
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euxs;3AKaO4ufT7ERYrUMp7euxN;M_W Shapes:W360X32.9:1619970;M_W Shapes:W360X32.9:1620003
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxs;1hbkU0pOD8Ug4zX2u86gR4;M_W Shapes:W360X32.9:1619970;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxs;1hbkU0pOD8Ug4zX2q86gR4;M_W Shapes:W360X32.9:1619970;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxs;1hbkU0pOD8Ug4zX2u86gRp;M_W Shapes:W360X32.9:1619970;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxs;1hbkU0pOD8Ug4zX2q86gRp;M_W Shapes:W360X32.9:1619970;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxN;1hbkU0pOD8Ug4zX2u86gTv;M_W Shapes:W360X32.9:1620003;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxN;1hbkU0pOD8Ug4zX2q86gTv;M_W Shapes:W360X32.9:1620003;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxN;1hbkU0pOD8Ug4zX2u86gR4;M_W Shapes:W360X32.9:1620003;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euxN;1hbkU0pOD8Ug4zX2q86gR4;M_W Shapes:W360X32.9:1620003;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+x;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7euxN;2mpujw6n12d93LqaxNBsCz;M_W Shapes:W360X32.9:1620003;Basic Wall:Concrete 200mm:1631340
+x;IfcBeam;IfcWall;3AKaO4ufT7ERYrUMp7euxN;2mpujw6n12d93LqaxNBsFu;M_W Shapes:W360X32.9:1620003;Basic Wall:Concrete 200mm:1631401
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euOx;3AKaO4ufT7ERYrUMp7euNw;M_W Shapes:W410X53:1618127;M_W Shapes:W760X134:1618702
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euOx;3AKaO4ufT7ERYrUMp7euH1;M_W Shapes:W410X53:1618127;M_W Shapes:W760X134:1618613
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euOx;1hbkU0pOD8Ug4zX2u86gO0;M_W Shapes:W410X53:1618127;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euOx;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W410X53:1618127;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euOx;3AKaO4ufT7ERYrUMp7evue;M_W Shapes:W410X53:1618127;M_Concrete-Rectangular-Column:300 x 600mm:1616092
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euOx;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W410X53:1618127;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7euVT;M_W Shapes:W410X53:1618162;M_W Shapes:W410X53:1618217
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7euHo;M_W Shapes:W410X53:1618162;M_W Shapes:W760X134:1618566
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7euH1;M_W Shapes:W410X53:1618162;M_W Shapes:W760X134:1618613
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7evue;M_W Shapes:W410X53:1618162;M_Concrete-Rectangular-Column:300 x 600mm:1616092
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7evyT;M_W Shapes:W410X53:1618162;M_Concrete-Rectangular-Column:300 x 600mm:1616361
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W410X53:1618162;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euO6;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W410X53:1618162;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7euIn;M_W Shapes:W410X53:1618217;M_W Shapes:W760X134:1618501
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7euHo;M_W Shapes:W410X53:1618217;M_W Shapes:W760X134:1618566
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7evyT;M_W Shapes:W410X53:1618217;M_Concrete-Rectangular-Column:300 x 600mm:1616361
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7evf0;M_W Shapes:W410X53:1618217;M_Concrete-Rectangular-Column:300 x 600mm:1617076
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W410X53:1618217;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euVT;3AKaO4ufT7ERYrUMp7evl7;M_W Shapes:W410X53:1618217;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJo;3AKaO4ufT7ERYrUMp7euNw;M_W Shapes:W410X53:1618438;M_W Shapes:W760X134:1618702
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJo;3AKaO4ufT7ERYrUMp7euH1;M_W Shapes:W410X53:1618438;M_W Shapes:W760X134:1618613
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJo;1hbkU0pOD8Ug4zX2u86gO$;M_W Shapes:W410X53:1618438;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJo;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W410X53:1618438;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJo;3AKaO4ufT7ERYrUMp7ev$C;M_W Shapes:W410X53:1618438;M_Concrete-Rectangular-Column:300 x 600mm:1616184
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJo;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W410X53:1618438;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7euJy;M_W Shapes:W410X53:1618439;M_W Shapes:W410X53:1618440
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7euHo;M_W Shapes:W410X53:1618439;M_W Shapes:W760X134:1618566
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7euH1;M_W Shapes:W410X53:1618439;M_W Shapes:W760X134:1618613
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7ev$C;M_W Shapes:W410X53:1618439;M_Concrete-Rectangular-Column:300 x 600mm:1616184
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7evyU;M_W Shapes:W410X53:1618439;M_Concrete-Rectangular-Column:300 x 600mm:1616362
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W410X53:1618439;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJp;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W410X53:1618439;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+;;;;;;
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7euIn;M_W Shapes:W410X53:1618440;M_W Shapes:W760X134:1618501
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7euHo;M_W Shapes:W410X53:1618440;M_W Shapes:W760X134:1618566
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7evyU;M_W Shapes:W410X53:1618440;M_Concrete-Rectangular-Column:300 x 600mm:1616362
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7evf1;M_W Shapes:W410X53:1618440;M_Concrete-Rectangular-Column:300 x 600mm:1617077
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W410X53:1618440;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euJy;3AKaO4ufT7ERYrUMp7evl0;M_W Shapes:W410X53:1618440;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euIn;3AKaO4ufT7ERYrUMp7evf0;M_W Shapes:W760X134:1618501;M_Concrete-Rectangular-Column:300 x 600mm:1617076
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euIn;3AKaO4ufT7ERYrUMp7evf1;M_W Shapes:W760X134:1618501;M_Concrete-Rectangular-Column:300 x 600mm:1617077
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euIn;3AKaO4ufT7ERYrUMp7evl7;M_W Shapes:W760X134:1618501;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euIn;3AKaO4ufT7ERYrUMp7evl0;M_W Shapes:W760X134:1618501;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euHo;3AKaO4ufT7ERYrUMp7evyT;M_W Shapes:W760X134:1618566;M_Concrete-Rectangular-Column:300 x 600mm:1616361
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euHo;3AKaO4ufT7ERYrUMp7evyU;M_W Shapes:W760X134:1618566;M_Concrete-Rectangular-Column:300 x 600mm:1616362
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euHo;3AKaO4ufT7ERYrUMp7evl5;M_W Shapes:W760X134:1618566;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euHo;3AKaO4ufT7ERYrUMp7evl6;M_W Shapes:W760X134:1618566;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euH1;3AKaO4ufT7ERYrUMp7evue;M_W Shapes:W760X134:1618613;M_Concrete-Rectangular-Column:300 x 600mm:1616092
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euH1;3AKaO4ufT7ERYrUMp7ev$C;M_W Shapes:W760X134:1618613;M_Concrete-Rectangular-Column:300 x 600mm:1616184
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euH1;3AKaO4ufT7ERYrUMp7evlR;M_W Shapes:W760X134:1618613;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euH1;3AKaO4ufT7ERYrUMp7evl4;M_W Shapes:W760X134:1618613;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+;;;;;;
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euNw;1hbkU0pOD8Ug4zX2u86gO0;M_W Shapes:W760X134:1618702;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euNw;1hbkU0pOD8Ug4zX2q86gO0;M_W Shapes:W760X134:1618702;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euNw;1hbkU0pOD8Ug4zX2u86gO$;M_W Shapes:W760X134:1618702;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7euNw;1hbkU0pOD8Ug4zX2q86gO$;M_W Shapes:W760X134:1618702;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+;;;;;;
+o;IfcColumn;IfcColumn;3lo8hfPmTDfP813$TDU1DS;3lo8hfPmTDfP813$HDU1DS;M_Concrete-Rectangular-Column:400 x 700 mm:1604255;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
+o;IfcColumn;IfcSlab;3lo8hfPmTDfP813$TDU1DS;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1604255;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gTv;1hbkU0pOD8Ug4zX2q86gTv;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;M_Concrete-Rectangular-Column:400 x 700 mm:1605350
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gTv;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;Floor:Concrete 250mm:1608216
+x;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gTv;2mpujw6n12d93LqaxNBtb2;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;Floor:Concrete 250mm:1637907
+x;IfcColumn;IfcWall;1hbkU0pOD8Ug4zX2u86gTv;2mpujw6n12d93LqaxNBsIH;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;Basic Wall:Concrete 200mm:1631168
+x;IfcColumn;IfcWall;1hbkU0pOD8Ug4zX2u86gTv;2mpujw6n12d93LqaxNBsFu;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;Basic Wall:Concrete 200mm:1631401
+;;;;;;
+x;IfcColumn;IfcWall;1hbkU0pOD8Ug4zX2q86gTv;2mpujw6n12d93LqaxNBsIH;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;Basic Wall:Concrete 200mm:1631168
+x;IfcColumn;IfcWall;1hbkU0pOD8Ug4zX2q86gTv;2mpujw6n12d93LqaxNBsFu;M_Concrete-Rectangular-Column:400 x 700 mm:1605350;Basic Wall:Concrete 200mm:1631401
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gR5;1hbkU0pOD8Ug4zX2q86gR5;M_Concrete-Rectangular-Column:400 x 700 mm:1605466;M_Concrete-Rectangular-Column:400 x 700 mm:1605466
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gR5;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605466;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gR4;1hbkU0pOD8Ug4zX2q86gR4;M_Concrete-Rectangular-Column:400 x 700 mm:1605467;M_Concrete-Rectangular-Column:400 x 700 mm:1605467
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gR4;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605467;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gRq;1hbkU0pOD8Ug4zX2q86gRq;M_Concrete-Rectangular-Column:400 x 700 mm:1605483;M_Concrete-Rectangular-Column:400 x 700 mm:1605483
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gRq;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605483;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gRp;1hbkU0pOD8Ug4zX2q86gRp;M_Concrete-Rectangular-Column:400 x 700 mm:1605484;M_Concrete-Rectangular-Column:400 x 700 mm:1605484
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gRp;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605484;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gRf;1hbkU0pOD8Ug4zX2q86gRf;M_Concrete-Rectangular-Column:400 x 700 mm:1605494;M_Concrete-Rectangular-Column:400 x 700 mm:1605494
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gRf;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605494;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gRe;1hbkU0pOD8Ug4zX2q86gRe;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;M_Concrete-Rectangular-Column:400 x 700 mm:1605495
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gRe;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;Floor:Concrete 250mm:1608216
+x;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gRe;3zPFHdZZvE6QPIualDaF91;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;Floor:Concrete 250mm:1650500
+x;IfcColumn;IfcWall;1hbkU0pOD8Ug4zX2u86gRe;3zPFHdZZvE6QPIualDaF8y;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;Basic Wall:Concrete 200mm:1650489
+x;IfcColumn;IfcWall;1hbkU0pOD8Ug4zX2u86gRe;3zPFHdZZvE6QPIualDaF8$;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;Basic Wall:Concrete 200mm:1650490
+;;;;;;
+x;IfcColumn;IfcWall;1hbkU0pOD8Ug4zX2q86gRe;3zPFHdZZvE6QPIualDaF8y;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;Basic Wall:Concrete 200mm:1650489
+x;IfcColumn;IfcWall;1hbkU0pOD8Ug4zX2q86gRe;3zPFHdZZvE6QPIualDaF8$;M_Concrete-Rectangular-Column:400 x 700 mm:1605495;Basic Wall:Concrete 200mm:1650490
+;;;;;;
+xo;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gO0;1hbkU0pOD8Ug4zX2q86gO0;M_Concrete-Rectangular-Column:400 x 700 mm:1605535;M_Concrete-Rectangular-Column:400 x 700 mm:1605535
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gO0;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605535;Floor:Concrete 250mm:1608216
+;;;;;;
+xo;IfcColumn;IfcColumn;1hbkU0pOD8Ug4zX2u86gO$;1hbkU0pOD8Ug4zX2q86gO$;M_Concrete-Rectangular-Column:400 x 700 mm:1605536;M_Concrete-Rectangular-Column:400 x 700 mm:1605536
+o;IfcColumn;IfcSlab;1hbkU0pOD8Ug4zX2u86gO$;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:400 x 700 mm:1605536;Floor:Concrete 250mm:1608216
+;;;;;;
+xo;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7evue;3AKaO4ufT7ERYrUMp7evlR;M_Concrete-Rectangular-Column:300 x 600mm:1616092;M_Concrete-Rectangular-Column:300 x 600mm:1617199
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7evue;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1616092;Floor:Concrete 250mm:1608216
+;;;;;;
+xo;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7ev$C;3AKaO4ufT7ERYrUMp7evl4;M_Concrete-Rectangular-Column:300 x 600mm:1616184;M_Concrete-Rectangular-Column:300 x 600mm:1617200
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7ev$C;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1616184;Floor:Concrete 250mm:1608216
+;;;;;;
+xo;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7evyT;3AKaO4ufT7ERYrUMp7evl5;M_Concrete-Rectangular-Column:300 x 600mm:1616361;M_Concrete-Rectangular-Column:300 x 600mm:1617201
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7evyT;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1616361;Floor:Concrete 250mm:1608216
+;;;;;;
+xo;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7evyU;3AKaO4ufT7ERYrUMp7evl6;M_Concrete-Rectangular-Column:300 x 600mm:1616362;M_Concrete-Rectangular-Column:300 x 600mm:1617202
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7evyU;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1616362;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7evf0;3AKaO4ufT7ERYrUMp7evl7;M_Concrete-Rectangular-Column:300 x 600mm:1617076;M_Concrete-Rectangular-Column:300 x 600mm:1617203
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7evf0;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1617076;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcColumn;IfcColumn;3AKaO4ufT7ERYrUMp7evf1;3AKaO4ufT7ERYrUMp7evl0;M_Concrete-Rectangular-Column:300 x 600mm:1617077;M_Concrete-Rectangular-Column:300 x 600mm:1617204
+o;IfcColumn;IfcSlab;3AKaO4ufT7ERYrUMp7evf1;1hbkU0pOD8Ug4zZ2y86bE7;M_Concrete-Rectangular-Column:300 x 600mm:1617077;Floor:Concrete 250mm:1608216
+;;;;;;
+o;IfcSlab;IfcSlab;1hbkU0pOD8Ug4zZ2y86bE7;2mpujw6n12d93LqaxNBtb2;Floor:Concrete 250mm:1608216;Floor:Concrete 250mm:1637907
+o;IfcSlab;IfcSlab;1hbkU0pOD8Ug4zZ2y86bE7;3zPFHdZZvE6QPIualDaF91;Floor:Concrete 250mm:1608216;Floor:Concrete 250mm:1650500
+x;IfcSlab;IfcWall;1hbkU0pOD8Ug4zZ2y86bE7;2mpujw6n12d93LqaxNBsIH;Floor:Concrete 250mm:1608216;Basic Wall:Concrete 200mm:1631168
+x;IfcSlab;IfcWall;1hbkU0pOD8Ug4zZ2y86bE7;2mpujw6n12d93LqaxNBsCz;Floor:Concrete 250mm:1608216;Basic Wall:Concrete 200mm:1631340
+o;IfcSlab;IfcWall;1hbkU0pOD8Ug4zZ2y86bE7;2mpujw6n12d93LqaxNBsFu;Floor:Concrete 250mm:1608216;Basic Wall:Concrete 200mm:1631401
+x;IfcSlab;IfcWall;1hbkU0pOD8Ug4zZ2y86bE7;3zPFHdZZvE6QPIualDaF8z;Floor:Concrete 250mm:1608216;Basic Wall:Concrete 200mm:1650488
+x;IfcSlab;IfcWall;1hbkU0pOD8Ug4zZ2y86bE7;3zPFHdZZvE6QPIualDaF8y;Floor:Concrete 250mm:1608216;Basic Wall:Concrete 200mm:1650489
+o;IfcSlab;IfcWall;1hbkU0pOD8Ug4zZ2y86bE7;3zPFHdZZvE6QPIualDaF8$;Floor:Concrete 250mm:1608216;Basic Wall:Concrete 200mm:1650490
+;;;;;;
+o;IfcSlab;IfcWall;2mpujw6n12d93LqaxNBtb2;2mpujw6n12d93LqaxNBsIH;Floor:Concrete 250mm:1637907;Basic Wall:Concrete 200mm:1631168
+o;IfcSlab;IfcWall;2mpujw6n12d93LqaxNBtb2;2mpujw6n12d93LqaxNBsDJ;Floor:Concrete 250mm:1637907;Basic Wall:Concrete 200mm:1631234
+o;IfcSlab;IfcWall;2mpujw6n12d93LqaxNBtb2;2mpujw6n12d93LqaxNBsCz;Floor:Concrete 250mm:1637907;Basic Wall:Concrete 200mm:1631340
+o;IfcSlab;IfcWall;2mpujw6n12d93LqaxNBtb2;2mpujw6n12d93LqaxNBsFu;Floor:Concrete 250mm:1637907;Basic Wall:Concrete 200mm:1631401
+;;;;;;
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaF91;3zPFHdZZvE6QPIualDaF8z;Floor:Concrete 250mm:1650500;Basic Wall:Concrete 200mm:1650488
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaF91;3zPFHdZZvE6QPIualDaF8y;Floor:Concrete 250mm:1650500;Basic Wall:Concrete 200mm:1650489
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaF91;3zPFHdZZvE6QPIualDaF8$;Floor:Concrete 250mm:1650500;Basic Wall:Concrete 200mm:1650490
+o;IfcSlab;IfcWall;3zPFHdZZvE6QPIualDaF91;3zPFHdZZvE6QPIualDaEGX;Floor:Concrete 250mm:1650500;Basic Wall:Concrete 200mm:1653028
+;;;;;;
+o;IfcWall;IfcWall;2mpujw6n12d93LqaxNBsIH;2mpujw6n12d93LqaxNBsDJ;Basic Wall:Concrete 200mm:1631168;Basic Wall:Concrete 200mm:1631234
+o;IfcWall;IfcWall;2mpujw6n12d93LqaxNBsIH;2mpujw6n12d93LqaxNBsFu;Basic Wall:Concrete 200mm:1631168;Basic Wall:Concrete 200mm:1631401
+;;;;;;
+o;IfcWall;IfcWall;2mpujw6n12d93LqaxNBsDJ;2mpujw6n12d93LqaxNBsCz;Basic Wall:Concrete 200mm:1631234;Basic Wall:Concrete 200mm:1631340
+;;;;;;
+o;IfcWall;IfcWall;2mpujw6n12d93LqaxNBsCz;2mpujw6n12d93LqaxNBsFu;Basic Wall:Concrete 200mm:1631340;Basic Wall:Concrete 200mm:1631401
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaF8z;3zPFHdZZvE6QPIualDaF8$;Basic Wall:Concrete 200mm:1650488;Basic Wall:Concrete 200mm:1650490
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaF8z;3zPFHdZZvE6QPIualDaEGX;Basic Wall:Concrete 200mm:1650488;Basic Wall:Concrete 200mm:1653028
+;;;;;;
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaF8y;3zPFHdZZvE6QPIualDaF8$;Basic Wall:Concrete 200mm:1650489;Basic Wall:Concrete 200mm:1650490
+o;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaF8y;3zPFHdZZvE6QPIualDaEGX;Basic Wall:Concrete 200mm:1650489;Basic Wall:Concrete 200mm:1653028

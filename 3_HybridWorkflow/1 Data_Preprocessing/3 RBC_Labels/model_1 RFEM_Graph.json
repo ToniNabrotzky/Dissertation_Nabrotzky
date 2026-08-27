@@ -1,0 +1,5322 @@
+[
+    {
+        "Graph_ID": 1,
+        "RFEM": {
+            "Nr": 1,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE42",
+            "analytische_Länge": 2.4638199999999983,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                638
+            ],
+            "zugehoerige_Knoten": [
+                703,
+                704
+            ]
+        }
+    },
+    {
+        "Graph_ID": 2,
+        "RFEM": {
+            "Nr": 2,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE4F",
+            "analytische_Länge": 2.4638199999999983,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                639
+            ],
+            "zugehoerige_Knoten": [
+                705,
+                706
+            ]
+        }
+    },
+    {
+        "Graph_ID": 3,
+        "RFEM": {
+            "Nr": 3,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "1XvHurW7r6L9u7cRzYZEaq",
+            "analytische_Länge": 1.80002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                640
+            ],
+            "zugehoerige_Knoten": [
+                707,
+                708
+            ]
+        }
+    },
+    {
+        "Graph_ID": 4,
+        "RFEM": {
+            "Nr": 4,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "1XvHurW7r6L9u7cRzYZE_m",
+            "analytische_Länge": 1.80002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                641
+            ],
+            "zugehoerige_Knoten": [
+                709,
+                710
+            ]
+        }
+    },
+    {
+        "Graph_ID": 5,
+        "RFEM": {
+            "Nr": 5,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "1XvHurW7r6L9u7cRzYZEYo",
+            "analytische_Länge": 1.80002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                642
+            ],
+            "zugehoerige_Knoten": [
+                711,
+                712
+            ]
+        }
+    },
+    {
+        "Graph_ID": 6,
+        "RFEM": {
+            "Nr": 6,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "1XvHurW7r6L9u7cRzYZEXJ",
+            "analytische_Länge": 1.80002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                643
+            ],
+            "zugehoerige_Knoten": [
+                713,
+                714
+            ]
+        }
+    },
+    {
+        "Graph_ID": 7,
+        "RFEM": {
+            "Nr": 15,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoN3",
+            "analytische_Länge": 3.626020000000011,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                652
+            ],
+            "zugehoerige_Knoten": [
+                722,
+                723
+            ]
+        }
+    },
+    {
+        "Graph_ID": 8,
+        "RFEM": {
+            "Nr": 16,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoN1",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                653
+            ],
+            "zugehoerige_Knoten": [
+                724,
+                725
+            ]
+        }
+    },
+    {
+        "Graph_ID": 9,
+        "RFEM": {
+            "Nr": 17,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNz",
+            "analytische_Länge": 4.973520000000001,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                654
+            ],
+            "zugehoerige_Knoten": [
+                726,
+                727
+            ]
+        }
+    },
+    {
+        "Graph_ID": 10,
+        "RFEM": {
+            "Nr": 18,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoN2",
+            "analytische_Länge": 1.7250200000000007,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                655
+            ],
+            "zugehoerige_Knoten": [
+                728,
+                729
+            ]
+        }
+    },
+    {
+        "Graph_ID": 11,
+        "RFEM": {
+            "Nr": 19,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNA",
+            "analytische_Länge": 3.6260200000000395,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                656
+            ],
+            "zugehoerige_Knoten": [
+                730,
+                731
+            ]
+        }
+    },
+    {
+        "Graph_ID": 12,
+        "RFEM": {
+            "Nr": 20,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoN7",
+            "analytische_Länge": 3.6260200000000182,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                657
+            ],
+            "zugehoerige_Knoten": [
+                732,
+                733
+            ]
+        }
+    },
+    {
+        "Graph_ID": 13,
+        "RFEM": {
+            "Nr": 21,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoN6",
+            "analytische_Länge": 1.7250200000000007,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                658
+            ],
+            "zugehoerige_Knoten": [
+                734,
+                735
+            ]
+        }
+    },
+    {
+        "Graph_ID": 14,
+        "RFEM": {
+            "Nr": 22,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNB",
+            "analytische_Länge": 1.7250200000000397,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                659
+            ],
+            "zugehoerige_Knoten": [
+                736,
+                737
+            ]
+        }
+    },
+    {
+        "Graph_ID": 15,
+        "RFEM": {
+            "Nr": 23,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNF",
+            "analytische_Länge": 3.626020000000061,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                660
+            ],
+            "zugehoerige_Knoten": [
+                738,
+                739
+            ]
+        }
+    },
+    {
+        "Graph_ID": 16,
+        "RFEM": {
+            "Nr": 24,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoN8",
+            "analytische_Länge": 4.94702000000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                661
+            ],
+            "zugehoerige_Knoten": [
+                740,
+                741
+            ]
+        }
+    },
+    {
+        "Graph_ID": 17,
+        "RFEM": {
+            "Nr": 25,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoN9",
+            "analytische_Länge": 4.94702,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                662
+            ],
+            "zugehoerige_Knoten": [
+                742,
+                743
+            ]
+        }
+    },
+    {
+        "Graph_ID": 18,
+        "RFEM": {
+            "Nr": 26,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNE",
+            "analytische_Länge": 1.7250200000000504,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                663
+            ],
+            "zugehoerige_Knoten": [
+                744,
+                745
+            ]
+        }
+    },
+    {
+        "Graph_ID": 19,
+        "RFEM": {
+            "Nr": 27,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNH",
+            "analytische_Länge": 3.626020000000068,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                664
+            ],
+            "zugehoerige_Knoten": [
+                746,
+                747
+            ]
+        }
+    },
+    {
+        "Graph_ID": 20,
+        "RFEM": {
+            "Nr": 28,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNG",
+            "analytische_Länge": 1.7250200000000717,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                665
+            ],
+            "zugehoerige_Knoten": [
+                748,
+                749
+            ]
+        }
+    },
+    {
+        "Graph_ID": 21,
+        "RFEM": {
+            "Nr": 29,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNN",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                666
+            ],
+            "zugehoerige_Knoten": [
+                750,
+                751
+            ]
+        }
+    },
+    {
+        "Graph_ID": 22,
+        "RFEM": {
+            "Nr": 30,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNJ",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                667
+            ],
+            "zugehoerige_Knoten": [
+                752,
+                753
+            ]
+        }
+    },
+    {
+        "Graph_ID": 23,
+        "RFEM": {
+            "Nr": 31,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNL",
+            "analytische_Länge": 3.6260200000001,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                668
+            ],
+            "zugehoerige_Knoten": [
+                754,
+                755
+            ]
+        }
+    },
+    {
+        "Graph_ID": 24,
+        "RFEM": {
+            "Nr": 32,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMY",
+            "analytische_Länge": 1.7250200000000002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                669
+            ],
+            "zugehoerige_Knoten": [
+                756,
+                757
+            ]
+        }
+    },
+    {
+        "Graph_ID": 25,
+        "RFEM": {
+            "Nr": 33,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNR",
+            "analytische_Länge": 6.01752000000001,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                670
+            ],
+            "zugehoerige_Knoten": [
+                758,
+                759
+            ]
+        }
+    },
+    {
+        "Graph_ID": 26,
+        "RFEM": {
+            "Nr": 34,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNK",
+            "analytische_Länge": 1.7250200000000895,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                671
+            ],
+            "zugehoerige_Knoten": [
+                760,
+                761
+            ]
+        }
+    },
+    {
+        "Graph_ID": 27,
+        "RFEM": {
+            "Nr": 35,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoNT",
+            "analytische_Länge": 4.973520000000008,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                672
+            ],
+            "zugehoerige_Knoten": [
+                762,
+                763
+            ]
+        }
+    },
+    {
+        "Graph_ID": 28,
+        "RFEM": {
+            "Nr": 36,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMZ",
+            "analytische_Länge": 3.6260200000000093,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                673
+            ],
+            "zugehoerige_Knoten": [
+                764,
+                765
+            ]
+        }
+    },
+    {
+        "Graph_ID": 29,
+        "RFEM": {
+            "Nr": 37,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMd",
+            "analytische_Länge": 3.62602000000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                674
+            ],
+            "zugehoerige_Knoten": [
+                766,
+                767
+            ]
+        }
+    },
+    {
+        "Graph_ID": 30,
+        "RFEM": {
+            "Nr": 38,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMc",
+            "analytische_Länge": 1.7250200000000202,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                675
+            ],
+            "zugehoerige_Knoten": [
+                768,
+                769
+            ]
+        }
+    },
+    {
+        "Graph_ID": 31,
+        "RFEM": {
+            "Nr": 39,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMX",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                676
+            ],
+            "zugehoerige_Knoten": [
+                770,
+                771
+            ]
+        }
+    },
+    {
+        "Graph_ID": 32,
+        "RFEM": {
+            "Nr": 40,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMg",
+            "analytische_Länge": 3.6260200000000395,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                677
+            ],
+            "zugehoerige_Knoten": [
+                772,
+                773
+            ]
+        }
+    },
+    {
+        "Graph_ID": 33,
+        "RFEM": {
+            "Nr": 41,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMh",
+            "analytische_Länge": 1.7250200000000002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                678
+            ],
+            "zugehoerige_Knoten": [
+                774,
+                775
+            ]
+        }
+    },
+    {
+        "Graph_ID": 34,
+        "RFEM": {
+            "Nr": 42,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMf",
+            "analytische_Länge": 4.94702,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                679
+            ],
+            "zugehoerige_Knoten": [
+                776,
+                777
+            ]
+        }
+    },
+    {
+        "Graph_ID": 35,
+        "RFEM": {
+            "Nr": 43,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMe",
+            "analytische_Länge": 4.94702000000002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                680
+            ],
+            "zugehoerige_Knoten": [
+                778,
+                779
+            ]
+        }
+    },
+    {
+        "Graph_ID": 36,
+        "RFEM": {
+            "Nr": 44,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMp",
+            "analytische_Länge": 4.94702,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                681
+            ],
+            "zugehoerige_Knoten": [
+                780,
+                781
+            ]
+        }
+    },
+    {
+        "Graph_ID": 37,
+        "RFEM": {
+            "Nr": 45,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMk",
+            "analytische_Länge": 1.72502000000005,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                682
+            ],
+            "zugehoerige_Knoten": [
+                782,
+                783
+            ]
+        }
+    },
+    {
+        "Graph_ID": 38,
+        "RFEM": {
+            "Nr": 46,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMm",
+            "analytische_Länge": 1.72502000000007,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                683
+            ],
+            "zugehoerige_Knoten": [
+                784,
+                785
+            ]
+        }
+    },
+    {
+        "Graph_ID": 39,
+        "RFEM": {
+            "Nr": 47,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMl",
+            "analytische_Länge": 3.6260200000000604,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                684
+            ],
+            "zugehoerige_Knoten": [
+                786,
+                787
+            ]
+        }
+    },
+    {
+        "Graph_ID": 40,
+        "RFEM": {
+            "Nr": 48,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMq",
+            "analytische_Länge": 1.7250200000000904,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                685
+            ],
+            "zugehoerige_Knoten": [
+                788,
+                789
+            ]
+        }
+    },
+    {
+        "Graph_ID": 41,
+        "RFEM": {
+            "Nr": 49,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMt",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                686
+            ],
+            "zugehoerige_Knoten": [
+                790,
+                791
+            ]
+        }
+    },
+    {
+        "Graph_ID": 42,
+        "RFEM": {
+            "Nr": 50,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMx",
+            "analytische_Länge": 6.017520000000012,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                687
+            ],
+            "zugehoerige_Knoten": [
+                792,
+                793
+            ]
+        }
+    },
+    {
+        "Graph_ID": 43,
+        "RFEM": {
+            "Nr": 51,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMn",
+            "analytische_Länge": 3.6260200000000697,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                688
+            ],
+            "zugehoerige_Knoten": [
+                794,
+                795
+            ]
+        }
+    },
+    {
+        "Graph_ID": 44,
+        "RFEM": {
+            "Nr": 52,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoMr",
+            "analytische_Länge": 3.6260200000001,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                689
+            ],
+            "zugehoerige_Knoten": [
+                796,
+                797
+            ]
+        }
+    },
+    {
+        "Graph_ID": 45,
+        "RFEM": {
+            "Nr": 129,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoPa",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2638
+            ],
+            "zugehoerige_Knoten": [
+                2717,
+                2718
+            ]
+        }
+    },
+    {
+        "Graph_ID": 46,
+        "RFEM": {
+            "Nr": 130,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoPZ",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2639
+            ],
+            "zugehoerige_Knoten": [
+                2719,
+                2720
+            ]
+        }
+    },
+    {
+        "Graph_ID": 47,
+        "RFEM": {
+            "Nr": 131,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoPW",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2640
+            ],
+            "zugehoerige_Knoten": [
+                2721,
+                2722
+            ]
+        }
+    },
+    {
+        "Graph_ID": 48,
+        "RFEM": {
+            "Nr": 132,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoPX",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2641
+            ],
+            "zugehoerige_Knoten": [
+                2723,
+                2724
+            ]
+        }
+    },
+    {
+        "Graph_ID": 49,
+        "RFEM": {
+            "Nr": 133,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoPc",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2642
+            ],
+            "zugehoerige_Knoten": [
+                2725,
+                2726
+            ]
+        }
+    },
+    {
+        "Graph_ID": 50,
+        "RFEM": {
+            "Nr": 134,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoPd",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2643
+            ],
+            "zugehoerige_Knoten": [
+                2727,
+                2728
+            ]
+        }
+    },
+    {
+        "Graph_ID": 51,
+        "RFEM": {
+            "Nr": 135,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE5n",
+            "analytische_Länge": 2.4638199999999983,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2644
+            ],
+            "zugehoerige_Knoten": [
+                2729,
+                2730
+            ]
+        }
+    },
+    {
+        "Graph_ID": 52,
+        "RFEM": {
+            "Nr": 136,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE5q",
+            "analytische_Länge": 2.4638199999999983,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2645
+            ],
+            "zugehoerige_Knoten": [
+                2731,
+                2732
+            ]
+        }
+    },
+    {
+        "Graph_ID": 53,
+        "RFEM": {
+            "Nr": 137,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoRn",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2646
+            ],
+            "zugehoerige_Knoten": [
+                2733,
+                2734
+            ]
+        }
+    },
+    {
+        "Graph_ID": 54,
+        "RFEM": {
+            "Nr": 138,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoRm",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2647
+            ],
+            "zugehoerige_Knoten": [
+                2735,
+                2736
+            ]
+        }
+    },
+    {
+        "Graph_ID": 55,
+        "RFEM": {
+            "Nr": 139,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoRs",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2648
+            ],
+            "zugehoerige_Knoten": [
+                2737,
+                2738
+            ]
+        }
+    },
+    {
+        "Graph_ID": 56,
+        "RFEM": {
+            "Nr": 140,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoRt",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2649
+            ],
+            "zugehoerige_Knoten": [
+                2739,
+                2740
+            ]
+        }
+    },
+    {
+        "Graph_ID": 57,
+        "RFEM": {
+            "Nr": 141,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoRr",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2650
+            ],
+            "zugehoerige_Knoten": [
+                2741,
+                2742
+            ]
+        }
+    },
+    {
+        "Graph_ID": 58,
+        "RFEM": {
+            "Nr": 142,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoRq",
+            "analytische_Länge": 3.6380199999999974,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2651
+            ],
+            "zugehoerige_Knoten": [
+                2743,
+                2744
+            ]
+        }
+    },
+    {
+        "Graph_ID": 59,
+        "RFEM": {
+            "Nr": 171,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7D",
+            "analytische_Länge": 1.7250200000000007,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2680
+            ],
+            "zugehoerige_Knoten": [
+                2772,
+                2773
+            ]
+        }
+    },
+    {
+        "Graph_ID": 60,
+        "RFEM": {
+            "Nr": 172,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7I",
+            "analytische_Länge": 3.626020000000011,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2681
+            ],
+            "zugehoerige_Knoten": [
+                2774,
+                2775
+            ]
+        }
+    },
+    {
+        "Graph_ID": 61,
+        "RFEM": {
+            "Nr": 173,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7G",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2682
+            ],
+            "zugehoerige_Knoten": [
+                2776,
+                2777
+            ]
+        }
+    },
+    {
+        "Graph_ID": 62,
+        "RFEM": {
+            "Nr": 174,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7C",
+            "analytische_Länge": 4.973520000000001,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2683
+            ],
+            "zugehoerige_Knoten": [
+                2778,
+                2779
+            ]
+        }
+    },
+    {
+        "Graph_ID": 63,
+        "RFEM": {
+            "Nr": 175,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7H",
+            "analytische_Länge": 1.7250200000000007,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2684
+            ],
+            "zugehoerige_Knoten": [
+                2780,
+                2781
+            ]
+        }
+    },
+    {
+        "Graph_ID": 64,
+        "RFEM": {
+            "Nr": 176,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7R",
+            "analytische_Länge": 4.94702000000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2685
+            ],
+            "zugehoerige_Knoten": [
+                2782,
+                2783
+            ]
+        }
+    },
+    {
+        "Graph_ID": 65,
+        "RFEM": {
+            "Nr": 177,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7Q",
+            "analytische_Länge": 1.7250200000000397,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2686
+            ],
+            "zugehoerige_Knoten": [
+                2784,
+                2785
+            ]
+        }
+    },
+    {
+        "Graph_ID": 66,
+        "RFEM": {
+            "Nr": 178,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7L",
+            "analytische_Länge": 3.6260200000000395,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2687
+            ],
+            "zugehoerige_Knoten": [
+                2786,
+                2787
+            ]
+        }
+    },
+    {
+        "Graph_ID": 67,
+        "RFEM": {
+            "Nr": 179,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7M",
+            "analytische_Länge": 3.6260200000000182,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2688
+            ],
+            "zugehoerige_Knoten": [
+                2788,
+                2789
+            ]
+        }
+    },
+    {
+        "Graph_ID": 68,
+        "RFEM": {
+            "Nr": 180,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6x",
+            "analytische_Länge": 4.94702000000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2689
+            ],
+            "zugehoerige_Knoten": [
+                2790,
+                2791
+            ]
+        }
+    },
+    {
+        "Graph_ID": 69,
+        "RFEM": {
+            "Nr": 181,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6w",
+            "analytische_Länge": 1.72502,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2690
+            ],
+            "zugehoerige_Knoten": [
+                2792,
+                2793
+            ]
+        }
+    },
+    {
+        "Graph_ID": 70,
+        "RFEM": {
+            "Nr": 182,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6u",
+            "analytische_Länge": 4.94702,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2691
+            ],
+            "zugehoerige_Knoten": [
+                2794,
+                2795
+            ]
+        }
+    },
+    {
+        "Graph_ID": 71,
+        "RFEM": {
+            "Nr": 183,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6v",
+            "analytische_Länge": 1.7250200000000497,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2692
+            ],
+            "zugehoerige_Knoten": [
+                2796,
+                2797
+            ]
+        }
+    },
+    {
+        "Graph_ID": 72,
+        "RFEM": {
+            "Nr": 184,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6_",
+            "analytische_Länge": 3.6260200000000604,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2693
+            ],
+            "zugehoerige_Knoten": [
+                2798,
+                2799
+            ]
+        }
+    },
+    {
+        "Graph_ID": 73,
+        "RFEM": {
+            "Nr": 185,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo63",
+            "analytische_Länge": 1.72502000000007,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2694
+            ],
+            "zugehoerige_Knoten": [
+                2800,
+                2801
+            ]
+        }
+    },
+    {
+        "Graph_ID": 74,
+        "RFEM": {
+            "Nr": 186,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo62",
+            "analytische_Länge": 4.94702,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2695
+            ],
+            "zugehoerige_Knoten": [
+                2802,
+                2803
+            ]
+        }
+    },
+    {
+        "Graph_ID": 75,
+        "RFEM": {
+            "Nr": 187,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo60",
+            "analytische_Länge": 3.6260200000000697,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2696
+            ],
+            "zugehoerige_Knoten": [
+                2804,
+                2805
+            ]
+        }
+    },
+    {
+        "Graph_ID": 76,
+        "RFEM": {
+            "Nr": 188,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo67",
+            "analytische_Länge": 1.7250200000000904,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2697
+            ],
+            "zugehoerige_Knoten": [
+                2806,
+                2807
+            ]
+        }
+    },
+    {
+        "Graph_ID": 77,
+        "RFEM": {
+            "Nr": 189,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo66",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2698
+            ],
+            "zugehoerige_Knoten": [
+                2808,
+                2809
+            ]
+        }
+    },
+    {
+        "Graph_ID": 78,
+        "RFEM": {
+            "Nr": 190,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6A",
+            "analytische_Länge": 6.211494139317341,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2699
+            ],
+            "zugehoerige_Knoten": [
+                2810,
+                2811
+            ]
+        }
+    },
+    {
+        "Graph_ID": 79,
+        "RFEM": {
+            "Nr": 191,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo64",
+            "analytische_Länge": 3.6260200000001,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2700
+            ],
+            "zugehoerige_Knoten": [
+                2812,
+                2813
+            ]
+        }
+    },
+    {
+        "Graph_ID": 80,
+        "RFEM": {
+            "Nr": 192,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7O",
+            "analytische_Länge": 4.94702,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2701
+            ],
+            "zugehoerige_Knoten": [
+                2814,
+                2815
+            ]
+        }
+    },
+    {
+        "Graph_ID": 81,
+        "RFEM": {
+            "Nr": 193,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7P",
+            "analytische_Länge": 1.7250200000000504,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2702
+            ],
+            "zugehoerige_Knoten": [
+                2816,
+                2817
+            ]
+        }
+    },
+    {
+        "Graph_ID": 82,
+        "RFEM": {
+            "Nr": 194,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6Z",
+            "analytische_Länge": 1.7250200000000717,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2703
+            ],
+            "zugehoerige_Knoten": [
+                2818,
+                2819
+            ]
+        }
+    },
+    {
+        "Graph_ID": 83,
+        "RFEM": {
+            "Nr": 195,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6Y",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2704
+            ],
+            "zugehoerige_Knoten": [
+                2820,
+                2821
+            ]
+        }
+    },
+    {
+        "Graph_ID": 84,
+        "RFEM": {
+            "Nr": 196,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo7U",
+            "analytische_Länge": 3.626020000000061,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2705
+            ],
+            "zugehoerige_Knoten": [
+                2822,
+                2823
+            ]
+        }
+    },
+    {
+        "Graph_ID": 85,
+        "RFEM": {
+            "Nr": 197,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6d",
+            "analytische_Länge": 1.7250200000000895,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2706
+            ],
+            "zugehoerige_Knoten": [
+                2824,
+                2825
+            ]
+        }
+    },
+    {
+        "Graph_ID": 86,
+        "RFEM": {
+            "Nr": 198,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6W",
+            "analytische_Länge": 3.626020000000068,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2707
+            ],
+            "zugehoerige_Knoten": [
+                2826,
+                2827
+            ]
+        }
+    },
+    {
+        "Graph_ID": 87,
+        "RFEM": {
+            "Nr": 199,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6c",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2708
+            ],
+            "zugehoerige_Knoten": [
+                2828,
+                2829
+            ]
+        }
+    },
+    {
+        "Graph_ID": 88,
+        "RFEM": {
+            "Nr": 200,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6a",
+            "analytische_Länge": 3.6260200000001,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2709
+            ],
+            "zugehoerige_Knoten": [
+                2830,
+                2831
+            ]
+        }
+    },
+    {
+        "Graph_ID": 89,
+        "RFEM": {
+            "Nr": 201,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6o",
+            "analytische_Länge": 3.6260200000000093,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2710
+            ],
+            "zugehoerige_Knoten": [
+                2832,
+                2833
+            ]
+        }
+    },
+    {
+        "Graph_ID": 90,
+        "RFEM": {
+            "Nr": 202,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6i",
+            "analytische_Länge": 4.9735200000000095,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2711
+            ],
+            "zugehoerige_Knoten": [
+                2834,
+                2835
+            ]
+        }
+    },
+    {
+        "Graph_ID": 91,
+        "RFEM": {
+            "Nr": 203,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6j",
+            "analytische_Länge": 1.7250200000000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2712
+            ],
+            "zugehoerige_Knoten": [
+                2836,
+                2837
+            ]
+        }
+    },
+    {
+        "Graph_ID": 92,
+        "RFEM": {
+            "Nr": 204,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6g",
+            "analytische_Länge": 6.01752000000001,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2713
+            ],
+            "zugehoerige_Knoten": [
+                2838,
+                2839
+            ]
+        }
+    },
+    {
+        "Graph_ID": 93,
+        "RFEM": {
+            "Nr": 205,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6m",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2714
+            ],
+            "zugehoerige_Knoten": [
+                2840,
+                2841
+            ]
+        }
+    },
+    {
+        "Graph_ID": 94,
+        "RFEM": {
+            "Nr": 206,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6n",
+            "analytische_Länge": 1.72502000000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2715
+            ],
+            "zugehoerige_Knoten": [
+                2842,
+                2843
+            ]
+        }
+    },
+    {
+        "Graph_ID": 95,
+        "RFEM": {
+            "Nr": 207,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6r",
+            "analytische_Länge": 3.6260200000000395,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2716
+            ],
+            "zugehoerige_Knoten": [
+                2844,
+                2845
+            ]
+        }
+    },
+    {
+        "Graph_ID": 96,
+        "RFEM": {
+            "Nr": 208,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo6s",
+            "analytische_Länge": 3.62602000000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                2717
+            ],
+            "zugehoerige_Knoten": [
+                2846,
+                2847
+            ]
+        }
+    },
+    {
+        "Graph_ID": 97,
+        "RFEM": {
+            "Nr": 285,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE6I",
+            "analytische_Länge": 2.46382,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4684
+            ],
+            "zugehoerige_Knoten": [
+                4691,
+                4692
+            ]
+        }
+    },
+    {
+        "Graph_ID": 98,
+        "RFEM": {
+            "Nr": 286,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE6H",
+            "analytische_Länge": 2.46382,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4685
+            ],
+            "zugehoerige_Knoten": [
+                4693,
+                4694
+            ]
+        }
+    },
+    {
+        "Graph_ID": 99,
+        "RFEM": {
+            "Nr": 287,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHB3",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4686
+            ],
+            "zugehoerige_Knoten": [
+                4695,
+                4696
+            ]
+        }
+    },
+    {
+        "Graph_ID": 100,
+        "RFEM": {
+            "Nr": 288,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHB2",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4687
+            ],
+            "zugehoerige_Knoten": [
+                4697,
+                4698
+            ]
+        }
+    },
+    {
+        "Graph_ID": 101,
+        "RFEM": {
+            "Nr": 289,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHB0",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4688
+            ],
+            "zugehoerige_Knoten": [
+                4699,
+                4700
+            ]
+        }
+    },
+    {
+        "Graph_ID": 102,
+        "RFEM": {
+            "Nr": 290,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHB7",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4689
+            ],
+            "zugehoerige_Knoten": [
+                4701,
+                4702
+            ]
+        }
+    },
+    {
+        "Graph_ID": 103,
+        "RFEM": {
+            "Nr": 291,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHB1",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4690
+            ],
+            "zugehoerige_Knoten": [
+                4703,
+                4704
+            ]
+        }
+    },
+    {
+        "Graph_ID": 104,
+        "RFEM": {
+            "Nr": 292,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHB6",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4691
+            ],
+            "zugehoerige_Knoten": [
+                4705,
+                4706
+            ]
+        }
+    },
+    {
+        "Graph_ID": 105,
+        "RFEM": {
+            "Nr": 293,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH9B",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4692
+            ],
+            "zugehoerige_Knoten": [
+                4707,
+                4708
+            ]
+        }
+    },
+    {
+        "Graph_ID": 106,
+        "RFEM": {
+            "Nr": 294,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH98",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4693
+            ],
+            "zugehoerige_Knoten": [
+                4709,
+                4710
+            ]
+        }
+    },
+    {
+        "Graph_ID": 107,
+        "RFEM": {
+            "Nr": 295,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH99",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4694
+            ],
+            "zugehoerige_Knoten": [
+                4711,
+                4712
+            ]
+        }
+    },
+    {
+        "Graph_ID": 108,
+        "RFEM": {
+            "Nr": 296,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH9C",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4695
+            ],
+            "zugehoerige_Knoten": [
+                4713,
+                4714
+            ]
+        }
+    },
+    {
+        "Graph_ID": 109,
+        "RFEM": {
+            "Nr": 297,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH9F",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4696
+            ],
+            "zugehoerige_Knoten": [
+                4715,
+                4716
+            ]
+        }
+    },
+    {
+        "Graph_ID": 110,
+        "RFEM": {
+            "Nr": 298,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH9E",
+            "analytische_Länge": 3.5290200000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4697
+            ],
+            "zugehoerige_Knoten": [
+                4717,
+                4718
+            ]
+        }
+    },
+    {
+        "Graph_ID": 111,
+        "RFEM": {
+            "Nr": 327,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9YS",
+            "analytische_Länge": 2.8380199999999878,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4726
+            ],
+            "zugehoerige_Knoten": [
+                4746,
+                4747
+            ]
+        }
+    },
+    {
+        "Graph_ID": 112,
+        "RFEM": {
+            "Nr": 328,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSLc",
+            "analytische_Länge": 1.7250200000000895,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4727
+            ],
+            "zugehoerige_Knoten": [
+                4748,
+                4749
+            ]
+        }
+    },
+    {
+        "Graph_ID": 113,
+        "RFEM": {
+            "Nr": 329,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSLS",
+            "analytische_Länge": 3.626020000000068,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4728
+            ],
+            "zugehoerige_Knoten": [
+                4750,
+                4751
+            ]
+        }
+    },
+    {
+        "Graph_ID": 114,
+        "RFEM": {
+            "Nr": 330,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSLo",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4729
+            ],
+            "zugehoerige_Knoten": [
+                4752,
+                4753
+            ]
+        }
+    },
+    {
+        "Graph_ID": 115,
+        "RFEM": {
+            "Nr": 331,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSMC",
+            "analytische_Länge": 6.017520000000008,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4730
+            ],
+            "zugehoerige_Knoten": [
+                4754,
+                4755
+            ]
+        }
+    },
+    {
+        "Graph_ID": 116,
+        "RFEM": {
+            "Nr": 332,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSLj",
+            "analytische_Länge": 3.6260200000001,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4731
+            ],
+            "zugehoerige_Knoten": [
+                4756,
+                4757
+            ]
+        }
+    },
+    {
+        "Graph_ID": 117,
+        "RFEM": {
+            "Nr": 333,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfoV",
+            "analytische_Länge": 4.94851999999999,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4732
+            ],
+            "zugehoerige_Knoten": [
+                4758,
+                4759
+            ]
+        }
+    },
+    {
+        "Graph_ID": 118,
+        "RFEM": {
+            "Nr": 334,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfoT",
+            "analytische_Länge": 3.6260200000000093,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4733
+            ],
+            "zugehoerige_Knoten": [
+                4760,
+                4761
+            ]
+        }
+    },
+    {
+        "Graph_ID": 119,
+        "RFEM": {
+            "Nr": 335,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfoU",
+            "analytische_Länge": 1.72502,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4734
+            ],
+            "zugehoerige_Knoten": [
+                4762,
+                4763
+            ]
+        }
+    },
+    {
+        "Graph_ID": 120,
+        "RFEM": {
+            "Nr": 336,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfoR",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4735
+            ],
+            "zugehoerige_Knoten": [
+                4764,
+                4765
+            ]
+        }
+    },
+    {
+        "Graph_ID": 121,
+        "RFEM": {
+            "Nr": 337,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpb",
+            "analytische_Länge": 1.7250200000000404,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4736
+            ],
+            "zugehoerige_Knoten": [
+                4766,
+                4767
+            ]
+        }
+    },
+    {
+        "Graph_ID": 122,
+        "RFEM": {
+            "Nr": 338,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfoP",
+            "analytische_Länge": 3.62602000000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4737
+            ],
+            "zugehoerige_Knoten": [
+                4768,
+                4769
+            ]
+        }
+    },
+    {
+        "Graph_ID": 123,
+        "RFEM": {
+            "Nr": 339,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpc",
+            "analytische_Länge": 3.6260200000000395,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4738
+            ],
+            "zugehoerige_Knoten": [
+                4770,
+                4771
+            ]
+        }
+    },
+    {
+        "Graph_ID": 124,
+        "RFEM": {
+            "Nr": 340,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfoQ",
+            "analytische_Länge": 1.7250200000000204,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4739
+            ],
+            "zugehoerige_Knoten": [
+                4772,
+                4773
+            ]
+        }
+    },
+    {
+        "Graph_ID": 125,
+        "RFEM": {
+            "Nr": 341,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpZ",
+            "analytische_Länge": 4.94702,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4740
+            ],
+            "zugehoerige_Knoten": [
+                4774,
+                4775
+            ]
+        }
+    },
+    {
+        "Graph_ID": 126,
+        "RFEM": {
+            "Nr": 342,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpX",
+            "analytische_Länge": 3.6260200000000604,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4741
+            ],
+            "zugehoerige_Knoten": [
+                4776,
+                4777
+            ]
+        }
+    },
+    {
+        "Graph_ID": 127,
+        "RFEM": {
+            "Nr": 343,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpa",
+            "analytische_Länge": 4.94702000000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4742
+            ],
+            "zugehoerige_Knoten": [
+                4778,
+                4779
+            ]
+        }
+    },
+    {
+        "Graph_ID": 128,
+        "RFEM": {
+            "Nr": 344,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpY",
+            "analytische_Länge": 1.72502000000005,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4743
+            ],
+            "zugehoerige_Knoten": [
+                4780,
+                4781
+            ]
+        }
+    },
+    {
+        "Graph_ID": 129,
+        "RFEM": {
+            "Nr": 345,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfph",
+            "analytische_Länge": 3.6260200000000697,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4744
+            ],
+            "zugehoerige_Knoten": [
+                4782,
+                4783
+            ]
+        }
+    },
+    {
+        "Graph_ID": 130,
+        "RFEM": {
+            "Nr": 346,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpj",
+            "analytische_Länge": 4.94702,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4745
+            ],
+            "zugehoerige_Knoten": [
+                4784,
+                4785
+            ]
+        }
+    },
+    {
+        "Graph_ID": 131,
+        "RFEM": {
+            "Nr": 347,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpi",
+            "analytische_Länge": 1.72502000000007,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4746
+            ],
+            "zugehoerige_Knoten": [
+                4786,
+                4787
+            ]
+        }
+    },
+    {
+        "Graph_ID": 132,
+        "RFEM": {
+            "Nr": 348,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpf",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4747
+            ],
+            "zugehoerige_Knoten": [
+                4788,
+                4789
+            ]
+        }
+    },
+    {
+        "Graph_ID": 133,
+        "RFEM": {
+            "Nr": 349,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpt",
+            "analytische_Länge": 3.6260200000001,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4748
+            ],
+            "zugehoerige_Knoten": [
+                4790,
+                4791
+            ]
+        }
+    },
+    {
+        "Graph_ID": 134,
+        "RFEM": {
+            "Nr": 350,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpe",
+            "analytische_Länge": 1.72502000000009,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4749
+            ],
+            "zugehoerige_Knoten": [
+                4792,
+                4793
+            ]
+        }
+    },
+    {
+        "Graph_ID": 135,
+        "RFEM": {
+            "Nr": 351,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2TfLLlhbn8ZwBVGjXrVfpr",
+            "analytische_Länge": 6.0175200000000135,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4750
+            ],
+            "zugehoerige_Knoten": [
+                4794,
+                4795
+            ]
+        }
+    },
+    {
+        "Graph_ID": 136,
+        "RFEM": {
+            "Nr": 352,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSEj",
+            "analytische_Länge": 4.948520000000022,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4751
+            ],
+            "zugehoerige_Knoten": [
+                4796,
+                4797
+            ]
+        }
+    },
+    {
+        "Graph_ID": 137,
+        "RFEM": {
+            "Nr": 353,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSFU",
+            "analytische_Länge": 1.7250200000000007,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4752
+            ],
+            "zugehoerige_Knoten": [
+                4798,
+                4799
+            ]
+        }
+    },
+    {
+        "Graph_ID": 138,
+        "RFEM": {
+            "Nr": 354,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSF3",
+            "analytische_Länge": 3.626020000000011,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4753
+            ],
+            "zugehoerige_Knoten": [
+                4800,
+                4801
+            ]
+        }
+    },
+    {
+        "Graph_ID": 139,
+        "RFEM": {
+            "Nr": 355,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSG7",
+            "analytische_Länge": 1.7250200000000007,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4754
+            ],
+            "zugehoerige_Knoten": [
+                4802,
+                4803
+            ]
+        }
+    },
+    {
+        "Graph_ID": 140,
+        "RFEM": {
+            "Nr": 356,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSGI",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4755
+            ],
+            "zugehoerige_Knoten": [
+                4804,
+                4805
+            ]
+        }
+    },
+    {
+        "Graph_ID": 141,
+        "RFEM": {
+            "Nr": 357,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSH8",
+            "analytische_Länge": 1.7250200000000397,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4756
+            ],
+            "zugehoerige_Knoten": [
+                4806,
+                4807
+            ]
+        }
+    },
+    {
+        "Graph_ID": 142,
+        "RFEM": {
+            "Nr": 358,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSH4",
+            "analytische_Länge": 3.6260200000000395,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4757
+            ],
+            "zugehoerige_Knoten": [
+                4808,
+                4809
+            ]
+        }
+    },
+    {
+        "Graph_ID": 143,
+        "RFEM": {
+            "Nr": 359,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSGB",
+            "analytische_Länge": 3.6260200000000182,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4758
+            ],
+            "zugehoerige_Knoten": [
+                4810,
+                4811
+            ]
+        }
+    },
+    {
+        "Graph_ID": 144,
+        "RFEM": {
+            "Nr": 360,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSH$",
+            "analytische_Länge": 4.94702000000002,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4759
+            ],
+            "zugehoerige_Knoten": [
+                4812,
+                4813
+            ]
+        }
+    },
+    {
+        "Graph_ID": 145,
+        "RFEM": {
+            "Nr": 361,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSJR",
+            "analytische_Länge": 4.94702,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4760
+            ],
+            "zugehoerige_Knoten": [
+                4814,
+                4815
+            ]
+        }
+    },
+    {
+        "Graph_ID": 146,
+        "RFEM": {
+            "Nr": 362,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSJF",
+            "analytische_Länge": 1.7250200000000504,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4761
+            ],
+            "zugehoerige_Knoten": [
+                4816,
+                4817
+            ]
+        }
+    },
+    {
+        "Graph_ID": 147,
+        "RFEM": {
+            "Nr": 363,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSKY",
+            "analytische_Länge": 4.947019999999998,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4762
+            ],
+            "zugehoerige_Knoten": [
+                4818,
+                4819
+            ]
+        }
+    },
+    {
+        "Graph_ID": 148,
+        "RFEM": {
+            "Nr": 364,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSKf",
+            "analytische_Länge": 1.7250200000000717,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4763
+            ],
+            "zugehoerige_Knoten": [
+                4820,
+                4821
+            ]
+        }
+    },
+    {
+        "Graph_ID": 149,
+        "RFEM": {
+            "Nr": 365,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnSJr",
+            "analytische_Länge": 3.626020000000061,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                4764
+            ],
+            "zugehoerige_Knoten": [
+                4822,
+                4823
+            ]
+        }
+    },
+    {
+        "Graph_ID": 150,
+        "RFEM": {
+            "Nr": 444,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2_WQ3_2yn5Q9KT9M_$1EA4",
+            "analytische_Länge": 1.0200200000000006,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                6715
+            ],
+            "zugehoerige_Knoten": [
+                6724,
+                6725
+            ]
+        }
+    },
+    {
+        "Graph_ID": 151,
+        "RFEM": {
+            "Nr": 445,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD99_",
+            "analytische_Länge": 1.0200200000000006,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6716
+            ],
+            "zugehoerige_Knoten": [
+                6726,
+                6727
+            ]
+        }
+    },
+    {
+        "Graph_ID": 152,
+        "RFEM": {
+            "Nr": 446,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD970",
+            "analytische_Länge": 2.46381956054688,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6717
+            ],
+            "zugehoerige_Knoten": [
+                6728,
+                6729
+            ]
+        }
+    },
+    {
+        "Graph_ID": 153,
+        "RFEM": {
+            "Nr": 447,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9E1",
+            "analytische_Länge": 3.8000200000000004,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6718
+            ],
+            "zugehoerige_Knoten": [
+                6730,
+                6731
+            ]
+        }
+    },
+    {
+        "Graph_ID": 154,
+        "RFEM": {
+            "Nr": 448,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnRO8",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6719
+            ],
+            "zugehoerige_Knoten": [
+                6732,
+                6733
+            ]
+        }
+    },
+    {
+        "Graph_ID": 155,
+        "RFEM": {
+            "Nr": 449,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnROB",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6720
+            ],
+            "zugehoerige_Knoten": [
+                6734,
+                6735
+            ]
+        }
+    },
+    {
+        "Graph_ID": 156,
+        "RFEM": {
+            "Nr": 450,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnROt",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6721
+            ],
+            "zugehoerige_Knoten": [
+                6736,
+                6737
+            ]
+        }
+    },
+    {
+        "Graph_ID": 157,
+        "RFEM": {
+            "Nr": 451,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnROs",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6722
+            ],
+            "zugehoerige_Knoten": [
+                6738,
+                6739
+            ]
+        }
+    },
+    {
+        "Graph_ID": 158,
+        "RFEM": {
+            "Nr": 452,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnRO9",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6723
+            ],
+            "zugehoerige_Knoten": [
+                6740,
+                6741
+            ]
+        }
+    },
+    {
+        "Graph_ID": 159,
+        "RFEM": {
+            "Nr": 453,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnROq",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6724
+            ],
+            "zugehoerige_Knoten": [
+                6742,
+                6743
+            ]
+        }
+    },
+    {
+        "Graph_ID": 160,
+        "RFEM": {
+            "Nr": 454,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0l6IX565P6i8Len4NegeU6",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                6725
+            ],
+            "zugehoerige_Knoten": [
+                6744,
+                6745
+            ]
+        }
+    },
+    {
+        "Graph_ID": 161,
+        "RFEM": {
+            "Nr": 455,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0l6IX565P6i8Len4NegeSr",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6726
+            ],
+            "zugehoerige_Knoten": [
+                6746,
+                6747
+            ]
+        }
+    },
+    {
+        "Graph_ID": 162,
+        "RFEM": {
+            "Nr": 456,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0l6IX565P6i8Len4Nege2e",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                6727
+            ],
+            "zugehoerige_Knoten": [
+                6748,
+                6749
+            ]
+        }
+    },
+    {
+        "Graph_ID": 163,
+        "RFEM": {
+            "Nr": 457,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0l6IX565P6i8Len4Nege3X",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                6728
+            ],
+            "zugehoerige_Knoten": [
+                6750,
+                6751
+            ]
+        }
+    },
+    {
+        "Graph_ID": 164,
+        "RFEM": {
+            "Nr": 458,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0l6IX565P6i8Len4Nege7e",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": true,
+            "zugehoerige_Linien": [
+                6729
+            ],
+            "zugehoerige_Knoten": [
+                6752,
+                6753
+            ]
+        }
+    },
+    {
+        "Graph_ID": 165,
+        "RFEM": {
+            "Nr": 459,
+            "Kategorie": "Stab",
+            "Type": "TYPE_BEAM",
+            "IFC_GUID": "0l6IX565P6i8Len4Nege5D",
+            "analytische_Länge": 3.52902,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                6730
+            ],
+            "zugehoerige_Knoten": [
+                6754,
+                6755
+            ]
+        }
+    },
+    {
+        "Graph_ID": 166,
+        "RFEM": {
+            "Nr": 2,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDEBu",
+            "analytische_Länge": 32.2003000000002,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5,
+                6,
+                7,
+                8
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 167,
+        "RFEM": {
+            "Nr": 4,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE3M",
+            "analytische_Länge": 32.200300000000205,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                13,
+                14,
+                15,
+                16
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 168,
+        "RFEM": {
+            "Nr": 6,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwop$",
+            "analytische_Länge": 213.85529999999596,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                29,
+                30,
+                31,
+                32
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 169,
+        "RFEM": {
+            "Nr": 10,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoyE",
+            "analytische_Länge": 214.9363238653642,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                61,
+                62,
+                63,
+                64
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 170,
+        "RFEM": {
+            "Nr": 15,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9tM",
+            "analytische_Länge": 32.20030000000019,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                89,
+                90,
+                91,
+                92
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 171,
+        "RFEM": {
+            "Nr": 18,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE0Q",
+            "analytische_Länge": 32.200300000000205,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                101,
+                102,
+                103,
+                104
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 172,
+        "RFEM": {
+            "Nr": 21,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9w_",
+            "analytische_Länge": 6.809455999999919,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                129,
+                130,
+                131,
+                132,
+                133,
+                134,
+                135,
+                136
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 173,
+        "RFEM": {
+            "Nr": 24,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9wy",
+            "analytische_Länge": 7.355155999999915,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                165,
+                166,
+                167,
+                168,
+                169,
+                170,
+                171,
+                172
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 174,
+        "RFEM": {
+            "Nr": 27,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9wz",
+            "analytische_Länge": 31.429049999999968,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                205,
+                206,
+                207,
+                208
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 175,
+        "RFEM": {
+            "Nr": 30,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9w$",
+            "analytische_Länge": 26.023349999999926,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                257,
+                258,
+                259,
+                260
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 176,
+        "RFEM": {
+            "Nr": 33,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE4R",
+            "analytische_Länge": 32.94330665499999,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                309,
+                310,
+                311,
+                312,
+                313,
+                314,
+                315,
+                316
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 177,
+        "RFEM": {
+            "Nr": 36,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE4Q",
+            "analytische_Länge": 8.178587599999913,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                349,
+                350,
+                351,
+                352,
+                353,
+                354,
+                355,
+                356
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 178,
+        "RFEM": {
+            "Nr": 37,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "31oTwpQdUJ58dmC678WjGj",
+            "analytische_Länge": 9.136755919999974,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                361,
+                362,
+                363,
+                364
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 179,
+        "RFEM": {
+            "Nr": 40,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE45",
+            "analytische_Länge": 27.513306654999965,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                413,
+                414,
+                415,
+                416,
+                417,
+                418,
+                419,
+                420
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 180,
+        "RFEM": {
+            "Nr": 41,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "12jRLq6SwYIzBiBltprJ1m",
+            "analytische_Länge": 9.136755919999974,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                361,
+                362,
+                363,
+                364
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 181,
+        "RFEM": {
+            "Nr": 44,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE44",
+            "analytische_Länge": 7.6085875999999315,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                461,
+                462,
+                463,
+                464,
+                465,
+                466,
+                467,
+                468
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 182,
+        "RFEM": {
+            "Nr": 47,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9qX",
+            "analytische_Länge": 32.20030000000019,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                774,
+                775,
+                776,
+                777
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 183,
+        "RFEM": {
+            "Nr": 50,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE0L",
+            "analytische_Länge": 32.200300000000205,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                786,
+                787,
+                788,
+                789
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 184,
+        "RFEM": {
+            "Nr": 54,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo5T",
+            "analytische_Länge": 214.88152000000005,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                826,
+                827,
+                828,
+                829
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 185,
+        "RFEM": {
+            "Nr": 59,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo4i",
+            "analytische_Länge": 214.225,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                878,
+                879,
+                880,
+                881
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 186,
+        "RFEM": {
+            "Nr": 65,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoQV",
+            "analytische_Länge": 10.943287999999985,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                918,
+                919,
+                920,
+                921
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 187,
+        "RFEM": {
+            "Nr": 68,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoO6",
+            "analytische_Länge": 6.8212500000000205,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                934,
+                935,
+                936,
+                937
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 188,
+        "RFEM": {
+            "Nr": 71,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9wT",
+            "analytische_Länge": 27.614999999999956,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                259,
+                976,
+                977,
+                978
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 189,
+        "RFEM": {
+            "Nr": 74,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9wS",
+            "analytische_Länge": 7.273099999999928,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1023,
+                1024,
+                1025,
+                1026,
+                1027,
+                1028,
+                1029,
+                1030,
+                1031,
+                1032
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 190,
+        "RFEM": {
+            "Nr": 77,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9wI",
+            "analytische_Länge": 7.8430999999999536,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1065,
+                1066,
+                1067,
+                1068,
+                1069,
+                1070,
+                1071,
+                1072,
+                1073,
+                1074
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 191,
+        "RFEM": {
+            "Nr": 80,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9wJ",
+            "analytische_Länge": 33.044999999999916,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1107,
+                1108,
+                1109,
+                1110,
+                1111,
+                207
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 192,
+        "RFEM": {
+            "Nr": 83,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE5F",
+            "analytische_Länge": 27.513306654999965,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1168,
+                1169,
+                1170,
+                1171,
+                1172,
+                1173,
+                1174,
+                1175
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 193,
+        "RFEM": {
+            "Nr": 86,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE5C",
+            "analytische_Länge": 8.178587599999913,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1216,
+                1217,
+                1218,
+                1219,
+                1220,
+                1221,
+                1222,
+                1223
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 194,
+        "RFEM": {
+            "Nr": 87,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "25K9KVDCB4kkaoT_bGF9Mp",
+            "analytische_Länge": 9.136755919999977,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1228,
+                1229,
+                1230,
+                1231
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 195,
+        "RFEM": {
+            "Nr": 90,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE5D",
+            "analytische_Länge": 32.94330665499997,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1264,
+                1265,
+                1266,
+                1267,
+                1268,
+                1269,
+                1270,
+                1271
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 196,
+        "RFEM": {
+            "Nr": 93,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE5E",
+            "analytische_Länge": 7.608587599999931,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1304,
+                1305,
+                1306,
+                1307,
+                1308,
+                1309,
+                1310,
+                1311
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 197,
+        "RFEM": {
+            "Nr": 94,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0zGA8eNpJQKyIVZ7$G2lTR",
+            "analytische_Länge": 9.136755919999977,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1228,
+                1229,
+                1230,
+                1231
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 198,
+        "RFEM": {
+            "Nr": 97,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo4M",
+            "analytische_Länge": 11.488987999999988,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1334,
+                1335,
+                1336,
+                1337
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 199,
+        "RFEM": {
+            "Nr": 100,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo4N",
+            "analytische_Länge": 94.95090183999993,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1446,
+                1447,
+                1448,
+                1449,
+                1450,
+                1451,
+                1452,
+                1453,
+                1454,
+                1455,
+                1456,
+                1457,
+                1458,
+                1459,
+                1460,
+                1461,
+                1462,
+                1463,
+                1464,
+                1465,
+                1466,
+                1467,
+                1468,
+                1469,
+                1470,
+                1471,
+                1472,
+                1473,
+                1474,
+                1475,
+                1476,
+                1477,
+                1478,
+                1479,
+                1480,
+                1481
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 200,
+        "RFEM": {
+            "Nr": 103,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo4L",
+            "analytische_Länge": 105.5138939999998,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1626,
+                1627,
+                1628,
+                1629
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 201,
+        "RFEM": {
+            "Nr": 106,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo4K",
+            "analytische_Länge": 6.9121999999999995,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1698,
+                1699,
+                1700,
+                1701
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 202,
+        "RFEM": {
+            "Nr": 109,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo4V",
+            "analytische_Länge": 10.943287999999983,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1718,
+                1719,
+                1720,
+                1721
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 203,
+        "RFEM": {
+            "Nr": 112,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwo4U",
+            "analytische_Länge": 6.9121999999999995,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1734,
+                1735,
+                1736,
+                1737
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 204,
+        "RFEM": {
+            "Nr": 115,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoQK",
+            "analytische_Länge": 94.95090183999993,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1842,
+                1843,
+                1844,
+                1845,
+                1846,
+                1847,
+                1848,
+                1849,
+                1850,
+                1851,
+                1852,
+                1853,
+                1854,
+                1855,
+                1856,
+                1857,
+                1858,
+                1859,
+                1860,
+                1861,
+                1862,
+                1863,
+                1864,
+                1865,
+                1866,
+                1867,
+                1868,
+                1869,
+                1870,
+                1871,
+                1872,
+                1873,
+                1874,
+                1875,
+                1876,
+                1877
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 205,
+        "RFEM": {
+            "Nr": 118,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoQN",
+            "analytische_Länge": 11.488987999999985,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                1912,
+                1913,
+                1914,
+                1915
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 206,
+        "RFEM": {
+            "Nr": 121,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoQQ",
+            "analytische_Länge": 105.51389399999985,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2052,
+                2053,
+                2054,
+                2055
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 207,
+        "RFEM": {
+            "Nr": 124,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "15uChHxonFlQBEfFBqwoQL",
+            "analytische_Länge": 6.912199999999997,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2124,
+                2125,
+                2126,
+                2127
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 208,
+        "RFEM": {
+            "Nr": 127,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9qQ",
+            "analytische_Länge": 32.20030000000019,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2802,
+                2803,
+                2804,
+                2805
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 209,
+        "RFEM": {
+            "Nr": 130,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE0u",
+            "analytische_Länge": 32.200300000000205,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2814,
+                2815,
+                2816,
+                2817
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 210,
+        "RFEM": {
+            "Nr": 134,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHAB",
+            "analytische_Länge": 212.02444999999994,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2854,
+                2855,
+                2856,
+                2857
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 211,
+        "RFEM": {
+            "Nr": 142,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH8G",
+            "analytische_Länge": 213.38816000000014,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2918,
+                2919,
+                2920,
+                2921
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 212,
+        "RFEM": {
+            "Nr": 145,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9rP",
+            "analytische_Länge": 7.843099999999916,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                2958,
+                2959,
+                2960,
+                2961,
+                2962,
+                2963,
+                2964,
+                2965,
+                2966,
+                2967
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 213,
+        "RFEM": {
+            "Nr": 148,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9rR",
+            "analytische_Länge": 7.273099999999928,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3000,
+                3001,
+                3002,
+                3003,
+                3004,
+                3005,
+                3006,
+                3007,
+                3008,
+                3009
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 214,
+        "RFEM": {
+            "Nr": 151,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9rU",
+            "analytische_Länge": 33.04500000000069,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3042,
+                3043,
+                3044,
+                3045,
+                3046,
+                1109
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 215,
+        "RFEM": {
+            "Nr": 154,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9rO",
+            "analytische_Länge": 27.614999999999952,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                977,
+                3093,
+                3094,
+                3095
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 216,
+        "RFEM": {
+            "Nr": 157,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE7k",
+            "analytische_Länge": 32.94330665499997,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3144,
+                3145,
+                3146,
+                3147,
+                3148,
+                3149,
+                3150,
+                3151
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 217,
+        "RFEM": {
+            "Nr": 158,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2JXKOvTBzssqxeKXUtsyCI",
+            "analytische_Länge": 9.136755919999974,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3160,
+                3161,
+                3162,
+                3163
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 218,
+        "RFEM": {
+            "Nr": 161,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE7e",
+            "analytische_Länge": 27.51330665499993,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3212,
+                3213,
+                3214,
+                3215,
+                3216,
+                3217,
+                3218,
+                3219
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 219,
+        "RFEM": {
+            "Nr": 162,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0s9HdUpVZhgN_x5arjFcg0",
+            "analytische_Länge": 9.136755919999974,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3160,
+                3161,
+                3162,
+                3163
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 220,
+        "RFEM": {
+            "Nr": 165,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE7f",
+            "analytische_Länge": 8.178587599999915,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3260,
+                3261,
+                3262,
+                3263,
+                3264,
+                3265,
+                3266,
+                3267
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 221,
+        "RFEM": {
+            "Nr": 168,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE7h",
+            "analytische_Länge": 7.608587599999929,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3296,
+                3297,
+                3298,
+                3299,
+                3300,
+                3301,
+                3302,
+                3303
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 222,
+        "RFEM": {
+            "Nr": 171,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHKW",
+            "analytische_Länge": 11.071954000000762,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3326,
+                3327,
+                3328,
+                3329
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 223,
+        "RFEM": {
+            "Nr": 174,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHKd",
+            "analytische_Länge": 101.61550000000827,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3464,
+                3465,
+                3466,
+                3467,
+                3468
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 224,
+        "RFEM": {
+            "Nr": 177,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHBO",
+            "analytische_Länge": 6.705100000000382,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3537,
+                3538,
+                3539,
+                3540
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 225,
+        "RFEM": {
+            "Nr": 180,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHKX",
+            "analytische_Länge": 90.93828484000741,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3645,
+                3646,
+                3647,
+                3648,
+                3649,
+                3650,
+                3651,
+                3652,
+                3653,
+                3654,
+                3655,
+                3656,
+                3657,
+                3658,
+                3659,
+                3660,
+                3661,
+                3662,
+                3663,
+                3664,
+                3665,
+                3666,
+                3667,
+                3668,
+                3669,
+                3670,
+                3671,
+                3672,
+                3673,
+                3674,
+                3675,
+                3676,
+                3677,
+                3678,
+                3679,
+                3680
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 226,
+        "RFEM": {
+            "Nr": 183,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHKc",
+            "analytische_Länge": 6.705100000000382,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3705,
+                3706,
+                3707,
+                3708
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 227,
+        "RFEM": {
+            "Nr": 186,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHBP",
+            "analytische_Länge": 10.542604000000722,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3725,
+                3726,
+                3727,
+                3728
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 228,
+        "RFEM": {
+            "Nr": 189,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH9V",
+            "analytische_Länge": 11.071954000000755,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3751,
+                3752,
+                3753,
+                3754
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 229,
+        "RFEM": {
+            "Nr": 192,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH9S",
+            "analytische_Länge": 90.93828484000737,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3863,
+                3864,
+                3865,
+                3866,
+                3867,
+                3868,
+                3869,
+                3870,
+                3871,
+                3872,
+                3873,
+                3874,
+                3875,
+                3876,
+                3877,
+                3878,
+                3879,
+                3880,
+                3881,
+                3882,
+                3883,
+                3884,
+                3885,
+                3886,
+                3887,
+                3888,
+                3889,
+                3890,
+                3891,
+                3892,
+                3893,
+                3894,
+                3895,
+                3896,
+                3897,
+                3898
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 230,
+        "RFEM": {
+            "Nr": 195,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH9T",
+            "analytische_Länge": 6.705100000000382,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                3923,
+                3924,
+                3925,
+                3926
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 231,
+        "RFEM": {
+            "Nr": 198,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH9I",
+            "analytische_Länge": 101.6155000000083,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4061,
+                4062,
+                4063,
+                4064,
+                4065
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 232,
+        "RFEM": {
+            "Nr": 201,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH9N",
+            "analytische_Länge": 10.542604000000729,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4142,
+                4143,
+                4144,
+                4145
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 233,
+        "RFEM": {
+            "Nr": 204,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshH2f",
+            "analytische_Länge": 6.616875000000412,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4158,
+                4159,
+                4160,
+                4161
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 234,
+        "RFEM": {
+            "Nr": 207,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9t7",
+            "analytische_Länge": 32.20030000000019,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4851,
+                4852,
+                4853,
+                4854
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 235,
+        "RFEM": {
+            "Nr": 210,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE1S",
+            "analytische_Länge": 32.200300000000205,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4863,
+                4864,
+                4865,
+                4866
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 236,
+        "RFEM": {
+            "Nr": 214,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnRP0",
+            "analytische_Länge": 218.3,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4879,
+                4880,
+                4881,
+                4882
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 237,
+        "RFEM": {
+            "Nr": 218,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0l6IX565P6i8Len4Neg$s2",
+            "analytische_Länge": 218.15250000000037,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4895,
+                4896,
+                4897,
+                4898
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 238,
+        "RFEM": {
+            "Nr": 221,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2_WQ3_2yn5Q9KT9M_$1EhQ",
+            "analytische_Länge": 6.9784999999999595,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4923,
+                4924,
+                4925,
+                4926,
+                4927,
+                4928,
+                4929,
+                4930
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 239,
+        "RFEM": {
+            "Nr": 224,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2_WQ3_2yn5Q9KT9M_$1EiH",
+            "analytische_Länge": 32.52439999999996,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4965,
+                4966,
+                4967,
+                4968,
+                4969,
+                4970
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 240,
+        "RFEM": {
+            "Nr": 225,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "3yBWq_WtxT_RTpbNwLSsUm",
+            "analytische_Länge": 9.13675591999998,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4979,
+                4980,
+                4981,
+                4982
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 241,
+        "RFEM": {
+            "Nr": 228,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2_WQ3_2yn5Q9KT9M_$1EL9",
+            "analytische_Länge": 6.449449999999927,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5007,
+                5008,
+                5009,
+                5010,
+                5011,
+                5012,
+                5013,
+                5014
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 242,
+        "RFEM": {
+            "Nr": 231,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2_WQ3_2yn5Q9KT9M_$1EgR",
+            "analytische_Länge": 24.932774999999953,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5059,
+                5060,
+                5061,
+                5062
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 243,
+        "RFEM": {
+            "Nr": 234,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2_WQ3_2yn5Q9KT9M_$1EMC",
+            "analytische_Länge": 22.768806654999977,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5111,
+                5112,
+                5113,
+                5114,
+                5115,
+                5116,
+                5117,
+                5118
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 244,
+        "RFEM": {
+            "Nr": 237,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2_WQ3_2yn5Q9KT9M_$1EMF",
+            "analytische_Länge": 4.689347599999949,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5151,
+                5152,
+                5153,
+                5154,
+                5155,
+                5156,
+                5157,
+                5158
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 245,
+        "RFEM": {
+            "Nr": 240,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2_WQ3_2yn5Q9KT9M_$1EMD",
+            "analytische_Länge": 8.173847599999927,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5197,
+                5198,
+                5199,
+                5200,
+                5201,
+                5202,
+                5203,
+                5204,
+                5205,
+                5206,
+                5207,
+                5208,
+                5209,
+                5210
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 246,
+        "RFEM": {
+            "Nr": 243,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2_WQ3_2yn5Q9KT9M_$1EME",
+            "analytische_Länge": 24.583806654999954,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5265,
+                5266,
+                5267,
+                5268,
+                5269,
+                5270,
+                5271,
+                5272,
+                5273,
+                5274
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 247,
+        "RFEM": {
+            "Nr": 244,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "024dzdYnR_aVT$hu2pqi83",
+            "analytische_Länge": 9.13675591999998,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4979,
+                4982,
+                4981,
+                4980
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 248,
+        "RFEM": {
+            "Nr": 247,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnROM",
+            "analytische_Länge": 12.10879999999999,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5309,
+                5310,
+                5311,
+                5312
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 249,
+        "RFEM": {
+            "Nr": 250,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnRON",
+            "analytische_Länge": 100.81960784000003,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5421,
+                5422,
+                5423,
+                5424,
+                5425,
+                5426,
+                5427,
+                5428,
+                5429,
+                5430,
+                5431,
+                5432,
+                5433,
+                5434,
+                5435,
+                5436,
+                5437,
+                5438,
+                5439,
+                5440,
+                5441,
+                5442,
+                5443,
+                5444,
+                5445,
+                5446,
+                5447,
+                5448,
+                5449,
+                5450,
+                5451,
+                5452,
+                5453,
+                5454,
+                5455,
+                5456
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 250,
+        "RFEM": {
+            "Nr": 253,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnROK",
+            "analytische_Länge": 7.22,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5479,
+                5480,
+                3926,
+                5481
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 251,
+        "RFEM": {
+            "Nr": 256,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnROL",
+            "analytische_Länge": 111.40689999999996,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5614,
+                5615,
+                5616,
+                5617
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 252,
+        "RFEM": {
+            "Nr": 259,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnROU",
+            "analytische_Länge": 11.538799999999988,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4144,
+                5692,
+                5693,
+                5694
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 253,
+        "RFEM": {
+            "Nr": 262,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2UN38zMIjBjx_foyPshHK3",
+            "analytische_Länge": 7.480299999999992,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5707,
+                5708,
+                5709,
+                5710
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 254,
+        "RFEM": {
+            "Nr": 266,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "03eNWevH14SuGAN$kybhui",
+            "analytische_Länge": 12.086713499999995,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5734,
+                5735,
+                5736,
+                5737,
+                5738,
+                5739,
+                5740
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 255,
+        "RFEM": {
+            "Nr": 269,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "03eNWevH14SuGAN$kybhug",
+            "analytische_Länge": 6.705100000000001,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5753,
+                5754,
+                5755,
+                5756
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 256,
+        "RFEM": {
+            "Nr": 272,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "03eNWevH14SuGAN$kybhuf",
+            "analytische_Länge": 111.41367500000001,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                5890,
+                5891,
+                5892,
+                5893,
+                5894,
+                5895,
+                5896
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 257,
+        "RFEM": {
+            "Nr": 275,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "03eNWevH14SuGAN$kybhuh",
+            "analytische_Länge": 90.85005984,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                6061,
+                6062,
+                6063,
+                6064,
+                6065,
+                6066,
+                6067,
+                6068,
+                6069,
+                6070,
+                6071,
+                6072,
+                6073,
+                6074,
+                6075,
+                6076,
+                6077,
+                6078,
+                6079,
+                6080,
+                6081,
+                6082,
+                6083,
+                6084,
+                6085,
+                6086,
+                6087,
+                6088,
+                6089,
+                6090,
+                6091,
+                6092,
+                6093,
+                6094,
+                6095,
+                6096
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 258,
+        "RFEM": {
+            "Nr": 278,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "03eNWevH14SuGAN$kybh$h",
+            "analytische_Länge": 10.542603999999988,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                6129,
+                6130,
+                6131,
+                6132
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 259,
+        "RFEM": {
+            "Nr": 281,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "03eNWevH14SuGAN$kybhyc",
+            "analytische_Länge": 7.600638500000178,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                6154,
+                4966,
+                6155,
+                6156,
+                6157,
+                6158,
+                6159,
+                6160,
+                6161
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 260,
+        "RFEM": {
+            "Nr": 284,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtD9t7",
+            "analytische_Länge": 32.20030000000019,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4851,
+                4852,
+                4853,
+                4854
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 261,
+        "RFEM": {
+            "Nr": 287,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "2VDK9aCTP1FfMIO3jtDE1S",
+            "analytische_Länge": 32.200300000000205,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4863,
+                4864,
+                4865,
+                4866
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 262,
+        "RFEM": {
+            "Nr": 291,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0E1S5iuafB2fvzLlsPnRP0",
+            "analytische_Länge": 218.3,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4879,
+                4880,
+                4881,
+                4882
+            ],
+            "zugehoerige_Knoten": []
+        }
+    },
+    {
+        "Graph_ID": 263,
+        "RFEM": {
+            "Nr": 295,
+            "Kategorie": "Fläche",
+            "Type": "GEOMETRY_PLANE / TYPE_STANDARD",
+            "IFC_GUID": "0l6IX565P6i8Len4Neg$s2",
+            "analytische_Länge": 218.15250000000037,
+            "is_curved": false,
+            "is_rotated": false,
+            "zugehoerige_Linien": [
+                4895,
+                4896,
+                4897,
+                4898
+            ],
+            "zugehoerige_Knoten": []
+        }
+    }
+]
