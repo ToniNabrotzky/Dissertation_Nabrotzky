@@ -1,0 +1,29 @@
+[19:14:06]
+==================================================
+Verarbeite Modell: model_4
+==================================================
+[19:14:06] Lade IFC-Modell: c:\Proton Drive\toninabrotzky\My files\1_Promotion\3 Quellcode GNN_Konvertierung\3_HybridWorkflow\0 Model_Database\model_4.ifc
+[19:14:06] Analysiere 611 IFC-Elemente...
+[19:14:06] DEBUG: 100/611 Elemente geprüft...
+[19:14:07] DEBUG: 200/611 Elemente geprüft...
+[19:14:07] DEBUG: 300/611 Elemente geprüft...
+[19:14:08] DEBUG: 400/611 Elemente geprüft...
+[19:14:08] DEBUG: 500/611 Elemente geprüft...
+[19:14:09] DEBUG: 600/611 Elemente geprüft...
+[19:14:09] Extraktion abgeschlossen. 611 gültige Knoten erstellt.
+[19:14:09] GT-Labels geladen: 2352 echte Referenz-Paare (gefiltert auf Status 'o')
+[19:14:09] RBC-Labels geladen: 1806 Einträge -- 	Achtung: Fehlende Kanten werden auf GT aufgestockt. Zahl ist somit entsprechend der 'FP's größer.
+[19:14:09] PLATZHALTER: Homogene Knotenmerkmale noch nicht implementiert.
+[19:14:09] PLATZHALTER: Heterogene Knotenmerkmale (1D/2D) noch nicht implementiert.
+[19:14:09] Starte Distanzmessungen und Kantenbildung...
+[19:14:36] DEBUG: Kanten berechnet. Total: 5789 | GT: 2352 | RBC-TP: 0
+[19:14:36] PLATZHALTER: Kantenmerkmale (Flächenprojektion) noch nicht implementiert.
+[19:14:36] PLATZHALTER: Verdeckungsmerkmale noch nicht implementiert.
+[19:14:37] Graph JSON gespeichert unter: model_4 Graph.json
+[19:14:51] Plot erstellt: model_4 2D.png
+[19:15:09] Plot erstellt: model_4 3D.png
+[19:15:09] PLATZHALTER: Soll-Joint-Rekonstruktion (GT/IFC) noch nicht implementiert.
+[19:15:09] PLATZHALTER: Ist-Joint-Extraktion (Analysemodell) noch nicht implementiert.
+[19:15:09] PLATZHALTER: Joint-Matching noch nicht implementiert.
+[19:15:09] PLATZHALTER: Fehlerklassifikation (E0-E7) noch nicht implementiert.
+[19:15:09] PLATZHALTER: Statistische Auswertung noch nicht implementiert.

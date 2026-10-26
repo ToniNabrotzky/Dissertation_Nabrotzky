@@ -1,3 +1,22 @@
+"""
+_14 IFC_Graph_Generator.py
+==========================
+Struktur des Skripts:
+1. MAIN & STEUERUNG
+2. KONFIGURATION
+3. PIPELINE KLASSE (GNNPipeline)
+   Teil A - Versuch #2 GNN-Machbarkeitsstudie:
+       Generierung des Kontaktgraphen (Knoten & Kanten inkl. Merkmale)
+       A.1 Dateneingang (IFC-Extraktion & Labels)
+       A.2 Knoten & Knotenmerkmale (homogener / heterogener Graph)
+       A.3 Kanten & Kantenmerkmale (Flächenprojektion & Verdeckung)
+       A.4 Graph-Export & Visualisierung
+   Teil B - Versuch #1 RBC-Benchmark:
+       Identifikation und Bewertung von Joints (Hyperkanten)
+       B.1 Soll-Joints: Rekonstruktion aus der Ground Truth (IFC-basiert)
+       B.2 Ist-Joints: Extraktion aus dem Analysemodell
+       B.3 Validierung: Matching, Fehlercodes (E0-E7), Statistik
+"""
 import os
 import glob
 import json
@@ -21,7 +40,7 @@ def main():
     """
     Zentrale Steuerung des Skripts.
     Hier können die auszuwertenden IfcStem-Namen definiert werden.
-    Ist die Liste leer, werden alle IFC-Modelle im Ordner verarbeitet.
+    Ist die Liste leer, werden alle IFC-Modelle im Database-Ordner verarbeitet.
     """
     ifc_names = [
         # "21_22 L_TWP_Tragwerksmodell",
@@ -31,14 +50,14 @@ def main():
         # "Grethes-hus-bok-2",
         # "Grethes-hus-bok-2",
         # "model_1",
-        "model_3_1D",
-        "model_3_2D",
-        "model_4",
-        "model_7",
+        # "model_3_1D",
+        # "model_3_2D",
+        # "model_4",
+        # "model_7",
         # "model_8",
-        # "model_9", # 5,0m erforderlich
-        "model_10_1D",
-        "model_10_2D",
+        "model_9", # 5,0m erforderlich
+        # "model_10_1D",
+        # "model_10_2D",
         # "Parametrisches Modell Index_00000",
         # "Parametrisches Modell Index_00050",
         # "Parametrisches Modell Index_00055",
@@ -52,36 +71,59 @@ def main():
 # =========================================================
 # KONFIGURATION
 # =========================================================
-RBF_GAMMA = 0.0001
-MAX_DIST = 3.0  # Einheitliche 3.0m Grenze für AABB und Exakt-Messung
-
+# --- Versuch #2 GNN-Machbarkeitsstudie ---
+# A.1 Dateneingang: IFC-Extraktion
 ALLOWED_ENTITIES = [
-    "IfcFooting", "IfcBeam", "IfcColumn", "IfcMember", "IfcSlab",
-    "IfcWallStandardCase", "IfcWall", "IfcPlate", "IfcPile", "IfcBuildingElementProxy"
+    "IfcBeam", "IfcColumn", "IfcSlab", "IfcWall", "IfcWallStandardCase",
+    "IfcFooting", "IfcMember", "IfcPile", "IfcPlate", "IfcBuildingElementProxy"
 ]
 
+# A.3 Kanten: Distanzmessung und Gauß-Kernel
+RBF_GAMMA = 0.0001 # Hyperparameter - Umwandlung euklidische Distanz in GNN-Merkmal (Feature). Default = 0.0001
+MAX_DIST = 3.0  # Einheitliche Grenze in [m] für Distanzberechnung (zwischen AABBs und Exakt-Messung). Default = 3.0
+
+# A.4 Visualisierung: Farben und Marker je IFC-Entität
 VIS_MAPPING = {
-    "IfcFooting": ("#8B4513", "s"), "IfcBeam": ("#2E8B57", "h"),
-    "IfcColumn": ("#FF4500", "p"), "IfcMember": ("#4682B4", "v"),
+    "IfcBeam": ("#2E8B57", "h"), "IfcColumn": ("#FF4500", "p"),
+    "IfcSlab": ("#B38719", "o"),
     "IfcWall": ("#808080", "H"), "IfcWallStandardCase": ("#A9A9A9", "D"),
-    "IfcSlab": ("#B38719", "o"), "IfcPlate": ("#DDA0DD", "^"),
-    "IfcPile": ("#000000", "|"), "IfcBuildingElementProxy": ("#FFD700", "*")
+    "IfcFooting": ("#8B4513", "s"), "IfcMember": ("#4682B4", "v"),
+    "IfcPile": ("#000000", "|"), "IfcPlate": ("#DDA0DD", "^"),
+    "IfcBuildingElementProxy": ("#FFD700", "*")
 }
+
+# --- Versuch #1 RBC-Benchmark ---
+# B.1 Soll-Joints: Rekonstruktion aus der Ground Truth
+JOINT_EPSILON = 0.005  # [m] Kontakttoleranz eps in [m]. HINWEIS: Sensitivitätsstudie (Empfehlung: 1-5 mm). Default = 0.005
+JOINT_TAU = 0.2        # [-] Schwellenwert tau für Dimensionalitätsverhältnisse L2/L1 und L3/L1 (linien-/flächen-/punktförmig). Default = 0.2
+JOINT_DELTA_SCALE = 1.0 # [-] Skalierung der Joint-Toleranz delta mit der größten Bauteildicke max(t_a, t_b). Default = 1.0
 
 # =========================================================
 # PIPELINE KLASSE
 # =========================================================
 class GNNPipeline:
     """
-    Hauptklasse zur Verarbeitung von IFC-Modellen, Berechnung geometrischer Eigenschaften,
-    Bestimmung von Distanzen und Erstellung von GNN-Graphen.
+    Hauptklasse des Hybrid-Workflows. Aufbau in zwei Versuchsteilen:
+
+    Versuch #2 GNN-Machbarkeitsstudie (Teil A):
+        Generierung des Kontaktgraphen: IFC-Extraktion, Berechnung der
+        Knoten- und Kantenmerkmale, Export und Visualisierung des Graphen.
+    Versuch #1 RBC-Benchmark (Teil B):
+        Identifikation und Bewertung von Joints (Hyperkanten):
+        B.1 Soll-Joints aus der Ground Truth (IFC-modellbasiert),
+        B.2 Ist-Joints aus dem Analysemodell,
+        B.3 Validierung (Matching, Fehlercodes E0-E7, Statistik).
     """
+
+    # ---------------------------------------------------------
+    # INITIALISIERUNG, LOGGING & STEUERUNG
+    # ---------------------------------------------------------
     def __init__(self, model_names=None):
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         self.dir_db = os.path.normpath(os.path.join(self.base_dir, "..", "0 Model_Database"))
-        self.dir_gt = os.path.join(self.base_dir, "2_1 Ground_Truth")
-        self.dir_rbc = os.path.join(self.base_dir, "2_3 RBC_Labels")
-        self.dir_out = os.path.join(self.base_dir, "2_4 Graph_Generation")
+        self.dir_gt = os.path.join(self.base_dir, "1 Ground_Truth")
+        self.dir_rbc = os.path.join(self.base_dir, "3 RBC_Labels")
+        self.dir_out = os.path.join(self.base_dir, "4 Graph_Generation")
         
         os.makedirs(self.dir_out, exist_ok=True)
 
@@ -92,6 +134,7 @@ class GNNPipeline:
             self.model_names = model_names
             
         self.logs = []
+
 
     def log(self, msg, print_console=True):
         """Speichert eine Nachricht als Protokoll und gibt sie optional in der Konsole aus."""
@@ -106,6 +149,7 @@ class GNNPipeline:
             if clean_msg:
                 self.logs.append(clean_msg)
 
+
     def run(self):
         """Startet die Pipeline für alle definierten Modelle."""
         self.log(f"Starte Verarbeitung für {len(self.model_names)} Modelle...")
@@ -113,37 +157,78 @@ class GNNPipeline:
             self.logs = [] # Reset logs for each model
             self.process_model(stem)
 
+
     def process_model(self, stem):
-        """Führt alle Arbeitsschritte für ein einzelnes IFC-Modell durch."""
+        """
+        Führt alle Arbeitsschritte für ein einzelnes IFC-Modell durch:
+        - Versuch #2 GNN-Machbarkeitsstudie: Kontaktgraph generieren (A.1-A.4)
+        - Versuch #1 RBC-Benchmark: Joints identifizieren und bewerten (B.1-B.3)
+        """
         self.log(f"\n{'='*50}\nVerarbeite Modell: {stem}\n{'='*50}")
-        
-        # 1. IFC Extraktion
+
+        # =====================================================
+        # VERSUCH #2 GNN-MACHBARKEITSSTUDIE: KONTAKTGRAPH
+        # =====================================================
+        # --- A.1 Dateneingang: IFC-Extraktion & Labels ---
         nodes, stats_ifc = self.extract_ifc_data(stem)
         if not nodes:
             self.log(f"Abbruch: Keine auswertbaren Knoten für {stem} gefunden.")
             return
-        
-        # 2. Labels einlesen
+
         gt_pairs = self.load_ground_truth(stem)
         rbc_dict = self.load_rbc_labels(stem)
-        
-        # 3. Kanten berechnen
+
+        # --- A.2 Knoten & Knotenmerkmale (homogener / heterogener Graph) ---
+        node_features_hom, node_features_het = self.compute_node_features(nodes)
+
+        # --- A.3 Kanten & Kantenmerkmale ---
         edges, stats_edges = self.calculate_edges(nodes, gt_pairs, rbc_dict)
-        
-        # 4. Graphen-Daten zusammenstellen und exportieren
-        self.export_graph(stem, nodes, edges, stats_ifc, stats_edges)
-        
-        # 5. Visualisierung
+        edges = self.compute_edge_features(nodes, edges)
+
+        # --- A.4 Visualisierung ---
+        # Der JSON-Export erfolgt am Ende von process_model, damit die
+        # Joint-Ergebnisse (Versuch #1) in derselben Datei enthalten sind.
         self.plot_graph(stem, nodes, edges, mode="2D")
         self.plot_graph(stem, nodes, edges, mode="3D")
-        
-        # 6. Log speichern
+
+        # =====================================================
+        # VERSUCH #1 RBC-BENCHMARK: JOINTS (HYPERKANTEN)
+        # =====================================================
+        # --- B.1 Soll-Joints: Rekonstruktion aus der Ground Truth (IFC) ---
+        soll_joints = self.reconstruct_gt_joints(stem, nodes, gt_pairs)
+        soll_joints = self.classify_gt_joints(soll_joints)
+
+        # --- B.2 Ist-Joints: Extraktion aus dem Analysemodell ---
+        ist_joints = self.extract_analysis_joints(stem)
+
+        # --- B.3 Validierung: Matching, Fehlercodes & Statistik ---
+        matching = self.match_joints(soll_joints, ist_joints)
+        error_codes = self.classify_joint_errors(matching) # Fehlertaxonomie
+        joint_stats = self.evaluate_joint_statistics(matching, error_codes)
+
+        # --- Export: Graph-Datei inkl. aller Joint-Ergebnisse (Soll, Ist, Validierung) ---
+        # Hinweis: Erfolgt am Ende, damit die in B.1-B.3 berechneten Daten enthalten sind.
+        self.export_graph(stem, nodes, edges, stats_ifc, stats_edges,
+                          soll_joints=soll_joints, ist_joints=ist_joints,
+                          matching=matching, error_codes=error_codes,
+                          joint_stats=joint_stats)
+
+        # --- Log speichern ---
         log_path = os.path.join(self.dir_out, f"{stem} Protokoll.txt")
         with open(log_path, 'w', encoding='utf-8') as f:
             f.write("\n".join(self.logs))
 
+
+    # =========================================================
+    # VERSUCH #2 GNN-MACHBARKEITSSTUDIE:
+    # GENERIERUNG DES KONTAKTGRAPHEN
+    # =========================================================
+    # Kernaufgabe: Erstellung der Knoten und Kanten des Kontaktgraphen.
+    # Ein Teil der Daten wird eingelesen (IFC, GT-/RBC-Labels), weitere
+    # Informationen werden eigens hier im Skript berechnet
+    # (Knotenmerkmale in A.2, Kantenmerkmale in A.3).
     # ---------------------------------------------------------
-    # IFC EXTRAKTION & MATHEMATIK
+    # A.1 DATENEINGANG: IFC-EXTRAKTION & MATHEMATIK
     # ---------------------------------------------------------
     def extract_ifc_data(self, stem):
         """
@@ -228,6 +313,7 @@ class GNNPipeline:
         self.log(f"Extraktion abgeschlossen. {count_geom} gültige Knoten erstellt.")
         return nodes, stats
 
+
     def is_load_bearing(self, product):
         try:
             for _, props in element.get_psets(product).items():
@@ -235,6 +321,7 @@ class GNNPipeline:
                     return bool(props["LoadBearing"])
         except: pass
         return False
+
 
     def get_geometry_data(self, product, settings):
         """Generiert trianguliertes Mesh und AABB für ein Bauteil."""
@@ -350,8 +437,9 @@ class GNNPipeline:
         except Exception as e:
             return None
 
+
     # ---------------------------------------------------------
-    # LABELING LESE-FUNKTIONEN
+    # A.1 DATENEINGANG: LABELING LESE-FUNKTIONEN
     # ---------------------------------------------------------
     def load_ground_truth(self, stem):
         """Lädt GT-Labels. Rückgabe ist ein Set aus sortierten Tupeln der GUIDs."""
@@ -377,6 +465,7 @@ class GNNPipeline:
             self.log(f"WARNUNG: Keine GT-Labels unter {path} gefunden.")
         return gt_pairs
 
+
     def load_rbc_labels(self, stem):
         """Lädt regelbasierte Labels. Rückgabe: Dict {pair_tuple: Status}"""
         path = os.path.join(self.dir_rbc, f"{stem} RFEM_Labels.csv")
@@ -399,8 +488,57 @@ class GNNPipeline:
             self.log(f"WARNUNG: Keine RBC-Labels unter {path} gefunden.")
         return rbc_dict
 
+
     # ---------------------------------------------------------
-    # DISTANZEN & KANTEN
+    # A.2 KNOTEN & KNOTENMERKMALE
+    # ---------------------------------------------------------
+    def compute_node_features(self, nodes):
+        """
+        Bündelt die Berechnung der Knotenmerkmale des Kontaktgraphen.
+        Es werden zwei Merkmalsstrukturen parallel erzeugt:
+        1. Homogener Graph: einheitliche Merkmalsstruktur für alle Bauteile.
+        2. Heterogener Graph: getrennte Merkmalsstrukturen für 1D- und 2D-Bauteile.
+        """
+        features_hom = self.compute_node_features_homogeneous(nodes)
+        features_het = self.compute_node_features_heterogeneous(nodes)
+        return features_hom, features_het
+
+
+    def compute_node_features_homogeneous(self, nodes):
+        """
+        PLATZHALTER: Einheitliche Knotenmerkmale für den homogenen Graphen.
+        Geplante Inhalte:
+        - Orientierung, Ort, Ebene
+        - Geometrische Merkmale: Primär- und Sekundärmaß, Volumen, Masse, Schlankheit
+        - Kovarianzmatrix
+        - Lage im Gebäude
+        """
+        self.log("PLATZHALTER: Homogene Knotenmerkmale noch nicht implementiert.")
+        features = {}
+        # TODO: Orientierung, Ort, Ebene berechnen
+        # TODO: Primär-/Sekundärmaß, Volumen, Masse, Schlankheit berechnen
+        # TODO: Kovarianzmatrix berechnen
+        # TODO: Lage im Gebäude bestimmen
+        return features
+
+
+    def compute_node_features_heterogeneous(self, nodes):
+        """
+        PLATZHALTER: Knotenmerkmale für den heterogenen Graphen mit
+        Unterscheidung nach Bauteil-Dimensionalität:
+        - 1D-Bauteile (z. B. Stützen, Balken)
+        - 2D-Bauteile (z. B. Wände, Decken)
+        Merkmalsinhalte analog zum homogenen Graphen.
+        """
+        self.log("PLATZHALTER: Heterogene Knotenmerkmale (1D/2D) noch nicht implementiert.")
+        features = {"1D": {}, "2D": {}}
+        # TODO: Aufteilung der Knoten in 1D- und 2D-Bauteile
+        # TODO: Dimensionsspezifische Merkmale je Knotentyp berechnen
+        return features
+
+
+    # ---------------------------------------------------------
+    # A.3 KANTEN & KANTENMERKMALE
     # ---------------------------------------------------------
     def dist_aabb(self, aabb1, aabb2):
         """Berechnet den euklidischen Abstand zweier AABBs."""
@@ -410,6 +548,7 @@ class GNNPipeline:
         dy = max(0, max(min1[1] - max2[1], min2[1] - max1[1]))
         dz = max(0, max(min1[2] - max2[2], min2[2] - max1[2]))
         return math.sqrt(dx**2 + dy**2 + dz**2)
+
 
     def calculate_edges(self, nodes, gt_pairs, rbc_dict):
         """
@@ -510,10 +649,72 @@ class GNNPipeline:
         self.log(f"DEBUG: Kanten berechnet. Total: {total_edges} | GT: {gt_edges_count} | RBC-TP: {tp}")
         return edges, stats_edges
 
+
+    def compute_edge_features(self, nodes, edges):
+        """
+        Bündelt die Berechnung der erweiterten Kantenmerkmale des Kontaktgraphen.
+        Grundlage: Projektion der Flächen der volumetrischen Elemente
+        (Grund-, Mantel- und Schrägflächen von Stützen, Balken, Wänden, Decken).
+        """
+        edges = self.compute_face_projection_features(nodes, edges)
+        edges = self.compute_occlusion_features(nodes, edges)
+        return edges
+
+
+    def compute_face_projection_features(self, nodes, edges):
+        """
+        PLATZHALTER: Merkmale aus der Flächenprojektion:
+        - Schnitt-Indikator
+        - Relativer Durchdringungsgrad
+        - Kontaktflächenanteil
+        - Projektionsabstand
+        - Aktive Flächenklasse
+        """
+        self.log("PLATZHALTER: Kantenmerkmale (Flächenprojektion) noch nicht implementiert.")
+        # TODO: Grund-, Mantel- und Schrägflächen projizieren und Merkmale ableiten
+        return edges
+
+
+    def compute_occlusion_features(self, nodes, edges):
+        """
+        PLATZHALTER: Verdeckungsmerkmale zur Erkennung, ob Bauteile direkt
+        verbunden sind oder indirekt über Dritte:
+        - Relative Lage und Schwerkraftbezug
+        - Winkelbeziehungen
+        - Stoßtyp-Klassifikation
+        - Regelkonformitäts-Scores (weiche Expertenregeln)
+        """
+        self.log("PLATZHALTER: Verdeckungsmerkmale noch nicht implementiert.")
+        # TODO: Verdeckungsanalyse und Merkmalsableitung
+        return edges
+
+
     # ---------------------------------------------------------
-    # EXPORT & VISUALISIERUNG
+    # A.4 GRAPH-EXPORT & VISUALISIERUNG
     # ---------------------------------------------------------
-    def export_graph(self, stem, nodes, edges, stats_ifc, stats_edges):
+    def export_graph(self, stem, nodes, edges, stats_ifc, stats_edges,
+                     soll_joints=None, ist_joints=None, matching=None,
+                     error_codes=None, joint_stats=None):
+        """
+        Exportiert den Kontaktgraphen als JSON-Datei.
+        Die Datei enthält neben Knoten und Kanten auch eine eigene Sektion
+        'joints' mit den Ergebnissen aus Versuch #1 (Soll-/Ist-Joints und Validierung).
+
+        Args:
+            stem (str): Modellname ohne Dateiendung.
+            nodes (list): Knotenliste des Kontaktgraphen.
+            edges (list): Kantenliste des Kontaktgraphen.
+            stats_ifc (dict): Statistik der IFC-Extraktion.
+            stats_edges (dict): Statistik der Kantenbildung und RBC-Metriken.
+            soll_joints (list, optional): Rekonstruierte Soll-Joints (B.1).
+            ist_joints (list, optional): Extrahierte Ist-Joints (B.2).
+            matching (dict, optional): Zuordnungstabelle Soll <-> Ist (B.3).
+            error_codes (dict, optional): Fehlercodes E0-E7 je Joint (B.3).
+            joint_stats (dict, optional): Statistische Auswertung (B.3).
+
+        Returns:
+            None
+        """
         # Bereinigung der unhandlichen Geometriedaten vor dem Export
         clean_nodes = []
         for n in nodes:
@@ -526,13 +727,30 @@ class GNNPipeline:
                 "model_stem": stem,
                 "preprocessing_config": {
                     "rbf_gamma": RBF_GAMMA,
-                    "max_dist": MAX_DIST
+                    "max_dist": MAX_DIST,
+                    "joint_epsilon": JOINT_EPSILON,
+                    "joint_tau": JOINT_TAU,
+                    "joint_delta_scale": JOINT_DELTA_SCALE
                 },
                 "stats_IFC_extraction": stats_ifc,
                 "stats_Edges_and_RBC": stats_edges
             },
             "nodes": clean_nodes,
-            "edges": edges
+            "edges": edges,
+            "joints": {
+                "config": {
+                    "epsilon": JOINT_EPSILON,
+                    "tau": JOINT_TAU,
+                    "delta_scale": JOINT_DELTA_SCALE
+                },
+                "soll_joints": soll_joints if soll_joints is not None else [],
+                "ist_joints": ist_joints if ist_joints is not None else [],
+                "validation": {
+                    "matching": matching if matching is not None else {},
+                    "error_codes": error_codes if error_codes is not None else {},
+                    "statistics": joint_stats if joint_stats is not None else {}
+                }
+            }
         }
         
         path = os.path.join(self.dir_out, f"{stem} Graph.json")
@@ -540,7 +758,9 @@ class GNNPipeline:
             json.dump(output_data, f, indent=4, ensure_ascii=False)
         self.log(f"Graph JSON gespeichert unter: {os.path.basename(path)}")
 
+
     def plot_graph(self, stem, nodes, edges, mode="2D"):
+        """Erstellt Plots der Bauwerksgraphen als 2D- oder 3D-Projektion"""
         fig = plt.figure(figsize=(12, 10))
         
         if mode == "3D":
@@ -600,6 +820,428 @@ class GNNPipeline:
         plt.savefig(filename_png, dpi=300)
         plt.close(fig)
         self.log(f"Plot erstellt: {os.path.basename(filename_png)}")
+
+
+    # =========================================================
+    # VERSUCH #1 RBC-BENCHMARK: JOINTS
+    # =========================================================
+    # Joints sind Hyperkanten. Sie gehören nicht direkt zum
+    # Kontaktgraphen, beziehen sich aber auf dessen Bestandteile.
+    # ---------------------------------------------------------
+    # B.1 SOLL-JOINTS: REKONSTRUKTION AUS DER GROUND TRUTH (IFC-BASIERT)
+    # ---------------------------------------------------------
+    # Methodenreihenfolge: interne Hilfsfunktionen (_) alphabetisch,
+    # danach Orchestrierung, danach weitere Unterfunktionen.
+    # ---------------------------------------------------------
+    def _attribute_joints(self, components, contact_regions, gt_pairs):
+        """
+        Schritt 3 der Joint-Rekonstruktion: Attribuiert die geclusterten Joints.
+        Berechnet Position, Geometrietyp, Bauteilmenge und den induzierten GT-Teilgraph.
+
+        Args:
+            components (list[set]): Zusammenhangskomponenten (Indexmengen) aus dem Koinzidenz-Graph.
+            contact_regions (list[dict]): Kontaktregionen aus Schritt 1.
+            gt_pairs (set[tuple]): Ground-Truth-Kontaktpaare (sortierte GUID-Tupel).
+
+        Returns:
+            list[dict]: Attribuierte Soll-Joints mit Schlüsseln:
+                'position', 'geometry_type', 'member_guids', 'gt_subgraph_edges'.
+        """
+        joints = []
+        for comp in components:
+            # Sammle alle Kontaktregionen und Bauteile dieser Komponente
+            comp_regions = [contact_regions[i] for i in comp]
+            member_guids = set()
+            for r in comp_regions:
+                member_guids.add(r["guid_a"])
+                member_guids.add(r["guid_b"])
+
+            # Position: Schwerpunkt über alle Regions-Schwerpunkte
+            positions = np.array([r["centroid"] for r in comp_regions])
+            position = np.mean(positions, axis=0)
+
+            # Geometrietyp: PCA über die Vereinigung aller Regionspunkte
+            all_points = np.vstack([r["points"] for r in comp_regions])
+            eigenvalues, _, L = self._pca_contact_region(all_points) # L = Ausdehnungen der Kontaktregion
+            geometry_type = self._classify_dimensionality(L)
+
+            # Induzierter GT-Teilgraph: Welche Paare innerhalb des Joints tragen Last ab?
+            member_list = sorted(list(member_guids))
+            gt_subgraph_edges = []
+            for i in range(len(member_list)):
+                for j in range(i + 1, len(member_list)):
+                    pair = (member_list[i], member_list[j])
+                    if pair in gt_pairs:
+                        gt_subgraph_edges.append(pair)
+
+            joints.append({
+                "position": [round(float(p), 4) for p in position],
+                "geometry_type": geometry_type,
+                "member_guids": member_list,
+                "gt_subgraph_edges": gt_subgraph_edges,
+                "eigenvalues": [round(float(l), 6) for l in eigenvalues],
+                "lengths": [round(float(l), 4) for l in L]
+            })
+        return joints
+
+
+    def _classify_dimensionality(self, L):
+        """
+        Klassifiziert die Dimensionalität einer Kontaktregion anhand der Ausdehnungen.
+        Deckt die Überschneidung von volumetrischen und dimensionsreduzierten Elementen ab.
+        Entscheidungsregel (Versuch #1 Teil A):
+            L2/L1 < tau  und L3/L1 < tau  -> linienhaft (2 Ausdehnungen sind deutlich kleiner als Primärachse)
+            L3/L1 < tau  und L2/L1 >= tau -> flächig (1 Ausdehnung ist deutlich kleiner als Primärachse)
+            sonst                          -> punktförmig
+
+        Args:
+            L (np.ndarray): Ausdehnungen [L1, L2, L3] entlang der Hauptachsen (L1 >= L2 >= L3).
+
+        Returns:
+            str: 'linienhaft', 'flaechig' oder 'punktuell'.
+        """
+        if L[0] < 1e-9: # z.B. Idealisierte 1D-Bauteile
+            return "punktuell"
+        r21 = L[1] / L[0]
+        r31 = L[2] / L[0]
+        if r21 < JOINT_TAU and r31 < JOINT_TAU: # z.B. Wand-Wand, Wand-Decke, Decke-Decke
+            return "linienhaft"
+        if r31 < JOINT_TAU and r21 >= JOINT_TAU: # z.B. Balken-Balken, Stütze-Decke
+            return "flaechig"
+        return "punktuell" # Evtl. zu unsauber? Dann bräuchte es "sonstige", falls das relevant wird
+
+
+    def _cluster_contact_regions(self, contact_regions, nodes_by_guid):
+        """
+        Schritt 2 der Joint-Rekonstruktion: Clustert Kontaktregionen zu Joints.
+        Zwei Regionen R_ab und R_cd gehören zum selben Joint, wenn sie räumlich
+        koinzident sind: Hausdorff-Distanz d_H(R_ab, R_cd) <= delta.
+        Die Toleranz delta skaliert mit der größten Bauteildicke max(t_a, t_b).
+        Die transitive Hülle wird über Connected Components gebildet.
+
+        Args:
+            contact_regions (list[dict]): Kontaktregionen aus Schritt 1.
+            nodes_by_guid (dict): Mapping GUID -> Knoten-Dictionary.
+
+        Returns:
+            list[set]: Zusammenhangskomponenten; jede Menge enthält Indizes
+                       auf contact_regions, die zum selben Joint gehören.
+        """
+        n = len(contact_regions)
+        if n == 0:
+            return []
+
+        # Koinzidenz-Graph aufbauen: Knoten = Regionen, Kante = Koinzidenz
+        G = nx.Graph()
+        G.add_nodes_from(range(n))
+
+        for i in range(n):
+            for j in range(i + 1, n):
+                r1 = contact_regions[i]
+                r2 = contact_regions[j]
+                p1 = r1["points"]
+                p2 = r2["points"]
+
+                # Hausdorff-Distanz zwischen den Punktmengen (symmetrisch)
+                d_h = self._hausdorff_distance(p1, p2)
+
+                # Joint-Toleranz delta: skaliert mit größter Bauteildicke beider Regionen
+                t1 = self._get_max_thickness(r1, nodes_by_guid)
+                t2 = self._get_max_thickness(r2, nodes_by_guid)
+                delta = JOINT_DELTA_SCALE * max(t1, t2)
+
+                if d_h <= delta:
+                    G.add_edge(i, j)
+
+        # Transitive Hülle: Zusammenhangskomponenten (abgeschlossene Inseln)
+        # bilden die Joint-Cluster, bei denen man innerhalb eines Clusters 
+        # von jedem Punkt aus jeden anderen darin erreichen kann.
+        return list(nx.connected_components(G))
+
+
+    def _compute_contact_regions(self, nodes, gt_pairs):
+        """
+        Schritt 1 der Joint-Rekonstruktion: Bestimmt die Kontaktregion R_ab
+        für jedes Ground-Truth-Paar (a, b).
+        Definition (Versuch #1 Teil A):
+            R_(a,b) = { x in R^3 | d(x, dS_a) <= eps  und  d(x, dS_b) <= eps }
+        mit S_a, S_b = Volumenkörper, eps = Kontakttoleranz (JOINT_EPSILON).
+        Praktisch: Schnittmenge der abgetasteten Randpunktwolken beider Bauteile
+        (Auflösung 2,5 cm) über cKDTree.
+
+        Args:
+            nodes (list[dict]): Knotenliste mit 'geom_raw' und 'guid'.
+            gt_pairs (set[tuple]): Ground-Truth-Kontaktpaare (sortierte GUID-Tupel).
+
+        Returns:
+            list[dict]: Kontaktregionen mit Schlüsseln:
+                'guid_a', 'guid_b', 'points', 'centroid',
+                'eigenvalues', 'lengths', 'contact_type'.
+        """
+        self.log(f"B.1 Schritt 1: Bestimme Kontaktregionen für {len(gt_pairs)} GT-Paare (eps = {JOINT_EPSILON*1000:.1f} mm)...")
+        nodes_by_guid = {n["guid"]: n for n in nodes}
+        contact_regions = []
+
+        for guid_a, guid_b in gt_pairs:
+            node_a = nodes_by_guid.get(guid_a)
+            node_b = nodes_by_guid.get(guid_b)
+            if not node_a or not node_b:
+                continue
+
+            pts_a = node_a["geom_raw"]["test_points"]
+            pts_b = node_b["geom_raw"]["test_points"]
+
+            # Abstand aller Punkte von a zu b und umgekehrt
+            dist_a_to_b, _ = cKDTree(pts_b).query(pts_a, k=1, workers=-1)
+            dist_b_to_a, _ = cKDTree(pts_a).query(pts_b, k=1, workers=-1)
+
+            # Schnittmenge: Punkte, die beide Ränder innerhalb eps berühren
+            mask_a = dist_a_to_b <= JOINT_EPSILON
+            mask_b = dist_b_to_a <= JOINT_EPSILON
+            contact_points = np.vstack([pts_a[mask_a], pts_b[mask_b]])
+
+            if len(contact_points) == 0:
+                continue
+
+            # Charakterisierung der Kontaktregion
+            centroid = np.mean(contact_points, axis=0)
+            eigenvalues, _, L = self._pca_contact_region(contact_points)
+            contact_type = self._classify_dimensionality(L)
+
+            contact_regions.append({
+                "guid_a": guid_a,
+                "guid_b": guid_b,
+                "points": contact_points,
+                "centroid": centroid,
+                "eigenvalues": eigenvalues,
+                "lengths": L,
+                "contact_type": contact_type
+            })
+
+        self.log(f"B.1 Schritt 1: {len(contact_regions)} Kontaktregionen gefunden.")
+        return contact_regions
+
+
+    def _get_max_thickness(self, region, nodes_by_guid):
+        """
+        Ermittelt die maximale Bauteildicke der beiden an einer Kontaktregion
+        beteiligten Bauteile. Als Näherung dient das kleinste der drei
+        Primärmaße (AABB-Dimensionen) jedes Bauteils.
+
+        Args:
+            region (dict): Kontaktregion mit 'guid_a' und 'guid_b'.
+            nodes_by_guid (dict): Mapping GUID -> Knoten-Dictionary.
+
+        Returns:
+            float: Maximale Bauteildicke in [m].
+        """
+        t_max = 0.0
+        for guid in (region["guid_a"], region["guid_b"]):
+            node = nodes_by_guid.get(guid)
+            if node and "dimensions" in node:
+                t = min(node["dimensions"])
+                t_max = max(t_max, t)
+        return t_max
+
+
+    def _hausdorff_distance(self, pts_a, pts_b):
+        """
+        Berechnet die symmetrische Hausdorff-Distanz zwischen zwei Punktmengen.
+            d_H(A, B) = max( sup_{a in A} inf_{b in B} ||a-b||,
+                             sup_{b in B} inf_{a in A} ||a-b|| )
+
+        Args:
+            pts_a (np.ndarray): Punktmenge A, Shape (n, 3).
+            pts_b (np.ndarray): Punktmenge B, Shape (m, 3).
+
+        Returns:
+            float: Hausdorff-Distanz in [m].
+        """
+        if len(pts_a) == 0 or len(pts_b) == 0:
+            return float('inf')
+        d_a_to_b = np.min(cKDTree(pts_b).query(pts_a, k=1, workers=-1)[0])
+        d_b_to_a = np.min(cKDTree(pts_a).query(pts_b, k=1, workers=-1)[0])
+        return max(d_a_to_b, d_b_to_a)
+
+
+    def _pca_contact_region(self, points):
+        """
+        Führt eine Hauptkomponentenanalyse (PCA) über eine Punktwolke durch.
+        Liefert die Eigenwerte lambda_1 >= lambda_2 >= lambda_3, die zugehörigen
+        Eigenvektoren (Hauptachsen) und die Ausdehnungen L_i entlang dieser Achsen.
+
+        Args:
+            points (np.ndarray): Punktwolke, Shape (n, 3).
+
+        Returns:
+            tuple: (eigenvalues, eigenvectors, lengths)
+                eigenvalues (np.ndarray): Eigenwerte der Kovarianzmatrix (absteigend).
+                eigenvectors (np.ndarray): Hauptachsen als Spalten.
+                lengths (np.ndarray): Ausdehnungen [L1, L2, L3] in [m].
+        """
+        if len(points) < 2:
+            return np.zeros(3), np.eye(3), np.zeros(3)
+
+        cov = np.cov(points.T) # cov = Kovarianzmatrix (Verteilung der Punkte um Massezentrum)
+        #Eigenvektor: 3D-Richtung der Hauptachsen.    Eigenwert: Skalare Länge der Ausdehnung in diese Richtungen
+        eigenvalues, eigenvectors = np.linalg.eigh(cov)
+
+        # Absteigend sortieren
+        idx = np.argsort(eigenvalues)[::-1]
+        eigenvalues = eigenvalues[idx]
+        eigenvectors = eigenvectors[:, idx]
+
+        # Ausdehnungen: Projektion auf Hauptachsen
+        proj = points @ eigenvectors # Punkte werden so gedreht, dass sie orthogonal zu Hauptachsen liegen
+        lengths = np.max(proj, axis=0) - np.min(proj, axis=0) # Bounding-Box-Dimensionen des Kontaktvolumens
+
+        return eigenvalues, eigenvectors, lengths
+
+
+    def reconstruct_gt_joints(self, stem, nodes, gt_pairs):
+        """
+        Orchestriert die Rekonstruktion der Soll-Joints aus der Ground Truth.
+        Ablauf (geometrisch gestützt, siehe Anhang Teil A):
+            Schritt 1: Kontaktregion pro GT-Paar bestimmen
+            Schritt 2: Kontaktregionen zu Joints clustern
+            Schritt 3: Joints attribuieren
+
+        Args:
+            stem (str): Modellname ohne Dateiendung.
+            nodes (list[dict]): Knotenliste mit Geometriedaten.
+            gt_pairs (set[tuple]): Ground-Truth-Kontaktpaare.
+
+        Returns:
+            list[dict]: Attribuierte Soll-Joints.
+        """
+        self.log("B.1: Starte Soll-Joint-Rekonstruktion (IFC-basiert)...")
+        nodes_by_guid = {n["guid"]: n for n in nodes}
+
+        # Schritt 1: Kontaktregionen bestimmen
+        contact_regions = self._compute_contact_regions(nodes, gt_pairs)
+
+        # Schritt 2: Kontaktregionen zu Joints clustern
+        components = self._cluster_contact_regions(contact_regions, nodes_by_guid)
+
+        # Schritt 3: Joints attribuieren
+        joints = self._attribute_joints(components, contact_regions, gt_pairs)
+
+        self.log(f"B.1: {len(joints)} Soll-Joints rekonstruiert.")
+        return joints
+
+
+    def classify_gt_joints(self, joints):
+        """
+        PLATZHALTER: Klassifikation der Joints über die drei Achsen der
+        Dimensionalität (Valenz, Idealisierungsversatz, Morphologie).
+        """
+        joints = self._classify_joint_valence(joints)
+        joints = self._classify_joint_offset(joints)
+        joints = self._classify_joint_morphology(joints)
+        return joints
+
+
+    def _classify_joint_valence(self, joints):
+        """
+        PLATZHALTER: Anschlussgrad (Valenz) -> kombinatorische Komplexität.
+        - Primärmaß: Valenz |J|
+        - Sekundärmaß: Dimensionsheterogenität, Innertopologische Dichte
+          (Kanten im induzierten GT-Teilgraph / mögliche Kanten)
+        """
+        # TODO: Valenz, Dimensionsheterogenität und Innertopologische Dichte bestimmen
+        return joints
+
+
+    def _classify_joint_offset(self, joints):
+        """
+        PLATZHALTER: Idealisierungsversatz -> geometrische Komplexität.
+        1. Versatzvektor definieren
+        2. Kennzahlen ableiten
+        3. Von paarweisen Werten zum Joint aggregieren
+        """
+        # TODO: Versatzvektor, Kennzahlen und Joint-Aggregation berechnen
+        return joints
+
+
+    def _classify_joint_morphology(self, joints):
+        """
+        PLATZHALTER: Topologisch-geometrischer Anschlusstyp (Morphologie).
+        - Berührungsmodus: Wird bereits in Schritt 1 als 'contact_type'
+          bzw. als Joint-'geometry_type' bestimmt.
+        - Anschlusskonfiguration (I-, L-, T-, X-, Y-Anschluss)
+        - Winkelcharakteristik
+        """
+        # TODO: Anschlusskonfiguration und Winkelcharakteristik bestimmen
+        return joints
+
+
+    # ---------------------------------------------------------
+    # B.2 IST-JOINTS: EXTRAKTION AUS DEM ANALYSEMODELL
+    # ---------------------------------------------------------
+    def extract_analysis_joints(self, stem):
+        """
+        PLATZHALTER: Räumliche Ermittlung der Ist-Joints aus den
+        Verbindungsmechanismen des Analysemodells:
+        - Geteilter Knoten
+        - Geteilte Linie / Knoten auf Flächenrand
+        - Explizite Kopplungselemente
+        Mit GUID-Rückverfolgung, damit später beide Joint-Cluster
+        (Soll und Ist) verglichen werden können.
+        HINWEIS: Große Teile liegen bereits in '_13_RFEM_Analyser.py' vor.
+        """
+        self.log("PLATZHALTER: Ist-Joint-Extraktion (Analysemodell) noch nicht implementiert.")
+        joints = []
+        # TODO: Verbindungsmechanismen auswerten (geteilter Knoten, geteilte Linie, Kopplungselemente)
+        # TODO: GUID-Rückverfolgung implementieren
+        return joints
+
+
+    # ---------------------------------------------------------
+    # B.3 VALIDIERUNG: MATCHING, FEHLERCODES & STATISTIK
+    # ---------------------------------------------------------
+    def match_joints(self, soll_joints, ist_joints):
+        """
+        PLATZHALTER: Beantwortet 'Welcher Ist-Joint gehört zu welchem Soll-Joint?'
+        Zuordnungstabelle über Matching:
+        - Informationsquellen: Bauteilmenge (Jaccard) + räumliche Nähe
+          (globale Optimierung, Ungarische Methode)
+        - Ergebnis: 3 Gruppen: gematchte Paare, unmatched Soll, unmatched Ist
+        """
+        self.log("PLATZHALTER: Joint-Matching noch nicht implementiert.")
+        matching = {"matched": [], "unmatched_soll": [], "unmatched_ist": []}
+        # TODO: Jaccard-Ähnlichkeit der Bauteilmengen + räumliche Nähe
+        # TODO: Globale Optimierung (Ungarische Methode)
+        return matching
+
+
+    def classify_joint_errors(self, matching):
+        """
+        PLATZHALTER: Beantwortet 'Was ist genau an jedem Joint schiefgegangen?'
+        Fehlertaxonomie: topologische Fehlercodes E0 bis E7 inkl.
+        zugehörigem Entscheidungsbaum.
+        """
+        self.log("PLATZHALTER: Fehlerklassifikation (E0-E7) noch nicht implementiert.")
+        error_codes = {}
+        # TODO: Entscheidungsbaum der Fehlercodes E0-E7 je Joint anwenden
+        return error_codes
+
+
+    def evaluate_joint_statistics(self, matching, error_codes):
+        """
+        PLATZHALTER: Beantwortet 'Welche Anschlusstypen sind systematisch fehleranfällig?'
+        - Deskriptive Auswertung: O-Klasse (Versatz) als Merkmal;
+          Kreuztabellen Merkmal x Fehlertyp
+        - Konfirmatorische Auswertung: logistische Regression und Odds Ratios
+        - Explorative Auswertung: interpretierbare Regelextraktion
+          (Entscheidungsbaum / Assoziationsregeln / SHAP-Werte;
+          getrennte Modelle pro Fehlertyp)
+        """
+        self.log("PLATZHALTER: Statistische Auswertung noch nicht implementiert.")
+        stats = {}
+        # TODO: Deskriptive Kreuztabellen erstellen
+        # TODO: Logistische Regression und Odds Ratios berechnen
+        # TODO: Regelextraktion pro Fehlertyp durchführen
+        return stats
 
 if __name__ == "__main__":
     main()

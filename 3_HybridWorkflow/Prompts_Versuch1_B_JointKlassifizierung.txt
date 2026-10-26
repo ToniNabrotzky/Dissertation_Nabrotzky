@@ -1,0 +1,251 @@
+Teil B – Klassifikationssysteme für Anschlusstellen
+Ich schlage vier orthogonale Klassifikationsachsen vor, die kombiniert einen Merkmalsvektor pro Joint bilden. Die Orthogonalität ist methodisch entscheidend: Sie erlaubt später, den Fehlereinfluss jeder Achse einzeln zu isolieren (ANOVA / Regression).
+________________________________________
+B.1 Achse 1: Anschlussgrad (Valenz) — kombinatorische Komplexität
+Analog zum Knotengrad in der Graphentheorie und zur Valenz in Polygonnetzen.
+Primärmaß: Bauteilvalenz
+val(J)=|J|  (Anzahl beteiligter Bauteile)
+Klasse	Valenz	Bezeichnung	Typisches Beispiel
+V2	2	Binärer Anschluss	Träger auf Wand (Auflager)
+V3	3	Ternärer Anschluss	Stütze–Decke–Stütze; T-Stoß Wand–Wand–Decke
+V4	4	Quaternärer Anschluss	Innenstütze: 2 Träger + Stütze oben/unten
+V5+	≥5	Hochvalenter Knoten	Kernaussteifung, Rahmenecke mit Konsolen
+
+Sekundärmaße
+Dimensionsheterogenität — mit wie vielen verschiedenen Zieldimensionen (1D/2D/3D) treffen sich Bauteile?
+h(J)=|{dim⁡(v):v∈J}|∈{1,2,3}  
+	h=1: homogen (nur Stäbe, oder nur Flächen) — Konverter meist robust
+	h=2: gemischt (Stab trifft Fläche) — kritisch, da Mittellinie eines Stabes und Mittelfläche einer Platte in unterschiedlichen Ebenen liegen
+	h=3: alle drei (inkl. bewusst volumetrisch belassener Teile, z. B. Fundamentblock)
+Innentopologie-Dichte — Verhältnis tatsächlicher GT-Kanten zur maximal möglichen Clique:
+p(J)=|E_GT [J]|/((|J|¦2) )
+	p=1: alle Bauteile berühren sich gegenseitig (echte Clique). 
+	p<1: Pfad-/Sternstruktur — hier liegt Ihr Fall "Stütze–Decke–Stütze" mit p=2/3. Diese Kennzahl unterscheidet, ob der Joint eine echte Sammelstelle oder eine "durchgeleitete" Verbindung ist.
+________________________________________
+B.2 Achse 2: Idealisierungsversatz — geometrische Anschlusskomplexität
+Teil 1: Grundidee
+Ein Regelkonverter nimmt einen dicken Volumenkörper und ersetzt ihn durch eine dünne Linie oder Fläche in seiner Mitte. Dabei wandert der Kontaktpunkt: Wo sich zwei Volumenkörper real berühren, berühren sich ihre Mittellinien/Mittelflächen in aller Regel nicht mehr. Genau diese Wanderung ist die Größe, die Achse 2 misst. Dies ist die eigentlich ursächliche Achse für Konverterfehler. Sie misst, wie weit die idealisierten Repräsentanten (Mittellinien/-flächen) von der realen Kontaktstelle abweichen.
+Stellen Sie sich einen T-Stoß im vor: Balken (30 x 60) stößt seitlich an einer Wand (20 cm dick) an.
+Reale Geometrie (Volumenmodell):
+   Wand (20 cm dick)
+   ║░░║
+   ║░░║████████  ← Balken berührt die Wand an ihrer Oberfläche
+   ║░░║████████
+   ║░░║
+   ↑
+   Kontaktfläche liegt HIER (an der Wandoberfläche)
+Nach der Idealisierung:
+   Wand → Mittelfläche
+   ┊
+   ┊     ●━━━━━━━━  ← Balken-Mittellinie beginnt HIER
+   ┊
+   ↑
+   Wand-Mittelfläche liegt 10 cm weiter links
+Die Wandachse endet 10 cm vor der Balken-Mittellinie. Der Konverter muss diese Lücke schließen — durch Verlängern der Linie, durch einen Koppelstab oder durch Verschieben. Wie groß diese Lücke ist und in welche Richtung sie zeigt, entscheidet maßgeblich darüber, ob der Konverter das richtig hinbekommt.
+
+Teil 1 Definition Versatzvektor
+1.1 Die Formel
+o ⃗_ab=c ⃗_(ab,ideal)-c ⃗_(ab,real)
+In Worten: Versatzvektor = (Wo sich die idealisierten Bauteile treffen) minus (Wo sich die realen Bauteile berühren). Das ist erst einmal nichts anderes als eine Differenz zweier Punkte im Raum — also ein Pfeil, der vom realen zum idealisierten Ort zeigt.
+
+1.2 Die beiden Bestandteile im Detail
+c ⃗_(ab,real) – der reale Kontaktpunkt
+Der reale Kontaktpunkt c ⃗_(ab,real) ist der Schwerpunkt (Zentroid) der realen Kontaktregion zwischen Bauteil und Bauteil. Wie kommt man da hin?
+	Sie nehmen die beiden Volumenkörper aus dem IFC-Modell (also die echten, dicken Bauteile).
+	Sie berechnen, wo sie sich berühren oder überschneiden. Formal:
+R_ab={x ⃗∈R^3:d(x ⃗,S_a )≤ε∧d(x ⃗,S_b )}
+Das liest sich so: R_ab ist die Menge aller Raumpunkte x ⃗, die gleichzeitig höchstens ε von der Oberfläche des Bauteils a und höchstens ε von der Oberfläche des Bauteils b entfernt sind. ε ist eine kleine Toleranz (z. B. 1–5 mm), die nötig ist, weil Bauteile in realen IFC-Modellen sich oft nicht mathematisch exakt berühren — mal klafft ein Zehntelmillimeter, mal überlappen sie sich leicht.
+	Diese Kontaktregion R_ab ist je nach Anschluss ein Punkt, eine Linie oder eine Fläche. Beim beispielhaften T-Stoß ein 30 x 60 großes Rechteck an der Wandoberfläche.
+	Von dieser Region berechnen Sie den geometrischen Schwerpunkt:
+c ⃗_(ab,real)=1/|R_ab |  ∫_(R_ab)▒x ⃗  dV
+Bei unserem Rechteck wäre da schlicht der Mittelpunkt.
+Wichtig: Welche Bauteilpaare Sie überhaupt betrachten, sagt Ihnen Ihre Ground Truth. Die Geometrie allein könnte das nicht entscheiden, denn zwei Bauteile können sich berühren, ohne Last zu übertragen (z. B. eine nichttragende Trennwand, die seitlich an eine Stütze stößt). Die GT liefert also das ob, die Geometrie das wo. Das ist genau die Arbeitsteilung, die Ihre Datenlage ermöglicht.
+c ⃗_(ab,ideal) – der idealisierte Treffpunkt
+Das ist der Punkt, an dem sich die idealisierten Repräsentationen treffen — also die Mittellinien und Mittelflächen. Hier gibt es drei Fälle:
+Fall A: Sie schneiden sich tatsächlich. Dann ist c ⃗_(ab,ideal) der Schnittpunkt bzw. der Schwerpunkt der Schnittmenge (bei Fläche–Fläche eine Schnittlinie).
+Fall B: Sie schneiden sich nicht (der häufigere Fall). Dann nehmen Sie die Stelle der geringsten Annäherung. Formal: Sie suchen das Punktepaar (p ⃗_a,p ⃗_b ) mit p ⃗_a∈A_a (idealisierte Geometrie von a), p ⃗_b∈A_b, für das ‖p ⃗_a-p ⃗_b ‖ minimal wird, und setzen
+c ⃗_(ab,ideal)=1/2 (p ⃗_a+p ⃗_b )
+Also den Mittelpunkt der kürzesten Verbindungsstrecke.
+Fall C: Sie schneiden sich, aber weit weg vom eigentlichen Anschluss. Das kann bei verlängerten Achsen passieren. Hier müssen Sie über eine Suchraumbegrenzung arbeiten: nur Schnittpunkte innerhalb eines Radius um c ⃗_(ab,real) berücksichtigen, sonst greift Fall B mit Beschränkung auf die tatsächlichen Bauteilenden.
+Ein methodischer Hinweis, der wichtig ist: Es gibt zwei verschiedene Dinge, die Sie hier messen könnten, und Sie sollten sie sauber auseinanderhalten:
+Variante	A_a,A_b sind …
+Misst …
+Referenz-Idealisierung (empfohlen für Achse 2)	die kanonischen Mittellinien/-flächen, die Sie selbst aus dem IFC berechnen — ohne Verlängerung, ohne Verschiebung	die inhärente Schwierigkeit des Anschlusses
+Konverter-Output	das, was der Konverter tatsächlich produziert hat	das Ergebnis der Konvertierung
+
+Für Achse 2 brauchen Sie die erste Variante. Der Grund ist zwingend: Achse 2 soll ein Prädiktor sein, also eine unabhängige Variable, die die Fehlerwahrscheinlichkeit vorhersagt. Würden Sie den Konverter-Output verwenden, wäre die Kennzahl vom Konverterverhalten abhängig — und Sie würden in der späteren Regression die abhängige Variable teilweise auf sich selbst regressieren. Das wäre zirkulär und die Ergebnisse wertlos.
+Sie berechnen also die Mittellinien und Mittelflächen selbst, nach einer festen, dokumentierten Regel (z. B. Achse durch die Schwerpunkte der Querschnitte, Mittelfläche als Offset der dominanten Begrenzungsfläche um halbe Dicke), und zwar unabhängig davon, was der Konverter gemacht hat.
+
+1.3 Was der Vektor konkret bedeutet
+Der Versatzvektor hat zwei Informationsgehalte:
+Seine Länge |o ⃗_ab |sagt: Wie weit ist der Anschlusspunkt gewandert? Das ist ein Maß dafür, wie viel „Reparaturarbeit" der Konverter leisten muss.
+Seine Richtung sagt: Wohin ist er gewandert — und das ist qualitativ entscheidend, wie der nächste Abschnitt zeigt.
+
+Für jedes Bauteil v∈J mit idealisierter Geometrie S ̂_v (Mittellinie/Mittelfläche) und Joint-Position p_J:
+o ⃗_v=〖proj〗_(S ̂_v ) (p_J )-p_J,      o_v=‖o ⃗_v ‖
+
+Teil 2: Abgeleitete Kennzahlen
+Der rohe Vektor o ⃗_ab ist als Merkmal für eine statistische Auswertung noch unbrauchbar: Er hat drei Komponenten, ist von der Wahl des globalen Koordinatensystems abhängig und hat eine Einheit (Millimeter). Zwei Modelle mit unterschiedlicher Bauteildimensionierung wären nicht vergleichbar. Deshalb leiten wir daraus drei skalare, interpretierbare Kennzahlen ab.
+Kennzahl	Formel	Interpretation
+Maximalversatz	O_max (J)=〖max〗_(v∈J) o_v 	Größte zu überbrückende Lücke
+Versatzspanne	O_spread (J)=〖max〗_v o_v-〖min〗_v o_v 	Divergenz der Idealisierungen
+Normierter Versatz	O ̃(J)=O_max⁄t ̅_J  mit t ̅_J = mittlere Bauteildicke	Dimensionslos, modellübergreifend vergleichbar
+Klaffungsmaß (Gamma, groß)	Γ(J)=〖max〗_(u,v∈J) d(S ̂_u,S ̂_v )	Abstand der idealisierten Geometrien untereinander
+
+2.1 Der normierte Versatz  O ̃
+O_ab =|o ⃗_ab |/(1/2 (t_a+t_b ) )
+wobei  t_a,t_b die charakteristischen Bauteildicken sind (bei Wänden/Decken die Dicke, bei Stützen/Trägern die maßgebende Querschnittsabmessung in Versatzrichtung).
+Warum überhaupt normieren?  Ein absoluter Versatz von 15 cm bedeutet in zwei Situationen etwas völlig Verschiedenes:
+Situation	Absoluter Versatz	Bauteildicken	O ̃	Bewertung
+30-cm-Wand trifft 30-cm-Wand	15 cm	30 / 30 cm	0,5	völlig normal, klassischer Eckstoß
+8-cm-Trennwand trifft 12-cm-Decke	15 cm	8 / 12 cm	1,5	auffällig, Versatz größer als die Bauteile selbst
+
+Erst die Normierung macht Anschlüsse über verschiedene Bauteilgrößen, Bauweisen und Projekte hinweg vergleichbar. Ohne sie würden Sie in der späteren Regression im Wesentlichen messen, ob ein Gebäude massiv oder leicht gebaut ist — nicht, ob der Anschluss schwierig ist.
+Wie man die Werte liest:  O ̃ ist eine dimensionslose Zahl, Grobe Orientierung:
+Bereich	Typische Situation	Erwartete Konverter-Zuverlässigkeit
+O ̃≈0	Achsen treffen sich exakt (z. B. durchlaufender Träger, Stütze mittig auf Stütze)	sehr hoch
+0<O ̃≲0,5	Versatz kleiner als halbe Bauteildicke — typischer Stoß, Achsen liegen „innerhalb" der Bauteile	hoch
+0,5≲O ̃≲1	Versatz in Größenordnung der Bauteildicke — Eck- und T-Stöße mit deutlicher Exzentrizität	mittel
+O ̃>1	Versatz übersteigt die Bauteilabmessung — starke Exzentrizität, Konsolen, versetzte Anschlüsse	niedrig, Fehlerhäufung erwartet
+
+Wichtig: Diese Grenzen sind zunächst nur eine Arbeitshypothese. Ein zentrales Ergebnis Ihrer Untersuchung sollte gerade sein, wo die empirischen Schwellwerte liegen — das ist der Kern der Hypothese H5 („Es existiert ein Schwellwert O ̃, ab dem die Fehlerrate signifikant ansteigt"). Sie finden ihn, indem Sie die Fehlerrate gegen O ̃ auftragen und nach einem Knick suchen, oder formaler über eine Segmented Regression / Change-Point-Analyse.
+
+2.2 Klassifikation nach Versatzcharakter
+Zusätzlich zur kontinuierlichen Zahl O ̃ ist eine qualitative Klassifikation nach der Versatzrichtung sinnvoll:
+
+Klasse	Bezeichnung	Geometrische Bedeutung	Typisches Beispiel
+O0	Kein Versatz	O ̃<O ̃_tol (z. B. 0,05) — Achsen treffen sich bereits	Durchlaufträger über Innenstütze; Stütze mittig auf Stütze
+O1	Axialer Versatz	o ⃗ liegt (überwiegend) parallel zur Achse/Ebene mindestens eines beteiligten Bauteils	Stütze endet an Deckenunterkante, muss bis zur Deckenmittelfläche verlängert werden
+O2	Lateraler Versatz	o ⃗ steht (überwiegend) quer zu den Bauteilachsen	Träger schließt seitlich an Stützenflansch an; außermittiger Wandanschluss
+O3	Kombiniert	nennenswerte Anteile in beiden Richtungen	Schräger Anschluss, versetzte Wandecke, räumlich verzogene Situation
+
+Wie man die Klasse formal bestimmt:  Für ein 1D-Bauteil a mit Achsenausrichtung u ̂_a (Einheitsvektor) zerlegen Sie den Versatzvektor:
+o ⃗_∥=(o ⃗*u ̂_a ) u ̂_a           o ⃗_⊥=o ⃗-o ⃗_∥
+Dann bilden Sie das Verhältnis
+ρ=|o ⃗_⊥ |/|o ⃗ | ∈[0,1]
+Und klassifizieren mit zwei Schwellenwerten (z.B. 0,2 und 0,8):
+	ρ<0,2→O1 (fast reiner Axialversatz)
+	ρ>0,8-→O2 (fast reiner Lateralversatz)
+	dazwischen→O3
+Bei 2D-Bauteilen nehmen Sie statt der Achsenrichtung die Flächennormale und drehen die Logik entsprechend um: Versatz entlang der Normalen ist die „Dickenrichtung" (entspricht O1-Charakter), Versatz in der Ebene ist lateral (O2). Bei Paaren mit unterschiedlicher Dimensionalität legen Sie fest, welches Bauteil das Bezugssystem stellt — sinnvollerweise das dimensionsniedrigere (also das 1D-Bauteil), weil dessen Achse eindeutig definiert ist. Diese Festlegung muss dokumentiert werden.
+
+Diese Achse korreliert direkt mit der Konverterstrategie: O1 wird typischerweise durch Transformation (Extend/Trim) gelöst, O2/O3 erzwingen Koppelelemente — oder werden fälschlich als O1 behandelt.
+Warum diese Unterscheidung inhaltlich zentral ist:  Das ist der eigentlich interessante Teil, und er begründet, warum O ̃ allein nicht ausreicht:
+Axialer Versatz (O1) ist für Regelkonverter meist unproblematisch. Die Reparaturregel ist trivial und in praktisch jedem Konverter implementiert: „Verlängere das Stabelement entlang seiner eigenen Achse, bis es die Zielebene schneidet." Die Richtung der Verlängerung ist durch die Achse eindeutig vorgegeben — es gibt nichts zu entscheiden.
+Lateraler Versatz (O2) ist strukturell schwierig. Hier hilft Verlängern nicht, denn das Bauteil müsste quer zu seiner Achse verschoben werden. Der Konverter steht vor einer echten Entscheidung mit mehreren, mechanisch nicht gleichwertigen Optionen:
+	Bauteil quer verschieben → verfälscht die Geometrie und erzeugt eine Zwangslage
+	Starren Koppelstab einfügen → mechanisch korrekt, wenn die Exzentrizität real vorhanden ist
+	Exzentrizität als Elementeigenschaft (Offset) hinterlegen → sauber, aber nicht jeder Konverter kann das
+	Versatz ignorieren und Achsen zusammenziehen → häufig, aber mechanisch falsch (Moment aus Exzentrizität geht verloren)
+Genau an solchen Entscheidungspunkten entstehen die systematischen Fehler, nach denen Sie suchen. Ein Konverter, der nur Option 1 oder 4 beherrscht, wird bei O2-Anschlüssen reproduzierbar versagen — und das ist eine Erkenntnis, die Sie mit dieser Klassifikation sichtbar machen können.
+Die praktische Konsequenz: Sie sollten in der Regression beide Größen aufnehmen — als kontinuierliches Maß für die Größe und O0–O3 als kategoriales Maß für die Art des Versatzes. Erst der Interaktionsterm O ̃×O-Klasse dürfte das interessanteste Ergebnis liefern: Vermutlich steigt die Fehlerrate mit O ̃ bei O2 sehr viel steiler an als bei O1.
+
+2.3 Die Dimensionssprung-Kennzahl Γ
+Γ_ab=|dim⁡(a)-dim⁡(b) |
+Wobei dim⁡(∙)∈{1,2,3} die Dimensionalität der idealisierten Repräsentation ist: 1 für Stabelemente (Stützen, Träger), 2 für Flächenelemente (Wände, Decken), 3 für Bauteile, die volumetrisch bleiben (z. B. massive Fundamentblöcke, Knotenkörper).
+Γ	Bedeutung	Beispiele
+0	Gleiche Dimension	Stütze–Träger (1D–1D), Wand–Decke (2D–2D)
+1	Ein Dimensionssprung	Stütze–Decke (1D–2D), Wand–Fundamentblock (2D–3D)
+2	Zwei Dimensionssprünge	Stütze–Fundamentblock (1D–3D)
+
+Klasse	Bedingung	Beschreibung	Beispiel
+O0 — koinzident	Γ≈0	Idealisierte Geometrien treffen sich bereits	Achsgleiche Stützen, Stumpfstoß
+O1 — kollinear versetzt	Γ>0, Versatz ∥ Bauteilachse	Verlängerung/Verkürzung genügt	Träger endet vor Wandmittelfläche
+O2 — lateral versetzt	Γ>0, Versatz ⊥ Bauteilachse	Parallelversatz, erfordert Exzentrizität	Wandaußenkante bündig, Mittelflächen versetzt
+O3 — kombiniert/ windschief	Versatz mit beiden Komponenten	Weder Verlängerung noch reine Verschiebung löst es	Schräge Anschlüsse, versetzte Wandachsen
+
+Warum das eine eigene Kennzahl verdient
+Bei Γ=0 ist die Kopplung konzeptionell einfach: Punkt trifft Punkt, oder Kante trifft Kante. Die Kopplungsbedingung ist offensichtlich.
+Bei Γ≥1 treffen unterschiedliche geometrische Objektarten aufeinander, und das erzeugt eine grundsätzliche Frage: Wie überträgt man Kräfte von einem Punkt auf eine Fläche?
+Konkret bei einer Stütze auf einer Decke (1D auf 2D): Die Stützenachse endet in einem einzigen Punkt. Die Decke ist eine Fläche, die in ein Netz aus Flächenelementen zerlegt wird. Wenn die Stützenlast in genau einen Netzknoten eingeleitet wird, entsteht dort eine Singularität — die Spannungen gehen rechnerisch gegen unendlich, und das Ergebnis hängt von der Netzfeinheit ab. Mechanisch korrekt wäre eine Lasteinleitung über die reale Kontaktfläche (also die Stützenquerschnittsfläche), was einen Kopplungsbereich oder eine Lastverteilungsfläche erfordert.
+Zusätzlich kommt bei Γ≥1 ein Rotationsproblem hinzu: Ein Stabelement hat an seinem Ende sechs Freiheitsgrade (drei Verschiebungen, drei Verdrehungen). Ein Knoten in einem Schalenelement hat je nach Formulierung nur fünf oder sechs, wobei die Drehung um die Flächennormale („Drilling DOF") oft keine echte Steifigkeit besitzt. Koppelt man naiv, kann eine Momentenübertragung verloren gehen oder ein Freiheitsgrad ungehalten bleiben.
+Bei Γ=2 (Stab auf Volumenkörper) verschärft sich das nochmals: Volumenelemente haben pro Knoten überhaupt keine Rotationsfreiheitsgrade. Eine Momenteneinleitung ist nur über Kräftepaare auf mehreren Knoten möglich.
+Der methodische Wert
+Γ ist erklärungsstark, weil es einen anderen Mechanismus erfasst als O ̃. Ein Anschluss kann perfekt zentrisch sein (O ̃=0) und trotzdem schwierig, wenn ein Dimensionssprung vorliegt. Umgekehrt kann ein 1D–1D-Anschluss stark exzentrisch sein. Die beiden Kennzahlen sind weitgehend unabhängig, und genau das ist erwünscht — orthogonale Prädiktoren lassen sich in der Regression sauber trennen und liefern interpretierbare Effekte.
+Beachten Sie eine mögliche Überschneidung: Wenn Sie in Achse 1 bereits eine „Dimensionsheterogenität" des Joints erfassen (also z. B. wie viele verschiedene Dimensionalitäten an einem Joint beteiligt sind), gibt es eine inhaltliche Nähe. Der Unterschied: Achse 1 betrachtet den Joint als Ganzes, Γ ist eine paarweise Größe. Prüfen Sie die Korrelation empirisch; falls sie sehr hoch ausfällt (etwa r>0,8), nehmen Sie nur eine der beiden Größen in die Regression auf, um Multikollinearität zu vermeiden.
+
+Teil 3: Von paarweisen Werten zum Joint
+Alle drei Kennzahlen sind zunächst für Bauteilpaare definiert. Ihre Analyseeinheit ist aber der Joint, an dem oft mehr als zwei Bauteile beteiligt sind. Sie müssen also aggregieren. Sinnvolle Aggregate:
+Aggregat	Definition	Interpretation
+O ̃_max (J)	〖max〗_((a,b)∈J) O ̃_ab	Der „schwierigste" Teilkontakt — vermutlich der beste Prädiktor, da ein einziger misslungener Teilkontakt den ganzen Joint verdirbt
+O ̃_mean (J)	Mittelwert über alle Paare	Allgemeines Schwierigkeitsniveau
+sd(O ̃ )	Standardabweichung	Heterogenität des Joints — hohe Werte bedeuten, dass manche Bauteile weit, andere nah beieinander liegen. Solche Joints sind besonders tückisch, weil eine einheitliche Konverterregel nicht für alle Paare passen kann
+O-Klassenprofil	z.B. (n_(()0),n_(()1),n_(()2),n_(()3) )	Zeigt, ob der Joint einheitlich oder gemischt ist
+Γ_max (J)	größter Dimensionssprung	Analog
+
+Meine Empfehlung: Starten Sie mit O ̃_max als Hauptprädiktor und nehmen Sie sd(O ̃ ) als zusätzliches Merkmal auf. Die Heterogenitätsgröße ist erfahrungsgemäß unterschätzt, adressiert aber genau die Fälle, in denen Regelkonverter „halb richtig" arbeiten — also einen Teil des Joints korrekt verbinden und einen anderen Teil übersehen. Das entspricht Ihren Fehlerklassen der Unterkopplung.
+
+Teil 4: Praktische Hinweise zur Umsetzung
+Zur Toleranz : Diese Größe geht in jede einzelne Kennzahl ein und ist damit ein globaler Freiheitsgrad Ihrer gesamten Auswertung. Rechnen Sie alles mindestens für drei Werte (z. B. 1 mm, 5 mm, 20 mm) und zeigen Sie, dass Ihre Kernbefunde stabil bleiben. Ohne diesen Nachweis sind die Ergebnisse angreifbar.
+Zur charakteristischen Dicke t: Bei nicht-rechteckigen Querschnitten (I-Profile, Rundstützen) ist „die Dicke" nicht eindeutig. Legen Sie eine Regel fest und dokumentieren Sie sie — etwa die Ausdehnung der Bounding Box in Richtung des Versatzvektors o ⃗, was den Vorteil hat, dass sie richtungssensitiv ist und damit gut zur Fragestellung passt.
+Zu Sonderfällen: Wenn |o ⃗ |→0, wird die O-Klassifikation über ρ numerisch instabil (Division durch nahezu null). Fangen Sie das ab, indem Sie unterhalb der Toleranzschwelle grundsätzlich O0 zuweisen, bevor ρ überhaupt berechnet wird.
+Zur Validierung der Kennzahlen selbst: Bevor Sie in die große Auswertung gehen, prüfen Sie an einer Handvoll manuell nachgerechneter Anschlüsse, ob die berechneten Werte plausibel sind. Ein Eckstoß zweier gleich dicker Wände muss O ̃≈0,5 ergeben (die Mittelflächen schneiden sich in der Ecke, der reale Kontakt liegt an der Berührungsfläche) — wenn dort etwas anderes herauskommt, stimmt etwas in der Implementierung nicht.
+
+Größe	Was sie beantwortet	Typ	Rolle in der Analyse
+o ⃗_ab	Wie weit und wohin ist der Anschlusspunkt durch die Idealisierung gewandert?	Vektor (3 Komponenten, mm)	Rohgröße, nicht direkt auswertbar
+O ̃_ab	Wie groß ist der Versatz relativ zur Bauteilgröße?	Skalar, dimensionslos	Hauptprädiktor, kontinuierlich; Basis für Schwellwertsuche (H5)
+O0–O3	Ist der Versatz axial (leicht reparierbar) oder lateral (schwierig)?	Kategorial, 4 Klassen	Erklärt warum Konverter scheitern; Interaktion mit $\tilde{O}$
+$\Gamma_{ab}$	Treffen unterschiedliche Elementdimensionen aufeinander?	Ordinal, 0–2	Unabhängiger zweiter Schwierigkeitsmechanismus (Lasteinleitung, DOF-Kompatibilität)
+
+________________________________________
+B.3 Achse 3: Topologisch-geometrischer Anschlusstyp (Morphologie)
+Klassische baukonstruktive Typologie, formalisiert. Diese Achse ist für die Kommunikation der Ergebnisse an Praktiker wertvoll.
+
+3a) Berührungsmodus (nach Dimensionalität der Kontaktregion)
+Code	Kontaktdimension	Bezeichnung
+K0	0D (Punkt)	Punktkontakt
+K1	1D (Linie)	Linienkontakt
+K2	2D (Fläche)	Flächenkontakt
+K3	3D (Durchdringung)	Volumendurchdringung / eingebunden
+
+3b) Anschlusskonfiguration (nach relativer Lage)
+Code	Konfiguration	Skizze/Beschreibung
+I	Stumpfstoß / kollinear	Zwei Bauteile in Verlängerung
+L	Eckstoß	Zwei Bauteile im Winkel, Enden treffen sich
+T	T-Stoß	Ein Bauteil endet an der Seite eines durchlaufenden
+X / +	Kreuzungsstoß	Zwei durchlaufende Bauteile queren sich
+Y	Verzweigung	Drei+ Bauteile aus einem Punkt, nicht orthogonal
+K	Multipler Knoten	≥4 Bauteile, gemischte Konfiguration
+
+Formalisierung über die Endpunktinzidenz: Für jedes Bauteil v prüfe, ob der Joint an einem Ende (end), am Rand (egde) oder im Inneren (interior) seiner idealisierten Geometrie liegt. Der Vektor der Inzidenztypen determiniert die Konfiguration:
+	(end, end) → I oder L (Winkel entscheidet)
+	(end, interior) → T
+	(interior, interior) → X
+	(end, end, end, …) → Y
+	gemischt bei → K
+
+3c) Winkelcharakteristik
+α(J)={∠(S ̂_u,S ̂_v ):u,v∈J}
+Klassifikation:
+	orthogonal (alle Winkel ∈90°±5°), 
+	parallel/kollinear, schiefwinklig (mind. ein Winkel außerhalb). Schiefwinkligkeit ist ein bekannter Fehlertreiber bei regelbasierten Konvertern.
+________________________________________
+B.4 Achse 4: Mechanische Anschlusskomplexität (ACHSE 4 ENTFÄLLT)
+Diese Achse verbindet Ihre Untersuchung mit der Ingenieursemantik — sie erklärt, warum ein Fehler relevant ist.
+
+4a) Lastabtragsfunktion (aus Ground Truth ableitbar)
+Code	Typ	Kriterium
+A	Auflager/Abtrag	Vertikaler Lastfluss, Schwerkraftrichtung dominant
+S	Aussteifung	Horizontallastabtrag, Scheiben-/Rahmenwirkung
+C	Kontinuität	Durchlaufwirkung, Momentenübertragung
+M	Gemischt	mehrere der obigen
+
+4b) Freiheitsgradkopplung
+Anzahl der am Joint gekoppelten Freiheitsgrade (Soll-Zustand): 〖DOF〗_coupled∈{1,…,6} pro Bauteilpaar. Gelenkig = 3, biegesteif = 6.
+
+4c) Statische Kritikalität (optional, aber sehr aussagekräftig)
+κ(J)=‖F_J ‖/(〖max〗_k ‖F_k ‖ )
+mit F_J = am Joint übertragene resultierende Schnittgröße aus einer Referenzberechnung. Erlaubt später die Gewichtung: Ein Fehler an einem hochbelasteten Knoten wiegt schwerer als an einem Nebenanschluss.
+
+B.5 Zusammenführung: Der Joint-Deskriptor
+Jeder Joint Phi (Φ) erhält einen strukturierten Code:
+Φ(J)= 
+ 
+
+Beispielcodierung (lesbarer Kurzcode):
+V3-h2-ρ0.67 | O1-Õ0.5 | K0-T-orth | A-6-κ0.8
+= Ternärer Anschluss, gemischtdimensional, Pfadtopologie, kollinearer Versatz von einer halben Bauteildicke, Punktkontakt, T-Konfiguration, orthogonal, Vertikalabtrag, biegesteif, hoch belastet.
+Ableitung eines skalaren Komplexitätsindex
+Für Ranking und Visualisierung empfiehlt sich ein aggregierter Index. Vorschlag:
+JCI(J)=w_1*(|J|-2)/(n_max-2)+w_2*(h-1)/2+w_3*min⁡(O ̃,1)+w_4*1[schiefwinklig]+w_5*(1-p)
+Wichtig: Die Gewichte sollten nicht willkürlich gesetzt, sondern aus den Daten gelernt werden (z. B. logistische Regression auf die Fehlerhäufigkeit, siehe Teil D.3). Andernfalls ist der Index nicht wissenschaftlich fundiert, sondern nur plausibel. Alternativ: Gewichte per Experten-AHP (Analytic Hierarchy Process) mit dokumentierter Konsistenzprüfung.

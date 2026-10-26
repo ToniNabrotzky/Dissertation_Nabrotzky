@@ -1,0 +1,3304 @@
+{
+    "graph_info": {
+        "model_stem": "model_9",
+        "preprocessing_config": {
+            "rbf_gamma": 0.0001,
+            "max_dist": 3.0
+        },
+        "stats_IFC_extraction": {
+            "count_all_ifc_products": 40,
+            "count_load_bearing": 40,
+            "count_with_geometry": 40,
+            "entity_distribution": {
+                "IfcColumn": 29,
+                "IfcSlab": 11
+            }
+        },
+        "stats_Edges_and_RBC": {
+            "total_edges": 113,
+            "gt_edges": 102,
+            "gt_ratio_percentage": 90.27,
+            "rbc_metrics": {
+                "TP": 91,
+                "TN": 11,
+                "FP": 0,
+                "FN": 11,
+                "Accuracy": 0.9027,
+                "Precision": 1.0,
+                "Recall": 0.8922,
+                "F1_Score": 0.943
+            }
+        }
+    },
+    "nodes": [
+        {
+            "node_id": 0,
+            "guid": "2q2CBrfQTCKPY0zxCdZygb",
+            "name": "STB Stütze - rechteckig:BETON 30X30:473562",
+            "entity_processed": "IfcColumn",
+            "x": -22.844,
+            "y": -9.097,
+            "z": 4.4,
+            "origin_x": -22.844,
+            "origin_y": -9.097,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.034,
+                    1.0
+                ],
+                "area": 10.74,
+                "volume": 0.792,
+                "ratio_av": 13.5606
+            }
+        },
+        {
+            "node_id": 1,
+            "guid": "2q2CBrfQTCKPY0zxCdZyWE",
+            "name": "STB Stütze - rechteckig:BETON 30X30:473969",
+            "entity_processed": "IfcColumn",
+            "x": -18.994,
+            "y": -9.097,
+            "z": 6.6,
+            "origin_x": -18.994,
+            "origin_y": -9.097,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 2,
+            "guid": "2q2CBrfQTCKPY0zxCdZyuE",
+            "name": "STB Stütze - rechteckig:BETON 30X30:474481",
+            "entity_processed": "IfcColumn",
+            "x": -18.994,
+            "y": 29.603,
+            "z": 6.6,
+            "origin_x": -18.994,
+            "origin_y": 29.603,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 3,
+            "guid": "2q2CBrfQTCKPY0zxCdZyxq",
+            "name": "STB Stütze - rechteckig:BETON 30X30:474507",
+            "entity_processed": "IfcColumn",
+            "x": -22.844,
+            "y": 29.603,
+            "z": 4.4,
+            "origin_x": -22.844,
+            "origin_y": 29.603,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.034,
+                    1.0
+                ],
+                "area": 10.74,
+                "volume": 0.792,
+                "ratio_av": 13.5606
+            }
+        },
+        {
+            "node_id": 4,
+            "guid": "2q2CBrfQTCKPY0zxCdZyrD",
+            "name": "STB Stütze - rechteckig:BETON 30X60:474674",
+            "entity_processed": "IfcColumn",
+            "x": -22.844,
+            "y": 0.753,
+            "z": 4.4,
+            "origin_x": -22.844,
+            "origin_y": 0.753,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 5,
+            "guid": "2q2CBrfQTCKPY0zxCdZysk",
+            "name": "STB Stütze - rechteckig:BETON 30X60:474833",
+            "entity_processed": "IfcColumn",
+            "x": -22.844,
+            "y": -4.247,
+            "z": 4.4,
+            "origin_x": -22.844,
+            "origin_y": -4.247,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 6,
+            "guid": "2q2CBrfQTCKPY0zxCdZynE",
+            "name": "STB Stütze - rechteckig:BETON 30X60:474929",
+            "entity_processed": "IfcColumn",
+            "x": -18.994,
+            "y": -4.547,
+            "z": 6.6,
+            "origin_x": -18.994,
+            "origin_y": -4.547,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.045,
+                    1.0
+                ],
+                "area": 24.12,
+                "volume": 2.376,
+                "ratio_av": 10.1515
+            }
+        },
+        {
+            "node_id": 7,
+            "guid": "2q2CBrfQTCKPY0zxCdZxDw",
+            "name": "STB Stütze - rechteckig:BETON 30X60:475141",
+            "entity_processed": "IfcColumn",
+            "x": -19.144,
+            "y": 0.753,
+            "z": 4.4,
+            "origin_x": -19.144,
+            "origin_y": 0.753,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 8,
+            "guid": "2q2CBrfQTCKPY0zxCdZxEL",
+            "name": "STB Stütze - rechteckig:BETON 30X60:475370",
+            "entity_processed": "IfcColumn",
+            "x": -19.144,
+            "y": 5.753,
+            "z": 4.4,
+            "origin_x": -19.144,
+            "origin_y": 5.753,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 9,
+            "guid": "2q2CBrfQTCKPY0zxCdZx97",
+            "name": "STB Stütze - rechteckig:BETON 30X60:475448",
+            "entity_processed": "IfcColumn",
+            "x": -22.844,
+            "y": 5.753,
+            "z": 4.4,
+            "origin_x": -22.844,
+            "origin_y": 5.753,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 10,
+            "guid": "2q2CBrfQTCKPY0zxCdZx6h",
+            "name": "STB Stütze - rechteckig:BETON 30X60:475860",
+            "entity_processed": "IfcColumn",
+            "x": -22.844,
+            "y": 10.753,
+            "z": 4.4,
+            "origin_x": -22.844,
+            "origin_y": 10.753,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 11,
+            "guid": "2q2CBrfQTCKPY0zxCdZx6V",
+            "name": "STB Stütze - rechteckig:BETON 30X60:475872",
+            "entity_processed": "IfcColumn",
+            "x": -19.144,
+            "y": 15.753,
+            "z": 4.4,
+            "origin_x": -19.144,
+            "origin_y": 15.753,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 12,
+            "guid": "2q2CBrfQTCKPY0zxCdZx6U",
+            "name": "STB Stütze - rechteckig:BETON 30X60:475873",
+            "entity_processed": "IfcColumn",
+            "x": -22.844,
+            "y": 15.753,
+            "z": 4.4,
+            "origin_x": -22.844,
+            "origin_y": 15.753,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 13,
+            "guid": "2q2CBrfQTCKPY0zxCdZx6K",
+            "name": "STB Stütze - rechteckig:BETON 30X60:475883",
+            "entity_processed": "IfcColumn",
+            "x": -19.144,
+            "y": 20.753,
+            "z": 4.4,
+            "origin_x": -19.144,
+            "origin_y": 20.753,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 14,
+            "guid": "2q2CBrfQTCKPY0zxCdZx6J",
+            "name": "STB Stütze - rechteckig:BETON 30X60:475884",
+            "entity_processed": "IfcColumn",
+            "x": -22.844,
+            "y": 20.753,
+            "z": 4.4,
+            "origin_x": -22.844,
+            "origin_y": 20.753,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 15,
+            "guid": "2q2CBrfQTCKPY0zxCdZx69",
+            "name": "STB Stütze - rechteckig:BETON 30X60:475894",
+            "entity_processed": "IfcColumn",
+            "x": -18.994,
+            "y": 25.053,
+            "z": 6.6,
+            "origin_x": -18.994,
+            "origin_y": 25.053,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.045,
+                    1.0
+                ],
+                "area": 24.12,
+                "volume": 2.376,
+                "ratio_av": 10.1515
+            }
+        },
+        {
+            "node_id": 16,
+            "guid": "2q2CBrfQTCKPY0zxCdZx68",
+            "name": "STB Stütze - rechteckig:BETON 30X60:475895",
+            "entity_processed": "IfcColumn",
+            "x": -22.844,
+            "y": 25.753,
+            "z": 4.4,
+            "origin_x": -22.844,
+            "origin_y": 25.753,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.6,
+                8.8
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.034,
+                    0.068,
+                    1.0
+                ],
+                "area": 16.2,
+                "volume": 1.584,
+                "ratio_av": 10.2273
+            }
+        },
+        {
+            "node_id": 17,
+            "guid": "2q2CBrfQTCKPY0zxCdZx0a",
+            "name": "STB Stütze - rechteckig:BETON 30X30:475995",
+            "entity_processed": "IfcColumn",
+            "x": -12.914,
+            "y": 29.603,
+            "z": 6.6,
+            "origin_x": -12.914,
+            "origin_y": 29.603,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 18,
+            "guid": "2q2CBrfQTCKPY0zxCdZxSj",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476242",
+            "entity_processed": "IfcColumn",
+            "x": -7.994,
+            "y": 29.603,
+            "z": 6.6,
+            "origin_x": -7.994,
+            "origin_y": 29.603,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 19,
+            "guid": "2q2CBrfQTCKPY0zxCdZxRJ",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476588",
+            "entity_processed": "IfcColumn",
+            "x": -4.144,
+            "y": 29.603,
+            "z": 6.6,
+            "origin_x": -4.144,
+            "origin_y": 29.603,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 20,
+            "guid": "2q2CBrfQTCKPY0zxCdZxLU",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476705",
+            "entity_processed": "IfcColumn",
+            "x": -12.874,
+            "y": 24.903,
+            "z": 6.6,
+            "origin_x": -12.874,
+            "origin_y": 24.903,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 21,
+            "guid": "2q2CBrfQTCKPY0zxCdZxLC",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476723",
+            "entity_processed": "IfcColumn",
+            "x": -7.994,
+            "y": 24.903,
+            "z": 6.6,
+            "origin_x": -7.994,
+            "origin_y": 24.903,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 22,
+            "guid": "2q2CBrfQTCKPY0zxCdZxL2",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476733",
+            "entity_processed": "IfcColumn",
+            "x": -4.144,
+            "y": 24.903,
+            "z": 6.6,
+            "origin_x": -4.144,
+            "origin_y": 24.903,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 23,
+            "guid": "2q2CBrfQTCKPY0zxCdZxKq",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476747",
+            "entity_processed": "IfcColumn",
+            "x": -4.144,
+            "y": -9.097,
+            "z": 6.6,
+            "origin_x": -4.144,
+            "origin_y": -9.097,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 24,
+            "guid": "2q2CBrfQTCKPY0zxCdZxKg",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476757",
+            "entity_processed": "IfcColumn",
+            "x": -8.144,
+            "y": -9.097,
+            "z": 6.6,
+            "origin_x": -8.144,
+            "origin_y": -9.097,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 25,
+            "guid": "2q2CBrfQTCKPY0zxCdZxKQ",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476773",
+            "entity_processed": "IfcColumn",
+            "x": -12.904,
+            "y": -9.097,
+            "z": 6.6,
+            "origin_x": -12.904,
+            "origin_y": -9.097,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 26,
+            "guid": "2q2CBrfQTCKPY0zxCdZxNl",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476816",
+            "entity_processed": "IfcColumn",
+            "x": -12.894,
+            "y": -4.397,
+            "z": 6.6,
+            "origin_x": -12.894,
+            "origin_y": -4.397,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 27,
+            "guid": "2q2CBrfQTCKPY0zxCdZxNZ",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476828",
+            "entity_processed": "IfcColumn",
+            "x": -8.144,
+            "y": -4.397,
+            "z": 6.6,
+            "origin_x": -8.144,
+            "origin_y": -4.397,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 28,
+            "guid": "2q2CBrfQTCKPY0zxCdZxNL",
+            "name": "STB Stütze - rechteckig:BETON 30X30:476842",
+            "entity_processed": "IfcColumn",
+            "x": -4.144,
+            "y": -4.397,
+            "z": 6.6,
+            "origin_x": -4.144,
+            "origin_y": -4.397,
+            "origin_z": 0.0,
+            "dimensions": [
+                0.3,
+                0.3,
+                13.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 1,
+                "norm_dimensions": [
+                    0.023,
+                    0.023,
+                    1.0
+                ],
+                "area": 16.02,
+                "volume": 1.188,
+                "ratio_av": 13.4848
+            }
+        },
+        {
+            "node_id": 29,
+            "guid": "1soz90sYzCp8a2Do0djRBF",
+            "name": "Floor:STB 20.0:486500",
+            "entity_processed": "IfcSlab",
+            "x": -11.494,
+            "y": 27.253,
+            "z": -0.1,
+            "origin_x": -18.994,
+            "origin_y": -9.247,
+            "origin_z": -0.2,
+            "dimensions": [
+                15.0,
+                5.0,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    1.0,
+                    0.333,
+                    0.013
+                ],
+                "area": 158.0,
+                "volume": 15.0,
+                "ratio_av": 10.5333
+            }
+        },
+        {
+            "node_id": 30,
+            "guid": "0KRl17GSJHmnKkLTFQXJl7",
+            "name": "Floor:STB 20.0:486500:2",
+            "entity_processed": "IfcSlab",
+            "x": -11.494,
+            "y": -6.747,
+            "z": -0.1,
+            "origin_x": -18.994,
+            "origin_y": -9.247,
+            "origin_z": -0.2,
+            "dimensions": [
+                15.0,
+                5.0,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    1.0,
+                    0.333,
+                    0.013
+                ],
+                "area": 158.0,
+                "volume": 15.0,
+                "ratio_av": 10.5333
+            }
+        },
+        {
+            "node_id": 31,
+            "guid": "1soz90sYzCp8a2Do0djR8J",
+            "name": "Floor:STB 20.0:486584",
+            "entity_processed": "IfcSlab",
+            "x": -20.994,
+            "y": 10.253,
+            "z": -0.1,
+            "origin_x": 0.0,
+            "origin_y": 0.0,
+            "origin_z": 0.0,
+            "dimensions": [
+                4.0,
+                39.0,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    0.103,
+                    1.0,
+                    0.005
+                ],
+                "area": 329.2,
+                "volume": 31.2,
+                "ratio_av": 10.5513
+            }
+        },
+        {
+            "node_id": 32,
+            "guid": "3WTFZLIDfCSgicLndgDMGD",
+            "name": "Floor:STB 20.0:488540",
+            "entity_processed": "IfcSlab",
+            "x": -11.494,
+            "y": 27.253,
+            "z": 13.1,
+            "origin_x": -18.994,
+            "origin_y": -9.247,
+            "origin_z": 13.0,
+            "dimensions": [
+                15.0,
+                5.0,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    1.0,
+                    0.333,
+                    0.013
+                ],
+                "area": 158.0,
+                "volume": 15.0,
+                "ratio_av": 10.5333
+            }
+        },
+        {
+            "node_id": 33,
+            "guid": "3HTqbtkjL0z8u5TicZt0ZR",
+            "name": "Floor:STB 20.0:488540:2",
+            "entity_processed": "IfcSlab",
+            "x": -11.494,
+            "y": -6.747,
+            "z": 13.1,
+            "origin_x": -18.994,
+            "origin_y": -9.247,
+            "origin_z": 13.0,
+            "dimensions": [
+                15.0,
+                5.0,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    1.0,
+                    0.333,
+                    0.013
+                ],
+                "area": 158.0,
+                "volume": 15.0,
+                "ratio_av": 10.5333
+            }
+        },
+        {
+            "node_id": 34,
+            "guid": "3WTFZLIDfCSgicLndgDPj2",
+            "name": "Floor:STB 20.0:494355",
+            "entity_processed": "IfcSlab",
+            "x": -11.594,
+            "y": 27.253,
+            "z": 4.3,
+            "origin_x": 0.0,
+            "origin_y": 0.0,
+            "origin_z": 4.4,
+            "dimensions": [
+                15.2,
+                5.0,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    1.0,
+                    0.329,
+                    0.013
+                ],
+                "area": 160.08,
+                "volume": 15.2,
+                "ratio_av": 10.5316
+            }
+        },
+        {
+            "node_id": 35,
+            "guid": "3WTFZLIDfCSgicLndgDPrl",
+            "name": "Floor:STB 20.0:494910",
+            "entity_processed": "IfcSlab",
+            "x": -11.594,
+            "y": -6.747,
+            "z": 4.3,
+            "origin_x": 0.0,
+            "origin_y": 0.0,
+            "origin_z": 4.4,
+            "dimensions": [
+                15.2,
+                5.0,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    1.0,
+                    0.329,
+                    0.013
+                ],
+                "area": 160.08,
+                "volume": 15.2,
+                "ratio_av": 10.5316
+            }
+        },
+        {
+            "node_id": 36,
+            "guid": "04sjR4dpb6DOsPr6RR1X5f",
+            "name": "Floor:STB 20.0:496723",
+            "entity_processed": "IfcSlab",
+            "x": -11.605,
+            "y": 27.253,
+            "z": 8.7,
+            "origin_x": 0.0,
+            "origin_y": 0.0,
+            "origin_z": 8.8,
+            "dimensions": [
+                15.2,
+                5.0,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    1.0,
+                    0.329,
+                    0.013
+                ],
+                "area": 160.08,
+                "volume": 15.2,
+                "ratio_av": 10.5316
+            }
+        },
+        {
+            "node_id": 37,
+            "guid": "04sjR4dpb6DOsPr6RR1X5P",
+            "name": "Floor:STB 20.0:496739",
+            "entity_processed": "IfcSlab",
+            "x": -11.544,
+            "y": -6.747,
+            "z": 8.7,
+            "origin_x": 0.0,
+            "origin_y": 0.0,
+            "origin_z": 8.8,
+            "dimensions": [
+                15.2,
+                5.0,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    1.0,
+                    0.329,
+                    0.013
+                ],
+                "area": 160.08,
+                "volume": 15.2,
+                "ratio_av": 10.5316
+            }
+        },
+        {
+            "node_id": 38,
+            "guid": "04sjR4dpb6DOsPr6RR1X6i",
+            "name": "Floor:STB 20.0:496790",
+            "entity_processed": "IfcSlab",
+            "x": -20.994,
+            "y": 10.253,
+            "z": 8.7,
+            "origin_x": 0.0,
+            "origin_y": 0.0,
+            "origin_z": 8.8,
+            "dimensions": [
+                4.0,
+                29.0,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    0.138,
+                    1.0,
+                    0.007
+                ],
+                "area": 245.2,
+                "volume": 23.2,
+                "ratio_av": 10.569
+            }
+        },
+        {
+            "node_id": 39,
+            "guid": "20LeAmtxjFagTYkRE7cuv0",
+            "name": "Floor:STB 20.0:499864",
+            "entity_processed": "IfcSlab",
+            "x": -20.994,
+            "y": 10.468,
+            "z": 4.3,
+            "origin_x": 0.0,
+            "origin_y": 0.0,
+            "origin_z": 4.4,
+            "dimensions": [
+                3.6,
+                26.989,
+                0.2
+            ],
+            "features": {
+                "entity_one_hot_idx": 2,
+                "norm_dimensions": [
+                    0.133,
+                    1.0,
+                    0.007
+                ],
+                "area": 206.5556,
+                "volume": 19.432,
+                "ratio_av": 10.6297
+            }
+        }
+    ],
+    "edges": [
+        {
+            "source": 0,
+            "target": 31,
+            "features": {
+                "distance": 0.0416,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZygb",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:473562",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 1,
+            "target": 30,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyWE",
+                "guid_b": "0KRl17GSJHmnKkLTFQXJl7",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:473969",
+                "name_b": "Floor:STB 20.0:486500:2"
+            }
+        },
+        {
+            "source": 1,
+            "target": 31,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyWE",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:473969",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 1,
+            "target": 33,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyWE",
+                "guid_b": "3HTqbtkjL0z8u5TicZt0ZR",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:473969",
+                "name_b": "Floor:STB 20.0:488540:2"
+            }
+        },
+        {
+            "source": 1,
+            "target": 35,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyWE",
+                "guid_b": "3WTFZLIDfCSgicLndgDPrl",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:473969",
+                "name_b": "Floor:STB 20.0:494910"
+            }
+        },
+        {
+            "source": 1,
+            "target": 37,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyWE",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5P",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:473969",
+                "name_b": "Floor:STB 20.0:496739"
+            }
+        },
+        {
+            "source": 2,
+            "target": 29,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyuE",
+                "guid_b": "1soz90sYzCp8a2Do0djRBF",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:474481",
+                "name_b": "Floor:STB 20.0:486500"
+            }
+        },
+        {
+            "source": 2,
+            "target": 31,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyuE",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:474481",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 2,
+            "target": 32,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyuE",
+                "guid_b": "3WTFZLIDfCSgicLndgDMGD",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:474481",
+                "name_b": "Floor:STB 20.0:488540"
+            }
+        },
+        {
+            "source": 2,
+            "target": 34,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyuE",
+                "guid_b": "3WTFZLIDfCSgicLndgDPj2",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:474481",
+                "name_b": "Floor:STB 20.0:494355"
+            }
+        },
+        {
+            "source": 2,
+            "target": 36,
+            "features": {
+                "distance": 11.0501,
+                "proximity_activation": 0.987864,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyuE",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5f",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:474481",
+                "name_b": "Floor:STB 20.0:496723"
+            }
+        },
+        {
+            "source": 3,
+            "target": 31,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyxq",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:474507",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 4,
+            "target": 31,
+            "features": {
+                "distance": 1.0,
+                "proximity_activation": 0.9999,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyrD",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474674",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 4,
+            "target": 38,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyrD",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474674",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 4,
+            "target": 39,
+            "features": {
+                "distance": 44.433,
+                "proximity_activation": 0.820838,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZyrD",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474674",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 5,
+            "target": 31,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZysk",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474833",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 5,
+            "target": 38,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZysk",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474833",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 5,
+            "target": 39,
+            "features": {
+                "distance": 920.1437,
+                "proximity_activation": 0.0,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZysk",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474833",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 6,
+            "target": 30,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZynE",
+                "guid_b": "0KRl17GSJHmnKkLTFQXJl7",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474929",
+                "name_b": "Floor:STB 20.0:486500:2"
+            }
+        },
+        {
+            "source": 6,
+            "target": 31,
+            "features": {
+                "distance": 7.0,
+                "proximity_activation": 0.995112,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZynE",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474929",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 6,
+            "target": 33,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZynE",
+                "guid_b": "3HTqbtkjL0z8u5TicZt0ZR",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474929",
+                "name_b": "Floor:STB 20.0:488540:2"
+            }
+        },
+        {
+            "source": 6,
+            "target": 35,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZynE",
+                "guid_b": "3WTFZLIDfCSgicLndgDPrl",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474929",
+                "name_b": "Floor:STB 20.0:494910"
+            }
+        },
+        {
+            "source": 6,
+            "target": 37,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZynE",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5P",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474929",
+                "name_b": "Floor:STB 20.0:496739"
+            }
+        },
+        {
+            "source": 6,
+            "target": 38,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZynE",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474929",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 6,
+            "target": 39,
+            "features": {
+                "distance": 1221.1674,
+                "proximity_activation": 0.0,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZynE",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:474929",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 7,
+            "target": 31,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxDw",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475141",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 7,
+            "target": 38,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxDw",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475141",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 7,
+            "target": 39,
+            "features": {
+                "distance": 44.631,
+                "proximity_activation": 0.819392,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxDw",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475141",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 8,
+            "target": 31,
+            "features": {
+                "distance": 1.0,
+                "proximity_activation": 0.9999,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxEL",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475370",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 8,
+            "target": 38,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxEL",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475370",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 8,
+            "target": 39,
+            "features": {
+                "distance": 45.8875,
+                "proximity_activation": 0.810125,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxEL",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475370",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 9,
+            "target": 31,
+            "features": {
+                "distance": 1.0004,
+                "proximity_activation": 0.9999,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx97",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475448",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 9,
+            "target": 38,
+            "features": {
+                "distance": 0.0294,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx97",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475448",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 9,
+            "target": 39,
+            "features": {
+                "distance": 44.6924,
+                "proximity_activation": 0.818943,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx97",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475448",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 10,
+            "target": 31,
+            "features": {
+                "distance": 1.0004,
+                "proximity_activation": 0.9999,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6h",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475860",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 10,
+            "target": 38,
+            "features": {
+                "distance": 0.0294,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6h",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475860",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 10,
+            "target": 39,
+            "features": {
+                "distance": 46.0716,
+                "proximity_activation": 0.808755,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6h",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475860",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 11,
+            "target": 31,
+            "features": {
+                "distance": 1.0,
+                "proximity_activation": 0.9999,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6V",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475872",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 11,
+            "target": 38,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6V",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475872",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 11,
+            "target": 39,
+            "features": {
+                "distance": 44.4188,
+                "proximity_activation": 0.820942,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6V",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475872",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 12,
+            "target": 31,
+            "features": {
+                "distance": 1.0004,
+                "proximity_activation": 0.9999,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6U",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475873",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 12,
+            "target": 38,
+            "features": {
+                "distance": 0.0294,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6U",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475873",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 12,
+            "target": 39,
+            "features": {
+                "distance": 45.0069,
+                "proximity_activation": 0.816636,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6U",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475873",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 13,
+            "target": 31,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6K",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475883",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 13,
+            "target": 38,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6K",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475883",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 13,
+            "target": 39,
+            "features": {
+                "distance": 44.7727,
+                "proximity_activation": 0.818354,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6K",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475883",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 14,
+            "target": 31,
+            "features": {
+                "distance": 0.0294,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6J",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475884",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 14,
+            "target": 38,
+            "features": {
+                "distance": 0.0294,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6J",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475884",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 14,
+            "target": 39,
+            "features": {
+                "distance": 44.3743,
+                "proximity_activation": 0.821266,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx6J",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475884",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 15,
+            "target": 29,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx69",
+                "guid_b": "1soz90sYzCp8a2Do0djRBF",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475894",
+                "name_b": "Floor:STB 20.0:486500"
+            }
+        },
+        {
+            "source": 15,
+            "target": 31,
+            "features": {
+                "distance": 7.0,
+                "proximity_activation": 0.995112,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx69",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475894",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 15,
+            "target": 32,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx69",
+                "guid_b": "3WTFZLIDfCSgicLndgDMGD",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475894",
+                "name_b": "Floor:STB 20.0:488540"
+            }
+        },
+        {
+            "source": 15,
+            "target": 34,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx69",
+                "guid_b": "3WTFZLIDfCSgicLndgDPj2",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475894",
+                "name_b": "Floor:STB 20.0:494355"
+            }
+        },
+        {
+            "source": 15,
+            "target": 36,
+            "features": {
+                "distance": 11.1672,
+                "proximity_activation": 0.987607,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx69",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5f",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475894",
+                "name_b": "Floor:STB 20.0:496723"
+            }
+        },
+        {
+            "source": 15,
+            "target": 38,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx69",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475894",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 15,
+            "target": 39,
+            "features": {
+                "distance": 792.543,
+                "proximity_activation": 0.0,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx69",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475894",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 16,
+            "target": 31,
+            "features": {
+                "distance": 1.0004,
+                "proximity_activation": 0.9999,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx68",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475895",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 16,
+            "target": 38,
+            "features": {
+                "distance": 700.0,
+                "proximity_activation": 0.0,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx68",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475895",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 16,
+            "target": 39,
+            "features": {
+                "distance": 1490.9644,
+                "proximity_activation": 0.0,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx68",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X60:475895",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 17,
+            "target": 29,
+            "features": {
+                "distance": 0.7692,
+                "proximity_activation": 0.999941,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx0a",
+                "guid_b": "1soz90sYzCp8a2Do0djRBF",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:475995",
+                "name_b": "Floor:STB 20.0:486500"
+            }
+        },
+        {
+            "source": 17,
+            "target": 32,
+            "features": {
+                "distance": 0.7692,
+                "proximity_activation": 0.999941,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx0a",
+                "guid_b": "3WTFZLIDfCSgicLndgDMGD",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:475995",
+                "name_b": "Floor:STB 20.0:488540"
+            }
+        },
+        {
+            "source": 17,
+            "target": 34,
+            "features": {
+                "distance": 5.0,
+                "proximity_activation": 0.997503,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx0a",
+                "guid_b": "3WTFZLIDfCSgicLndgDPj2",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:475995",
+                "name_b": "Floor:STB 20.0:494355"
+            }
+        },
+        {
+            "source": 17,
+            "target": 36,
+            "features": {
+                "distance": 4.5042,
+                "proximity_activation": 0.997973,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZx0a",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5f",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:475995",
+                "name_b": "Floor:STB 20.0:496723"
+            }
+        },
+        {
+            "source": 18,
+            "target": 29,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxSj",
+                "guid_b": "1soz90sYzCp8a2Do0djRBF",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476242",
+                "name_b": "Floor:STB 20.0:486500"
+            }
+        },
+        {
+            "source": 18,
+            "target": 32,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxSj",
+                "guid_b": "3WTFZLIDfCSgicLndgDMGD",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476242",
+                "name_b": "Floor:STB 20.0:488540"
+            }
+        },
+        {
+            "source": 18,
+            "target": 34,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxSj",
+                "guid_b": "3WTFZLIDfCSgicLndgDPj2",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476242",
+                "name_b": "Floor:STB 20.0:494355"
+            }
+        },
+        {
+            "source": 18,
+            "target": 36,
+            "features": {
+                "distance": 5.0653,
+                "proximity_activation": 0.997438,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxSj",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5f",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476242",
+                "name_b": "Floor:STB 20.0:496723"
+            }
+        },
+        {
+            "source": 19,
+            "target": 29,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxRJ",
+                "guid_b": "1soz90sYzCp8a2Do0djRBF",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476588",
+                "name_b": "Floor:STB 20.0:486500"
+            }
+        },
+        {
+            "source": 19,
+            "target": 32,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxRJ",
+                "guid_b": "3WTFZLIDfCSgicLndgDMGD",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476588",
+                "name_b": "Floor:STB 20.0:488540"
+            }
+        },
+        {
+            "source": 19,
+            "target": 34,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxRJ",
+                "guid_b": "3WTFZLIDfCSgicLndgDPj2",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476588",
+                "name_b": "Floor:STB 20.0:494355"
+            }
+        },
+        {
+            "source": 19,
+            "target": 36,
+            "features": {
+                "distance": 11.3545,
+                "proximity_activation": 0.98719,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxRJ",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5f",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476588",
+                "name_b": "Floor:STB 20.0:496723"
+            }
+        },
+        {
+            "source": 20,
+            "target": 29,
+            "features": {
+                "distance": 0.7692,
+                "proximity_activation": 0.999941,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxLU",
+                "guid_b": "1soz90sYzCp8a2Do0djRBF",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476705",
+                "name_b": "Floor:STB 20.0:486500"
+            }
+        },
+        {
+            "source": 20,
+            "target": 32,
+            "features": {
+                "distance": 0.7692,
+                "proximity_activation": 0.999941,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxLU",
+                "guid_b": "3WTFZLIDfCSgicLndgDMGD",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476705",
+                "name_b": "Floor:STB 20.0:488540"
+            }
+        },
+        {
+            "source": 20,
+            "target": 34,
+            "features": {
+                "distance": 3.4939,
+                "proximity_activation": 0.99878,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxLU",
+                "guid_b": "3WTFZLIDfCSgicLndgDPj2",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476705",
+                "name_b": "Floor:STB 20.0:494355"
+            }
+        },
+        {
+            "source": 20,
+            "target": 36,
+            "features": {
+                "distance": 6.3545,
+                "proximity_activation": 0.99597,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxLU",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5f",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476705",
+                "name_b": "Floor:STB 20.0:496723"
+            }
+        },
+        {
+            "source": 21,
+            "target": 29,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxLC",
+                "guid_b": "1soz90sYzCp8a2Do0djRBF",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476723",
+                "name_b": "Floor:STB 20.0:486500"
+            }
+        },
+        {
+            "source": 21,
+            "target": 32,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxLC",
+                "guid_b": "3WTFZLIDfCSgicLndgDMGD",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476723",
+                "name_b": "Floor:STB 20.0:488540"
+            }
+        },
+        {
+            "source": 21,
+            "target": 34,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxLC",
+                "guid_b": "3WTFZLIDfCSgicLndgDPj2",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476723",
+                "name_b": "Floor:STB 20.0:494355"
+            }
+        },
+        {
+            "source": 21,
+            "target": 36,
+            "features": {
+                "distance": 5.0653,
+                "proximity_activation": 0.997438,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxLC",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5f",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476723",
+                "name_b": "Floor:STB 20.0:496723"
+            }
+        },
+        {
+            "source": 22,
+            "target": 29,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxL2",
+                "guid_b": "1soz90sYzCp8a2Do0djRBF",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476733",
+                "name_b": "Floor:STB 20.0:486500"
+            }
+        },
+        {
+            "source": 22,
+            "target": 32,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxL2",
+                "guid_b": "3WTFZLIDfCSgicLndgDMGD",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476733",
+                "name_b": "Floor:STB 20.0:488540"
+            }
+        },
+        {
+            "source": 22,
+            "target": 34,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxL2",
+                "guid_b": "3WTFZLIDfCSgicLndgDPj2",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476733",
+                "name_b": "Floor:STB 20.0:494355"
+            }
+        },
+        {
+            "source": 22,
+            "target": 36,
+            "features": {
+                "distance": 10.0654,
+                "proximity_activation": 0.98992,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxL2",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5f",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476733",
+                "name_b": "Floor:STB 20.0:496723"
+            }
+        },
+        {
+            "source": 23,
+            "target": 30,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKq",
+                "guid_b": "0KRl17GSJHmnKkLTFQXJl7",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476747",
+                "name_b": "Floor:STB 20.0:486500:2"
+            }
+        },
+        {
+            "source": 23,
+            "target": 33,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKq",
+                "guid_b": "3HTqbtkjL0z8u5TicZt0ZR",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476747",
+                "name_b": "Floor:STB 20.0:488540:2"
+            }
+        },
+        {
+            "source": 23,
+            "target": 35,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKq",
+                "guid_b": "3WTFZLIDfCSgicLndgDPrl",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476747",
+                "name_b": "Floor:STB 20.0:494910"
+            }
+        },
+        {
+            "source": 23,
+            "target": 37,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKq",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5P",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476747",
+                "name_b": "Floor:STB 20.0:496739"
+            }
+        },
+        {
+            "source": 24,
+            "target": 30,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKg",
+                "guid_b": "0KRl17GSJHmnKkLTFQXJl7",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476757",
+                "name_b": "Floor:STB 20.0:486500:2"
+            }
+        },
+        {
+            "source": 24,
+            "target": 33,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKg",
+                "guid_b": "3HTqbtkjL0z8u5TicZt0ZR",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476757",
+                "name_b": "Floor:STB 20.0:488540:2"
+            }
+        },
+        {
+            "source": 24,
+            "target": 35,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKg",
+                "guid_b": "3WTFZLIDfCSgicLndgDPrl",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476757",
+                "name_b": "Floor:STB 20.0:494910"
+            }
+        },
+        {
+            "source": 24,
+            "target": 37,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKg",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5P",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476757",
+                "name_b": "Floor:STB 20.0:496739"
+            }
+        },
+        {
+            "source": 25,
+            "target": 30,
+            "features": {
+                "distance": 0.3846,
+                "proximity_activation": 0.999985,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKQ",
+                "guid_b": "0KRl17GSJHmnKkLTFQXJl7",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476773",
+                "name_b": "Floor:STB 20.0:486500:2"
+            }
+        },
+        {
+            "source": 25,
+            "target": 33,
+            "features": {
+                "distance": 0.3846,
+                "proximity_activation": 0.999985,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKQ",
+                "guid_b": "3HTqbtkjL0z8u5TicZt0ZR",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476773",
+                "name_b": "Floor:STB 20.0:488540:2"
+            }
+        },
+        {
+            "source": 25,
+            "target": 35,
+            "features": {
+                "distance": 1.95,
+                "proximity_activation": 0.99962,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKQ",
+                "guid_b": "3WTFZLIDfCSgicLndgDPrl",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476773",
+                "name_b": "Floor:STB 20.0:494910"
+            }
+        },
+        {
+            "source": 25,
+            "target": 37,
+            "features": {
+                "distance": 5.1314,
+                "proximity_activation": 0.99737,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxKQ",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5P",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476773",
+                "name_b": "Floor:STB 20.0:496739"
+            }
+        },
+        {
+            "source": 26,
+            "target": 30,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNl",
+                "guid_b": "0KRl17GSJHmnKkLTFQXJl7",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476816",
+                "name_b": "Floor:STB 20.0:486500:2"
+            }
+        },
+        {
+            "source": 26,
+            "target": 33,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNl",
+                "guid_b": "3HTqbtkjL0z8u5TicZt0ZR",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476816",
+                "name_b": "Floor:STB 20.0:488540:2"
+            }
+        },
+        {
+            "source": 26,
+            "target": 35,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNl",
+                "guid_b": "3WTFZLIDfCSgicLndgDPrl",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476816",
+                "name_b": "Floor:STB 20.0:494910"
+            }
+        },
+        {
+            "source": 26,
+            "target": 37,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNl",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5P",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476816",
+                "name_b": "Floor:STB 20.0:496739"
+            }
+        },
+        {
+            "source": 27,
+            "target": 30,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNZ",
+                "guid_b": "0KRl17GSJHmnKkLTFQXJl7",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476828",
+                "name_b": "Floor:STB 20.0:486500:2"
+            }
+        },
+        {
+            "source": 27,
+            "target": 33,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNZ",
+                "guid_b": "3HTqbtkjL0z8u5TicZt0ZR",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476828",
+                "name_b": "Floor:STB 20.0:488540:2"
+            }
+        },
+        {
+            "source": 27,
+            "target": 35,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNZ",
+                "guid_b": "3WTFZLIDfCSgicLndgDPrl",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476828",
+                "name_b": "Floor:STB 20.0:494910"
+            }
+        },
+        {
+            "source": 27,
+            "target": 37,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNZ",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5P",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476828",
+                "name_b": "Floor:STB 20.0:496739"
+            }
+        },
+        {
+            "source": 28,
+            "target": 30,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNL",
+                "guid_b": "0KRl17GSJHmnKkLTFQXJl7",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476842",
+                "name_b": "Floor:STB 20.0:486500:2"
+            }
+        },
+        {
+            "source": 28,
+            "target": 33,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNL",
+                "guid_b": "3HTqbtkjL0z8u5TicZt0ZR",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476842",
+                "name_b": "Floor:STB 20.0:488540:2"
+            }
+        },
+        {
+            "source": 28,
+            "target": 35,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNL",
+                "guid_b": "3WTFZLIDfCSgicLndgDPrl",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476842",
+                "name_b": "Floor:STB 20.0:494910"
+            }
+        },
+        {
+            "source": 28,
+            "target": 37,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": true,
+                "rbc_status": "TP"
+            },
+            "meta": {
+                "guid_a": "2q2CBrfQTCKPY0zxCdZxNL",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X5P",
+                "entity_a": "IfcColumn",
+                "entity_b": "IfcSlab",
+                "name_a": "STB Stütze - rechteckig:BETON 30X30:476842",
+                "name_b": "Floor:STB 20.0:496739"
+            }
+        },
+        {
+            "source": 29,
+            "target": 31,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "1soz90sYzCp8a2Do0djRBF",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcSlab",
+                "entity_b": "IfcSlab",
+                "name_a": "Floor:STB 20.0:486500",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 30,
+            "target": 31,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": true,
+                "rbc_converted": false,
+                "rbc_status": "FN"
+            },
+            "meta": {
+                "guid_a": "0KRl17GSJHmnKkLTFQXJl7",
+                "guid_b": "1soz90sYzCp8a2Do0djR8J",
+                "entity_a": "IfcSlab",
+                "entity_b": "IfcSlab",
+                "name_a": "Floor:STB 20.0:486500:2",
+                "name_b": "Floor:STB 20.0:486584"
+            }
+        },
+        {
+            "source": 34,
+            "target": 39,
+            "features": {
+                "distance": 790.9642,
+                "proximity_activation": 0.0,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "3WTFZLIDfCSgicLndgDPj2",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcSlab",
+                "entity_b": "IfcSlab",
+                "name_a": "Floor:STB 20.0:494355",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 35,
+            "target": 39,
+            "features": {
+                "distance": 1220.1434,
+                "proximity_activation": 0.0,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "3WTFZLIDfCSgicLndgDPrl",
+                "guid_b": "20LeAmtxjFagTYkRE7cuv0",
+                "entity_a": "IfcSlab",
+                "entity_b": "IfcSlab",
+                "name_a": "Floor:STB 20.0:494910",
+                "name_b": "Floor:STB 20.0:499864"
+            }
+        },
+        {
+            "source": 36,
+            "target": 38,
+            "features": {
+                "distance": 11.3545,
+                "proximity_activation": 0.98719,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "04sjR4dpb6DOsPr6RR1X5f",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcSlab",
+                "entity_b": "IfcSlab",
+                "name_a": "Floor:STB 20.0:496723",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        },
+        {
+            "source": 37,
+            "target": 38,
+            "features": {
+                "distance": 0.0,
+                "proximity_activation": 1.0,
+                "load_transfer": false,
+                "rbc_converted": false,
+                "rbc_status": "TN"
+            },
+            "meta": {
+                "guid_a": "04sjR4dpb6DOsPr6RR1X5P",
+                "guid_b": "04sjR4dpb6DOsPr6RR1X6i",
+                "entity_a": "IfcSlab",
+                "entity_b": "IfcSlab",
+                "name_a": "Floor:STB 20.0:496739",
+                "name_b": "Floor:STB 20.0:496790"
+            }
+        }
+    ]
+}

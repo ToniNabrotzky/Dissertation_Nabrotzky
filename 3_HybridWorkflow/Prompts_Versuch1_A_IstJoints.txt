@@ -1,0 +1,76 @@
+Methode – Versuchsaufbau
+Was ist der Versuchsaufbau (z.B. Welche Modelle werden untersucht? Welche Software wird eingesetzt? Welche Regeln werden bei der (automatischen und manuellen) Konvertierung verwendet?)
+Wie wird die Variable manipuliert bzw. Messung (z.B. aktives Verändern der unabhängigen Variable und das Protokollieren der abhängigen Variable)
+	Definieren von Leistungsmetriken (Genauigkeit, Rückruf, Präzision, F1-Score)
+Wie findet die Kontrolle statt (z.B. Wie werden äußere Einflüsse ausgeschlossen, um Validität (Gültigkeit) zu wahren?
+	(vlt. Verwendung mehrerer Softwares, um nicht Bias von einem Programm zu erhalten?
+	Definition von Fehlerarten)
+Wie wird die Reproduzierbarkeit sichergestellt (z.B. konstante Regeln bei manueller Beschriftung für Referenzwahrheit. Konstante Regelsätze bei einer Software über alle Test-Modelle)
+
+Untersuchungskonzept: Klassifikation und Validierung von Anschlussstellen bei regelbasierten Idealisierungskonvertern
+Vorbemerkung zur Problemstruktur
+Ihre Ausgangslage enthält eine grundlegende Repräsentationslücke, die methodisch zuerst geschlossen werden muss:
+Ebene	Repräsentation	Ihre Ground Truth	Analysemodell
+Topologisch-relational	Bauteilpaare mit Lastabtrag	✔ vorhanden (GUID-Paare)	ableitbar
+Geometrisch-lokal	Anschlussstelle (Punkt/Linie/Fläche im Raum)	✘ nicht explizit	explizit vorhanden (Knoten, Koppelelemente)
+Die Ground Truth ist ein Kontaktgraph (Bauteile = Knoten, Lastabtrag = Kanten). Das Analysemodell ist ein Strukturmodell-Graph (Knoten = geometrische Punkte, Kanten = 1D-Elemente/Kopplungen). Die Bewertung erfordert eine Zwischenschicht: die Anschlussstelle (Joint) als eigenständiges Objekt, das aus beiden Welten rekonstruiert werden kann.
+Ich schlage daher folgenden Untersuchungsaufbau vor:
+[IFC-Volumenmodell] ──┐
+                      ├──> [Joint-Rekonstruktion] ──> [Joint-Taxonomie/Metriken]
+[Ground-Truth-Paare] ─┘                                        │
+                                                               ▼
+[Analysemodell (konvertiert)] ──> [Joint-Extraktion] ──> [Matching & Fehlerklassifikation]
+                                                               │
+                                                               ▼
+                                                    [Statistische Fehleranalyse
+                                                     nach Anschlusstyp]
+
+
+Teil A – Rekonstruktion von Anschlussstellen aus der Ground Truth
+A.1 Formale Grundlage: Vom Kontaktgraph zum Joint-Hypergraph
+Definition Kontaktgraph. Sei G_GT=(V,E) mit V = Menge der Bauteile (IFC-GUIDs) und E⊆(V¦2) = Menge der lastabtragenden Kontaktpaare aus Ihrer Ground Truth.
+Definition Anschlussstelle (Joint). Eine Anschlussstelle J ist eine Hyperkante J⊆V mit |J|≥2, die alle Bauteile umfasst, die sich an einer gemeinsamen geometrischen Lokalität (Punkt, Linie) treffen und dort Kräfte austauschen.
+Das Kernproblem, das Sie zutreffend beschreiben: Aus E allein lässt sich J nicht eindeutig rekonstruieren, weil
+	zwei Bauteile über Kanten verbunden sein können, ohne einen gemeinsamen Joint zu bilden (diagonale Wandanschlüsse über 2 Geschosse – nicht übereinander/stufenmäßig versetzt),
+	ein Joint mit Bauteilen im Kontaktgraph nicht notwendigerweise als Clique erscheint (Stütze oben – Decke – Stütze unten ist ein Pfad, keine Clique).
+Konsequenz: Die Joint-Rekonstruktion muss geometrisch gestützt erfolgen. Die Ground Truth liefert die Relation (welche Paare tragen Last ab), die IFC-Geometrie liefert die Lokalität (wo).
+
+A.2 Vorschlag: Algorithmus zur geometrisch gestützten Joint-Rekonstruktion
+Schritt 1 — Kontaktregion pro Ground-Truth-Paar bestimmen
+Für jedes Paar (a,b)∈E berechne aus den IFC-Volumenkörpern die Kontaktregion:
+R_(a,b)=x∈R^3: d(x,〖∂S〗_a )≤ε⋀ d(x,〖∂S〗_b )≤ε
+mit S_a,S_b = Solids, ε = Toleranz (Empfehlung: 1–5 mm, Sensitivitätsstudie durchführen).
+Kürzel für: ∂→U+2202 Rand (Toplologie),∧ →U+2227 Logisches Und
+
+Praktisch: Boolescher Schnitt der um ε aufgeweiteten Solids (Minkowski-Dilatation oder Brep-Face-Face-Intersection). Werkzeuge: OpenCascade (via ifcopenshell + OCC), CGAL, oder Trimesh mit Signed-Distance-Feldern.
+Charakterisiere  R_(a,b)  durch:
+Attribut	Bedeutung
+Schwerpunkt c_ab	Lokalisierung des Kontakts
+Hauptträgheitsachsen / PCA-Eigenwerte λ_1≥λ_2≥λ_3	Dimensionalität
+Ausdehnung L_1≥L_2≥L_3	Größe je Achse (Ausdehnungen entlang der Hauptachsen)
+Fläche A_ab, Volumen V_ab	Kontaktumfang
+
+Dimensionalitätsklassifikation der Kontaktregion:
+	L_2⁄L_1 <τ und  L_3⁄L_1 <τ und → linienhafter Kontakt (z. B. Wand-Wand, Wand-Decke, DeckeD-ecke), da 2 Ausdehnungen deutlich kleiner als die größte Ausdehnung sind.
+	L_3⁄L_1 <τ,L_2⁄L_1 ≥τ, → flächiger Kontakt (z. B. Stütze-Decke, Balken-Balken), da 1 Ausdehnung deutlich kleiner als die größte Ausdehnung ist.
+	Alle L_i ähnlich und klein → punktueller Kontakt (z. B. bei idealisierten 1D-Elementen)
+(Empfehlung τ≈0,2; als Parameter dokumentieren.)
+
+Schritt 2 — Kontaktregionen zu Joints clustern
+Zwei Kontaktregionen R_ab und R_cd gehören zum selben Joint, wenn sie räumlich koinzident bzw. überlappend sind. Formal:
+R_ab~R_ab⟺d_H (R_ab,R_cd )≤δ oder  |R_ab∩R_cd |/min(|R_ab |,|R_cd |) ≥0
+Mit d_H = Hausdorff-Distanz, δ= Joint-Toleranz (Empfehlung: skaliert mit der größten Bauteildicke am Kontakt, z. B. max(t_a,t_b ), da die Idealisierung Punkte um bis zu einer halben Bauteildicke verschiebt).
+Bilde die transitive Hülle (Union-Find / Connected Components auf dem "Koinzidenz-Graph der Kontaktregionen"). Jede Zusammenhangskomponente ist ein Joint mit:
+Das löst Ihr Kernproblem elegant:
+	Stütze oben – Decke – Stütze unten, achsgleich: Beide Kontaktregionen liegen an derselben Stelle (nur um Deckendicke versetzt, was ist) → ein Joint mit 3 Bauteilen. Genau richtig, denn im Analysemodell werden hier idealerweise beide Stützenenden und der Deckenknoten in einem Punkt zusammengeführt.
+	Stütze oben – Decke – Stütze unten, versetzt (10 m Abstand): Kontaktregionen weit auseinander → zwei getrennte Joints. Ebenfalls richtig.
+
+Schritt 3 — Joint-Attributierung
+Für jeden Joint J_k:
+Attribut	Berechnung
+Position	Schwerpunkt aller zugehörigen Kontaktregionen
+Joint-Geometrietyp	Punkt / Linie / Fläche (PCA über Vereinigung)
+Bauteilmenge	J_k⊆V
+Induzierter GT-Teilgraph	G_GT [J_k ] – welche Paare innerhalb des Joints tragen tatsächlich Last ab?
+
+Der letzte Punkt ist wichtig: Ein Joint mit 3 Bauteilen kann intern ein Pfad (Stütze–Decke–Stütze) oder eine Clique (drei sich gegenseitig berührende Wände) sein. Diese Innentopologie ist ein eigenständiges Klassifikationsmerkmal.
