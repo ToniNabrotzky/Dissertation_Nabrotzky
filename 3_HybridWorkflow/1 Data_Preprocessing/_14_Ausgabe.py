@@ -22,7 +22,10 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 from _14_Dateneingang import ALLOWED_ENTITIES
-from _14_Experiment1_RBC_Fehlertaxonomie import JOINT_EPSILON, JOINT_TAU, JOINT_DELTA_SCALE
+from _14_Experiment1_RBC_Fehlertaxonomie import (
+    JOINT_EPSILON, JOINT_TAU, JOINT_DELTA_SCALE,
+    JOINT_POINT_EXTENT, JOINT_SAMPLE_SPACING, JOINT_MAX_SAMPLES, JOINT_SEGMENT_LENGTH,
+)
 from _14_Experiment2_GNN_Machbarkeitsstudie import RBF_GAMMA, MAX_DIST
 
 # =========================================================
@@ -94,7 +97,11 @@ class Ausgabe:
                     "max_dist": MAX_DIST,
                     "joint_epsilon": JOINT_EPSILON,
                     "joint_tau": JOINT_TAU,
-                    "joint_delta_scale": JOINT_DELTA_SCALE
+                    "joint_delta_scale": JOINT_DELTA_SCALE,
+                    "joint_point_extent": JOINT_POINT_EXTENT,
+                    "joint_sample_spacing": JOINT_SAMPLE_SPACING,
+                    "joint_max_samples": JOINT_MAX_SAMPLES,
+                    "joint_segment_length": JOINT_SEGMENT_LENGTH
                 },
                 "stats_IFC_extraction": stats_ifc,
                 "stats_Edges_and_RBC": stats_edges
@@ -105,7 +112,11 @@ class Ausgabe:
                 "config": {
                     "epsilon": JOINT_EPSILON,
                     "tau": JOINT_TAU,
-                    "delta_scale": JOINT_DELTA_SCALE
+                    "delta_scale": JOINT_DELTA_SCALE,
+                    "point_extent": JOINT_POINT_EXTENT,
+                    "sample_spacing": JOINT_SAMPLE_SPACING,
+                    "max_samples": JOINT_MAX_SAMPLES,
+                    "segment_length": JOINT_SEGMENT_LENGTH
                 },
                 "soll_joints": soll_joints if soll_joints is not None else [],
                 "ist_joints": ist_joints if ist_joints is not None else [],

@@ -1,0 +1,671 @@
+[17:15:30]
+==================================================
+Verarbeite Modell: model_9
+==================================================
+[17:15:30] Lade IFC-Modell: c:\Proton Drive\toninabrotzky\My files\1_Promotion\3 Quellcode GNN_Konvertierung\3_HybridWorkflow\0 Model_Database\model_9.ifc
+[17:15:30] Analysiere 40 IFC-Elemente...
+[17:15:30] Extraktion abgeschlossen. 40 gültige Knoten erstellt.
+[17:15:30] GT-Labels geladen: 102 echte Referenz-Paare (gefiltert auf Status 'o')
+[17:15:30] RBC-Labels geladen: 102 Einträge -- 	Achtung: Fehlende Kanten werden auf GT aufgestockt. Zahl ist somit entsprechend der 'FP's größer.
+[17:15:30] 1.A: Starte Soll-Joint-Rekonstruktion (IFC-basiert)...
+[17:15:30] 1.A Schritt 1: Bestimme Kontaktregionen für 102 GT-Paare (eps = 5.0 mm)...
+[17:15:30] #Debug Schritt 1 Konfiguration: epsilon=0.005000 m; tau=0.2; point_extent=0.05 m; sample_spacing=0.025 m; max_samples=5000
+[17:15:30] #Debug Schritt 1 Schlüssel je Kontaktregion: ['region_id', 'guid_a', 'guid_b', 'points', 'centroid', 'eigenvalues', 'lengths', 'contact_type', 'contact_method', 'volume']
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0001 (Paar 1/102): GUID_A=04sjR4dpb6DOsPr6RR1X5P; GUID_B=2q2CBrfQTCKPY0zxCdZxKQ; centroid=[-12.904059, -9.09685, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0002 (Paar 2/102): GUID_A=04sjR4dpb6DOsPr6RR1X5P; GUID_B=2q2CBrfQTCKPY0zxCdZxKg; centroid=[-8.144059, -9.09685, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285146, 0.285146, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0003 (Paar 3/102): GUID_A=04sjR4dpb6DOsPr6RR1X5P; GUID_B=2q2CBrfQTCKPY0zxCdZxKq; centroid=[-4.144059, -9.09685, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.2851, 0.2851, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0004 (Paar 4/102): GUID_A=04sjR4dpb6DOsPr6RR1X5P; GUID_B=2q2CBrfQTCKPY0zxCdZxNL; centroid=[-4.144059, -4.39685, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0005 (Paar 5/102): GUID_A=04sjR4dpb6DOsPr6RR1X5P; GUID_B=2q2CBrfQTCKPY0zxCdZxNZ; centroid=[-8.144059, -4.39685, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0006 (Paar 6/102): GUID_A=04sjR4dpb6DOsPr6RR1X5P; GUID_B=2q2CBrfQTCKPY0zxCdZxNl; centroid=[-12.894059, -4.39685, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.29995, 0.29995, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0007 (Paar 7/102): GUID_A=04sjR4dpb6DOsPr6RR1X5P; GUID_B=2q2CBrfQTCKPY0zxCdZyWE; centroid=[-18.994059, -9.09685, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0008 (Paar 8/102): GUID_A=04sjR4dpb6DOsPr6RR1X5P; GUID_B=2q2CBrfQTCKPY0zxCdZynE; centroid=[-18.994059, -4.54685, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0009 (Paar 9/102): GUID_A=04sjR4dpb6DOsPr6RR1X5f; GUID_B=2q2CBrfQTCKPY0zxCdZx0a; centroid=[-12.914059, 29.60315, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.287815, 0.287815, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0010 (Paar 10/102): GUID_A=04sjR4dpb6DOsPr6RR1X5f; GUID_B=2q2CBrfQTCKPY0zxCdZx69; centroid=[-18.994059, 25.05315, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0011 (Paar 11/102): GUID_A=04sjR4dpb6DOsPr6RR1X5f; GUID_B=2q2CBrfQTCKPY0zxCdZxL2; centroid=[-4.149736, 24.90315, 8.7]; eigenvalues=[0.00748259, 0.0069269, 0.00331692]; lengths_m=[0.285, 0.274213, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.017319; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0012 (Paar 12/102): GUID_A=04sjR4dpb6DOsPr6RR1X5f; GUID_B=2q2CBrfQTCKPY0zxCdZxLC; centroid=[-7.994059, 24.90315, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0013 (Paar 13/102): GUID_A=04sjR4dpb6DOsPr6RR1X5f; GUID_B=2q2CBrfQTCKPY0zxCdZxLU; centroid=[-12.874059, 24.90315, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285081, 0.285081, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0014 (Paar 14/102): GUID_A=04sjR4dpb6DOsPr6RR1X5f; GUID_B=2q2CBrfQTCKPY0zxCdZxRJ; centroid=[-4.149736, 29.60315, 8.7]; eigenvalues=[0.00748259, 0.0069269, 0.00331692]; lengths_m=[0.285, 0.274213, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.017319; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0015 (Paar 15/102): GUID_A=04sjR4dpb6DOsPr6RR1X5f; GUID_B=2q2CBrfQTCKPY0zxCdZxSj; centroid=[-7.994059, 29.60315, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.286194, 0.286194, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0016 (Paar 16/102): GUID_A=04sjR4dpb6DOsPr6RR1X5f; GUID_B=2q2CBrfQTCKPY0zxCdZyuE; centroid=[-18.994059, 29.60315, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.295815, 0.295815, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0017 (Paar 17/102): GUID_A=04sjR4dpb6DOsPr6RR1X6i; GUID_B=2q2CBrfQTCKPY0zxCdZx6J; centroid=[-22.84403, 20.75315, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0018 (Paar 18/102): GUID_A=04sjR4dpb6DOsPr6RR1X6i; GUID_B=2q2CBrfQTCKPY0zxCdZx6K; centroid=[-19.144059, 20.75315, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0019 (Paar 19/102): GUID_A=04sjR4dpb6DOsPr6RR1X6i; GUID_B=2q2CBrfQTCKPY0zxCdZx6U; centroid=[-22.84403, 15.75315, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0020 (Paar 20/102): GUID_A=04sjR4dpb6DOsPr6RR1X6i; GUID_B=2q2CBrfQTCKPY0zxCdZx6V; centroid=[-19.144059, 15.75315, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0021 (Paar 21/102): GUID_A=04sjR4dpb6DOsPr6RR1X6i; GUID_B=2q2CBrfQTCKPY0zxCdZx6h; centroid=[-22.84403, 10.75315, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0022 (Paar 22/102): GUID_A=04sjR4dpb6DOsPr6RR1X6i; GUID_B=2q2CBrfQTCKPY0zxCdZx97; centroid=[-22.84403, 5.75315, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0023 (Paar 23/102): GUID_A=04sjR4dpb6DOsPr6RR1X6i; GUID_B=2q2CBrfQTCKPY0zxCdZxDw; centroid=[-19.144059, 0.75315, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0024 (Paar 24/102): GUID_A=04sjR4dpb6DOsPr6RR1X6i; GUID_B=2q2CBrfQTCKPY0zxCdZxEL; centroid=[-19.144059, 5.75315, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0025 (Paar 25/102): GUID_A=04sjR4dpb6DOsPr6RR1X6i; GUID_B=2q2CBrfQTCKPY0zxCdZyrD; centroid=[-22.844059, 0.75315, 8.7]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:30]
+[17:15:30] #Debug Schritt 1 Kontaktregion CR_0026 (Paar 26/102): GUID_A=04sjR4dpb6DOsPr6RR1X6i; GUID_B=2q2CBrfQTCKPY0zxCdZysk; centroid=[-22.844059, -4.09685, 8.7]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285085, 0.285085, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:30]
+[17:15:31] #Debug Schritt 1 Kontaktregion CR_0027 (Paar 27/102): GUID_A=0KRl17GSJHmnKkLTFQXJl7; GUID_B=1soz90sYzCp8a2Do0djR8J; centroid=[-18.994079, -6.753841, -0.087991]; eigenvalues=[2.13983515, 0.0051543, 7e-08]; lengths_m=[5.000408, 0.210478, 0.005002]; contact_method=Oberfläche; contact_type=1D_Linie; volume_m3=0.000000; point_count=5184
+[17:15:31]
+[17:15:31] #Debug Schritt 1 Kontaktregion CR_0028 (Paar 28/102): GUID_A=0KRl17GSJHmnKkLTFQXJl7; GUID_B=2q2CBrfQTCKPY0zxCdZxKQ; centroid=[-12.9035, -9.102199, 0.001055]; eigenvalues=[0.01417508, 0.01321967, 2.52e-06]; lengths_m=[0.405978, 0.405978, 0.009824]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=883
+[17:15:31]
+[17:15:31] #Debug Schritt 1 Kontaktregion CR_0029 (Paar 29/102): GUID_A=0KRl17GSJHmnKkLTFQXJl7; GUID_B=2q2CBrfQTCKPY0zxCdZxKg; centroid=[-8.142618, -9.101798, 0.001057]; eigenvalues=[0.0140887, 0.01337473, 2.41e-06]; lengths_m=[0.415688, 0.415688, 0.005117]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=894
+[17:15:31]
+[17:15:31] #Debug Schritt 1 Kontaktregion CR_0030 (Paar 30/102): GUID_A=0KRl17GSJHmnKkLTFQXJl7; GUID_B=2q2CBrfQTCKPY0zxCdZxKq; centroid=[-4.137291, -9.106258, 0.000973]; eigenvalues=[0.0137022, 0.01349433, 2.5e-06]; lengths_m=[0.423871, 0.423871, 0.010003]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=940
+[17:15:31]
+[17:15:31] #Debug Schritt 1 Kontaktregion CR_0031 (Paar 31/102): GUID_A=0KRl17GSJHmnKkLTFQXJl7; GUID_B=2q2CBrfQTCKPY0zxCdZxNL; centroid=[-4.1388, -4.39114, 0.000951]; eigenvalues=[0.01420046, 0.0132837, 2.59e-06]; lengths_m=[0.39068, 0.39068, 0.008973]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=939
+[17:15:31]
+[17:15:31] #Debug Schritt 1 Kontaktregion CR_0032 (Paar 32/102): GUID_A=0KRl17GSJHmnKkLTFQXJl7; GUID_B=2q2CBrfQTCKPY0zxCdZxNZ; centroid=[-8.141792, -4.394843, 0.001024]; eigenvalues=[0.01415196, 0.01317814, 2.54e-06]; lengths_m=[0.403289, 0.403289, 0.009895]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=902
+[17:15:31]
+[17:15:31] #Debug Schritt 1 Kontaktregion CR_0033 (Paar 33/102): GUID_A=0KRl17GSJHmnKkLTFQXJl7; GUID_B=2q2CBrfQTCKPY0zxCdZxNl; centroid=[-12.894138, -4.395636, 0.001055]; eigenvalues=[0.01405409, 0.01329282, 2.41e-06]; lengths_m=[0.403466, 0.403466, 0.005003]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=896
+[17:15:31]
+[17:15:32] #Debug Schritt 1 Kontaktregion CR_0034 (Paar 34/102): GUID_A=0KRl17GSJHmnKkLTFQXJl7; GUID_B=2q2CBrfQTCKPY0zxCdZyWE; centroid=[-18.893331, -9.108998, 0.000938]; eigenvalues=[0.01376626, 0.00253876, 2.05e-06]; lengths_m=[0.310223, 0.171654, 0.007616]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=489
+[17:15:32]
+[17:15:32] #Debug Schritt 1 Kontaktregion CR_0035 (Paar 35/102): GUID_A=0KRl17GSJHmnKkLTFQXJl7; GUID_B=2q2CBrfQTCKPY0zxCdZynE; centroid=[-18.903566, -4.60401, 0.00055]; eigenvalues=[0.04201858, 0.00253374, 1.26e-06]; lengths_m=[0.609438, 0.19392, 0.008033]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=805
+[17:15:32]
+[17:15:32] #Debug Schritt 1 Kontaktregion CR_0036 (Paar 36/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=1soz90sYzCp8a2Do0djRBF; centroid=[-18.994079, 27.263318, -0.098129]; eigenvalues=[2.14316637, 0.00535726, 7e-08]; lengths_m=[5.000187, 0.204726, 0.004968]; contact_method=Oberfläche; contact_type=1D_Linie; volume_m3=0.000000; point_count=5189
+[17:15:32]
+[17:15:32] #Debug Schritt 1 Kontaktregion CR_0037 (Paar 37/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZx68; centroid=[-22.839375, 25.737364, 0.000542]; eigenvalues=[0.04312212, 0.01163922, 1.51e-06]; lengths_m=[0.605316, 0.310806, 0.005122]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1300
+[17:15:32]
+[17:15:32] #Debug Schritt 1 Kontaktregion CR_0038 (Paar 38/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZx69; centroid=[-19.080982, 25.108028, 0.000639]; eigenvalues=[0.04354021, 0.00275372, 1.3e-06]; lengths_m=[0.610589, 0.200806, 0.006689]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=701
+[17:15:32]
+[17:15:32] #Debug Schritt 1 Kontaktregion CR_0039 (Paar 39/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZx6J; centroid=[-22.839375, 20.737364, 0.000542]; eigenvalues=[0.04312212, 0.01163922, 1.51e-06]; lengths_m=[0.605316, 0.310806, 0.005122]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1300
+[17:15:32]
+[17:15:33] #Debug Schritt 1 Kontaktregion CR_0040 (Paar 40/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZx6K; centroid=[-19.129363, 20.73785, 0.000475]; eigenvalues=[0.04276034, 0.01163063, 1.74e-06]; lengths_m=[0.608452, 0.312463, 0.009938]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1323
+[17:15:33]
+[17:15:33] #Debug Schritt 1 Kontaktregion CR_0041 (Paar 41/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZx6U; centroid=[-22.839871, 15.737145, 0.000548]; eigenvalues=[0.04331106, 0.01164763, 1.52e-06]; lengths_m=[0.606, 0.312216, 0.005119]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1284
+[17:15:33]
+[17:15:33] #Debug Schritt 1 Kontaktregion CR_0042 (Paar 42/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZx6V; centroid=[-19.129335, 15.736067, 0.000478]; eigenvalues=[0.04299243, 0.01167603, 1.74e-06]; lengths_m=[0.611027, 0.317342, 0.00969]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1312
+[17:15:33]
+[17:15:33] #Debug Schritt 1 Kontaktregion CR_0043 (Paar 43/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZx6h; centroid=[-22.839375, 10.737364, 0.000542]; eigenvalues=[0.04312212, 0.01163922, 1.51e-06]; lengths_m=[0.605316, 0.310806, 0.005122]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1300
+[17:15:33]
+[17:15:33] #Debug Schritt 1 Kontaktregion CR_0044 (Paar 44/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZx97; centroid=[-22.839871, 5.737145, 0.000548]; eigenvalues=[0.04331106, 0.01164763, 1.52e-06]; lengths_m=[0.606, 0.312216, 0.005119]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1284
+[17:15:33]
+[17:15:33] #Debug Schritt 1 Kontaktregion CR_0045 (Paar 45/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZxDw; centroid=[-19.129049, 0.739138, 0.000518]; eigenvalues=[0.04258537, 0.01167374, 1.57e-06]; lengths_m=[0.608376, 0.319793, 0.007802]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1297
+[17:15:33]
+[17:15:33] #Debug Schritt 1 Kontaktregion CR_0046 (Paar 46/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZxEL; centroid=[-19.129322, 5.737857, 0.000501]; eigenvalues=[0.04304564, 0.01166327, 1.61e-06]; lengths_m=[0.608219, 0.31565, 0.008431]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1311
+[17:15:33]
+[17:15:33] #Debug Schritt 1 Kontaktregion CR_0047 (Paar 47/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZyWE; centroid=[-19.088538, -9.09898, 0.000933]; eigenvalues=[0.01370993, 0.00307355, 1.88e-06]; lengths_m=[0.305505, 0.16147, 0.00571]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=485
+[17:15:33]
+[17:15:34] #Debug Schritt 1 Kontaktregion CR_0048 (Paar 48/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZygb; centroid=[-22.84982, -9.104588, 0.000824]; eigenvalues=[0.01378829, 0.01270213, 2.27e-06]; lengths_m=[0.424244, 0.425564, 0.009946]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=824
+[17:15:34]
+[17:15:34] #Debug Schritt 1 Kontaktregion CR_0049 (Paar 49/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZynE; centroid=[-19.083257, -4.491668, 0.000692]; eigenvalues=[0.04419649, 0.00265288, 1.25e-06]; lengths_m=[0.610242, 0.198989, 0.005361]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=680
+[17:15:34]
+[17:15:34] #Debug Schritt 1 Kontaktregion CR_0050 (Paar 50/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZyrD; centroid=[-22.839634, 0.736975, 0.000541]; eigenvalues=[0.04315654, 0.01165554, 1.51e-06]; lengths_m=[0.605856, 0.31189, 0.005161]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1302
+[17:15:34]
+[17:15:34] #Debug Schritt 1 Kontaktregion CR_0051 (Paar 51/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZysk; centroid=[-22.840847, -4.26409, 0.000542]; eigenvalues=[0.04331703, 0.01171278, 1.52e-06]; lengths_m=[0.610701, 0.315695, 0.00588]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=1292
+[17:15:34]
+[17:15:34] #Debug Schritt 1 Kontaktregion CR_0052 (Paar 52/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZyuE; centroid=[-19.089732, 29.609929, 0.000915]; eigenvalues=[0.01394761, 0.00285859, 2.13e-06]; lengths_m=[0.310583, 0.172466, 0.010013]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=489
+[17:15:34]
+[17:15:34] #Debug Schritt 1 Kontaktregion CR_0053 (Paar 53/102): GUID_A=1soz90sYzCp8a2Do0djR8J; GUID_B=2q2CBrfQTCKPY0zxCdZyxq; centroid=[-22.849789, 29.602725, 0.000843]; eigenvalues=[0.01366284, 0.01301116, 2.2e-06]; lengths_m=[0.41173, 0.41173, 0.006466]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=811
+[17:15:34]
+[17:15:34] #Debug Schritt 1 Kontaktregion CR_0054 (Paar 54/102): GUID_A=1soz90sYzCp8a2Do0djRBF; GUID_B=2q2CBrfQTCKPY0zxCdZx0a; centroid=[-12.91105, 29.604256, 0.001084]; eigenvalues=[0.014175, 0.01347835, 2.44e-06]; lengths_m=[0.388545, 0.396153, 0.005065]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=872
+[17:15:34]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0055 (Paar 55/102): GUID_A=1soz90sYzCp8a2Do0djRBF; GUID_B=2q2CBrfQTCKPY0zxCdZx69; centroid=[-18.902224, 24.976709, 0.000556]; eigenvalues=[0.03912576, 0.00253851, 1.28e-06]; lengths_m=[0.607967, 0.186, 0.007361]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=806
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0056 (Paar 56/102): GUID_A=1soz90sYzCp8a2Do0djRBF; GUID_B=2q2CBrfQTCKPY0zxCdZxL2; centroid=[-4.13748, 24.893361, 0.000999]; eigenvalues=[0.01380251, 0.01367848, 2.54e-06]; lengths_m=[0.422217, 0.422217, 0.010007]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=916
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0057 (Paar 57/102): GUID_A=1soz90sYzCp8a2Do0djRBF; GUID_B=2q2CBrfQTCKPY0zxCdZxLC; centroid=[-7.992964, 24.897923, 0.001086]; eigenvalues=[0.01422016, 0.01355029, 2.44e-06]; lengths_m=[0.409465, 0.409465, 0.005118]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=870
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0058 (Paar 58/102): GUID_A=1soz90sYzCp8a2Do0djRBF; GUID_B=2q2CBrfQTCKPY0zxCdZxLU; centroid=[-12.874569, 24.897844, 0.001097]; eigenvalues=[0.01427949, 0.01341249, 2.5e-06]; lengths_m=[0.396419, 0.396419, 0.009821]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=857
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0059 (Paar 59/102): GUID_A=1soz90sYzCp8a2Do0djRBF; GUID_B=2q2CBrfQTCKPY0zxCdZxRJ; centroid=[-4.139029, 29.608875, 0.000976]; eigenvalues=[0.01435164, 0.01342991, 2.64e-06]; lengths_m=[0.381606, 0.381606, 0.008972]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=915
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0060 (Paar 60/102): GUID_A=1soz90sYzCp8a2Do0djRBF; GUID_B=2q2CBrfQTCKPY0zxCdZxSj; centroid=[-7.993745, 29.606031, 0.00103]; eigenvalues=[0.01428335, 0.01336943, 2.65e-06]; lengths_m=[0.38311, 0.38311, 0.00988]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=883
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0061 (Paar 61/102): GUID_A=1soz90sYzCp8a2Do0djRBF; GUID_B=2q2CBrfQTCKPY0zxCdZyuE; centroid=[-18.896214, 29.60686, 0.000894]; eigenvalues=[0.01369639, 0.00280061, 2.05e-06]; lengths_m=[0.301711, 0.153431, 0.008336]; contact_method=Oberfläche; contact_type=2D_Fläche; volume_m3=0.000000; point_count=495
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0062 (Paar 62/102): GUID_A=20LeAmtxjFagTYkRE7cuv0; GUID_B=2q2CBrfQTCKPY0zxCdZx6J; centroid=[-22.744044, 20.75315, 4.3]; eigenvalues=[0.02999074, 0.00331913, 0.00082095]; lengths_m=[0.586667, 0.186667, 0.087526]; contact_method=Volumen; contact_type=2D_Fläche; volume_m3=0.012004; point_count=5400
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0063 (Paar 63/102): GUID_A=20LeAmtxjFagTYkRE7cuv0; GUID_B=2q2CBrfQTCKPY0zxCdZx6K; centroid=[-19.244059, 20.75315, 4.3]; eigenvalues=[0.02999074, 0.00331913, 0.00082046]; lengths_m=[0.586667, 0.186667, 0.0875]; contact_method=Volumen; contact_type=2D_Fläche; volume_m3=0.012000; point_count=5400
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0064 (Paar 64/102): GUID_A=20LeAmtxjFagTYkRE7cuv0; GUID_B=2q2CBrfQTCKPY0zxCdZx6U; centroid=[-22.744044, 15.75315, 4.3]; eigenvalues=[0.02999074, 0.00331913, 0.00082095]; lengths_m=[0.586667, 0.186667, 0.087526]; contact_method=Volumen; contact_type=2D_Fläche; volume_m3=0.012004; point_count=5400
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0065 (Paar 65/102): GUID_A=20LeAmtxjFagTYkRE7cuv0; GUID_B=2q2CBrfQTCKPY0zxCdZx6V; centroid=[-19.244059, 15.75315, 4.3]; eigenvalues=[0.02999074, 0.00331913, 0.00082046]; lengths_m=[0.586667, 0.186667, 0.0875]; contact_method=Volumen; contact_type=2D_Fläche; volume_m3=0.012000; point_count=5400
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0066 (Paar 66/102): GUID_A=20LeAmtxjFagTYkRE7cuv0; GUID_B=2q2CBrfQTCKPY0zxCdZx6h; centroid=[-22.744044, 10.75315, 4.3]; eigenvalues=[0.02999074, 0.00331913, 0.00082095]; lengths_m=[0.586667, 0.186667, 0.087526]; contact_method=Volumen; contact_type=2D_Fläche; volume_m3=0.012004; point_count=5400
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0067 (Paar 67/102): GUID_A=20LeAmtxjFagTYkRE7cuv0; GUID_B=2q2CBrfQTCKPY0zxCdZx97; centroid=[-22.744044, 5.75315, 4.3]; eigenvalues=[0.02999074, 0.00331913, 0.00082095]; lengths_m=[0.586667, 0.186667, 0.087526]; contact_method=Volumen; contact_type=2D_Fläche; volume_m3=0.012004; point_count=5400
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0068 (Paar 68/102): GUID_A=20LeAmtxjFagTYkRE7cuv0; GUID_B=2q2CBrfQTCKPY0zxCdZxDw; centroid=[-19.244059, 0.75315, 4.3]; eigenvalues=[0.02999074, 0.00331913, 0.00082046]; lengths_m=[0.586667, 0.186667, 0.0875]; contact_method=Volumen; contact_type=2D_Fläche; volume_m3=0.012000; point_count=5400
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0069 (Paar 69/102): GUID_A=20LeAmtxjFagTYkRE7cuv0; GUID_B=2q2CBrfQTCKPY0zxCdZxEL; centroid=[-19.244059, 5.75315, 4.3]; eigenvalues=[0.02999074, 0.00331913, 0.00082046]; lengths_m=[0.586667, 0.186667, 0.0875]; contact_method=Volumen; contact_type=2D_Fläche; volume_m3=0.012000; point_count=5400
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0070 (Paar 70/102): GUID_A=20LeAmtxjFagTYkRE7cuv0; GUID_B=2q2CBrfQTCKPY0zxCdZyrD; centroid=[-22.744059, 0.75315, 4.3]; eigenvalues=[0.02999074, 0.00331913, 0.00082046]; lengths_m=[0.586667, 0.186667, 0.0875]; contact_method=Volumen; contact_type=2D_Fläche; volume_m3=0.012000; point_count=5400
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0071 (Paar 71/102): GUID_A=2q2CBrfQTCKPY0zxCdZx0a; GUID_B=3WTFZLIDfCSgicLndgDMGD; centroid=[-12.914059, 29.60315, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:35]
+[17:15:35] #Debug Schritt 1 Kontaktregion CR_0072 (Paar 72/102): GUID_A=2q2CBrfQTCKPY0zxCdZx0a; GUID_B=3WTFZLIDfCSgicLndgDPj2; centroid=[-12.914059, 29.60315, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.287877, 0.287877, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:35]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0073 (Paar 73/102): GUID_A=2q2CBrfQTCKPY0zxCdZx69; GUID_B=3WTFZLIDfCSgicLndgDMGD; centroid=[-18.919059, 25.05315, 13.1]; eigenvalues=[0.0299866, 0.00331692, 0.00185658]; lengths_m=[0.585, 0.185714, 0.135]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0074 (Paar 74/102): GUID_A=2q2CBrfQTCKPY0zxCdZx69; GUID_B=3WTFZLIDfCSgicLndgDPj2; centroid=[-18.994059, 25.05315, 4.3]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0075 (Paar 75/102): GUID_A=2q2CBrfQTCKPY0zxCdZxKQ; GUID_B=3HTqbtkjL0z8u5TicZt0ZR; centroid=[-12.904059, -9.09685, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0076 (Paar 76/102): GUID_A=2q2CBrfQTCKPY0zxCdZxKQ; GUID_B=3WTFZLIDfCSgicLndgDPrl; centroid=[-12.904059, -9.09685, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0077 (Paar 77/102): GUID_A=2q2CBrfQTCKPY0zxCdZxKg; GUID_B=3HTqbtkjL0z8u5TicZt0ZR; centroid=[-8.144059, -9.09685, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.28512, 0.28512, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0078 (Paar 78/102): GUID_A=2q2CBrfQTCKPY0zxCdZxKg; GUID_B=3WTFZLIDfCSgicLndgDPrl; centroid=[-8.144059, -9.09685, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0079 (Paar 79/102): GUID_A=2q2CBrfQTCKPY0zxCdZxKq; GUID_B=3HTqbtkjL0z8u5TicZt0ZR; centroid=[-4.144059, -9.09685, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0080 (Paar 80/102): GUID_A=2q2CBrfQTCKPY0zxCdZxKq; GUID_B=3WTFZLIDfCSgicLndgDPrl; centroid=[-4.144059, -9.09685, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285519, 0.285519, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0081 (Paar 81/102): GUID_A=2q2CBrfQTCKPY0zxCdZxL2; GUID_B=3WTFZLIDfCSgicLndgDMGD; centroid=[-4.144059, 24.90315, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0082 (Paar 82/102): GUID_A=2q2CBrfQTCKPY0zxCdZxL2; GUID_B=3WTFZLIDfCSgicLndgDPj2; centroid=[-4.144059, 24.90315, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0083 (Paar 83/102): GUID_A=2q2CBrfQTCKPY0zxCdZxLC; GUID_B=3WTFZLIDfCSgicLndgDMGD; centroid=[-7.994059, 24.90315, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285112, 0.285112, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0084 (Paar 84/102): GUID_A=2q2CBrfQTCKPY0zxCdZxLC; GUID_B=3WTFZLIDfCSgicLndgDPj2; centroid=[-7.994059, 24.90315, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.286812, 0.286812, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0085 (Paar 85/102): GUID_A=2q2CBrfQTCKPY0zxCdZxLU; GUID_B=3WTFZLIDfCSgicLndgDMGD; centroid=[-12.874059, 24.90315, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285117, 0.285117, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0086 (Paar 86/102): GUID_A=2q2CBrfQTCKPY0zxCdZxLU; GUID_B=3WTFZLIDfCSgicLndgDPj2; centroid=[-12.874059, 24.90315, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.287953, 0.287953, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0087 (Paar 87/102): GUID_A=2q2CBrfQTCKPY0zxCdZxNL; GUID_B=3HTqbtkjL0z8u5TicZt0ZR; centroid=[-4.144059, -4.39685, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0088 (Paar 88/102): GUID_A=2q2CBrfQTCKPY0zxCdZxNL; GUID_B=3WTFZLIDfCSgicLndgDPrl; centroid=[-4.144059, -4.39685, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285194, 0.285194, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0089 (Paar 89/102): GUID_A=2q2CBrfQTCKPY0zxCdZxNZ; GUID_B=3HTqbtkjL0z8u5TicZt0ZR; centroid=[-8.144059, -4.39685, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0090 (Paar 90/102): GUID_A=2q2CBrfQTCKPY0zxCdZxNZ; GUID_B=3WTFZLIDfCSgicLndgDPrl; centroid=[-8.144059, -4.39685, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0091 (Paar 91/102): GUID_A=2q2CBrfQTCKPY0zxCdZxNl; GUID_B=3HTqbtkjL0z8u5TicZt0ZR; centroid=[-12.894059, -4.39685, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0092 (Paar 92/102): GUID_A=2q2CBrfQTCKPY0zxCdZxNl; GUID_B=3WTFZLIDfCSgicLndgDPrl; centroid=[-12.894059, -4.39685, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.299228, 0.299228, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0093 (Paar 93/102): GUID_A=2q2CBrfQTCKPY0zxCdZxRJ; GUID_B=3WTFZLIDfCSgicLndgDMGD; centroid=[-4.144059, 29.60315, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285466, 0.285466, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0094 (Paar 94/102): GUID_A=2q2CBrfQTCKPY0zxCdZxRJ; GUID_B=3WTFZLIDfCSgicLndgDPj2; centroid=[-4.144059, 29.60315, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0095 (Paar 95/102): GUID_A=2q2CBrfQTCKPY0zxCdZxSj; GUID_B=3WTFZLIDfCSgicLndgDMGD; centroid=[-7.994059, 29.60315, 13.1]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.285, 0.285, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0096 (Paar 96/102): GUID_A=2q2CBrfQTCKPY0zxCdZxSj; GUID_B=3WTFZLIDfCSgicLndgDPj2; centroid=[-7.994059, 29.60315, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.286237, 0.286237, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0097 (Paar 97/102): GUID_A=2q2CBrfQTCKPY0zxCdZyWE; GUID_B=3HTqbtkjL0z8u5TicZt0ZR; centroid=[-18.919059, -9.09685, 13.1]; eigenvalues=[0.00748936, 0.0033224, 0.00186424]; lengths_m=[0.288, 0.188235, 0.138462]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.009000; point_count=5525
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0098 (Paar 98/102): GUID_A=2q2CBrfQTCKPY0zxCdZyWE; GUID_B=3WTFZLIDfCSgicLndgDPrl; centroid=[-18.994059, -9.09685, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.286606, 0.286606, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0099 (Paar 99/102): GUID_A=2q2CBrfQTCKPY0zxCdZynE; GUID_B=3HTqbtkjL0z8u5TicZt0ZR; centroid=[-18.919059, -4.54685, 13.1]; eigenvalues=[0.0299866, 0.00331692, 0.00185658]; lengths_m=[0.585, 0.185714, 0.135]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0100 (Paar 100/102): GUID_A=2q2CBrfQTCKPY0zxCdZynE; GUID_B=3WTFZLIDfCSgicLndgDPrl; centroid=[-18.994059, -4.54685, 4.3]; eigenvalues=[0.02997603, 0.00747203, 0.00330637]; lengths_m=[0.58125, 0.28125, 0.181818]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.036000; point_count=5632
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0101 (Paar 101/102): GUID_A=2q2CBrfQTCKPY0zxCdZyuE; GUID_B=3WTFZLIDfCSgicLndgDMGD; centroid=[-18.919059, 29.60315, 13.1]; eigenvalues=[0.00748936, 0.0033224, 0.00186424]; lengths_m=[0.288, 0.188235, 0.138462]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.009000; point_count=5525
+[17:15:36]
+[17:15:36] #Debug Schritt 1 Kontaktregion CR_0102 (Paar 102/102): GUID_A=2q2CBrfQTCKPY0zxCdZyuE; GUID_B=3WTFZLIDfCSgicLndgDPj2; centroid=[-18.994059, 29.60315, 4.3]; eigenvalues=[0.00748259, 0.00748259, 0.00331692]; lengths_m=[0.295629, 0.295629, 0.185714]; contact_method=Volumen; contact_type=3D_Volumen; volume_m3=0.018000; point_count=5600
+[17:15:36]
+[17:15:36] 1.A Schritt 1: 102 Kontaktregionen gefunden.
+[17:15:36] #Debug Schritt 1 Zusammenfassung: GT-Paare=102; Kontaktregionen=102; ohne Region=0; Verteilung_contact_type={'3D_Volumen': 58, '1D_Linie': 2, '2D_Fläche': 42}; fehlende_Paare=[]
+[17:15:36] #Debug Uebergabe an Schritt 2: contact_regions=['CR_0001', 'CR_0002', 'CR_0003', 'CR_0004', 'CR_0005', 'CR_0006', 'CR_0007', 'CR_0008', 'CR_0009', 'CR_0010', 'CR_0011', 'CR_0012', 'CR_0013', 'CR_0014', 'CR_0015', 'CR_0016', 'CR_0017', 'CR_0018', 'CR_0019', 'CR_0020', 'CR_0021', 'CR_0022', 'CR_0023', 'CR_0024', 'CR_0025', 'CR_0026', 'CR_0027', 'CR_0028', 'CR_0029', 'CR_0030', 'CR_0031', 'CR_0032', 'CR_0033', 'CR_0034', 'CR_0035', 'CR_0036', 'CR_0037', 'CR_0038', 'CR_0039', 'CR_0040', 'CR_0041', 'CR_0042', 'CR_0043', 'CR_0044', 'CR_0045', 'CR_0046', 'CR_0047', 'CR_0048', 'CR_0049', 'CR_0050', 'CR_0051', 'CR_0052', 'CR_0053', 'CR_0054', 'CR_0055', 'CR_0056', 'CR_0057', 'CR_0058', 'CR_0059', 'CR_0060', 'CR_0061', 'CR_0062', 'CR_0063', 'CR_0064', 'CR_0065', 'CR_0066', 'CR_0067', 'CR_0068', 'CR_0069', 'CR_0070', 'CR_0071', 'CR_0072', 'CR_0073', 'CR_0074', 'CR_0075', 'CR_0076', 'CR_0077', 'CR_0078', 'CR_0079', 'CR_0080', 'CR_0081', 'CR_0082', 'CR_0083', 'CR_0084', 'CR_0085', 'CR_0086', 'CR_0087', 'CR_0088', 'CR_0089', 'CR_0090', 'CR_0091', 'CR_0092', 'CR_0093', 'CR_0094', 'CR_0095', 'CR_0096', 'CR_0097', 'CR_0098', 'CR_0099', 'CR_0100', 'CR_0101', 'CR_0102']
+[17:15:36] #Debug Schritt 2.1: 102 Regionen -> 112 Knoten (12 Teilstücke, JOINT_SEGMENT_LENGTH=1.0 m)
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0027.01 (0KRl17GSJHmnKkLTFQXJl7|1soz90sYzCp8a2Do0djR8J) <-> CR_0034 (0KRl17GSJHmnKkLTFQXJl7|2q2CBrfQTCKPY0zxCdZyWE); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.000000 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0027.01 (0KRl17GSJHmnKkLTFQXJl7|1soz90sYzCp8a2Do0djR8J) <-> CR_0047 (1soz90sYzCp8a2Do0djR8J|2q2CBrfQTCKPY0zxCdZyWE); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.000000 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0027.05 (0KRl17GSJHmnKkLTFQXJl7|1soz90sYzCp8a2Do0djR8J) <-> CR_0035 (0KRl17GSJHmnKkLTFQXJl7|2q2CBrfQTCKPY0zxCdZynE); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.238340 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0027.05 (0KRl17GSJHmnKkLTFQXJl7|1soz90sYzCp8a2Do0djR8J) <-> CR_0049 (1soz90sYzCp8a2Do0djR8J|2q2CBrfQTCKPY0zxCdZynE); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.238340 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0027.06 (0KRl17GSJHmnKkLTFQXJl7|1soz90sYzCp8a2Do0djR8J) <-> CR_0035 (0KRl17GSJHmnKkLTFQXJl7|2q2CBrfQTCKPY0zxCdZynE); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.000000 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0027.06 (0KRl17GSJHmnKkLTFQXJl7|1soz90sYzCp8a2Do0djR8J) <-> CR_0049 (1soz90sYzCp8a2Do0djR8J|2q2CBrfQTCKPY0zxCdZynE); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.000000 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0034 (0KRl17GSJHmnKkLTFQXJl7|2q2CBrfQTCKPY0zxCdZyWE) <-> CR_0047 (1soz90sYzCp8a2Do0djR8J|2q2CBrfQTCKPY0zxCdZyWE); Kriterium=d_H; Abstand=0.153099 m; t1=0.300000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=True
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0035 (0KRl17GSJHmnKkLTFQXJl7|2q2CBrfQTCKPY0zxCdZynE) <-> CR_0049 (1soz90sYzCp8a2Do0djR8J|2q2CBrfQTCKPY0zxCdZynE); Kriterium=d_H; Abstand=0.153866 m; t1=0.300000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=True
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0036.01 (1soz90sYzCp8a2Do0djR8J|1soz90sYzCp8a2Do0djRBF) <-> CR_0052 (1soz90sYzCp8a2Do0djR8J|2q2CBrfQTCKPY0zxCdZyuE); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.000000 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0036.01 (1soz90sYzCp8a2Do0djR8J|1soz90sYzCp8a2Do0djRBF) <-> CR_0061 (1soz90sYzCp8a2Do0djRBF|2q2CBrfQTCKPY0zxCdZyuE); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.000000 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0036.05 (1soz90sYzCp8a2Do0djR8J|1soz90sYzCp8a2Do0djRBF) <-> CR_0038 (1soz90sYzCp8a2Do0djR8J|2q2CBrfQTCKPY0zxCdZx69); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.243339 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0036.05 (1soz90sYzCp8a2Do0djR8J|1soz90sYzCp8a2Do0djRBF) <-> CR_0055 (1soz90sYzCp8a2Do0djRBF|2q2CBrfQTCKPY0zxCdZx69); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.246302 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0036.06 (1soz90sYzCp8a2Do0djR8J|1soz90sYzCp8a2Do0djRBF) <-> CR_0038 (1soz90sYzCp8a2Do0djR8J|2q2CBrfQTCKPY0zxCdZx69); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.000000 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0036.06 (1soz90sYzCp8a2Do0djR8J|1soz90sYzCp8a2Do0djRBF) <-> CR_0055 (1soz90sYzCp8a2Do0djRBF|2q2CBrfQTCKPY0zxCdZx69); Kriterium=d_min (nur nächste kompakte Region); Abstand=0.000000 m; t1=0.200000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=Kandidat
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0038 (1soz90sYzCp8a2Do0djR8J|2q2CBrfQTCKPY0zxCdZx69) <-> CR_0055 (1soz90sYzCp8a2Do0djRBF|2q2CBrfQTCKPY0zxCdZx69); Kriterium=d_H; Abstand=0.154143 m; t1=0.300000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=True
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Vergleich: CR_0052 (1soz90sYzCp8a2Do0djR8J|2q2CBrfQTCKPY0zxCdZyuE) <-> CR_0061 (1soz90sYzCp8a2Do0djRBF|2q2CBrfQTCKPY0zxCdZyuE); Kriterium=d_H; Abstand=0.150532 m; t1=0.300000 m; t2=0.300000 m; delta=0.315000 m; zusammenfuehren=True
+[17:15:36] #Debug Schritt 2.2 Verbindung Teilstück CR_0027.01 -> nächste kompakte Region CR_0034; d_min=0.000000 m
+[17:15:36] #Debug Schritt 2.2 Verbindung Teilstück CR_0027.05 -> nächste kompakte Region CR_0035; d_min=0.238340 m
+[17:15:36] #Debug Schritt 2.2 Verbindung Teilstück CR_0027.06 -> nächste kompakte Region CR_0035; d_min=0.000000 m
+[17:15:36] #Debug Schritt 2.2 Verbindung Teilstück CR_0036.01 -> nächste kompakte Region CR_0052; d_min=0.000000 m
+[17:15:36] #Debug Schritt 2.2 Verbindung Teilstück CR_0036.05 -> nächste kompakte Region CR_0038; d_min=0.243339 m
+[17:15:36] #Debug Schritt 2.2 Verbindung Teilstück CR_0036.06 -> nächste kompakte Region CR_0038; d_min=0.000000 m
+[17:15:36]
+[17:15:36] #Debug Schritt 2.2: 6216 mögliche Paare; mit AABB-Abstand <= delta geprüft: 16; Kanten: 10
+[17:15:36]
+[17:15:36] #Debug Schritt 2.4 Teilstück verworfen (Region CR_0027 ist bereits in einem Joint): part_ids=['CR_0027.02']
+[17:15:36] #Debug Schritt 2.4 Teilstück verworfen (Region CR_0027 ist bereits in einem Joint): part_ids=['CR_0027.03']
+[17:15:36] #Debug Schritt 2.4 Teilstück verworfen (Region CR_0027 ist bereits in einem Joint): part_ids=['CR_0027.04']
+[17:15:36] #Debug Schritt 2.4 Teilstück verworfen (Region CR_0036 ist bereits in einem Joint): part_ids=['CR_0036.02']
+[17:15:36] #Debug Schritt 2.4 Teilstück verworfen (Region CR_0036 ist bereits in einem Joint): part_ids=['CR_0036.03']
+[17:15:36] #Debug Schritt 2.4 Teilstück verworfen (Region CR_0036 ist bereits in einem Joint): part_ids=['CR_0036.04']
+[17:15:36]
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0001: contact_regions=['CR_0001']; part_ids=['CR_0001']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxKQ']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0002: contact_regions=['CR_0002']; part_ids=['CR_0002']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxKg']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0003: contact_regions=['CR_0003']; part_ids=['CR_0003']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxKq']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0004: contact_regions=['CR_0004']; part_ids=['CR_0004']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxNL']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0005: contact_regions=['CR_0005']; part_ids=['CR_0005']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxNZ']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0006: contact_regions=['CR_0006']; part_ids=['CR_0006']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxNl']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0007: contact_regions=['CR_0007']; part_ids=['CR_0007']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZyWE']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0008: contact_regions=['CR_0008']; part_ids=['CR_0008']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZynE']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0009: contact_regions=['CR_0009']; part_ids=['CR_0009']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZx0a']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0010: contact_regions=['CR_0010']; part_ids=['CR_0010']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZx69']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0011: contact_regions=['CR_0011']; part_ids=['CR_0011']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxL2']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0012: contact_regions=['CR_0012']; part_ids=['CR_0012']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxLC']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0013: contact_regions=['CR_0013']; part_ids=['CR_0013']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxLU']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0014: contact_regions=['CR_0014']; part_ids=['CR_0014']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxRJ']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0015: contact_regions=['CR_0015']; part_ids=['CR_0015']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxSj']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0016: contact_regions=['CR_0016']; part_ids=['CR_0016']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZyuE']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0017: contact_regions=['CR_0017']; part_ids=['CR_0017']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6J']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0018: contact_regions=['CR_0018']; part_ids=['CR_0018']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6K']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0019: contact_regions=['CR_0019']; part_ids=['CR_0019']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6U']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0020: contact_regions=['CR_0020']; part_ids=['CR_0020']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6V']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0021: contact_regions=['CR_0021']; part_ids=['CR_0021']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6h']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0022: contact_regions=['CR_0022']; part_ids=['CR_0022']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx97']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0023: contact_regions=['CR_0023']; part_ids=['CR_0023']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZxDw']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0024: contact_regions=['CR_0024']; part_ids=['CR_0024']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZxEL']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0025: contact_regions=['CR_0025']; part_ids=['CR_0025']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZyrD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0026: contact_regions=['CR_0026']; part_ids=['CR_0026']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZysk']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0027: contact_regions=['CR_0027', 'CR_0034', 'CR_0047']; part_ids=['CR_0027.01', 'CR_0034', 'CR_0047']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyWE']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0028: contact_regions=['CR_0027', 'CR_0035', 'CR_0049']; part_ids=['CR_0027.05', 'CR_0027.06', 'CR_0035', 'CR_0049']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZynE']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0029: contact_regions=['CR_0028']; part_ids=['CR_0028']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxKQ']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0030: contact_regions=['CR_0029']; part_ids=['CR_0029']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxKg']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0031: contact_regions=['CR_0030']; part_ids=['CR_0030']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxKq']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0032: contact_regions=['CR_0031']; part_ids=['CR_0031']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxNL']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0033: contact_regions=['CR_0032']; part_ids=['CR_0032']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxNZ']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0034: contact_regions=['CR_0033']; part_ids=['CR_0033']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxNl']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0035: contact_regions=['CR_0036', 'CR_0052', 'CR_0061']; part_ids=['CR_0036.01', 'CR_0052', 'CR_0061']; member_guids=['1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZyuE']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0036: contact_regions=['CR_0036', 'CR_0038', 'CR_0055']; part_ids=['CR_0036.05', 'CR_0036.06', 'CR_0038', 'CR_0055']; member_guids=['1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZx69']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0037: contact_regions=['CR_0037']; part_ids=['CR_0037']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx68']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0038: contact_regions=['CR_0039']; part_ids=['CR_0039']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6J']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0039: contact_regions=['CR_0040']; part_ids=['CR_0040']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6K']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0040: contact_regions=['CR_0041']; part_ids=['CR_0041']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6U']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0041: contact_regions=['CR_0042']; part_ids=['CR_0042']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6V']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0042: contact_regions=['CR_0043']; part_ids=['CR_0043']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6h']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0043: contact_regions=['CR_0044']; part_ids=['CR_0044']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx97']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0044: contact_regions=['CR_0045']; part_ids=['CR_0045']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZxDw']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0045: contact_regions=['CR_0046']; part_ids=['CR_0046']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZxEL']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0046: contact_regions=['CR_0048']; part_ids=['CR_0048']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZygb']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0047: contact_regions=['CR_0050']; part_ids=['CR_0050']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyrD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0048: contact_regions=['CR_0051']; part_ids=['CR_0051']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZysk']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0049: contact_regions=['CR_0053']; part_ids=['CR_0053']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyxq']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0050: contact_regions=['CR_0054']; part_ids=['CR_0054']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZx0a']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0051: contact_regions=['CR_0056']; part_ids=['CR_0056']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxL2']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0052: contact_regions=['CR_0057']; part_ids=['CR_0057']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxLC']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0053: contact_regions=['CR_0058']; part_ids=['CR_0058']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxLU']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0054: contact_regions=['CR_0059']; part_ids=['CR_0059']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxRJ']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0055: contact_regions=['CR_0060']; part_ids=['CR_0060']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxSj']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0056: contact_regions=['CR_0062']; part_ids=['CR_0062']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6J']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0057: contact_regions=['CR_0063']; part_ids=['CR_0063']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6K']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0058: contact_regions=['CR_0064']; part_ids=['CR_0064']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6U']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0059: contact_regions=['CR_0065']; part_ids=['CR_0065']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6V']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0060: contact_regions=['CR_0066']; part_ids=['CR_0066']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6h']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0061: contact_regions=['CR_0067']; part_ids=['CR_0067']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx97']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0062: contact_regions=['CR_0068']; part_ids=['CR_0068']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZxDw']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0063: contact_regions=['CR_0069']; part_ids=['CR_0069']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZxEL']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0064: contact_regions=['CR_0070']; part_ids=['CR_0070']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZyrD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0065: contact_regions=['CR_0071']; part_ids=['CR_0071']; member_guids=['2q2CBrfQTCKPY0zxCdZx0a', '3WTFZLIDfCSgicLndgDMGD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0066: contact_regions=['CR_0072']; part_ids=['CR_0072']; member_guids=['2q2CBrfQTCKPY0zxCdZx0a', '3WTFZLIDfCSgicLndgDPj2']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0067: contact_regions=['CR_0073']; part_ids=['CR_0073']; member_guids=['2q2CBrfQTCKPY0zxCdZx69', '3WTFZLIDfCSgicLndgDMGD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0068: contact_regions=['CR_0074']; part_ids=['CR_0074']; member_guids=['2q2CBrfQTCKPY0zxCdZx69', '3WTFZLIDfCSgicLndgDPj2']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0069: contact_regions=['CR_0075']; part_ids=['CR_0075']; member_guids=['2q2CBrfQTCKPY0zxCdZxKQ', '3HTqbtkjL0z8u5TicZt0ZR']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0070: contact_regions=['CR_0076']; part_ids=['CR_0076']; member_guids=['2q2CBrfQTCKPY0zxCdZxKQ', '3WTFZLIDfCSgicLndgDPrl']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0071: contact_regions=['CR_0077']; part_ids=['CR_0077']; member_guids=['2q2CBrfQTCKPY0zxCdZxKg', '3HTqbtkjL0z8u5TicZt0ZR']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0072: contact_regions=['CR_0078']; part_ids=['CR_0078']; member_guids=['2q2CBrfQTCKPY0zxCdZxKg', '3WTFZLIDfCSgicLndgDPrl']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0073: contact_regions=['CR_0079']; part_ids=['CR_0079']; member_guids=['2q2CBrfQTCKPY0zxCdZxKq', '3HTqbtkjL0z8u5TicZt0ZR']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0074: contact_regions=['CR_0080']; part_ids=['CR_0080']; member_guids=['2q2CBrfQTCKPY0zxCdZxKq', '3WTFZLIDfCSgicLndgDPrl']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0075: contact_regions=['CR_0081']; part_ids=['CR_0081']; member_guids=['2q2CBrfQTCKPY0zxCdZxL2', '3WTFZLIDfCSgicLndgDMGD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0076: contact_regions=['CR_0082']; part_ids=['CR_0082']; member_guids=['2q2CBrfQTCKPY0zxCdZxL2', '3WTFZLIDfCSgicLndgDPj2']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0077: contact_regions=['CR_0083']; part_ids=['CR_0083']; member_guids=['2q2CBrfQTCKPY0zxCdZxLC', '3WTFZLIDfCSgicLndgDMGD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0078: contact_regions=['CR_0084']; part_ids=['CR_0084']; member_guids=['2q2CBrfQTCKPY0zxCdZxLC', '3WTFZLIDfCSgicLndgDPj2']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0079: contact_regions=['CR_0085']; part_ids=['CR_0085']; member_guids=['2q2CBrfQTCKPY0zxCdZxLU', '3WTFZLIDfCSgicLndgDMGD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0080: contact_regions=['CR_0086']; part_ids=['CR_0086']; member_guids=['2q2CBrfQTCKPY0zxCdZxLU', '3WTFZLIDfCSgicLndgDPj2']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0081: contact_regions=['CR_0087']; part_ids=['CR_0087']; member_guids=['2q2CBrfQTCKPY0zxCdZxNL', '3HTqbtkjL0z8u5TicZt0ZR']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0082: contact_regions=['CR_0088']; part_ids=['CR_0088']; member_guids=['2q2CBrfQTCKPY0zxCdZxNL', '3WTFZLIDfCSgicLndgDPrl']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0083: contact_regions=['CR_0089']; part_ids=['CR_0089']; member_guids=['2q2CBrfQTCKPY0zxCdZxNZ', '3HTqbtkjL0z8u5TicZt0ZR']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0084: contact_regions=['CR_0090']; part_ids=['CR_0090']; member_guids=['2q2CBrfQTCKPY0zxCdZxNZ', '3WTFZLIDfCSgicLndgDPrl']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0085: contact_regions=['CR_0091']; part_ids=['CR_0091']; member_guids=['2q2CBrfQTCKPY0zxCdZxNl', '3HTqbtkjL0z8u5TicZt0ZR']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0086: contact_regions=['CR_0092']; part_ids=['CR_0092']; member_guids=['2q2CBrfQTCKPY0zxCdZxNl', '3WTFZLIDfCSgicLndgDPrl']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0087: contact_regions=['CR_0093']; part_ids=['CR_0093']; member_guids=['2q2CBrfQTCKPY0zxCdZxRJ', '3WTFZLIDfCSgicLndgDMGD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0088: contact_regions=['CR_0094']; part_ids=['CR_0094']; member_guids=['2q2CBrfQTCKPY0zxCdZxRJ', '3WTFZLIDfCSgicLndgDPj2']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0089: contact_regions=['CR_0095']; part_ids=['CR_0095']; member_guids=['2q2CBrfQTCKPY0zxCdZxSj', '3WTFZLIDfCSgicLndgDMGD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0090: contact_regions=['CR_0096']; part_ids=['CR_0096']; member_guids=['2q2CBrfQTCKPY0zxCdZxSj', '3WTFZLIDfCSgicLndgDPj2']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0091: contact_regions=['CR_0097']; part_ids=['CR_0097']; member_guids=['2q2CBrfQTCKPY0zxCdZyWE', '3HTqbtkjL0z8u5TicZt0ZR']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0092: contact_regions=['CR_0098']; part_ids=['CR_0098']; member_guids=['2q2CBrfQTCKPY0zxCdZyWE', '3WTFZLIDfCSgicLndgDPrl']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0093: contact_regions=['CR_0099']; part_ids=['CR_0099']; member_guids=['2q2CBrfQTCKPY0zxCdZynE', '3HTqbtkjL0z8u5TicZt0ZR']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0094: contact_regions=['CR_0100']; part_ids=['CR_0100']; member_guids=['2q2CBrfQTCKPY0zxCdZynE', '3WTFZLIDfCSgicLndgDPrl']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0095: contact_regions=['CR_0101']; part_ids=['CR_0101']; member_guids=['2q2CBrfQTCKPY0zxCdZyuE', '3WTFZLIDfCSgicLndgDMGD']
+[17:15:36]
+[17:15:36] #Debug Schritt 2 Cluster J0096: contact_regions=['CR_0102']; part_ids=['CR_0102']; member_guids=['2q2CBrfQTCKPY0zxCdZyuE', '3WTFZLIDfCSgicLndgDPj2']
+[17:15:36]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0001: position=[-12.9041, -9.0969, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0001']; contact_part_ids=['CR_0001']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxKQ']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxKQ')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0002: position=[-8.1441, -9.0969, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0002']; contact_part_ids=['CR_0002']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxKg']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxKg')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0003: position=[-4.1441, -9.0969, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0003']; contact_part_ids=['CR_0003']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxKq']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxKq')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0004: position=[-4.1441, -4.3969, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0004']; contact_part_ids=['CR_0004']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxNL']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxNL')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0005: position=[-8.1441, -4.3969, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0005']; contact_part_ids=['CR_0005']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxNZ']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxNZ')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0006: position=[-12.8941, -4.3969, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0006']; contact_part_ids=['CR_0006']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxNl']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZxNl')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0007: position=[-18.9941, -9.0969, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0007']; contact_part_ids=['CR_0007']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZyWE']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZyWE')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0008: position=[-18.9941, -4.5469, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0008']; contact_part_ids=['CR_0008']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZynE']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZynE')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0009: position=[-12.9141, 29.6031, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0009']; contact_part_ids=['CR_0009']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZx0a']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZx0a')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0010: position=[-18.9941, 25.0531, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0010']; contact_part_ids=['CR_0010']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZx69']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZx69')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0011: position=[-4.1497, 24.9031, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0011']; contact_part_ids=['CR_0011']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxL2']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxL2')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0012: position=[-7.9941, 24.9031, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0012']; contact_part_ids=['CR_0012']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxLC']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxLC')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0013: position=[-12.8741, 24.9031, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0013']; contact_part_ids=['CR_0013']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxLU']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxLU')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0014: position=[-4.1497, 29.6031, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0014']; contact_part_ids=['CR_0014']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxRJ']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxRJ')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0015: position=[-7.9941, 29.6031, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0015']; contact_part_ids=['CR_0015']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxSj']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZxSj')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0016: position=[-18.9941, 29.6031, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0016']; contact_part_ids=['CR_0016']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZyuE']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZyuE')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0017: position=[-22.844, 20.7531, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0017']; contact_part_ids=['CR_0017']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6J']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6J')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0018: position=[-19.1441, 20.7531, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0018']; contact_part_ids=['CR_0018']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6K']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6K')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0019: position=[-22.844, 15.7531, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0019']; contact_part_ids=['CR_0019']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6U']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6U')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0020: position=[-19.1441, 15.7531, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0020']; contact_part_ids=['CR_0020']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6V']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6V')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0021: position=[-22.844, 10.7531, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0021']; contact_part_ids=['CR_0021']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6h']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx6h')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0022: position=[-22.844, 5.7531, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0022']; contact_part_ids=['CR_0022']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx97']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZx97')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0023: position=[-19.1441, 0.7531, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0023']; contact_part_ids=['CR_0023']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZxDw']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZxDw')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0024: position=[-19.1441, 5.7531, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0024']; contact_part_ids=['CR_0024']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZxEL']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZxEL')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0025: position=[-22.8441, 0.7531, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0025']; contact_part_ids=['CR_0025']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZyrD']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZyrD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0026: position=[-22.8441, -4.0969, 8.7]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0026']; contact_part_ids=['CR_0026']; member_guids=['04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZysk']; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X6i', '2q2CBrfQTCKPY0zxCdZysk')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0027: position=[-18.992, -9.0187, -0.0303]; geometry_type=3D_Volumen; Anzahl_Elements=3; contact_region_ids=['CR_0027', 'CR_0034', 'CR_0047']; contact_part_ids=['CR_0027.01', 'CR_0034', 'CR_0047']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyWE']; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J'), ('0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZyWE'), ('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyWE')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0028: position=[-18.9937, -4.8112, -0.0419]; geometry_type=1D_Linie; Anzahl_Elements=3; contact_region_ids=['CR_0027', 'CR_0035', 'CR_0049']; contact_part_ids=['CR_0027.05', 'CR_0027.06', 'CR_0035', 'CR_0049']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZynE']; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J'), ('0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZynE'), ('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZynE')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0029: position=[-12.9035, -9.1022, 0.0011]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0028']; contact_part_ids=['CR_0028']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxKQ']; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxKQ')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0030: position=[-8.1426, -9.1018, 0.0011]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0029']; contact_part_ids=['CR_0029']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxKg']; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxKg')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0031: position=[-4.1373, -9.1063, 0.001]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0030']; contact_part_ids=['CR_0030']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxKq']; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxKq')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0032: position=[-4.1388, -4.3911, 0.001]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0031']; contact_part_ids=['CR_0031']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxNL']; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxNL')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0033: position=[-8.1418, -4.3948, 0.001]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0032']; contact_part_ids=['CR_0032']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxNZ']; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxNZ')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0034: position=[-12.8941, -4.3956, 0.0011]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0033']; contact_part_ids=['CR_0033']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxNl']; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZxNl')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0035: position=[-18.9933, 29.5247, -0.0314]; geometry_type=3D_Volumen; Anzahl_Elements=3; contact_region_ids=['CR_0036', 'CR_0052', 'CR_0061']; contact_part_ids=['CR_0036.01', 'CR_0052', 'CR_0061']; member_guids=['1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZyuE']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF'), ('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyuE'), ('1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZyuE')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0036: position=[-18.9928, 25.3117, -0.0496]; geometry_type=1D_Linie; Anzahl_Elements=3; contact_region_ids=['CR_0036', 'CR_0038', 'CR_0055']; contact_part_ids=['CR_0036.05', 'CR_0036.06', 'CR_0038', 'CR_0055']; member_guids=['1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZx69']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF'), ('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx69'), ('1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZx69')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0037: position=[-22.8394, 25.7374, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0037']; contact_part_ids=['CR_0037']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx68']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx68')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0038: position=[-22.8394, 20.7374, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0039']; contact_part_ids=['CR_0039']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6J']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6J')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0039: position=[-19.1294, 20.7378, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0040']; contact_part_ids=['CR_0040']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6K']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6K')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0040: position=[-22.8399, 15.7371, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0041']; contact_part_ids=['CR_0041']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6U']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6U')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0041: position=[-19.1293, 15.7361, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0042']; contact_part_ids=['CR_0042']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6V']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6V')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0042: position=[-22.8394, 10.7374, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0043']; contact_part_ids=['CR_0043']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6h']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx6h')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0043: position=[-22.8399, 5.7371, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0044']; contact_part_ids=['CR_0044']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx97']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx97')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0044: position=[-19.129, 0.7391, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0045']; contact_part_ids=['CR_0045']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZxDw']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZxDw')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0045: position=[-19.1293, 5.7379, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0046']; contact_part_ids=['CR_0046']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZxEL']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZxEL')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0046: position=[-22.8498, -9.1046, 0.0008]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0048']; contact_part_ids=['CR_0048']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZygb']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZygb')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0047: position=[-22.8396, 0.737, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0050']; contact_part_ids=['CR_0050']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyrD']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyrD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0048: position=[-22.8408, -4.2641, 0.0005]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0051']; contact_part_ids=['CR_0051']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZysk']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZysk')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0049: position=[-22.8498, 29.6027, 0.0008]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0053']; contact_part_ids=['CR_0053']; member_guids=['1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyxq']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyxq')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0050: position=[-12.9111, 29.6043, 0.0011]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0054']; contact_part_ids=['CR_0054']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZx0a']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZx0a')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0051: position=[-4.1375, 24.8934, 0.001]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0056']; contact_part_ids=['CR_0056']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxL2']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxL2')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0052: position=[-7.993, 24.8979, 0.0011]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0057']; contact_part_ids=['CR_0057']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxLC']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxLC')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0053: position=[-12.8746, 24.8978, 0.0011]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0058']; contact_part_ids=['CR_0058']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxLU']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxLU')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0054: position=[-4.139, 29.6089, 0.001]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0059']; contact_part_ids=['CR_0059']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxRJ']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxRJ')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0055: position=[-7.9937, 29.606, 0.001]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0060']; contact_part_ids=['CR_0060']; member_guids=['1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxSj']; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZxSj')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0056: position=[-22.744, 20.7531, 4.3]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0062']; contact_part_ids=['CR_0062']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6J']; gt_subgraph_edges=[('20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6J')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0057: position=[-19.2441, 20.7531, 4.3]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0063']; contact_part_ids=['CR_0063']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6K']; gt_subgraph_edges=[('20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6K')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0058: position=[-22.744, 15.7531, 4.3]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0064']; contact_part_ids=['CR_0064']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6U']; gt_subgraph_edges=[('20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6U')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0059: position=[-19.2441, 15.7531, 4.3]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0065']; contact_part_ids=['CR_0065']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6V']; gt_subgraph_edges=[('20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6V')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0060: position=[-22.744, 10.7531, 4.3]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0066']; contact_part_ids=['CR_0066']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6h']; gt_subgraph_edges=[('20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx6h')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0061: position=[-22.744, 5.7531, 4.3]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0067']; contact_part_ids=['CR_0067']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx97']; gt_subgraph_edges=[('20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZx97')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0062: position=[-19.2441, 0.7531, 4.3]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0068']; contact_part_ids=['CR_0068']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZxDw']; gt_subgraph_edges=[('20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZxDw')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0063: position=[-19.2441, 5.7531, 4.3]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0069']; contact_part_ids=['CR_0069']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZxEL']; gt_subgraph_edges=[('20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZxEL')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0064: position=[-22.7441, 0.7531, 4.3]; geometry_type=2D_Fläche; Anzahl_Elements=2; contact_region_ids=['CR_0070']; contact_part_ids=['CR_0070']; member_guids=['20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZyrD']; gt_subgraph_edges=[('20LeAmtxjFagTYkRE7cuv0', '2q2CBrfQTCKPY0zxCdZyrD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0065: position=[-12.9141, 29.6031, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0071']; contact_part_ids=['CR_0071']; member_guids=['2q2CBrfQTCKPY0zxCdZx0a', '3WTFZLIDfCSgicLndgDMGD']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZx0a', '3WTFZLIDfCSgicLndgDMGD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0066: position=[-12.9141, 29.6031, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0072']; contact_part_ids=['CR_0072']; member_guids=['2q2CBrfQTCKPY0zxCdZx0a', '3WTFZLIDfCSgicLndgDPj2']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZx0a', '3WTFZLIDfCSgicLndgDPj2')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0067: position=[-18.9191, 25.0531, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0073']; contact_part_ids=['CR_0073']; member_guids=['2q2CBrfQTCKPY0zxCdZx69', '3WTFZLIDfCSgicLndgDMGD']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZx69', '3WTFZLIDfCSgicLndgDMGD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0068: position=[-18.9941, 25.0531, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0074']; contact_part_ids=['CR_0074']; member_guids=['2q2CBrfQTCKPY0zxCdZx69', '3WTFZLIDfCSgicLndgDPj2']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZx69', '3WTFZLIDfCSgicLndgDPj2')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0069: position=[-12.9041, -9.0969, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0075']; contact_part_ids=['CR_0075']; member_guids=['2q2CBrfQTCKPY0zxCdZxKQ', '3HTqbtkjL0z8u5TicZt0ZR']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxKQ', '3HTqbtkjL0z8u5TicZt0ZR')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0070: position=[-12.9041, -9.0969, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0076']; contact_part_ids=['CR_0076']; member_guids=['2q2CBrfQTCKPY0zxCdZxKQ', '3WTFZLIDfCSgicLndgDPrl']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxKQ', '3WTFZLIDfCSgicLndgDPrl')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0071: position=[-8.1441, -9.0969, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0077']; contact_part_ids=['CR_0077']; member_guids=['2q2CBrfQTCKPY0zxCdZxKg', '3HTqbtkjL0z8u5TicZt0ZR']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxKg', '3HTqbtkjL0z8u5TicZt0ZR')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0072: position=[-8.1441, -9.0969, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0078']; contact_part_ids=['CR_0078']; member_guids=['2q2CBrfQTCKPY0zxCdZxKg', '3WTFZLIDfCSgicLndgDPrl']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxKg', '3WTFZLIDfCSgicLndgDPrl')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0073: position=[-4.1441, -9.0969, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0079']; contact_part_ids=['CR_0079']; member_guids=['2q2CBrfQTCKPY0zxCdZxKq', '3HTqbtkjL0z8u5TicZt0ZR']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxKq', '3HTqbtkjL0z8u5TicZt0ZR')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0074: position=[-4.1441, -9.0969, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0080']; contact_part_ids=['CR_0080']; member_guids=['2q2CBrfQTCKPY0zxCdZxKq', '3WTFZLIDfCSgicLndgDPrl']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxKq', '3WTFZLIDfCSgicLndgDPrl')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0075: position=[-4.1441, 24.9031, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0081']; contact_part_ids=['CR_0081']; member_guids=['2q2CBrfQTCKPY0zxCdZxL2', '3WTFZLIDfCSgicLndgDMGD']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxL2', '3WTFZLIDfCSgicLndgDMGD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0076: position=[-4.1441, 24.9031, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0082']; contact_part_ids=['CR_0082']; member_guids=['2q2CBrfQTCKPY0zxCdZxL2', '3WTFZLIDfCSgicLndgDPj2']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxL2', '3WTFZLIDfCSgicLndgDPj2')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0077: position=[-7.9941, 24.9031, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0083']; contact_part_ids=['CR_0083']; member_guids=['2q2CBrfQTCKPY0zxCdZxLC', '3WTFZLIDfCSgicLndgDMGD']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxLC', '3WTFZLIDfCSgicLndgDMGD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0078: position=[-7.9941, 24.9031, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0084']; contact_part_ids=['CR_0084']; member_guids=['2q2CBrfQTCKPY0zxCdZxLC', '3WTFZLIDfCSgicLndgDPj2']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxLC', '3WTFZLIDfCSgicLndgDPj2')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0079: position=[-12.8741, 24.9031, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0085']; contact_part_ids=['CR_0085']; member_guids=['2q2CBrfQTCKPY0zxCdZxLU', '3WTFZLIDfCSgicLndgDMGD']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxLU', '3WTFZLIDfCSgicLndgDMGD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0080: position=[-12.8741, 24.9031, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0086']; contact_part_ids=['CR_0086']; member_guids=['2q2CBrfQTCKPY0zxCdZxLU', '3WTFZLIDfCSgicLndgDPj2']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxLU', '3WTFZLIDfCSgicLndgDPj2')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0081: position=[-4.1441, -4.3969, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0087']; contact_part_ids=['CR_0087']; member_guids=['2q2CBrfQTCKPY0zxCdZxNL', '3HTqbtkjL0z8u5TicZt0ZR']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxNL', '3HTqbtkjL0z8u5TicZt0ZR')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0082: position=[-4.1441, -4.3969, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0088']; contact_part_ids=['CR_0088']; member_guids=['2q2CBrfQTCKPY0zxCdZxNL', '3WTFZLIDfCSgicLndgDPrl']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxNL', '3WTFZLIDfCSgicLndgDPrl')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0083: position=[-8.1441, -4.3969, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0089']; contact_part_ids=['CR_0089']; member_guids=['2q2CBrfQTCKPY0zxCdZxNZ', '3HTqbtkjL0z8u5TicZt0ZR']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxNZ', '3HTqbtkjL0z8u5TicZt0ZR')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0084: position=[-8.1441, -4.3969, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0090']; contact_part_ids=['CR_0090']; member_guids=['2q2CBrfQTCKPY0zxCdZxNZ', '3WTFZLIDfCSgicLndgDPrl']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxNZ', '3WTFZLIDfCSgicLndgDPrl')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0085: position=[-12.8941, -4.3969, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0091']; contact_part_ids=['CR_0091']; member_guids=['2q2CBrfQTCKPY0zxCdZxNl', '3HTqbtkjL0z8u5TicZt0ZR']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxNl', '3HTqbtkjL0z8u5TicZt0ZR')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0086: position=[-12.8941, -4.3969, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0092']; contact_part_ids=['CR_0092']; member_guids=['2q2CBrfQTCKPY0zxCdZxNl', '3WTFZLIDfCSgicLndgDPrl']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxNl', '3WTFZLIDfCSgicLndgDPrl')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0087: position=[-4.1441, 29.6031, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0093']; contact_part_ids=['CR_0093']; member_guids=['2q2CBrfQTCKPY0zxCdZxRJ', '3WTFZLIDfCSgicLndgDMGD']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxRJ', '3WTFZLIDfCSgicLndgDMGD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0088: position=[-4.1441, 29.6031, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0094']; contact_part_ids=['CR_0094']; member_guids=['2q2CBrfQTCKPY0zxCdZxRJ', '3WTFZLIDfCSgicLndgDPj2']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxRJ', '3WTFZLIDfCSgicLndgDPj2')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0089: position=[-7.9941, 29.6031, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0095']; contact_part_ids=['CR_0095']; member_guids=['2q2CBrfQTCKPY0zxCdZxSj', '3WTFZLIDfCSgicLndgDMGD']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxSj', '3WTFZLIDfCSgicLndgDMGD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0090: position=[-7.9941, 29.6031, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0096']; contact_part_ids=['CR_0096']; member_guids=['2q2CBrfQTCKPY0zxCdZxSj', '3WTFZLIDfCSgicLndgDPj2']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZxSj', '3WTFZLIDfCSgicLndgDPj2')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0091: position=[-18.9191, -9.0969, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0097']; contact_part_ids=['CR_0097']; member_guids=['2q2CBrfQTCKPY0zxCdZyWE', '3HTqbtkjL0z8u5TicZt0ZR']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZyWE', '3HTqbtkjL0z8u5TicZt0ZR')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0092: position=[-18.9941, -9.0969, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0098']; contact_part_ids=['CR_0098']; member_guids=['2q2CBrfQTCKPY0zxCdZyWE', '3WTFZLIDfCSgicLndgDPrl']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZyWE', '3WTFZLIDfCSgicLndgDPrl')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0093: position=[-18.9191, -4.5469, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0099']; contact_part_ids=['CR_0099']; member_guids=['2q2CBrfQTCKPY0zxCdZynE', '3HTqbtkjL0z8u5TicZt0ZR']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZynE', '3HTqbtkjL0z8u5TicZt0ZR')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0094: position=[-18.9941, -4.5469, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0100']; contact_part_ids=['CR_0100']; member_guids=['2q2CBrfQTCKPY0zxCdZynE', '3WTFZLIDfCSgicLndgDPrl']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZynE', '3WTFZLIDfCSgicLndgDPrl')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0095: position=[-18.9191, 29.6031, 13.1]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0101']; contact_part_ids=['CR_0101']; member_guids=['2q2CBrfQTCKPY0zxCdZyuE', '3WTFZLIDfCSgicLndgDMGD']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZyuE', '3WTFZLIDfCSgicLndgDMGD')]
+[17:15:36]
+[17:15:36] #Debug Schritt 3 Joint J0096: position=[-18.9941, 29.6031, 4.3]; geometry_type=3D_Volumen; Anzahl_Elements=2; contact_region_ids=['CR_0102']; contact_part_ids=['CR_0102']; member_guids=['2q2CBrfQTCKPY0zxCdZyuE', '3WTFZLIDfCSgicLndgDPj2']; gt_subgraph_edges=[('2q2CBrfQTCKPY0zxCdZyuE', '3WTFZLIDfCSgicLndgDPj2')]
+[17:15:36]
+[17:15:36] 1.A: 96 Soll-Joints rekonstruiert.
+[17:15:36] PLATZHALTER: Ist-Joint-Extraktion (Analysemodell) noch nicht implementiert.
+[17:15:36] PLATZHALTER: Joint-Matching noch nicht implementiert.
+[17:15:36] PLATZHALTER: Fehlerklassifikation (E0-E7) noch nicht implementiert.
+[17:15:36] PLATZHALTER: Statistische Auswertung noch nicht implementiert.
+[17:15:36] PLATZHALTER: Homogene Knotenmerkmale noch nicht implementiert.
+[17:15:36] PLATZHALTER: Heterogene Knotenmerkmale (1D/2D) noch nicht implementiert.
+[17:15:36] Starte Distanzmessungen und Kantenbildung...
+[17:15:37] DEBUG: Kanten berechnet. Total: 113 | GT: 102 | RBC-TP: 91
+[17:15:37] PLATZHALTER: Kantenmerkmale (Flächenprojektion) noch nicht implementiert.
+[17:15:37] PLATZHALTER: Verdeckungsmerkmale noch nicht implementiert.
+[17:15:37] PLATZHALTER: Vereinheitlichung und Normalisierung für GNN-Training noch nicht implementiert.
+[17:15:38] Plot erstellt: model_9 2D.png
+[17:15:39] Plot erstellt: model_9 3D.png
+[17:15:39] Graph JSON gespeichert unter: model_9 Graph.json

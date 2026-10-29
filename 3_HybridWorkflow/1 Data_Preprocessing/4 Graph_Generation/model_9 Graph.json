@@ -3,7 +3,14 @@
         "model_stem": "model_9",
         "preprocessing_config": {
             "rbf_gamma": 0.0001,
-            "max_dist": 3.0
+            "max_dist": 3.0,
+            "joint_epsilon": 0.005,
+            "joint_tau": 0.2,
+            "joint_delta_scale": 1.05,
+            "joint_point_extent": 0.05,
+            "joint_sample_spacing": 0.025,
+            "joint_max_samples": 5000,
+            "joint_segment_length": 1.0
         },
         "stats_IFC_extraction": {
             "count_all_ifc_products": 40,
@@ -3300,5 +3307,3442 @@
                 "name_b": "Floor:STB 20.0:496790"
             }
         }
-    ]
+    ],
+    "joints": {
+        "config": {
+            "epsilon": 0.005,
+            "tau": 0.2,
+            "delta_scale": 1.05,
+            "point_extent": 0.05,
+            "sample_spacing": 0.025,
+            "max_samples": 5000,
+            "segment_length": 1.0
+        },
+        "soll_joints": [
+            {
+                "joint_id": "J0001",
+                "contact_region_ids": [
+                    "CR_0001"
+                ],
+                "contact_part_ids": [
+                    "CR_0001"
+                ],
+                "position": [
+                    -12.9041,
+                    -9.0969,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5P",
+                    "2q2CBrfQTCKPY0zxCdZxKQ"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5P",
+                        "2q2CBrfQTCKPY0zxCdZxKQ"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0002",
+                "contact_region_ids": [
+                    "CR_0002"
+                ],
+                "contact_part_ids": [
+                    "CR_0002"
+                ],
+                "position": [
+                    -8.1441,
+                    -9.0969,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5P",
+                    "2q2CBrfQTCKPY0zxCdZxKg"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5P",
+                        "2q2CBrfQTCKPY0zxCdZxKg"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2851,
+                    0.2851,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0003",
+                "contact_region_ids": [
+                    "CR_0003"
+                ],
+                "contact_part_ids": [
+                    "CR_0003"
+                ],
+                "position": [
+                    -4.1441,
+                    -9.0969,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5P",
+                    "2q2CBrfQTCKPY0zxCdZxKq"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5P",
+                        "2q2CBrfQTCKPY0zxCdZxKq"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2851,
+                    0.2851,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0004",
+                "contact_region_ids": [
+                    "CR_0004"
+                ],
+                "contact_part_ids": [
+                    "CR_0004"
+                ],
+                "position": [
+                    -4.1441,
+                    -4.3969,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5P",
+                    "2q2CBrfQTCKPY0zxCdZxNL"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5P",
+                        "2q2CBrfQTCKPY0zxCdZxNL"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0005",
+                "contact_region_ids": [
+                    "CR_0005"
+                ],
+                "contact_part_ids": [
+                    "CR_0005"
+                ],
+                "position": [
+                    -8.1441,
+                    -4.3969,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5P",
+                    "2q2CBrfQTCKPY0zxCdZxNZ"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5P",
+                        "2q2CBrfQTCKPY0zxCdZxNZ"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0006",
+                "contact_region_ids": [
+                    "CR_0006"
+                ],
+                "contact_part_ids": [
+                    "CR_0006"
+                ],
+                "position": [
+                    -12.8941,
+                    -4.3969,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5P",
+                    "2q2CBrfQTCKPY0zxCdZxNl"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5P",
+                        "2q2CBrfQTCKPY0zxCdZxNl"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2999,
+                    0.2999,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0007",
+                "contact_region_ids": [
+                    "CR_0007"
+                ],
+                "contact_part_ids": [
+                    "CR_0007"
+                ],
+                "position": [
+                    -18.9941,
+                    -9.0969,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5P",
+                    "2q2CBrfQTCKPY0zxCdZyWE"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5P",
+                        "2q2CBrfQTCKPY0zxCdZyWE"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0008",
+                "contact_region_ids": [
+                    "CR_0008"
+                ],
+                "contact_part_ids": [
+                    "CR_0008"
+                ],
+                "position": [
+                    -18.9941,
+                    -4.5469,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5P",
+                    "2q2CBrfQTCKPY0zxCdZynE"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5P",
+                        "2q2CBrfQTCKPY0zxCdZynE"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5812,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0009",
+                "contact_region_ids": [
+                    "CR_0009"
+                ],
+                "contact_part_ids": [
+                    "CR_0009"
+                ],
+                "position": [
+                    -12.9141,
+                    29.6031,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5f",
+                    "2q2CBrfQTCKPY0zxCdZx0a"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5f",
+                        "2q2CBrfQTCKPY0zxCdZx0a"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2878,
+                    0.2878,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0010",
+                "contact_region_ids": [
+                    "CR_0010"
+                ],
+                "contact_part_ids": [
+                    "CR_0010"
+                ],
+                "position": [
+                    -18.9941,
+                    25.0531,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5f",
+                    "2q2CBrfQTCKPY0zxCdZx69"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5f",
+                        "2q2CBrfQTCKPY0zxCdZx69"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5812,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0011",
+                "contact_region_ids": [
+                    "CR_0011"
+                ],
+                "contact_part_ids": [
+                    "CR_0011"
+                ],
+                "position": [
+                    -4.1497,
+                    24.9031,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5f",
+                    "2q2CBrfQTCKPY0zxCdZxL2"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5f",
+                        "2q2CBrfQTCKPY0zxCdZxL2"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.006927,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.2742,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0012",
+                "contact_region_ids": [
+                    "CR_0012"
+                ],
+                "contact_part_ids": [
+                    "CR_0012"
+                ],
+                "position": [
+                    -7.9941,
+                    24.9031,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5f",
+                    "2q2CBrfQTCKPY0zxCdZxLC"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5f",
+                        "2q2CBrfQTCKPY0zxCdZxLC"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0013",
+                "contact_region_ids": [
+                    "CR_0013"
+                ],
+                "contact_part_ids": [
+                    "CR_0013"
+                ],
+                "position": [
+                    -12.8741,
+                    24.9031,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5f",
+                    "2q2CBrfQTCKPY0zxCdZxLU"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5f",
+                        "2q2CBrfQTCKPY0zxCdZxLU"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2851,
+                    0.2851,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0014",
+                "contact_region_ids": [
+                    "CR_0014"
+                ],
+                "contact_part_ids": [
+                    "CR_0014"
+                ],
+                "position": [
+                    -4.1497,
+                    29.6031,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5f",
+                    "2q2CBrfQTCKPY0zxCdZxRJ"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5f",
+                        "2q2CBrfQTCKPY0zxCdZxRJ"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.006927,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.2742,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0015",
+                "contact_region_ids": [
+                    "CR_0015"
+                ],
+                "contact_part_ids": [
+                    "CR_0015"
+                ],
+                "position": [
+                    -7.9941,
+                    29.6031,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5f",
+                    "2q2CBrfQTCKPY0zxCdZxSj"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5f",
+                        "2q2CBrfQTCKPY0zxCdZxSj"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2862,
+                    0.2862,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0016",
+                "contact_region_ids": [
+                    "CR_0016"
+                ],
+                "contact_part_ids": [
+                    "CR_0016"
+                ],
+                "position": [
+                    -18.9941,
+                    29.6031,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X5f",
+                    "2q2CBrfQTCKPY0zxCdZyuE"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X5f",
+                        "2q2CBrfQTCKPY0zxCdZyuE"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2958,
+                    0.2958,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0017",
+                "contact_region_ids": [
+                    "CR_0017"
+                ],
+                "contact_part_ids": [
+                    "CR_0017"
+                ],
+                "position": [
+                    -22.844,
+                    20.7531,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X6i",
+                    "2q2CBrfQTCKPY0zxCdZx6J"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X6i",
+                        "2q2CBrfQTCKPY0zxCdZx6J"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5813,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0018",
+                "contact_region_ids": [
+                    "CR_0018"
+                ],
+                "contact_part_ids": [
+                    "CR_0018"
+                ],
+                "position": [
+                    -19.1441,
+                    20.7531,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X6i",
+                    "2q2CBrfQTCKPY0zxCdZx6K"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X6i",
+                        "2q2CBrfQTCKPY0zxCdZx6K"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5813,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0019",
+                "contact_region_ids": [
+                    "CR_0019"
+                ],
+                "contact_part_ids": [
+                    "CR_0019"
+                ],
+                "position": [
+                    -22.844,
+                    15.7531,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X6i",
+                    "2q2CBrfQTCKPY0zxCdZx6U"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X6i",
+                        "2q2CBrfQTCKPY0zxCdZx6U"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5812,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0020",
+                "contact_region_ids": [
+                    "CR_0020"
+                ],
+                "contact_part_ids": [
+                    "CR_0020"
+                ],
+                "position": [
+                    -19.1441,
+                    15.7531,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X6i",
+                    "2q2CBrfQTCKPY0zxCdZx6V"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X6i",
+                        "2q2CBrfQTCKPY0zxCdZx6V"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5813,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0021",
+                "contact_region_ids": [
+                    "CR_0021"
+                ],
+                "contact_part_ids": [
+                    "CR_0021"
+                ],
+                "position": [
+                    -22.844,
+                    10.7531,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X6i",
+                    "2q2CBrfQTCKPY0zxCdZx6h"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X6i",
+                        "2q2CBrfQTCKPY0zxCdZx6h"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5813,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0022",
+                "contact_region_ids": [
+                    "CR_0022"
+                ],
+                "contact_part_ids": [
+                    "CR_0022"
+                ],
+                "position": [
+                    -22.844,
+                    5.7531,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X6i",
+                    "2q2CBrfQTCKPY0zxCdZx97"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X6i",
+                        "2q2CBrfQTCKPY0zxCdZx97"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5812,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0023",
+                "contact_region_ids": [
+                    "CR_0023"
+                ],
+                "contact_part_ids": [
+                    "CR_0023"
+                ],
+                "position": [
+                    -19.1441,
+                    0.7531,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X6i",
+                    "2q2CBrfQTCKPY0zxCdZxDw"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X6i",
+                        "2q2CBrfQTCKPY0zxCdZxDw"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5812,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0024",
+                "contact_region_ids": [
+                    "CR_0024"
+                ],
+                "contact_part_ids": [
+                    "CR_0024"
+                ],
+                "position": [
+                    -19.1441,
+                    5.7531,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X6i",
+                    "2q2CBrfQTCKPY0zxCdZxEL"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X6i",
+                        "2q2CBrfQTCKPY0zxCdZxEL"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5812,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0025",
+                "contact_region_ids": [
+                    "CR_0025"
+                ],
+                "contact_part_ids": [
+                    "CR_0025"
+                ],
+                "position": [
+                    -22.8441,
+                    0.7531,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X6i",
+                    "2q2CBrfQTCKPY0zxCdZyrD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X6i",
+                        "2q2CBrfQTCKPY0zxCdZyrD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5813,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0026",
+                "contact_region_ids": [
+                    "CR_0026"
+                ],
+                "contact_part_ids": [
+                    "CR_0026"
+                ],
+                "position": [
+                    -22.8441,
+                    -4.0969,
+                    8.7
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "04sjR4dpb6DOsPr6RR1X6i",
+                    "2q2CBrfQTCKPY0zxCdZysk"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "04sjR4dpb6DOsPr6RR1X6i",
+                        "2q2CBrfQTCKPY0zxCdZysk"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2851,
+                    0.2851,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0027",
+                "contact_region_ids": [
+                    "CR_0027",
+                    "CR_0034",
+                    "CR_0047"
+                ],
+                "contact_part_ids": [
+                    "CR_0027.01",
+                    "CR_0034",
+                    "CR_0047"
+                ],
+                "position": [
+                    -18.992,
+                    -9.0187,
+                    -0.0303
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "0KRl17GSJHmnKkLTFQXJl7",
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZyWE"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "0KRl17GSJHmnKkLTFQXJl7",
+                        "1soz90sYzCp8a2Do0djR8J"
+                    ],
+                    [
+                        "0KRl17GSJHmnKkLTFQXJl7",
+                        "2q2CBrfQTCKPY0zxCdZyWE"
+                    ],
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZyWE"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.054512,
+                    0.006444,
+                    0.004205
+                ],
+                "lengths": [
+                    0.8436,
+                    0.3035,
+                    0.295
+                ]
+            },
+            {
+                "joint_id": "J0028",
+                "contact_region_ids": [
+                    "CR_0027",
+                    "CR_0035",
+                    "CR_0049"
+                ],
+                "contact_part_ids": [
+                    "CR_0027.05",
+                    "CR_0027.06",
+                    "CR_0035",
+                    "CR_0049"
+                ],
+                "position": [
+                    -18.9937,
+                    -4.8112,
+                    -0.0419
+                ],
+                "geometry_type": "1D_Linie",
+                "member_guids": [
+                    "0KRl17GSJHmnKkLTFQXJl7",
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZynE"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "0KRl17GSJHmnKkLTFQXJl7",
+                        "1soz90sYzCp8a2Do0djR8J"
+                    ],
+                    [
+                        "0KRl17GSJHmnKkLTFQXJl7",
+                        "2q2CBrfQTCKPY0zxCdZynE"
+                    ],
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZynE"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.21587,
+                    0.005076,
+                    0.003849
+                ],
+                "lengths": [
+                    1.6697,
+                    0.2943,
+                    0.2815
+                ]
+            },
+            {
+                "joint_id": "J0029",
+                "contact_region_ids": [
+                    "CR_0028"
+                ],
+                "contact_part_ids": [
+                    "CR_0028"
+                ],
+                "position": [
+                    -12.9035,
+                    -9.1022,
+                    0.0011
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "0KRl17GSJHmnKkLTFQXJl7",
+                    "2q2CBrfQTCKPY0zxCdZxKQ"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "0KRl17GSJHmnKkLTFQXJl7",
+                        "2q2CBrfQTCKPY0zxCdZxKQ"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.014175,
+                    0.01322,
+                    3e-06
+                ],
+                "lengths": [
+                    0.406,
+                    0.406,
+                    0.0098
+                ]
+            },
+            {
+                "joint_id": "J0030",
+                "contact_region_ids": [
+                    "CR_0029"
+                ],
+                "contact_part_ids": [
+                    "CR_0029"
+                ],
+                "position": [
+                    -8.1426,
+                    -9.1018,
+                    0.0011
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "0KRl17GSJHmnKkLTFQXJl7",
+                    "2q2CBrfQTCKPY0zxCdZxKg"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "0KRl17GSJHmnKkLTFQXJl7",
+                        "2q2CBrfQTCKPY0zxCdZxKg"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.014089,
+                    0.013375,
+                    2e-06
+                ],
+                "lengths": [
+                    0.4157,
+                    0.4157,
+                    0.0051
+                ]
+            },
+            {
+                "joint_id": "J0031",
+                "contact_region_ids": [
+                    "CR_0030"
+                ],
+                "contact_part_ids": [
+                    "CR_0030"
+                ],
+                "position": [
+                    -4.1373,
+                    -9.1063,
+                    0.001
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "0KRl17GSJHmnKkLTFQXJl7",
+                    "2q2CBrfQTCKPY0zxCdZxKq"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "0KRl17GSJHmnKkLTFQXJl7",
+                        "2q2CBrfQTCKPY0zxCdZxKq"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.013702,
+                    0.013494,
+                    3e-06
+                ],
+                "lengths": [
+                    0.4239,
+                    0.4239,
+                    0.01
+                ]
+            },
+            {
+                "joint_id": "J0032",
+                "contact_region_ids": [
+                    "CR_0031"
+                ],
+                "contact_part_ids": [
+                    "CR_0031"
+                ],
+                "position": [
+                    -4.1388,
+                    -4.3911,
+                    0.001
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "0KRl17GSJHmnKkLTFQXJl7",
+                    "2q2CBrfQTCKPY0zxCdZxNL"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "0KRl17GSJHmnKkLTFQXJl7",
+                        "2q2CBrfQTCKPY0zxCdZxNL"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.0142,
+                    0.013284,
+                    3e-06
+                ],
+                "lengths": [
+                    0.3907,
+                    0.3907,
+                    0.009
+                ]
+            },
+            {
+                "joint_id": "J0033",
+                "contact_region_ids": [
+                    "CR_0032"
+                ],
+                "contact_part_ids": [
+                    "CR_0032"
+                ],
+                "position": [
+                    -8.1418,
+                    -4.3948,
+                    0.001
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "0KRl17GSJHmnKkLTFQXJl7",
+                    "2q2CBrfQTCKPY0zxCdZxNZ"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "0KRl17GSJHmnKkLTFQXJl7",
+                        "2q2CBrfQTCKPY0zxCdZxNZ"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.014152,
+                    0.013178,
+                    3e-06
+                ],
+                "lengths": [
+                    0.4033,
+                    0.4033,
+                    0.0099
+                ]
+            },
+            {
+                "joint_id": "J0034",
+                "contact_region_ids": [
+                    "CR_0033"
+                ],
+                "contact_part_ids": [
+                    "CR_0033"
+                ],
+                "position": [
+                    -12.8941,
+                    -4.3956,
+                    0.0011
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "0KRl17GSJHmnKkLTFQXJl7",
+                    "2q2CBrfQTCKPY0zxCdZxNl"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "0KRl17GSJHmnKkLTFQXJl7",
+                        "2q2CBrfQTCKPY0zxCdZxNl"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.014054,
+                    0.013293,
+                    2e-06
+                ],
+                "lengths": [
+                    0.4035,
+                    0.4035,
+                    0.005
+                ]
+            },
+            {
+                "joint_id": "J0035",
+                "contact_region_ids": [
+                    "CR_0036",
+                    "CR_0052",
+                    "CR_0061"
+                ],
+                "contact_part_ids": [
+                    "CR_0036.01",
+                    "CR_0052",
+                    "CR_0061"
+                ],
+                "position": [
+                    -18.9933,
+                    29.5247,
+                    -0.0314
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "1soz90sYzCp8a2Do0djRBF",
+                    "2q2CBrfQTCKPY0zxCdZyuE"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "1soz90sYzCp8a2Do0djRBF"
+                    ],
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZyuE"
+                    ],
+                    [
+                        "1soz90sYzCp8a2Do0djRBF",
+                        "2q2CBrfQTCKPY0zxCdZyuE"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.054446,
+                    0.00637,
+                    0.004302
+                ],
+                "lengths": [
+                    0.8444,
+                    0.3018,
+                    0.3015
+                ]
+            },
+            {
+                "joint_id": "J0036",
+                "contact_region_ids": [
+                    "CR_0036",
+                    "CR_0038",
+                    "CR_0055"
+                ],
+                "contact_part_ids": [
+                    "CR_0036.05",
+                    "CR_0036.06",
+                    "CR_0038",
+                    "CR_0055"
+                ],
+                "position": [
+                    -18.9928,
+                    25.3117,
+                    -0.0496
+                ],
+                "geometry_type": "1D_Linie",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "1soz90sYzCp8a2Do0djRBF",
+                    "2q2CBrfQTCKPY0zxCdZx69"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "1soz90sYzCp8a2Do0djRBF"
+                    ],
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZx69"
+                    ],
+                    [
+                        "1soz90sYzCp8a2Do0djRBF",
+                        "2q2CBrfQTCKPY0zxCdZx69"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.2192,
+                    0.004955,
+                    0.004565
+                ],
+                "lengths": [
+                    1.6634,
+                    0.296,
+                    0.2995
+                ]
+            },
+            {
+                "joint_id": "J0037",
+                "contact_region_ids": [
+                    "CR_0037"
+                ],
+                "contact_part_ids": [
+                    "CR_0037"
+                ],
+                "position": [
+                    -22.8394,
+                    25.7374,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZx68"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZx68"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.043122,
+                    0.011639,
+                    2e-06
+                ],
+                "lengths": [
+                    0.6053,
+                    0.3108,
+                    0.0051
+                ]
+            },
+            {
+                "joint_id": "J0038",
+                "contact_region_ids": [
+                    "CR_0039"
+                ],
+                "contact_part_ids": [
+                    "CR_0039"
+                ],
+                "position": [
+                    -22.8394,
+                    20.7374,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZx6J"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZx6J"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.043122,
+                    0.011639,
+                    2e-06
+                ],
+                "lengths": [
+                    0.6053,
+                    0.3108,
+                    0.0051
+                ]
+            },
+            {
+                "joint_id": "J0039",
+                "contact_region_ids": [
+                    "CR_0040"
+                ],
+                "contact_part_ids": [
+                    "CR_0040"
+                ],
+                "position": [
+                    -19.1294,
+                    20.7378,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZx6K"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZx6K"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.04276,
+                    0.011631,
+                    2e-06
+                ],
+                "lengths": [
+                    0.6085,
+                    0.3125,
+                    0.0099
+                ]
+            },
+            {
+                "joint_id": "J0040",
+                "contact_region_ids": [
+                    "CR_0041"
+                ],
+                "contact_part_ids": [
+                    "CR_0041"
+                ],
+                "position": [
+                    -22.8399,
+                    15.7371,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZx6U"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZx6U"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.043311,
+                    0.011648,
+                    2e-06
+                ],
+                "lengths": [
+                    0.606,
+                    0.3122,
+                    0.0051
+                ]
+            },
+            {
+                "joint_id": "J0041",
+                "contact_region_ids": [
+                    "CR_0042"
+                ],
+                "contact_part_ids": [
+                    "CR_0042"
+                ],
+                "position": [
+                    -19.1293,
+                    15.7361,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZx6V"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZx6V"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.042992,
+                    0.011676,
+                    2e-06
+                ],
+                "lengths": [
+                    0.611,
+                    0.3173,
+                    0.0097
+                ]
+            },
+            {
+                "joint_id": "J0042",
+                "contact_region_ids": [
+                    "CR_0043"
+                ],
+                "contact_part_ids": [
+                    "CR_0043"
+                ],
+                "position": [
+                    -22.8394,
+                    10.7374,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZx6h"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZx6h"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.043122,
+                    0.011639,
+                    2e-06
+                ],
+                "lengths": [
+                    0.6053,
+                    0.3108,
+                    0.0051
+                ]
+            },
+            {
+                "joint_id": "J0043",
+                "contact_region_ids": [
+                    "CR_0044"
+                ],
+                "contact_part_ids": [
+                    "CR_0044"
+                ],
+                "position": [
+                    -22.8399,
+                    5.7371,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZx97"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZx97"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.043311,
+                    0.011648,
+                    2e-06
+                ],
+                "lengths": [
+                    0.606,
+                    0.3122,
+                    0.0051
+                ]
+            },
+            {
+                "joint_id": "J0044",
+                "contact_region_ids": [
+                    "CR_0045"
+                ],
+                "contact_part_ids": [
+                    "CR_0045"
+                ],
+                "position": [
+                    -19.129,
+                    0.7391,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZxDw"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZxDw"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.042585,
+                    0.011674,
+                    2e-06
+                ],
+                "lengths": [
+                    0.6084,
+                    0.3198,
+                    0.0078
+                ]
+            },
+            {
+                "joint_id": "J0045",
+                "contact_region_ids": [
+                    "CR_0046"
+                ],
+                "contact_part_ids": [
+                    "CR_0046"
+                ],
+                "position": [
+                    -19.1293,
+                    5.7379,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZxEL"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZxEL"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.043046,
+                    0.011663,
+                    2e-06
+                ],
+                "lengths": [
+                    0.6082,
+                    0.3157,
+                    0.0084
+                ]
+            },
+            {
+                "joint_id": "J0046",
+                "contact_region_ids": [
+                    "CR_0048"
+                ],
+                "contact_part_ids": [
+                    "CR_0048"
+                ],
+                "position": [
+                    -22.8498,
+                    -9.1046,
+                    0.0008
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZygb"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZygb"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.013788,
+                    0.012702,
+                    2e-06
+                ],
+                "lengths": [
+                    0.4242,
+                    0.4256,
+                    0.0099
+                ]
+            },
+            {
+                "joint_id": "J0047",
+                "contact_region_ids": [
+                    "CR_0050"
+                ],
+                "contact_part_ids": [
+                    "CR_0050"
+                ],
+                "position": [
+                    -22.8396,
+                    0.737,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZyrD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZyrD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.043157,
+                    0.011656,
+                    2e-06
+                ],
+                "lengths": [
+                    0.6059,
+                    0.3119,
+                    0.0052
+                ]
+            },
+            {
+                "joint_id": "J0048",
+                "contact_region_ids": [
+                    "CR_0051"
+                ],
+                "contact_part_ids": [
+                    "CR_0051"
+                ],
+                "position": [
+                    -22.8408,
+                    -4.2641,
+                    0.0005
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZysk"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZysk"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.043317,
+                    0.011713,
+                    2e-06
+                ],
+                "lengths": [
+                    0.6107,
+                    0.3157,
+                    0.0059
+                ]
+            },
+            {
+                "joint_id": "J0049",
+                "contact_region_ids": [
+                    "CR_0053"
+                ],
+                "contact_part_ids": [
+                    "CR_0053"
+                ],
+                "position": [
+                    -22.8498,
+                    29.6027,
+                    0.0008
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djR8J",
+                    "2q2CBrfQTCKPY0zxCdZyxq"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djR8J",
+                        "2q2CBrfQTCKPY0zxCdZyxq"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.013663,
+                    0.013011,
+                    2e-06
+                ],
+                "lengths": [
+                    0.4117,
+                    0.4117,
+                    0.0065
+                ]
+            },
+            {
+                "joint_id": "J0050",
+                "contact_region_ids": [
+                    "CR_0054"
+                ],
+                "contact_part_ids": [
+                    "CR_0054"
+                ],
+                "position": [
+                    -12.9111,
+                    29.6043,
+                    0.0011
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djRBF",
+                    "2q2CBrfQTCKPY0zxCdZx0a"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djRBF",
+                        "2q2CBrfQTCKPY0zxCdZx0a"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.014175,
+                    0.013478,
+                    2e-06
+                ],
+                "lengths": [
+                    0.3885,
+                    0.3962,
+                    0.0051
+                ]
+            },
+            {
+                "joint_id": "J0051",
+                "contact_region_ids": [
+                    "CR_0056"
+                ],
+                "contact_part_ids": [
+                    "CR_0056"
+                ],
+                "position": [
+                    -4.1375,
+                    24.8934,
+                    0.001
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djRBF",
+                    "2q2CBrfQTCKPY0zxCdZxL2"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djRBF",
+                        "2q2CBrfQTCKPY0zxCdZxL2"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.013803,
+                    0.013678,
+                    3e-06
+                ],
+                "lengths": [
+                    0.4222,
+                    0.4222,
+                    0.01
+                ]
+            },
+            {
+                "joint_id": "J0052",
+                "contact_region_ids": [
+                    "CR_0057"
+                ],
+                "contact_part_ids": [
+                    "CR_0057"
+                ],
+                "position": [
+                    -7.993,
+                    24.8979,
+                    0.0011
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djRBF",
+                    "2q2CBrfQTCKPY0zxCdZxLC"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djRBF",
+                        "2q2CBrfQTCKPY0zxCdZxLC"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.01422,
+                    0.01355,
+                    2e-06
+                ],
+                "lengths": [
+                    0.4095,
+                    0.4095,
+                    0.0051
+                ]
+            },
+            {
+                "joint_id": "J0053",
+                "contact_region_ids": [
+                    "CR_0058"
+                ],
+                "contact_part_ids": [
+                    "CR_0058"
+                ],
+                "position": [
+                    -12.8746,
+                    24.8978,
+                    0.0011
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djRBF",
+                    "2q2CBrfQTCKPY0zxCdZxLU"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djRBF",
+                        "2q2CBrfQTCKPY0zxCdZxLU"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.014279,
+                    0.013412,
+                    2e-06
+                ],
+                "lengths": [
+                    0.3964,
+                    0.3964,
+                    0.0098
+                ]
+            },
+            {
+                "joint_id": "J0054",
+                "contact_region_ids": [
+                    "CR_0059"
+                ],
+                "contact_part_ids": [
+                    "CR_0059"
+                ],
+                "position": [
+                    -4.139,
+                    29.6089,
+                    0.001
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djRBF",
+                    "2q2CBrfQTCKPY0zxCdZxRJ"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djRBF",
+                        "2q2CBrfQTCKPY0zxCdZxRJ"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.014352,
+                    0.01343,
+                    3e-06
+                ],
+                "lengths": [
+                    0.3816,
+                    0.3816,
+                    0.009
+                ]
+            },
+            {
+                "joint_id": "J0055",
+                "contact_region_ids": [
+                    "CR_0060"
+                ],
+                "contact_part_ids": [
+                    "CR_0060"
+                ],
+                "position": [
+                    -7.9937,
+                    29.606,
+                    0.001
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "1soz90sYzCp8a2Do0djRBF",
+                    "2q2CBrfQTCKPY0zxCdZxSj"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "1soz90sYzCp8a2Do0djRBF",
+                        "2q2CBrfQTCKPY0zxCdZxSj"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.014283,
+                    0.013369,
+                    3e-06
+                ],
+                "lengths": [
+                    0.3831,
+                    0.3831,
+                    0.0099
+                ]
+            },
+            {
+                "joint_id": "J0056",
+                "contact_region_ids": [
+                    "CR_0062"
+                ],
+                "contact_part_ids": [
+                    "CR_0062"
+                ],
+                "position": [
+                    -22.744,
+                    20.7531,
+                    4.3
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "20LeAmtxjFagTYkRE7cuv0",
+                    "2q2CBrfQTCKPY0zxCdZx6J"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "20LeAmtxjFagTYkRE7cuv0",
+                        "2q2CBrfQTCKPY0zxCdZx6J"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029991,
+                    0.003319,
+                    0.000821
+                ],
+                "lengths": [
+                    0.5867,
+                    0.1867,
+                    0.0875
+                ]
+            },
+            {
+                "joint_id": "J0057",
+                "contact_region_ids": [
+                    "CR_0063"
+                ],
+                "contact_part_ids": [
+                    "CR_0063"
+                ],
+                "position": [
+                    -19.2441,
+                    20.7531,
+                    4.3
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "20LeAmtxjFagTYkRE7cuv0",
+                    "2q2CBrfQTCKPY0zxCdZx6K"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "20LeAmtxjFagTYkRE7cuv0",
+                        "2q2CBrfQTCKPY0zxCdZx6K"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029991,
+                    0.003319,
+                    0.00082
+                ],
+                "lengths": [
+                    0.5867,
+                    0.1867,
+                    0.0875
+                ]
+            },
+            {
+                "joint_id": "J0058",
+                "contact_region_ids": [
+                    "CR_0064"
+                ],
+                "contact_part_ids": [
+                    "CR_0064"
+                ],
+                "position": [
+                    -22.744,
+                    15.7531,
+                    4.3
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "20LeAmtxjFagTYkRE7cuv0",
+                    "2q2CBrfQTCKPY0zxCdZx6U"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "20LeAmtxjFagTYkRE7cuv0",
+                        "2q2CBrfQTCKPY0zxCdZx6U"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029991,
+                    0.003319,
+                    0.000821
+                ],
+                "lengths": [
+                    0.5867,
+                    0.1867,
+                    0.0875
+                ]
+            },
+            {
+                "joint_id": "J0059",
+                "contact_region_ids": [
+                    "CR_0065"
+                ],
+                "contact_part_ids": [
+                    "CR_0065"
+                ],
+                "position": [
+                    -19.2441,
+                    15.7531,
+                    4.3
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "20LeAmtxjFagTYkRE7cuv0",
+                    "2q2CBrfQTCKPY0zxCdZx6V"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "20LeAmtxjFagTYkRE7cuv0",
+                        "2q2CBrfQTCKPY0zxCdZx6V"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029991,
+                    0.003319,
+                    0.00082
+                ],
+                "lengths": [
+                    0.5867,
+                    0.1867,
+                    0.0875
+                ]
+            },
+            {
+                "joint_id": "J0060",
+                "contact_region_ids": [
+                    "CR_0066"
+                ],
+                "contact_part_ids": [
+                    "CR_0066"
+                ],
+                "position": [
+                    -22.744,
+                    10.7531,
+                    4.3
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "20LeAmtxjFagTYkRE7cuv0",
+                    "2q2CBrfQTCKPY0zxCdZx6h"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "20LeAmtxjFagTYkRE7cuv0",
+                        "2q2CBrfQTCKPY0zxCdZx6h"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029991,
+                    0.003319,
+                    0.000821
+                ],
+                "lengths": [
+                    0.5867,
+                    0.1867,
+                    0.0875
+                ]
+            },
+            {
+                "joint_id": "J0061",
+                "contact_region_ids": [
+                    "CR_0067"
+                ],
+                "contact_part_ids": [
+                    "CR_0067"
+                ],
+                "position": [
+                    -22.744,
+                    5.7531,
+                    4.3
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "20LeAmtxjFagTYkRE7cuv0",
+                    "2q2CBrfQTCKPY0zxCdZx97"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "20LeAmtxjFagTYkRE7cuv0",
+                        "2q2CBrfQTCKPY0zxCdZx97"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029991,
+                    0.003319,
+                    0.000821
+                ],
+                "lengths": [
+                    0.5867,
+                    0.1867,
+                    0.0875
+                ]
+            },
+            {
+                "joint_id": "J0062",
+                "contact_region_ids": [
+                    "CR_0068"
+                ],
+                "contact_part_ids": [
+                    "CR_0068"
+                ],
+                "position": [
+                    -19.2441,
+                    0.7531,
+                    4.3
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "20LeAmtxjFagTYkRE7cuv0",
+                    "2q2CBrfQTCKPY0zxCdZxDw"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "20LeAmtxjFagTYkRE7cuv0",
+                        "2q2CBrfQTCKPY0zxCdZxDw"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029991,
+                    0.003319,
+                    0.00082
+                ],
+                "lengths": [
+                    0.5867,
+                    0.1867,
+                    0.0875
+                ]
+            },
+            {
+                "joint_id": "J0063",
+                "contact_region_ids": [
+                    "CR_0069"
+                ],
+                "contact_part_ids": [
+                    "CR_0069"
+                ],
+                "position": [
+                    -19.2441,
+                    5.7531,
+                    4.3
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "20LeAmtxjFagTYkRE7cuv0",
+                    "2q2CBrfQTCKPY0zxCdZxEL"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "20LeAmtxjFagTYkRE7cuv0",
+                        "2q2CBrfQTCKPY0zxCdZxEL"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029991,
+                    0.003319,
+                    0.00082
+                ],
+                "lengths": [
+                    0.5867,
+                    0.1867,
+                    0.0875
+                ]
+            },
+            {
+                "joint_id": "J0064",
+                "contact_region_ids": [
+                    "CR_0070"
+                ],
+                "contact_part_ids": [
+                    "CR_0070"
+                ],
+                "position": [
+                    -22.7441,
+                    0.7531,
+                    4.3
+                ],
+                "geometry_type": "2D_Fläche",
+                "member_guids": [
+                    "20LeAmtxjFagTYkRE7cuv0",
+                    "2q2CBrfQTCKPY0zxCdZyrD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "20LeAmtxjFagTYkRE7cuv0",
+                        "2q2CBrfQTCKPY0zxCdZyrD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029991,
+                    0.003319,
+                    0.00082
+                ],
+                "lengths": [
+                    0.5867,
+                    0.1867,
+                    0.0875
+                ]
+            },
+            {
+                "joint_id": "J0065",
+                "contact_region_ids": [
+                    "CR_0071"
+                ],
+                "contact_part_ids": [
+                    "CR_0071"
+                ],
+                "position": [
+                    -12.9141,
+                    29.6031,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZx0a",
+                    "3WTFZLIDfCSgicLndgDMGD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZx0a",
+                        "3WTFZLIDfCSgicLndgDMGD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0066",
+                "contact_region_ids": [
+                    "CR_0072"
+                ],
+                "contact_part_ids": [
+                    "CR_0072"
+                ],
+                "position": [
+                    -12.9141,
+                    29.6031,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZx0a",
+                    "3WTFZLIDfCSgicLndgDPj2"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZx0a",
+                        "3WTFZLIDfCSgicLndgDPj2"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2879,
+                    0.2879,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0067",
+                "contact_region_ids": [
+                    "CR_0073"
+                ],
+                "contact_part_ids": [
+                    "CR_0073"
+                ],
+                "position": [
+                    -18.9191,
+                    25.0531,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZx69",
+                    "3WTFZLIDfCSgicLndgDMGD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZx69",
+                        "3WTFZLIDfCSgicLndgDMGD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029987,
+                    0.003317,
+                    0.001857
+                ],
+                "lengths": [
+                    0.585,
+                    0.1857,
+                    0.135
+                ]
+            },
+            {
+                "joint_id": "J0068",
+                "contact_region_ids": [
+                    "CR_0074"
+                ],
+                "contact_part_ids": [
+                    "CR_0074"
+                ],
+                "position": [
+                    -18.9941,
+                    25.0531,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZx69",
+                    "3WTFZLIDfCSgicLndgDPj2"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZx69",
+                        "3WTFZLIDfCSgicLndgDPj2"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5813,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0069",
+                "contact_region_ids": [
+                    "CR_0075"
+                ],
+                "contact_part_ids": [
+                    "CR_0075"
+                ],
+                "position": [
+                    -12.9041,
+                    -9.0969,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxKQ",
+                    "3HTqbtkjL0z8u5TicZt0ZR"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxKQ",
+                        "3HTqbtkjL0z8u5TicZt0ZR"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0070",
+                "contact_region_ids": [
+                    "CR_0076"
+                ],
+                "contact_part_ids": [
+                    "CR_0076"
+                ],
+                "position": [
+                    -12.9041,
+                    -9.0969,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxKQ",
+                    "3WTFZLIDfCSgicLndgDPrl"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxKQ",
+                        "3WTFZLIDfCSgicLndgDPrl"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0071",
+                "contact_region_ids": [
+                    "CR_0077"
+                ],
+                "contact_part_ids": [
+                    "CR_0077"
+                ],
+                "position": [
+                    -8.1441,
+                    -9.0969,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxKg",
+                    "3HTqbtkjL0z8u5TicZt0ZR"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxKg",
+                        "3HTqbtkjL0z8u5TicZt0ZR"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2851,
+                    0.2851,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0072",
+                "contact_region_ids": [
+                    "CR_0078"
+                ],
+                "contact_part_ids": [
+                    "CR_0078"
+                ],
+                "position": [
+                    -8.1441,
+                    -9.0969,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxKg",
+                    "3WTFZLIDfCSgicLndgDPrl"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxKg",
+                        "3WTFZLIDfCSgicLndgDPrl"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0073",
+                "contact_region_ids": [
+                    "CR_0079"
+                ],
+                "contact_part_ids": [
+                    "CR_0079"
+                ],
+                "position": [
+                    -4.1441,
+                    -9.0969,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxKq",
+                    "3HTqbtkjL0z8u5TicZt0ZR"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxKq",
+                        "3HTqbtkjL0z8u5TicZt0ZR"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0074",
+                "contact_region_ids": [
+                    "CR_0080"
+                ],
+                "contact_part_ids": [
+                    "CR_0080"
+                ],
+                "position": [
+                    -4.1441,
+                    -9.0969,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxKq",
+                    "3WTFZLIDfCSgicLndgDPrl"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxKq",
+                        "3WTFZLIDfCSgicLndgDPrl"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2855,
+                    0.2855,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0075",
+                "contact_region_ids": [
+                    "CR_0081"
+                ],
+                "contact_part_ids": [
+                    "CR_0081"
+                ],
+                "position": [
+                    -4.1441,
+                    24.9031,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxL2",
+                    "3WTFZLIDfCSgicLndgDMGD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxL2",
+                        "3WTFZLIDfCSgicLndgDMGD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0076",
+                "contact_region_ids": [
+                    "CR_0082"
+                ],
+                "contact_part_ids": [
+                    "CR_0082"
+                ],
+                "position": [
+                    -4.1441,
+                    24.9031,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxL2",
+                    "3WTFZLIDfCSgicLndgDPj2"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxL2",
+                        "3WTFZLIDfCSgicLndgDPj2"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0077",
+                "contact_region_ids": [
+                    "CR_0083"
+                ],
+                "contact_part_ids": [
+                    "CR_0083"
+                ],
+                "position": [
+                    -7.9941,
+                    24.9031,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxLC",
+                    "3WTFZLIDfCSgicLndgDMGD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxLC",
+                        "3WTFZLIDfCSgicLndgDMGD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2851,
+                    0.2851,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0078",
+                "contact_region_ids": [
+                    "CR_0084"
+                ],
+                "contact_part_ids": [
+                    "CR_0084"
+                ],
+                "position": [
+                    -7.9941,
+                    24.9031,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxLC",
+                    "3WTFZLIDfCSgicLndgDPj2"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxLC",
+                        "3WTFZLIDfCSgicLndgDPj2"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2868,
+                    0.2868,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0079",
+                "contact_region_ids": [
+                    "CR_0085"
+                ],
+                "contact_part_ids": [
+                    "CR_0085"
+                ],
+                "position": [
+                    -12.8741,
+                    24.9031,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxLU",
+                    "3WTFZLIDfCSgicLndgDMGD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxLU",
+                        "3WTFZLIDfCSgicLndgDMGD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2851,
+                    0.2851,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0080",
+                "contact_region_ids": [
+                    "CR_0086"
+                ],
+                "contact_part_ids": [
+                    "CR_0086"
+                ],
+                "position": [
+                    -12.8741,
+                    24.9031,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxLU",
+                    "3WTFZLIDfCSgicLndgDPj2"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxLU",
+                        "3WTFZLIDfCSgicLndgDPj2"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.288,
+                    0.288,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0081",
+                "contact_region_ids": [
+                    "CR_0087"
+                ],
+                "contact_part_ids": [
+                    "CR_0087"
+                ],
+                "position": [
+                    -4.1441,
+                    -4.3969,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxNL",
+                    "3HTqbtkjL0z8u5TicZt0ZR"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxNL",
+                        "3HTqbtkjL0z8u5TicZt0ZR"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0082",
+                "contact_region_ids": [
+                    "CR_0088"
+                ],
+                "contact_part_ids": [
+                    "CR_0088"
+                ],
+                "position": [
+                    -4.1441,
+                    -4.3969,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxNL",
+                    "3WTFZLIDfCSgicLndgDPrl"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxNL",
+                        "3WTFZLIDfCSgicLndgDPrl"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2852,
+                    0.2852,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0083",
+                "contact_region_ids": [
+                    "CR_0089"
+                ],
+                "contact_part_ids": [
+                    "CR_0089"
+                ],
+                "position": [
+                    -8.1441,
+                    -4.3969,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxNZ",
+                    "3HTqbtkjL0z8u5TicZt0ZR"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxNZ",
+                        "3HTqbtkjL0z8u5TicZt0ZR"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0084",
+                "contact_region_ids": [
+                    "CR_0090"
+                ],
+                "contact_part_ids": [
+                    "CR_0090"
+                ],
+                "position": [
+                    -8.1441,
+                    -4.3969,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxNZ",
+                    "3WTFZLIDfCSgicLndgDPrl"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxNZ",
+                        "3WTFZLIDfCSgicLndgDPrl"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0085",
+                "contact_region_ids": [
+                    "CR_0091"
+                ],
+                "contact_part_ids": [
+                    "CR_0091"
+                ],
+                "position": [
+                    -12.8941,
+                    -4.3969,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxNl",
+                    "3HTqbtkjL0z8u5TicZt0ZR"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxNl",
+                        "3HTqbtkjL0z8u5TicZt0ZR"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0086",
+                "contact_region_ids": [
+                    "CR_0092"
+                ],
+                "contact_part_ids": [
+                    "CR_0092"
+                ],
+                "position": [
+                    -12.8941,
+                    -4.3969,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxNl",
+                    "3WTFZLIDfCSgicLndgDPrl"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxNl",
+                        "3WTFZLIDfCSgicLndgDPrl"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2992,
+                    0.2992,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0087",
+                "contact_region_ids": [
+                    "CR_0093"
+                ],
+                "contact_part_ids": [
+                    "CR_0093"
+                ],
+                "position": [
+                    -4.1441,
+                    29.6031,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxRJ",
+                    "3WTFZLIDfCSgicLndgDMGD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxRJ",
+                        "3WTFZLIDfCSgicLndgDMGD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2855,
+                    0.2855,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0088",
+                "contact_region_ids": [
+                    "CR_0094"
+                ],
+                "contact_part_ids": [
+                    "CR_0094"
+                ],
+                "position": [
+                    -4.1441,
+                    29.6031,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxRJ",
+                    "3WTFZLIDfCSgicLndgDPj2"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxRJ",
+                        "3WTFZLIDfCSgicLndgDPj2"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0089",
+                "contact_region_ids": [
+                    "CR_0095"
+                ],
+                "contact_part_ids": [
+                    "CR_0095"
+                ],
+                "position": [
+                    -7.9941,
+                    29.6031,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxSj",
+                    "3WTFZLIDfCSgicLndgDMGD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxSj",
+                        "3WTFZLIDfCSgicLndgDMGD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.285,
+                    0.285,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0090",
+                "contact_region_ids": [
+                    "CR_0096"
+                ],
+                "contact_part_ids": [
+                    "CR_0096"
+                ],
+                "position": [
+                    -7.9941,
+                    29.6031,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZxSj",
+                    "3WTFZLIDfCSgicLndgDPj2"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZxSj",
+                        "3WTFZLIDfCSgicLndgDPj2"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2862,
+                    0.2862,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0091",
+                "contact_region_ids": [
+                    "CR_0097"
+                ],
+                "contact_part_ids": [
+                    "CR_0097"
+                ],
+                "position": [
+                    -18.9191,
+                    -9.0969,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZyWE",
+                    "3HTqbtkjL0z8u5TicZt0ZR"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZyWE",
+                        "3HTqbtkjL0z8u5TicZt0ZR"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007489,
+                    0.003322,
+                    0.001864
+                ],
+                "lengths": [
+                    0.288,
+                    0.1882,
+                    0.1385
+                ]
+            },
+            {
+                "joint_id": "J0092",
+                "contact_region_ids": [
+                    "CR_0098"
+                ],
+                "contact_part_ids": [
+                    "CR_0098"
+                ],
+                "position": [
+                    -18.9941,
+                    -9.0969,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZyWE",
+                    "3WTFZLIDfCSgicLndgDPrl"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZyWE",
+                        "3WTFZLIDfCSgicLndgDPrl"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2866,
+                    0.2866,
+                    0.1857
+                ]
+            },
+            {
+                "joint_id": "J0093",
+                "contact_region_ids": [
+                    "CR_0099"
+                ],
+                "contact_part_ids": [
+                    "CR_0099"
+                ],
+                "position": [
+                    -18.9191,
+                    -4.5469,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZynE",
+                    "3HTqbtkjL0z8u5TicZt0ZR"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZynE",
+                        "3HTqbtkjL0z8u5TicZt0ZR"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029987,
+                    0.003317,
+                    0.001857
+                ],
+                "lengths": [
+                    0.585,
+                    0.1857,
+                    0.135
+                ]
+            },
+            {
+                "joint_id": "J0094",
+                "contact_region_ids": [
+                    "CR_0100"
+                ],
+                "contact_part_ids": [
+                    "CR_0100"
+                ],
+                "position": [
+                    -18.9941,
+                    -4.5469,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZynE",
+                    "3WTFZLIDfCSgicLndgDPrl"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZynE",
+                        "3WTFZLIDfCSgicLndgDPrl"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.029976,
+                    0.007472,
+                    0.003306
+                ],
+                "lengths": [
+                    0.5812,
+                    0.2812,
+                    0.1818
+                ]
+            },
+            {
+                "joint_id": "J0095",
+                "contact_region_ids": [
+                    "CR_0101"
+                ],
+                "contact_part_ids": [
+                    "CR_0101"
+                ],
+                "position": [
+                    -18.9191,
+                    29.6031,
+                    13.1
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZyuE",
+                    "3WTFZLIDfCSgicLndgDMGD"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZyuE",
+                        "3WTFZLIDfCSgicLndgDMGD"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007489,
+                    0.003322,
+                    0.001864
+                ],
+                "lengths": [
+                    0.288,
+                    0.1882,
+                    0.1385
+                ]
+            },
+            {
+                "joint_id": "J0096",
+                "contact_region_ids": [
+                    "CR_0102"
+                ],
+                "contact_part_ids": [
+                    "CR_0102"
+                ],
+                "position": [
+                    -18.9941,
+                    29.6031,
+                    4.3
+                ],
+                "geometry_type": "3D_Volumen",
+                "member_guids": [
+                    "2q2CBrfQTCKPY0zxCdZyuE",
+                    "3WTFZLIDfCSgicLndgDPj2"
+                ],
+                "gt_subgraph_edges": [
+                    [
+                        "2q2CBrfQTCKPY0zxCdZyuE",
+                        "3WTFZLIDfCSgicLndgDPj2"
+                    ]
+                ],
+                "eigenvalues": [
+                    0.007483,
+                    0.007483,
+                    0.003317
+                ],
+                "lengths": [
+                    0.2956,
+                    0.2956,
+                    0.1857
+                ]
+            }
+        ],
+        "ist_joints": [],
+        "validation": {
+            "matching": {
+                "matched": [],
+                "unmatched_soll": [],
+                "unmatched_ist": []
+            },
+            "error_codes": {},
+            "statistics": {}
+        }
+    }
 }

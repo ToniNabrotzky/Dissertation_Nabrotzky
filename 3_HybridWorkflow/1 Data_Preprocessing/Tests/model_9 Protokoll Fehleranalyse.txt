@@ -1,0 +1,61 @@
+[22:13:08]
+==================================================
+Verarbeite Modell: model_9
+==================================================
+[22:13:08] Lade IFC-Modell: c:\Proton Drive\toninabrotzky\My files\1_Promotion\3 Quellcode GNN_Konvertierung\3_HybridWorkflow\0 Model_Database\model_9.ifc
+[22:13:09] Analysiere 40 IFC-Elemente...
+[22:13:09] Extraktion abgeschlossen. 40 gültige Knoten erstellt.
+[22:13:09] GT-Labels geladen: 102 echte Referenz-Paare (gefiltert auf Status 'o')
+[22:13:09] RBC-Labels geladen: 102 Einträge -- 	Achtung: Fehlende Kanten werden auf GT aufgestockt. Zahl ist somit entsprechend der 'FP's größer.
+[22:13:09] 1.A: Starte Soll-Joint-Rekonstruktion (IFC-basiert)...
+[22:13:09] 1.A Schritt 1: Bestimme Kontaktregionen für 102 GT-Paare (eps = 5.0 mm)...
+[22:13:09] #Debug Schritt 1 Konfiguration: epsilon=0.005000 m; tau=0.2; point_extent=0.05 m; sample_spacing=0.025 m; max_samples=5000
+[22:13:09] #Debug Schritt 1 Schlüssel je Kontaktregion: ['region_id', 'guid_a', 'guid_b', 'points', 'centroid', 'eigenvalues', 'lengths', 'contact_type', 'contact_method', 'volume']
+[22:13:09]
+
+
+
+
+
+DEBUG - Die Slab 04sjR4dpb6DOsPr6RR1X6i hat eine Kontaktregion, jeweils mit den beiden Elementen. Der Joint ist damit unvollständig für folgende Verbindungen:
+[22:14:35] #Debug Schritt 3 Joint J0010: contact_region_ids=['CR_0010']; member_guids=['04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZx69']; position=[-18.9941, 25.0531, 8.7]; geometry_type=3D_Volumen; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5f', '2q2CBrfQTCKPY0zxCdZx69')]
+
+[22:14:35] #Debug Schritt 3 Joint J0008: contact_region_ids=['CR_0008']; member_guids=['04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZynE']; position=[-18.9941, -4.5469, 8.7]; geometry_type=3D_Volumen; gt_subgraph_edges=[('04sjR4dpb6DOsPr6RR1X5P', '2q2CBrfQTCKPY0zxCdZynE')]
+
+
+DEBUG-ZUSAMMEN - Der Plattenstoß aus dem mittleren Joints muss mit den beiden ober- bzw. unterhalb verbunden sein. Wird er aber nicth, weil Fläche zu groß ist.
+[22:14:35] #Debug Schritt 3 Joint J0034: contact_region_ids=['CR_0034', 'CR_0047']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyWE']; position=[-18.9909, -9.104, 0.0009]; geometry_type=2D_Fläche; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J'), ('0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZyWE'), ('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyWE')]
+DEBUG-ZUSAMMEN mit oben
+[22:14:35] #Debug Schritt 3 Joint J0027: contact_region_ids=['CR_0027']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J']; position=[-18.9941, -6.7538, -0.088]; geometry_type=1D_Linie; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J')]
+DEBUG-ZUSAMMEN mit unten
+[22:14:35] #Debug Schritt 3 Joint J0035: contact_region_ids=['CR_0049', 'CR_0035']; member_guids=['0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZynE']; position=[-18.9934, -4.5478, 0.0006]; geometry_type=2D_Fläche; gt_subgraph_edges=[('0KRl17GSJHmnKkLTFQXJl7', '1soz90sYzCp8a2Do0djR8J'), ('0KRl17GSJHmnKkLTFQXJl7', '2q2CBrfQTCKPY0zxCdZynE'), ('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZynE')]
+DEBUG-ZUSAMMEN
+
+
+DEBUG-ZUSAMMEN - Der Plattenstoß aus dem mittleren Joints muss mit den beiden ober- bzw. unterhalb verbunden sein. Wird er aber nicth, weil Fläche zu groß ist.
+[22:14:35] #Debug Schritt 3 Joint J0050: contact_region_ids=['CR_0052', 'CR_0061']; member_guids=['1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZyuE']; position=[-18.993, 29.6084, 0.0009]; geometry_type=2D_Fläche; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF'), ('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZyuE'), ('1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZyuE')]
+DEBUG-ZUSAMMEN oben
+[22:14:35] #Debug Schritt 3 Joint J0036: contact_region_ids=['CR_0036']; member_guids=['1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF']; position=[-18.9941, 27.2633, -0.0981]; geometry_type=1D_Linie; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF')]
+DEBUG-ZUSAMMEN unten
+[22:14:35] #Debug Schritt 3 Joint J0038: contact_region_ids=['CR_0038', 'CR_0055']; member_guids=['1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZx69']; position=[-18.9916, 25.0424, 0.0006]; geometry_type=2D_Fläche; gt_subgraph_edges=[('1soz90sYzCp8a2Do0djR8J', '1soz90sYzCp8a2Do0djRBF'), ('1soz90sYzCp8a2Do0djR8J', '2q2CBrfQTCKPY0zxCdZx69'), ('1soz90sYzCp8a2Do0djRBF', '2q2CBrfQTCKPY0zxCdZx69')]
+DEBUG-ZUSAMMEN
+
+
+
+
+DEBUG-ZUSAMMEN: Die Wahrheit sind 96 (64+3+27+2) nach manueller Einschätzung. Zählen die Deckenstöße zu den vorhandenen und nicht mehr als eigene, sind das die beiden, die zu viel sind.
+[22:14:36] 1.A: 98 Soll-Joints rekonstruiert.
+[22:14:36] PLATZHALTER: Ist-Joint-Extraktion (Analysemodell) noch nicht implementiert.
+[22:14:36] PLATZHALTER: Joint-Matching noch nicht implementiert.
+[22:14:36] PLATZHALTER: Fehlerklassifikation (E0-E7) noch nicht implementiert.
+[22:14:36] PLATZHALTER: Statistische Auswertung noch nicht implementiert.
+[22:14:36] PLATZHALTER: Homogene Knotenmerkmale noch nicht implementiert.
+[22:14:36] PLATZHALTER: Heterogene Knotenmerkmale (1D/2D) noch nicht implementiert.
+[22:14:36] Starte Distanzmessungen und Kantenbildung...
+[22:14:36] DEBUG: Kanten berechnet. Total: 113 | GT: 102 | RBC-TP: 91
+[22:14:36] PLATZHALTER: Kantenmerkmale (Flächenprojektion) noch nicht implementiert.
+[22:14:36] PLATZHALTER: Verdeckungsmerkmale noch nicht implementiert.
+[22:14:36] PLATZHALTER: Vereinheitlichung und Normalisierung für GNN-Training noch nicht implementiert.
+[22:14:38] Plot erstellt: model_9 2D.png
+[22:14:40] Plot erstellt: model_9 3D.png
+[22:14:41] Graph JSON gespeichert unter: model_9 Graph.json
