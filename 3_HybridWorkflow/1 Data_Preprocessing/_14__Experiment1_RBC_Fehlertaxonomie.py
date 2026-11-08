@@ -39,10 +39,13 @@ JOINT_POINT_EXTENT = 0.05 # [m] Maximale Ausdehnung L1, bis zu der eine Kontaktr
 JOINT_SAMPLE_SPACING = 0.025 # [m] Abtastabstand der Dreiecksflächen (Oberflächenkontakt). Default = 0.025
 JOINT_MAX_SAMPLES = 5000 # [-] Obergrenze der Abtastpunkte je Bauteil und Paar bzw. der Gitterpunkte im Volumentest. Default = 5000
 
+LINEAR_ELEMENT_TYPES = {"IfcBeam", "IfcColumn", "IfcMember", "IfcPile"}
+PLANAR_ELEMENT_TYPES = {"IfcSlab", "IfcWall", "IfcWallStandardCase", "IfcPlate"}
+
 # Schlüssel einer Kontaktregion (Reihenfolge wie im Dictionary in _compute_contact_regions)
 CONTACT_REGION_KEYS = (
     "region_id", "pair_id", "guid_a", "guid_b", "points", "centroid", "eigenvalues",
-    "lengths", "contact_type", "contact_method", "volume"
+    "lengths", "contact_type", "contact_method", "distance_m", "aabb_distance_m"
 )
 
 # =========================================================
@@ -96,18 +99,11 @@ class Experiment1RBCFehlertaxonomie:
         Schritt 1 der Joint-Rekonstruktion: Bestimmt die Kontaktregion R_ab
         für jedes Ground-Truth-Paar (a, b) und klassifiziert sie (0D bis 3D).
 
-        Prüfreihenfolge je Paar (vom billigsten zum teuersten Test):
-            Stufe 1: AABB-Vorfilter. Sind die Boxen um mehr als eps getrennt -> kein Kontakt.
-            Stufe 2: Volumentest, nur wenn die AABB-Überlappung in allen drei Achsen > eps ist
-                     (sonst kann keine Durchdringung > eps existieren). Gitterpunkte der
-                     Überlappungsbox, die in beiden Bauteilen liegen, bilden das
-                     Schnittvolumen und damit die Kontaktregion (Methode 'Volumen').
-            Stufe 3: Oberflächenkontakt, falls kein Schnittvolumen existiert. Abtastpunkte der
-                     Dreiecksflächen beider Bauteile mit Abstand <= eps zur Oberfläche des
-                     jeweils anderen bilden die Kontaktregion (Methode 'Oberfläche'):
-                     R_(a,b) = { x in dS_a, dS_b | d(x, Oberfläche des anderen Bauteils) <= eps }
-        Die Klassifikation (0D_Punkt, 1D_Linie, 2D_Fläche, 3D_Volumen) erfolgt per PCA
-        (siehe _classify_dimensionality).
+        Paare mit mehr als eps AABB-Abstand werden verworfen. Für alle übrigen
+        Paare bildet die AABB-Nähe die Standard-Kontaktregion. Ein Treffer der
+        genaueren Oberflächenprüfung innerhalb eps ersetzt diese AABB-Region.
+        Beide Abstände werden getrennt gespeichert. Die Klassifikation erfolgt
+        per PCA.
 
         Args:
             nodes (list[dict]): Knotenliste mit 'geom_raw' (Dreiecke, AABB) und 'guid'.
@@ -116,23 +112,25 @@ class Experiment1RBCFehlertaxonomie:
         Returns:
             list[dict]: Kontaktregionen mit den Schlüsseln aus CONTACT_REGION_KEYS.
         """
+        self.log("", print_console=False) # Leerzeile: Sprung zum nächsten GT-Paar
+        self.log(f"{'='*10} EXPERIMENT_1 RBC_Fehlertaxonomie {'='*10}")
         self.log(f"1.A Schritt 1: Bestimme Kontaktregionen für {len(gt_pairs)} GT-Paare (eps = {JOINT_EPSILON*1000:.1f} mm)...")
-        # #Debug Schritt 1: Alle Details landen im Protokoll, nicht in der Konsole.
         self.log(
-            f"#Debug Schritt 1 Konfiguration: epsilon={100 * JOINT_EPSILON:.6f} cm; tau={JOINT_TAU}; "
+            f"1.A Schritt 1: Konfiguration: epsilon={100 * JOINT_EPSILON:.2f} cm; tau={JOINT_TAU}; "
             f"point_extent={JOINT_POINT_EXTENT} m; sample_spacing={JOINT_SAMPLE_SPACING} m; "
             f"max_samples={JOINT_MAX_SAMPLES}",
-            print_console=False
         )
-        self.log(f"#Debug Schritt 1 Schlüssel je Kontaktregion: {list(CONTACT_REGION_KEYS)}", print_console=False)
+        self.log(f"1.A Schritt 1: Schlüssel je Kontaktregion: {list(CONTACT_REGION_KEYS)}")
         nodes_by_guid = {n["guid"]: n for n in nodes}
         contact_regions = []
         missing_pairs = []
         sorted_pairs = sorted(gt_pairs)
 
         for pair_index, (guid_a, guid_b) in enumerate(sorted_pairs, start=1):
+            # #Debug Schritt 1: Alle Details landen im Protokoll, nicht in der Konsole.
+            # self.log("", print_console=False) # Leerzeile: Sprung zum nächsten GT-Paar
+            
             pair_id = f"P{pair_index:04d}"
-            self.log("", print_console=False) # Leerzeile: Sprung zum nächsten GT-Paar
             node_a = nodes_by_guid.get(guid_a)
             node_b = nodes_by_guid.get(guid_b)
             if not node_a or not node_b:
@@ -140,84 +138,86 @@ class Experiment1RBCFehlertaxonomie:
                 missing_pairs.append({
                     "pair_id": pair_id, "guid_a": guid_a, "guid_b": guid_b, "reason": reason
                 })
-                self.log(
-                    f"#Debug Schritt 1 - Paar {pair_index}/{len(sorted_pairs)} "
-                    f"(ohne Kontaktregion): pair_id={pair_id}; GUID_A={guid_a}; "
-                    f"GUID_B={guid_b}; Grund={reason}",
-                    print_console=False
-                )
+                
+                # Protokoll - Kontaktregion für Paar gescheitert (kein Bauteil)
+                # self.log(
+                #     f"#Debug Schritt 1 - Paar {pair_index}/{len(sorted_pairs)} "
+                #     f"(ohne Kontaktregion): pair_id={pair_id}; "
+                #     f"GUID_A={guid_a}; GUID_B={guid_b}; Grund={reason}",
+                #     print_console=False
+                # )
                 if pair_index % 50 == 0 or pair_index == len(sorted_pairs):
                     self.log(
-                        f"Fortschritt Kontaktpaare: {pair_index}/{len(sorted_pairs)}",
+                        f"{' '*8}1.A Schritt 1: {pair_index}/{len(sorted_pairs)} Kontaktpaare geprüft...",
                         print_console=True
                     )
                 continue
 
-            # Stufe 1: AABB-Vorfilter. raw_dims = Überlappung der Boxen je Achse (negativ = Lücke)
+            # AABB-Vorprüfung entspricht einer Erweiterung um eps auf einer Seite.
             (min_a, max_a) = node_a["geom_raw"]["aabb"]
             (min_b, max_b) = node_b["geom_raw"]["aabb"]
             overlap_min = np.maximum(min_a, min_b)
             overlap_max = np.minimum(max_a, max_b)
             raw_dims = overlap_max - overlap_min
-            if np.any(raw_dims < -JOINT_EPSILON):
-                reason = "AABBs um mehr als Epsilon getrennt"
+            axis_gaps = np.maximum(-raw_dims, 0.0)
+            
+            aabb_distance = float(np.linalg.norm(axis_gaps))
+            aabb_overlap = np.round(raw_dims, 3).tolist()
+            
+            if np.any(axis_gaps > JOINT_EPSILON):
+                reason = "AABB-Abstand größer als Epsilon"
                 missing_pairs.append({
-                    "pair_id": pair_id, "guid_a": guid_a, "guid_b": guid_b, "reason": reason
+                    "pair_id": pair_id, "guid_a": guid_a, "guid_b": guid_b, "reason": reason,
+                    "aabb_distance": aabb_distance, "aabb_overlap": aabb_overlap
                 })
-                self.log(
-                    f"#Debug Schritt 1 - Paar {pair_index}/{len(sorted_pairs)} "
-                    f"(ohne Kontaktregion): pair_id={pair_id}; GUID_A={guid_a}; "
-                    f"GUID_B={guid_b}; Grund={reason}; "
-                    f"AABB-Überlappung_m={np.round(raw_dims, 6).tolist()}",
-                    print_console=False
-                )
+                
+                # Protokoll - Kontaktregion für Paar gescheitert (zu weit entfernt)
+                # self.log(
+                #     f"#Debug Schritt 1 - Paar {pair_index}/{len(sorted_pairs)} "
+                #     f"(ohne Kontaktregion): pair_id={pair_id}; "
+                #     f"GUID_A={guid_a}; GUID_B={guid_b}; Grund={reason}; "
+                #     f"AABB-Abstand_m={aabb_distance}; "
+                #     f"AABB-Überlappung_m={aabb_overlap}",
+                #     print_console=False
+                # )
                 if pair_index % 50 == 0 or pair_index == len(sorted_pairs):
                     self.log(
-                        f"Fortschritt Kontaktpaare: {pair_index}/{len(sorted_pairs)}",
+                        f"{' '*8}1.A Schritt 1: {pair_index}/{len(sorted_pairs)} Kontaktpaare geprüft...",
                         print_console=True
                     )
                 continue
 
             tri_a = node_a["geom_raw"]["triangles"]
             tri_b = node_b["geom_raw"]["triangles"]
-            contact_points = None
-            method = ""
-            volume = 0.0
-            d_min = float('nan')
+            # AABB-Näherung als Standardregion; getrennte Achsen werden auf
+            # den Mittelpunkt zwischen den nächstliegenden Boxflächen gesetzt.
+            region_min = overlap_min.copy()
+            region_max = overlap_max.copy()
+            separated_axes = raw_dims < 0.0
+            midpoints = (overlap_min + overlap_max) * 0.5
+            region_min[separated_axes] = midpoints[separated_axes]
+            region_max[separated_axes] = midpoints[separated_axes]
+            contact_points = np.array([
+                [x, y, z]
+                for x in (region_min[0], region_max[0])
+                for y in (region_min[1], region_max[1])
+                for z in (region_min[2], region_max[2])
+            ], dtype=float)
+            contact_points = np.unique(contact_points, axis=0)
+            method = "AABB"
 
-            # Stufe 2: Schnittvolumen (nur möglich, wenn die Boxen sich in allen Achsen > eps überlappen)
-            if np.all(raw_dims > JOINT_EPSILON):
-                contact_points, volume = self._contact_from_volume(tri_a, tri_b, overlap_min, overlap_max)
-                if contact_points is not None:
-                    method = "Volumen"
-
-            # Stufe 3: Oberflächenkontakt, falls kein Schnittvolumen gefunden wurde
-            if contact_points is None:
-                volume = 0.0
-                contact_points, d_min = self._contact_from_surfaces(
-                    tri_a, tri_b, overlap_min - JOINT_EPSILON, overlap_max + JOINT_EPSILON
-                )
-                if contact_points is not None:
-                    method = "Oberfläche"
-
-            if contact_points is None:
-                reason = "Kein Punkt innerhalb Epsilon"
-                missing_pairs.append({
-                    "pair_id": pair_id, "guid_a": guid_a, "guid_b": guid_b, "reason": reason
-                })
-                self.log(
-                    f"#Debug Schritt 1 - Paar {pair_index}/{len(sorted_pairs)} "
-                    f"(ohne Kontaktregion): pair_id={pair_id}; GUID_A={guid_a}; "
-                    f"GUID_B={guid_b}; Grund={reason}; "
-                    f"kleinster_Oberflächenabstand_m={d_min:.6f}",
-                    print_console=False
-                )
-                if pair_index % 50 == 0 or pair_index == len(sorted_pairs):
-                    self.log(
-                        f"Fortschritt Kontaktpaare: {pair_index}/{len(sorted_pairs)}",
-                        print_console=True
-                    )
-                continue
+            # Die Mesh-Prüfung kann die AABB-Methode verfeinern, aber keinen
+            # bereits akzeptierten AABB-Treffer verwerfen.
+            surface_points, surface_distance = self._contact_from_surfaces(
+                tri_a, tri_b, overlap_min - JOINT_EPSILON, overlap_max + JOINT_EPSILON
+            )
+            if surface_points is not None:
+                contact_points = surface_points
+                method = "Oberfläche"
+            else:
+                surface_distance = self._minimum_mesh_distance(tri_a, tri_b)
+            distance_m = float(surface_distance) if np.isfinite(surface_distance) else None
+            distance_text = f"{surface_distance:.3f}" if distance_m is not None else "nicht verfügbar"
 
             # Charakterisierung und Klassifikation der Kontaktregion
             centroid = np.mean(contact_points, axis=0)
@@ -235,88 +235,526 @@ class Experiment1RBCFehlertaxonomie:
                 "lengths": L,
                 "contact_type": contact_type,
                 "contact_method": method,
-                "volume": volume
+                "distance_m": distance_m,
+                "aabb_distance_m": round(aabb_distance,6)
             }
             contact_regions.append(region)
 
-            self.log(
-                f"#Debug Schritt 1 - Paar {pair_index}/{len(sorted_pairs)} "
-                f"(Kontaktregion {region['region_id']}): pair_id={pair_id}; "
-                f"GUID_A={guid_a}; GUID_B={guid_b}; points={len(contact_points)}; "
-                f"centroid={np.round(centroid, 6).tolist()}; "
-                f"eigenvalues={np.round(eigenvalues, 8).tolist()}; "
-                f"lengths_m={np.round(L, 6).tolist()}; "
-                f"contact_method={method}; contact_type={contact_type}; "
-                f"volume_m3={volume:.6f}",
-                print_console=False
-            )
+            # Protokoll - Kontaktregion für Paar erfolgreich
+            # self.log(
+            #     f"#Debug Schritt 1 - Paar {pair_index}/{len(sorted_pairs)} "
+            #     f"(Kontaktregion {region['region_id']}): pair_id={pair_id}; "
+            #     f"GUID_A={guid_a}; GUID_B={guid_b}; points={len(contact_points)}; "
+            #     f"centroid={np.round(centroid, 2).tolist()}; "
+            #     f"eigenvalues={np.round(eigenvalues, 3).tolist()}; "
+            #     f"lengths_m={np.round(L, 2).tolist()}; "
+            #     f"contact_method={method}; contact_type={contact_type}; "
+            #     f"surface_distance_m={distance_text}; "
+            #     f"aabb_distance_m={aabb_distance:.3f}",
+            #     print_console=False
+            # )
             if pair_index % 50 == 0 or pair_index == len(sorted_pairs):
                 self.log(
-                    f"Fortschritt Kontaktpaare: {pair_index}/{len(sorted_pairs)}",
+                    f"{' '*8}1.A Schritt 1: {pair_index}/{len(sorted_pairs)} Kontaktpaare geprüft...",
                     print_console=True
                 )
-        self.log("", print_console=False) # Leerzeile nach dem letzten GT-Paar
 
         type_counts = {}
         for region in contact_regions:
             type_counts[region["contact_type"]] = type_counts.get(region["contact_type"], 0) + 1
-        self.log(f"1.A Schritt 1: {len(contact_regions)} Kontaktregionen gefunden.")
+        # Protokoll - Zusammenfassung Schritt 1
+        self.log("", print_console=False) # Leerzeile vor Bericht
         self.log(
-            f"#Debug Schritt 1 Zusammenfassung: GT-Paare={len(gt_pairs)}; "
-            f"Kontaktregionen={len(contact_regions)}; ohne Region={len(missing_pairs)}; "
-            f"Verteilung_contact_type={type_counts}; "
+            f"1.A Schritt 1: Zusammenfassung: "
+            f"\nGT-Paare={len(gt_pairs)} | "
+            f"Kontaktregionen={len(contact_regions)} | ohne Region={len(missing_pairs)} | "
+            f"Verteilung_contact_type={type_counts} | "
             f"fehlende_Paar_IDs={[missing['pair_id'] for missing in missing_pairs]}",
             print_console=False
         )
+        
+        # Protokoll - Tabelle - Paare ohne Kontaktregion
+        self.log("", print_console=False) # Leerzeile vor Tabelle
         self.log(
-            "#Debug Schritt 1 Tabelle Paare ohne Kontaktregion:",
+            "1.A Schritt 1: Tabelle - Paare ohne Kontaktregion:",
             print_console=False
         )
         self.log(
-            "#Debug Schritt 1 | pair_id | GUID_A | GUID_B | Grund |",
+            "1.A Schritt 1: | pair_id | GUID_A | GUID_B | Grund | aabb_distance | aabb_overlap |",
             print_console=False
         )
         for missing in missing_pairs:
-            self.log(
-                f"#Debug Schritt 1 | {missing['pair_id']} | {missing['guid_a']} | "
-                f"{missing['guid_b']} | {missing['reason']} |",
-                print_console=False
-            )
+            # Pflichtfelder
+            parts = [
+                "1.A Schritt 1:",
+                missing['pair_id'],
+                missing['guid_a'],
+                missing['guid_b'],
+                missing['reason'],
+            ]
+            
+            # Optionale Felder bei zu großer Distanz
+            for key in ("aabb_distance_m", "aabb_overlap_m"):
+                if key in missing:
+                    parts.append(f"{missing[key]}")
+            
+            self.log(" | ".join(map(str, parts)) + " |", print_console=False)            
+        
+        # Protokoll - Tabelle - Paare mit Kontaktregion
+        self.log("", print_console=False) # Leerzeile vor Tabelle
         self.log(
-            "#Debug Schritt 1 Kontaktpaar-Tabelle:",
+            "1.A Schritt 1: Tabelle - Paare mit Kontaktregion:",
             print_console=False
         )
         self.log(
-            "#Debug Schritt 1 | pair_id | region_id | GUID_A | GUID_B |",
+            f"1.A Schritt 1: | pair_id | region_id | GUID_A | GUID_B | "
+            f"centroid | eigenvalues | lengths | surface_distance_m | aabb_distance_m |",
             print_console=False
         )
         for region in contact_regions:
+            parts = [
+                "1.A Schritt 1:",
+                region['pair_id'],
+                region['region_id'],
+                region['guid_a'],
+                region['guid_b'],
+                # f"{len(region['contact_points'])}",
+                np.round(region['centroid'], 2).tolist(),
+                np.round(region['eigenvalues'], 3).tolist(),
+                np.round(region['lengths'], 2).tolist(),
+                # region['contact_method'],
+                # region['contact_type'],
+                f"{region['distance_m']:.3f}",
+                f"{region['aabb_distance_m']:.3f}",
+            ]
+            
+            self.log(" | ".join(map(str, parts)) + " |", print_console=False)
+        return contact_regions
+
+
+    def _minimum_point_cloud_distance(self, points_a, points_b):
+        """Berechnet den kleinsten euklidischen Abstand zweier Kontaktpunktwolken.
+
+        Die Berechnung verwendet Punktblöcke, damit nicht die vollständige
+        Distanzmatrix beider Punktwolken gleichzeitig im Speicher liegt.
+        Zeilen mit ungültigen Koordinaten werden ignoriert. Ist danach eine
+        Punktwolke leer, wird unendlicher Abstand zurückgegeben.
+
+        Args:
+            points_a (array-like): Erste Punktwolke mit drei Koordinaten je Punkt.
+            points_b (array-like): Zweite Punktwolke mit drei Koordinaten je Punkt.
+
+        Returns:
+            float: Kürzester Punkt-zu-Punkt-Abstand in den Einheiten der Koordinaten.
+        """
+        points_a = np.asarray(points_a, dtype=float).reshape(-1, 3)
+        points_b = np.asarray(points_b, dtype=float).reshape(-1, 3)
+        points_a = points_a[np.all(np.isfinite(points_a), axis=1)]
+        points_b = points_b[np.all(np.isfinite(points_b), axis=1)]
+        if not len(points_a) or not len(points_b):
+            return float("inf")
+
+        min_squared = float("inf")
+        block_size = 256
+        for start_a in range(0, len(points_a), block_size):
+            block_a = points_a[start_a:start_a + block_size]
+            norms_a = np.einsum("ij,ij->i", block_a, block_a)[:, None]
+            for start_b in range(0, len(points_b), block_size):
+                block_b = points_b[start_b:start_b + block_size]
+                norms_b = np.einsum("ij,ij->i", block_b, block_b)[None, :]
+                squared = norms_a + norms_b - 2.0 * block_a @ block_b.T
+                min_squared = min(min_squared, float(np.min(np.maximum(squared, 0.0))))
+        return float(np.sqrt(min_squared))
+
+
+    def _element_category_and_thickness(self, node):
+        """Ordnet unterstützte IFC-Bauteile ein und bestimmt ihre Dicke.
+
+        Für lineare Bauteile wird nach absteigender Sortierung der Abmessungen
+        die mittlere Abmessung als maximaler Querschnitt verwendet. Für
+        planare Bauteile wird die kleinste Abmessung als Dicke verwendet.
+        Unbekannte IFC-Typen und ungültige Abmessungen werden nicht geschätzt.
+
+        Args:
+            node (dict): Extrahierter IFC-Knoten mit `entity_processed` und
+                drei Bauteilabmessungen in Metern.
+
+        Returns:
+            tuple: Kategorie (`linear` oder `planar`), Dicke in Metern oder
+                `None`, und eine Begründung, falls keine Dicke bestimmbar ist.
+        """
+        entity_type = node.get("entity_processed")
+        if entity_type in LINEAR_ELEMENT_TYPES:
+            category = "linear"
+        elif entity_type in PLANAR_ELEMENT_TYPES:
+            category = "planar"
+        else:
+            return None, None, f"nicht unterstützter oder mehrdeutiger IFC-Typ {entity_type!r}"
+
+        try:
+            dimensions = np.asarray(node.get("dimensions"), dtype=float).reshape(3)
+        except (TypeError, ValueError):
+            return category, None, "Bauteilabmessungen fehlen oder sind ungültig"
+        if not np.all(np.isfinite(dimensions)) or np.any(dimensions <= 0):
+            return category, None, "Bauteilabmessungen sind nicht endlich oder nicht positiv"
+
+        sorted_dimensions = np.sort(dimensions)[::-1]
+        thickness = sorted_dimensions[1] if category == "linear" else sorted_dimensions[2]
+        return category, float(thickness), None
+
+
+    def _build_soll_joints(self, nodes, gt_pairs, contact_regions):
+        """
+        Schritt 2 der Joint-Rekonstruktion: Rekonstruiert lokale Soll-Joints 
+        aus GT-Paaren und Kontaktregionen.
+
+        Die Ground Truth beschränkt die Suche auf zulässige Bauteilpaare.
+        Jedes Joint startet bei einer festen Ankerregion. Weitere Paare werden
+        nur über bereits enthaltene GUIDs gesucht und nur dann aufgenommen,
+        wenn ihre Kontaktpunktwolke nahe an jeder schon enthaltenen Region
+        liegt. Abgelehnte Paare werden nicht als Graph-Zwischenstation genutzt.
+
+        Der Abstandsgrenzwert wird vor jeder Kandidatenprüfung aus den
+        charakteristischen Dicken der aktuell enthaltenen Bauteile bestimmt.
+        Am Ende enthält jedes Joint eindeutige Bauteil-GUIDs sowie die
+        punktgewichtete mittlere Position aller enthaltenen Kontaktpunkte.
+
+        Args:
+            nodes (list[dict]): IFC-Knoten mit GUID, Typ und Abmessungen.
+            gt_pairs (iterable[tuple[str, str]]): Zulässige GT-Paare als
+                GUID-Tupel.
+            contact_regions (list[dict]): Kontaktregionen aus Schritt 1,
+                jeweils mit GUIDs, IDs und Punktwolke.
+
+        Returns:
+            list[dict]: Soll-Joints mit Paar-/Regions-IDs, eindeutigen GUIDs,
+                Bauteildaten und Position.
+        """
+        self.log("", print_console=False) # Leerzeile: Sprung zum nächsten Schritt
+        self.log(f"1.A Schritt 2: Clustere Kontaktpärchen zu lokalen Soll-Joints...")
+
+        # Indizes ermöglichen die Nachbarsuche über gemeinsame GUIDs, ohne
+        # für jedes Joint wieder alle GT-Paare vollständig zu durchsuchen.
+        nodes_by_guid = {node["guid"]: node for node in nodes}
+        sorted_pairs = sorted(tuple(sorted(pair)) for pair in gt_pairs)
+        pair_ids = {pair: f"P{index:04d}" for index, pair in enumerate(sorted_pairs, start=1)}
+        pair_by_region = {
+            tuple(sorted((region["guid_a"], region["guid_b"]))): region
+            for region in contact_regions
+        }
+        pairs_by_guid = {}
+        for pair in sorted_pairs:
+            for guid in pair:
+                pairs_by_guid.setdefault(guid, []).append(pair)
+
+        # Bauteildicken und Mehrfachzuordnung werden pro Lauf nur einmal bestimmt.
+        thickness_cache = {}
+        pair_reuse_cache = {}
+        assigned_pairs = set()
+        assigned_exclusive_pairs = set()
+        soll_joints = []
+
+        def category_and_thickness(guid):
+            if guid not in thickness_cache:
+                node = nodes_by_guid.get(guid)
+                if node is None:
+                    result = (None, None, "GUID nicht in den extrahierten Knoten gefunden")
+                else:
+                    result = self._element_category_and_thickness(node)
+                thickness_cache[guid] = result
+                if result[1] is None:
+                    self.log(
+                        f"WARNUNG 1.A Schritt 2: Bauteildicke nicht verwendbar; GUID={guid}; "
+                        f"Grund={result[2]}", print_console=False
+                    )
+            return thickness_cache[guid]
+
+        def pair_allows_multiple_joints(pair):
+            if pair not in pair_reuse_cache:
+                categories = [category_and_thickness(guid)[0] for guid in pair]
+                pair_reuse_cache[pair] = (
+                    all(category is not None for category in categories)
+                    and "planar" in categories
+                )
+            return pair_reuse_cache[pair]
+
+        def joint_distance_limit(member_guids, joint_id):
+            """Ermittelt den aktuellen Grenzwert; unbekannte Dicken verhindern ihn."""
+            thicknesses = [
+                (guid, category_and_thickness(guid)[1])
+                for guid in sorted(member_guids)
+            ]
+            available = [(guid, value) for guid, value in thicknesses if value is not None]
+            missing = [guid for guid, value in thicknesses if value is None]
+            if missing:
+                self.log(
+                    f"WARNUNG 1.A Schritt 2: Abstandsgrenzwert nicht begründbar; "
+                    f"joint_id={joint_id}; GUIDs_ohne_Dicke={missing}",
+                    print_console=False
+                )
+                return None
+            max_thickness = max(value for _, value in available)
+            distance_limit = JOINT_DELTA_SCALE * max_thickness
+            # thickness_text = [(guid, round(value, 2)) for guid, value in available]
+            # self.log(
+            #     f"#Debug Schritt 2 Grenzwert: joint_id={joint_id}; "
+            #     f"Dicken_m={thickness_text}; delta_scale={JOINT_DELTA_SCALE}; "
+            #     f"d_max_m={distance_limit:.2f}",
+            #     print_console=False
+            # )
+            return distance_limit
+
+        sorted_regions = sorted(
+            contact_regions,
+            key=lambda region: (region.get("pair_id", ""), region.get("region_id", ""))
+        )
+        
+        for idx,seed_region in enumerate(sorted_regions):
+            seed_pair = tuple(sorted((seed_region["guid_a"], seed_region["guid_b"])))
+            if seed_pair in assigned_pairs:
+                continue
+
+            # Die erste Region ist der unveränderliche räumliche Startanker.
+            joint_id = f"J{len(soll_joints) + 1:04d}"
+            member_pairs = [seed_pair]
+            member_regions = [seed_region]
+            member_guids = set(seed_pair)
+            frontier = [(seed_pair, 0)]
+            checked_pairs = {seed_pair}
+            level_counts = {}
+            warned_seven = False
+            warned_ten = False
+
+            # #Debug Schritt 2: Alle Details landen im Protokoll, nicht in der Konsole.
+            self.log("", print_console=False) # Leerzeile: Sprung zum nächsten GT-Paar
             self.log(
-                f"#Debug Schritt 1 | {region['pair_id']} | {region['region_id']} | "
-                f"{region['guid_a']} | {region['guid_b']} |",
+                f"#Debug Schritt 2 Joint-Start: joint_id={joint_id}; "
+                f"pair_id={seed_region.get('pair_id')}; "
+                f"region_id={seed_region.get('region_id')}; GUIDs={list(seed_pair)}",
                 print_console=False
             )
-        return contact_regions
+
+            while frontier:
+                # Erzeuge die nächste Ebene ausschließlich aus aufgenommenen
+                # Paaren; abgelehnte Kandidaten gelangen nie in diese Frontier.
+                candidate_levels = {}
+                for current_pair, current_level in frontier:
+                    candidate_level = current_level + 1
+                    for guid in current_pair:
+                        for candidate_pair in pairs_by_guid.get(guid, []):
+                            if candidate_pair not in checked_pairs:
+                                candidate_levels[candidate_pair] = min(
+                                    candidate_level,
+                                    candidate_levels.get(candidate_pair, candidate_level)
+                                )
+                                checked_pairs.add(candidate_pair)
+
+                next_frontier = []
+                for candidate_pair in sorted(
+                    candidate_levels,
+                    key=lambda pair: (pair_ids.get(pair, ""), pair)
+                ):
+                    level = candidate_levels[candidate_pair]
+                    counts = level_counts.setdefault(level, {"checked": 0, "accepted": 0, "pairs": []})
+                    counts["checked"] += 1
+                    pair_id = pair_ids.get(candidate_pair, "unbekannt")
+                    candidate_region = pair_by_region.get(candidate_pair)
+                    # #Debug Schritt 2: Alle Details landen im Protokoll, nicht in der Konsole.
+                    if candidate_region is None:
+                        self.log(
+                            f"{' '*8}Kandidat abgelehnt: joint_id={joint_id}; "
+                            f"pair_id={pair_id}; Grund=keine Kontaktregion aus Schritt 1",
+                            print_console=False
+                        )
+                        continue
+                    if (candidate_pair in assigned_exclusive_pairs
+                            and candidate_pair not in member_pairs):
+                        self.log(
+                            f"{' '*8}Kandidat abgelehnt: joint_id={joint_id}; "
+                            f"pair_id={pair_id}; Grund=linienartiges Paar bereits anderem Joint zugeordnet",
+                            print_console=False
+                        )
+                        continue
+
+                    distance_limit = joint_distance_limit(member_guids, joint_id)
+                    if distance_limit is None:
+                        self.log(
+                            f"{' '*8}Kandidat abgelehnt: joint_id={joint_id}; "
+                            f"pair_id={pair_id}; Grund=kein begründbarer Abstandsgrenzwert",
+                            print_console=False
+                        )
+                        continue
+
+                    failed_comparison = None
+                    # Der Kandidat muss zu jeder bereits enthaltenen Region passen,
+                    # nicht nur zum ursprünglichen Startanker.
+                    for member_region in member_regions:
+                        min_distance = self._minimum_point_cloud_distance(
+                            candidate_region["points"], member_region["points"]
+                        )
+                        if min_distance > distance_limit:
+                            failed_comparison = (member_region, min_distance)
+                            break
+                    if failed_comparison is not None:
+                        member_region, min_distance = failed_comparison
+                        self.log(
+                            f"{' '*8}Kandidat abgelehnt: joint_id={joint_id}; "
+                            f"level={level}; pair_id={pair_id}; "
+                            f"region_id={candidate_region['region_id']}; "
+                            f"Referenzregion={member_region['region_id']}; "
+                            f"d_min_m={min_distance:.3f}; d_max_m={distance_limit:.3f}",
+                            print_console=False
+                        )
+                        continue
+
+                    member_pairs.append(candidate_pair)
+                    member_regions.append(candidate_region)
+                    member_guids.update(candidate_pair)
+                    counts["accepted"] += 1
+                    counts["pairs"].append(pair_id)
+                    next_frontier.append((candidate_pair, level))
+                    guid_a, guid_b = candidate_pair
+                    self.log(
+                        f"{' '*8}Kandidat aufgenommen: joint_id={joint_id}; "
+                        f"level={level}; pair_id={pair_id}; "
+                        f"region_id={candidate_region['region_id']}; "
+                        f"GUID_A={guid_a}; GUID_B={guid_b}",
+                        print_console=False
+                    )
+
+                    if len(member_guids) >= 7 and not warned_seven:
+                        self.log(
+                            f"WARNUNG Schritt 2: Joint mit mindestens 7 Bauteilen prüfbedürftig; "
+                            f"joint_id={joint_id}; GUID_count={len(member_guids)}",
+                            print_console=False
+                        )
+                        warned_seven = True
+                    if len(member_guids) >= 10 and not warned_ten:
+                        self.log(
+                            f"WARNUNG Schritt 2: Mögliche Überkopplung ab 10 Bauteilen; "
+                            f"joint_id={joint_id}; GUID_count={len(member_guids)}",
+                            print_console=False
+                        )
+                        warned_ten = True
+
+                frontier = next_frontier
+
+            # Zusätzliche Suchebenen sind erlaubt, werden aber zur fachlichen
+            # Kontrolle im Protokoll hervorgehoben.
+            if 2 in level_counts:
+                counts = level_counts[2]
+                self.log(
+                    f"WARNUNG Schritt 2: Suche über Ebene 1 hinaus; joint_id={joint_id}; "
+                    f"level=2; geprüft={counts['checked']}; aufgenommen={counts['accepted']}; "
+                    f"pair_ids={counts['pairs']}", print_console=False
+                )
+            deeper_levels = [level for level in level_counts if level >= 3]
+            if deeper_levels:
+                checked = sum(level_counts[level]["checked"] for level in deeper_levels)
+                accepted = sum(level_counts[level]["accepted"] for level in deeper_levels)
+                pair_ids_deep = [
+                    pair_id for level in sorted(deeper_levels)
+                    for pair_id in level_counts[level]["pairs"]
+                ]
+                self.log(
+                    f"WARNUNG Schritt 2: Suche über Ebene 2 hinaus; joint_id={joint_id}; "
+                    f"level_ab={min(deeper_levels)}; geprüft={checked}; aufgenommen={accepted}; "
+                    f"pair_ids={pair_ids_deep}", print_console=False
+                )
+
+            assigned_pairs.update(member_pairs)
+            for pair in member_pairs:
+                if not pair_allows_multiple_joints(pair):
+                    assigned_exclusive_pairs.add(pair)
+
+            # Die Joint-Position ist ein punktgewichteter Schwerpunkt und dient
+            # nur der Orientierung, nicht als räumlicher Suchanker.
+            point_sum = np.zeros(3, dtype=float)
+            point_count = 0
+            for region in member_regions:
+                points = np.asarray(region["points"], dtype=float).reshape(-1, 3)
+                finite_points = points[np.all(np.isfinite(points), axis=1)]
+                point_sum += np.sum(finite_points, axis=0)
+                point_count += len(finite_points)
+            position = (point_sum / point_count).tolist() if point_count else [0.0, 0.0, 0.0]
+
+            elements = []
+            for guid in sorted(member_guids):
+                node = nodes_by_guid.get(guid, {})
+                category, thickness, _ = category_and_thickness(guid)
+                elements.append({
+                    "guid": guid,
+                    "name": node.get("name"),
+                    "entity": node.get("entity_processed"),
+                    "dimensions": list(node["dimensions"]) if node.get("dimensions") is not None else None,
+                    "category": category,
+                    "characteristic_thickness_m": thickness,
+                })
+
+            joint = {
+                "joint_id": joint_id,
+                "pair_ids": sorted({pair_ids.get(pair, "unbekannt") for pair in member_pairs}),
+                "region_ids": sorted({region["region_id"] for region in member_regions}),
+                "guids": sorted(member_guids),
+                "guid_count": len(member_guids),
+                "elements": elements,
+                "position": [round(value, 3) for value in position],
+            }
+            soll_joints.append(joint)
+            
+            if len(soll_joints) % 10 == 0 or idx == len(sorted_regions):
+                self.log(
+                    f"{' '*8}1.A Schritt 2: {joint['joint_id']} erstellt...",
+                    print_console=True
+                )
+            
+            self.log(
+                f"#Debug Schritt 2 Joint fertig: joint_id={joint_id}; "
+                f"pair_ids={joint['pair_ids']}; region_ids={joint['region_ids']}; "
+                f"GUID_count={joint['guid_count']}; GUIDs={joint['guids']}; "
+                f"position={joint['position']}",
+                print_console=False
+            )
+
+        guid_counts = [d['guid_count'] for d in soll_joints if "guid_count" in d]
+        valenz = sum(guid_counts) / len(guid_counts) if guid_counts else 0        
+        
+        # Protokoll - Zusammenfassung Schritt 2
+        self.log("", print_console=False) # Leerzeile vor Bericht
+        self.log(
+            f"1.A Schritt 2: Zusammenfassung: "
+            f"\nSoll-Joints={len(soll_joints)} | "
+            f"Valenz={valenz:.2f} | min_count={min(guid_counts)} | max_count={max(guid_counts)}",
+            print_console=False
+        )
+        
+        # Protokoll - Tabelle - Übersichtsliste aller Soll-Joints
+        self.log("", print_console=False) # Leerzeile vor Liste
+        for joint in soll_joints:
+            self.log(
+                f"1.A Schritt 2: Soll_Joint_ID: {joint['joint_id']} | "
+                f"counts: {joint['guid_count']} | position: {joint['position']} | "
+                f"GUIDs: {joint['guids']}"
+            )
+        return soll_joints
 
 
     def _contact_from_surfaces(self, tri_a, tri_b, box_min, box_max):
         """
-        Oberflächenkontakt (Stufe 3): Tastet die Dreiecksflächen beider Bauteile innerhalb
-        der Box ab und behält alle Punkte, deren exakter Abstand zur Oberfläche des jeweils
-        anderen Bauteils <= eps ist.
+        Prüft die Dreiecksoberflächen innerhalb der Box auf Abstand <= eps.
         Hinweis: Die 'test_points' aus dem Dateneingang tasten nur Dreieckskanten ab und
         reichen für Flächenkontakte nicht aus; daher werden die Dreiecksflächen hier selbst abgetastet.
 
         Args:
             tri_a (np.ndarray): Dreiecke von Bauteil a, Shape (n, 3, 3).
             tri_b (np.ndarray): Dreiecke von Bauteil b, Shape (m, 3, 3).
-            box_min (np.ndarray): Untere Ecke der um eps aufgeweiteten Überlappungsbox.
-            box_max (np.ndarray): Obere Ecke der um eps aufgeweiteten Überlappungsbox.
+            box_min (np.ndarray): Untere Ecke des lokalen Suchbereichs.
+            box_max (np.ndarray): Obere Ecke des lokalen Suchbereichs.
 
         Returns:
             tuple: (points, d_min)
                 points (np.ndarray | None): Kontaktpunkte (Vereinigung beider Seiten) oder None.
-                d_min (float): Kleinster gefundener Oberflächenabstand in [m] (Debug).
+                d_min (float): Kleinster gefundener Oberflächenabstand in [m].
         """
         # Abtastquellen: Dreiecke in der Box; Abstandsziele: Dreiecke bis eps um die Box
         source_a = self._select_triangles_in_box(tri_a, box_min, box_max)
@@ -336,80 +774,119 @@ class Experiment1RBCFehlertaxonomie:
         return (contact if len(contact) else None), float(d_min)
 
 
-    def _contact_from_volume(self, tri_a, tri_b, box_min, box_max):
-        """
-        Schnittvolumen (Stufe 2): Legt ein Gitter in die Überlappungsbox der AABBs und behält
-        alle Gitterpunkte, die in beiden Bauteilen liegen (Strahl-Parität, siehe _inside_mesh).
-        Zuerst wird gegen Bauteil a getestet; nur die verbleibenden Punkte gegen Bauteil b.
-        Das Volumen ergibt sich aus Punktanzahl x Zellvolumen.
+    def _minimum_mesh_distance(self, triangles_a, triangles_b):
+        """Berechnet den kleinsten Abstand zweier Dreiecksnetze."""
+        if not len(triangles_a) or not len(triangles_b):
+            return float('inf')
+        vertices_a = triangles_a.reshape(-1, 3)
+        vertices_b = triangles_b.reshape(-1, 3)
+        distance = min(
+            float(self._point_triangle_distance(vertices_a, triangles_b).min()),
+            float(self._point_triangle_distance(vertices_b, triangles_a).min()),
+        )
 
-        Args:
-            tri_a (np.ndarray): Dreiecke von Bauteil a, Shape (n, 3, 3).
-            tri_b (np.ndarray): Dreiecke von Bauteil b, Shape (m, 3, 3).
-            box_min (np.ndarray): Untere Ecke der AABB-Überlappung.
-            box_max (np.ndarray): Obere Ecke der AABB-Überlappung.
+        edges_a = np.concatenate((
+            triangles_a[:, [0, 1]],
+            triangles_a[:, [1, 2]],
+            triangles_a[:, [2, 0]],
+        ))
+        edges_b = np.concatenate((
+            triangles_b[:, [0, 1]],
+            triangles_b[:, [1, 2]],
+            triangles_b[:, [2, 0]],
+        ))
 
-        Returns:
-            tuple: (points, volume)
-                points (np.ndarray | None): Punkte des Schnittvolumens oder None.
-                volume (float): Geschätztes Schnittvolumen in [m^3].
-        """
-        dims = box_max - box_min
-        # Zellgröße h: so, dass das Gitter etwa JOINT_MAX_SAMPLES Punkte hat, nie feiner als eps
-        h = max(JOINT_EPSILON, (float(np.prod(dims)) / JOINT_MAX_SAMPLES) ** (1.0 / 3.0))
-        counts = np.maximum(1, np.ceil(dims / h).astype(int))
-        grid_axes = [box_min[i] + (np.arange(counts[i]) + 0.5) * dims[i] / counts[i] for i in range(3)]
-        grid = np.stack(np.meshgrid(*grid_axes, indexing="ij"), axis=-1).reshape(-1, 3)
-        cell_volume = float(np.prod(dims / counts))
+        def edges_intersect_triangles(edges, triangles):
+            block_size = max(1, 100_000 // len(triangles))
+            a, b, c = triangles[:, 0], triangles[:, 1], triangles[:, 2]
+            edge_1, edge_2 = b - a, c - a
+            for start in range(0, len(edges), block_size):
+                block = edges[start:start + block_size]
+                origin = block[:, None, 0]
+                direction = (block[:, 1] - block[:, 0])[:, None, :]
+                h = np.cross(direction, edge_2[None, :, :])
+                determinant = np.sum(edge_1[None, :, :] * h, axis=2)
+                valid = np.abs(determinant) > 1e-12
+                inverse = np.divide(
+                    1.0,
+                    determinant,
+                    out=np.zeros_like(determinant),
+                    where=valid,
+                )
+                offset = origin - a[None, :, :]
+                u = inverse * np.sum(offset * h, axis=2)
+                q = np.cross(offset, edge_1[None, :, :])
+                v = inverse * np.sum(direction * q, axis=2)
+                t = inverse * np.sum(edge_2[None, :, :] * q, axis=2)
+                if np.any(
+                    valid & (u >= 0.0) & (v >= 0.0) & (u + v <= 1.0)
+                    & (t >= 0.0) & (t <= 1.0)
+                ):
+                    return True
+            return False
 
-        # Strahl in +z: Es werden alle Dreiecke mit Überlappung in x/y benötigt, unabhängig von z
-        near_a = self._select_triangles_in_box(tri_a, box_min, box_max, axes=(0, 1))
-        grid = grid[self._inside_mesh(grid, near_a)]
-        if len(grid) == 0:
-            return None, 0.0
-        near_b = self._select_triangles_in_box(tri_b, box_min, box_max, axes=(0, 1))
-        grid = grid[self._inside_mesh(grid, near_b)]
-        if len(grid) == 0:
-            return None, 0.0
-        return grid, len(grid) * cell_volume
+        if edges_intersect_triangles(edges_a, triangles_b):
+            return 0.0
+        if edges_intersect_triangles(edges_b, triangles_a):
+            return 0.0
 
+        starts_b = edges_b[None, :, 0]
+        vectors_b = (edges_b[:, 1] - edges_b[:, 0])[None, :, :]
 
-    def _inside_mesh(self, points, triangles):
-        """
-        Punkt-in-Netz-Test per Strahl-Parität: Ein Strahl in +z-Richtung schneidet die Dreiecke;
-        eine ungerade Anzahl Schnitte oberhalb des Punkts bedeutet 'innen'. Voraussetzung ist ein
-        geschlossenes Netz. Die Punkte werden in x/y um ~1e-7 m verschoben, damit der Strahl keine
-        Dreieckskanten exakt trifft (sonst würde die Parität kippen).
+        def point_segment_distance(points, starts, vectors):
+            parameter = np.clip(
+                np.sum((points - starts) * vectors, axis=2)
+                / np.maximum(np.sum(vectors * vectors, axis=2), 1e-18),
+                0.0,
+                1.0,
+            )
+            return np.linalg.norm(points - (starts + parameter[..., None] * vectors), axis=2)
 
-        Args:
-            points (np.ndarray): Testpunkte, Shape (n, 3).
-            triangles (np.ndarray): Dreiecke des Bauteils, Shape (m, 3, 3).
+        block_size = max(1, 100_000 // len(edges_b))
+        for start in range(0, len(edges_a), block_size):
+            block = edges_a[start:start + block_size]
+            starts_a = block[:, None, 0]
+            vectors_a = (block[:, 1] - block[:, 0])[:, None, :]
+            starts_a_end = starts_a + vectors_a
+            starts_b_end = starts_b + vectors_b
 
-        Returns:
-            np.ndarray: Boolesche Maske (n,), True = Punkt liegt im Bauteil.
-        """
-        inside = np.zeros(len(points), dtype=bool)
-        if len(triangles) == 0 or len(points) == 0:
-            return inside
-        a, b, c = triangles[:, 0], triangles[:, 1], triangles[:, 2]
-        denom = (b[:, 1] - c[:, 1]) * (a[:, 0] - c[:, 0]) + (c[:, 0] - b[:, 0]) * (a[:, 1] - c[:, 1])
-        valid = np.abs(denom) > 1e-12 # senkrechte Dreiecke haben keine x/y-Fläche
-        safe = np.where(valid, denom, 1.0)
-        chunk = max(1, 500_000 // len(triangles))
-        for start in range(0, len(points), chunk):
-            part = points[start:start + chunk]
-            px = (part[:, 0] + 1.2345e-7)[:, None]
-            py = (part[:, 1] + 2.7183e-7)[:, None]
-            pz = part[:, 2][:, None]
-            # Baryzentrische Koordinaten l1, l2, l3 des Punkts in der x/y-Projektion des Dreiecks
-            l1 = ((b[:, 1] - c[:, 1]) * (px - c[:, 0]) + (c[:, 0] - b[:, 0]) * (py - c[:, 1])) / safe
-            l2 = ((c[:, 1] - a[:, 1]) * (px - c[:, 0]) + (a[:, 0] - c[:, 0]) * (py - c[:, 1])) / safe
-            l3 = 1.0 - l1 - l2
-            hit = valid & (l1 >= 0) & (l2 >= 0) & (l3 >= 0)
-            z_hit = l1 * a[:, 2] + l2 * b[:, 2] + l3 * c[:, 2]
-            crossings = np.sum(hit & (z_hit > pz), axis=1)
-            inside[start:start + chunk] = (crossings % 2) == 1
-        return inside
+            dists = [
+                point_segment_distance(starts_a, starts_b, vectors_b),
+                point_segment_distance(starts_a_end, starts_b, vectors_b),
+                point_segment_distance(starts_b, starts_a, vectors_a),
+                point_segment_distance(starts_b_end, starts_a, vectors_a),
+            ]
+
+            w = starts_a - starts_b
+            aa = np.sum(vectors_a * vectors_a, axis=2)
+            ab = np.sum(vectors_a * vectors_b, axis=2)
+            bb = np.sum(vectors_b * vectors_b, axis=2)
+            aw = np.sum(vectors_a * w, axis=2)
+            bw = np.sum(vectors_b * w, axis=2)
+            denominator = aa * bb - ab * ab
+            valid = denominator > 1e-18
+            s = np.divide(
+                ab * bw - bb * aw,
+                denominator,
+                out=np.zeros_like(denominator),
+                where=valid,
+            )
+            t = np.divide(
+                aa * bw - ab * aw,
+                denominator,
+                out=np.zeros_like(denominator),
+                where=valid,
+            )
+            interior = valid & (s >= 0.0) & (s <= 1.0) & (t >= 0.0) & (t <= 1.0)
+            interior_distance = np.linalg.norm(
+                w + s[..., None] * vectors_a - t[..., None] * vectors_b,
+                axis=2,
+            )
+            dists.append(np.where(interior, interior_distance, np.inf))
+            distance = min(distance, float(np.min(np.minimum.reduce(dists))))
+            if distance == 0.0:
+                return 0.0
+        return distance
 
 
     def _pca_contact_region(self, points):

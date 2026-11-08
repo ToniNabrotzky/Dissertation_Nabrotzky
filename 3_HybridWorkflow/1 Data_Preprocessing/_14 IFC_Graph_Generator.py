@@ -47,13 +47,13 @@ def main():
         # "202102183458-Model",
         # "Grethes-hus-bok-2",
         # "Grethes-hus-bok-2",
-        "model_1",
-        # "model_3_1D",
-        # "model_3_2D",
+        # "model_1",
+        "model_3_1D",
+        "model_3_2D",
         # "model_4",
         # "model_7",
         # "model_8",
-        # "model_9", # 5,0m erforderlich
+        "model_9", # 5,0m erforderlich
         # "model_10_1D",
         # "model_10_2D",
         # "Parametrisches Modell Index_00000",
@@ -155,6 +155,7 @@ class GNNPipeline(Dateneingang, Experiment1RBCFehlertaxonomie,
         Führt für ein einzelnes IFC-Modell ausschließlich Schritt 1 aus:
         IFC-Extraktion, Ground-Truth-Kontaktpaare und Kontaktregionen.
         """
+        # Protokoll - Process
         self.log(f"\n{'='*50}\nVerarbeite Modell: {stem}\n{'='*50}")
 
         # =====================================================
@@ -162,17 +163,21 @@ class GNNPipeline(Dateneingang, Experiment1RBCFehlertaxonomie,
         # =====================================================
         nodes, stats_ifc = self.extract_ifc_data(stem)
         if not nodes:
-            self.log(f"Abbruch: Keine auswertbaren Knoten für {stem} gefunden.")
+            # Protokoll - Process
+            self.log(f"ABBRUCH Process: Keine auswertbaren Knoten für {stem} gefunden.")
             return
 
         gt_pairs = self.load_ground_truth(stem)
         # =====================================================
         # EXPERIMENT 1, SCHRITT 1: KONTAKTPAARE UND KONTAKTREGIONEN
         # =====================================================
-        # Alle späteren Joint-, Graph-, Matching- und GNN-Schritte bleiben
-        # bewusst deaktiviert, bis das Kontaktpaar-Konzept abgeschlossen ist.
         contact_regions = self._compute_contact_regions(nodes, gt_pairs)
-        self.export_contact_regions(stem, nodes, stats_ifc, contact_regions)
+        
+        # =====================================================
+        # EXPERIMENT 1, SCHRITT 2: SOLL-JOINTS CLUSTERN
+        # =====================================================
+        soll_joints = self._build_soll_joints(nodes, gt_pairs, contact_regions)
+        self.export_contact_regions(stem, nodes, stats_ifc, contact_regions, soll_joints)
 
         # --- Log speichern ---
         log_path = os.path.join(self.dir_out, f"{stem} Protokoll.txt")

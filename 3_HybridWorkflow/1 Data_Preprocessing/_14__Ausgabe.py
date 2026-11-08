@@ -57,8 +57,8 @@ class Ausgabe:
     dir_out: str
     log: Callable[..., None]
 
-    def export_contact_regions(self, stem, nodes, stats_ifc, contact_regions):
-        """Exportiert ausschließlich die Ergebnisse von Schritt 1."""
+    def export_contact_regions(self, stem, nodes, stats_ifc, contact_regions, soll_joints=None):
+        """Exportiert Kontaktregionen aus Schritt 1 und Soll-Joints aus Schritt 2."""
         clean_nodes = []
         for node in nodes:
             node_copy = node.copy()
@@ -72,13 +72,17 @@ class Ausgabe:
                 "region_id": region["region_id"],
                 "guid_a": region["guid_a"],
                 "guid_b": region["guid_b"],
-                "points": np.asarray(region["points"]).round(6).tolist(),
+                # "points": np.asarray(region["points"]).round(6).tolist(),
                 "centroid": np.asarray(region["centroid"]).round(6).tolist(),
                 "eigenvalues": np.asarray(region["eigenvalues"]).round(8).tolist(),
                 "lengths": np.asarray(region["lengths"]).round(6).tolist(),
                 "contact_type": region["contact_type"],
                 "contact_method": region["contact_method"],
-                "volume": float(region["volume"]),
+                "distance_m": (
+                    float(region["distance_m"])
+                    if region["distance_m"] is not None else None
+                ),
+                "aabb_distance_m": float(region["aabb_distance_m"]),
             }
             clean_regions.append(clean_region)
 
@@ -90,10 +94,12 @@ class Ausgabe:
                 "joint_point_extent": JOINT_POINT_EXTENT,
                 "joint_sample_spacing": JOINT_SAMPLE_SPACING,
                 "joint_max_samples": JOINT_MAX_SAMPLES,
+                "joint_delta_scale": JOINT_DELTA_SCALE,
             },
             "stats_IFC_extraction": stats_ifc,
             "nodes": clean_nodes,
             "contact_pairs": clean_regions,
+            "soll_joints": soll_joints if soll_joints is not None else [],
         }
         path = os.path.join(self.dir_out, f"{stem} Kontaktpaare.json")
         with open(path, "w", encoding="utf-8") as file:
