@@ -26,10 +26,10 @@ import os
 import glob
 from datetime import datetime
 
-from _14_Dateneingang import Dateneingang
-from _14_Experiment1_RBC_Fehlertaxonomie import Experiment1RBCFehlertaxonomie
-from _14_Experiment2_GNN_Machbarkeitsstudie import Experiment2GNNMachbarkeitsstudie
-from _14_Ausgabe import Ausgabe
+from _14__Dateneingang import Dateneingang
+from _14__Experiment1_RBC_Fehlertaxonomie import Experiment1RBCFehlertaxonomie
+from _14__Experiment2_GNN_Machbarkeitsstudie import Experiment2GNNMachbarkeitsstudie
+from _14__Ausgabe import Ausgabe
 
 # =========================================================
 # MAIN & STEUERUNG
@@ -50,9 +50,10 @@ def main():
         # "model_1",
         # "model_3_1D",
         # "model_3_2D",
+        # "model_3_2D_ohneDach",
         # "model_4",
-        # "model_7",
-        # "model_8",
+        "model_7",
+        "model_8",
         "model_9", # 5,0m erforderlich
         # "model_10_1D",
         # "model_10_2D",
@@ -152,66 +153,39 @@ class GNNPipeline(Dateneingang, Experiment1RBCFehlertaxonomie,
 
     def process_model(self, stem):
         """
-        Führt alle Arbeitsschritte für ein einzelnes IFC-Modell durch:
-        - Dateneingang: IFC-Extraktion und Labels
-        - Experiment 1 RBC-Fehlertaxonomie: Joints identifizieren und bewerten (1.A-1.D)
-        - Experiment 2 GNN-Machbarkeitsstudie: Kontaktgraph generieren (2.A-2.C)
-        - Ausgabe: Plots und gemeinsame Graph-Datei
+        Führt für ein IFC-Modell Phase A und Phase B von Experiment 1 aus:
+        Kontaktregionen und Soll-Joints ermitteln und Soll-Joints klassifizieren.
         """
+        # Protokoll - Process
         self.log(f"\n{'='*50}\nVerarbeite Modell: {stem}\n{'='*50}")
 
         # =====================================================
-        # DATENEINGANG: IFC-EXTRAKTION & LABELS
+        # DATENEINGANG: IFC-EXTRAKTION UND GROUND TRUTH
         # =====================================================
         nodes, stats_ifc = self.extract_ifc_data(stem)
         if not nodes:
-            self.log(f"Abbruch: Keine auswertbaren Knoten für {stem} gefunden.")
+            # Protokoll - Process
+            self.log(f"ABBRUCH Process: Keine auswertbaren Knoten für {stem} gefunden.")
             return
 
         gt_pairs = self.load_ground_truth(stem)
-        rbc_dict = self.load_rbc_labels(stem)
+        # =====================================================
+        # EXPERIMENT 1, SCHRITT 1: KONTAKTPAARE UND KONTAKTREGIONEN
+        # =====================================================
+        contact_regions = self._compute_contact_regions(nodes, gt_pairs)
+        
+        # =====================================================
+        # EXPERIMENT 1, SCHRITT 2: SOLL-JOINTS CLUSTERN
+        # =====================================================
+        soll_joints = self._build_soll_joints(nodes, gt_pairs, contact_regions)
 
         # =====================================================
-        # EXPERIMENT 1 RBC-FEHLERTAXONOMIE: JOINTS (HYPERKANTEN)
+        # EXPERIMENT 1, SCHRITT 3: SOLL-JOINTS KLASSIFIZIEREN
         # =====================================================
-        # --- 1.A Rekonstruktion von Anschlussstellen (Soll-Joints) ---
-        soll_joints = self.reconstruct_gt_joints(stem, nodes, gt_pairs)
-
-        # --- 1.B Klassifizierungssystem für Anschlussstellen ---
-        soll_joints = self.classify_gt_joints(soll_joints)
-
-        # --- 1.C Extraktion von Anschlussstellen aus dem Analysemodell (Ist-Joints) ---
-        ist_joints = self.extract_analysis_joints(stem)
-
-        # --- 1.D Validierung: Matching, Fehlercodes & Statistik ---
-        matching = self.match_joints(soll_joints, ist_joints)
-        error_codes = self.classify_joint_errors(matching) # Fehlertaxonomie
-        joint_stats = self.evaluate_joint_statistics(matching, error_codes)
-
-        # =====================================================
-        # EXPERIMENT 2 GNN-MACHBARKEITSSTUDIE: KONTAKTGRAPH
-        # =====================================================
-        # --- 2.A Knotenmerkmale (homogener / heterogener Graph) ---
-        node_features_hom, node_features_het = self.compute_node_features(nodes)
-
-        # --- 2.B Kantenmerkmale ---
-        edges, stats_edges = self.calculate_edges(nodes, gt_pairs, rbc_dict)
-        edges = self.compute_edge_features(nodes, edges)
-
-        # --- 2.C Vereinheitlichung und Normalisierung für GNN-Training ---
-        gnn_data = self.prepare_gnn_data(nodes, edges, node_features_hom, node_features_het)
-
-        # =====================================================
-        # AUSGABE: PLOTS & GEMEINSAME GRAPH-DATEI
-        # =====================================================
-        self.plot_graph(stem, nodes, edges, mode="2D")
-        self.plot_graph(stem, nodes, edges, mode="3D")
-
-        # Eine Datei für beide Experimente (Kontaktgraph + Joints + Validierung)
-        self.export_graph(stem, nodes, edges, stats_ifc, stats_edges,
-                          soll_joints=soll_joints, ist_joints=ist_joints,
-                          matching=matching, error_codes=error_codes,
-                          joint_stats=joint_stats)
+        joint_classes = self._classify_soll_joints(nodes, gt_pairs, contact_regions, soll_joints)
+        self.export_contact_regions(
+            stem, nodes, stats_ifc, contact_regions, soll_joints, joint_classes
+        )
 
         # --- Log speichern ---
         log_path = os.path.join(self.dir_out, f"{stem} Protokoll.txt")

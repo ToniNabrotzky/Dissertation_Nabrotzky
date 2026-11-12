@@ -19,14 +19,17 @@ from typing import Callable
 
 import networkx as nx
 import matplotlib.pyplot as plt
+import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 
-from _14_Dateneingang import ALLOWED_ENTITIES
-from _14_Experiment1_RBC_Fehlertaxonomie import (
+from _14__Dateneingang import ALLOWED_ENTITIES
+from _14__Experiment1_RBC_Fehlertaxonomie import (
     JOINT_EPSILON, JOINT_TAU, JOINT_DELTA_SCALE,
-    JOINT_POINT_EXTENT, JOINT_SAMPLE_SPACING, JOINT_MAX_SAMPLES, JOINT_SEGMENT_LENGTH,
+    JOINT_POINT_EXTENT, JOINT_SAMPLE_SPACING, JOINT_MAX_SAMPLES,
+    JOINT_O_TOL, JOINT_RHO_AXIAL, JOINT_RHO_LATERAL, JOINT_ANGLE_TOL,
+    JOINT_END_TOL_SCALE, JOINT_IDEAL_TOL, JOINT_PARALLEL_TOL, JOINT_REGULARIZATION,
 )
-from _14_Experiment2_GNN_Machbarkeitsstudie import RBF_GAMMA, MAX_DIST
+from _14__Experiment2_GNN_Machbarkeitsstudie import RBF_GAMMA, MAX_DIST
 
 # =========================================================
 # KONFIGURATION (Ausgabe)
@@ -55,6 +58,73 @@ class Ausgabe:
     """
     dir_out: str
     log: Callable[..., None]
+
+    def export_contact_regions(self, stem, nodes, stats_ifc, contact_regions,
+                               soll_joints=None, joint_classes=None):
+        """Exportiert Phase A und optional Phase B in ``<stem> Kontaktpaare.json``.
+
+        ``joint_classes`` enthält je Joint die aggregierte Klassifizierung und
+        darin unter ``pairs`` die paarweisen Ergebnisse. Wenn sie nicht
+        übergeben wird, bleibt das bisherige Ausgabeformat unverändert.
+        """
+        clean_nodes = []
+        for node in nodes:
+            node_copy = node.copy()
+            node_copy.pop("geom_raw", None)
+            clean_nodes.append(node_copy)
+
+        clean_regions = []
+        for region in contact_regions:
+            clean_region = {
+                "pair_id": region["pair_id"],
+                "region_id": region["region_id"],
+                "guid_a": region["guid_a"],
+                "guid_b": region["guid_b"],
+                # "points": np.asarray(region["points"]).round(6).tolist(),
+                "centroid": np.asarray(region["centroid"]).round(6).tolist(),
+                "eigenvalues": np.asarray(region["eigenvalues"]).round(8).tolist(),
+                "lengths": np.asarray(region["lengths"]).round(6).tolist(),
+                "contact_type": region["contact_type"],
+                "contact_method": region["contact_method"],
+                "distance_m": (
+                    float(region["distance_m"])
+                    if region["distance_m"] is not None else None
+                ),
+                "aabb_distance_m": float(region["aabb_distance_m"]),
+            }
+            clean_regions.append(clean_region)
+
+        output_data = {
+            "model_stem": stem,
+            "preprocessing_config": {
+                "joint_epsilon": JOINT_EPSILON,
+                "joint_tau": JOINT_TAU,
+                "joint_point_extent": JOINT_POINT_EXTENT,
+                "joint_sample_spacing": JOINT_SAMPLE_SPACING,
+                "joint_max_samples": JOINT_MAX_SAMPLES,
+                "joint_delta_scale": JOINT_DELTA_SCALE,
+            },
+            "stats_IFC_extraction": stats_ifc,
+            "nodes": clean_nodes,
+            "contact_pairs": clean_regions,
+            "soll_joints": soll_joints if soll_joints is not None else [],
+        }
+        if joint_classes is not None:
+            output_data["preprocessing_config"].update({
+                "joint_o_tol": JOINT_O_TOL,
+                "joint_rho_axial": JOINT_RHO_AXIAL,
+                "joint_rho_lateral": JOINT_RHO_LATERAL,
+                "joint_angle_tol": JOINT_ANGLE_TOL,
+                "joint_end_tol_scale": JOINT_END_TOL_SCALE,
+                "joint_ideal_tol": JOINT_IDEAL_TOL,
+                "joint_parallel_tol": JOINT_PARALLEL_TOL,
+                "joint_regularization": JOINT_REGULARIZATION,
+            })
+            output_data["joint_classes"] = joint_classes
+        path = os.path.join(self.dir_out, f"{stem} Kontaktpaare.json")
+        with open(path, "w", encoding="utf-8") as file:
+            json.dump(output_data, file, indent=4, ensure_ascii=False)
+        self.log(f"Kontaktpaare JSON gespeichert unter: {os.path.basename(path)}")
 
     # ---------------------------------------------------------
     # GRAPH-EXPORT (BEIDE EXPERIMENTE IN EINER DATEI)
@@ -100,8 +170,7 @@ class Ausgabe:
                     "joint_delta_scale": JOINT_DELTA_SCALE,
                     "joint_point_extent": JOINT_POINT_EXTENT,
                     "joint_sample_spacing": JOINT_SAMPLE_SPACING,
-                    "joint_max_samples": JOINT_MAX_SAMPLES,
-                    "joint_segment_length": JOINT_SEGMENT_LENGTH
+                    "joint_max_samples": JOINT_MAX_SAMPLES
                 },
                 "stats_IFC_extraction": stats_ifc,
                 "stats_Edges_and_RBC": stats_edges
@@ -115,8 +184,7 @@ class Ausgabe:
                     "delta_scale": JOINT_DELTA_SCALE,
                     "point_extent": JOINT_POINT_EXTENT,
                     "sample_spacing": JOINT_SAMPLE_SPACING,
-                    "max_samples": JOINT_MAX_SAMPLES,
-                    "segment_length": JOINT_SEGMENT_LENGTH
+                    "max_samples": JOINT_MAX_SAMPLES
                 },
                 "soll_joints": soll_joints if soll_joints is not None else [],
                 "ist_joints": ist_joints if ist_joints is not None else [],

@@ -196,15 +196,15 @@ class Dateneingang:
         """
         ifc_path = os.path.join(self.dir_db, f"{stem}.ifc")
         if not os.path.exists(ifc_path):
-            self.log(f"FEHLER: {ifc_path} nicht gefunden.")
+            self.log(f"FEHLER Import: {ifc_path} nicht gefunden.")
             return [], {}
         
         try:
-            self.log(f"Lade IFC-Modell: {ifc_path}")
+            self.log(f"Import: Lade Modell aus Pfad: {ifc_path}")
             model = ifcopenshell.open(str(ifc_path))
             settings = ifcopenshell.geom.settings()
         except Exception as e:
-            self.log(f"Kritischer Fehler beim Öffnen der IFC: {e}")
+            self.log(f"FEHLER Import: Kritischer Fehler beim Öffnen der IFC: {e}")
             return [], {}
 
         products = model.by_type("IfcElement")
@@ -215,7 +215,7 @@ class Dateneingang:
         count_geom = 0
         entity_counts = {}
         
-        self.log(f"Analysiere {count_all} IFC-Elemente...")
+        self.log(f"Import: Analysiere {count_all} IFC-Elemente...")
 
         for i, prod in enumerate(products):
             if not self._is_load_bearing(prod):
@@ -254,7 +254,7 @@ class Dateneingang:
             })
             
             if i > 0 and i % 100 == 0:
-                self.log(f"DEBUG: {i}/{count_all} Elemente geprüft...")
+                self.log(f"\tImport: {i}/{count_all} Elemente geprüft...")
             
         stats = {
             "count_all_ifc_products": count_all,
@@ -263,7 +263,7 @@ class Dateneingang:
             "entity_distribution": entity_counts
         }
         
-        self.log(f"Extraktion abgeschlossen. {count_geom} gültige Knoten erstellt.")
+        self.log(f"Import: Extraktion abgeschlossen. {count_geom} gültige Knoten erstellt.")
         return nodes, stats
 
 
@@ -289,9 +289,9 @@ class Dateneingang:
                     if status == "o" and g_a and g_b and g_a != "---" and g_b != "---":
                         gt_pairs.add(tuple(sorted([g_a, g_b])))
                         
-            self.log(f"GT-Labels geladen: {len(gt_pairs)} echte Referenz-Paare (gefiltert auf Status 'o')")
+            self.log(f"Import: GT-Labels geladen: {len(gt_pairs)} echte Referenz-Paare (gefiltert auf Status 'o')")
         else:
-            self.log(f"WARNUNG: Keine GT-Labels unter {path} gefunden.")
+            self.log(f"WARNUNG Import: Keine GT-Labels unter {path} gefunden.")
         return gt_pairs
 
 
@@ -312,7 +312,7 @@ class Dateneingang:
                     status = row.get("Label", "TN").strip()
                     if g_a and g_b:
                         rbc_dict[tuple(sorted([g_a, g_b]))] = status
-            self.log(f"RBC-Labels geladen: {len(rbc_dict)} Einträge -- \tAchtung: Fehlende Kanten werden auf GT aufgestockt. Zahl ist somit entsprechend der 'FP's größer.")
+            self.log(f"Import: RBC-Labels geladen: {len(rbc_dict)} Einträge -- \tAchtung: Fehlende Kanten werden auf GT aufgestockt. Zahl ist somit entsprechend der 'FP's größer.")
         else:
-            self.log(f"WARNUNG: Keine RBC-Labels unter {path} gefunden.")
+            self.log(f"WARNUNG Import: Keine RBC-Labels unter {path} gefunden.")
         return rbc_dict
