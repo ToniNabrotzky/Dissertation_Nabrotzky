@@ -24,11 +24,13 @@ Struktur des Gesamtskripts (aufgeteilt auf mehrere Dateien):
 """
 import os
 import glob
+import math
 from datetime import datetime
+from numbers import Real
 
 from _14__Dateneingang import Dateneingang
-from _14__Experiment1_RBC_Fehlertaxonomie import Experiment1RBCFehlertaxonomie
-from _14__Experiment2_GNN_Machbarkeitsstudie import Experiment2GNNMachbarkeitsstudie
+from _14__Experiment1_RBC import Experiment1RBCFehlertaxonomie
+from _14__Experiment2_GNN import Experiment2GNNMachbarkeitsstudie
 from _14__Ausgabe import Ausgabe
 
 # =========================================================
@@ -50,12 +52,13 @@ def main():
         # "model_1",
         # "model_3_1D",
         # "model_3_2D",
-        # "model_3_2D_ohneDach",
+        "model_3_2D_ohneDach",
         # "model_4",
-        "model_7",
-        "model_8",
-        "model_9", # 5,0m erforderlich
+        # "model_7",
+        # "model_8",
+        # "model_9", # 5,0m erforderlich
         # "model_10_1D",
+        "model_10_1D_ohneDach",
         # "model_10_2D",
         # "Parametrisches Modell Index_00000",
         # "Parametrisches Modell Index_00050",
@@ -64,8 +67,18 @@ def main():
         # "Parametrisches Modell Index_00250",
     ]
     
+    # Leere Liste: Standardwert; gefüllte Liste: Sensitivitätsstudie in Metern.
+    experiment_1 = True
+    experiment_2 = False
+    sensitivity_study = []  # z. B. [0.025, 0.05, 0.1]
+
+
     pipeline = GNNPipeline(ifc_names)
-    pipeline.run()
+    pipeline.run(
+        experiment_1=experiment_1,
+        experiment_2=experiment_2,
+        sensitivity_study=sensitivity_study,
+    )
 
 # =========================================================
 # KONFIGURATION
@@ -141,56 +154,133 @@ class GNNPipeline(Dateneingang, Experiment1RBCFehlertaxonomie,
             clean_msg = line.rstrip()
             if clean_msg:
                 self.logs.append(clean_msg)
+                
 
+    def run(self, experiment_1=True, experiment_2=False,
+            sensitivity_study=[]):
+        """Lädt die gemeinsamen Eingangsdaten und startet die gewählten Experimente.
 
-    def run(self):
-        """Startet die Pipeline für alle definierten Modelle."""
-        self.log(f"Starte Verarbeitung für {len(self.model_names)} Modelle...")
-        for stem in self.model_names:
-            self.logs = [] # Reset logs for each model
-            self.process_model(stem)
-
-
-    def process_model(self, stem):
+        Eine leere Epsilon-Liste verwendet den Standardwert aus Experiment 1.
+        Eine gefüllte Liste startet eine Sensitivitätsstudie mit Werten in Metern.
         """
-        Führt für ein IFC-Modell Phase A und Phase B von Experiment 1 aus:
-        Kontaktregionen und Soll-Joints ermitteln und Soll-Joints klassifizieren.
-        """
-        # Protokoll - Process
-        self.log(f"\n{'='*50}\nVerarbeite Modell: {stem}\n{'='*50}")
-
-        # =====================================================
-        # DATENEINGANG: IFC-EXTRAKTION UND GROUND TRUTH
-        # =====================================================
-        nodes, stats_ifc = self.extract_ifc_data(stem)
-        if not nodes:
-            # Protokoll - Process
-            self.log(f"ABBRUCH Process: Keine auswertbaren Knoten für {stem} gefunden.")
+        if not experiment_1 and not experiment_2:
+            print("Keine Experimente aktiviert.")
             return
 
-        gt_pairs = self.load_ground_truth(stem)
-        # =====================================================
-        # EXPERIMENT 1, SCHRITT 1: KONTAKTPAARE UND KONTAKTREGIONEN
-        # =====================================================
-        contact_regions = self._compute_contact_regions(nodes, gt_pairs)
-        
-        # =====================================================
-        # EXPERIMENT 1, SCHRITT 2: SOLL-JOINTS CLUSTERN
-        # =====================================================
-        soll_joints = self._build_soll_joints(nodes, gt_pairs, contact_regions)
+        if experiment_1:
+            if not isinstance(sensitivity_study, list):
+                raise TypeError("Die Epsilon-Werte müssen als Liste angegeben werden.")
+            if any(isinstance(value, bool) or not isinstance(value, Real)
+                   for value in sensitivity_study):
+                raise ValueError("Epsilon-Werte müssen reelle Zahlen sein.")
+            try:
+                epsilons = [float(value) for value in sensitivity_study]
+            except OverflowError as exc:
+                raise ValueError("Epsilon-Werte müssen endlich und positiv sein.") from exc
+            if any(not math.isfinite(value) or value <= 0 for value in epsilons):
+                raise ValueError("Epsilon-Werte müssen endlich und positiv sein.")
+            if len(set(epsilons)) != len(epsilons):
+                raise ValueError("Die Epsilon-Liste darf keine Duplikate enthalten.")
 
-        # =====================================================
-        # EXPERIMENT 1, SCHRITT 3: SOLL-JOINTS KLASSIFIZIEREN
-        # =====================================================
-        joint_classes = self._classify_soll_joints(nodes, gt_pairs, contact_regions, soll_joints)
-        self.export_contact_regions(
-            stem, nodes, stats_ifc, contact_regions, soll_joints, joint_classes
+        for stem in self.model_names:
+            self.logs = []
+            # Protokoll - Process
+            self.log(f"\n{'='*50}\nVerarbeite Modell: {stem}\n{'='*50}")
+
+            # =====================================================
+            # DATENEINGANG: IFC-EXTRAKTION UND GROUND TRUTH
+            # =====================================================
+            nodes, stats_ifc = self.extract_ifc_data(stem)
+
+            if not nodes:
+                # Protokoll - Process
+                self.log(f"ABBRUCH Process: Keine auswertbaren Knoten für {stem} gefunden.")
+                if experiment_1:
+                    self._save_protocol(stem, 1)
+                if experiment_2:
+                    self._save_protocol(stem, 2)
+                continue
+
+            gt_pairs = self.load_ground_truth(stem)
+            input_logs = self.logs.copy()
+
+            if experiment_1:
+                try:
+                    self.process_experiment_1(
+                        stem,
+                        nodes,
+                        stats_ifc,
+                        gt_pairs,
+                        sensitivity_study=sensitivity_study,
+                    )
+                finally:
+                    self._save_protocol(stem, 1)
+
+            if experiment_2:
+                self.logs = input_logs.copy()
+                try:
+                    self.process_experiment_2(stem, nodes, stats_ifc, gt_pairs)
+                finally:
+                    self._save_protocol(stem, 2)
+    
+    def process_experiment_1(
+        self, stem, nodes, stats_ifc, gt_pairs,
+        sensitivity_study=[],
+    ):
+        """Führt Schritt 1–3 von Experiment 1 aus und exportiert die Ergebnisse."""
+        if sensitivity_study:
+            results = self._run_epsilon_study(nodes, gt_pairs, epsilons=sensitivity_study)
+
+            for study_epsilon, result in results.items():
+                self.export_soll_joints(
+                    stem,
+                    nodes,
+                    stats_ifc,
+                    result["contact_regions"],
+                    result["soll_joints"],
+                    result["joint_classes"],
+                    epsilon=study_epsilon,
+                    filename_suffix=f" eps_{study_epsilon!r}m",
+                )
+        else:
+            # EXPERIMENT 1, SCHRITT 1: KONTAKTPAARE UND KONTAKTREGIONEN
+            contact_regions = self._compute_contact_regions(
+                nodes, gt_pairs, epsilon=None
+            )
+            
+            # EXPERIMENT 1, SCHRITT 2: SOLL-JOINTS CLUSTERN
+            soll_joints = self._build_soll_joints(
+                nodes, gt_pairs, contact_regions
+            )
+            
+            # EXPERIMENT 1, SCHRITT 3: SOLL-JOINTS KLASSIFIZIEREN
+            joint_classes = self._classify_soll_joints(
+                nodes, gt_pairs, contact_regions, soll_joints, epsilon=None
+            )
+            
+            # EXPERIMENT 1, DATENAUSGANG
+            self.export_soll_joints(
+                stem,
+                nodes,
+                stats_ifc,
+                contact_regions,
+                soll_joints,
+                joint_classes,
+                epsilon=None,
+            )
+
+
+    def process_experiment_2(self, stem, nodes, stats_ifc, gt_pairs):
+        """Platzhalter: Experiment 2 und dessen Datenausgabe folgen später."""
+        pass
+
+
+    def _save_protocol(self, stem, experiment):
+        log_path = os.path.join(
+            self.dir_out, f"{stem} Protokoll Exp_{experiment}.txt"
         )
-
-        # --- Log speichern ---
-        log_path = os.path.join(self.dir_out, f"{stem} Protokoll.txt")
-        with open(log_path, 'w', encoding='utf-8') as f:
-            f.write("\n".join(self.logs))
+        with open(log_path, "w", encoding="utf-8") as file:
+            file.write("\n".join(self.logs))
 
 
 if __name__ == "__main__":

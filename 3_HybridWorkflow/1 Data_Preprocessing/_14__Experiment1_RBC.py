@@ -70,7 +70,6 @@ JOINT_END_TOL_SCALE = 0.5   # [-] Rand-Toleranz r_end = eps + Skala * t für die
 JOINT_IDEAL_TOL = 1e-3      # [m] Abstand, bis zu dem sich Idealisierungen als geschnitten gelten (Fall A). Default = 1e-3
 JOINT_PARALLEL_TOL = 1e-4   # [-] Sinus-Grenzwert, unterhalb dem zwei Richtungen als parallel gelten. Default = 1e-4
 JOINT_REGULARIZATION = 1e-6 # [-] Gewicht der Nähe zu c_real bei mehrdeutigen kürzesten Verbindungen (parallele Idealisierungen). Default = 1e-6
-JOINT_EPSILON_STUDY = (0.025, 0.05, 0.1)  # [m] Sensitivitätsstudie für eps (Phase A + B je Wert neu)
 
 CONTACT_TYPE_TO_K = {"0D_Punkt": "K0", "1D_Linie": "K1", "2D_Fläche": "K2", "3D_Volumen": "K3"}
 
@@ -1031,10 +1030,10 @@ class Experiment1PhaseASchritt2(_BauteilEigenschaften):
                 "joint_id": joint_id,
                 "pair_ids": sorted({pair_ids.get(pair, "unbekannt") for pair in member_pairs}),
                 "region_ids": sorted({region["region_id"] for region in member_regions}),
-                "guids": sorted(member_guids),
-                "guid_count": len(member_guids),
-                "elements": elements,
                 "position": [round(value, 3) for value in position],
+                "guid_count": len(member_guids),
+                "guids": sorted(member_guids),
+                "elements": elements,
             }
             soll_joints.append(joint)
             
@@ -1263,15 +1262,20 @@ class Experiment1PhaseBSchritt3(_BauteilEigenschaften):
             f"{o_class}-Õ{o_max:.2f}" if o_max is not None else "On/a-Õn/a"
         )
         shortcode += (
-            f" | {k_max or 'Kn/a'}-{configuration or 'n/a'}-{short.get(angle_class, 'n/a')}"
+            f" | {k_max or 'Kn/a'}-{configuration or 'n/a'}-{short.get(angle_class, 'n/a') if angle_class else 'n/a'}"
         )
+        
+        p = np.round(p, 6) if p is not None else None,
+        o_norm_max = np.round(o_max, 6) if o_max is not None else None,
+        o_norm_mean = np.round(o_mean, 6) if o_mean is not None else None,
+        o_norm_sd = np.round(o_sd, 6) if o_sd is not None else None,
 
         return {
             "joint_id": joint["joint_id"], 
             # Achse 1 (Valenz, Dimensionshetegorenität, innentopologische Dichte)
-            "valence": valence, "valence_class": valence_class, "h": h, "p": np.round(p, 6), 
+            "valence": valence, "valence_class": valence_class, "h": h, "p": p, 
             # Achse 2 (Versatzidealisierungen - Referenzidealsierung, paarweise, normiert, Versatzcharakter, Dimensionssprung)
-            "o_norm_max": np.round(o_max, 6), "o_norm_mean": np.round(o_mean, 6), "o_norm_sd": np.round(o_sd, 6),
+            "o_norm_max": o_norm_max, "o_norm_mean": o_norm_mean, "o_norm_sd": o_norm_sd,
             "o_class": o_class, "o_class_profile": profile, "gamma_max": gamma_max,
             # Achse 3 (Morphologie - Berührungsmodus, -winkel)
             "k_max": k_max, "k_profile": k_profile, "configuration": configuration,
@@ -1346,12 +1350,17 @@ class Experiment1PhaseBSchritt3(_BauteilEigenschaften):
             configuration = "T"
         else:
             configuration = "X"
+        
+        o_length_m = np.round(o_length, 4) if o_length is not None else None,
+        o_O1_length_m = np.round(o_axial, 4) if o_axial is not None else None,
+        o_O2_length_m = np.round(o_lateral, 4) if o_lateral is not None else None,
+        rho = np.round(rho, 4) if rho is not None else None,
 
         pair.update({
             "status": "bewertet", "reason": None, "reference_guid": reference_guid,
-            "o_vector": np.round(o_vector, 4).tolist(), "o_length_m": np.round(o_length, 4),
-            "o_O1_length_m": np.round(o_axial, 4), "o_O2_length_m": np.round(o_lateral, 4),
-            "o_norm": np.round(o_norm, 4), "rho": np.round(rho, 4), "o_class": o_class,
+            "o_vector": np.round(o_vector, 4).tolist(), "o_length_m": o_length_m,
+            "o_O1_length_m": o_O1_length_m, "o_O2_length_m": o_O2_length_m,
+            "o_norm": np.round(o_norm, 4), "rho": rho, "o_class": o_class,
             "gamma": abs(ideal_a["dim"] - ideal_b["dim"]),
             "ideal_case": case, "fall_c_fallback": fallback,
             "position_a": position_a, "position_b": position_b,
@@ -1428,7 +1437,7 @@ class Experiment1PhaseBSchritt3(_BauteilEigenschaften):
             objective = float(np.sum((matrix @ z - target) ** 2))
             if best is None or objective < best[0] - 1e-18:
                 best = (objective, z)
-        z = best[1]
+        z = best[1] # type: ignore
         p_a = ideal_a["center"] + sum((z[i] * axis for i, axis in enumerate(dirs_a)), np.zeros(3))
         p_b = ideal_b["center"] + sum((z[count_a + j] * axis for j, axis in enumerate(dirs_b)), np.zeros(3))
         return p_a, p_b, float(np.linalg.norm(p_a - p_b))
@@ -1727,7 +1736,7 @@ class Experiment1PhaseBSchritt3(_BauteilEigenschaften):
             center2, _, half2 = self._min_area_rectangle(centered @ basis)
             if center2 is None:
                 return None, "Querschnitt ist entartet"
-            if (high - low) < 2.0 * float(half2[0]):
+            if (high - low) < 2.0 * float(half2[0]): # type: ignore
                 return None, "Bauteilachse nicht eindeutig (axiale Länge kleiner als Querschnittsmaß)"
             center = mean + axis * 0.5 * (low + high) + basis @ center2
             return {
@@ -1742,13 +1751,13 @@ class Experiment1PhaseBSchritt3(_BauteilEigenschaften):
             return None, "Fläche ist entartet"
         offset = centered @ normal
         low, high = float(offset.min()), float(offset.max())
-        if (high - low) >= 2.0 * float(half2[1]):
+        if (high - low) >= 2.0 * float(half2[1]): # type: ignore
             return None, "Bauteil ist nicht plattenförmig (Dicke nicht kleiner als kürzeste Seite)"
         center = mean + normal * 0.5 * (low + high) + basis @ center2
         return {
             "guid": node.get("guid"), "category": category, "dim": 2, "t": thickness,
-            "center": center, "dirs": [basis @ axes2[0], basis @ axes2[1]],
-            "half": [float(half2[0]), float(half2[1])], "normal": normal,
+            "center": center, "dirs": [basis @ axes2[0], basis @ axes2[1]], # type: ignore
+            "half": [float(half2[0]), float(half2[1])], "normal": normal, # type: ignore
         }, None
 
 
@@ -1800,7 +1809,7 @@ class Experiment1RBCFehlertaxonomie(
 ):
     """Fasst die implementierten Schritte von Experiment 1 als Pipeline-Mixin zusammen."""
 
-    def _run_epsilon_study(self, nodes, gt_pairs, epsilons=None):
+    def _run_epsilon_study(self, nodes, gt_pairs, epsilons):
         """
         Sensitivitätsstudie: Führt Phase A (Schritt 1 und 2) und Phase B je eps neu aus,
         da eps Kontaktregionen und Joint-Clustering beeinflusst.
@@ -1808,16 +1817,19 @@ class Experiment1RBCFehlertaxonomie(
         Args:
             nodes (list[dict]): IFC-Knoten.
             gt_pairs (set[tuple]): Ground-Truth-Paare.
-            epsilons (iterable[float] | None): Toleranzen in [m]; None = JOINT_EPSILON_STUDY.
+            epsilons (iterable[float]): Toleranzen in [m].
 
         Returns:
             dict[float, dict]: eps -> {'contact_regions', 'soll_joints', 'joint_classes'}.
         """
         results = {}
-        for eps in (JOINT_EPSILON_STUDY if epsilons is None else epsilons):
+        for eps in epsilons:
             self.log(f"{'='*10} 1.B eps-Studie: eps = {eps*1000:.1f} mm {'='*10}")
+            # Schritt 1
             regions = self._compute_contact_regions(nodes, gt_pairs, epsilon=eps)
+            # Schritt 2
             joints = self._build_soll_joints(nodes, gt_pairs, regions)
+            # Schritt 3
             classes = self._classify_soll_joints(nodes, gt_pairs, regions, joints, epsilon=eps)
             results[float(eps)] = {
                 "contact_regions": regions, "soll_joints": joints, "joint_classes": classes
