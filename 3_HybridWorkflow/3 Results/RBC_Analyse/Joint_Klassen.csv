@@ -1,0 +1,494 @@
+﻿Achse;Klasse;Gesamt;korrekt;falsch;unbewertet;Korrektanteil_bewertet
+Dimensionssprung;0;304;46;64;194;0.41818181818181815
+Dimensionssprung;1;706;106;197;403;0.34983498349834985
+Heterogenitaet;1;304;46;64;194;0.41818181818181815
+Heterogenitaet;2;706;106;197;403;0.34983498349834985
+Innendichte;0.290909;1;0;0;1;
+Innendichte;0.30303;1;0;0;1;
+Innendichte;0.309091;1;0;0;1;
+Innendichte;0.311111;2;0;0;2;
+Innendichte;0.355556;1;0;0;1;
+Innendichte;0.363636;5;0;2;3;0.0
+Innendichte;0.381818;1;0;1;0;0.0
+Innendichte;0.4;3;0;0;3;
+Innendichte;0.422222;3;0;3;0;0.0
+Innendichte;0.428571;1;0;1;0;0.0
+Innendichte;0.472222;2;0;2;0;0.0
+Innendichte;0.47619;7;1;6;0;0.14285714285714285
+Innendichte;0.5;36;3;14;19;0.17647058823529413
+Innendichte;0.533333;5;1;4;0;0.2
+Innendichte;0.535714;1;0;1;0;0.0
+Innendichte;0.571429;8;1;5;2;0.16666666666666666
+Innendichte;0.6;108;16;52;40;0.23529411764705882
+Innendichte;0.619048;1;0;0;1;
+Innendichte;0.666667;119;8;44;67;0.15384615384615385
+Innendichte;0.694444;8;0;0;8;
+Innendichte;0.7;38;0;6;32;0.0
+Innendichte;0.714286;100;0;0;100;
+Innendichte;0.733333;28;0;20;8;0.0
+Innendichte;0.761905;4;0;0;4;
+Innendichte;0.785714;4;0;0;4;
+Innendichte;0.8;6;0;4;2;0.0
+Innendichte;0.809524;1;0;0;1;
+Innendichte;0.833333;33;1;26;6;0.037037037037037035
+Innendichte;0.866667;42;0;0;42;
+Innendichte;0.933333;2;0;0;2;
+Innendichte;1.0;438;121;70;247;0.6335078534031413
+Kombination;Valenz=V2 | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=L | Winkel=orthogonal;4;4;0;0;1.0
+Kombination;Valenz=V2 | Heterogenitaet=1 | Versatz=O2 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=L | Winkel=orthogonal;2;0;2;0;0.0
+Kombination;Valenz=V2 | Heterogenitaet=1 | Versatz=O2 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=T | Winkel=orthogonal;6;0;6;0;0.0
+Kombination;Valenz=V2 | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K2 | Konfiguration=T | Winkel=orthogonal;4;4;0;0;1.0
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K1 | Konfiguration=X | Winkel=parallel;1;0;0;1;
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K2 | Konfiguration=L | Winkel=orthogonal;15;11;0;4;1.0
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K2 | Konfiguration=T | Winkel=orthogonal;44;10;0;34;1.0
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=L | Winkel=orthogonal;25;17;0;8;1.0
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=T | Winkel=orthogonal;4;4;0;0;1.0
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O2 | Dimensionssprung=1 | Kontakt=K1 | Konfiguration=T | Winkel=parallel;1;0;0;1;
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O2 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=L | Winkel=orthogonal;21;21;0;0;1.0
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O2 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=T | Winkel=orthogonal;38;29;9;0;0.7631578947368421
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O2 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=X | Winkel=orthogonal;3;3;0;0;1.0
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K2 | Konfiguration=L | Winkel=orthogonal;6;0;0;6;
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K2 | Konfiguration=T | Winkel=orthogonal;6;0;0;6;
+Kombination;Valenz=V2 | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=L | Winkel=orthogonal;7;5;2;0;0.7142857142857143
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O0 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=KN | Winkel=schiefwinklig;2;0;0;2;
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O0 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=Y | Winkel=schiefwinklig;7;0;0;7;
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=Y | Winkel=orthogonal;12;10;0;2;1.0
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K2 | Konfiguration=Y | Winkel=orthogonal;2;0;0;2;
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=Y | Winkel=orthogonal;2;0;0;2;
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O2 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=Y | Winkel=orthogonal;12;0;2;10;0.0
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=KN | Winkel=orthogonal;3;0;3;0;0.0
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=Y | Winkel=orthogonal;2;1;1;0;0.5
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K2 | Konfiguration=KN | Winkel=orthogonal;1;0;1;0;0.0
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K2 | Konfiguration=Y | Winkel=orthogonal;2;0;2;0;0.0
+Kombination;Valenz=V3 | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=Y | Winkel=orthogonal;2;0;0;2;
+Kombination;Valenz=V3 | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K2 | Konfiguration=KN | Winkel=orthogonal;2;1;0;1;1.0
+Kombination;Valenz=V3 | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;14;1;13;0;0.07142857142857142
+Kombination;Valenz=V3 | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=Y | Winkel=orthogonal;9;0;8;1;0.0
+Kombination;Valenz=V3 | Heterogenitaet=2 | Versatz=O2 | Dimensionssprung=1 | Kontakt=K1 | Konfiguration=KN | Winkel=parallel;1;0;0;1;
+Kombination;Valenz=V3 | Heterogenitaet=2 | Versatz=O2 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;10;0;3;7;0.0
+Kombination;Valenz=V3 | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K2 | Konfiguration=KN | Winkel=orthogonal;2;0;0;2;
+Kombination;Valenz=V3 | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K2 | Konfiguration=Y | Winkel=orthogonal;2;0;2;0;0.0
+Kombination;Valenz=V3 | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;3;1;2;0;0.3333333333333333
+Kombination;Valenz=V3 | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=Y | Winkel=orthogonal;4;0;4;0;0.0
+Kombination;Valenz=V4 | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=KN | Winkel=orthogonal;19;0;7;12;0.0
+Kombination;Valenz=V4 | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K2 | Konfiguration=KN | Winkel=orthogonal;2;2;0;0;1.0
+Kombination;Valenz=V4 | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;11;0;0;11;
+Kombination;Valenz=V4 | Heterogenitaet=1 | Versatz=O2 | Dimensionssprung=0 | Kontakt=K2 | Konfiguration=KN | Winkel=orthogonal;1;0;0;1;
+Kombination;Valenz=V4 | Heterogenitaet=1 | Versatz=O2 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;25;0;0;25;
+Kombination;Valenz=V4 | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=KN | Winkel=orthogonal;18;4;11;3;0.26666666666666666
+Kombination;Valenz=V4 | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K2 | Konfiguration=KN | Winkel=orthogonal;4;0;0;4;
+Kombination;Valenz=V4 | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;43;0;0;43;
+Kombination;Valenz=V4 | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K2 | Konfiguration=KN | Winkel=orthogonal;3;0;2;1;0.0
+Kombination;Valenz=V4 | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;26;2;17;7;0.10526315789473684
+Kombination;Valenz=V4 | Heterogenitaet=2 | Versatz=O2 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;53;1;35;17;0.027777777777777776
+Kombination;Valenz=V4 | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;6;0;2;4;0.0
+Kombination;Valenz=V5+ | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=KN | Winkel=orthogonal;20;7;4;9;0.6363636363636364
+Kombination;Valenz=V5+ | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=KN | Winkel=schiefwinklig;5;0;0;5;
+Kombination;Valenz=V5+ | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K2 | Konfiguration=KN | Winkel=orthogonal;5;4;1;0;0.8
+Kombination;Valenz=V5+ | Heterogenitaet=1 | Versatz=O1 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;1;0;1;0;0.0
+Kombination;Valenz=V5+ | Heterogenitaet=1 | Versatz=O2 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=KN | Winkel=orthogonal;1;1;0;0;1.0
+Kombination;Valenz=V5+ | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=KN | Winkel=orthogonal;24;3;18;3;0.14285714285714285
+Kombination;Valenz=V5+ | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K1 | Konfiguration=KN | Winkel=schiefwinklig;3;0;0;3;
+Kombination;Valenz=V5+ | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K2 | Konfiguration=KN | Winkel=orthogonal;2;2;0;0;1.0
+Kombination;Valenz=V5+ | Heterogenitaet=1 | Versatz=O3 | Dimensionssprung=0 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;57;4;5;48;0.4444444444444444
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K1 | Konfiguration=KN | Winkel=orthogonal;1;0;1;0;0.0
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;29;0;23;6;0.0
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O1 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=schiefwinklig;3;0;0;3;
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O2 | Dimensionssprung=1 | Kontakt=K1 | Konfiguration=KN | Winkel=schiefwinklig;3;0;0;3;
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O2 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;212;0;21;191;0.0
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O2 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=schiefwinklig;39;0;0;39;
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K1 | Konfiguration=KN | Winkel=orthogonal;6;0;6;0;0.0
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K2 | Konfiguration=KN | Winkel=orthogonal;3;0;0;3;
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K2 | Konfiguration=KN | Winkel=schiefwinklig;1;0;0;1;
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=orthogonal;100;0;47;53;0.0
+Kombination;Valenz=V5+ | Heterogenitaet=2 | Versatz=O3 | Dimensionssprung=1 | Kontakt=K3 | Konfiguration=KN | Winkel=schiefwinklig;3;0;0;3;
+Konfiguration;KN;767;33;223;511;0.12890625
+Konfiguration;L;80;58;4;18;0.9354838709677419
+Konfiguration;T;103;47;15;41;0.7580645161290323
+Konfiguration;X;4;3;0;1;1.0
+Konfiguration;Y;56;11;19;26;0.36666666666666664
+Kontakt;K1;129;26;51;52;0.33766233766233766
+Kontakt;K2;107;34;8;65;0.8095238095238095
+Kontakt;K3;774;92;202;480;0.3129251700680272
+Shortcode;V2-h1-p1.00 | O1-Õ0.28 | K3-L-orth;2;2;0;0;1.0
+Shortcode;V2-h1-p1.00 | O1-Õ0.35 | K3-L-orth;2;2;0;0;1.0
+Shortcode;V2-h1-p1.00 | O2-Õ0.17 | K3-T-orth;1;0;1;0;0.0
+Shortcode;V2-h1-p1.00 | O2-Õ0.19 | K3-T-orth;1;0;1;0;0.0
+Shortcode;V2-h1-p1.00 | O2-Õ0.26 | K3-T-orth;2;0;2;0;0.0
+Shortcode;V2-h1-p1.00 | O2-Õ0.27 | K3-T-orth;1;0;1;0;0.0
+Shortcode;V2-h1-p1.00 | O2-Õ0.30 | K3-L-orth;1;0;1;0;0.0
+Shortcode;V2-h1-p1.00 | O2-Õ0.30 | K3-T-orth;1;0;1;0;0.0
+Shortcode;V2-h1-p1.00 | O2-Õ0.34 | K3-L-orth;1;0;1;0;0.0
+Shortcode;V2-h1-p1.00 | O3-Õ0.18 | K2-T-orth;3;3;0;0;1.0
+Shortcode;V2-h1-p1.00 | O3-Õ0.19 | K2-T-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.16 | K2-T-orth;8;0;0;8;
+Shortcode;V2-h2-p1.00 | O1-Õ0.17 | K2-L-orth;4;4;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.17 | K2-T-orth;7;7;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.18 | K2-L-orth;4;0;0;4;
+Shortcode;V2-h2-p1.00 | O1-Õ0.20 | K2-T-orth;2;2;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.25 | K2-T-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.28 | K3-L-orth;6;6;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.29 | K2-L-orth;7;7;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.29 | K3-L-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.34 | K3-T-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.35 | K3-T-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.36 | K2-T-orth;26;0;0;26;
+Shortcode;V2-h2-p1.00 | O1-Õ0.36 | K3-T-orth;2;2;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ0.37 | K3-L-orth;6;0;0;6;
+Shortcode;V2-h2-p1.00 | O1-Õ0.38 | K3-L-orth;2;0;0;2;
+Shortcode;V2-h2-p1.00 | O1-Õ0.39 | K3-L-orth;10;10;0;0;1.0
+Shortcode;V2-h2-p1.00 | O1-Õ1.19 | K1-X-par;1;0;0;1;
+Shortcode;V2-h2-p1.00 | O2-Õ0.07 | K3-L-orth;6;6;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.08 | K3-L-orth;5;5;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.08 | K3-T-orth;15;15;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.08 | K3-X-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.09 | K3-L-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.09 | K3-T-orth;6;6;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.09 | K3-X-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.10 | K3-L-orth;4;4;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.10 | K3-T-orth;5;5;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.11 | K3-T-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.11 | K3-X-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.12 | K3-T-orth;2;2;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.15 | K1-T-par;1;0;0;1;
+Shortcode;V2-h2-p1.00 | O2-Õ0.22 | K3-L-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.23 | K3-L-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.29 | K3-T-orth;9;0;9;0;0.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.34 | K3-L-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.35 | K3-L-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O2-Õ0.42 | K3-L-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O3-Õ0.06 | K3-L-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O3-Õ0.07 | K3-L-orth;2;2;0;0;1.0
+Shortcode;V2-h2-p1.00 | O3-Õ0.08 | K3-L-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O3-Õ0.09 | K3-L-orth;1;1;0;0;1.0
+Shortcode;V2-h2-p1.00 | O3-Õ0.18 | K2-L-orth;4;0;0;4;
+Shortcode;V2-h2-p1.00 | O3-Õ0.18 | K2-T-orth;6;0;0;6;
+Shortcode;V2-h2-p1.00 | O3-Õ0.20 | K2-L-orth;2;0;0;2;
+Shortcode;V2-h2-p1.00 | O3-Õ0.34 | K3-L-orth;1;0;1;0;0.0
+Shortcode;V2-h2-p1.00 | O3-Õ0.35 | K3-L-orth;1;0;1;0;0.0
+Shortcode;V3-h1-p1.00 | O0-Õ0.03 | K1-KN-schief;2;0;0;2;
+Shortcode;V3-h1-p1.00 | O0-Õ0.04 | K1-Y-schief;7;0;0;7;
+Shortcode;V3-h1-p1.00 | O1-Õ0.25 | K2-Y-orth;2;0;0;2;
+Shortcode;V3-h1-p1.00 | O1-Õ0.25 | K3-Y-orth;2;0;0;2;
+Shortcode;V3-h1-p1.00 | O1-Õ0.28 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O1-Õ0.30 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O1-Õ0.48 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O1-Õ0.58 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O1-Õ0.87 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O1-Õ0.95 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O1-Õ1.00 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O1-Õ1.02 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O1-Õ1.05 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O1-Õ1.06 | K1-Y-orth;2;0;0;2;
+Shortcode;V3-h1-p1.00 | O1-Õ1.14 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O2-Õ0.22 | K3-Y-orth;1;0;0;1;
+Shortcode;V3-h1-p1.00 | O2-Õ0.25 | K3-Y-orth;7;0;0;7;
+Shortcode;V3-h1-p1.00 | O2-Õ0.30 | K3-Y-orth;1;0;1;0;0.0
+Shortcode;V3-h1-p1.00 | O2-Õ0.31 | K3-Y-orth;1;0;1;0;0.0
+Shortcode;V3-h1-p1.00 | O2-Õ0.38 | K3-Y-orth;2;0;0;2;
+Shortcode;V3-h1-p1.00 | O3-Õ0.38 | K3-Y-orth;2;0;0;2;
+Shortcode;V3-h1-p1.00 | O3-Õ0.43 | K1-Y-orth;1;1;0;0;1.0
+Shortcode;V3-h1-p1.00 | O3-Õ0.69 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V3-h1-p1.00 | O3-Õ0.96 | K1-Y-orth;1;0;1;0;0.0
+Shortcode;V3-h1-p1.00 | O3-Õ0.98 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V3-h1-p1.00 | O3-Õ0.98 | K2-KN-orth;1;0;1;0;0.0
+Shortcode;V3-h1-p1.00 | O3-Õ1.09 | K2-Y-orth;2;0;2;0;0.0
+Shortcode;V3-h1-p1.00 | O3-Õ1.20 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p0.67 | O1-Õ0.19 | K2-KN-orth;1;1;0;0;1.0
+Shortcode;V3-h2-p0.67 | O1-Õ0.27 | K3-Y-orth;2;0;2;0;0.0
+Shortcode;V3-h2-p0.67 | O1-Õ0.33 | K3-Y-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p0.67 | O1-Õ0.35 | K3-Y-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p0.67 | O1-Õ0.37 | K3-Y-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p0.67 | O1-Õ0.38 | K3-Y-orth;4;0;3;1;0.0
+Shortcode;V3-h2-p0.67 | O1-Õ1.18 | K2-KN-orth;1;0;0;1;
+Shortcode;V3-h2-p0.67 | O2-Õ0.30 | K1-KN-par;1;0;0;1;
+Shortcode;V3-h2-p0.67 | O2-Õ0.41 | K3-KN-orth;2;0;0;2;
+Shortcode;V3-h2-p0.67 | O2-Õ0.42 | K3-KN-orth;3;0;0;3;
+Shortcode;V3-h2-p0.67 | O2-Õ0.43 | K3-KN-orth;2;0;0;2;
+Shortcode;V3-h2-p0.67 | O3-Õ0.16 | K2-KN-orth;2;0;0;2;
+Shortcode;V3-h2-p1.00 | O1-Õ0.24 | K3-KN-orth;1;1;0;0;1.0
+Shortcode;V3-h2-p1.00 | O1-Õ0.27 | K3-KN-orth;6;0;6;0;0.0
+Shortcode;V3-h2-p1.00 | O1-Õ0.28 | K3-KN-orth;6;0;6;0;0.0
+Shortcode;V3-h2-p1.00 | O1-Õ1.14 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p1.00 | O2-Õ0.38 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p1.00 | O2-Õ0.39 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p1.00 | O2-Õ0.40 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p1.00 | O3-Õ0.27 | K2-Y-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p1.00 | O3-Õ0.28 | K2-Y-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p1.00 | O3-Õ0.29 | K3-KN-orth;1;1;0;0;1.0
+Shortcode;V3-h2-p1.00 | O3-Õ0.40 | K3-Y-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p1.00 | O3-Õ0.46 | K3-Y-orth;2;0;2;0;0.0
+Shortcode;V3-h2-p1.00 | O3-Õ0.63 | K3-Y-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p1.00 | O3-Õ1.04 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V3-h2-p1.00 | O3-Õ1.19 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h1-p0.50 | O1-Õ0.97 | K1-KN-orth;2;0;0;2;
+Shortcode;V4-h1-p0.50 | O1-Õ1.00 | K1-KN-orth;3;0;0;3;
+Shortcode;V4-h1-p0.50 | O1-Õ1.05 | K1-KN-orth;7;0;0;7;
+Shortcode;V4-h1-p0.50 | O3-Õ0.97 | K1-KN-orth;2;0;0;2;
+Shortcode;V4-h1-p0.50 | O3-Õ1.11 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V4-h1-p0.67 | O1-Õ0.29 | K2-KN-orth;1;1;0;0;1.0
+Shortcode;V4-h1-p0.67 | O1-Õ0.45 | K2-KN-orth;1;1;0;0;1.0
+Shortcode;V4-h1-p0.67 | O2-Õ0.26 | K2-KN-orth;1;0;0;1;
+Shortcode;V4-h1-p0.67 | O3-Õ0.74 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V4-h1-p0.67 | O3-Õ0.76 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V4-h1-p0.83 | O1-Õ0.75 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h1-p0.83 | O2-Õ0.40 | K3-KN-orth;2;0;0;2;
+Shortcode;V4-h1-p0.83 | O3-Õ0.28 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V4-h1-p0.83 | O3-Õ0.37 | K2-KN-orth;2;0;0;2;
+Shortcode;V4-h1-p0.83 | O3-Õ0.37 | K3-KN-orth;1;0;0;1;
+Shortcode;V4-h1-p0.83 | O3-Õ1.07 | K1-KN-orth;1;0;0;1;
+Shortcode;V4-h1-p0.83 | O3-Õ1.13 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h1-p0.83 | O3-Õ1.15 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V4-h1-p0.83 | O3-Õ1.17 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h1-p0.83 | O3-Õ1.19 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V4-h1-p0.83 | O3-Õ1.20 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V4-h1-p0.83 | O3-Õ1.22 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h1-p0.83 | O3-Õ1.24 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h1-p1.00 | O1-Õ0.25 | K3-KN-orth;11;0;0;11;
+Shortcode;V4-h1-p1.00 | O1-Õ0.97 | K1-KN-orth;3;0;3;0;0.0
+Shortcode;V4-h1-p1.00 | O1-Õ1.05 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V4-h1-p1.00 | O1-Õ1.14 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h1-p1.00 | O2-Õ0.25 | K3-KN-orth;3;0;0;3;
+Shortcode;V4-h1-p1.00 | O2-Õ0.39 | K3-KN-orth;2;0;0;2;
+Shortcode;V4-h1-p1.00 | O2-Õ0.40 | K3-KN-orth;8;0;0;8;
+Shortcode;V4-h1-p1.00 | O2-Õ0.42 | K3-KN-orth;3;0;0;3;
+Shortcode;V4-h1-p1.00 | O2-Õ0.43 | K3-KN-orth;2;0;0;2;
+Shortcode;V4-h1-p1.00 | O2-Õ0.49 | K3-KN-orth;5;0;0;5;
+Shortcode;V4-h1-p1.00 | O3-Õ0.35 | K3-KN-orth;4;0;0;4;
+Shortcode;V4-h1-p1.00 | O3-Õ0.36 | K3-KN-orth;13;0;0;13;
+Shortcode;V4-h1-p1.00 | O3-Õ0.37 | K2-KN-orth;2;0;0;2;
+Shortcode;V4-h1-p1.00 | O3-Õ0.37 | K3-KN-orth;19;0;0;19;
+Shortcode;V4-h1-p1.00 | O3-Õ0.42 | K3-KN-orth;1;0;0;1;
+Shortcode;V4-h1-p1.00 | O3-Õ0.43 | K3-KN-orth;2;0;0;2;
+Shortcode;V4-h1-p1.00 | O3-Õ0.49 | K3-KN-orth;3;0;0;3;
+Shortcode;V4-h1-p1.00 | O3-Õ1.03 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.50 | O1-Õ0.29 | K2-KN-orth;2;0;2;0;0.0
+Shortcode;V4-h2-p0.50 | O1-Õ0.34 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.50 | O1-Õ0.38 | K3-KN-orth;3;0;0;3;
+Shortcode;V4-h2-p0.50 | O2-Õ0.20 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.50 | O2-Õ0.21 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.67 | O1-Õ0.30 | K3-KN-orth;1;1;0;0;1.0
+Shortcode;V4-h2-p0.67 | O1-Õ0.33 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.67 | O1-Õ0.34 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V4-h2-p0.67 | O1-Õ0.35 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.67 | O1-Õ0.37 | K3-KN-orth;1;1;0;0;1.0
+Shortcode;V4-h2-p0.67 | O1-Õ0.54 | K3-KN-orth;6;0;6;0;0.0
+Shortcode;V4-h2-p0.67 | O1-Õ1.18 | K2-KN-orth;1;0;0;1;
+Shortcode;V4-h2-p0.67 | O1-Õ1.18 | K3-KN-orth;4;0;0;4;
+Shortcode;V4-h2-p0.67 | O1-Õ1.20 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.67 | O2-Õ0.26 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V4-h2-p0.67 | O2-Õ0.30 | K3-KN-orth;9;1;8;0;0.1111111111111111
+Shortcode;V4-h2-p0.67 | O2-Õ0.32 | K3-KN-orth;1;0;0;1;
+Shortcode;V4-h2-p0.67 | O2-Õ0.33 | K3-KN-orth;10;0;10;0;0.0
+Shortcode;V4-h2-p0.67 | O2-Õ0.34 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V4-h2-p0.67 | O2-Õ0.39 | K3-KN-orth;2;0;0;2;
+Shortcode;V4-h2-p0.67 | O2-Õ0.41 | K3-KN-orth;7;0;0;7;
+Shortcode;V4-h2-p0.67 | O2-Õ0.43 | K3-KN-orth;1;0;0;1;
+Shortcode;V4-h2-p0.67 | O2-Õ0.47 | K3-KN-orth;2;0;0;2;
+Shortcode;V4-h2-p0.67 | O2-Õ0.48 | K3-KN-orth;2;0;0;2;
+Shortcode;V4-h2-p0.67 | O3-Õ0.36 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.67 | O3-Õ1.19 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.83 | O1-Õ1.16 | K3-KN-orth;3;0;3;0;0.0
+Shortcode;V4-h2-p0.83 | O1-Õ1.47 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.83 | O2-Õ0.31 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.83 | O2-Õ0.32 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.83 | O2-Õ0.33 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.83 | O2-Õ0.34 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.83 | O2-Õ0.39 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.83 | O2-Õ0.41 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.83 | O2-Õ0.42 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V4-h2-p0.83 | O2-Õ0.48 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.83 | O2-Õ0.51 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p0.83 | O2-Õ0.53 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p1.00 | O1-Õ1.16 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V4-h2-p1.00 | O2-Õ0.29 | K3-KN-orth;2;0;0;2;
+Shortcode;V4-h2-p1.00 | O3-Õ0.36 | K3-KN-orth;2;0;0;2;
+Shortcode;V4-h2-p1.00 | O3-Õ0.37 | K3-KN-orth;2;0;0;2;
+Shortcode;V5+-h1-p0.48 | O1-Õ1.03 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.50 | O1-Õ1.00 | K2-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.50 | O3-Õ0.83 | K3-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.53 | O3-Õ1.02 | K2-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.57 | O1-Õ1.05 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h1-p0.57 | O1-Õ1.14 | K2-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.57 | O3-Õ0.98 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h1-p0.57 | O3-Õ1.05 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h1-p0.60 | O1-Õ0.54 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O1-Õ0.57 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O1-Õ0.71 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O1-Õ0.71 | K2-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O1-Õ0.93 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O1-Õ0.97 | K1-KN-orth;3;0;0;3;
+Shortcode;V5+-h1-p0.60 | O1-Õ0.97 | K1-KN-schief;1;0;0;1;
+Shortcode;V5+-h1-p0.60 | O1-Õ0.98 | K1-KN-schief;1;0;0;1;
+Shortcode;V5+-h1-p0.60 | O1-Õ0.99 | K1-KN-orth;1;0;0;1;
+Shortcode;V5+-h1-p0.60 | O1-Õ0.99 | K1-KN-schief;3;0;0;3;
+Shortcode;V5+-h1-p0.60 | O1-Õ0.99 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h1-p0.60 | O1-Õ1.11 | K2-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O1-Õ1.14 | K1-KN-orth;4;1;0;3;1.0
+Shortcode;V5+-h1-p0.60 | O1-Õ1.15 | K1-KN-orth;2;0;0;2;
+Shortcode;V5+-h1-p0.60 | O1-Õ1.17 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h1-p0.60 | O1-Õ1.37 | K1-KN-orth;2;1;1;0;0.5
+Shortcode;V5+-h1-p0.60 | O2-Õ0.33 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.38 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.39 | K3-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.40 | K2-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.40 | K3-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.62 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.71 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.82 | K1-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.83 | K3-KN-orth;1;1;0;0;1.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.95 | K1-KN-schief;2;0;0;2;
+Shortcode;V5+-h1-p0.60 | O3-Õ0.97 | K1-KN-orth;3;0;0;3;
+Shortcode;V5+-h1-p0.60 | O3-Õ0.98 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.98 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.99 | K1-KN-orth;3;0;3;0;0.0
+Shortcode;V5+-h1-p0.60 | O3-Õ0.99 | K3-KN-orth;4;0;4;0;0.0
+Shortcode;V5+-h1-p0.60 | O3-Õ1.13 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h1-p0.60 | O3-Õ1.17 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h1-p0.60 | O3-Õ1.20 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h1-p0.60 | O3-Õ1.22 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h1-p0.60 | O3-Õ1.24 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h1-p0.70 | O3-Õ0.25 | K1-KN-schief;1;0;0;1;
+Shortcode;V5+-h1-p0.73 | O1-Õ1.17 | K2-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h1-p0.80 | O3-Õ1.15 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h1-p1.00 | O3-Õ0.36 | K3-KN-orth;8;0;0;8;
+Shortcode;V5+-h1-p1.00 | O3-Õ0.37 | K3-KN-orth;40;0;0;40;
+Shortcode;V5+-h2-p0.29 | O1-Õ0.97 | K3-KN-schief;1;0;0;1;
+Shortcode;V5+-h2-p0.30 | O1-Õ1.00 | K3-KN-schief;1;0;0;1;
+Shortcode;V5+-h2-p0.31 | O1-Õ1.00 | K3-KN-schief;1;0;0;1;
+Shortcode;V5+-h2-p0.31 | O3-Õ1.00 | K2-KN-schief;1;0;0;1;
+Shortcode;V5+-h2-p0.31 | O3-Õ1.00 | K3-KN-schief;1;0;0;1;
+Shortcode;V5+-h2-p0.36 | O2-Õ0.44 | K3-KN-schief;3;0;0;3;
+Shortcode;V5+-h2-p0.36 | O3-Õ0.97 | K3-KN-schief;1;0;0;1;
+Shortcode;V5+-h2-p0.36 | O3-Õ1.15 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.36 | O3-Õ1.24 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.38 | O1-Õ1.21 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.40 | O2-Õ0.43 | K3-KN-schief;3;0;0;3;
+Shortcode;V5+-h2-p0.42 | O3-Õ1.05 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.42 | O3-Õ1.08 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.42 | O3-Õ1.16 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.43 | O3-Õ1.15 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.47 | O1-Õ1.21 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.47 | O3-Õ1.23 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.48 | O1-Õ1.21 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.48 | O3-Õ1.06 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.48 | O3-Õ1.08 | K1-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.48 | O3-Õ1.23 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.48 | O3-Õ1.24 | K1-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.50 | O1-Õ0.29 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.50 | O2-Õ0.26 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.50 | O2-Õ0.27 | K3-KN-orth;3;0;3;0;0.0
+Shortcode;V5+-h2-p0.50 | O3-Õ0.39 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.50 | O3-Õ0.40 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.50 | O3-Õ1.06 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.50 | O3-Õ1.15 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.50 | O3-Õ1.16 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.53 | O2-Õ0.30 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.53 | O2-Õ0.31 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.54 | O3-Õ1.08 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.57 | O1-Õ1.18 | K3-KN-orth;2;0;0;2;
+Shortcode;V5+-h2-p0.60 | O1-Õ0.33 | K3-KN-orth;3;0;3;0;0.0
+Shortcode;V5+-h2-p0.60 | O1-Õ0.35 | K3-KN-orth;4;0;4;0;0.0
+Shortcode;V5+-h2-p0.60 | O1-Õ1.18 | K3-KN-orth;2;0;0;2;
+Shortcode;V5+-h2-p0.60 | O1-Õ1.25 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.60 | O2-Õ0.31 | K3-KN-schief;2;0;0;2;
+Shortcode;V5+-h2-p0.60 | O2-Õ0.38 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.60 | O2-Õ0.39 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.60 | O2-Õ0.40 | K3-KN-schief;2;0;0;2;
+Shortcode;V5+-h2-p0.60 | O2-Õ0.41 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.60 | O2-Õ0.41 | K3-KN-schief;4;0;0;4;
+Shortcode;V5+-h2-p0.60 | O2-Õ0.42 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.60 | O2-Õ0.44 | K3-KN-orth;2;0;1;1;0.0
+Shortcode;V5+-h2-p0.60 | O2-Õ0.44 | K3-KN-schief;7;0;0;7;
+Shortcode;V5+-h2-p0.60 | O3-Õ0.30 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.60 | O3-Õ0.31 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.60 | O3-Õ0.32 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.60 | O3-Õ0.33 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.60 | O3-Õ0.34 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.60 | O3-Õ0.37 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.60 | O3-Õ0.42 | K3-KN-orth;5;0;5;0;0.0
+Shortcode;V5+-h2-p0.60 | O3-Õ1.07 | K2-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.60 | O3-Õ1.08 | K2-KN-orth;2;0;0;2;
+Shortcode;V5+-h2-p0.60 | O3-Õ1.15 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.60 | O3-Õ1.23 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.62 | O2-Õ0.44 | K3-KN-schief;1;0;0;1;
+Shortcode;V5+-h2-p0.67 | O2-Õ0.39 | K3-KN-orth;3;0;0;3;
+Shortcode;V5+-h2-p0.67 | O2-Õ0.42 | K3-KN-orth;5;0;0;5;
+Shortcode;V5+-h2-p0.67 | O2-Õ0.43 | K3-KN-orth;5;0;0;5;
+Shortcode;V5+-h2-p0.67 | O2-Õ0.44 | K3-KN-orth;2;0;0;2;
+Shortcode;V5+-h2-p0.67 | O2-Õ0.44 | K3-KN-schief;2;0;0;2;
+Shortcode;V5+-h2-p0.67 | O2-Õ0.45 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.67 | O2-Õ0.47 | K3-KN-orth;12;0;0;12;
+Shortcode;V5+-h2-p0.67 | O2-Õ0.48 | K3-KN-orth;4;0;0;4;
+Shortcode;V5+-h2-p0.67 | O3-Õ1.23 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.69 | O2-Õ0.42 | K3-KN-orth;4;0;0;4;
+Shortcode;V5+-h2-p0.69 | O2-Õ0.45 | K3-KN-orth;4;0;0;4;
+Shortcode;V5+-h2-p0.70 | O1-Õ0.29 | K3-KN-orth;2;0;0;2;
+Shortcode;V5+-h2-p0.70 | O2-Õ0.24 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.70 | O2-Õ0.29 | K3-KN-orth;5;0;0;5;
+Shortcode;V5+-h2-p0.70 | O2-Õ0.33 | K3-KN-schief;1;0;0;1;
+Shortcode;V5+-h2-p0.70 | O2-Õ0.41 | K1-KN-schief;1;0;0;1;
+Shortcode;V5+-h2-p0.70 | O2-Õ0.41 | K3-KN-schief;2;0;0;2;
+Shortcode;V5+-h2-p0.70 | O2-Õ0.43 | K3-KN-schief;4;0;0;4;
+Shortcode;V5+-h2-p0.70 | O2-Õ0.44 | K1-KN-schief;2;0;0;2;
+Shortcode;V5+-h2-p0.70 | O3-Õ0.33 | K3-KN-schief;1;0;0;1;
+Shortcode;V5+-h2-p0.70 | O3-Õ0.36 | K3-KN-orth;6;0;0;6;
+Shortcode;V5+-h2-p0.70 | O3-Õ0.37 | K3-KN-orth;6;0;0;6;
+Shortcode;V5+-h2-p0.70 | O3-Õ0.42 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.70 | O3-Õ1.09 | K3-KN-orth;4;0;4;0;0.0
+Shortcode;V5+-h2-p0.71 | O2-Õ0.38 | K3-KN-orth;34;0;0;34;
+Shortcode;V5+-h2-p0.71 | O2-Õ0.39 | K3-KN-orth;3;0;0;3;
+Shortcode;V5+-h2-p0.71 | O2-Õ0.41 | K3-KN-orth;3;0;0;3;
+Shortcode;V5+-h2-p0.71 | O2-Õ0.42 | K3-KN-orth;17;0;0;17;
+Shortcode;V5+-h2-p0.71 | O2-Õ0.43 | K3-KN-orth;28;0;0;28;
+Shortcode;V5+-h2-p0.71 | O2-Õ0.44 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.71 | O2-Õ0.45 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.71 | O3-Õ0.38 | K3-KN-orth;13;0;0;13;
+Shortcode;V5+-h2-p0.73 | O1-Õ1.20 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.73 | O1-Õ1.25 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p0.73 | O2-Õ0.38 | K3-KN-orth;2;0;0;2;
+Shortcode;V5+-h2-p0.73 | O2-Õ0.42 | K3-KN-orth;6;0;6;0;0.0
+Shortcode;V5+-h2-p0.73 | O2-Õ0.44 | K3-KN-schief;6;0;0;6;
+Shortcode;V5+-h2-p0.73 | O3-Õ0.41 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.73 | O3-Õ0.42 | K3-KN-orth;9;0;9;0;0.0
+Shortcode;V5+-h2-p0.76 | O2-Õ0.38 | K3-KN-orth;2;0;0;2;
+Shortcode;V5+-h2-p0.76 | O2-Õ0.41 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.76 | O2-Õ0.43 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.79 | O2-Õ0.36 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.79 | O3-Õ0.36 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.79 | O3-Õ0.37 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.79 | O3-Õ0.38 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.80 | O2-Õ0.32 | K3-KN-orth;2;0;0;2;
+Shortcode;V5+-h2-p0.80 | O3-Õ1.09 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p0.81 | O2-Õ0.38 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.87 | O2-Õ0.37 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.87 | O2-Õ0.38 | K3-KN-orth;18;0;0;18;
+Shortcode;V5+-h2-p0.87 | O2-Õ0.41 | K3-KN-orth;2;0;0;2;
+Shortcode;V5+-h2-p0.87 | O2-Õ0.44 | K3-KN-schief;2;0;0;2;
+Shortcode;V5+-h2-p0.87 | O2-Õ0.47 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.87 | O2-Õ0.48 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.87 | O2-Õ0.50 | K3-KN-orth;4;0;0;4;
+Shortcode;V5+-h2-p0.87 | O3-Õ0.37 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.87 | O3-Õ0.38 | K3-KN-orth;8;0;0;8;
+Shortcode;V5+-h2-p0.87 | O3-Õ0.49 | K3-KN-orth;4;0;0;4;
+Shortcode;V5+-h2-p0.93 | O2-Õ0.47 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p0.93 | O2-Õ0.48 | K3-KN-orth;1;0;0;1;
+Shortcode;V5+-h2-p1.00 | O1-Õ0.29 | K3-KN-orth;6;0;6;0;0.0
+Shortcode;V5+-h2-p1.00 | O1-Õ0.30 | K3-KN-orth;2;0;2;0;0.0
+Shortcode;V5+-h2-p1.00 | O1-Õ1.47 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p1.00 | O2-Õ0.42 | K3-KN-orth;8;0;0;8;
+Shortcode;V5+-h2-p1.00 | O2-Õ0.49 | K3-KN-orth;10;0;0;10;
+Shortcode;V5+-h2-p1.00 | O3-Õ0.30 | K3-KN-orth;1;0;1;0;0.0
+Shortcode;V5+-h2-p1.00 | O3-Õ0.42 | K3-KN-orth;4;0;0;4;
+Shortcode;V5+-h2-p1.00 | O3-Õ0.49 | K3-KN-orth;6;0;0;6;
+Valenz;V2;187;108;19;60;0.8503937007874016
+Valenz;V3;94;14;41;39;0.2545454545454545
+Valenz;V4;211;9;74;128;0.10843373493975904
+Valenz;V5+;518;21;127;370;0.14189189189189189
+Versatz;O0;9;0;0;9;
+Versatz;O1;259;73;77;109;0.4866666666666667
+Versatz;O2;428;55;78;295;0.41353383458646614
+Versatz;O3;314;24;106;184;0.18461538461538463
+Winkel;orthogonal;941;152;261;528;0.36803874092009686
+Winkel;parallel;3;0;0;3;
+Winkel;schiefwinklig;66;0;0;66;
