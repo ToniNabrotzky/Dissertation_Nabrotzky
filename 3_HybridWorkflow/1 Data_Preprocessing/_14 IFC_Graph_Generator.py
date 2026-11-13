@@ -52,13 +52,13 @@ def main():
         # "model_1",
         # "model_3_1D",
         # "model_3_2D",
-        "model_3_2D_ohneDach",
+        # "model_3_2D_ohneDach",
         # "model_4",
-        # "model_7",
+        "model_7",
         # "model_8",
         # "model_9", # 5,0m erforderlich
         # "model_10_1D",
-        "model_10_1D_ohneDach",
+        # "model_10_1D_ohneDach",
         # "model_10_2D",
         # "Parametrisches Modell Index_00000",
         # "Parametrisches Modell Index_00050",
@@ -241,6 +241,7 @@ class GNNPipeline(Dateneingang, Experiment1RBCFehlertaxonomie,
                     result["joint_classes"],
                     epsilon=study_epsilon,
                     filename_suffix=f" eps_{study_epsilon!r}m",
+                    gt_pairs=gt_pairs,
                 )
         else:
             # EXPERIMENT 1, SCHRITT 1: KONTAKTPAARE UND KONTAKTREGIONEN
@@ -267,6 +268,7 @@ class GNNPipeline(Dateneingang, Experiment1RBCFehlertaxonomie,
                 soll_joints,
                 joint_classes,
                 epsilon=None,
+                gt_pairs=gt_pairs,
             )
 
 

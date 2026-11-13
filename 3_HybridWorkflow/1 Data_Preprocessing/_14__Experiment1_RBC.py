@@ -87,6 +87,18 @@ JOINT_CLASS_KEYS = (
     "pair_count", "pair_count_evaluated", "pairs", "shortcode"
 )
 
+
+def summarize_joint_classes(classified):
+    """Zählt die Klassifizierungsmerkmale der Zusammenfassung von Schritt 3."""
+    summary = {}
+    for key in ("valence_class", "h", "o_class", "gamma_max", "k_max", "configuration", "angle_class"):
+        counts = {}
+        for item in classified:
+            value = item[key]
+            counts[value] = counts.get(value, 0) + 1
+        summary[key] = dict(sorted(counts.items(), key=lambda kv: str(kv[0])))
+    return summary
+
 # =========================================================
 # EXPERIMENT 1, PHASE A
 # =========================================================
@@ -1162,19 +1174,15 @@ class Experiment1PhaseBSchritt3(_BauteilEigenschaften):
             )
 
         # Protokoll - Zusammenfassung Schritt 3
-        def count(key):
-            counts = {}
-            for item in classified:
-                counts[item[key]] = counts.get(item[key], 0) + 1
-            return dict(sorted(counts.items(), key=lambda kv: str(kv[0])))
+        summary = summarize_joint_classes(classified)
         
         self.log("", print_console=False) # Leerzeile vor Bericht
         self.log(
             f"1.B Schritt 3: Zusammenfassung: Joints={len(classified)}"
-            f"\n    Achse 1 Valenz: {count('valence_class')} | h: {count('h')}"
-            f"\n    Achse 2 Versatz: O-Klassen: {count('o_class')} | Γ_max: {count('gamma_max')}"
-            f"\n    Achse 3 Morphologie: K_max: {count('k_max')} | Konfiguration: {count('configuration')} | "
-            f"Winkel: {count('angle_class')}", print_console=False
+            f"\n    Achse 1 Valenz: {summary['valence_class']} | h: {summary['h']}"
+            f"\n    Achse 2 Versatz: O-Klassen: {summary['o_class']} | Γ_max: {summary['gamma_max']}"
+            f"\n    Achse 3 Morphologie: K_max: {summary['k_max']} | Konfiguration: {summary['configuration']} | "
+            f"Winkel: {summary['angle_class']}", print_console=False
         )
         return classified
 

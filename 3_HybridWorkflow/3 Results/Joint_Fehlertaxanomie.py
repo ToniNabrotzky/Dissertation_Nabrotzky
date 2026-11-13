@@ -46,7 +46,7 @@ GUID_RE = re.compile(r"^[0-3][0-9A-Za-z_$]{21}$")
 ACHSEN = {
     # Achse 1: Valenz
     "Valenz": "valence_class",
-    "Heterogenitaet": "h",
+    "Heterogenität": "h",
     "Innendichte": "p",
     # Achse 2: Versatz
     "Versatz": "o_class",

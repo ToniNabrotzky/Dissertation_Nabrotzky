@@ -28,6 +28,7 @@ from _14__Experiment1_RBC import (
     JOINT_POINT_EXTENT, JOINT_SAMPLE_SPACING, JOINT_MAX_SAMPLES,
     JOINT_O_TOL, JOINT_RHO_AXIAL, JOINT_RHO_LATERAL, JOINT_ANGLE_TOL,
     JOINT_END_TOL_SCALE, JOINT_IDEAL_TOL, JOINT_PARALLEL_TOL, JOINT_REGULARIZATION,
+    summarize_joint_classes,
 )
 from _14__Experiment2_GNN import RBF_GAMMA, MAX_DIST
 
@@ -62,13 +63,13 @@ class Ausgabe:
     def export_soll_joints(
         self, stem, nodes, stats_ifc, 
         contact_regions, soll_joints=None, joint_classes=None,
-        epsilon=None, filename_suffix=""
+        epsilon=None, filename_suffix="", *, gt_pairs
     ):
-        """Exportiert Phase A und optional Phase B in ``<stem> Kontaktpaare.json``.
+        """Exportiert Phase A und optional Phase B in ``<stem> Soll_Joints.json``.
 
         ``joint_classes`` enthält je Joint die aggregierte Klassifizierung und
-        darin unter ``pairs`` die paarweisen Ergebnisse. Wenn sie nicht
-        übergeben wird, bleibt das bisherige Ausgabeformat unverändert.
+        darin unter ``pairs`` die paarweisen Ergebnisse. Die Statistik bezieht
+        sich auf die übergebenen GT-Paare und den jeweiligen Epsilon-Lauf.
         """
         clean_nodes = []
         for node in nodes:
@@ -97,6 +98,40 @@ class Ausgabe:
             }
             clean_regions.append(clean_region)
 
+        sorted_pairs = sorted(gt_pairs)
+        regions_by_pair = {
+            tuple(sorted((region["guid_a"], region["guid_b"])))
+            for region in contact_regions
+        }
+        gt_pair_set = {tuple(sorted(pair)) for pair in sorted_pairs}
+        if not regions_by_pair <= gt_pair_set:
+            raise ValueError("Kontaktregionen enthalten Paare, die nicht zur Ground Truth gehören.")
+        missing_pair_ids = [
+            f"P{index:04d}" for index, pair in enumerate(sorted_pairs, start=1)
+            if tuple(sorted(pair)) not in regions_by_pair
+        ]
+        contact_types = {}
+        for region in contact_regions:
+            contact_type = region["contact_type"]
+            contact_types[contact_type] = contact_types.get(contact_type, 0) + 1
+        joints = soll_joints if soll_joints is not None else []
+        guid_counts = [joint["guid_count"] for joint in joints]
+        stats_joints = {
+            "gt_pairs_total": len(sorted_pairs),
+            "gt_pairs_with_contact_region": len(regions_by_pair),
+            "gt_pairs_without_contact_region": len(missing_pair_ids),
+            # "contact_regions_total": len(contact_regions),
+            "contact_type_distribution": contact_types,
+            "missing_pair_ids": missing_pair_ids,
+            "soll_joints_total": len(joints),
+            "valence_mean": round(sum(guid_counts) / len(guid_counts), 2) if guid_counts else None,
+            "valence_min": min(guid_counts) if guid_counts else None,
+            "valence_max": max(guid_counts) if guid_counts else None,
+            "joint_class_distribution": (
+                summarize_joint_classes(joint_classes) if joint_classes is not None else None
+            ),
+        }
+
         output_data = {
             "model_stem": stem,
             "preprocessing_config": {
@@ -108,9 +143,10 @@ class Ausgabe:
                 "joint_delta_scale": JOINT_DELTA_SCALE,
             },
             "stats_IFC_extraction": stats_ifc,
+            "stats_soll_joints": stats_joints,
             # "nodes": clean_nodes,
             "contact_pairs": clean_regions,
-            "soll_joints": soll_joints if soll_joints is not None else [],
+            "soll_joints": joints,
         }
         if joint_classes is not None:
             output_data["preprocessing_config"].update({
