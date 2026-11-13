@@ -1,7 +1,7 @@
 Status;Type_A;Type_B;GUID_A;GUID_B;Name_A;Name_B
 o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRzld5WO;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746
 o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRbld5WO;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746
-o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRXld5WO;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746
+x;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRXld5WO;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746
 o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRnld6_$;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:366541
 x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRnld64z;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:366927
 x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5WO;0wvQwH4mn9TPt_aRnld6D7;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:368746;Basic Wall:load bearing:367413
@@ -23,7 +23,7 @@ o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRbld5WO;0wvQwH4mn9TPt_aRnld6D7;Basic Roof:Roof_
 ;;;;;;
 o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRzld5pX;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811
 o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRbld5pX;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811
-o;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRXld5pX;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811
+x;IfcSlab;IfcSlab;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRXld5pX;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811
 x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRnld6N2;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368048
 x;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRnld6S2;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368496
 o;IfcSlab;IfcWall;0wvQwH4mn9TPt_aRvld5pX;0wvQwH4mn9TPt_aRnld5X1;Basic Roof:Roof_Pitched-50SS-220Ins-20MPan-225Purl:369811;Basic Wall:load bearing:368691

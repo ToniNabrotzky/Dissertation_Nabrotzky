@@ -556,7 +556,7 @@ x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqt;3zPFHdZZvE6QPIualDaF8z;Basic Wall:Concr
 x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqt;3zPFHdZZvE6QPIualDaF8y;Basic Wall:Concrete 200mm:1650738;Basic Wall:Concrete 200mm:1650489
 x;IfcWall;IfcWall;3zPFHdZZvE6QPIualDaEqt;3zPFHdZZvE6QPIualDaF8$;Basic Wall:Concrete 200mm:1650738;Basic Wall:Concrete 200mm:1650490
 ;;;;;;
-o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu0L;3AKaO4ufT7ERYrUMp7eu7rS;M_W Shapes:W360X32.9:1619681;M_W Shapes:W360X32.9:1619713
+o;IfcBeam;IfcBeam;3AKaO4ufT7ERYrUMp7eu0L;3AKaO4ufT7ERYrUMp7eu7r;M_W Shapes:W360X32.9:1619681;M_W Shapes:W360X32.9:1619713
 o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;3lo8hfPmTDfP813$TDU1DS;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
 o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;3lo8hfPmTDfP813$HDU1DS;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1604255
 o;IfcBeam;IfcColumn;3AKaO4ufT7ERYrUMp7eu0L;1hbkU0pOD8Ug4zX2u86gR5;M_W Shapes:W360X32.9:1619681;M_Concrete-Rectangular-Column:400 x 700 mm:1605466

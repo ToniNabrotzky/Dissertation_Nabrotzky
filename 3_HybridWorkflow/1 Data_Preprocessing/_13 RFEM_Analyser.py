@@ -17,7 +17,7 @@ except ImportError:
     print("RFEM Module konnten nicht importiert werden. Sicherstellen, dass die RFEM 6 Python API installiert ist.")
 
 # Konfiguration für Modellnamen (IFC_STEM) - Dient als Basis für alle Datei-Ein/Ausgaben
-IFC_STEM = "model_4"
+IFC_STEM = "model_10_1D_ohneDach"
 
 # Konfiguration für die Visualisierung in Anlehnung an Vorlage 14
 VIS_MAPPING = {
@@ -47,9 +47,11 @@ def main():
 
     # Pfadstruktur anlegen
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    dir_2_1 = os.path.join(base_dir, "2_1 Ground_Truth")
-    dir_2_2 = os.path.join(base_dir, "2_2 Analysemodell")
-    dir_2_3 = os.path.join(base_dir, "2_3 RBC_Labels")
+    dir_2_1 = os.path.join(base_dir, "1 Ground_Truth")
+    dir_2_3 = os.path.join(base_dir, "3 RBC_Labels")
+
+    # Vor der RFEM-Analyse prüfen, damit keine falschen Labels exportiert werden.
+    gt_pairs = load_ground_truth(dir_2_1, IFC_STEM)
 
     # Verbindung zu RFEM über SOAP-API
     try:
@@ -78,7 +80,6 @@ def main():
 
     # 4. Ground-Truth (GT) Labeling durchführen
     print(f"\n4. Gleiche Verbindungen mit Ground Truth ab (Labeling TP/FP/FN)...")
-    gt_pairs = load_ground_truth(dir_2_1, IFC_STEM)
     csv_data, edges = apply_labels_and_add_fn(csv_data, edges, gt_pairs, graph_nodes)
 
     # --- CSV EXPORT ---
@@ -150,7 +151,8 @@ def uuid_to_ifc_guid(uuid_string: str):
         return "".join(res)
     except Exception as e:
         return f"Fehler bei Umrechnung {e}"
-    
+
+
 def extract_ifc_guid(obj_str: str):
     """
     Sucht mittels regulärer Ausdrücke (Regex) im String-Repräsentanten eines RFEM-Objektes nach UUIDs oder IFC-GUIDs und gibt die IFC-GUID zurück.
@@ -177,6 +179,7 @@ def parse_id_list(id_string: str):
         return []
     return [int(n) for n in re.findall(r'\d+', str(id_string))]
 
+
 def parse_int_safely(s: str):
     """
     Extrahiert sicher die erste Ziffer/Zahl aus einem String.
@@ -186,6 +189,7 @@ def parse_int_safely(s: str):
         return 0
     match = re.search(r'\d+', str(s))
     return int(match.group()) if match else 0
+
 
 def build_parent_maps(service):
     """
@@ -297,13 +301,16 @@ def geo_dist(p1, p2):
     """Berechnet den euklidischen Abstand zweier 3D-Punkte."""
     return math.sqrt((p1[0]-p2[0])**2 + (p1[1]-p2[1])**2 + (p1[2]-p2[2])**2)
 
+
 def geo_vec_sub(p1, p2):
     """Subtrahiert zwei 3D-Vektoren voneinander."""
     return (p1[0]-p2[0], p1[1]-p2[1], p1[2]-p2[2])
 
+
 def geo_dot(v1, v2):
     """Berechnet das Skalarprodukt (Dot-Product) zweier Vektoren."""
     return v1[0]*v2[0] + v1[1]*v2[1] + v1[2]*v2[2]
+
 
 def geo_plane_from_poly(poly):
     """Erstellt den Normalenvektor einer Fläche basierend auf ihren Randpolygonen (Newell-Methode)."""
@@ -316,6 +323,7 @@ def geo_plane_from_poly(poly):
     mag = math.sqrt(nx**2 + ny**2 + nz**2)
     if mag == 0: return None, None
     return (nx/mag, ny/mag, nz/mag), poly[0]
+
 
 def geo_point_in_poly(pt, poly, normal):
     """Prüft per Ray-Casting auf der dominanten 2D-Projektion, ob ein Punkt innerhalb eines Polygons liegt."""
@@ -334,6 +342,7 @@ def geo_point_in_poly(pt, poly, normal):
             inside = not inside
         j = i
     return inside
+
 
 def geo_segment_dist(p1, p2, p3, p4):
     """Berechnet den kürzesten Abstand zweier 3D-Linienelemente (Vektor-Mathematik) für kreuzende Stäbe."""
@@ -365,6 +374,7 @@ def geo_segment_dist(p1, p2, p3, p4):
     pt_t = (p3[0]+v[0]*tc, p3[1]+v[1]*tc, p3[2]+v[2]*tc)
     return geo_dist(pt_s, pt_t), sc, tc
 
+
 def geo_line_plane_intersect(p1, p2, plane_origin, plane_normal):
     """Ermittelt den 3D-Schnittpunkt einer Linie mit einer Fläche/Ebene (Durchstechen)."""
     u = geo_vec_sub(p2, p1)
@@ -379,13 +389,12 @@ def geo_line_plane_intersect(p1, p2, plane_origin, plane_normal):
 
 """LABELING HILFSFUNKTIONEN"""
 def load_ground_truth(gt_dir, ifc_stem):
-    """Sucht die zugehörige Ground Truth CSV im Unterordner und liest alle Kantenpaare ein."""
+    """Liest die GUID-Paare mit Status o und prüft das Ground-Truth-Format."""
     gt_path = os.path.join(gt_dir, f"{ifc_stem} GT_Labels.csv")
     gt_pairs = set()
     
-    if not os.path.exists(gt_path):
-        print(f"\t\t[WARNUNG] Ground Truth Datei nicht gefunden: {gt_path}")
-        return gt_pairs
+    if not os.path.isfile(gt_path):
+        raise FileNotFoundError(f"Ground Truth Datei nicht gefunden: {gt_path}")
         
     with open(gt_path, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f, delimiter=';')
@@ -394,19 +403,29 @@ def load_ground_truth(gt_dir, ifc_stem):
         if not reader.fieldnames or 'GUID_A' not in reader.fieldnames:
             f.seek(0)
             reader = csv.DictReader(f, delimiter=',')
-            
+        required = {"Status", "GUID_A", "GUID_B"}
+        missing = required - set(reader.fieldnames or [])
+        if missing:
+            raise ValueError(f"{gt_path}: fehlende GT-Spalten: {', '.join(sorted(missing))}")
+
         for row in reader:
-            guid_a = row.get("GUID_A", "").strip()
-            guid_b = row.get("GUID_B", "").strip()
-            status = row.get("Status", "").strip().lower()
-            
-            # Nur laden, wenn die GUIDs valide sind UND der Status "o" ist
-            if guid_a and guid_b and guid_a != "---" and guid_b != "---" and status == "o":
-                # Tuple alphabetisch sortieren für ungerichteten Abgleich
-                pair = tuple(sorted([guid_a, guid_b]))
-                gt_pairs.add(pair)
+            status = (row.get("Status") or "").strip().lower()
+            if status != "o":
+                continue
+            guid_a = (row.get("GUID_A") or "").strip()
+            guid_b = (row.get("GUID_B") or "").strip()
+            if (not re.fullmatch(r"[0-3][0-9A-Za-z_$]{21}", guid_a)
+                    or not re.fullmatch(r"[0-3][0-9A-Za-z_$]{21}", guid_b)
+                    or guid_a == guid_b):
+                raise ValueError(
+                    f"{gt_path}, Zeile {reader.line_num}: ungültiges GT-GUID-Paar "
+                    f"({guid_a!r}, {guid_b!r}); bitte die Ground Truth korrigieren."
+                )
+            # Tuple alphabetisch sortieren für ungerichteten Abgleich
+            gt_pairs.add(tuple(sorted((guid_a, guid_b))))
                 
     return gt_pairs
+
 
 def apply_labels_and_add_fn(csv_rows, edges, gt_pairs, graph_nodes):
     """Bewertet bestehende CSV-Zeilen (TP/FP) und hängt fehlende GT-Verbindungen als FN an."""
@@ -476,6 +495,10 @@ def apply_labels_and_add_fn(csv_rows, edges, gt_pairs, graph_nodes):
                 labeled_edges.append((node_a, node_b, "FN"))
                 
     return csv_rows, labeled_edges
+
+
+
+
 
 """HAUPTFUNKTIONEN"""
 def analyze_connections(service, node_to_parents, line_to_parents):

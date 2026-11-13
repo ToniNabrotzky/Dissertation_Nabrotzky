@@ -1,4 +1,4 @@
-[2026-11-13 15:36:16]
+[2026-11-13 17:34:10]
 ==================================================
 RBC-ANALYSE UND JOINT-FEHLERTAXONOMIE
 ==================================================
@@ -26,22 +26,22 @@ Die Bewertung basiert auf Bauteilpaaren, nicht auf einem räumlichen Soll-Ist-Jo
 1. DATENSATZ UND JOINT-BEWERTUNG
 | Modell | Soll-Joints | korrekt | falsch | unbewertet |
 | model_1 | 191 | 35 | 156 | 0 |
-| model_10_1D | 120 | 0 | 0 | 120 |
-| model_10_2D | 92 | 0 | 0 | 92 |
-| model_3_1D | 120 | 0 | 0 | 120 |
-| model_4 | 265 | 0 | 0 | 265 |
+| model_10_1D | 120 | 21 | 99 | 0 |
+| model_10_2D | 92 | 34 | 58 | 0 |
+| model_3_1D | 120 | 26 | 94 | 0 |
+| model_4 | 265 | 24 | 241 | 0 |
 | model_7 | 42 | 30 | 12 | 0 |
 | model_8 | 84 | 4 | 80 | 0 |
 | model_9 | 96 | 83 | 13 | 0 |
-| Gesamt | 1010 | 152 | 261 | 597 |
+| Gesamt | 1010 | 257 | 753 | 0 |
 
 Ursachen unbewerteter Joints (Mehrfachnennungen möglich):
 | Modell | kein RBC-Label | FP/TN auf Soll-Paar | widersprüchliche Labels |
 | model_1 | 0 | 0 | 0 |
-| model_10_1D | 99 | 120 | 0 |
-| model_10_2D | 58 | 92 | 0 |
-| model_3_1D | 94 | 94 | 0 |
-| model_4 | 241 | 224 | 0 |
+| model_10_1D | 0 | 0 | 0 |
+| model_10_2D | 0 | 0 | 0 |
+| model_3_1D | 0 | 0 | 0 |
+| model_4 | 0 | 0 | 0 |
 | model_7 | 0 | 0 | 0 |
 | model_8 | 0 | 0 | 0 |
 | model_9 | 0 | 0 | 0 |
@@ -49,38 +49,38 @@ Ursachen unbewerteter Joints (Mehrfachnennungen möglich):
 2. RBC-LEISTUNGSMETRIKEN
 | Modell | TP | FP | FN | TN (CSV) | Precision | Recall | F1 | Datenqualität |
 | model_1 | 478 | 102 | 353 | 0 | 0.8241 | 0.5752 | 0.6775 | eingeschränkt |
-| model_10_1D | 0 | 381 | 0 | 0 | 0.0000 | nicht definiert | 0.0000 | eingeschränkt |
-| model_10_2D | 0 | 258 | 0 | 0 | 0.0000 | nicht definiert | 0.0000 | eingeschränkt |
-| model_3_1D | 0 | 324 | 0 | 0 | 0.0000 | nicht definiert | 0.0000 | eingeschränkt |
-| model_4 | 0 | 901 | 0 | 0 | 0.0000 | nicht definiert | 0.0000 | eingeschränkt |
+| model_10_1D | 370 | 11 | 372 | 0 | 0.9711 | 0.4987 | 0.6589 | ohne erkannte Einschränkung |
+| model_10_2D | 246 | 12 | 146 | 0 | 0.9535 | 0.6276 | 0.7569 | ohne erkannte Einschränkung |
+| model_3_1D | 324 | 0 | 452 | 0 | 1.0000 | 0.4175 | 0.5891 | ohne erkannte Einschränkung |
+| model_4 | 864 | 37 | 1488 | 0 | 0.9589 | 0.3673 | 0.5312 | ohne erkannte Einschränkung |
 | model_7 | 103 | 39 | 19 | 0 | 0.7254 | 0.8443 | 0.7803 | eingeschränkt |
 | model_8 | 144 | 20 | 110 | 0 | 0.8780 | 0.5669 | 0.6890 | ohne erkannte Einschränkung |
 | model_9 | 91 | 0 | 11 | 0 | 1.0000 | 0.8922 | 0.9430 | ohne erkannte Einschränkung |
-| Gesamt (modellweise) | 816 | 2025 | 493 | 0 | 0.2872 | 0.6234 | 0.3933 | eingeschränkt |
+| Gesamt (modellweise) | 2620 | 221 | 2951 | 0 | 0.9222 | 0.4703 | 0.6229 | eingeschränkt |
 
 Datenqualität je Modell: | Modell | ungültige Paarzeilen | unbekannte Labels | fehlende Soll-Paare | FP/TN auf Soll-Paaren |
 | model_1 | 4 | 0 | 0 | 0 |
-| model_10_1D | 292 | 0 | 256 | 369 |
-| model_10_2D | 145 | 0 | 92 | 246 |
-| model_3_1D | 319 | 0 | 216 | 324 |
-| model_4 | 905 | 0 | 1237 | 864 |
+| model_10_1D | 0 | 0 | 0 | 0 |
+| model_10_2D | 0 | 0 | 0 | 0 |
+| model_3_1D | 0 | 0 | 0 | 0 |
+| model_4 | 0 | 0 | 0 | 0 |
 | model_7 | 119 | 0 | 0 | 0 |
 | model_8 | 0 | 0 | 0 | 0 |
 | model_9 | 0 | 0 | 0 | 0 |
 
 3. CSV-ZEILEN VOR PAARBEREINIGUNG
 model_1: {'TP': 714, 'FP': 226, 'ungueltige_Paarzeilen': 4, 'FN': 353}
-model_10_1D: {'FP': 442, 'FN': 292, 'ungueltige_Paarzeilen': 292}
-model_10_2D: {'FP': 277, 'FN': 145, 'ungueltige_Paarzeilen': 145}
-model_3_1D: {'FP': 486, 'FN': 319, 'ungueltige_Paarzeilen': 319}
-model_4: {'FP': 1223, 'FN': 905, 'ungueltige_Paarzeilen': 905}
+model_10_1D: {'TP': 431, 'FP': 11, 'FN': 372}
+model_10_2D: {'TP': 265, 'FP': 12, 'FN': 146}
+model_3_1D: {'TP': 486, 'FN': 452}
+model_4: {'TP': 1182, 'FP': 41, 'FN': 1488}
 model_7: {'FP': 186, 'TP': 269, 'ungueltige_Paarzeilen': 119, 'FN': 19}
 model_8: {'TP': 192, 'FP': 22, 'FN': 110}
 model_9: {'TP': 117, 'FN': 11}
 
 4. ZUSAMMENFASSUNG UND HINWEISE
-1010 Soll-Joints: 152 korrekt, 261 falsch, 597 unbewertet.
-Warnungen: 5398; Details siehe Warnungen.csv.
+1010 Soll-Joints: 257 korrekt, 753 falsch, 0 unbewertet.
+Warnungen: 133; Details siehe Warnungen.csv.
 Vollständige Klassenhäufigkeiten und Bewertungen: Joint_Klassen.csv.
 Einzelne Zuordnungen und nicht zugeordnete RBC-Paare: Paar_Zuordnung.csv.
 Alle Diagramme und Tabellen liegen im Ausgabeordner RBC_Analyse.
