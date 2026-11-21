@@ -1,0 +1,8 @@
+[Button "Joint +"] → OT_AddJoint → core.next_free_index(existing) → Scene.joints.add()
+                                                               └→ active_joint = neue ID
+[Button "Paar speichern"] → OT_AddPair
+      → ifc_utils.get_selected_ifc_elements()   (Validierung: genau 2, beide mit GUID)
+      → sortieren nach GUID → A, B
+      → core.next_free_index(alle Pair-Indizes)
+      → Scene.pairs.add(joint_id, guid_a, type_a, name_a, ...)
+[Button "Export CSV"] → OT_ExportCSV → csv_export.write(...) → <blend_dir>/<ifc_stem> GT_Labels.csv

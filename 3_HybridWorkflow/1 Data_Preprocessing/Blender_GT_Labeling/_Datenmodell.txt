@@ -1,0 +1,11 @@
+Scene
+├── jl_joints : Collection<JL_Joint>
+│     ├── index    : Int
+│     ├── joint_id : String        ("J0001")
+│     └── pair_refs: Collection<JL_PairRef>     ← Mitgliedschaften
+│           └── pair_id : String   (FK → JL_Pair.pair_id)
+├── jl_pairs  : Collection<JL_Pair>             ← globales Paar-Set (eindeutig je GUID-Kombination)
+│     ├── index, pair_id ("P0001")
+│     ├── guid_a/b, type_a/b, name_a/b
+│     └── status : String ("o")
+└── jl_active_joint : Enum

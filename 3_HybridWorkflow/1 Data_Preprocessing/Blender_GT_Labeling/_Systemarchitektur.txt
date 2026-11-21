@@ -1,0 +1,24 @@
+┌──────────────────────────────────────────────────────────────┐
+│                     Blender (bpy) Host                        │
+│                                                               │
+│  ┌──────────────┐   ┌──────────────┐   ┌──────────────────┐   │
+│  │  UI-Schicht  │   │ Operatoren   │   │  Property-Schicht │  │
+│  │  (panels.py) │──▶│(operators.py)│──▶│  (properties.py)  │  │
+│  └──────────────┘   └──────┬───────┘   └────────┬─────────┘   │
+│                            │                    │             │
+│                            ▼                    ▼             │
+│                  ┌──────────────────┐   ┌────────────────┐    │
+│                  │  Service-Schicht │   │ Szenen-Speicher │   │
+│                  │  (core.py: reine │   │ (PropertyGroup  │   │
+│                  │  Logik, ohne bpy)│   │  in bpy.Scene,  │   │
+│                  └────────┬─────────┘   │  .blend-persis- │   │
+│                           │             │  tent)          │   │
+│                           ▼             └────────────────┘    │
+│                  ┌──────────────────┐                         │
+│                  │ ifc_utils.py     │◀── Bonsai (IfcStore,    │
+│                  │ (Bonsai-Adapter) │    BIM-Props, ifcopen.) │
+│                  └──────────────────┘                         │
+│                  ┌──────────────────┐                         │
+│                  │ csv_export.py    │──▶ "<stem> GT_Labels.csv"│
+│                  └──────────────────┘                         │
+└──────────────────────────────────────────────────────────────┘
