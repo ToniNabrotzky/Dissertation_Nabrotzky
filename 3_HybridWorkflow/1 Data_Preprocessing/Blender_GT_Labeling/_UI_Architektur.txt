@@ -1,8 +1,0 @@
-N-Panel → Tab "Joint Labeler"
-├── Box "Joints"
-│     ├── [Dropdown: aktiver Joint]  [＋ Icon ADD] [🗑 Icon TRASH]
-├── Box "Kontaktpaare"
-│     ├── [Paar speichern] (Icon LINKED)   ← nur aktiv wenn Joint gewählt
-│     └── UIList: Paare des aktiven Joints (mit Löschen-Button)
-└── Box "Export"
-      └── [CSV exportieren] (Icon EXPORT)

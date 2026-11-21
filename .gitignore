@@ -121,65 +121,6 @@ Thumbs.db
 # Trainingsmodelle
 *.pth
 
-# ==============================================================================
-# Versuchsreihe 1
-1_Machbarkeit/1 Model_Database/
-
-1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahl 00000_01535/
-1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 00000_01535/
-1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 01200_01535/
-1_Machbarkeit/2 Data_Preprocessing/Modell_2_Parametrisch Stahlbeton 01530_01535/
-1_Machbarkeit/2 Data_Preprocessing/Modell_2_Tutorial BimVision/
-1_Machbarkeit/2 Data_Preprocessing/Modell_3 Reale_Modelle/
-
-1_Machbarkeit/4 Results/*
-# !1_Machbarkeit/4 Results/Modell_2_Parametrisch Stahlbeton alt 00000_01535 Paper Nr2/ #So könnte man eine Ausnahme speichern, aber die Pfadnamen sind zu lang.
-
-# ==============================================================================
-# Versuchsreihe 2.1
-2.1_Anwendungsgrenzen/1 Model_Database/
-
-2.1_Anwendungsgrenzen/2 Data_Preprocessing/2_1 Graph_Generation/
-2.1_Anwendungsgrenzen/2 Data_Preprocessing/2_2 Distance_Meassurement/
-2.1_Anwendungsgrenzen/2 Data_Preprocessing/2_3 Edge_Labeling/
-2.1_Anwendungsgrenzen/2 Data_Preprocessing/2_4 Graph_Labeled/
-2.1_Anwendungsgrenzen/2 Data_Preprocessing/Analysemodelle/
-
-2.1_Anwendungsgrenzen/3 Model_Training/Test*/
-
-2.1_Anwendungsgrenzen/4 Results/Tests*/
-
-# ==============================================================================
-# Versuchsreihe 2.2
-2.2_Anwendungsgrenzen/0 Model_Database/
-
-# 2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_1 Ground_Truth
-2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_2 Analysemodell
-2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_3 RBC_Labels/*.png
-2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_3 RBC_Labels/*.svg
-2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_4 Graph_Generation/_Reservebank
-2.2_Anwendungsgrenzen/1 Data_Preprocessing/2_4 Graph_Generation/_Bild_Protokoll TUM_Modelle
-
-# 2_Anwendungsgrenzen/3 Model_Training/Test*/
-
-# 2_Anwendungsgrenzen/4 Results/*
-
-# ==============================================================================
-# Versuchsreihe 3
-3_HybridWorkflow/0 Model_Database/
-
-3_HybridWorkflow/1 Data_Preprocessing/2 Analysemodell
-3_HybridWorkflow/1 Data_Preprocessing/3 RBC_Labels/*.png
-3_HybridWorkflow/1 Data_Preprocessing/3 RBC_Labels/*.svg
-3_HybridWorkflow/1 Data_Preprocessing/4 Graph_Generation/*.png
-3_HybridWorkflow/1 Data_Preprocessing/4 Graph_Generation/*.svg
-3_HybridWorkflow/1 Data_Preprocessing/4 Graph_Generation/_Reservebank
-3_HybridWorkflow/1 Data_Preprocessing/4 Graph_Generation/Protokolle TUM_Modelle
-
-# 2_Anwendungsgrenzen/3 Model_Training/Test*/
-
-# 2_Anwendungsgrenzen/4 Results/*
-
 # Sonstiges, z.B. temp-Dateien:
 temp/
 tmp/
